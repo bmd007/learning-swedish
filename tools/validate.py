@@ -97,6 +97,10 @@ def check(path):
                     err(f"{where}: needs q")
                 if it.get("audio"):
                     check_audio(it["audio"], where)
+    mcq_answers = [it.get("answer") for s in lesson.get("sections", []) for p in (s.get("parts") or [s])
+                   for it in p.get("items", []) if it.get("type") == "mcq" and len(it.get("options", [])) > 2]
+    if len(mcq_answers) >= 4 and max(mcq_answers.count(a) for a in set(mcq_answers)) > 0.6 * len(mcq_answers):
+        err("mcq answers are mostly at the same position – vary the position of the correct option")
     return errors
 
 

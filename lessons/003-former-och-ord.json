@@ -1,0 +1,433 @@
+{
+  "id": "003-former-och-ord",
+  "title": "Starka verb, former och viktiga ord",
+  "titleEn": "Strong verbs, word forms and key words",
+  "mode": "practice",
+  "minutes": 12,
+  "intro": "Här tränar vi det som var svårt i diagnosen: starka verb, jämförelser, plural och några mycket vanliga ord. Du får svar direkt när du trycker Kontrollera.",
+  "introEn": "We practise what was hard in the diagnostic: strong verbs, comparatives, plurals and some very common words. You get feedback after each item.",
+  "sections": [
+    {
+      "id": "verb",
+      "title": "Del 1: Starka verb",
+      "titleEn": "Part 1: Strong verbs",
+      "instructions": "Skriv rätt form. Läs meningen: finns det har/hade, eller inte?",
+      "instructionsEn": "Write the right form. Look at the sentence: is there har/hade or not?",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "md": "**Persiska:** i persiska lär du dig två stammar per verb: رفتن → رو / رفت. Starka verb i svenska är samma idé, **men de kommer i vokalgrupper**.\n\n| Grupp | infinitiv – preteritum – supinum |\n|---|---|\n| **i – e – i** | skriva – **skrev** – skrivit · bli – blev – blivit |\n| **i – a – u** | dricka – **drack** – druckit · sitta – satt – suttit |\n| **y/ju – ö – u** | flyga – **flög** – flugit |\n| **a – o – a** | ta – **tog** – tagit |\n| **ä – å – ä** | äta – **åt** – ätit · se – såg – **sett** |\n\n- **Supinum** (efter *har/hade*) av starka verb slutar oftast på **-it**: *ätit, skrivit, druckit*. *ät* är aldrig en form.\n- **Korta verb** får **-dde / -tt**: bo – **bodde** – bott, tro – **trodde** – trott.\n\n**English:** same stem-pair idea as in Persian. Learn the vowel group and you know many verbs at once."
+        },
+        {
+          "id": "v1",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Igår ___ jag ett långt mejl till chefen.",
+          "qEn": "Yesterday I wrote a long email to my boss.",
+          "base": "skriva",
+          "answers": [
+            "skrev"
+          ],
+          "explain": "Igår = preteritum. i – e – i: skriva – skrev – skrivit."
+        },
+        {
+          "id": "v2",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "Jag har aldrig ___ surströmming.",
+          "qEn": "I have never eaten surströmming.",
+          "base": "äta",
+          "answers": [
+            "ätit"
+          ],
+          "explain": "Efter *har* kommer supinum: ätit. Preteritum är åt."
+        },
+        {
+          "id": "v3",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Hon ___ för mycket kaffe i går kväll och kunde inte sova.",
+          "qEn": "She drank too much coffee last night and could not sleep.",
+          "base": "dricka",
+          "answers": [
+            "drack"
+          ],
+          "explain": "Preteritum, utan *har*. i – a – u: dricka – drack – druckit."
+        },
+        {
+          "id": "v4",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "Vi har ___ till Spanien många gånger.",
+          "qEn": "We have flown to Spain many times.",
+          "base": "flyga",
+          "answers": [
+            "flugit"
+          ],
+          "explain": "Efter *har* kommer supinum: flugit. Preteritum är flög."
+        },
+        {
+          "id": "v5",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Han ___ bussen till jobbet i morse.",
+          "qEn": "He took the bus to work this morning.",
+          "base": "ta",
+          "answers": [
+            "tog"
+          ],
+          "explain": "Preteritum. a – o – a: ta – tog – tagit."
+        },
+        {
+          "id": "v6",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "Har du ___ den nya filmen?",
+          "qEn": "Have you seen the new film?",
+          "base": "se",
+          "answers": [
+            "sett"
+          ],
+          "explain": "Efter *har* kommer supinum: sett. Preteritum är såg."
+        },
+        {
+          "id": "v7",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Min bror ___ pappa förra månaden.",
+          "qEn": "My brother became a dad last month.",
+          "base": "bli",
+          "answers": [
+            "blev"
+          ],
+          "explain": "Preteritum. i – e – i: bli – blev – blivit."
+        },
+        {
+          "id": "v8",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "Jag har ___ här i två timmar och väntat.",
+          "qEn": "I have been sitting here for two hours waiting.",
+          "base": "sitta",
+          "answers": [
+            "suttit"
+          ],
+          "explain": "Efter *har* kommer supinum: suttit. Preteritum är satt."
+        },
+        {
+          "id": "v9",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Vi ___ i Malmö när jag var barn.",
+          "qEn": "We lived in Malmö when I was a child.",
+          "base": "bo",
+          "answers": [
+            "bodde"
+          ],
+          "explain": "Korta verb: bo – bodde – bott. Dubbelt d, inte -de."
+        },
+        {
+          "id": "v10",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "Jag har aldrig ___ på spöken.",
+          "qEn": "I have never believed in ghosts.",
+          "base": "tro",
+          "answers": [
+            "trott"
+          ],
+          "explain": "Korta verb: tro – trodde – trott. Efter *har* kommer supinum."
+        }
+      ]
+    },
+    {
+      "id": "former",
+      "title": "Del 2: Jämförelse och plural",
+      "titleEn": "Part 2: Comparatives and plurals",
+      "instructions": "Skriv rätt form av ordet i parentes.",
+      "instructionsEn": "Write the right form of the word in brackets.",
+      "items": [
+        {
+          "id": "i2",
+          "type": "info",
+          "md": "**Jämförelse:** vanligen **-are** (snabb – snabbare). Några ändrar vokal: stor – **större**, lång – **längre**, ung – **yngre**, gammal – **äldre**. Helt oregelbundna: bra – **bättre**, liten – **mindre**.\n\n**Plural med o → ö:** en bok – **böcker**, en fot – **fötter**, en son – **söner**."
+        },
+        {
+          "id": "f1",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Stockholm är mycket ___ än Göteborg.",
+          "qEn": "Stockholm is much bigger than Gothenburg.",
+          "base": "stor",
+          "answers": [
+            "större"
+          ],
+          "explain": "stor – större – störst. Inte *stortare*."
+        },
+        {
+          "id": "f2",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Min syster är tre år ___ än jag.",
+          "qEn": "My sister is three years older than me.",
+          "base": "gammal",
+          "answers": [
+            "äldre"
+          ],
+          "explain": "gammal – äldre – äldst."
+        },
+        {
+          "id": "f3",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Den här jackan är bra, men den där är ännu ___.",
+          "qEn": "This jacket is good, but that one is even better.",
+          "base": "bra",
+          "answers": [
+            "bättre"
+          ],
+          "explain": "bra – bättre – bäst. Helt oregelbundet."
+        },
+        {
+          "id": "f4",
+          "type": "gap",
+          "tags": [
+            "substantiv.plural"
+          ],
+          "q": "På hyllan står många ___ om Sverige.",
+          "qEn": "On the shelf there are many books about Sweden.",
+          "base": "bok",
+          "answers": [
+            "böcker"
+          ],
+          "explain": "en bok – böcker (o → ö). Inte *bokar*."
+        },
+        {
+          "id": "f5",
+          "type": "gap",
+          "tags": [
+            "substantiv.plural"
+          ],
+          "q": "Efter maraton hade hon ont i båda ___.",
+          "qEn": "After the marathon she had pain in both feet.",
+          "base": "fot",
+          "answers": [
+            "fötter"
+          ],
+          "explain": "en fot – fötter (o → ö), som bok – böcker."
+        }
+      ]
+    },
+    {
+      "id": "ord",
+      "title": "Del 3: Viktiga ord",
+      "titleEn": "Part 3: Key words",
+      "instructions": "Välj eller skriv rätt ord.",
+      "instructionsEn": "Choose or write the right word.",
+      "items": [
+        {
+          "id": "i3",
+          "type": "info",
+          "md": "| Svenska | Betyder | فارسی |\n|---|---|---|\n| vara **tvungen** att | must, have to | مجبور بودن |\n| bli **uppsagd** | lose your job | اخراج شدن |\n| **förmodligen** | probably (= troligen) | احتمالاً |\n| **avboka** en tid | cancel a booking | لغو کردن |\n| **söka** ett jobb | apply for a job (*leta efter* = look for) | درخواست دادن |\n| **påminna** någon om något | remind someone | یادآوری کردن |\n| **komma ihåg** | remember (yourself) | یادم بودن |\n| **däremot** | on the other hand | در عوض |\n\n**Hook:** *påminna* = någon annan hjälper dig. *komma ihåg* = du själv minns."
+        },
+        {
+          "id": "w1",
+          "type": "gap",
+          "tags": [
+            "ord.synonym"
+          ],
+          "q": "Jag kan inte komma i morgon. Jag är ___ att jobba.",
+          "qEn": "I can't come tomorrow. I have to work.",
+          "answers": [
+            "tvungen"
+          ],
+          "explain": "vara tvungen att = måste."
+        },
+        {
+          "id": "w2",
+          "type": "mcq",
+          "tags": [
+            "ord.synonym"
+          ],
+          "q": "Fabriken stängde, och alla anställda blev ___.",
+          "qEn": "The factory closed and all employees lost their jobs.",
+          "options": [
+            "avbokade",
+            "tvungna",
+            "uppsagda",
+            "påminda"
+          ],
+          "answer": 2,
+          "explain": "bli uppsagd = förlora sitt jobb. Avbokad gäller en tid eller en resa."
+        },
+        {
+          "id": "w3",
+          "type": "gap",
+          "tags": [
+            "ord.synonym"
+          ],
+          "q": "Det lyser inte i deras fönster. De är ___ inte hemma.",
+          "qEn": "The window is dark. They are probably not home.",
+          "answers": [
+            "förmodligen",
+            "troligen"
+          ],
+          "explain": "förmodligen = troligen = probably."
+        },
+        {
+          "id": "w4",
+          "type": "mcq",
+          "tags": [
+            "ord.synonym"
+          ],
+          "q": "Jag är sjuk, så jag måste ___ tiden hos tandläkaren.",
+          "qEn": "I'm ill, so I must cancel my dentist appointment.",
+          "options": [
+            "påminna",
+            "avboka",
+            "söka",
+            "komma ihåg"
+          ],
+          "answer": 1,
+          "explain": "avboka = säga att man inte kommer till en bokad tid."
+        },
+        {
+          "id": "w5",
+          "type": "mcq",
+          "tags": [
+            "ord.kollokation"
+          ],
+          "q": "Hon har ___ tre jobb den här veckan.",
+          "qEn": "She has applied for three jobs this week.",
+          "options": [
+            "letat",
+            "tittat",
+            "frågat",
+            "sökt"
+          ],
+          "answer": 3,
+          "explain": "söka jobb = apply for a job. Man *letar efter* något man tappat."
+        },
+        {
+          "id": "w6",
+          "type": "mcq",
+          "tags": [
+            "ord.förväxling"
+          ],
+          "q": "Kan du ___ mig om mötet i morgon? Jag glömmer det så lätt.",
+          "qEn": "Can you remind me about the meeting tomorrow?",
+          "options": [
+            "komma ihåg",
+            "glömma",
+            "påminna",
+            "tänka"
+          ],
+          "answer": 2,
+          "explain": "påminna någon om något: en annan person hjälper dig att minnas."
+        },
+        {
+          "id": "w7",
+          "type": "gap",
+          "tags": [
+            "ord.förväxling"
+          ],
+          "q": "Jag kan inte ___ vad hon heter.",
+          "qEn": "I can't remember what she is called.",
+          "answers": [
+            "komma ihåg",
+            "minnas"
+          ],
+          "explain": "komma ihåg = du minns själv. Påminna tar ett objekt: påminna mig."
+        },
+        {
+          "id": "w8",
+          "type": "gap",
+          "tags": [
+            "ord.synonym"
+          ],
+          "q": "Min bror älskar fisk. Jag tycker ___ inte om den.",
+          "qEn": "My brother loves fish. I, on the other hand, don't like it.",
+          "answers": [
+            "däremot"
+          ],
+          "explain": "däremot visar en kontrast mellan två personer eller saker."
+        }
+      ]
+    },
+    {
+      "id": "prep",
+      "title": "Del 4: Små ord",
+      "titleEn": "Part 4: Small words",
+      "instructions": "Skriv ett ord: av, i eller sedan.",
+      "instructionsEn": "Write one word: av, i or sedan.",
+      "items": [
+        {
+          "id": "p1",
+          "type": "gap",
+          "tags": [
+            "preposition"
+          ],
+          "q": "Hon är mycket intresserad ___ historia.",
+          "qEn": "She is very interested in history.",
+          "answers": [
+            "av"
+          ],
+          "explain": "intresserad av. Lär dig det som ett ord."
+        },
+        {
+          "id": "p2",
+          "type": "gap",
+          "tags": [
+            "preposition.tid"
+          ],
+          "q": "Vi har bott i Göteborg ___ tre år.",
+          "qEn": "We have lived in Gothenburg for three years.",
+          "answers": [
+            "i"
+          ],
+          "explain": "Hur länge? = i + tid: i tre år."
+        },
+        {
+          "id": "p3",
+          "type": "gap",
+          "tags": [
+            "preposition.tid"
+          ],
+          "q": "Jag flyttade hit för tre år ___.",
+          "qEn": "I moved here three years ago.",
+          "answers": [
+            "sedan"
+          ],
+          "explain": "för tre år sedan = three years ago."
+        }
+      ]
+    }
+  ]
+}

@@ -137,6 +137,7 @@ Swedex A2B1, 2026-12-04. Format and timeline: `progress/plan.md`. Shapes to mirr
 6. **English hints** (`qEn`, `explainEn`) on new or hard items; fewer over time.
 7. Distractors must be plausible but clearly wrong for someone who understands.
 8. For `gap`, list every acceptable answer in `answers[]`.
+9. Vary the position of the correct option in `mcq` (the UI does not shuffle). The validator rejects lessons where most answers sit at the same index.
 
 ## Grading workflow (results → feedback)
 

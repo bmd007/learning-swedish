@@ -1,0 +1,114 @@
+{
+  "id": "002-skriva-tala",
+  "title": "Skriva och tala – som på Swedex",
+  "titleEn": "Writing and speaking – Swedex style",
+  "mode": "exam",
+  "minutes": 30,
+  "intro": "Två skrivuppgifter och ett muntligt prov i tre delar, precis som på Swedex A2B1. Du kan sluta när du vill – allt sparas direkt. Skriv utan lexikon och utan rättstavning.",
+  "introEn": "Two writing tasks and a 3-part speaking test, like Swedex A2B1. You can stop anytime – everything is saved. No dictionary, no spell-check. Speaking: use Chrome, allow the microphone, speak clearly.",
+  "sections": [
+    {
+      "id": "skriva-1",
+      "title": "Skriva 1: Svara på ett mejl",
+      "titleEn": "Writing 1: Answer an email",
+      "instructions": "Läs mejlet från Maria. Svara på ALLA hennes frågor. Skriv 60–120 ord. Börja och avsluta mejlet på ett passande sätt.",
+      "instructionsEn": "Answer ALL of Maria's questions. 60–120 words. Use a fitting greeting and ending. Swedex checks: did you answer everything, is it a real email, is the language correct.",
+      "parts": [
+        {
+          "passageTitle": "Från: Maria · Ämne: Din nya lägenhet!",
+          "passage": "Hej!\n\nVad roligt att du har flyttat! Hur ser den nya lägenheten ut? Hur många rum har du, och vad tycker du om området?\n\nJag kommer till Göteborg i slutet av november. Kan jag sova hos dig en natt? Och vad tycker du att vi ska göra när jag är där?\n\nSkriv snart!\nKram, Maria",
+          "items": [
+            {"id": "s1", "type": "write", "tags": ["skriv.mejl.svar"], "minWords": 60, "maxWords": 120,
+             "q": "Skriv ditt svar till Maria.",
+             "qEn": "Write your reply to Maria.",
+             "bullets": ["Lägenheten: hur många rum, hur den ser ut", "Området: vad du tycker och varför", "Kan Maria sova hos dig?", "Förslag: vad ni kan göra tillsammans", "Hälsning och avslutning"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skriva-2",
+      "title": "Skriva 2: Din vecka",
+      "titleEn": "Writing 2: Your week",
+      "instructions": "Det är onsdag den 18 november. Skriv ett mejl till en vän och berätta om din vecka: vad du har gjort, vad du gör i dag och vad du ska göra. Använd kalendern. Skriv 60–120 ord.",
+      "instructionsEn": "Today is Wednesday 18 November. Tell a friend about your week: what you did (past), what you're doing today (present), what you will do (future). Watch your verb forms!",
+      "parts": [
+        {
+          "passageTitle": "Din kalender",
+          "passage": "Måndag 16/11    09.00 tandläkaren · 18–20 svenskkurs\nTisdag 17/11    10.00 jobbintervju på IKEA · kväll: middag hos Sara\nOnsdag 18/11    (i dag) jobbar hemifrån · 15–17 tvättstugan\nTorsdag 19/11   bio med kollegorna\nLördag 21/11    Maria kommer! Hämta henne på Centralstationen 11.30",
+          "items": [
+            {"id": "s2", "type": "write", "tags": ["skriv.kalender", "verb.preteritum", "verb.futurum"], "minWords": 60, "maxWords": 120,
+             "q": "Skriv till din vän om veckan.",
+             "qEn": "Past: i måndags gick jag… / Present: i dag jobbar jag… / Future: på torsdag ska jag… / kommer att…",
+             "bullets": ["Vad gjorde du i måndags och i tisdags? Hur gick det?", "Vad gör du i dag?", "Vad ska du göra på torsdag och på lördag?"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala-1",
+      "title": "Tala 1: Allmänna frågor",
+      "titleEn": "Speaking 1: General questions",
+      "instructions": "Examinatorn ställer en fråga. Lyssna, klicka på ”Spela in” och svara. Prata gärna lite längre än en mening – berätta och ge exempel.",
+      "instructionsEn": "Listen to the examiner, then record your answer. Give more than one sentence: explain, give examples. Chrome shows a live transcript.",
+      "items": [
+        {"id": "t1", "type": "speak", "tags": ["tal.interaktion", "tal.berätta"], "maxSeconds": 60,
+         "q": "Fråga 1",
+         "audio": {"id": "e1", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Hej och välkommen! Kan du berätta lite om dig själv? Var kommer du ifrån, och hur länge har du bott i Sverige?"}]}},
+        {"id": "t2", "type": "speak", "tags": ["tal.interaktion", "tal.berätta"], "maxSeconds": 60,
+         "q": "Fråga 2",
+         "audio": {"id": "e2", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Vad gör du på fritiden? Har du någon hobby?"}]}},
+        {"id": "t3", "type": "speak", "tags": ["tal.interaktion", "tal.argumentera"], "maxSeconds": 60,
+         "q": "Fråga 3",
+         "audio": {"id": "e3", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Varför vill du lära dig svenska? Och i vilka situationer använder du svenska i vardagen?"}]}}
+      ]
+    },
+    {
+      "id": "tala-2",
+      "title": "Tala 2: Annonser",
+      "titleEn": "Speaking 2: Ads",
+      "instructions": "Du säljer en cykel. Examinatorn ringer och frågar om den. Svara med hjälp av din annons. Sedan är det din tur att fråga om examinatorns annons.",
+      "instructionsEn": "You are selling a bike. The examiner calls and asks about it – answer from your ad. Then YOU ask questions about the examiner's ad (form correct questions: Vad…? När…? Var…? Hur mycket…? Måste man…?).",
+      "parts": [
+        {
+          "heading": "Din annons",
+          "passageTitle": "SÄLJES: Damcykel",
+          "passage": "Blå, 7 växlar, 3 år gammal\nNya däck i våras\nPris: 1 200 kr\nHämtas i Majorna, Göteborg\nRing efter kl. 17",
+          "items": [
+            {"id": "t4", "type": "speak", "tags": ["tal.annons", "tal.interaktion"], "maxSeconds": 45,
+             "q": "Svara på examinatorns frågor om cykeln.",
+             "audio": {"id": "e4", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Hej, jag ringer om cykeln som du säljer. Hur gammal är den, och är den i bra skick?"}]}},
+            {"id": "t5", "type": "speak", "tags": ["tal.annons", "tal.interaktion"], "maxSeconds": 45,
+             "q": "Svara igen.",
+             "audio": {"id": "e5", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Okej, låter bra. Men tolvhundra kronor är lite mycket för mig. Kan du sänka priset? Och när kan jag komma och titta på den?"}]}}
+          ]
+        },
+        {
+          "heading": "Examinatorns annons",
+          "passageTitle": "Språkcafé på biblioteket",
+          "passage": "dag och tid?\nplats?\npris?\nanmälan?\nvem kan komma?",
+          "items": [
+            {"id": "t6", "type": "speak", "tags": ["tal.annons", "ordföljd.fråga"], "maxSeconds": 60,
+             "q": "Ställ minst fyra frågor till examinatorn om språkcaféet. Använd stödorden. Säg hela frågor.",
+             "qEn": "Ask at least four full questions about the language café, using the keywords. Remember: in questions the verb comes first or right after the question word (När börjar…? Kostar det…?)."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala-3",
+      "title": "Tala 3: Samtal",
+      "titleEn": "Speaking 3: Discussion",
+      "instructions": "Examinatorn tar upp ett ämne. Säg vad du tycker och förklara varför. Ge exempel.",
+      "instructionsEn": "Give your opinion with reasons and examples. Useful: Jag tycker att… eftersom… · Å ena sidan… å andra sidan… · Till exempel… · Därför…",
+      "items": [
+        {"id": "t7", "type": "speak", "tags": ["tal.argumentera"], "maxSeconds": 90,
+         "q": "Svara examinatorn.",
+         "audio": {"id": "e7", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Nu ska vi prata om mobiltelefoner. Många säger att vi använder mobilen för mycket. Vad tycker du? Finns det fördelar och nackdelar?"}]}},
+        {"id": "t8", "type": "speak", "tags": ["tal.argumentera"], "maxSeconds": 60,
+         "q": "Svara examinatorn.",
+         "audio": {"id": "e8", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Intressant. Tycker du att barn under tolv år ska ha en egen mobil? Varför, eller varför inte?"}]}}
+      ]
+    }
+  ]
+}
