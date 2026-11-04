@@ -1,0 +1,239 @@
+{
+  "id": "001-diagnos",
+  "title": "Diagnostiskt test – var står du nu?",
+  "titleEn": "Diagnostic test – where are you now?",
+  "minutes": 50,
+  "intro": "Det här testet visar vad du redan kan och vad vi ska träna på. Gör ditt bästa, men använd inte lexikon eller översättning. Det är okej att gissa – och det är okej att inte kunna allt.",
+  "introEn": "This test shows what you already know and what we should practise. No dictionary or translator. Guessing is fine. Not knowing everything is fine — that is the point.",
+  "sections": [
+    {
+      "id": "lasa",
+      "title": "Del 1: Läsförståelse",
+      "titleEn": "Part 1: Reading comprehension",
+      "instructions": "Läs texterna och välj det svar som stämmer bäst.",
+      "instructionsEn": "Read the texts and choose the best answer.",
+      "parts": [
+        {
+          "passageTitle": "Information till alla hyresgäster på Björkvägen 12",
+          "passage": "Under vecka 14–17 kommer vi att byta alla vattenrör i huset (stambyte). Arbetet börjar den 1 april och beräknas vara klart i slutet av april. Under den här tiden kommer det inte att gå att använda badrummet i er lägenhet. Ni kan i stället duscha och använda toaletten i en bodvagn som står på gården. Bodvagnen är öppen dygnet runt.\n\nHantverkarna behöver komma in i lägenheten. Om ni inte är hemma på dagarna måste ni lämna en nyckel på fastighetskontoret senast den 25 mars. Glöm inte att skriva ert namn och lägenhetsnummer på nyckeln.\n\nHyran blir 15 procent lägre under april eftersom ni inte kan använda badrummet. Ni behöver inte göra något – rabatten dras automatiskt på fakturan.\n\nHar ni frågor? Ring fastighetskontoret på 08-123 45 67, vardagar 8–16, eller skicka ett mejl till info@bjorkbo.se.\n\nMed vänliga hälsningar\nBjörkbo Fastigheter",
+          "items": [
+            {"id": "l1", "type": "mcq", "tags": ["läs.detalj"], "q": "Vad ska hända i huset?", "qEn": "What is going to happen in the building?",
+             "options": ["Man ska måla trapphuset.", "Man ska byta vattenrören.", "Man ska bygga nya badrum på gården.", "Man ska renovera fastighetskontoret."], "answer": 1,
+             "explain": "”byta alla vattenrör i huset (stambyte)”"},
+            {"id": "l2", "type": "mcq", "tags": ["läs.detalj"], "q": "Var kan hyresgästerna duscha i april?", "qEn": "Where can the tenants shower in April?",
+             "options": ["I en bodvagn på gården.", "Hos grannarna.", "I simhallen.", "På fastighetskontoret."], "answer": 0,
+             "explain": "”duscha … i en bodvagn som står på gården”. En bodvagn = en liten byggnad på hjul (site hut)."},
+            {"id": "l3", "type": "mcq", "tags": ["läs.detalj"], "q": "Vad måste man göra om man arbetar på dagarna?", "qEn": "What must you do if you work during the day?",
+             "options": ["Ringa kontoret före den 1 april.", "Lämna en nyckel senast den 25 mars.", "Vara hemma under vecka 14.", "Skicka ett mejl till hantverkarna."], "answer": 1,
+             "explain": "”Om ni inte är hemma på dagarna måste ni lämna en nyckel … senast den 25 mars.” senast = at the latest."},
+            {"id": "l4", "type": "mcq", "tags": ["läs.slutsats"], "q": "Vad gäller för hyran i april?", "qEn": "What applies to the rent in April?",
+             "options": ["Man betalar mindre utan att behöva ansöka om det.", "Man måste ansöka om rabatt.", "Hyran blir 15 procent högre.", "Man betalar ingen hyra alls."], "answer": 0,
+             "explain": "”Ni behöver inte göra något – rabatten dras automatiskt.”"}
+          ]
+        },
+        {
+          "passageTitle": "Allt fler pluggar på äldre dagar",
+          "passage": "För trettio år sedan var det ovanligt att vuxna började studera igen. I dag ser det annorlunda ut. Enligt nya siffror från Statistiska centralbyrån (SCB) läser nästan 400 000 personer över 25 år en kurs på komvux, folkhögskola eller universitet varje år.\n\nAnna Lindqvist, 52, är en av dem. Hon arbetade som undersköterska i över tjugo år men fick allt mer ont i ryggen.\n– Jag kände att jag inte orkade längre. Samtidigt var jag rädd att börja om. Tänk om jag inte skulle klara att plugga? säger hon.\n\nNu läser hon till socionom och trivs bättre än hon hade trott. Det svåraste har inte varit att läsa böckerna, utan att få ekonomin att gå ihop. Hon får studiemedel från CSN, men det är mycket mindre än hennes gamla lön.\n\nEnligt forskaren Per Ekström finns det flera förklaringar till att fler vuxna studerar.\n– Arbetsmarknaden förändras snabbt. Många yrken försvinner och nya kommer till. Den som vill ha ett säkert jobb måste vara beredd att lära sig nya saker hela livet, säger han.\n\nHan tror också att det har blivit mindre pinsamt att sitta i ett klassrum med personer som är mycket yngre.\n– Förr tyckte många att man var för gammal för att studera. Den attityden har nästan försvunnit.",
+          "items": [
+            {"id": "l5", "type": "mcq", "tags": ["läs.huvudtanke"], "q": "Vad handlar texten främst om?", "qEn": "What is the text mainly about?",
+             "options": ["Att vuxna som studerar ofta har dålig ekonomi.", "Att fler vuxna studerar, och varför.", "Att universiteten har för få platser.", "Att undersköterskor ofta får ont i ryggen."], "answer": 1,
+             "explain": "Huvudtanken (main idea) – inte en detalj. Rubriken hjälper: ”Allt fler pluggar på äldre dagar”."},
+            {"id": "l6", "type": "mcq", "tags": ["läs.slutsats"], "q": "Varför började Anna studera?", "qEn": "Why did Anna start studying?",
+             "options": ["Hon ville tjäna mer pengar.", "Hennes arbete var för tungt för kroppen.", "Hon blev uppsagd.", "Hennes barn hade flyttat hemifrån."], "answer": 1,
+             "explain": "”fick allt mer ont i ryggen … jag orkade inte längre” → jobbet var för tungt."},
+            {"id": "l7", "type": "mcq", "tags": ["läs.detalj"], "q": "Vad har varit svårast för Anna?", "qEn": "What has been hardest for Anna?",
+             "options": ["Att förstå böckerna.", "Att hitta en utbildning.", "Att klara sig på mindre pengar.", "Att komma överens med de yngre studenterna."], "answer": 2,
+             "explain": "”få ekonomin att gå ihop” = make ends meet."},
+            {"id": "l8", "type": "mcq", "tags": ["läs.slutsats"], "q": "Vad menar Per Ekström?", "qEn": "What does Per Ekström mean?",
+             "options": ["Man behöver fortsätta lära sig under hela arbetslivet.", "Det är pinsamt att studera med yngre personer.", "Vuxna lär sig långsammare än unga.", "Många yrken kommer aldrig att förändras."], "answer": 0,
+             "explain": "”måste vara beredd att lära sig nya saker hela livet”"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lyssna",
+      "title": "Del 2: Hörförståelse",
+      "titleEn": "Part 2: Listening comprehension",
+      "instructions": "Läs frågorna först. Sedan lyssnar du. Du får lyssna högst två gånger på varje inspelning – precis som på det riktiga provet.",
+      "instructionsEn": "Read the questions first, then listen. Max two plays per recording, like the real test.",
+      "parts": [
+        {
+          "heading": "Inspelning 1: Ett telefonmeddelande",
+          "headingEn": "Recording 1: A voicemail",
+          "audio": {
+            "id": "a1", "title": "Telefonmeddelande från vårdcentralen", "maxPlays": 2,
+            "speakers": {"Lena": "f"},
+            "script": [
+              {"speaker": "Lena", "text": "Hej, det här är Lena från Vårdcentralen Solsidan. Jag söker Reza Ahmadi. Det gäller din tid hos doktor Berg på torsdag den tolfte mars klockan tio."},
+              {"speaker": "Lena", "text": "Tyvärr är doktor Berg sjuk den dagen, så vi måste flytta din tid. Vi kan erbjuda dig en ny tid på fredag den trettonde mars, klockan kvart över två på eftermiddagen."},
+              {"speaker": "Lena", "text": "Om tiden inte passar kan du ringa oss på telefontiden, mellan åtta och nio varje vardag. Kom ihåg att ta med din medicinlista, och kom gärna tio minuter innan för att anmäla dig i receptionen. Tack och hej!"}
+            ]
+          },
+          "items": [
+            {"id": "h1", "type": "mcq", "tags": ["hör.detalj"], "q": "Varför ringer Lena?", "qEn": "Why is Lena calling?",
+             "options": ["Doktorn är sjuk.", "Reza har glömt sin tid.", "Vårdcentralen ska stänga.", "Reza måste ta ett blodprov."], "answer": 0},
+            {"id": "h2", "type": "mcq", "tags": ["hör.tid"], "q": "När är den nya tiden?", "qEn": "When is the new appointment?",
+             "options": ["Torsdag klockan 10.00", "Fredag klockan 14.15", "Fredag klockan 14.45", "Fredag klockan 10.15"], "answer": 1,
+             "explain": "”kvart över två på eftermiddagen” = 14.15. (kvart i tre = 14.45)"},
+            {"id": "h3", "type": "mcq", "tags": ["hör.detalj"], "q": "Vad ska Reza ta med sig?", "qEn": "What should Reza bring?",
+             "options": ["Sin legitimation.", "Sin medicinlista.", "En remiss.", "Pengar till besöket."], "answer": 1}
+          ]
+        },
+        {
+          "heading": "Inspelning 2: Två kollegor pratar",
+          "headingEn": "Recording 2: Two colleagues talking",
+          "audio": {
+            "id": "a2", "title": "Sara och Johan planerar", "maxPlays": 2,
+            "speakers": {"Sara": "f", "Johan": "m"},
+            "script": [
+              {"speaker": "Sara", "text": "Hej Johan, har du en minut? Det gäller Birgittas avtackning."},
+              {"speaker": "Johan", "text": "Ja, visst. Hon går i pension i slutet av maj, eller hur?"},
+              {"speaker": "Sara", "text": "Precis, sista arbetsdagen är den tjugonionde. Jag tänkte att vi kunde ha en liten fest på eftermiddagen, med tårta och kaffe i personalrummet."},
+              {"speaker": "Johan", "text": "Låter bra. Men personalrummet är ganska litet. Vi är ju nästan trettio personer på avdelningen."},
+              {"speaker": "Sara", "text": "Det har du rätt i. Vi kanske kan låna konferensrummet på andra våningen i stället?"},
+              {"speaker": "Johan", "text": "Ja, det är bättre. Jag kan boka det. Men vad ska vi ge henne i present?"},
+              {"speaker": "Sara", "text": "Hon har pratat mycket om att hon vill börja resa när hon har slutat. Ett presentkort på en resa kanske?"},
+              {"speaker": "Johan", "text": "Bra idé, men det kan bli dyrt. Om alla ger hundra kronor får vi ihop ungefär tre tusen."},
+              {"speaker": "Sara", "text": "Det räcker till en weekendresa, tror jag. Kan du skicka ut ett mejl till alla och fråga?"},
+              {"speaker": "Johan", "text": "Okej, jag gör det i dag. Men glöm inte att Birgitta inte får veta någonting!"}
+            ]
+          },
+          "items": [
+            {"id": "h4", "type": "mcq", "tags": ["hör.huvudtanke"], "q": "Varför ska de ha en fest?", "qEn": "Why are they having a party?",
+             "options": ["En kollega fyller år.", "En kollega ska sluta arbeta.", "Avdelningen har fått en ny chef.", "De har nått ett viktigt mål."], "answer": 1,
+             "explain": "”går i pension” = retires. En avtackning = farewell party for someone leaving."},
+            {"id": "h5", "type": "mcq", "tags": ["hör.detalj"], "q": "Var ska festen vara?", "qEn": "Where will the party be?",
+             "options": ["I personalrummet.", "I konferensrummet.", "På en restaurang.", "Hemma hos Sara."], "answer": 1,
+             "explain": "Fälla! Personalrummet nämns först, men det är för litet. Lyssna på hela samtalet."},
+            {"id": "h6", "type": "mcq", "tags": ["hör.detalj"], "q": "Vad ska Johan göra?", "qEn": "What will Johan do?",
+             "options": ["Köpa tårta.", "Boka rummet och skicka ett mejl.", "Köpa presentkortet.", "Prata med Birgitta."], "answer": 1}
+          ]
+        },
+        {
+          "heading": "Inspelning 3: Lokala nyheter",
+          "headingEn": "Recording 3: Local news",
+          "audio": {
+            "id": "a3", "title": "Nyheter om kollektivtrafiken", "maxPlays": 2,
+            "speakers": {"Nyheter": "m"},
+            "script": [
+              {"speaker": "Nyheter", "text": "Och så lite lokala nyheter. Från och med måndag blir det dyrare att åka buss och tåg i länet. Ett månadskort för vuxna kommer att kosta tusen femtio kronor, vilket är åttio kronor mer än i dag."},
+              {"speaker": "Nyheter", "text": "Priset för ungdomar och pensionärer ändras däremot inte. Enligt trafikbolaget beror höjningen på att både bränsle och personal har blivit dyrare. Samtidigt lovar bolaget att fler bussar ska gå på kvällar och helger."},
+              {"speaker": "Nyheter", "text": "Många resenärer är dock missnöjda. – Bussarna är ofta försenade, och nu ska vi betala ännu mer. Det känns inte rättvist, säger en kvinna som vi träffade på busstationen i morse."}
+            ]
+          },
+          "items": [
+            {"id": "h7", "type": "mcq", "tags": ["hör.huvudtanke"], "q": "Vad handlar nyheten om?", "qEn": "What is the news about?",
+             "options": ["Nya busslinjer i länet.", "Högre priser i kollektivtrafiken.", "En strejk bland bussförarna.", "Förseningar på grund av vädret."], "answer": 1},
+            {"id": "h8", "type": "mcq", "tags": ["hör.detalj"], "q": "Vilka behöver INTE betala mer?", "qEn": "Who does NOT have to pay more?",
+             "options": ["Vuxna som pendlar till jobbet.", "Ungdomar och pensionärer.", "Alla som reser på helger.", "Personal på trafikbolaget."], "answer": 1,
+             "explain": "”däremot” = however/on the other hand – signalerar en kontrast."},
+            {"id": "h9", "type": "mcq", "tags": ["hör.åsikt"], "q": "Vad tycker kvinnan på busstationen?", "qEn": "What does the woman at the bus station think?",
+             "options": ["Hon är glad att fler bussar ska gå.", "Hon tycker att höjningen är orättvis.", "Hon ska börja cykla i stället.", "Hon förstår varför priset höjs."], "answer": 1}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammatik",
+      "title": "Del 3: Grammatik",
+      "titleEn": "Part 3: Grammar",
+      "instructions": "Fyll i, välj eller bygg meningen. Klicka på orden i rätt ordning.",
+      "instructionsEn": "Fill in, choose, or build the sentence (click the words in the right order).",
+      "items": [
+        {"id": "g1", "type": "order", "tags": ["ordföljd.inversion"], "q": "Bygg en mening som börjar med ”Igår”.", "qEn": "Build a sentence starting with 'Igår' (Yesterday).",
+         "words": ["inte", "gick", "Igår", "till", "jag", "gymmet"], "answers": ["Igår gick jag inte till gymmet"],
+         "explain": "V2-regeln: verbet står alltid på plats 2. Igår (1) gick (2) jag inte …", "explainEn": "V2 rule: the verb is always in position 2 in a main clause."},
+        {"id": "g2", "type": "order", "tags": ["ordföljd.bisats"], "q": "Bygg meningen.", "qEn": "Build the sentence: He says that he doesn't have time.",
+         "words": ["har", "säger", "tid", "inte", "Han", "att", "han"], "answers": ["Han säger att han inte har tid"],
+         "explain": "I bisats står ”inte” FÖRE verbet: att han inte har.", "explainEn": "In a subordinate clause, 'inte' comes BEFORE the verb."},
+        {"id": "g3", "type": "order", "tags": ["ordföljd.bisats"], "q": "Bygg meningen.", "qEn": "Build: I got happy because she always helps me.",
+         "words": ["hjälper", "Jag", "eftersom", "glad", "alltid", "blev", "mig", "hon"], "answers": ["Jag blev glad eftersom hon alltid hjälper mig"],
+         "explain": "Bisats: eftersom hon alltid hjälper – satsadverbet (alltid, inte, aldrig, ofta) före verbet."},
+        {"id": "g4", "type": "mcq", "tags": ["ordföljd.inversion", "ordföljd.bisats"], "q": "Om det regnar i morgon, ___ hemma.", "qEn": "If it rains tomorrow, we'll stay home.",
+         "options": ["vi stannar", "stannar vi", "vi stannade", "stannade vi"], "answer": 1,
+         "explain": "Bisatsen ”Om det regnar i morgon” är plats 1. Därför kommer verbet direkt: stannar vi."},
+        {"id": "g5", "type": "gap", "tags": ["adjektiv.ett-ord"], "q": "Vi bodde i ett ___ hus.", "base": "stor", "answers": ["stort"],
+         "explain": "ett-ord → adjektiv + t: ett stort hus."},
+        {"id": "g6", "type": "gap", "tags": ["adjektiv.bestämd"], "q": "Den ___ lägenheten är mycket ljus.", "base": "ny", "answers": ["nya"],
+         "explain": "Bestämd form: den/det/de + adjektiv-a + substantiv-en: den nya lägenheten."},
+        {"id": "g7", "type": "gap", "tags": ["adjektiv.komparation"], "q": "Göteborg är ___ än Uppsala.", "base": "stor", "answers": ["större"],
+         "explain": "Oregelbunden: stor – större – störst."},
+        {"id": "g8", "type": "gap", "tags": ["verb.preteritum"], "q": "Förra veckan ___ jag ett långt brev till min mamma.", "base": "skriva", "answers": ["skrev"],
+         "explain": "Starkt verb (grupp 4): skriva – skrev – skrivit."},
+        {"id": "g9", "type": "gap", "tags": ["verb.supinum"], "q": "Har du någon gång ___ surströmming?", "base": "äta", "answers": ["ätit"],
+         "explain": "har + supinum: äta – åt – ätit."},
+        {"id": "g10", "type": "gap", "tags": ["verb.preteritum"], "q": "När jag var liten ___ vi i Shiraz.", "base": "bo", "answers": ["bodde"],
+         "explain": "Grupp 3 (kort verb): bo – bodde – bott."},
+        {"id": "g11", "type": "gap", "tags": ["substantiv.plural"], "q": "Jag har läst tre ___ i sommar.", "base": "en bok", "answers": ["böcker"],
+         "explain": "Oregelbunden plural: en bok – två böcker (omljud o→ö)."},
+        {"id": "g12", "type": "mcq", "tags": ["pronomen.sin"], "q": "Erik träffade ___ syster och ___ man på stationen.", "qEn": "Erik met his (own) sister and her husband.",
+         "options": ["hans … hennes", "sin … sin", "sin … hennes", "hans … sin"], "answer": 2,
+         "explain": "sin = subjektets egen (Eriks syster). Systerns man → hennes (subjektet är Erik, inte systern).", "explainEn": "sin/sitt/sina refers back to the subject of the same clause."},
+        {"id": "g13", "type": "mcq", "tags": ["preposition"], "q": "Jag är mycket intresserad ___ historia.", "options": ["för", "av", "på", "om"], "answer": 1,
+         "explain": "intresserad av. Lär dig verb/adjektiv + preposition som en enhet!"},
+        {"id": "g14", "type": "mcq", "tags": ["preposition.tid"], "q": "Hon har bott i Sverige ___ fem år.", "options": ["på", "för", "i", "sedan"], "answer": 2,
+         "explain": "Hur länge (duration, fortfarande pågår) → i fem år. ”för fem år sedan” = five years ago."},
+        {"id": "g15", "type": "mcq", "tags": ["bisats.om-att"], "q": "Jag undrar ___ du vill följa med på bio i kväll.", "options": ["att", "om", "som", "vad"], "answer": 1,
+         "explain": "Ja/nej-fråga i bisats → om (= whether/if)."},
+        {"id": "g16", "type": "mcq", "tags": ["verb.passiv"], "q": "Paketet ___ i går, så det kommer nog i morgon.", "qEn": "The parcel was sent yesterday…",
+         "options": ["skickade", "skickades", "har skickat", "skickas"], "answer": 1,
+         "explain": "Passiv med s: skickades = was sent. (Ingen säger vem som skickade.)"},
+        {"id": "g17", "type": "mcq", "tags": ["verb.reflexiv"], "q": "Barnen måste ___ innan de äter.", "options": ["tvätta sig om händerna", "tvätta sig", "tvätta dem", "tvättas"], "answer": 1,
+         "explain": "Reflexivt verb: jag tvättar mig, de tvättar sig."},
+        {"id": "g18", "type": "mcq", "tags": ["verb.partikel"], "q": "Kan du ___ min katt när jag är bortrest?", "options": ["ta upp", "ta hand om", "ta med", "ta över"], "answer": 1,
+         "explain": "ta hand om = take care of. Partikelverb: betydelsen ändras helt med partikeln."}
+      ]
+    },
+    {
+      "id": "ord",
+      "title": "Del 4: Ordförråd",
+      "titleEn": "Part 4: Vocabulary",
+      "instructions": "Välj det alternativ som betyder samma sak, eller som passar bäst.",
+      "instructionsEn": "Choose the option with the same meaning, or that fits best.",
+      "items": [
+        {"id": "o1", "type": "mcq", "tags": ["ord.synonym"], "q": "”Jag var tvungen att stanna hemma.” betyder:", "options": ["Jag ville stanna hemma.", "Jag måste stanna hemma.", "Jag fick stanna hemma.", "Jag brukade stanna hemma."], "answer": 1},
+        {"id": "o2", "type": "mcq", "tags": ["ord.synonym"], "q": "”Hon blev uppsagd.” betyder:", "options": ["Hon förlorade sitt jobb.", "Hon fick ett nytt jobb.", "Hon fick högre lön.", "Hon började jobba deltid."], "answer": 0},
+        {"id": "o3", "type": "mcq", "tags": ["ord.synonym"], "q": "”Han kommer förmodligen sent.” – förmodligen betyder:", "options": ["troligen", "aldrig", "absolut inte", "ofta"], "answer": 0},
+        {"id": "o4", "type": "mcq", "tags": ["ord.synonym"], "q": "”Jag måste avboka min tid hos tandläkaren.” betyder:", "options": ["Jag måste flytta tiden till senare.", "Jag måste säga att jag inte kommer.", "Jag måste boka en ny tid.", "Jag måste bekräfta tiden."], "answer": 1},
+        {"id": "o5", "type": "mcq", "tags": ["ord.kollokation"], "q": "Jag har ___ ett jobb som lärarassistent på kommunen.", "options": ["sökt", "letat", "tittat", "frågat"], "answer": 0,
+         "explain": "söka ett jobb = apply for a job. leta efter = look for."},
+        {"id": "o6", "type": "mcq", "tags": ["ord.förväxling"], "q": "Kan du ___ mig om mötet i morgon? Jag glömmer alltid.", "options": ["komma ihåg", "påminna", "minnas", "tänka"], "answer": 1,
+         "explain": "påminna någon = remind someone. komma ihåg/minnas = remember (själv)."}
+      ]
+    },
+    {
+      "id": "skriva",
+      "title": "Del 5: Skriftlig färdighet",
+      "titleEn": "Part 5: Writing",
+      "instructions": "Skriv ett mejl. Ta med alla punkter. Skriv 80–150 ord. Ingen översättning eller rättstavning från datorn!",
+      "instructionsEn": "Write an email. Cover all points. 80–150 words. No translator, no autocorrect.",
+      "items": [
+        {"id": "s1", "type": "write", "tags": ["skriv.mejl.formell"], "minWords": 80, "maxWords": 150,
+         "q": "Du har bott i din lägenhet i två månader. Tvättstugan i huset har varit trasig i tre veckor. Skriv ett mejl till din hyresvärd.",
+         "qEn": "You have lived in your flat for two months. The laundry room has been broken for three weeks. Write an email to your landlord.",
+         "bullets": ["Presentera dig (namn, adress).", "Beskriv problemet och hur länge det har varit så.", "Berätta hur problemet påverkar dig och din familj.", "Skriv vad du vill att hyresvärden ska göra – och när."]}
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Del 6: Muntlig färdighet",
+      "titleEn": "Part 6: Speaking",
+      "instructions": "Klicka på ”Spela in” och prata. Tänk först i ungefär 30 sekunder. Det är okej att tveka och rätta dig själv – prata på!",
+      "instructionsEn": "Click record and talk. Think ~30 s first. Hesitating and self-correcting is fine – keep talking. Use Chrome for a live transcript.",
+      "items": [
+        {"id": "t1", "type": "speak", "tags": ["tal.läsa-högt"], "maxSeconds": 60,
+         "q": "Läs texten högt: ”Förra sommaren åkte vi till Gotland. Vi hyrde en stuga nära havet och badade varje dag. Det sju år gamla sjukhuset i Visby är tyvärr för litet, så när min son blev sjuk fick vi köra långt. Ändå var det en fantastisk semester.”",
+         "qEn": "Read aloud. (Tests pronunciation: sj-/tj-sounds, long/short vowels.)"},
+        {"id": "t2", "type": "speak", "tags": ["tal.berätta"], "maxSeconds": 120,
+         "q": "Berätta om en vanlig vecka i ditt liv.",
+         "qEn": "Describe a normal week in your life.",
+         "bullets": ["Vad gör du på vardagarna?", "Vad gör du på helgen?", "Vad skulle du vilja ändra i din vardag? Varför?"]},
+        {"id": "t3", "type": "speak", "tags": ["tal.argumentera"], "maxSeconds": 120,
+         "q": "Är det bättre att bo i en stor stad eller på landet? Ge din åsikt och motivera.",
+         "qEn": "Is it better to live in a big city or in the countryside? Give your opinion and reasons.",
+         "bullets": ["Fördelar och nackdelar", "Ett exempel från ditt eget liv", "Jämför gärna med Iran"]}
+      ]
+    }
+  ]
+}
