@@ -11,6 +11,7 @@ LESSONS = ROOT / "lessons"
 RESULTS = ROOT / "results"
 RECORDINGS = ROOT / "recordings"
 FEEDBACK = ROOT / "feedback"
+DRAFTS = RESULTS / "drafts"
 SAFE = re.compile(r"^[A-Za-z0-9_.-]+$")
 
 
@@ -89,14 +90,20 @@ class Handler(SimpleHTTPRequestHandler):
         length = int(self.headers.get("Content-Length", 0))
         body = self.rfile.read(length)
         stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-        if url.path == "/api/results":
+        if url.path in ("/api/results", "/api/draft"):
             data = json.loads(body)
             lesson_id = data.get("lessonId", "unknown")
-            if not SAFE.match(lesson_id):
+            attempt = str(data.get("attemptId", stamp))
+            if not SAFE.match(lesson_id) or not SAFE.match(attempt):
                 return self.send_json({"error": "bad id"}, 400)
             data["savedAt"] = datetime.now().isoformat(timespec="seconds")
+            draft = DRAFTS / f"{lesson_id}__{attempt}.json"
+            if url.path == "/api/draft":
+                draft.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+                return self.send_json({"saved": draft.name})
             f = RESULTS / f"{lesson_id}__{stamp}.json"
             f.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+            draft.unlink(missing_ok=True)
             return self.send_json({"saved": f.name})
         if url.path == "/api/recording":
             q = parse_qs(url.query)
@@ -111,7 +118,7 @@ class Handler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    for d in (LESSONS, RESULTS, RECORDINGS, FEEDBACK, ROOT / "audio"):
+    for d in (LESSONS, RESULTS, DRAFTS, RECORDINGS, FEEDBACK, ROOT / "audio"):
         d.mkdir(exist_ok=True)
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8765
     print(f"Svenska B1 -> http://localhost:{port}")

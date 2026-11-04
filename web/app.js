@@ -77,7 +77,48 @@ async function openLesson(id) {
   const state = store.get(draftKey, null) ?? {
     step: -1, answers: {}, plays: {}, sectionTime: {}, startedAt: null,
   };
-  const save = () => store.set(draftKey, state);
+  state.attemptId ??= new Date().toISOString().replace(/[:.]/g, "-");
+  let pushTimer = null;
+  const save = () => {
+    store.set(draftKey, state);
+    clearTimeout(pushTimer);
+    pushTimer = setTimeout(pushDraft, 600);
+  };
+
+  function pushDraft() {
+    if (!state.startedAt) return;
+    leaveStep();
+    store.set(draftKey, state);
+    fetch("/api/draft", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(buildPayload(false)) })
+      .catch(() => {});
+  }
+
+  function buildPayload(final) {
+    const graded = allItems().map(i => ({
+      id: i.id, section: i.section, type: i.type, tags: i.tags ?? [], prompt: i.q ?? null, ...grade(i),
+    }));
+    const bySection = {};
+    for (const g of graded) {
+      if (g.correct === null || (!final && g.given == null)) continue;
+      const s = bySection[g.section] ??= { correct: 0, total: 0 };
+      s.total++;
+      if (g.correct) s.correct++;
+    }
+    return {
+      lessonId: lesson.id,
+      attemptId: state.attemptId,
+      final,
+      startedAt: new Date(state.startedAt).toISOString(),
+      finishedAt: final ? new Date().toISOString() : null,
+      durationMin: Math.round((Date.now() - state.startedAt) / 60000),
+      currentSection: steps[state.step]?.id ?? null,
+      sectionMinutes: Object.fromEntries(Object.entries(state.sectionTime).map(([k, v]) => [k, Math.round(v / 6) / 10])),
+      audioPlays: state.plays,
+      score: bySection,
+      items: graded,
+      userAgent: navigator.userAgent,
+    };
+  }
   const steps = lesson.sections;
   let stepEnter = Date.now();
 
@@ -360,28 +401,11 @@ async function openLesson(id) {
 
   async function submit() {
     leaveStep();
+    clearTimeout(pushTimer);
     const items = allItems();
-    const graded = items.map(i => ({
-      id: i.id, section: i.section, type: i.type, tags: i.tags ?? [], prompt: i.q ?? null, ...grade(i),
-    }));
-    const bySection = {};
-    for (const g of graded) {
-      if (g.correct === null) continue;
-      const s = bySection[g.section] ??= { correct: 0, total: 0 };
-      s.total++;
-      if (g.correct) s.correct++;
-    }
-    const payload = {
-      lessonId: lesson.id,
-      startedAt: new Date(state.startedAt).toISOString(),
-      finishedAt: new Date().toISOString(),
-      durationMin: Math.round((Date.now() - state.startedAt) / 60000),
-      sectionMinutes: Object.fromEntries(Object.entries(state.sectionTime).map(([k, v]) => [k, Math.round(v / 6) / 10])),
-      audioPlays: state.plays,
-      score: bySection,
-      items: graded,
-      userAgent: navigator.userAgent,
-    };
+    const payload = buildPayload(true);
+    const graded = payload.items;
+    const bySection = payload.score;
     const btn = document.getElementById("submit");
     btn.disabled = true;
     const r = await fetch("/api/results", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });

@@ -10,9 +10,11 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
 
 0. Read `progress/plan.md` (current goal + timeline: Swedex A2B1 2026-12-04).
 1. Read `progress/learner-profile.md` (who the learner is, goals, strengths/weaknesses).
+1b. Read `progress/decisions.md` (notes from conversations: preferences, decisions).
 2. Read `progress/log.md` (chronological log; the LAST entry says what is in flight and what's next).
-3. `ls results/ feedback/ lessons/` – a results file without a matching feedback file = an
-   ungraded attempt → grade it first (see "Grading").
+3. `ls results/ results/drafts/ feedback/ lessons/` – a results file without a matching feedback file = an
+   ungraded attempt → grade it first. `results/drafts/` = unfinished attempts (saved after every
+   answer); grade what is there if the learner stopped midway.
 4. Check the server: `curl -s localhost:8765/api/lessons`. If down, tell the user to run
    `python3 server.py` (or start it in background yourself).
 5. `git -C . status` – commit/push anything left uncommitted.
@@ -33,7 +35,8 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
 
 - `server.py` – Python stdlib server (no deps). `python3 server.py [port]`, default 8765.
   - `GET /api/lessons`, `GET /api/lessons/<id>`, `GET /api/feedback/<id>` (latest md)
-  - `POST /api/results` → `results/<lessonId>__<stamp>.json`
+  - `POST /api/draft` → `results/drafts/<lessonId>__<attemptId>.json` (sent ~0.6 s after every answer)
+  - `POST /api/results` → `results/<lessonId>__<stamp>.json` (final; removes the draft)
   - `POST /api/recording?name=..&ext=..` → `recordings/` (gitignored, private)
 - `web/` – plain HTML/JS engine (`app.js`) that renders any lesson JSON.
 - `lessons/NNN-slug.json` – one file per lesson/test. **Making a new lesson = writing a JSON file.**
@@ -64,6 +67,12 @@ item common: { id (unique in lesson), type, tags: ["area.sub"], q, qEn, explain,
 ```
 Tags drive the learner model (e.g. `ordföljd.inversion`, `ordföljd.bisats`, `adjektiv.bestämd`,
 `verb.preteritum`, `preposition`, `läs.slutsats`, `hör.detalj`, `skriv.mejl.formell`, `tal.argumentera`).
+
+## Lesson design rules
+
+- Short: 10–15 min per lesson. The learner's study time is unpredictable.
+- Swedex A2B1 task shapes first (see progress/plan.md). Mix in grammar only where errors show it is needed.
+- Always record notes from conversations in `progress/decisions.md`.
 
 ## Teaching loop
 
