@@ -489,3 +489,18 @@ function speak(script) {
     next();
   });
 }
+
+(function swedishKeys() {
+  const bar = h(`<div class="sv-keys" hidden>${["å", "ä", "ö", "Å", "Ä", "Ö", "é"].map(c => `<button type="button" data-c="${c}">${c}</button>`).join("")}</div>`);
+  document.body.append(bar);
+  const isText = el => el && (el.tagName === "TEXTAREA" || (el.tagName === "INPUT" && el.type !== "radio" && el.type !== "checkbox"));
+  document.addEventListener("focusin", e => { bar.hidden = !isText(e.target); });
+  document.addEventListener("focusout", () => setTimeout(() => { if (!isText(document.activeElement)) bar.hidden = true; }, 0));
+  bar.addEventListener("mousedown", e => e.preventDefault());
+  bar.addEventListener("click", e => {
+    const c = e.target.dataset?.c, el = document.activeElement;
+    if (!c || !isText(el)) return;
+    el.setRangeText(c, el.selectionStart, el.selectionEnd, "end");
+    el.dispatchEvent(new Event("input", { bubbles: true }));
+  });
+})();
