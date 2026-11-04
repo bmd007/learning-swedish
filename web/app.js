@@ -19,6 +19,7 @@ const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "
 const en = s => s ? `<div class="en">${esc(s)}</div>` : "";
 const norm = s => String(s ?? "").toLowerCase().replace(/[.,!?;:"]/g, "").replace(/\s+/g, " ").trim();
 const fmt = sec => `${Math.floor(sec / 60)}:${String(Math.floor(sec % 60)).padStart(2, "0")}`;
+const AUTO = new Set(["mcq", "select", "gap", "order", "short"]);
 const h = html => { const t = document.createElement("template"); t.innerHTML = html.trim(); return t.content.firstElementChild; };
 
 let tick = null;
@@ -119,6 +120,7 @@ async function openLesson(id) {
       currentSection: steps[state.step]?.id ?? null,
       sectionMinutes: Object.fromEntries(Object.entries(state.sectionTime).map(([k, v]) => [k, Math.round(v / 6) / 10])),
       audioPlays: state.plays,
+      firstTry: state.firstTry ?? {},
       score: bySection,
       items: graded,
       userAgent: navigator.userAgent,
@@ -177,7 +179,7 @@ async function openLesson(id) {
   function renderSection(sec) {
     state.lastStep = state.step;
     let n = 0;
-    const offset = steps.slice(0, state.step).reduce((a, s) => a + (s.items?.length ?? 0), 0);
+    const offset = steps.slice(0, state.step).reduce((a, s) => a + (s.parts ?? [s]).flatMap(p => p.items ?? []).filter(i => i.type !== "info").length, 0);
     const el = h(`<div>
       ${progress()}
       <h1>${esc(sec.title)}</h1>${en(sec.titleEn)}
@@ -196,9 +198,16 @@ async function openLesson(id) {
       if (part.passage) card.append(h(`<div class="passage">${part.passageTitle ? `<h3>${esc(part.passageTitle)}</h3>` : ""}${esc(part.passage)}</div>`));
       if (part.audio) card.append(renderPlayer(part.audio));
       if (part.options) card.append(h(`<div class="passage">${part.options.map(o => esc(o)).join("\n")}</div>`));
-      for (const item of part.items ?? []) {
+      for (const raw of part.items ?? []) {
+        const item = { ...raw, options: raw.options ?? part.options };
+        if (item.type === "info") {
+          card.append(h(`<div class="item md">${window.marked ? marked.parse(item.md ?? "") : esc(item.md)}</div>`));
+          continue;
+        }
         n++;
-        card.append(renderItem({ ...item, options: item.options ?? part.options }, offset + n));
+        const el = renderItem(item, offset + n);
+        if (lesson.mode === "practice" && AUTO.has(item.type)) el.append(renderCheck(item));
+        card.append(el);
       }
       blocks.append(card);
     }
@@ -366,7 +375,26 @@ async function openLesson(id) {
   }
 
   function allItems() {
-    return steps.flatMap(s => (s.parts ?? [s]).flatMap(p => (p.items ?? []).map(it => ({ ...it, options: it.options ?? p.options, section: s.id, audio: it.audio ?? p.audio, passage: p.passage }))));
+    return steps.flatMap(s => (s.parts ?? [s]).flatMap(p => (p.items ?? []).filter(it => it.type !== "info").map(it => ({ ...it, options: it.options ?? p.options, section: s.id, audio: it.audio ?? p.audio, passage: p.passage }))));
+  }
+
+  function renderCheck(item) {
+    const el = h(`<div style="margin-top:8px"><button class="btn secondary" style="padding:4px 12px;font-size:14px">Kontrollera</button><div class="fb"></div></div>`);
+    const fb = el.querySelector(".fb");
+    const show = () => {
+      const g = grade(item);
+      fb.className = `fb review ${g.correct ? "ok" : "bad"}`;
+      fb.innerHTML = `${g.correct ? "✓ Rätt!" : `✗ Rätt svar: <b>${esc(g.expected)}</b>`}
+        ${item.explain ? `<div class="muted">${esc(item.explain)}</div>` : ""}${en(item.explainEn)}`;
+    };
+    el.querySelector("button").onclick = () => {
+      state.firstTry ??= {};
+      if (!(item.id in state.firstTry)) state.firstTry[item.id] = grade(item).correct;
+      save();
+      show();
+    };
+    if (state.firstTry && item.id in state.firstTry) show();
+    return el;
   }
 
   function grade(item) {

@@ -1,0 +1,670 @@
+{
+  "lessonId": "001-diagnos",
+  "attemptId": "2026-11-04T21-32-20-542Z",
+  "final": false,
+  "startedAt": "2026-11-04T21:34:27.354Z",
+  "finishedAt": null,
+  "durationMin": 28,
+  "currentSection": "skriva",
+  "sectionMinutes": {
+    "lasa": 10,
+    "lyssna": 7.1,
+    "grammatik": 7.2,
+    "ord": 3.7,
+    "skriva": 0
+  },
+  "audioPlays": {
+    "a1": 1,
+    "a2": 1,
+    "a3": 1
+  },
+  "score": {
+    "lasa": {
+      "correct": 7,
+      "total": 8
+    },
+    "lyssna": {
+      "correct": 8,
+      "total": 9
+    },
+    "grammatik": {
+      "correct": 10,
+      "total": 18
+    },
+    "ord": {
+      "correct": 0,
+      "total": 6
+    }
+  },
+  "items": [
+    {
+      "id": "l1",
+      "section": "lasa",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Vad ska hända i huset?",
+      "given": "Man ska byta vattenrören.",
+      "expected": "Man ska byta vattenrören.",
+      "correct": true
+    },
+    {
+      "id": "l2",
+      "section": "lasa",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Var kan hyresgästerna duscha i april?",
+      "given": "I en bodvagn på gården.",
+      "expected": "I en bodvagn på gården.",
+      "correct": true
+    },
+    {
+      "id": "l3",
+      "section": "lasa",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Vad måste man göra om man arbetar på dagarna?",
+      "given": "Lämna en nyckel senast den 25 mars.",
+      "expected": "Lämna en nyckel senast den 25 mars.",
+      "correct": true
+    },
+    {
+      "id": "l4",
+      "section": "lasa",
+      "type": "mcq",
+      "tags": [
+        "läs.slutsats"
+      ],
+      "prompt": "Vad gäller för hyran i april?",
+      "given": "Man betalar mindre utan att behöva ansöka om det.",
+      "expected": "Man betalar mindre utan att behöva ansöka om det.",
+      "correct": true
+    },
+    {
+      "id": "l5",
+      "section": "lasa",
+      "type": "mcq",
+      "tags": [
+        "läs.huvudtanke"
+      ],
+      "prompt": "Vad handlar texten främst om?",
+      "given": "Att fler vuxna studerar, och varför.",
+      "expected": "Att fler vuxna studerar, och varför.",
+      "correct": true
+    },
+    {
+      "id": "l6",
+      "section": "lasa",
+      "type": "mcq",
+      "tags": [
+        "läs.slutsats"
+      ],
+      "prompt": "Varför började Anna studera?",
+      "given": "Hon blev uppsagd.",
+      "expected": "Hennes arbete var för tungt för kroppen.",
+      "correct": false
+    },
+    {
+      "id": "l7",
+      "section": "lasa",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Vad har varit svårast för Anna?",
+      "given": "Att klara sig på mindre pengar.",
+      "expected": "Att klara sig på mindre pengar.",
+      "correct": true
+    },
+    {
+      "id": "l8",
+      "section": "lasa",
+      "type": "mcq",
+      "tags": [
+        "läs.slutsats"
+      ],
+      "prompt": "Vad menar Per Ekström?",
+      "given": "Man behöver fortsätta lära sig under hela arbetslivet.",
+      "expected": "Man behöver fortsätta lära sig under hela arbetslivet.",
+      "correct": true
+    },
+    {
+      "id": "h1",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Varför ringer Lena?",
+      "given": "Doktorn är sjuk.",
+      "expected": "Doktorn är sjuk.",
+      "correct": true
+    },
+    {
+      "id": "h2",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.tid"
+      ],
+      "prompt": "När är den nya tiden?",
+      "given": "Fredag klockan 14.15",
+      "expected": "Fredag klockan 14.15",
+      "correct": true
+    },
+    {
+      "id": "h3",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad ska Reza ta med sig?",
+      "given": "Sin medicinlista.",
+      "expected": "Sin medicinlista.",
+      "correct": true
+    },
+    {
+      "id": "h4",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.huvudtanke"
+      ],
+      "prompt": "Varför ska de ha en fest?",
+      "given": "En kollega ska sluta arbeta.",
+      "expected": "En kollega ska sluta arbeta.",
+      "correct": true
+    },
+    {
+      "id": "h5",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Var ska festen vara?",
+      "given": "I konferensrummet.",
+      "expected": "I konferensrummet.",
+      "correct": true
+    },
+    {
+      "id": "h6",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad ska Johan göra?",
+      "given": "Boka rummet och skicka ett mejl.",
+      "expected": "Boka rummet och skicka ett mejl.",
+      "correct": true
+    },
+    {
+      "id": "h7",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.huvudtanke"
+      ],
+      "prompt": "Vad handlar nyheten om?",
+      "given": "Högre priser i kollektivtrafiken.",
+      "expected": "Högre priser i kollektivtrafiken.",
+      "correct": true
+    },
+    {
+      "id": "h8",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vilka behöver INTE betala mer?",
+      "given": "Personal på trafikbolaget.",
+      "expected": "Ungdomar och pensionärer.",
+      "correct": false
+    },
+    {
+      "id": "h9",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.åsikt"
+      ],
+      "prompt": "Vad tycker kvinnan på busstationen?",
+      "given": "Hon tycker att höjningen är orättvis.",
+      "expected": "Hon tycker att höjningen är orättvis.",
+      "correct": true
+    },
+    {
+      "id": "g1",
+      "section": "grammatik",
+      "type": "order",
+      "tags": [
+        "ordföljd.inversion"
+      ],
+      "prompt": "Bygg en mening som börjar med ”Igår”.",
+      "given": "Igår gick jag inte till gymmet",
+      "expected": "Igår gick jag inte till gymmet",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "grammatik",
+      "type": "order",
+      "tags": [
+        "ordföljd.bisats"
+      ],
+      "prompt": "Bygg meningen.",
+      "given": "Han säger att han inte har tid",
+      "expected": "Han säger att han inte har tid",
+      "correct": true
+    },
+    {
+      "id": "g3",
+      "section": "grammatik",
+      "type": "order",
+      "tags": [
+        "ordföljd.bisats"
+      ],
+      "prompt": "Bygg meningen.",
+      "given": "Jag blev glad eftersom hon alltid hjälper mig",
+      "expected": "Jag blev glad eftersom hon alltid hjälper mig",
+      "correct": true
+    },
+    {
+      "id": "g4",
+      "section": "grammatik",
+      "type": "mcq",
+      "tags": [
+        "ordföljd.inversion",
+        "ordföljd.bisats"
+      ],
+      "prompt": "Om det regnar i morgon, ___ hemma.",
+      "given": "stannar vi",
+      "expected": "stannar vi",
+      "correct": true
+    },
+    {
+      "id": "g5",
+      "section": "grammatik",
+      "type": "gap",
+      "tags": [
+        "adjektiv.ett-ord"
+      ],
+      "prompt": "Vi bodde i ett ___ hus.",
+      "given": "stort",
+      "expected": "stort",
+      "correct": true
+    },
+    {
+      "id": "g6",
+      "section": "grammatik",
+      "type": "gap",
+      "tags": [
+        "adjektiv.bestämd"
+      ],
+      "prompt": "Den ___ lägenheten är mycket ljus.",
+      "given": "nya",
+      "expected": "nya",
+      "correct": true
+    },
+    {
+      "id": "g7",
+      "section": "grammatik",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Göteborg är ___ än Uppsala.",
+      "given": "stortare",
+      "expected": "större",
+      "correct": false
+    },
+    {
+      "id": "g8",
+      "section": "grammatik",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Förra veckan ___ jag ett långt brev till min mamma.",
+      "given": "skrave",
+      "expected": "skrev",
+      "correct": false
+    },
+    {
+      "id": "g9",
+      "section": "grammatik",
+      "type": "gap",
+      "tags": [
+        "verb.supinum"
+      ],
+      "prompt": "Har du någon gång ___ surströmming?",
+      "given": "ät",
+      "expected": "ätit",
+      "correct": false
+    },
+    {
+      "id": "g10",
+      "section": "grammatik",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "När jag var liten ___ vi i Shiraz.",
+      "given": "bode",
+      "expected": "bodde",
+      "correct": false
+    },
+    {
+      "id": "g11",
+      "section": "grammatik",
+      "type": "gap",
+      "tags": [
+        "substantiv.plural"
+      ],
+      "prompt": "Jag har läst tre ___ i sommar.",
+      "given": "bokar",
+      "expected": "böcker",
+      "correct": false
+    },
+    {
+      "id": "g12",
+      "section": "grammatik",
+      "type": "mcq",
+      "tags": [
+        "pronomen.sin"
+      ],
+      "prompt": "Erik träffade ___ syster och ___ man på stationen.",
+      "given": "sin … hennes",
+      "expected": "sin … hennes",
+      "correct": true
+    },
+    {
+      "id": "g13",
+      "section": "grammatik",
+      "type": "mcq",
+      "tags": [
+        "preposition"
+      ],
+      "prompt": "Jag är mycket intresserad ___ historia.",
+      "given": "på",
+      "expected": "av",
+      "correct": false
+    },
+    {
+      "id": "g14",
+      "section": "grammatik",
+      "type": "mcq",
+      "tags": [
+        "preposition.tid"
+      ],
+      "prompt": "Hon har bott i Sverige ___ fem år.",
+      "given": "sedan",
+      "expected": "i",
+      "correct": false
+    },
+    {
+      "id": "g15",
+      "section": "grammatik",
+      "type": "mcq",
+      "tags": [
+        "bisats.om-att"
+      ],
+      "prompt": "Jag undrar ___ du vill följa med på bio i kväll.",
+      "given": "om",
+      "expected": "om",
+      "correct": true
+    },
+    {
+      "id": "g16",
+      "section": "grammatik",
+      "type": "mcq",
+      "tags": [
+        "verb.passiv"
+      ],
+      "prompt": "Paketet ___ i går, så det kommer nog i morgon.",
+      "given": "skickades",
+      "expected": "skickades",
+      "correct": true
+    },
+    {
+      "id": "g17",
+      "section": "grammatik",
+      "type": "mcq",
+      "tags": [
+        "verb.reflexiv"
+      ],
+      "prompt": "Barnen måste ___ innan de äter.",
+      "given": "tvätta sig om händerna",
+      "expected": "tvätta sig",
+      "correct": false
+    },
+    {
+      "id": "g18",
+      "section": "grammatik",
+      "type": "mcq",
+      "tags": [
+        "verb.partikel"
+      ],
+      "prompt": "Kan du ___ min katt när jag är bortrest?",
+      "given": "ta hand om",
+      "expected": "ta hand om",
+      "correct": true
+    },
+    {
+      "id": "o1",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.synonym"
+      ],
+      "prompt": "”Jag var tvungen att stanna hemma.” betyder:",
+      "given": "Jag brukade stanna hemma.",
+      "expected": "Jag måste stanna hemma.",
+      "correct": false
+    },
+    {
+      "id": "o2",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.synonym"
+      ],
+      "prompt": "”Hon blev uppsagd.” betyder:",
+      "given": "Hon fick högre lön.",
+      "expected": "Hon förlorade sitt jobb.",
+      "correct": false
+    },
+    {
+      "id": "o3",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.synonym"
+      ],
+      "prompt": "”Han kommer förmodligen sent.” – förmodligen betyder:",
+      "given": "ofta",
+      "expected": "troligen",
+      "correct": false
+    },
+    {
+      "id": "o4",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.synonym"
+      ],
+      "prompt": "”Jag måste avboka min tid hos tandläkaren.” betyder:",
+      "given": "Jag måste boka en ny tid.",
+      "expected": "Jag måste säga att jag inte kommer.",
+      "correct": false
+    },
+    {
+      "id": "o5",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.kollokation"
+      ],
+      "prompt": "Jag har ___ ett jobb som lärarassistent på kommunen.",
+      "given": "letat",
+      "expected": "sökt",
+      "correct": false
+    },
+    {
+      "id": "o6",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.förväxling"
+      ],
+      "prompt": "Kan du ___ mig om mötet i morgon? Jag glömmer alltid.",
+      "given": "komma ihåg",
+      "expected": "påminna",
+      "correct": false
+    },
+    {
+      "id": "s1",
+      "section": "skriva",
+      "type": "write",
+      "tags": [
+        "skriv.mejl.formell"
+      ],
+      "prompt": "Du har bott i din lägenhet i två månader. Tvättstugan i huset har varit trasig i tre veckor. Skriv ett mejl till din hyresvärd.",
+      "given": null,
+      "expected": null,
+      "correct": null
+    },
+    {
+      "id": "t1",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.läsa-högt"
+      ],
+      "prompt": "Läs texten högt: ”Förra sommaren åkte vi till Gotland. Vi hyrde en stuga nära havet och badade varje dag. Det sju år gamla sjukhuset i Visby är tyvärr för litet, så när min son blev sjuk fick vi köra långt. Ändå var det en fantastisk semester.”",
+      "given": null,
+      "expected": null,
+      "correct": null
+    },
+    {
+      "id": "t2",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.berätta"
+      ],
+      "prompt": "Berätta om en vanlig vecka i ditt liv.",
+      "given": null,
+      "expected": null,
+      "correct": null
+    },
+    {
+      "id": "t3",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.argumentera"
+      ],
+      "prompt": "Är det bättre att bo i en stor stad eller på landet? Ge din åsikt och motivera.",
+      "given": null,
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "state": {
+    "step": 4,
+    "answers": {
+      "l1": 1,
+      "l2": 0,
+      "l3": 1,
+      "l4": 0,
+      "l5": 1,
+      "l6": 2,
+      "l7": 2,
+      "l8": 0,
+      "h1": 0,
+      "h2": 1,
+      "h3": 1,
+      "h4": 1,
+      "h5": 1,
+      "h6": 1,
+      "h7": 1,
+      "h8": 3,
+      "h9": 1,
+      "g1": [
+        2,
+        1,
+        4,
+        0,
+        3,
+        5
+      ],
+      "g2": [
+        4,
+        1,
+        5,
+        6,
+        3,
+        0,
+        2
+      ],
+      "g3": [
+        1,
+        5,
+        3,
+        2,
+        7,
+        4,
+        0,
+        6
+      ],
+      "g4": 1,
+      "g5": "stort",
+      "g6": "nya",
+      "g7": "stortare",
+      "g8": "skrave",
+      "g9": "ät",
+      "g10": "bode",
+      "g11": "bokar",
+      "g12": 2,
+      "g13": 2,
+      "g14": 3,
+      "g15": 1,
+      "g16": 1,
+      "g17": 0,
+      "g18": 1,
+      "o1": 3,
+      "o2": 2,
+      "o3": 3,
+      "o4": 2,
+      "o5": 1,
+      "o6": 0
+    },
+    "plays": {
+      "a1": 1,
+      "a2": 1,
+      "a3": 1
+    },
+    "sectionTime": {
+      "lasa": 597.894,
+      "lyssna": 426.577,
+      "grammatik": 431.17800000000005,
+      "ord": 224.938,
+      "skriva": 0.601
+    },
+    "startedAt": 1793828067354,
+    "attemptId": "2026-11-04T21-32-20-542Z",
+    "updatedAt": 1793829747942,
+    "lastStep": 4
+  },
+  "savedAt": "2026-11-04T23:02:28"
+}

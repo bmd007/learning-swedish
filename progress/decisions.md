@@ -24,3 +24,9 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 - Persian explanations are welcome. English hints early, fewer later.
 - Learner found the first research brief too narrow. They wanted agentic language-learning work in
   general, not only Swedish.
+
+## 2026-11-04 (later)
+- Learner skipped writing + speaking in 001; wants them in the next round.
+- Learner asked to decouple content (questions, results, interactions) from server/UI code so simpler AIs
+  can generate lessons, reports, plans from repo documents. → docs/AUTHORING.md is the contract; tools/ do
+  deterministic work (validate, report, audio); .claude/agents/ define author/grader roles.

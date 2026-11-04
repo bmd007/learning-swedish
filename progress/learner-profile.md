@@ -12,15 +12,21 @@
 
 | Skill | Estimate | Evidence |
 |---|---|---|
-| Läsa | ? | – |
-| Höra | ? | – |
-| Skriva | ? | – |
-| Tala | ? | – |
-| Grammatik | ? | – |
-| Ordförråd | ? | – |
+| Läsa | B1 (on easier-than-Swedex texts) | 001: 7/8, fast (10 min) |
+| Höra | B1 (on easier texts) | 001: 8/9 with 1 play each; missed 'däremot' contrast |
+| Skriva | ? | not done yet (→ 002) |
+| Tala | ? | not done yet (→ 002) |
+| Grammatik | syntax B1, morphology A2 | 001: word order 4/4; strong verbs/comparatives/plurals 0/5 |
+| Ordförråd | weak precision | 001: 0/6 (maybe rushed, 3.7 min) |
 
 ## Known weaknesses
-(none measured yet – diagnostic test 001 pending)
+- Irregular morphology: strong verb past/supine (skrave, ät), group-3 verbs (bode), comparative (stortare), o→ö plural (bokar).
+- Precise vocabulary for frequent B1 words: tvungen, uppsagd, förmodligen, avboka, söka jobb, påminna/komma ihåg, däremot.
+- Fixed prepositions: intresserad av, i + duration.
+
+## Strengths
+- Word order (V2, bisats, inversion after bisats) solid.
+- Gist + detail comprehension in reading/listening; confident listener (1 play).
 
 ## Open questions for the learner
 - Test date / which school (SFI D on paper, pass/fail).

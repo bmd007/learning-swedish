@@ -13,3 +13,9 @@
 - Downloaded official A2B1 model test to materials/ (gitignored).
 - Engine: added `select` (matching) and `short` (1–5 word answers) item types; examiner audio on speak items.
 - **Next step:** learner takes 001-diagnos; then official model test timed; then lessons in Swedex format.
+
+## 2026-11-04 – 001-diagnos graded (draft, writing/speaking skipped)
+- Reading 7/8, listening 8/9 (1 play), grammar 10/18 (word order perfect, morphology weak), vocab 0/6.
+- Feedback: feedback/001-diagnos__2026-11-04T21-32-20-542Z.md
+- Decoupled content from code: docs/AUTHORING.md, tools/validate.py, tools/report.py (tag-stats), new item type `info`, lesson `mode: practice` (instant check, firstTry recorded).
+- **Next step:** 002 writing+speaking (Swedex shape), 003 practice strong verbs + vocab from errors; then official model test reading.
