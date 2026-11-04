@@ -149,9 +149,10 @@ async function openLesson(id) {
       if (part.heading) card.append(h(`<div><h2>${esc(part.heading)}</h2>${en(part.headingEn)}</div>`));
       if (part.passage) card.append(h(`<div class="passage">${part.passageTitle ? `<h3>${esc(part.passageTitle)}</h3>` : ""}${esc(part.passage)}</div>`));
       if (part.audio) card.append(renderPlayer(part.audio));
+      if (part.options) card.append(h(`<div class="passage">${part.options.map(o => esc(o)).join("\n")}</div>`));
       for (const item of part.items ?? []) {
         n++;
-        card.append(renderItem(item, offset + n));
+        card.append(renderItem({ ...item, options: item.options ?? part.options }, offset + n));
       }
       blocks.append(card);
     }
@@ -199,6 +200,13 @@ async function openLesson(id) {
         set(Number(inp.value));
         wrap.querySelectorAll(".opt").forEach(o => o.classList.toggle("sel", o.contains(inp)));
       });
+    } else if (item.type === "select") {
+      wrap.innerHTML = `${q}<select class="gap"><option value="">– välj –</option>${item.options.map((o, i) =>
+        `<option value="${i}" ${cur === i ? "selected" : ""}>${esc(o.split(/\s+/).slice(0, 8).join(" "))}${o.split(/\s+/).length > 8 ? "…" : ""}</option>`).join("")}</select>`;
+      wrap.querySelector("select").onchange = e => set(e.target.value === "" ? null : Number(e.target.value));
+    } else if (item.type === "short") {
+      wrap.innerHTML = `${q}<input class="gap" style="width:100%;margin-top:8px" autocomplete="off" spellcheck="false" placeholder="1–5 ord" value="${esc(cur ?? "")}">`;
+      wrap.querySelector("input").oninput = e => set(e.target.value);
     } else if (item.type === "gap") {
       const [before, after] = item.q.split("___");
       wrap.innerHTML = `<div><span class="qnum">${num}.</span>${esc(before)}<input class="gap" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(cur ?? "")}">${esc(after ?? "")}${item.base ? ` <span class="muted">(${esc(item.base)})</span>` : ""}</div>${en(item.qEn)}`;
@@ -229,6 +237,7 @@ async function openLesson(id) {
       count();
     } else if (item.type === "speak") {
       wrap.append(...h(`<div>${q}${item.bullets ? `<ul>${item.bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>` : ""}</div>`).childNodes);
+      if (item.audio) wrap.append(renderPlayer(item.audio));
       wrap.append(renderRecorder(item, set));
     }
     return wrap;
@@ -311,12 +320,16 @@ async function openLesson(id) {
   }
 
   function allItems() {
-    return steps.flatMap(s => (s.parts ?? [s]).flatMap(p => (p.items ?? []).map(it => ({ ...it, section: s.id, audio: p.audio, passage: p.passage }))));
+    return steps.flatMap(s => (s.parts ?? [s]).flatMap(p => (p.items ?? []).map(it => ({ ...it, options: it.options ?? p.options, section: s.id, audio: it.audio ?? p.audio, passage: p.passage }))));
   }
 
   function grade(item) {
     const a = state.answers[item.id];
-    if (item.type === "mcq") return { given: a == null ? null : item.options[a], expected: item.options[item.answer], correct: a === item.answer };
+    if (item.type === "short") {
+      const given = norm(a);
+      return { given: a ?? null, expected: item.answers[0], correct: !!given && item.answers.some(x => given.includes(norm(x))), teacherCheck: true };
+    }
+    if (item.type === "mcq" || item.type === "select") return { given: a == null ? null : item.options[a], expected: item.options[item.answer], correct: a === item.answer };
     if (item.type === "gap") return { given: a ?? null, expected: item.answers[0], correct: item.answers.some(x => norm(x) === norm(a)) };
     if (item.type === "order") {
       const given = Array.isArray(a) ? a.map(i => item.words[i]).join(" ") : null;

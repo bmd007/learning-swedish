@@ -15,6 +15,9 @@ def audios(lesson):
         for part in sec.get("parts", [sec]):
             if part.get("audio"):
                 yield part["audio"]
+            for item in part.get("items", []):
+                if item.get("audio"):
+                    yield item["audio"]
 
 
 async def render(audio, out_mp3, rate):

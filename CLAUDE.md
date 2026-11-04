@@ -8,6 +8,7 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
 
 ## Resume checklist (read this first after a restart)
 
+0. Read `progress/plan.md` (current goal + timeline: Swedex A2B1 2026-12-04).
 1. Read `progress/learner-profile.md` (who the learner is, goals, strengths/weaknesses).
 2. Read `progress/log.md` (chronological log; the LAST entry says what is in flight and what's next).
 3. `ls results/ feedback/ lessons/` – a results file without a matching feedback file = an
@@ -54,10 +55,12 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
 audio: { id, title, maxPlays (2), speakers: {Name: "f"|"m"}, rate?, script: [{speaker, text}] }
 item common: { id (unique in lesson), type, tags: ["area.sub"], q, qEn, explain, explainEn }
   mcq:   options[], answer (index)
+  select: dropdown; options[] on the item OR on the part (shared, shown as a list) → matching tasks
+  short: free answer 1–5 words; answers[] = accepted key phrases (contained match); teacher re-checks wrong ones
   gap:   q contains "___", base (dictionary form hint), answers[] (accepted)
   order: words[] (shuffled), answers[] (accepted sentences, punctuation ignored)
   write: minWords, maxWords, bullets[]          → graded by Claude
-  speak: maxSeconds, bullets[]                  → recording + browser transcript, graded by Claude
+  speak: maxSeconds, bullets[], audio? (examiner question played first) → recording + browser transcript, graded by Claude
 ```
 Tags drive the learner model (e.g. `ordföljd.inversion`, `ordföljd.bisats`, `adjektiv.bestämd`,
 `verb.preteritum`, `preposition`, `läs.slutsats`, `hör.detalj`, `skriv.mejl.formell`, `tal.argumentera`).
