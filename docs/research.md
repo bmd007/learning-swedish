@@ -157,3 +157,21 @@ Matrices:
   1. Transcribe with kb-whisper using word timestamps.
   2. Compare the words to the target text with difflib.
   3. Flag words with low probability.
+
+## Update 2026-11-04: citizenship + Swedex (verified on official pages)
+
+- Migrationsverket (medborgarskap för vuxna): age 16–66, **läs + hör B1, muntlig + skriftlig A2**.
+  Ways to show it: pass in "den högsta kursen" of sfi; school grades in Swedish; Tisus; during the
+  transition also "annat kunskapsprov … på funktionell nivå", **e.g. Swedex**.
+- **Swedex ends: no Swedex tests after 2026-12-31** (Migrationsverket + Folkuniversitetet).
+  Last dates seen: A2B1 Göteborg 2026-12-04, Lund 2026-12-18. Migrationsverket will say during 2027
+  whether another test can replace Swedex.
+- Swedex versions are **A2B1** and **B2C1** (no "B1B2"). Overall result = lowest part. Free B1
+  model test: https://www.folkuniversitetet.se/mer-om-sprak/sprakexamina-och-sprakprov/swedex-swedish-examinations/modelltest/modelltest-b1/
+- The law (prop. 2025/26:175) says "the highest sfi course", not "kurs D". So the 2027 courses
+  1D/2D/3D should count (each is the highest course of its study path), but no official text says so explicitly.
+- sfi started before 2027-01-01 finishes under the old rules and the existing national tests.
+- Citizenship language test: by law in place by 2027-10-01 at the latest (stage 1: reading +
+  listening). UHR recommended a delay (Migrationsverket news 2026-09-30); the government decides.
+  Stage 2 adds speaking + writing, and then "annat kunskapsprov" stops counting (only Tisus +
+  grades + sfi + the state test remain).
