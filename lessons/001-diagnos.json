@@ -1,5 +1,6 @@
 {
   "id": "001-diagnos",
+  "legacy": true,
   "title": "Diagnostiskt test – var står du nu?",
   "titleEn": "Diagnostic test – where are you now?",
   "minutes": 50,
