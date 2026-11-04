@@ -9,6 +9,7 @@ You can create lessons, grade results, and write reports **without touching code
 | Listening audio | `audio/<lessonId>/<audioId>.m4a` | `tools/build_audio.py` (from the lesson JSON) |
 | Learner answers | `results/*.json` (final), `results/drafts/*.json` (unfinished, saved after every answer) | the app |
 | Voice recordings | `recordings/` (gitignored) | the app |
+| Photos of handwritten answers | `uploads/` (gitignored; HEIC auto-converted to JPG) | the app (`write` items) |
 | Feedback to learner | `feedback/<lessonId>__<attempt>.md` (shown in app) | grader |
 | Learner model | `progress/learner-profile.md`, `progress/plan.md`, `progress/decisions.md`, `progress/log.md` | teacher/grader |
 | Error stats | `progress/tag-stats.md` | `tools/report.py` (generated, never edit) |
@@ -69,7 +70,7 @@ Optional on all: `q`, `qEn` (English hint), `explain`, `explainEn` (shown after 
 | `gap` | fill one word | `q` with exactly one `___`, `answers[]` (all accepted), optional `base` (shown in brackets) | yes, exact (case/punctuation ignored) |
 | `order` | word order | `words[]` (shuffled), `answers[]` (accepted sentences, same words) | yes |
 | `short` | 1–5 word written answer (Swedex listening del 2–3) | `answers[]` = key phrases; correct if the answer contains one | yes, grader re-checks wrong ones |
-| `write` | free writing | `q`, `bullets[]`, `minWords`, `maxWords` | no → grader |
+| `write` | free writing (typed, or photo upload of handwriting) | `q`, `bullets[]`, `minWords`, `maxWords` | no → grader |
 | `speak` | recorded speech | `q`, `bullets[]`, `maxSeconds`, optional `audio` (examiner question played first) | no → grader |
 
 Examples:
@@ -142,7 +143,10 @@ Swedex A2B1, 2026-12-04. Format and timeline: `progress/plan.md`. Shapes to mirr
 ## Grading workflow (results → feedback)
 
 1. `python3 tools/report.py results/<file>.json` (or a draft) to see answers.
-2. Grade `write` with the Swedex criteria: task fulfilment/content, communicative form (greeting,
+2. If a `write` item has `images` (photos of handwriting in `uploads/`), open each image with the Read tool,
+   transcribe it exactly (keep the learner's errors) into the feedback, then grade. Note handwriting
+   problems that could cost points (unclear å/ä/ö, word boundaries).
+   Grade `write` with the Swedex criteria: task fulfilment/content, communicative form (greeting,
    register, coherence, linking words), formal correctness (grammar, spelling, word order). Grade
    `speak` transcripts on production/interaction, vocabulary, correctness; pronunciation can't be
    judged from a transcript (Chrome speech recognition may mishear — don't punish odd single words).

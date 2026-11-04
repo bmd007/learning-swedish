@@ -281,9 +281,44 @@ async function openLesson(id) {
       draw();
     } else if (item.type === "write") {
       wrap.innerHTML = `${q}${item.bullets ? `<ul>${item.bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>` : ""}
-        <textarea spellcheck="false" autocorrect="off" placeholder="Skriv här…">${esc(cur ?? "")}</textarea>
-        <div class="wordcount"></div>`;
+        <textarea spellcheck="false" autocorrect="off" placeholder="Skriv här… eller ladda upp ett foto av din handskrivna text nedan.">${esc(cur ?? "")}</textarea>
+        <div class="wordcount"></div>
+        <div class="upload">
+          <label class="btn secondary" style="padding:6px 14px;font-size:15px">📷 Ladda upp foto av handskriven text
+            <input type="file" accept="image/*" multiple hidden>
+          </label>
+          <span class="en">Upload a photo of your handwritten text (several pages ok). Write clearly.</span>
+          <div class="thumbs"></div>
+        </div>`;
       const ta = wrap.querySelector("textarea"), wc = wrap.querySelector(".wordcount");
+      const thumbs = wrap.querySelector(".thumbs"), file = wrap.querySelector("input[type=file]");
+      const drawThumbs = () => {
+        const list = state.uploads?.[item.id] ?? [];
+        thumbs.innerHTML = list.map((f, i) => `<div class="thumb"><a href="/uploads/${esc(f)}" target="_blank"><img src="/uploads/${esc(f)}" alt="sida ${i + 1}"></a><button data-i="${i}" title="Ta bort">✕</button></div>`).join("");
+        thumbs.querySelectorAll("button").forEach(b => b.onclick = () => {
+          state.uploads[item.id].splice(Number(b.dataset.i), 1);
+          save();
+          drawThumbs();
+        });
+      };
+      file.onchange = async () => {
+        for (const f of file.files) {
+          const ext = (f.name.split(".").pop() || "jpg").toLowerCase();
+          thumbs.insertAdjacentHTML("beforeend", `<span class="muted uploading">Laddar upp…</span>`);
+          const r = await fetch(`/api/upload?name=${lesson.id}__${item.id}&ext=${encodeURIComponent(ext)}`, { method: "POST", body: f })
+            .then(r => r.json()).catch(() => ({}));
+          if (r.saved) {
+            state.uploads ??= {};
+            (state.uploads[item.id] ??= []).push(r.saved);
+            save();
+          } else {
+            alert("Uppladdningen misslyckades. Använd JPG, PNG eller HEIC.");
+          }
+          drawThumbs();
+        }
+        file.value = "";
+      };
+      drawThumbs();
       const count = () => {
         const words = ta.value.trim().split(/\s+/).filter(Boolean).length;
         wc.textContent = `${words} ord${item.minWords ? ` (mål: ${item.minWords}–${item.maxWords})` : ""}`;
@@ -409,12 +444,13 @@ async function openLesson(id) {
       const given = Array.isArray(a) ? a.map(i => item.words[i]).join(" ") : null;
       return { given, expected: item.answers[0], correct: item.answers.some(x => norm(x) === norm(given)) };
     }
-    return { given: a ?? null, expected: null, correct: null };
+    return { given: a ?? null, expected: null, correct: null, ...(state.uploads?.[item.id]?.length ? { images: state.uploads[item.id] } : {}) };
   }
 
   function renderSubmit() {
     const items = allItems();
     const missing = items.filter(i => {
+      if (state.uploads?.[i.id]?.length) return false;
       const a = state.answers[i.id];
       return a == null || a === "" || (Array.isArray(a) && !a.length);
     });

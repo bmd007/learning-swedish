@@ -28,7 +28,8 @@ def show_one(path):
             given = i.get("given")
             if isinstance(given, dict):
                 given = f"[{given.get('seconds')}s rec {given.get('recording')}] {given.get('transcript', '')}"
-            print(f"\n{i['id']} {i['type']} ({', '.join(i['tags'])}):\n{given or '(not done)'}\n")
+            images = "".join(f"\n  image: uploads/{f}" for f in i.get("images", []))
+            print(f"\n{i['id']} {i['type']} ({', '.join(i['tags'])}):\n{given or ('(handwritten, see images)' if images else '(not done)')}{images}\n")
             continue
         ft = "" if i["id"] not in first else f" firstTry={'OK' if first[i['id']] else 'XX'}"
         print(f"{i['id']:5} {mark} {str(i.get('given'))[:60]:60} | expected: {i.get('expected')}  [{', '.join(i['tags'])}]{ft}")

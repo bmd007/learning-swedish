@@ -81,3 +81,8 @@ details summary { cursor: pointer; color: var(--accent); }
 .sv-keys[hidden] { display: none; }
 .sv-keys button { min-width: 44px; height: 44px; font-size: 20px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); cursor: pointer; }
 .sv-keys button:hover { border-color: var(--accent); background: var(--accent-soft); }
+.upload { margin-top: 10px; display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+.thumbs { display: flex; flex-wrap: wrap; gap: 10px; }
+.thumb { position: relative; }
+.thumb img { height: 120px; border-radius: 6px; border: 1px solid var(--line); display: block; }
+.thumb button { position: absolute; top: 4px; right: 4px; border: 0; border-radius: 50%; width: 24px; height: 24px; background: var(--bad); color: #fff; cursor: pointer; }

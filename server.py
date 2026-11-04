@@ -1,5 +1,6 @@
 import json
 import re
+import subprocess
 import sys
 from datetime import datetime
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -10,6 +11,8 @@ ROOT = Path(__file__).parent.resolve()
 LESSONS = ROOT / "lessons"
 RESULTS = ROOT / "results"
 RECORDINGS = ROOT / "recordings"
+UPLOADS = ROOT / "uploads"
+IMAGE_EXT = {"jpg", "jpeg", "png", "heic", "heif", "webp"}
 FEEDBACK = ROOT / "feedback"
 DRAFTS = RESULTS / "drafts"
 SAFE = re.compile(r"^[A-Za-z0-9_.-]+$")
@@ -87,7 +90,7 @@ class Handler(SimpleHTTPRequestHandler):
             if not files:
                 return self.send_json({"error": "not found"}, 404)
             return self.send_text(files[-1].read_text(encoding="utf-8"))
-        if p.startswith(("/web/", "/audio/")):
+        if p.startswith(("/web/", "/audio/", "/uploads/")):
             return super().do_GET()
         self.send_json({"error": "not found"}, 404)
 
@@ -120,11 +123,26 @@ class Handler(SimpleHTTPRequestHandler):
             f = RECORDINGS / f"{name}__{stamp}.{ext}"
             f.write_bytes(body)
             return self.send_json({"saved": f.name})
+        if url.path == "/api/upload":
+            q = parse_qs(url.query)
+            name = q.get("name", [""])[0]
+            ext = q.get("ext", [""])[0].lower()
+            if not SAFE.match(name) or ext not in IMAGE_EXT:
+                return self.send_json({"error": "bad name or type"}, 400)
+            f = UPLOADS / f"{name}__{stamp}-{datetime.now().microsecond:06d}.{ext}"
+            f.write_bytes(body)
+            if ext in ("heic", "heif", "webp"):
+                jpg = f.with_suffix(".jpg")
+                done = subprocess.run(["sips", "-s", "format", "jpeg", str(f), "--out", str(jpg)], capture_output=True)
+                if done.returncode == 0:
+                    f.unlink()
+                    f = jpg
+            return self.send_json({"saved": f.name})
         self.send_json({"error": "not found"}, 404)
 
 
 if __name__ == "__main__":
-    for d in (LESSONS, RESULTS, DRAFTS, RECORDINGS, FEEDBACK, ROOT / "audio"):
+    for d in (LESSONS, RESULTS, DRAFTS, RECORDINGS, UPLOADS, FEEDBACK, ROOT / "audio"):
         d.mkdir(exist_ok=True)
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8765
     print(f"Svenska B1 -> http://localhost:{port}")
