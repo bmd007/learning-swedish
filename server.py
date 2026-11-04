@@ -75,6 +75,12 @@ class Handler(SimpleHTTPRequestHandler):
             if not f.exists():
                 return self.send_json({"error": "not found"}, 404)
             return self.send_text(f.read_text(encoding="utf-8"), "application/json; charset=utf-8")
+        m = re.fullmatch(r"/api/draft/([A-Za-z0-9_.-]+)", p)
+        if m:
+            files = sorted(DRAFTS.glob(f"{m.group(1)}__*.json"), key=lambda f: f.stat().st_mtime)
+            if not files:
+                return self.send_json({"error": "not found"}, 404)
+            return self.send_text(files[-1].read_text(encoding="utf-8"), "application/json; charset=utf-8")
         m = re.fullmatch(r"/api/feedback/([A-Za-z0-9_.-]+)", p)
         if m:
             files = sorted(FEEDBACK.glob(f"{m.group(1)}__*.md"))

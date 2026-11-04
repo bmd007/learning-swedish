@@ -35,7 +35,8 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
 
 - `server.py` – Python stdlib server (no deps). `python3 server.py [port]`, default 8765.
   - `GET /api/lessons`, `GET /api/lessons/<id>`, `GET /api/feedback/<id>` (latest md)
-  - `POST /api/draft` → `results/drafts/<lessonId>__<attemptId>.json` (sent ~0.6 s after every answer)
+  - `POST /api/draft` → `results/drafts/<lessonId>__<attemptId>.json` (sent ~0.6 s after every answer, includes raw `state`)
+  - `GET /api/draft/<lessonId>` → latest draft; the app resumes from it if newer than localStorage
   - `POST /api/results` → `results/<lessonId>__<stamp>.json` (final; removes the draft)
   - `POST /api/recording?name=..&ext=..` → `recordings/` (gitignored, private)
 - `web/` – plain HTML/JS engine (`app.js`) that renders any lesson JSON.

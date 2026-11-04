@@ -74,12 +74,17 @@ async function openFeedback(id) {
 async function openLesson(id) {
   const lesson = await fetch(`/api/lessons/${id}`).then(r => r.json());
   const draftKey = `draft:${id}`;
-  const state = store.get(draftKey, null) ?? {
+  const local = store.get(draftKey, null);
+  const remote = await fetch(`/api/draft/${id}`).then(r => r.ok ? r.json() : null).catch(() => null);
+  const remoteState = remote?.state;
+  const useRemote = remoteState && (!local || (remoteState.updatedAt ?? 0) > (local.updatedAt ?? 0));
+  const state = (useRemote ? remoteState : local) ?? {
     step: -1, answers: {}, plays: {}, sectionTime: {}, startedAt: null,
   };
   state.attemptId ??= new Date().toISOString().replace(/[:.]/g, "-");
   let pushTimer = null;
   const save = () => {
+    state.updatedAt = Date.now();
     store.set(draftKey, state);
     clearTimeout(pushTimer);
     pushTimer = setTimeout(pushDraft, 600);
@@ -89,7 +94,7 @@ async function openLesson(id) {
     if (!state.startedAt) return;
     leaveStep();
     store.set(draftKey, state);
-    fetch("/api/draft", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(buildPayload(false)) })
+    fetch("/api/draft", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...buildPayload(false), state }) })
       .catch(() => {});
   }
 
