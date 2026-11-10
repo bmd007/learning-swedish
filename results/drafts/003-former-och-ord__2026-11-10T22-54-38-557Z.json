@@ -1,0 +1,343 @@
+{
+  "lessonId": "003-former-och-ord",
+  "attemptId": "2026-11-10T22-54-38-557Z",
+  "final": false,
+  "startedAt": "2026-11-10T22:54:44.682Z",
+  "finishedAt": null,
+  "durationMin": 0,
+  "currentSection": "verb",
+  "sectionMinutes": {
+    "verb": 0
+  },
+  "audioPlays": {},
+  "firstTry": {},
+  "score": {},
+  "items": [
+    {
+      "id": "v1",
+      "section": "verb",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Igår ___ jag ett långt mejl till chefen.",
+      "given": null,
+      "expected": "skrev",
+      "correct": false
+    },
+    {
+      "id": "v2",
+      "section": "verb",
+      "type": "gap",
+      "tags": [
+        "verb.supinum"
+      ],
+      "prompt": "Jag har aldrig ___ surströmming.",
+      "given": null,
+      "expected": "ätit",
+      "correct": false
+    },
+    {
+      "id": "v3",
+      "section": "verb",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Hon ___ för mycket kaffe i går kväll och kunde inte sova.",
+      "given": null,
+      "expected": "drack",
+      "correct": false
+    },
+    {
+      "id": "v4",
+      "section": "verb",
+      "type": "gap",
+      "tags": [
+        "verb.supinum"
+      ],
+      "prompt": "Vi har ___ till Spanien många gånger.",
+      "given": null,
+      "expected": "flugit",
+      "correct": false
+    },
+    {
+      "id": "v5",
+      "section": "verb",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Han ___ bussen till jobbet i morse.",
+      "given": null,
+      "expected": "tog",
+      "correct": false
+    },
+    {
+      "id": "v6",
+      "section": "verb",
+      "type": "gap",
+      "tags": [
+        "verb.supinum"
+      ],
+      "prompt": "Har du ___ den nya filmen?",
+      "given": null,
+      "expected": "sett",
+      "correct": false
+    },
+    {
+      "id": "v7",
+      "section": "verb",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Min bror ___ pappa förra månaden.",
+      "given": null,
+      "expected": "blev",
+      "correct": false
+    },
+    {
+      "id": "v8",
+      "section": "verb",
+      "type": "gap",
+      "tags": [
+        "verb.supinum"
+      ],
+      "prompt": "Jag har ___ här i två timmar och väntat.",
+      "given": null,
+      "expected": "suttit",
+      "correct": false
+    },
+    {
+      "id": "v9",
+      "section": "verb",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Vi ___ i Malmö när jag var barn.",
+      "given": null,
+      "expected": "bodde",
+      "correct": false
+    },
+    {
+      "id": "v10",
+      "section": "verb",
+      "type": "gap",
+      "tags": [
+        "verb.supinum"
+      ],
+      "prompt": "Jag har aldrig ___ på spöken.",
+      "given": null,
+      "expected": "trott",
+      "correct": false
+    },
+    {
+      "id": "f1",
+      "section": "former",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Stockholm är mycket ___ än Göteborg.",
+      "given": null,
+      "expected": "större",
+      "correct": false
+    },
+    {
+      "id": "f2",
+      "section": "former",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Min syster är tre år ___ än jag.",
+      "given": null,
+      "expected": "äldre",
+      "correct": false
+    },
+    {
+      "id": "f3",
+      "section": "former",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Den här jackan är bra, men den där är ännu ___.",
+      "given": null,
+      "expected": "bättre",
+      "correct": false
+    },
+    {
+      "id": "f4",
+      "section": "former",
+      "type": "gap",
+      "tags": [
+        "substantiv.plural"
+      ],
+      "prompt": "På hyllan står många ___ om Sverige.",
+      "given": null,
+      "expected": "böcker",
+      "correct": false
+    },
+    {
+      "id": "f5",
+      "section": "former",
+      "type": "gap",
+      "tags": [
+        "substantiv.plural"
+      ],
+      "prompt": "Efter maraton hade hon ont i båda ___.",
+      "given": null,
+      "expected": "fötter",
+      "correct": false
+    },
+    {
+      "id": "w1",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "ord.synonym"
+      ],
+      "prompt": "Jag kan inte komma i morgon. Jag är ___ att jobba.",
+      "given": null,
+      "expected": "tvungen",
+      "correct": false
+    },
+    {
+      "id": "w2",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.synonym"
+      ],
+      "prompt": "Fabriken stängde, och alla anställda blev ___.",
+      "given": null,
+      "expected": "uppsagda",
+      "correct": false
+    },
+    {
+      "id": "w3",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "ord.synonym"
+      ],
+      "prompt": "Det lyser inte i deras fönster. De är ___ inte hemma.",
+      "given": null,
+      "expected": "förmodligen",
+      "correct": false
+    },
+    {
+      "id": "w4",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.synonym"
+      ],
+      "prompt": "Jag är sjuk, så jag måste ___ tiden hos tandläkaren.",
+      "given": null,
+      "expected": "avboka",
+      "correct": false
+    },
+    {
+      "id": "w5",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.kollokation"
+      ],
+      "prompt": "Hon har ___ tre jobb den här veckan.",
+      "given": null,
+      "expected": "sökt",
+      "correct": false
+    },
+    {
+      "id": "w6",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.förväxling"
+      ],
+      "prompt": "Kan du ___ mig om mötet i morgon? Jag glömmer det så lätt.",
+      "given": null,
+      "expected": "påminna",
+      "correct": false
+    },
+    {
+      "id": "w7",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "ord.förväxling"
+      ],
+      "prompt": "Jag kan inte ___ vad hon heter.",
+      "given": null,
+      "expected": "komma ihåg",
+      "correct": false
+    },
+    {
+      "id": "w8",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "ord.synonym"
+      ],
+      "prompt": "Min bror älskar fisk. Jag tycker ___ inte om den.",
+      "given": null,
+      "expected": "däremot",
+      "correct": false
+    },
+    {
+      "id": "p1",
+      "section": "prep",
+      "type": "gap",
+      "tags": [
+        "preposition"
+      ],
+      "prompt": "Hon är mycket intresserad ___ historia.",
+      "given": null,
+      "expected": "av",
+      "correct": false
+    },
+    {
+      "id": "p2",
+      "section": "prep",
+      "type": "gap",
+      "tags": [
+        "preposition.tid"
+      ],
+      "prompt": "Vi har bott i Göteborg ___ tre år.",
+      "given": null,
+      "expected": "i",
+      "correct": false
+    },
+    {
+      "id": "p3",
+      "section": "prep",
+      "type": "gap",
+      "tags": [
+        "preposition.tid"
+      ],
+      "prompt": "Jag flyttade hit för tre år ___.",
+      "given": null,
+      "expected": "sedan",
+      "correct": false
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "state": {
+    "step": 0,
+    "answers": {},
+    "plays": {},
+    "sectionTime": {
+      "verb": 0.602
+    },
+    "startedAt": 1794351284682,
+    "attemptId": "2026-11-10T22-54-38-557Z",
+    "updatedAt": 1794351284682,
+    "lastStep": 0
+  },
+  "savedAt": "2026-11-10T23:54:45"
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="system-ui, sans-serif">
+  <rect width="640" height="300" fill="#fff"/>
+  <text x="320" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#222">svag – svagare – svagast</text>
+  <g font-size="20" text-anchor="middle">
+    <g transform="translate(30,80)">
+      <rect width="120" height="60" rx="8" fill="none" stroke="#2d3748" stroke-width="4"/><rect x="120" y="18" width="10" height="24" fill="#2d3748"/>
+      <rect x="8" y="8" width="104" height="44" rx="4" fill="#38a169"/>
+      <text x="62" y="96" font-weight="700" fill="#2f855a">stark</text><text x="62" y="122" font-size="16" fill="#555">100 %</text>
+    </g>
+    <g transform="translate(185,80)">
+      <rect width="120" height="60" rx="8" fill="none" stroke="#2d3748" stroke-width="4"/><rect x="120" y="18" width="10" height="24" fill="#2d3748"/>
+      <rect x="8" y="8" width="52" height="44" rx="4" fill="#d69e2e"/>
+      <text x="62" y="96" font-weight="700" fill="#b7791f">svag</text><text x="62" y="122" font-size="16" fill="#555">ett svagt batteri</text>
+    </g>
+    <g transform="translate(340,80)">
+      <rect width="120" height="60" rx="8" fill="none" stroke="#2d3748" stroke-width="4"/><rect x="120" y="18" width="10" height="24" fill="#2d3748"/>
+      <rect x="8" y="8" width="26" height="44" rx="4" fill="#dd6b20"/>
+      <text x="62" y="96" font-weight="700" fill="#c05621">svagare</text><text x="62" y="122" font-size="16" fill="#555">än igår</text>
+    </g>
+    <g transform="translate(495,80)">
+      <rect width="120" height="60" rx="8" fill="none" stroke="#2d3748" stroke-width="4"/><rect x="120" y="18" width="10" height="24" fill="#2d3748"/>
+      <rect x="8" y="8" width="8" height="44" rx="2" fill="#e53e3e"/>
+      <text x="62" y="96" font-weight="700" fill="#c53030">svagast</text><text x="62" y="122" font-size="16" fill="#555">den svagaste</text>
+    </g>
+  </g>
+  <text x="320" y="262" text-anchor="middle" font-size="18" fill="#444">en svag röst · ett svagt resultat · svaga elever</text>
+</svg>

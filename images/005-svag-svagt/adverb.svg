@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="system-ui, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#555"/></marker></defs>
+  <rect width="640" height="300" fill="#fff"/>
+  <text x="30" y="40" font-size="18" fill="#555">Vem/vad? → adjektiv</text>
+  <text x="30" y="100" font-size="30" fill="#222"><tspan fill="#2b6cb0" font-weight="700">Hon</tspan> är <tspan fill="#2f855a" font-weight="700">snabb</tspan>.</text>
+  <path d="M175 110 C150 140 80 140 60 112" fill="none" stroke="#555" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="330" y="40" font-size="18" fill="#555">Hur? → adverb (+t)</text>
+  <text x="330" y="100" font-size="30" fill="#222">Hon <tspan fill="#c05621" font-weight="700">springer</tspan> <tspan fill="#2f855a" font-weight="700">snabb<tspan fill="#e53e3e">t</tspan></tspan>.</text>
+  <path d="M545 110 C520 140 440 140 420 112" fill="none" stroke="#555" stroke-width="2.5" marker-end="url(#a)"/>
+  <line x1="20" y1="170" x2="620" y2="170" stroke="#ddd" stroke-width="2"/>
+  <text x="30" y="215" font-size="26" fill="#222">Resultatet var <tspan font-weight="700" fill="#b7791f">svagt</tspan>.</text>
+  <text x="30" y="245" font-size="16" fill="#555">ett resultat → ett-form</text>
+  <text x="330" y="215" font-size="26" fill="#222">Det <tspan font-weight="700" fill="#c05621">gick</tspan> <tspan font-weight="700" fill="#b7791f">svag<tspan fill="#e53e3e">t</tspan></tspan>.</text>
+  <text x="330" y="245" font-size="16" fill="#555">gick hur? → adverb</text>
+</svg>

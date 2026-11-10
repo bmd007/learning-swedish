@@ -10,6 +10,9 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   chunks + Persian note, then gap/mcq/order/listening/speak items). Log the word in
   progress/vocab.md so it comes back in later lessons (spaced repetition).
 - **All practice, tests and lessons happen in the app**, never in the chat.
+- **Lessons need media and focus.** Text-only lessons are boring. Every lesson has related images
+  (hand-drawn SVG that teaches the rule/scene, or free photos with credit) and audio where it fits.
+  One topic per lesson, 10–15 min. A word question with two topics → two lessons.
 
 ## 2026-11-04
 - **Study time is unknown and varies.** The learner does a test whenever they have time.

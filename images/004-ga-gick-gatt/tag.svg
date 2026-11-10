@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="system-ui, sans-serif">
+  <rect width="640" height="300" fill="#eaf4fb"/>
+  <rect y="230" width="640" height="70" fill="#a0aec0"/>
+  <rect y="222" width="640" height="10" fill="#f6e05e"/>
+  <rect x="330" y="120" width="300" height="90" rx="22" fill="#e53e3e"/>
+  <rect x="345" y="138" width="50" height="34" rx="5" fill="#bee3f8"/>
+  <rect x="410" y="138" width="50" height="34" rx="5" fill="#bee3f8"/>
+  <rect x="475" y="138" width="50" height="34" rx="5" fill="#bee3f8"/>
+  <rect x="540" y="138" width="50" height="34" rx="5" fill="#bee3f8"/>
+  <circle cx="380" cy="214" r="10" fill="#2d3748"/><circle cx="580" cy="214" r="10" fill="#2d3748"/>
+  <path d="M300 150 h-60 M300 170 h-90 M300 190 h-50" stroke="#718096" stroke-width="4" stroke-linecap="round"/>
+  <g transform="translate(110,222)">
+    <circle cx="0" cy="-92" r="13" fill="#2b6cb0"/>
+    <line x1="0" y1="-78" x2="0" y2="-35" stroke="#2b6cb0" stroke-width="7" stroke-linecap="round"/>
+    <line x1="0" y1="-68" x2="22" y2="-92" stroke="#2b6cb0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="-68" x2="-16" y2="-48" stroke="#2b6cb0" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="-35" x2="-14" y2="0" stroke="#2b6cb0" stroke-width="7" stroke-linecap="round"/>
+    <line x1="0" y1="-35" x2="14" y2="0" stroke="#2b6cb0" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <rect x="150" y="40" width="200" height="54" rx="12" fill="#fff" stroke="#2d3748" stroke-width="2"/>
+  <polygon points="160,94 140,118 185,94" fill="#fff" stroke="#2d3748" stroke-width="2"/>
+  <text x="250" y="76" text-anchor="middle" font-size="24" font-weight="700" fill="#222">Vänta!</text>
+  <text x="480" y="60" text-anchor="middle" font-size="26" font-weight="700" fill="#c53030">Tåget har gått.</text>
+  <text x="480" y="90" text-anchor="middle" font-size="16" fill="#4a5568">ett tåg / en buss går = åker</text>
+</svg>

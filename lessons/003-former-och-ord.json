@@ -17,7 +17,11 @@
         {
           "id": "i1",
           "type": "info",
-          "md": "**Persiska:** i persiska lär du dig två stammar per verb: رفتن → رو / رفت. Starka verb i svenska är samma idé, **men de kommer i vokalgrupper**.\n\n| Grupp | infinitiv – preteritum – supinum |\n|---|---|\n| **i – e – i** | skriva – **skrev** – skrivit · bli – blev – blivit |\n| **i – a – u** | dricka – **drack** – druckit · sitta – satt – suttit |\n| **y/ju – ö – u** | flyga – **flög** – flugit |\n| **a – o – a** | ta – **tog** – tagit |\n| **ä – å – ä** | äta – **åt** – ätit · se – såg – **sett** |\n\n- **Supinum** (efter *har/hade*) av starka verb slutar oftast på **-it**: *ätit, skrivit, druckit*. *ät* är aldrig en form.\n- **Korta verb** får **-dde / -tt**: bo – **bodde** – bott, tro – **trodde** – trott.\n\n**English:** same stem-pair idea as in Persian. Learn the vowel group and you know many verbs at once."
+          "md": "**Persiska:** i persiska lär du dig två stammar per verb: رفتن → رو / رفت. Starka verb i svenska är samma idé, **men de kommer i vokalgrupper**.\n\n| Grupp | infinitiv – preteritum – supinum |\n|---|---|\n| **i – e – i** | skriva – **skrev** – skrivit · bli – blev – blivit |\n| **i – a – u** | dricka – **drack** – druckit · sitta – satt – suttit |\n| **y/ju – ö – u** | flyga – **flög** – flugit |\n| **a – o – a** | ta – **tog** – tagit |\n| **ä – å – ä** | äta – **åt** – ätit · se – såg – **sett** |\n\n- **Supinum** (efter *har/hade*) av starka verb slutar oftast på **-it**: *ätit, skrivit, druckit*. *ät* är aldrig en form.\n- **Korta verb** får **-dde / -tt**: bo – **bodde** – bott, tro – **trodde** – trott.\n\n**English:** same stem-pair idea as in Persian. Learn the vowel group and you know many verbs at once.",
+          "image": {
+            "src": "vokalgrupper.svg",
+            "alt": "Tabell med vokalgrupper för starka verb"
+          }
         },
         {
           "id": "v1",
@@ -171,7 +175,11 @@
         {
           "id": "i2",
           "type": "info",
-          "md": "**Jämförelse:** vanligen **-are** (snabb – snabbare). Några ändrar vokal: stor – **större**, lång – **längre**, ung – **yngre**, gammal – **äldre**. Helt oregelbundna: bra – **bättre**, liten – **mindre**.\n\n**Plural med o → ö:** en bok – **böcker**, en fot – **fötter**, en son – **söner**."
+          "md": "**Jämförelse:** vanligen **-are** (snabb – snabbare). Några ändrar vokal: stor – **större**, lång – **längre**, ung – **yngre**, gammal – **äldre**. Helt oregelbundna: bra – **bättre**, liten – **mindre**.\n\n**Plural med o → ö:** en bok – **böcker**, en fot – **fötter**, en son – **söner**.",
+          "image": {
+            "src": "jamforelse.svg",
+            "alt": "Trappa med jämförelseformer"
+          }
         },
         {
           "id": "f1",
@@ -255,7 +263,11 @@
         {
           "id": "i3",
           "type": "info",
-          "md": "| Svenska | Betyder | فارسی |\n|---|---|---|\n| vara **tvungen** att | must, have to | مجبور بودن |\n| bli **uppsagd** | lose your job | اخراج شدن |\n| **förmodligen** | probably (= troligen) | احتمالاً |\n| **avboka** en tid | cancel a booking | لغو کردن |\n| **söka** ett jobb | apply for a job (*leta efter* = look for) | درخواست دادن |\n| **påminna** någon om något | remind someone | یادآوری کردن |\n| **komma ihåg** | remember (yourself) | یادم بودن |\n| **däremot** | on the other hand | در عوض |\n\n**Hook:** *påminna* = någon annan hjälper dig. *komma ihåg* = du själv minns."
+          "md": "| Svenska | Betyder | فارسی |\n|---|---|---|\n| vara **tvungen** att | must, have to | مجبور بودن |\n| bli **uppsagd** | lose your job | اخراج شدن |\n| **förmodligen** | probably (= troligen) | احتمالاً |\n| **avboka** en tid | cancel a booking | لغو کردن |\n| **söka** ett jobb | apply for a job (*leta efter* = look for) | درخواست دادن |\n| **påminna** någon om något | remind someone | یادآوری کردن |\n| **komma ihåg** | remember (yourself) | یادم بودن |\n| **däremot** | on the other hand | در عوض |\n\n**Hook:** *påminna* = någon annan hjälper dig. *komma ihåg* = du själv minns.",
+          "image": {
+            "src": "ord.svg",
+            "alt": "Ord vid jobbet och vid tandläkaren"
+          }
         },
         {
           "id": "w1",

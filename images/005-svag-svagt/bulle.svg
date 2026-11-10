@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="system-ui, sans-serif">
+  <rect width="640" height="300" fill="#fffaf0"/>
+  <ellipse cx="200" cy="215" rx="130" ry="22" fill="#e2e8f0"/>
+  <ellipse cx="200" cy="180" rx="110" ry="50" fill="#d69e2e"/>
+  <path d="M200 180 m-80 0 a80 34 0 1 0 160 0 a60 26 0 1 0 -120 0 a40 18 0 1 0 80 0 a22 10 0 1 0 -44 0" fill="none" stroke="#975a16" stroke-width="9" stroke-linecap="round"/>
+  <g fill="#fff"><circle cx="150" cy="160" r="3"/><circle cx="230" cy="150" r="3"/><circle cx="260" cy="185" r="3"/><circle cx="170" cy="200" r="3"/><circle cx="210" cy="170" r="3"/></g>
+  <path d="M200 70 c-20 -30 -60 -10 -40 20 l40 35 l40 -35 c20 -30 -20 -50 -40 -20z" fill="#e53e3e"/>
+  <text x="440" y="120" text-anchor="middle" font-size="26" font-weight="700" fill="#222">Jag är svag</text>
+  <text x="440" y="155" text-anchor="middle" font-size="26" font-weight="700" fill="#222">för kanelbullar.</text>
+  <text x="440" y="200" text-anchor="middle" font-size="18" fill="#555">= I can't say no to them</text>
+</svg>

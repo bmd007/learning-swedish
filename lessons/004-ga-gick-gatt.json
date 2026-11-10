@@ -1,0 +1,215 @@
+{
+  "id": "004-ga-gick-gatt",
+  "title": "Hur gick det? – verbet gå",
+  "titleEn": "How did it go? – the verb gå",
+  "mode": "practice",
+  "minutes": 10,
+  "intro": "Du frågade om \"det gick så svagt\". Här tränar vi bara verbet gå: gå – går – gick – gått, och vanliga fraser som Hur går det?",
+  "introEn": "You asked about \"det gick så svagt\". Here we only practise the verb gå and common phrases with it.",
+  "sections": [
+    {
+      "id": "ga",
+      "title": "Del 1: gå – går – gick – gått",
+      "titleEn": "Part 1: gå – går – gick – gått",
+      "instructions": "Titta på tidslinjen. Skriv rätt form av gå.",
+      "instructionsEn": "Look at the timeline. Write the right form of gå.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "md": "**Det gick så svagt.** = It went so badly. (خیلی ضعیف پیش رفت)\n\nSäg det om resultat, prov, försäljning, en match.\n\n| infinitiv | presens | preteritum | supinum | imperativ |\n|---|---|---|---|---|\n| gå | går | **gick** | **gått** | gå! |\n\n**Hur går det?** – inte bara att gå med fötterna. *Det går* = it is going / it works.\n\n| fras | betyder |\n|---|---|\n| Hur gick det? | How did it go? |\n| Det gick bra / dåligt / svagt / så där. | It went well / badly / weakly / so-so. |\n| Det går inte. | It doesn't work / isn't possible. |\n| Det går bra att betala med kort. | You can pay by card. |\n| Tiden går fort. | Time flies. |\n\n**Persiska:** رفتن – رفت – رفته. Samma idé: gå – gick – gått. *Hur går det?* ≈ «چطور پیش میره؟»",
+          "image": {
+            "src": "tidslinje.svg",
+            "alt": "Tidslinje: gick, har gått, går, ska gå"
+          }
+        },
+        {
+          "id": "g1",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Hur ___ det på provet igår?",
+          "answers": [
+            "gick"
+          ],
+          "base": "gå",
+          "qEn": "How did the test go yesterday?",
+          "explain": "igår → preteritum: gick."
+        },
+        {
+          "id": "g2",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "Det har ___ bra hittills.",
+          "answers": [
+            "gått"
+          ],
+          "base": "gå",
+          "qEn": "It has gone well so far.",
+          "explain": "har + supinum: gått."
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "tags": [
+            "verb.presens"
+          ],
+          "q": "Hur ___ det med din nya lägenhet?",
+          "answers": [
+            "går"
+          ],
+          "base": "gå",
+          "qEn": "How is it going with your new flat?",
+          "explain": "Nu → presens: går."
+        },
+        {
+          "id": "g4",
+          "type": "gap",
+          "tags": [
+            "verb.presens"
+          ],
+          "q": "Tyvärr ___ det inte att betala kontant här.",
+          "answers": [
+            "går"
+          ],
+          "base": "gå",
+          "qEn": "Unfortunately you can't pay cash here.",
+          "explain": "Det går inte = it is not possible."
+        },
+        {
+          "id": "g5",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "När jag kom till stationen hade tåget redan ___.",
+          "answers": [
+            "gått"
+          ],
+          "base": "gå",
+          "qEn": "When I got to the station, the train had already left.",
+          "explain": "hade + supinum: gått. Ett tåg/en buss går = it leaves.",
+          "image": {
+            "src": "tag.svg",
+            "alt": "En man springer, tåget har redan gått",
+            "size": "small"
+          }
+        },
+        {
+          "id": "g6",
+          "type": "mcq",
+          "tags": [
+            "ord.kollokation"
+          ],
+          "q": "Din vän frågar: \"Hur gick intervjun?\" Den var varken bra eller dålig. Vad svarar du?",
+          "qEn": "Your friend asks how the interview went. It was neither good nor bad.",
+          "options": [
+            "Det gick så där.",
+            "Det går inte.",
+            "Det har gått sönder.",
+            "Jag gick dit."
+          ],
+          "answer": 0,
+          "explain": "så där = so-so. Det går inte = not possible. gå sönder = break.",
+          "image": {
+            "src": "telefon.svg",
+            "alt": "Två mobiler med ett samtal: Hur gick intervjun?",
+            "size": "small"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anvand",
+      "title": "Del 2: Använd gå",
+      "titleEn": "Part 2: Use gå",
+      "instructions": "Ordna orden. Berätta sedan.",
+      "instructionsEn": "Put the words in order. Then speak.",
+      "items": [
+        {
+          "id": "o1",
+          "type": "order",
+          "tags": [
+            "ordföljd.inversion"
+          ],
+          "q": "It went badly last Friday.",
+          "words": [
+            "gick",
+            "i",
+            "fredags",
+            "det",
+            "svagt"
+          ],
+          "answers": [
+            "I fredags gick det svagt",
+            "Det gick svagt i fredags"
+          ],
+          "explain": "Tid först → verbet på plats 2: I fredags gick det svagt."
+        },
+        {
+          "id": "o2",
+          "type": "order",
+          "tags": [
+            "ordföljd.bisats"
+          ],
+          "q": "I know that it didn't go well.",
+          "words": [
+            "att",
+            "det",
+            "inte",
+            "gick",
+            "Jag",
+            "vet",
+            "bra"
+          ],
+          "answers": [
+            "Jag vet att det inte gick bra"
+          ],
+          "explain": "Bisats: inte före verbet → att det inte gick bra."
+        },
+        {
+          "id": "o3",
+          "type": "order",
+          "tags": [
+            "ordföljd.fråga"
+          ],
+          "q": "How is it going at work?",
+          "words": [
+            "går",
+            "Hur",
+            "det",
+            "jobbet",
+            "på"
+          ],
+          "answers": [
+            "Hur går det på jobbet"
+          ],
+          "explain": "Frågeord + verb + subjekt: Hur går det …?"
+        },
+        {
+          "id": "t1",
+          "type": "speak",
+          "tags": [
+            "tal.berätta"
+          ],
+          "q": "Hur gick din vecka? Berätta om något som gick bra och något som gick dåligt.",
+          "qEn": "How did your week go? Tell about one thing that went well and one that went badly.",
+          "maxSeconds": 60,
+          "bullets": [
+            "Vad gick bra? När? (i måndags, igår …)",
+            "Vad gick dåligt eller så där? Varför?",
+            "Hur går det just nu?"
+          ],
+          "image": {
+            "src": "telefon.svg",
+            "alt": "Ett samtal: Hur gick det?",
+            "size": "small"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -18,11 +18,30 @@
           "passageTitle": "Från: Maria · Ämne: Din nya lägenhet!",
           "passage": "Hej!\n\nVad roligt att du har flyttat! Hur ser den nya lägenheten ut? Hur många rum har du, och vad tycker du om området?\n\nJag kommer till Göteborg i slutet av november. Kan jag sova hos dig en natt? Och vad tycker du att vi ska göra när jag är där?\n\nSkriv snart!\nKram, Maria",
           "items": [
-            {"id": "s1", "type": "write", "tags": ["skriv.mejl.svar"], "minWords": 60, "maxWords": 120,
-             "q": "Skriv ditt svar till Maria.",
-             "qEn": "Write your reply to Maria.",
-             "bullets": ["Lägenheten: hur många rum, hur den ser ut", "Området: vad du tycker och varför", "Kan Maria sova hos dig?", "Förslag: vad ni kan göra tillsammans", "Hälsning och avslutning"]}
-          ]
+            {
+              "id": "s1",
+              "type": "write",
+              "tags": [
+                "skriv.mejl.svar"
+              ],
+              "minWords": 60,
+              "maxWords": 120,
+              "q": "Skriv ditt svar till Maria.",
+              "qEn": "Write your reply to Maria.",
+              "bullets": [
+                "Lägenheten: hur många rum, hur den ser ut",
+                "Området: vad du tycker och varför",
+                "Kan Maria sova hos dig?",
+                "Förslag: vad ni kan göra tillsammans",
+                "Hälsning och avslutning"
+              ]
+            }
+          ],
+          "image": {
+            "src": "mejl.svg",
+            "alt": "Ett mejl från Maria och ett svar",
+            "caption": "Maria skriver. Du svarar på alla frågor."
+          }
         }
       ]
     },
@@ -37,11 +56,30 @@
           "passageTitle": "Din kalender",
           "passage": "Måndag 16/11    09.00 tandläkaren · 18–20 svenskkurs\nTisdag 17/11    10.00 jobbintervju på IKEA · kväll: middag hos Sara\nOnsdag 18/11    (i dag) jobbar hemifrån · 15–17 tvättstugan\nTorsdag 19/11   bio med kollegorna\nLördag 21/11    Maria kommer! Hämta henne på Centralstationen 11.30",
           "items": [
-            {"id": "s2", "type": "write", "tags": ["skriv.kalender", "verb.preteritum", "verb.futurum"], "minWords": 60, "maxWords": 120,
-             "q": "Skriv till din vän om veckan.",
-             "qEn": "Past: i måndags gick jag… / Present: i dag jobbar jag… / Future: på torsdag ska jag… / kommer att…",
-             "bullets": ["Vad gjorde du i måndags och i tisdags? Hur gick det?", "Vad gör du i dag?", "Vad ska du göra på torsdag och på lördag?"]}
-          ]
+            {
+              "id": "s2",
+              "type": "write",
+              "tags": [
+                "skriv.kalender",
+                "verb.preteritum",
+                "verb.futurum"
+              ],
+              "minWords": 60,
+              "maxWords": 120,
+              "q": "Skriv till din vän om veckan.",
+              "qEn": "Past: i måndags gick jag… / Present: i dag jobbar jag… / Future: på torsdag ska jag… / kommer att…",
+              "bullets": [
+                "Vad gjorde du i måndags och i tisdags? Hur gick det?",
+                "Vad gör du i dag?",
+                "Vad ska du göra på torsdag och på lördag?"
+              ]
+            }
+          ],
+          "image": {
+            "src": "kalender.svg",
+            "alt": "Kalender med dagarna måndag till lördag",
+            "caption": "Förflutet, nutid och framtid i kalendern."
+          }
         }
       ]
     },
@@ -52,15 +90,79 @@
       "instructions": "Examinatorn ställer en fråga. Lyssna, klicka på ”Spela in” och svara. Prata gärna lite längre än en mening – berätta och ge exempel.",
       "instructionsEn": "Listen to the examiner, then record your answer. Give more than one sentence: explain, give examples. Chrome shows a live transcript.",
       "items": [
-        {"id": "t1", "type": "speak", "tags": ["tal.interaktion", "tal.berätta"], "maxSeconds": 60,
-         "q": "Fråga 1",
-         "audio": {"id": "e1", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Hej och välkommen! Kan du berätta lite om dig själv? Var kommer du ifrån, och hur länge har du bott i Sverige?"}]}},
-        {"id": "t2", "type": "speak", "tags": ["tal.interaktion", "tal.berätta"], "maxSeconds": 60,
-         "q": "Fråga 2",
-         "audio": {"id": "e2", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Vad gör du på fritiden? Har du någon hobby?"}]}},
-        {"id": "t3", "type": "speak", "tags": ["tal.interaktion", "tal.argumentera"], "maxSeconds": 60,
-         "q": "Fråga 3",
-         "audio": {"id": "e3", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Varför vill du lära dig svenska? Och i vilka situationer använder du svenska i vardagen?"}]}}
+        {
+          "id": "t1",
+          "type": "speak",
+          "tags": [
+            "tal.interaktion",
+            "tal.berätta"
+          ],
+          "maxSeconds": 60,
+          "q": "Fråga 1",
+          "audio": {
+            "id": "e1",
+            "maxPlays": 2,
+            "speakers": {
+              "Examinator": "m"
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Hej och välkommen! Kan du berätta lite om dig själv? Var kommer du ifrån, och hur länge har du bott i Sverige?"
+              }
+            ]
+          },
+          "image": {
+            "src": "samtal.svg",
+            "alt": "Examinatorn ställer en fråga och du svarar"
+          }
+        },
+        {
+          "id": "t2",
+          "type": "speak",
+          "tags": [
+            "tal.interaktion",
+            "tal.berätta"
+          ],
+          "maxSeconds": 60,
+          "q": "Fråga 2",
+          "audio": {
+            "id": "e2",
+            "maxPlays": 2,
+            "speakers": {
+              "Examinator": "m"
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Vad gör du på fritiden? Har du någon hobby?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "t3",
+          "type": "speak",
+          "tags": [
+            "tal.interaktion",
+            "tal.argumentera"
+          ],
+          "maxSeconds": 60,
+          "q": "Fråga 3",
+          "audio": {
+            "id": "e3",
+            "maxPlays": 2,
+            "speakers": {
+              "Examinator": "m"
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Varför vill du lära dig svenska? Och i vilka situationer använder du svenska i vardagen?"
+              }
+            ]
+          }
+        }
       ]
     },
     {
@@ -75,12 +177,56 @@
           "passageTitle": "SÄLJES: Damcykel",
           "passage": "Blå, 7 växlar, 3 år gammal\nNya däck i våras\nPris: 1 200 kr\nHämtas i Majorna, Göteborg\nRing efter kl. 17",
           "items": [
-            {"id": "t4", "type": "speak", "tags": ["tal.annons", "tal.interaktion"], "maxSeconds": 45,
-             "q": "Svara på examinatorns frågor om cykeln.",
-             "audio": {"id": "e4", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Hej, jag ringer om cykeln som du säljer. Hur gammal är den, och är den i bra skick?"}]}},
-            {"id": "t5", "type": "speak", "tags": ["tal.annons", "tal.interaktion"], "maxSeconds": 45,
-             "q": "Svara igen.",
-             "audio": {"id": "e5", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Okej, låter bra. Men tolvhundra kronor är lite mycket för mig. Kan du sänka priset? Och när kan jag komma och titta på den?"}]}}
+            {
+              "id": "t4",
+              "type": "speak",
+              "tags": [
+                "tal.annons",
+                "tal.interaktion"
+              ],
+              "maxSeconds": 45,
+              "q": "Svara på examinatorns frågor om cykeln.",
+              "audio": {
+                "id": "e4",
+                "maxPlays": 2,
+                "speakers": {
+                  "Examinator": "m"
+                },
+                "script": [
+                  {
+                    "speaker": "Examinator",
+                    "text": "Hej, jag ringer om cykeln som du säljer. Hur gammal är den, och är den i bra skick?"
+                  }
+                ]
+              },
+              "image": {
+                "src": "annons.svg",
+                "alt": "En annons för en blå damcykel"
+              }
+            },
+            {
+              "id": "t5",
+              "type": "speak",
+              "tags": [
+                "tal.annons",
+                "tal.interaktion"
+              ],
+              "maxSeconds": 45,
+              "q": "Svara igen.",
+              "audio": {
+                "id": "e5",
+                "maxPlays": 2,
+                "speakers": {
+                  "Examinator": "m"
+                },
+                "script": [
+                  {
+                    "speaker": "Examinator",
+                    "text": "Okej, låter bra. Men tolvhundra kronor är lite mycket för mig. Kan du sänka priset? Och när kan jag komma och titta på den?"
+                  }
+                ]
+              }
+            }
           ]
         },
         {
@@ -88,9 +234,17 @@
           "passageTitle": "Språkcafé på biblioteket",
           "passage": "dag och tid?\nplats?\npris?\nanmälan?\nvem kan komma?",
           "items": [
-            {"id": "t6", "type": "speak", "tags": ["tal.annons", "ordföljd.fråga"], "maxSeconds": 60,
-             "q": "Ställ minst fyra frågor till examinatorn om språkcaféet. Använd stödorden. Säg hela frågor.",
-             "qEn": "Ask at least four full questions about the language café, using the keywords. Remember: in questions the verb comes first or right after the question word (När börjar…? Kostar det…?)."}
+            {
+              "id": "t6",
+              "type": "speak",
+              "tags": [
+                "tal.annons",
+                "ordföljd.fråga"
+              ],
+              "maxSeconds": 60,
+              "q": "Ställ minst fyra frågor till examinatorn om språkcaféet. Använd stödorden. Säg hela frågor.",
+              "qEn": "Ask at least four full questions about the language café, using the keywords. Remember: in questions the verb comes first or right after the question word (När börjar…? Kostar det…?)."
+            }
           ]
         }
       ]
@@ -102,12 +256,54 @@
       "instructions": "Examinatorn tar upp ett ämne. Säg vad du tycker och förklara varför. Ge exempel.",
       "instructionsEn": "Give your opinion with reasons and examples. Useful: Jag tycker att… eftersom… · Å ena sidan… å andra sidan… · Till exempel… · Därför…",
       "items": [
-        {"id": "t7", "type": "speak", "tags": ["tal.argumentera"], "maxSeconds": 90,
-         "q": "Svara examinatorn.",
-         "audio": {"id": "e7", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Nu ska vi prata om mobiltelefoner. Många säger att vi använder mobilen för mycket. Vad tycker du? Finns det fördelar och nackdelar?"}]}},
-        {"id": "t8", "type": "speak", "tags": ["tal.argumentera"], "maxSeconds": 60,
-         "q": "Svara examinatorn.",
-         "audio": {"id": "e8", "maxPlays": 2, "speakers": {"Examinator": "m"}, "script": [{"speaker": "Examinator", "text": "Intressant. Tycker du att barn under tolv år ska ha en egen mobil? Varför, eller varför inte?"}]}}
+        {
+          "id": "t7",
+          "type": "speak",
+          "tags": [
+            "tal.argumentera"
+          ],
+          "maxSeconds": 90,
+          "q": "Svara examinatorn.",
+          "audio": {
+            "id": "e7",
+            "maxPlays": 2,
+            "speakers": {
+              "Examinator": "m"
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Nu ska vi prata om mobiltelefoner. Många säger att vi använder mobilen för mycket. Vad tycker du? Finns det fördelar och nackdelar?"
+              }
+            ]
+          },
+          "image": {
+            "src": "mobil.svg",
+            "alt": "Fördelar och nackdelar med mobilen"
+          }
+        },
+        {
+          "id": "t8",
+          "type": "speak",
+          "tags": [
+            "tal.argumentera"
+          ],
+          "maxSeconds": 60,
+          "q": "Svara examinatorn.",
+          "audio": {
+            "id": "e8",
+            "maxPlays": 2,
+            "speakers": {
+              "Examinator": "m"
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Intressant. Tycker du att barn under tolv år ska ha en egen mobil? Varför, eller varför inte?"
+              }
+            ]
+          }
+        }
       ]
     }
   ]
