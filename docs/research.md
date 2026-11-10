@@ -175,3 +175,5 @@ Matrices:
   listening). UHR recommended a delay (Migrationsverket news 2026-09-30); the government decides.
   Stage 2 adds speaking + writing, and then "annat kunskapsprov" stops counting (only Tisus +
   grades + sfi + the state test remain).
+
+<!-- archive: material-material -->
