@@ -74,7 +74,7 @@ Tags drive the learner model (e.g. `ordföljd.inversion`, `ordföljd.bisats`, `a
 
 - Short: 10–15 min per lesson. The learner's study time is unpredictable.
 - Swedex A2B1 task shapes first (see progress/plan.md). Mix in grammar only where errors show it is needed.
-- Always record notes from conversations in `progress/decisions.md`.
+- Record in `progress/decisions.md` only actual decisions, preferences, or facts about the learner that affect this repo. Not open questions or side topics.
 
 ## Teaching loop
 

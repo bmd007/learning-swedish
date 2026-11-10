@@ -2,12 +2,6 @@
 
 Newest first. Write down anything that changes the plan, a preference, or a fact about the learner.
 
-## 2026-11-10
-- Learner wants a break from tests: watch Swedish YouTube with Swedish auto-subs + English subs.
-  Tested local Ollama (M2 Pro, 32 GB): gemma3:4b and qwen3:8b translate sv→en well (~5 s for 3 lines
-  incl. model load); llama2 is chatty and weaker. Suggested Language Reactor first; a custom
-  Ollama extension is possible (could also save sentences into this repo for review).
-
 ## 2026-11-04
 - **Study time is unknown and varies.** The learner does a test whenever they have time.
   → Keep lessons short: 10–15 min units. Many small lessons are better than one long one.
