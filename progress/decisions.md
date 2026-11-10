@@ -10,6 +10,10 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   chunks + Persian note, then gap/mcq/order/listening/speak items). Log the word in
   progress/vocab.md so it comes back in later lessons (spaced repetition).
 - **All practice, tests and lessons happen in the app**, never in the chat.
+- **Rivstart B1/B2 extramaterial is downloaded locally** to `materials/nok/` (gitignored, licensed to the
+  learner – never commit or publish). Exercises as text, 167 audio tracks, listening transcripts, answer
+  keys, word/verb lists. See `materials/nok/README.md`. Use for themes/vocabulary and listening practice
+  that matches the learner's course. Access tokens in `nt-access.txt` (gitignored, expire after ~1 h).
 - **Lessons need media and focus.** Text-only lessons are boring. Every lesson has related images
   (hand-drawn SVG that teaches the rule/scene, or free photos with credit) and audio where it fits.
   One topic per lesson, 10–15 min. A word question with two topics → two lessons.
