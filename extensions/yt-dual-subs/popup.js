@@ -1,10 +1,11 @@
-const DEFAULTS = { model: 'gemma3:4b', enMode: 'show', scale: 1, enabled: true };
+const DEFAULTS = { model: 'gemma3:4b', enMode: 'show', scale: 1, enabled: true, svSource: 'human' };
 const $ = id => document.getElementById(id);
 
 (async () => {
   const s = await chrome.storage.sync.get(DEFAULTS);
   $('enabled').checked = s.enabled;
   $('enMode').value = s.enMode;
+  $('svSource').value = s.svSource;
   $('scale').value = s.scale;
   $('scaleVal').textContent = `${s.scale}×`;
 
@@ -23,6 +24,7 @@ const $ = id => document.getElementById(id);
 
   $('enabled').onchange = e => chrome.storage.sync.set({ enabled: e.target.checked });
   $('model').onchange = e => chrome.storage.sync.set({ model: e.target.value });
+  $('svSource').onchange = e => chrome.storage.sync.set({ svSource: e.target.value });
   $('enMode').onchange = e => chrome.storage.sync.set({ enMode: e.target.value });
   $('scale').oninput = e => {
     $('scaleVal').textContent = `${e.target.value}×`;

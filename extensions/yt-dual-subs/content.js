@@ -1,7 +1,8 @@
 (() => {
-  const DEFAULTS = { model: 'gemma3:4b', enMode: 'show', scale: 1, enabled: true };
+  const DEFAULTS = { model: 'gemma3:4b', enMode: 'show', scale: 1, enabled: true, svSource: 'human' };
+  const SOURCE_LABEL = { human: 'made by people', asr: 'auto-generated' };
   const EN_MODES = ['show', 'blur', 'hidden'];
-  const S = { settings: { ...DEFAULTS }, videoId: null, key: null, cues: [], gen: 0, shown: -2, fontPx: 0 };
+  const S = { settings: { ...DEFAULTS }, videoId: null, key: null, tracks: {}, active: null, cues: [], gen: 0, shown: -2, fontPx: 0 };
   let overlay, svEl, enEl, statusEl, statusTimer, hintTimer;
 
   const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -19,7 +20,8 @@
     applyMode();
     S.fontPx = 0;
     S.shown = -2;
-    if (S.cues.length && (before.model !== S.settings.model || changes.enabled)) restart();
+    if (changes.svSource) choose();
+    else if (S.cues.length && (before.model !== S.settings.model || changes.enabled)) restart();
   });
 
   function ensureUi() {
@@ -68,6 +70,8 @@
     S.gen++;
     S.videoId = videoId;
     S.key = null;
+    S.tracks = {};
+    S.active = null;
     S.cues = [];
     S.shown = -2;
     player()?.classList.remove('yds-active');
@@ -86,24 +90,35 @@
     const lang = (p.get('lang') ?? '').toLowerCase();
     if (p.get('tlang')) return;
     if (v && v !== S.videoId) reset(v);
-    if (!lang.startsWith('sv')) {
-      if (!S.cues.length) status('YT Dual Subs: choose Swedish subtitles (⚙ → Subtitles → Svenska)', { hideAfter: 8000 });
-      return;
-    }
-    const isAsr = p.get('kind') === 'asr';
-    const key = `${v}:${lang}:${isAsr ? 'asr' : 'std'}`;
-    if (key === S.key) return;
+    if (!lang.startsWith('sv')) return;
+    const kind = p.get('kind') === 'asr' ? 'asr' : 'human';
+    if (S.tracks[kind]) return;
     let cues;
     try {
-      cues = YDS.toCues(body, isAsr);
+      cues = YDS.toCues(body, kind === 'asr');
     } catch (err) {
       return;
     }
     if (!cues.length) return;
     clearTimeout(hintTimer);
-    S.key = key;
-    S.cues = cues.map(c => ({ ...c, en: null }));
+    S.tracks[kind] = cues;
+    choose();
+  }
+
+  function choose() {
+    const want = S.settings.svSource;
+    const pick = S.tracks[want] ? want : Object.keys(S.tracks)[0];
+    if (!pick || pick === S.active) return;
+    S.active = pick;
+    S.key = `${S.videoId}:${pick}`;
+    S.cues = S.tracks[pick].map(c => ({ ...c, en: null }));
     restart();
+  }
+
+  function sourceNote() {
+    const want = S.settings.svSource;
+    const note = `Swedish: ${SOURCE_LABEL[S.active]}`;
+    return S.active === want ? note : `${note} (no ${SOURCE_LABEL[want]} track yet)`;
   }
 
   const cacheKey = () => `yds:${S.key}:${S.settings.model}`;
@@ -148,7 +163,7 @@
       const batch = [];
       for (let i = idx; i < S.cues.length && batch.length < 10 && S.cues[i].en === null; i++) batch.push(i);
       const done = S.cues.filter(c => c.en !== null).length;
-      status(`Translating ${done}/${total} lines (${S.settings.model})…`);
+      status(`${sourceNote()} · translating ${done}/${total} (${S.settings.model})…`);
       let res;
       try {
         res = await chrome.runtime.sendMessage({
@@ -174,7 +189,7 @@
       S.shown = -2;
       saveCache();
     }
-    if (gen === S.gen) status(`Translated ${total} lines`, { hideAfter: 2500 });
+    if (gen === S.gen) status(`${sourceNote()} · ${total} lines translated`, { hideAfter: 3000 });
   }
 
   function render() {
