@@ -2,6 +2,13 @@
 
 Newest first. Write down anything that changes the plan, a preference, or a fact about the learner.
 
+## 2026-11-10
+- **Word questions = "teach me this".** When the learner asks about a Swedish word, verb, noun or
+  expression, they don't know it and want to practice it in all its forms (conjugation, declension,
+  related words, chunks). They may mistype å/ä/ö – fix silently.
+  → Answer with forms table + example chunks + a short practice drill. Log the word in
+  progress/vocab.md so it can come back in later lessons (spaced repetition).
+
 ## 2026-11-04
 - **Study time is unknown and varies.** The learner does a test whenever they have time.
   → Keep lessons short: 10–15 min units. Many small lessons are better than one long one.
