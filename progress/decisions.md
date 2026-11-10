@@ -14,6 +14,11 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   learner – never commit or publish). Exercises as text, 167 audio tracks, listening transcripts, answer
   keys, word/verb lists. See `materials/nok/README.md`. Use for themes/vocabulary and listening practice
   that matches the learner's course. Access tokens in `nt-access.txt` (gitignored, expire after ~1 h).
+- **Rivstart is one good source, not the curriculum.** Use it well (exercises, audio, transcripts, word
+  lists), but lessons are driven by the exam (Swedex A2B1) and the learner's errors, and mix in other
+  sources (own texts, real-life Swedish, other material).
+- **B1 level ≈ Rivstart B1/B2 chapters 1–9 (maybe 10).** Chapters 11–18 are B2 – don't use them for
+  B1/exam prep unless a specific item fits the level.
 - **Lessons need media and focus.** Text-only lessons are boring. Every lesson has related images
   (hand-drawn SVG that teaches the rule/scene, or free photos with credit) and audio where it fits.
   One topic per lesson, 10–15 min. A word question with two topics → two lessons.

@@ -50,7 +50,8 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
 - `feedback/<lessonId>__<stamp>.md` – Claude's graded feedback; shown in the app ("Feedback" button).
 - `progress/` – learner model (`learner-profile.md`, `log.md`, `errors.md`).
 - `materials/` – gitignored private sources. `materials/nok/` = Rivstart B1/B2 extramaterial (exercises,
-  audio, transcripts, facit, word lists); see its README. Never commit or publish it.
+  audio, transcripts, facit, word lists); see its README. Never commit or publish it. One source among
+  others, not the curriculum. B1 ≈ chapters 1–9 (maybe 10); 11–18 are B2.
 - `docs/research.md` – research on SFI D format, citizenship test, agentic tutors, TTS/STT.
 - venv: `.venv` (edge-tts). Recreate: `python3 -m venv .venv && .venv/bin/pip install edge-tts`.
 
