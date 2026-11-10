@@ -1,0 +1,212 @@
+{
+  "lessonId": "005-svag-svagt",
+  "attemptId": "2026-11-10T22-57-24-320Z",
+  "final": false,
+  "startedAt": "2026-11-10T22:57:25.668Z",
+  "finishedAt": null,
+  "durationMin": 0,
+  "currentSection": "svag",
+  "sectionMinutes": {
+    "svag": 0
+  },
+  "audioPlays": {},
+  "firstTry": {},
+  "score": {},
+  "items": [
+    {
+      "id": "s1",
+      "section": "svag",
+      "type": "gap",
+      "tags": [
+        "adjektiv.ett-ord"
+      ],
+      "prompt": "Det var ett ___ resultat för laget.",
+      "given": null,
+      "expected": "svagt",
+      "correct": false
+    },
+    {
+      "id": "s2",
+      "section": "svag",
+      "type": "gap",
+      "tags": [
+        "adjektiv.plural"
+      ],
+      "prompt": "Många ___ elever behöver extra hjälp.",
+      "given": null,
+      "expected": "svaga",
+      "correct": false
+    },
+    {
+      "id": "s3",
+      "section": "svag",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Min syn har blivit ___ med åren.",
+      "given": null,
+      "expected": "svagare",
+      "correct": false
+    },
+    {
+      "id": "s5",
+      "section": "svag",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Av alla spelare var han den ___.",
+      "given": null,
+      "expected": "svagaste",
+      "correct": false
+    },
+    {
+      "id": "s6",
+      "section": "svag",
+      "type": "gap",
+      "tags": [
+        "ord.tema.ordbildning"
+      ],
+      "prompt": "Min största ___ är att jag pratar för fort.",
+      "given": null,
+      "expected": "svaghet",
+      "correct": false
+    },
+    {
+      "id": "s7",
+      "section": "svag",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Sjukdomen ___ hennes hjärta.",
+      "given": null,
+      "expected": "försvagade",
+      "correct": false
+    },
+    {
+      "id": "s8",
+      "section": "svag",
+      "type": "mcq",
+      "tags": [
+        "ord.kollokation"
+      ],
+      "prompt": "\"Jag är svag för kanelbullar.\" Vad betyder det?",
+      "given": null,
+      "expected": "Jag tycker mycket om kanelbullar.",
+      "correct": false
+    },
+    {
+      "id": "a1",
+      "section": "adverb",
+      "type": "gap",
+      "tags": [
+        "adjektiv.adverb"
+      ],
+      "prompt": "Försäljningen gick ___ i år.",
+      "given": null,
+      "expected": "svagt",
+      "correct": false
+    },
+    {
+      "id": "a2",
+      "section": "adverb",
+      "type": "gap",
+      "tags": [
+        "adjektiv.adverb"
+      ],
+      "prompt": "Kan du prata lite mer ___?",
+      "given": null,
+      "expected": "tydligt",
+      "correct": false
+    },
+    {
+      "id": "a3",
+      "section": "adverb",
+      "type": "gap",
+      "tags": [
+        "adjektiv.adverb"
+      ],
+      "prompt": "Min dotter är väldigt ___ i matte.",
+      "given": null,
+      "expected": "duktig",
+      "correct": false
+    },
+    {
+      "id": "a5",
+      "section": "adverb",
+      "type": "gap",
+      "tags": [
+        "adjektiv.adverb"
+      ],
+      "prompt": "Barnen sjöng ___ på födelsedagen.",
+      "given": null,
+      "expected": "glatt",
+      "correct": false
+    },
+    {
+      "id": "a6",
+      "section": "adverb",
+      "type": "mcq",
+      "tags": [
+        "adjektiv.adverb"
+      ],
+      "prompt": "Välj rätt mening.",
+      "given": null,
+      "expected": "Han körde försiktigt hem.",
+      "correct": false
+    },
+    {
+      "id": "d1q1",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Hur gick matchen?",
+      "given": null,
+      "expected": "Dåligt, de förlorade.",
+      "correct": false
+    },
+    {
+      "id": "d1q2",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Varför var försvaret svagare?",
+      "given": null,
+      "expected": "Två spelare var sjuka.",
+      "correct": false
+    },
+    {
+      "id": "d1q3",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.kortsvar"
+      ],
+      "prompt": "Vad är lagets största svaghet, enligt tränaren?",
+      "given": null,
+      "expected": "kondition",
+      "correct": false,
+      "teacherCheck": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "state": {
+    "step": 0,
+    "answers": {},
+    "plays": {},
+    "sectionTime": {
+      "svag": 0.602
+    },
+    "startedAt": 1794351445668,
+    "attemptId": "2026-11-10T22-57-24-320Z",
+    "updatedAt": 1794351445669,
+    "lastStep": 0
+  },
+  "savedAt": "2026-11-10T23:57:26"
+}

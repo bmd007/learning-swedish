@@ -31,3 +31,10 @@
   `004-ga-gick-gatt` (verb gå) and `005-svag-svagt` (svag forms + adverb -t + dialogue). Added SVG images
   to 002 and 003 too.
 - Next step: learner takes 004/005 (and 002/003). Grade when results arrive.
+
+## 2026-11-11
+- Learner asked for a lesson about a job ad for a horse caretaker, with listening. Built
+  `006-jobb-hastskotare` (practice, ~13 min): stable vocabulary (mocka, rykta, släppa ut, krav vs
+  meriterande, varannan helg), ad with Ja/Nej (Swedex reading shape), phone call (Swedex listening:
+  MCQ + 1–5 word answers), speaking: call about the ad. Images: 2 SVGs + 3 Wikimedia photos (credited).
+- Next step: grade 004–006 when results arrive.

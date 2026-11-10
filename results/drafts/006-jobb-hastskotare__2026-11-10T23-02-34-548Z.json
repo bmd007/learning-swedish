@@ -1,0 +1,239 @@
+{
+  "lessonId": "006-jobb-hastskotare",
+  "attemptId": "2026-11-10T23-02-34-548Z",
+  "final": false,
+  "startedAt": "2026-11-10T23:02:46.808Z",
+  "finishedAt": null,
+  "durationMin": 0,
+  "currentSection": "ord",
+  "sectionMinutes": {
+    "ord": 0
+  },
+  "audioPlays": {},
+  "firstTry": {},
+  "score": {},
+  "items": [
+    {
+      "id": "o1",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "ord.tema.arbete"
+      ],
+      "prompt": "Varje morgon måste hästskötaren ___ boxarna.",
+      "given": null,
+      "expected": "mocka",
+      "correct": false
+    },
+    {
+      "id": "o2",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.tema.arbete"
+      ],
+      "prompt": "Vad gör man när man ryktar en häst?",
+      "given": null,
+      "expected": "Man borstar och gör ren hästen.",
+      "correct": false
+    },
+    {
+      "id": "o3",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "ord.tema.arbete"
+      ],
+      "prompt": "Det är ___ om du kan köra traktor, men det är inget krav.",
+      "given": null,
+      "expected": "meriterande",
+      "correct": false
+    },
+    {
+      "id": "o4",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "preposition"
+      ],
+      "prompt": "Har du erfarenhet ___ hästar?",
+      "given": null,
+      "expected": "av",
+      "correct": false
+    },
+    {
+      "id": "o5",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.tema.arbete"
+      ],
+      "prompt": "\"Du ska arbeta varannan helg.\" Hur många helger arbetar du i en månad med fyra helger?",
+      "given": null,
+      "expected": "Två",
+      "correct": false
+    },
+    {
+      "id": "l1",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Ridskolan söker någon som ska arbeta heltid.",
+      "given": null,
+      "expected": "Nej",
+      "correct": false
+    },
+    {
+      "id": "l2",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Man måste ha körkort.",
+      "given": null,
+      "expected": "Ja",
+      "correct": false
+    },
+    {
+      "id": "l3",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Man måste kunna köra traktor.",
+      "given": null,
+      "expected": "Nej",
+      "correct": false
+    },
+    {
+      "id": "l4",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Man arbetar några helger varje månad.",
+      "given": null,
+      "expected": "Ja",
+      "correct": false
+    },
+    {
+      "id": "l5",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Man kan ringa Lena klockan tio på förmiddagen.",
+      "given": null,
+      "expected": "Nej",
+      "correct": false
+    },
+    {
+      "id": "l6",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Hästarna är ute i hagen under dagen.",
+      "given": null,
+      "expected": "Ja",
+      "correct": false
+    },
+    {
+      "id": "h1",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.huvudtanke"
+      ],
+      "prompt": "Varför ringer Amir?",
+      "given": null,
+      "expected": "Han vill fråga om jobbet.",
+      "correct": false
+    },
+    {
+      "id": "h2",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Var har Amir jobbat med hästar i Sverige?",
+      "given": null,
+      "expected": "I Enköping",
+      "correct": false
+    },
+    {
+      "id": "h3",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Hur många timmar jobbar man en dag på helgen?",
+      "given": null,
+      "expected": "fem",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "h4",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.tid"
+      ],
+      "prompt": "När ska Amir besöka stallet? (dag och tid)",
+      "given": null,
+      "expected": "torsdag",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "h5",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.kortsvar"
+      ],
+      "prompt": "Vad ska Amir ta med?",
+      "given": null,
+      "expected": "stövlar",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "t1",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.annons",
+        "tal.interaktion"
+      ],
+      "prompt": "Ring Lena om jobbet. Presentera dig och fråga om jobbet.",
+      "given": null,
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "state": {
+    "step": 0,
+    "answers": {},
+    "plays": {},
+    "sectionTime": {
+      "ord": 0.601
+    },
+    "startedAt": 1794351766808,
+    "attemptId": "2026-11-10T23-02-34-548Z",
+    "updatedAt": 1794351766808,
+    "lastStep": 0
+  },
+  "savedAt": "2026-11-11T00:02:47"
+}

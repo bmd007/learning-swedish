@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="system-ui, sans-serif">
+  <rect width="640" height="300" fill="#fff"/>
+  <g transform="translate(90,250)">
+    <circle cx="0" cy="-150" r="28" fill="#c68642"/>
+    <path d="M-28 -158 Q0 -195 28 -158 Q20 -175 0 -178 Q-20 -175 -28 -158z" fill="#222"/>
+    <rect x="-38" y="-118" width="76" height="110" rx="20" fill="#2b6cb0"/>
+    <rect x="20" y="-170" width="14" height="30" rx="4" fill="#222"/>
+    <text x="0" y="22" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Amir</text>
+  </g>
+  <g transform="translate(550,250)">
+    <circle cx="0" cy="-150" r="28" fill="#f1c27d"/>
+    <path d="M-30 -150 Q-32 -185 0 -182 Q32 -185 30 -150 L30 -120 L22 -150 Q0 -170 -22 -150 L-30 -120z" fill="#d69e2e"/>
+    <rect x="-38" y="-118" width="76" height="110" rx="20" fill="#2f855a"/>
+    <rect x="-34" y="-170" width="14" height="30" rx="4" fill="#222"/>
+    <text x="0" y="22" text-anchor="middle" font-size="18" font-weight="700" fill="#222">Lena, stallchef</text>
+  </g>
+  <rect x="160" y="40" width="300" height="50" rx="14" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="310" y="72" text-anchor="middle" font-size="19" fill="#222">Jag ringer om annonsen …</text>
+  <rect x="180" y="110" width="290" height="50" rx="14" fill="#f0fff4" stroke="#2f855a" stroke-width="2"/>
+  <text x="325" y="142" text-anchor="middle" font-size="19" fill="#222">Har du jobbat med hästar?</text>
+  <rect x="160" y="180" width="300" height="50" rx="14" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="310" y="212" text-anchor="middle" font-size="19" fill="#222">När kan jag komma och titta?</text>
+</svg>

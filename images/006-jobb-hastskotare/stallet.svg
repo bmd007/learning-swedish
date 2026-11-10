@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" font-family="system-ui, sans-serif">
+  <rect width="640" height="320" fill="#fff"/>
+  <text x="320" y="30" text-anchor="middle" font-size="22" font-weight="700" fill="#222">I stallet och i hagen</text>
+  <rect x="20" y="60" width="330" height="200" fill="#fbf3e4" stroke="#8b5a2b" stroke-width="3"/>
+  <polygon points="10,62 185,40 360,62" fill="#8b5a2b"/>
+  <rect x="40" y="110" width="160" height="150" fill="#f3e2c0" stroke="#8b5a2b" stroke-width="3"/>
+  <rect x="40" y="200" width="160" height="60" fill="#c49a6c"/>
+  <g stroke="#8b5a2b" stroke-width="3"><line x1="40" y1="200" x2="200" y2="200"/><line x1="80" y1="200" x2="80" y2="260"/><line x1="120" y1="200" x2="120" y2="260"/><line x1="160" y1="200" x2="160" y2="260"/></g>
+  <path d="M95 200 L95 150 Q95 125 120 120 L150 112 Q170 108 175 125 L180 150 L165 152 L160 138 L140 145 L140 200 Z" fill="#8b4513"/>
+  <path d="M150 112 L160 92 L168 112 Z" fill="#8b4513"/>
+  <path d="M135 115 Q120 140 112 175" stroke="#3b1f0a" stroke-width="6" fill="none"/>
+  <circle cx="160" cy="125" r="3" fill="#000"/>
+  <ellipse cx="270" cy="235" rx="50" ry="25" fill="#e9c46a"/>
+  <g stroke="#c9a227" stroke-width="2"><line x1="235" y1="230" x2="260" y2="215"/><line x1="255" y1="240" x2="290" y2="220"/><line x1="275" y1="245" x2="305" y2="228"/></g>
+  <line x1="320" y1="120" x2="300" y2="250" stroke="#6b4423" stroke-width="5"/>
+  <g stroke="#555" stroke-width="3"><line x1="320" y1="120" x2="312" y2="95"/><line x1="320" y1="120" x2="322" y2="94"/><line x1="320" y1="120" x2="331" y2="97"/></g>
+  <g font-size="16" font-weight="700">
+    <text x="120" y="100" text-anchor="middle" fill="#8b5a2b">en box</text>
+    <text x="270" y="282" text-anchor="middle" fill="#9a7b0a">hö (foder)</text>
+    <text x="272" y="105" text-anchor="middle" fill="#555">en grep</text>
+    <text x="120" y="282" text-anchor="middle" fill="#8b4513">en häst</text>
+  </g>
+  <rect x="380" y="60" width="240" height="200" fill="#c6f6d5"/>
+  <g stroke="#8b5a2b" stroke-width="4"><line x1="380" y1="200" x2="620" y2="200"/><line x1="380" y1="225" x2="620" y2="225"/><line x1="400" y1="185" x2="400" y2="245"/><line x1="500" y1="185" x2="500" y2="245"/><line x1="600" y1="185" x2="600" y2="245"/></g>
+  <path d="M470 175 L470 135 L540 130 L560 105 L575 112 L560 140 L555 175 L545 175 L540 150 L485 150 L480 175 Z" fill="#3b2a1a"/>
+  <circle cx="520" cy="80" r="18" fill="#f6e05e"/>
+  <text x="500" y="282" text-anchor="middle" font-size="16" font-weight="700" fill="#2f855a">en hage</text>
+  <text x="320" y="310" text-anchor="middle" font-size="15" fill="#444">mocka boxen · ge foder · släppa ut i hagen · ta in · rykta hästen</text>
+</svg>
