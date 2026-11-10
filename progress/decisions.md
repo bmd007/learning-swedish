@@ -6,8 +6,10 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 - **Word questions = "teach me this".** When the learner asks about a Swedish word, verb, noun or
   expression, they don't know it and want to practice it in all its forms (conjugation, declension,
   related words, chunks). They may mistype å/ä/ö – fix silently.
-  → Answer with forms table + example chunks + a short practice drill. Log the word in
-  progress/vocab.md so it can come back in later lessons (spaced repetition).
+  → Don't drill in chat. Build a short practice lesson in the app (info cards with forms table +
+  chunks + Persian note, then gap/mcq/order/listening/speak items). Log the word in
+  progress/vocab.md so it comes back in later lessons (spaced repetition).
+- **All practice, tests and lessons happen in the app**, never in the chat.
 
 ## 2026-11-04
 - **Study time is unknown and varies.** The learner does a test whenever they have time.

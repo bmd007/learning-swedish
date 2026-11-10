@@ -19,3 +19,10 @@
 - Feedback: feedback/001-diagnos__2026-11-04T21-32-20-542Z.md
 - Decoupled content from code: docs/AUTHORING.md, tools/validate.py, tools/report.py (tag-stats), new item type `info`, lesson `mode: practice` (instant check, firstTry recorded).
 - **Next step:** 002 writing+speaking (Swedex shape), 003 practice strong verbs + vocab from errors; then official model test reading.
+
+## 2026-11-10
+- Learner asked about "gick så svagt". Built `004-ga-och-svag` (practice): gå forms + chunks
+  (hur går det, det går inte, så där), svag forms + svaghet/försvaga/vara svag för, adjective → adverb -t,
+  a short dialogue (audio), word order, 1 speak item.
+- New tag: `adjektiv.adverb`, `ord.tema.ordbildning`.
+- Next step: grade 004 when results arrive. Recycle words from progress/vocab.md in later lessons.

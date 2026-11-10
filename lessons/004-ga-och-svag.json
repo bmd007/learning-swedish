@@ -1,0 +1,498 @@
+{
+  "id": "004-ga-och-svag",
+  "title": "Det gick så svagt – gå och svag i alla former",
+  "titleEn": "It went so badly – gå and svag in all forms",
+  "mode": "practice",
+  "minutes": 12,
+  "intro": "Du frågade om \"det gick så svagt\". Här tränar vi verbet gå, adjektivet svag och regeln adjektiv → adverb (-t).",
+  "introEn": "You asked about \"det gick så svagt\". We practise the verb gå, the adjective svag and the rule adjective → adverb (-t).",
+  "sections": [
+    {
+      "id": "ga",
+      "title": "Del 1: gå – gick – gått",
+      "titleEn": "Part 1: gå – gick – gått",
+      "instructions": "Läs regeln. Skriv sedan rätt form av gå.",
+      "instructionsEn": "Read the rule. Then write the right form of gå.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "md": "**Det gick så svagt.** = It went so badly. (خیلی ضعیف پیش رفت)\n\nSäg det om resultat, prov, försäljning, en match.\n\n| infinitiv | presens | preteritum | supinum | imperativ |\n|---|---|---|---|---|\n| gå | går | **gick** | **gått** | gå! |\n\n**Hur går det?** – inte bara att gå med fötterna. *Det går* = it is going / it works.\n\n| fras | betyder |\n|---|---|\n| Hur gick det? | How did it go? |\n| Det gick bra / dåligt / svagt / så där. | It went well / badly / weakly / so-so. |\n| Det går inte. | It doesn't work / isn't possible. |\n| Det går bra att betala med kort. | You can pay by card. |\n| Tiden går fort. | Time flies. |\n\n**Persiska:** رفتن – رفت – رفته. Samma idé: gå – gick – gått. *Hur går det?* ≈ «چطور پیش میره؟»"
+        },
+        {
+          "id": "g1",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Hur ___ det på provet igår?",
+          "answers": [
+            "gick"
+          ],
+          "base": "gå",
+          "qEn": "How did the test go yesterday?",
+          "explain": "igår → preteritum: gick."
+        },
+        {
+          "id": "g2",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "Det har ___ bra hittills.",
+          "answers": [
+            "gått"
+          ],
+          "base": "gå",
+          "qEn": "It has gone well so far.",
+          "explain": "har + supinum: gått."
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "tags": [
+            "verb.presens"
+          ],
+          "q": "Hur ___ det med din nya lägenhet?",
+          "answers": [
+            "går"
+          ],
+          "base": "gå",
+          "qEn": "How is it going with your new flat?",
+          "explain": "Nu → presens: går."
+        },
+        {
+          "id": "g4",
+          "type": "gap",
+          "tags": [
+            "verb.presens"
+          ],
+          "q": "Tyvärr ___ det inte att betala kontant här.",
+          "answers": [
+            "går"
+          ],
+          "base": "gå",
+          "qEn": "Unfortunately you can't pay cash here.",
+          "explain": "Det går inte = it is not possible."
+        },
+        {
+          "id": "g5",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "När jag kom till stationen hade tåget redan ___.",
+          "answers": [
+            "gått"
+          ],
+          "base": "gå",
+          "qEn": "When I got to the station, the train had already left.",
+          "explain": "hade + supinum: gått. Ett tåg/en buss går = it leaves."
+        },
+        {
+          "id": "g6",
+          "type": "mcq",
+          "tags": [
+            "ord.kollokation"
+          ],
+          "q": "Din vän frågar: \"Hur gick intervjun?\" Den var varken bra eller dålig. Vad svarar du?",
+          "qEn": "Your friend asks how the interview went. It was neither good nor bad.",
+          "options": [
+            "Det gick så där.",
+            "Det går inte.",
+            "Det har gått sönder.",
+            "Jag gick dit."
+          ],
+          "answer": 0,
+          "explain": "så där = so-so. Det går inte = not possible. gå sönder = break."
+        }
+      ]
+    },
+    {
+      "id": "svag",
+      "title": "Del 2: svag – svagt – svaga",
+      "titleEn": "Part 2: svag – svagt – svaga",
+      "instructions": "Läs regeln. Skriv rätt form av svag.",
+      "instructionsEn": "Read the rule. Write the right form of svag.",
+      "items": [
+        {
+          "id": "i2",
+          "type": "info",
+          "md": "| form | när | exempel |\n|---|---|---|\n| svag | en-ord | en **svag** röst |\n| svag**t** | ett-ord | ett **svagt** resultat |\n| svag**a** | plural / bestämd | **svaga** elever, den **svaga** punkten |\n| svag**are** | jämförelse | Mitt lag är **svagare**. |\n| svag**ast** | superlativ | Han är **svagast** i klassen. / den **svagaste** |\n\n**Ord i samma familj:**\n- **en svaghet** – svagheten – svagheter (a weakness)\n- **försvaga** – försvagar – försvagade – försvagat (to weaken)\n- **vara svag för något** = to have a soft spot for something: *Jag är svag för choklad.*"
+        },
+        {
+          "id": "s1",
+          "type": "gap",
+          "tags": [
+            "adjektiv.ett-ord"
+          ],
+          "q": "Det var ett ___ resultat för laget.",
+          "answers": [
+            "svagt"
+          ],
+          "base": "svag",
+          "qEn": "It was a weak result for the team.",
+          "explain": "ett resultat → svagt."
+        },
+        {
+          "id": "s2",
+          "type": "gap",
+          "tags": [
+            "adjektiv.plural"
+          ],
+          "q": "Många ___ elever behöver extra hjälp.",
+          "answers": [
+            "svaga"
+          ],
+          "base": "svag",
+          "explain": "plural → svaga."
+        },
+        {
+          "id": "s3",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Min syn har blivit ___ med åren.",
+          "answers": [
+            "svagare"
+          ],
+          "base": "svag",
+          "qEn": "My eyesight has got weaker over the years.",
+          "explain": "jämförelse → svagare."
+        },
+        {
+          "id": "s4",
+          "type": "gap",
+          "tags": [
+            "adjektiv.bestämd"
+          ],
+          "q": "Det är den ___ punkten i din text.",
+          "answers": [
+            "svaga"
+          ],
+          "base": "svag",
+          "qEn": "That's the weak point in your text.",
+          "explain": "den + adjektiv + substantiv-en → svaga."
+        },
+        {
+          "id": "s5",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Av alla spelare var han den ___.",
+          "answers": [
+            "svagaste"
+          ],
+          "base": "svag",
+          "qEn": "Of all the players, he was the weakest.",
+          "explain": "den + superlativ → svagaste."
+        },
+        {
+          "id": "s6",
+          "type": "gap",
+          "tags": [
+            "ord.tema.ordbildning"
+          ],
+          "q": "Min största ___ är att jag pratar för fort.",
+          "answers": [
+            "svaghet"
+          ],
+          "qEn": "My biggest weakness is that I talk too fast.",
+          "explain": "en svaghet – svagheten – svagheter."
+        },
+        {
+          "id": "s7",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Sjukdomen ___ hennes hjärta.",
+          "answers": [
+            "försvagade"
+          ],
+          "base": "försvaga",
+          "qEn": "The illness weakened her heart.",
+          "explain": "försvaga – försvagade – försvagat (grupp 1, -ade)."
+        },
+        {
+          "id": "s8",
+          "type": "mcq",
+          "tags": [
+            "ord.kollokation"
+          ],
+          "q": "\"Jag är svag för kanelbullar.\" Vad betyder det?",
+          "qEn": "What does it mean?",
+          "options": [
+            "Jag blir sjuk av kanelbullar.",
+            "Jag tycker mycket om kanelbullar.",
+            "Jag kan inte baka kanelbullar.",
+            "Jag äter aldrig kanelbullar."
+          ],
+          "answer": 1,
+          "explain": "vara svag för = like very much, can't resist."
+        }
+      ]
+    },
+    {
+      "id": "adverb",
+      "title": "Del 3: Adjektiv → adverb med -t",
+      "titleEn": "Part 3: Adjective → adverb with -t",
+      "instructions": "Säger ordet HUR något händer? Då får det -t.",
+      "instructionsEn": "Does the word say HOW something happens? Then it gets -t.",
+      "items": [
+        {
+          "id": "i3",
+          "type": "info",
+          "md": "**Regel:** adverb = adjektiv + **-t** (samma form som ett-ord).\n\n| adjektiv | adverb |\n|---|---|\n| svag | Det gick **svagt**. |\n| snabb | Hon kör **snabbt**. |\n| tydlig | Prata **tydligt**! |\n| dålig | Jag sov **dåligt**. |\n| glad | Han log **glatt**. (d → tt) |\n| bra | Det gick **bra**. (bra ändras inte) |\n\n**Test:** beskriver ordet ett **verb** (hur?) → **-t**. Beskriver det ett **substantiv** → vanlig adjektivform.\n- *Hon är **snabb**.* (hon = substantiv/pronomen)\n- *Hon springer **snabbt**.* (springer = verb)\n\n**Persiska:** «خوب» är samma i «کار خوب» och «خوب کار می‌کنه». Svenska markerar skillnaden med **-t**."
+        },
+        {
+          "id": "a1",
+          "type": "gap",
+          "tags": [
+            "adjektiv.adverb"
+          ],
+          "q": "Försäljningen gick ___ i år.",
+          "answers": [
+            "svagt"
+          ],
+          "base": "svag",
+          "qEn": "Sales were weak this year.",
+          "explain": "gick hur? → adverb: svagt."
+        },
+        {
+          "id": "a2",
+          "type": "gap",
+          "tags": [
+            "adjektiv.adverb"
+          ],
+          "q": "Kan du prata lite mer ___?",
+          "answers": [
+            "tydligt"
+          ],
+          "base": "tydlig",
+          "qEn": "Can you speak a bit more clearly?",
+          "explain": "prata hur? → tydligt."
+        },
+        {
+          "id": "a3",
+          "type": "gap",
+          "tags": [
+            "adjektiv.adverb"
+          ],
+          "q": "Min dotter är väldigt ___ i matte.",
+          "answers": [
+            "duktig"
+          ],
+          "base": "duktig",
+          "qEn": "My daughter is very good at maths.",
+          "explain": "är + adjektiv om en person (en-ord) → duktig. Inget -t: det beskriver dottern, inte ett verb."
+        },
+        {
+          "id": "a4",
+          "type": "gap",
+          "tags": [
+            "adjektiv.adverb"
+          ],
+          "q": "Jag sov ___ i natt, så jag är trött.",
+          "answers": [
+            "dåligt"
+          ],
+          "base": "dålig",
+          "explain": "sov hur? → dåligt."
+        },
+        {
+          "id": "a5",
+          "type": "gap",
+          "tags": [
+            "adjektiv.adverb"
+          ],
+          "q": "Barnen sjöng ___ på födelsedagen.",
+          "answers": [
+            "glatt"
+          ],
+          "base": "glad",
+          "qEn": "The children sang happily at the birthday.",
+          "explain": "glad → glatt (d blir tt)."
+        },
+        {
+          "id": "a6",
+          "type": "mcq",
+          "tags": [
+            "adjektiv.adverb"
+          ],
+          "q": "Välj rätt mening.",
+          "options": [
+            "Han körde försiktig hem.",
+            "Han körde försiktigt hem.",
+            "Han körde försiktiga hem.",
+            "Han körde försiktigaste hem."
+          ],
+          "answer": 1,
+          "explain": "körde hur? → försiktigt."
+        }
+      ]
+    },
+    {
+      "id": "anvand",
+      "title": "Del 4: Använd orden",
+      "titleEn": "Part 4: Use the words",
+      "instructions": "Lyssna, ordna orden och svara.",
+      "instructionsEn": "Listen, put words in order, and answer.",
+      "parts": [
+        {
+          "heading": "Dialog",
+          "headingEn": "Dialogue",
+          "audio": {
+            "id": "d1",
+            "title": "Efter matchen",
+            "maxPlays": 2,
+            "speakers": {
+              "Sara": "f",
+              "Johan": "m"
+            },
+            "script": [
+              {
+                "speaker": "Sara",
+                "text": "Hej Johan! Hur gick matchen i lördags?"
+              },
+              {
+                "speaker": "Johan",
+                "text": "Ärligt talat gick det ganska svagt. Vi förlorade med tre mål."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Oj. Vad hände?"
+              },
+              {
+                "speaker": "Johan",
+                "text": "Vårt försvar var svagare än vanligt, för två spelare var sjuka. Och vi sprang för långsamt i andra halvlek."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Det låter tråkigt. Men det går säkert bättre nästa gång."
+              },
+              {
+                "speaker": "Johan",
+                "text": "Hoppas det. Tränaren säger att vår största svaghet är konditionen."
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "d1q1",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Hur gick matchen?",
+              "options": [
+                "Bra, de vann.",
+                "Så där, det blev oavgjort.",
+                "Dåligt, de förlorade.",
+                "Den blev inställd."
+              ],
+              "answer": 2
+            },
+            {
+              "id": "d1q2",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Varför var försvaret svagare?",
+              "options": [
+                "Tränaren var borta.",
+                "Två spelare var sjuka.",
+                "Det regnade.",
+                "De hade nya spelare."
+              ],
+              "answer": 1
+            },
+            {
+              "id": "d1q3",
+              "type": "short",
+              "tags": [
+                "hör.kortsvar"
+              ],
+              "q": "Vad är lagets största svaghet, enligt tränaren?",
+              "qEn": "1–3 words",
+              "answers": [
+                "kondition"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Ordföljd",
+          "headingEn": "Word order",
+          "items": [
+            {
+              "id": "o1",
+              "type": "order",
+              "tags": [
+                "ordföljd.inversion"
+              ],
+              "q": "It went badly last Friday.",
+              "words": [
+                "gick",
+                "i",
+        "fredags",
+                "det",
+                "svagt"
+              ],
+              "answers": [
+                "I fredags gick det svagt",
+                "Det gick svagt i fredags"
+              ],
+              "explain": "Tid först → verbet på plats 2: I fredags gick det svagt."
+            },
+            {
+              "id": "o2",
+              "type": "order",
+              "tags": [
+                "ordföljd.bisats"
+              ],
+              "q": "I know that it didn't go well.",
+              "words": [
+                "att",
+                "det",
+                "inte",
+                "gick",
+                "Jag",
+                "vet",
+                "bra"
+              ],
+              "answers": [
+                "Jag vet att det inte gick bra"
+              ],
+              "explain": "Bisats: inte före verbet → att det inte gick bra."
+            }
+          ]
+        },
+        {
+          "heading": "Tala",
+          "headingEn": "Speak",
+          "items": [
+            {
+              "id": "t1",
+              "type": "speak",
+              "tags": [
+                "tal.berätta"
+              ],
+              "q": "Berätta om något som gick svagt eller dåligt för dig (ett prov, en dag, en match, en intervju).",
+              "qEn": "Tell about something that went badly for you.",
+              "maxSeconds": 60,
+              "bullets": [
+                "Vad var det och när var det? (gick, i fredags, förra veckan)",
+                "Varför gick det svagt?",
+                "Vad är din svaghet / vad ska du göra bättre nästa gång?"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

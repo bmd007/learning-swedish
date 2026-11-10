@@ -107,7 +107,7 @@ Use existing tags when possible. New tags follow `area.sub`. Tags drive `progres
 - Listening: `hör.detalj`, `hör.huvudtanke`, `hör.tid`, `hör.siffror`, `hör.åsikt`, `hör.matcha`, `hör.kortsvar`
 - Word order: `ordföljd.inversion`, `ordföljd.bisats`, `ordföljd.fråga`
 - Verbs: `verb.preteritum`, `verb.supinum`, `verb.presens`, `verb.passiv`, `verb.reflexiv`, `verb.partikel`, `verb.modal`, `verb.futurum`
-- Nouns/adjectives: `substantiv.plural`, `substantiv.bestämd`, `substantiv.en-ett`, `adjektiv.ett-ord`, `adjektiv.plural`, `adjektiv.bestämd`, `adjektiv.komparation`
+- Nouns/adjectives: `substantiv.plural`, `substantiv.bestämd`, `substantiv.en-ett`, `adjektiv.ett-ord`, `adjektiv.plural`, `adjektiv.bestämd`, `adjektiv.komparation`, `adjektiv.adverb`
 - Small words: `preposition`, `preposition.tid`, `preposition.plats`, `pronomen.sin`, `pronomen.objekt`, `bisats.om-att`, `konjunktion`
 - Vocabulary: `ord.synonym`, `ord.kollokation`, `ord.förväxling`, `ord.tema.<topic>` (e.g. `ord.tema.boende`)
 - Writing: `skriv.mejl.svar`, `skriv.mejl.formell`, `skriv.kalender`, `skriv.insändare`
