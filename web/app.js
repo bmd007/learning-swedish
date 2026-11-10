@@ -195,17 +195,20 @@ async function openLesson(id) {
     for (const part of sec.parts ?? [{ items: sec.items, passage: sec.passage, audio: sec.audio }]) {
       const card = h(`<div class="card"></div>`);
       if (part.heading) card.append(h(`<div><h2>${esc(part.heading)}</h2>${en(part.headingEn)}</div>`));
+      if (part.image) card.append(renderImage(part.image));
       if (part.passage) card.append(h(`<div class="passage">${part.passageTitle ? `<h3>${esc(part.passageTitle)}</h3>` : ""}${esc(part.passage)}</div>`));
       if (part.audio) card.append(renderPlayer(part.audio));
       if (part.options) card.append(h(`<div class="passage">${part.options.map(o => esc(o)).join("\n")}</div>`));
       for (const raw of part.items ?? []) {
         const item = { ...raw, options: raw.options ?? part.options };
         if (item.type === "info") {
+          if (item.image) card.append(renderImage(item.image));
           card.append(h(`<div class="item md">${window.marked ? marked.parse(item.md ?? "") : esc(item.md)}</div>`));
           continue;
         }
         n++;
         const el = renderItem(item, offset + n);
+        if (item.image) el.prepend(renderImage(item.image));
         if (lesson.mode === "practice" && AUTO.has(item.type)) el.append(renderCheck(item));
         card.append(el);
       }
@@ -240,6 +243,12 @@ async function openLesson(id) {
       upd();
     };
     return el;
+  }
+
+  function renderImage(img) {
+    const src = /^(https?:)?\//.test(img.src) ? img.src : `/images/${lesson.id}/${img.src}`;
+    const cap = [img.caption ? esc(img.caption) : "", img.credit ? `<span class="credit">${esc(img.credit)}</span>` : ""].filter(Boolean).join(" ");
+    return h(`<figure class="lesson-img${img.size ? " " + esc(img.size) : ""}"><img src="${esc(src)}" alt="${esc(img.alt)}" loading="lazy">${cap ? `<figcaption>${cap}</figcaption>` : ""}</figure>`);
   }
 
   function renderItem(item, num) {

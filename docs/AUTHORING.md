@@ -7,6 +7,7 @@ You can create lessons, grade results, and write reports **without touching code
 |---|---|---|
 | Lessons / tests | `lessons/NNN-slug.json` | lesson author |
 | Listening audio | `audio/<lessonId>/<audioId>.m4a` | `tools/build_audio.py` (from the lesson JSON) |
+| Images | `images/<lessonId>/<name>.svg/.png/.jpg` | lesson author (hand-drawn SVG or downloaded free photo) |
 | Learner answers | `results/*.json` (final), `results/drafts/*.json` (unfinished, saved after every answer) | the app |
 | Voice recordings | `recordings/` (gitignored) | the app |
 | Photos of handwritten answers | `uploads/` (gitignored; HEIC auto-converted to JPG) | the app (`write` items) |
@@ -85,6 +86,28 @@ Examples:
  "audio":{"id":"t6","maxPlays":2,"speakers":{"Examinator":"m"},"script":[{"speaker":"Examinator","text":"Vad gör du på fritiden?"}]}}
 ```
 
+### Images (required – every lesson needs them)
+
+Text-only lessons are boring. Every lesson needs images; aim for one per section (validator fails
+with zero). Put `image` on a part, on any item, or on an `info` item (shown above it):
+```json
+"image": { "src": "train.svg",          // file in images/<lessonId>/, or an https:// URL
+  "alt": "Ett tåg lämnar perrongen",      // required, Swedish
+  "caption": "Tåget har gått.",          // optional, shown under the image
+  "credit": "Foto: X, CC BY-SA 4.0, Wikimedia Commons",  // required for downloaded photos
+  "size": "small" }                      // optional: small | wide
+```
+Two sources:
+1. **Hand-drawn SVG** (preferred for rules and scenes): simple flat illustrations that *teach* –
+   a timeline for verb tenses, a battery for svag–svagare–svagast, a scene for a dialogue, labels in
+   Swedish. Use a white background rect (the app shows images on white in dark mode too), viewBox
+   ~ 600×300, system-ui font, readable text ≥ 16px. Check the SVG renders (valid XML).
+2. **Free photos** (for real-life context: Swedish places, signs, documents): download from Wikimedia
+   Commons (CC0 / CC BY / CC BY-SA) into `images/<lessonId>/`, keep it < 300 KB, and fill `credit`.
+   Never hotlink random sites.
+
+The picture must relate to the content: it shows the situation, the rule, or the words practised.
+
 ### Audio
 
 ```json
@@ -125,7 +148,9 @@ Swedex A2B1, 2026-12-04. Format and timeline: `progress/plan.md`. Shapes to mirr
 
 ## Pedagogy rules (follow these)
 
-1. **Short:** 10–15 minutes per lesson. The learner's time is unpredictable.
+1. **Short and focused:** 10–15 minutes, **one topic per lesson** (one verb family, one rule, one
+   exam task). About 10–16 items. If a word question touches two topics, make two lessons.
+1b. **Media in every lesson:** images (see Images) and, where it fits, a short audio dialogue.
 2. **Target the data:** read `progress/tag-stats.md` + the latest feedback. ~70% of items on the weakest
    tags, ~30% review of strong areas. Aim for 60–70% correct.
 3. **Patterns, not lists.** The learner (Persian L1, English fluent) hates rote memorization and finds

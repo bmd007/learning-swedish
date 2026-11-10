@@ -29,6 +29,17 @@ def check(path):
     if lesson.get("mode", "exam") not in ("exam", "practice"):
         err("mode must be 'exam' or 'practice'")
     item_ids, audio_ids = set(), set()
+    image_count = 0
+
+    def check_image(img, where):
+        nonlocal image_count
+        image_count += 1
+        if not isinstance(img, dict) or not img.get("src") or not img.get("alt"):
+            err(f"{where}: image needs src and alt")
+            return
+        src = img["src"]
+        if not re.match(r"^(https?:)?/", src) and not (ROOT / "images" / lesson.get("id", "") / src).is_file():
+            err(f"{where}: image file images/{lesson.get('id')}/{src} not found")
 
     def check_audio(a, where):
         if not ID.match(str(a.get("id", ""))):
@@ -56,6 +67,8 @@ def check(path):
         for p in parts:
             if p.get("audio"):
                 check_audio(p["audio"], f"section {sid}")
+            if p.get("image"):
+                check_image(p["image"], f"section {sid}")
             for it in p.get("items", []):
                 iid = it.get("id", "?")
                 where = f"{sid}/{iid}"
@@ -63,6 +76,8 @@ def check(path):
                 if t not in TYPES:
                     err(f"{where}: unknown type {t}")
                     continue
+                if it.get("image"):
+                    check_image(it["image"], where)
                 if t == "info":
                     if not it.get("md"):
                         err(f"{where}: info needs 'md'")
@@ -97,6 +112,8 @@ def check(path):
                     err(f"{where}: needs q")
                 if it.get("audio"):
                     check_audio(it["audio"], where)
+    if not lesson.get("legacy") and image_count == 0:
+        err("lesson has no images – add at least one image (see docs/AUTHORING.md, Images)")
     mcq_answers = [it.get("answer") for s in lesson.get("sections", []) for p in (s.get("parts") or [s])
                    for it in p.get("items", []) if it.get("type") == "mcq" and len(it.get("options", [])) > 2]
     if not lesson.get("legacy") and len(mcq_answers) >= 4 and max(mcq_answers.count(a) for a in set(mcq_answers)) > 0.6 * len(mcq_answers):
