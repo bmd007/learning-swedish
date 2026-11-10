@@ -19,3 +19,7 @@ audio/**/*.mp3
 *.swp
 materials/
 uploads/
+/nt-access.txt
+
+# Private access tokens
+nt-access.txt
