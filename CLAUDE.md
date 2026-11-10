@@ -46,7 +46,6 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
   sv-SE-SofieNeural (f) / sv-SE-MattiasNeural (m)). Run: `.venv/bin/python tools/build_audio.py [lessons/x.json] [--force]`.
   If no audio file exists, the browser falls back to speechSynthesis.
 - `feedback/<lessonId>__<stamp>.md` – Claude's graded feedback; shown in the app ("Feedback" button).
-- `extensions/yt-dual-subs/` – Chrome extension: Swedish YouTube subs + English from local Ollama (see its README).
 - `progress/` – learner model (`learner-profile.md`, `log.md`, `errors.md`).
 - `docs/research.md` – research on SFI D format, citizenship test, agentic tutors, TTS/STT.
 - venv: `.venv` (edge-tts). Recreate: `python3 -m venv .venv && .venv/bin/pip install edge-tts`.
