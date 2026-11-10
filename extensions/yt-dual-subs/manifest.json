@@ -3,7 +3,7 @@
   "name": "YT Dual Subs (Ollama)",
   "version": "0.1.0",
   "description": "Swedish YouTube captions + English translation from a local Ollama model.",
-  "permissions": ["storage", "declarativeNetRequest"],
+  "permissions": ["storage", "unlimitedStorage", "declarativeNetRequest"],
   "host_permissions": [
     "https://www.youtube.com/*",
     "http://localhost:11434/*",

@@ -19,8 +19,10 @@ Chrome extension: Swedish YouTube subtitles + English translation from a local O
   (direct requests fail without YouTube's bot token), then reuses that request URL (with its token)
   to fetch all Swedish tracks of the video.
 - `captions.js` parses it; auto-generated tracks are regrouped into sentence-like chunks.
-- `content.js` translates 10 lines per request, starting at the current play position, and caches
-  results per video + model in `chrome.storage.local`.
+- `content.js` translates 10 lines per request, starting at the current play position.
+- Cache: `chrome.storage.local`, key `yds:v<CACHE_VERSION>:<videoId>:<human|asr>:<model>`, value
+  `{ swedishLine: english }`. A line is re-translated only when its Swedish text is new or changed,
+  the model changes, or it failed before. Bump `CACHE_VERSION` in `content.js` when the prompt changes.
 - `background.js` calls `http://localhost:11434/api/chat` with a JSON schema. Ollama returns 403
   for `chrome-extension://` origins, so a session rule strips the Origin header on this
   extension's own requests to Ollama. Fallback: `launchctl setenv OLLAMA_ORIGINS "chrome-extension://*"`

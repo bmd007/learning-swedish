@@ -121,7 +121,10 @@
     return S.active === want ? note : `${note} (no ${SOURCE_LABEL[want]} track yet)`;
   }
 
-  const cacheKey = () => `yds:${S.key}:${S.settings.model}`;
+  const FAILED = '—';
+  // Bump when the translation prompt changes, so old translations are redone.
+  const CACHE_VERSION = 2;
+  const cacheKey = () => `yds:v${CACHE_VERSION}:${S.key}:${S.settings.model}`;
 
   async function restart() {
     const gen = ++S.gen;
@@ -138,7 +141,9 @@
       const k = cacheKey();
       const cached = (await chrome.storage.local.get(k))[k];
       if (gen !== S.gen) return;
-      if (Array.isArray(cached) && cached.length === S.cues.length) cached.forEach((en, i) => { S.cues[i].en = en; });
+      if (cached && typeof cached === 'object') {
+        for (const c of S.cues) if (typeof cached[c.sv] === 'string') c.en = cached[c.sv];
+      }
     } catch (e) {}
     translateLoop(gen);
   }
@@ -151,7 +156,8 @@
 
   async function saveCache() {
     try {
-      await chrome.storage.local.set({ [cacheKey()]: S.cues.map(c => c.en) });
+      const byLine = Object.fromEntries(S.cues.filter(c => c.en && c.en !== FAILED).map(c => [c.sv, c.en]));
+      await chrome.storage.local.set({ [cacheKey()]: byLine });
     } catch (e) {}
   }
 
@@ -185,7 +191,7 @@
         await sleep(res?.status === 403 ? 20000 : 5000);
         continue;
       }
-      batch.forEach((i, k) => { S.cues[i].en = res.translations[k] || '—'; });
+      batch.forEach((i, k) => { S.cues[i].en = res.translations[k] || FAILED; });
       S.shown = -2;
       saveCache();
     }
