@@ -16,7 +16,7 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
    ungraded attempt → grade it first. `results/drafts/` = unfinished attempts (saved after every
    answer); grade what is there if the learner stopped midway.
 4. Check the server: `curl -s localhost:8765/api/lessons`. If down, tell the user to run
-   `python3 server.py` (or start it in background yourself).
+   `./start-app.sh` (starts the server and opens the browser), or start `python3 server.py` in background yourself.
 5. `git -C . status` – commit/push anything left uncommitted.
 6. Continue with the "Next step" from the last log entry.
 
@@ -33,6 +33,7 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
 
 ## Architecture
 
+- `start-app.sh [port]` – starts the server (if not running) and opens the app in the browser.
 - `server.py` – Python stdlib server (no deps). `python3 server.py [port]`, default 8765.
   - `GET /api/lessons`, `GET /api/lessons/<id>`, `GET /api/feedback/<id>` (latest md)
   - `POST /api/draft` → `results/drafts/<lessonId>__<attemptId>.json` (sent ~0.6 s after every answer, includes raw `state`)
