@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="system-ui, sans-serif">
+  <rect width="680" height="320" fill="#fff"/>
+  <text x="340" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#222">Förr – nu – sen</text>
+  <rect x="20" y="60" width="270" height="200" rx="12" fill="#fff5f5" stroke="#c53030" stroke-width="2"/>
+  <rect x="300" y="60" width="80" height="200" rx="12" fill="#f0fff4" stroke="#2f855a" stroke-width="2"/>
+  <rect x="390" y="60" width="270" height="200" rx="12" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="155" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#c53030">FÖRR (preteritum)</text>
+  <text x="340" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#2f855a">NU</text>
+  <text x="525" y="88" text-anchor="middle" font-size="18" font-weight="700" fill="#2b6cb0">SEN (ska / presens)</text>
+  <g font-size="19" fill="#222" text-anchor="middle">
+    <text x="155" y="122"><tspan font-weight="700">i morse</tspan> (i dag, tidigt)</text>
+    <text x="155" y="152">i går · i förrgår</text>
+    <text x="155" y="182">i fredag<tspan fill="#c53030" font-weight="700">s</tspan></text>
+    <text x="155" y="212">i somra<tspan fill="#c53030" font-weight="700">s</tspan> · i jula<tspan fill="#c53030" font-weight="700">s</tspan></text>
+    <text x="155" y="242">förra veckan</text>
+    <text x="340" y="140">i dag</text>
+    <text x="340" y="175">nu</text>
+    <text x="525" y="122"><tspan font-weight="700">i morgon</tspan></text>
+    <text x="525" y="152">i kväll · i övermorgon</text>
+    <text x="525" y="182">på fredag</text>
+    <text x="525" y="212">i sommar · i jul</text>
+    <text x="525" y="242">nästa vecka</text>
+  </g>
+  <text x="340" y="298" text-anchor="middle" font-size="17" fill="#444">i + dag/årstid + <tspan fill="#c53030" font-weight="700">s</tspan> = det har redan hänt</text>
+</svg>

@@ -1,0 +1,410 @@
+{
+  "id": "010-i-morse-i-morgon",
+  "title": "I morse, i morgon, i fredags – tidsord",
+  "titleEn": "This morning, tomorrow, last Friday – time words",
+  "mode": "practice",
+  "minutes": 12,
+  "intro": "Du frågade om \"i morse\". Här tränar vi små tidsord som visar om något redan har hänt eller ska hända – och rätt tempus till dem.",
+  "introEn": "You asked about \"i morse\". We practise small time words that show if something already happened or will happen – and the right tense with them.",
+  "sections": [
+    {
+      "id": "tempus",
+      "title": "Del 1: Tidsordet styr tempus",
+      "titleEn": "Part 1: The time word decides the tense",
+      "instructions": "Titta på bilden. Skriv rätt form av verbet.",
+      "instructionsEn": "Look at the picture. Write the right form of the verb.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "image": {
+            "src": "tidslinje.svg",
+            "alt": "Tidslinje: förr (i morse, i går, i fredags, i somras), nu (i dag), sen (i morgon, på fredag, i sommar)"
+          },
+          "md": "**i morse** = i dag tidigt, och det är **slut** nu → preteritum: *Jag **tog** bussen i morse.*\n\n**i morgon** = nästa dag → presens eller ska: *Jag **tar** / **ska ta** bussen i morgon.*\n\n| förr (har hänt) | sen (ska hända) |\n|---|---|\n| i morse | i morgon |\n| i fredag**s** | på fredag |\n| i somra**s** | i sommar |\n| i jula**s** | i jul |\n| förra veckan | nästa vecka |\n\n**Minneskrok:** **i + dag/årstid + s** = det har redan hänt. *-s* som i \"slut\".\n\n**Persiska:** «امروز صبح» kan vara både förr och nu på persiska. Svenska har två ord: *i morse* (صبح امروز که گذشت) och *i morgon* (فردا).\n\n**English:** *i morse* = this morning (already over), *i fredags* = last Friday, *på fredag* = this/next Friday."
+        },
+        {
+          "id": "g1",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum",
+            "preposition.tid"
+          ],
+          "q": "I morse ___ jag bussen till jobbet.",
+          "base": "ta",
+          "answers": [
+            "tog"
+          ],
+          "qEn": "This morning I took the bus to work.",
+          "explain": "i morse → har hänt → preteritum: tog."
+        },
+        {
+          "id": "g2",
+          "type": "gap",
+          "tags": [
+            "verb.presens",
+            "preposition.tid"
+          ],
+          "q": "I morgon ___ jag bussen till jobbet.",
+          "base": "ta",
+          "answers": [
+            "tar"
+          ],
+          "qEn": "Tomorrow I'll take the bus to work.",
+          "explain": "i morgon → har inte hänt → presens: tar (eller: ska ta)."
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum",
+            "preposition.tid"
+          ],
+          "q": "Vi ___ på bio i fredags.",
+          "base": "gå",
+          "answers": [
+            "gick"
+          ],
+          "qEn": "We went to the cinema last Friday.",
+          "explain": "i fredags (med -s) → förra fredagen → gick."
+        },
+        {
+          "id": "g4",
+          "type": "gap",
+          "tags": [
+            "verb.presens",
+            "preposition.tid"
+          ],
+          "q": "Vi ___ på bio på fredag.",
+          "base": "gå",
+          "answers": [
+            "går",
+            "ska gå"
+          ],
+          "qEn": "We're going to the cinema on Friday.",
+          "explain": "på fredag → nästa fredag → går / ska gå."
+        },
+        {
+          "id": "g5",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum",
+            "preposition.tid"
+          ],
+          "q": "I somras ___ vi till Iran och träffade min familj.",
+          "base": "åka",
+          "answers": [
+            "åkte"
+          ],
+          "qEn": "Last summer we went to Iran.",
+          "explain": "i somras → förra sommaren → åkte."
+        },
+        {
+          "id": "g6",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum",
+            "preposition.tid"
+          ],
+          "q": "Jag är trött, för jag ___ klockan fem i morse.",
+          "base": "vakna",
+          "answers": [
+            "vaknade"
+          ],
+          "qEn": "I'm tired because I woke up at five this morning.",
+          "explain": "i morse → vaknade.",
+          "image": {
+            "src": "morgon.svg",
+            "alt": "Jag tog bussen i morse – jag tar bussen i morgon",
+            "size": "small"
+          }
+        }
+      ]
+    },
+    {
+      "id": "valj",
+      "title": "Del 2: Välj rätt tidsord",
+      "titleEn": "Part 2: Choose the right time word",
+      "instructions": "Titta på verbet. Har det hänt eller ska det hända?",
+      "instructionsEn": "Look at the verb. Has it happened, or will it happen?",
+      "items": [
+        {
+          "id": "m1",
+          "type": "mcq",
+          "tags": [
+            "preposition.tid"
+          ],
+          "q": "Jag åt frukost klockan sju ___.",
+          "options": [
+            "i morse",
+            "i morgon",
+            "på fredag",
+            "nästa vecka"
+          ],
+          "answer": 0,
+          "explain": "åt = preteritum → i morse."
+        },
+        {
+          "id": "m2",
+          "type": "mcq",
+          "tags": [
+            "preposition.tid"
+          ],
+          "q": "Vi ska träffas ___ klockan tio.",
+          "options": [
+            "i fredags",
+            "i morse",
+            "i morgon",
+            "i somras"
+          ],
+          "answer": 2,
+          "explain": "ska = framtid → i morgon."
+        },
+        {
+          "id": "m3",
+          "type": "mcq",
+          "tags": [
+            "preposition.tid"
+          ],
+          "q": "Han var sjuk ___, men nu mår han bra.",
+          "options": [
+            "i fredags",
+            "på fredag",
+            "i morgon",
+            "nästa vecka"
+          ],
+          "answer": 0,
+          "explain": "var = preteritum → i fredags."
+        },
+        {
+          "id": "m4",
+          "type": "mcq",
+          "tags": [
+            "preposition.tid"
+          ],
+          "q": "Vi ska åka till fjällen ___.",
+          "options": [
+            "i julas",
+            "i jul",
+            "i somras",
+            "i morse"
+          ],
+          "answer": 1,
+          "explain": "ska = framtid → i jul (utan -s)."
+        },
+        {
+          "id": "m5",
+          "type": "mcq",
+          "tags": [
+            "preposition.tid"
+          ],
+          "q": "Det är måndag i dag. Vad betyder \"i fredags\"?",
+          "options": [
+            "nästa fredag",
+            "varje fredag",
+            "fredagen som var för tre dagar sedan",
+            "i dag"
+          ],
+          "answer": 2,
+          "explain": "i fredags = förra fredagen."
+        }
+      ]
+    },
+    {
+      "id": "ordning",
+      "title": "Del 3: Ordföljd",
+      "titleEn": "Part 3: Word order",
+      "instructions": "Ordna orden. Om tidsordet står först, kommer verbet på plats 2.",
+      "instructionsEn": "Put the words in order. If the time word comes first, the verb is in position 2.",
+      "items": [
+        {
+          "id": "o1",
+          "type": "order",
+          "tags": [
+            "ordföljd.inversion"
+          ],
+          "q": "This morning I took the bus to work.",
+          "words": [
+            "tog",
+            "I",
+            "jobbet",
+            "morse",
+            "bussen",
+            "till",
+            "jag"
+          ],
+          "answers": [
+            "I morse tog jag bussen till jobbet",
+            "Jag tog bussen till jobbet i morse"
+          ],
+          "explain": "I morse + verb + jag (inversion)."
+        },
+        {
+          "id": "o2",
+          "type": "order",
+          "tags": [
+            "ordföljd.inversion"
+          ],
+          "q": "Last Friday I was at the dentist.",
+          "words": [
+            "var",
+            "fredags",
+            "hos",
+            "jag",
+            "I",
+            "tandläkaren"
+          ],
+          "answers": [
+            "I fredags var jag hos tandläkaren",
+            "Jag var hos tandläkaren i fredags"
+          ],
+          "explain": "I fredags + var + jag."
+        }
+      ]
+    },
+    {
+      "id": "lyssna",
+      "title": "Del 4: Lyssna",
+      "titleEn": "Part 4: Listen",
+      "instructions": "Sara ringer till Ali. Du hör samtalet två gånger.",
+      "instructionsEn": "Sara calls Ali. You hear the call twice.",
+      "parts": [
+        {
+          "image": {
+            "src": "morgon.svg",
+            "alt": "En buss på morgonen",
+            "size": "small"
+          },
+          "audio": {
+            "id": "a1",
+            "title": "Ali missade mötet",
+            "maxPlays": 2,
+            "speakers": {
+              "Sara": "f",
+              "Ali": "m"
+            },
+            "script": [
+              {
+                "speaker": "Sara",
+                "text": "Hej Ali! Varför var du inte på mötet i morse?"
+              },
+              {
+                "speaker": "Ali",
+                "text": "Förlåt! Jag missade bussen. Den gick redan tjugo över sju, och nästa buss kom först kvart i åtta."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Oj. Kan du komma i morgon i stället? Vi har ett nytt möte klockan nio."
+              },
+              {
+                "speaker": "Ali",
+                "text": "Ja, i morgon går det bra. Men på fredag kan jag inte. Då ska jag till läkaren."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Okej. Förresten, var du inte sjuk i fredags också?"
+              },
+              {
+                "speaker": "Ali",
+                "text": "Jo, men nu mår jag mycket bättre. I kväll ska jag vila och gå och lägga mig tidigt."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Bra. Då ses vi i morgon klockan nio. Hej då!"
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "h1",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "När missade Ali bussen?",
+              "options": [
+                "I går kväll",
+                "I fredags",
+                "I morse",
+                "I morgon"
+              ],
+              "answer": 2
+            },
+            {
+              "id": "h2",
+              "type": "short",
+              "tags": [
+                "hör.tid"
+              ],
+              "q": "Vilken tid är det nya mötet?",
+              "answers": [
+                "nio",
+                "9"
+              ]
+            },
+            {
+              "id": "h3",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Varför kan Ali inte på fredag?",
+              "options": [
+                "Han ska resa.",
+                "Han ska till läkaren.",
+                "Han jobbar.",
+                "Han är sjuk."
+              ],
+              "answer": 1
+            },
+            {
+              "id": "h4",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "När var Ali sjuk?",
+              "options": [
+                "I fredags",
+                "I morse",
+                "I går",
+                "Förra månaden"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Del 5: Berätta",
+      "titleEn": "Part 5: Speak",
+      "instructions": "Prata om förr och sen. Använd tidsorden.",
+      "instructionsEn": "Talk about the past and the future. Use the time words.",
+      "items": [
+        {
+          "id": "t1",
+          "type": "speak",
+          "tags": [
+            "tal.berätta",
+            "preposition.tid"
+          ],
+          "q": "Berätta om din vecka: vad har hänt och vad ska hända?",
+          "qEn": "Tell about your week: what happened and what will happen?",
+          "maxSeconds": 60,
+          "image": {
+            "src": "tidslinje.svg",
+            "alt": "Tidslinje med tidsord",
+            "size": "small"
+          },
+          "bullets": [
+            "Vad gjorde du i morse? (vaknade, åt, tog …)",
+            "Vad gjorde du i fredags eller i somras?",
+            "Vad ska du göra i morgon och på fredag?"
+          ]
+        }
+      ]
+    }
+  ]
+}

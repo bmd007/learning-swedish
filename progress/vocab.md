@@ -6,3 +6,4 @@ Recycle these in later lessons (gap, order, write items).
 |---|---|---|---|
 | 2026-11-10 | "gick så svagt" | gå (gick, gått), svag (svagt, svaga, svagare, svagast), svaghet, försvaga | lessons 004-ga-gick-gatt, 005-svag-svagt |
 | 2026-11-11 | job ad: hästskötare | mocka, rykta, släppa ut, ta in, foder, hage, box, krav, meriterande, varannan, erfarenhet av | lesson 006-jobb-hastskotare |
+| 2026-11-11 | "i morse" | i morse, i morgon, i fredags / på fredag, i somras / i sommar, i julas / i jul | lesson 010-i-morse-i-morgon |
