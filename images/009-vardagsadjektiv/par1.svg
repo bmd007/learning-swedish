@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="system-ui, Helvetica, Arial, sans-serif"><rect width="640" height="400" fill="#fff"/>
+<g text-anchor="middle" fill="#222">
+<text x="110" y="28" font-size="20" font-weight="bold">stor – liten</text>
+<rect x="40" y="80" width="140" height="62" fill="#8fb8e8"/><polygon points="30,80 110,42 190,80" fill="#c0392b"/><rect x="90" y="105" width="40" height="37" fill="#fff"/>
+<text x="110" y="168" font-size="18">ett <tspan font-weight="bold">stort</tspan> hus</text>
+<rect x="80" y="205" width="60" height="45" fill="#8fb8e8"/><polygon points="72,205 110,180 148,205" fill="#c0392b"/><rect x="100" y="228" width="18" height="22" fill="#fff"/>
+<text x="110" y="276" font-size="18">ett <tspan font-weight="bold">litet</tspan> hus</text>
+<text x="110" y="298" font-size="16" fill="#555">små hus</text>
+<text x="320" y="28" font-size="20" font-weight="bold">varm – kall</text>
+<rect x="280" y="55" width="70" height="75" rx="8" fill="#f2b8a2" stroke="#c0392b" stroke-width="3"/><path d="M350 70 q28 0 28 25 q0 25 -28 25" fill="none" stroke="#c0392b" stroke-width="5"/><path d="M300 45 q-8 -12 0 -22 M320 45 q-8 -12 0 -22 M340 45 q-8 -12 0 -22" fill="none" stroke="#c0392b" stroke-width="3"/>
+<text x="320" y="165" font-size="18">en <tspan font-weight="bold">varm</tspan> kopp</text><text x="320" y="186" font-size="18">ett <tspan font-weight="bold">varmt</tspan> te</text>
+<rect x="280" y="195" width="70" height="75" rx="8" fill="#cfe6fa" stroke="#3b7dd8" stroke-width="3"/><path d="M350 210 q28 0 28 25 q0 25 -28 25" fill="none" stroke="#3b7dd8" stroke-width="5"/><path d="M300 215 l14 14 M314 215 l-14 14 M330 215 l14 14 M344 215 l-14 14" stroke="#3b7dd8" stroke-width="3"/>
+<text x="320" y="293" font-size="18">en <tspan font-weight="bold">kall</tspan> kopp</text><text x="320" y="314" font-size="18">ett <tspan font-weight="bold">kallt</tspan> te</text>
+<text x="530" y="28" font-size="20" font-weight="bold">dyr – billig</text>
+<polygon points="465,60 595,60 595,125 465,125 450,92" fill="#fde3e3" stroke="#c0392b" stroke-width="3"/><circle cx="470" cy="92" r="6" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<text x="535" y="102" font-size="26" font-weight="bold" fill="#c0392b">2 000 kr</text>
+<text x="530" y="165" font-size="18">en <tspan font-weight="bold">dyr</tspan> jacka</text><text x="530" y="186" font-size="18">ett <tspan font-weight="bold">dyrt</tspan> hus</text>
+<polygon points="495,200 595,200 595,265 495,265 480,232" fill="#e3f5e8" stroke="#2e9e4f" stroke-width="3"/><circle cx="500" cy="232" r="6" fill="#fff" stroke="#2e9e4f" stroke-width="2"/>
+<text x="545" y="242" font-size="26" font-weight="bold" fill="#2e9e4f">20 kr</text>
+<text x="530" y="293" font-size="18">en <tspan font-weight="bold">billig</tspan> jacka</text><text x="530" y="314" font-size="18">ett <tspan font-weight="bold">billigt</tspan> hus</text>
+<rect x="20" y="330" width="600" height="55" rx="10" fill="#fff8e1" stroke="#e0b100" stroke-width="2"/>
+<text x="320" y="355" font-size="17">Ett-ord + t: ett stort hus, ett varmt te, ett dyrt pris.</text>
+<text x="320" y="376" font-size="17">Plural + a: stora hus, varma koppar, dyra jackor.</text>
+</g></svg>

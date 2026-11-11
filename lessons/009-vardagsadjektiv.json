@@ -1,0 +1,437 @@
+{
+  "id": "009-vardagsadjektiv",
+  "title": "Vardagsadjektiv: stor–liten, ny–gammal, dyr–billig",
+  "titleEn": "Everyday adjectives: opposite pairs, forms and comparison",
+  "mode": "practice",
+  "minutes": 14,
+  "intro": "Vi lär oss vanliga adjektiv som motsatspar. Ett mönster räcker: en-ord, ett-ord + t, plural + a. Sedan jämför vi: bra – bättre – bäst.",
+  "introEn": "Common adjectives as opposite pairs. One pattern: en-word, ett-word + t, plural + a. Then comparison.",
+  "sections": [
+    {
+      "id": "former",
+      "title": "Del 1: Former – stor, stort, stora",
+      "titleEn": "Part 1: Forms",
+      "instructions": "Läs mönstret. Skriv rätt form.",
+      "instructionsEn": "Read the pattern. Write the right form.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "image": {
+            "src": "former.svg",
+            "alt": "En stor bil, ett stort hus, stora bilar: adjektivet ändras efter substantivet"
+          },
+          "md": "**Ett mönster för nästan alla adjektiv:**\n\n| substantiv | form | exempel |\n|---|---|---|\n| en-ord | grundform | en **stor** bil |\n| ett-ord | + **t** | ett **stort** hus |\n| plural / den-det | + **a** | **stora** hus, den **stora** bilen |\n\n**De vanliga undantagen** (lär dig dem som små grupper):\n\n| grundform | ett-ord | plural / bestämd |\n|---|---|---|\n| liten | litet | **små** (men: den/det **lilla**) |\n| gammal | gammalt | gamla |\n| ny | nytt | nya |\n| lätt, bra | lätt, bra | lätta, bra (ändras inte efter -tt / -a) |\n| glad | glatt | glada |\n\n**Minneskrok:** ett-ord = **t**. Hör du *ett* – skriv *t*.\n\n**Persiska:** på persiska ändras adjektivet aldrig («خانه بزرگ»، «خانه‌های بزرگ»). På svenska måste det följa substantivet – titta alltid på **en / ett / plural** först."
+        },
+        {
+          "id": "g1",
+          "type": "gap",
+          "tags": [
+            "adjektiv.ett-ord"
+          ],
+          "q": "Vi bor i ett ___ hus med fem rum.",
+          "base": "stor",
+          "answers": [
+            "stort"
+          ],
+          "explain": "hus = ett-ord → stort.",
+          "qEn": "We live in a big house with five rooms."
+        },
+        {
+          "id": "g2",
+          "type": "gap",
+          "tags": [
+            "adjektiv.plural"
+          ],
+          "q": "Jag har två ___ barn.",
+          "base": "liten",
+          "answers": [
+            "små"
+          ],
+          "explain": "Plural av liten = små (oregelbundet).",
+          "qEn": "I have two small children."
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "tags": [
+            "adjektiv.bestämd"
+          ],
+          "q": "Den ___ bilen är min.",
+          "base": "gammal",
+          "answers": [
+            "gamla"
+          ],
+          "explain": "den + adjektiv → -a: den gamla bilen.",
+          "qEn": "The old car is mine."
+        },
+        {
+          "id": "g4",
+          "type": "gap",
+          "tags": [
+            "adjektiv.ett-ord"
+          ],
+          "q": "Jag har fått ett ___ jobb.",
+          "base": "ny",
+          "answers": [
+            "nytt"
+          ],
+          "explain": "ny → nytt (ett jobb). Plural: nya.",
+          "qEn": "I have got a new job."
+        },
+        {
+          "id": "g5",
+          "type": "gap",
+          "tags": [
+            "adjektiv.ett-ord"
+          ],
+          "q": "Kaffet är ___. Kan du värma det?",
+          "base": "kall",
+          "answers": [
+            "kallt"
+          ],
+          "explain": "Kaffet = ett-ord. Även efter 'är' måste adjektivet passa: kallt.",
+          "qEn": "The coffee is cold. Can you warm it up?"
+        },
+        {
+          "id": "g6",
+          "type": "gap",
+          "tags": [
+            "adjektiv.ett-ord"
+          ],
+          "q": "Det var ett ___ prov. Alla klarade det.",
+          "base": "lätt",
+          "answers": [
+            "lätt"
+          ],
+          "explain": "Ord på -tt får inget extra t: ett lätt prov. Plural: lätta prov.",
+          "qEn": "It was an easy test. Everyone passed."
+        }
+      ]
+    },
+    {
+      "id": "motsatser",
+      "title": "Del 2: Motsatser",
+      "titleEn": "Part 2: Opposites",
+      "instructions": "Hitta motsatsen. Två ord i listan passar inte.",
+      "instructionsEn": "Find the opposite. Two words in the list do not fit.",
+      "parts": [
+        {
+          "heading": "Motsatspar",
+          "headingEn": "Opposite pairs",
+          "image": {
+            "src": "par1.svg",
+            "alt": "Stort och litet hus, varm och kall kopp, dyr och billig prislapp"
+          },
+          "options": [
+            "A. långsam",
+            "B. ledsen",
+            "C. upptagen",
+            "D. pigg",
+            "E. sen",
+            "F. svår"
+          ],
+          "items": [
+            {
+              "id": "m1",
+              "type": "select",
+              "tags": [
+                "ord.tema.adjektiv"
+              ],
+              "q": "Motsatsen till snabb är ...",
+              "qEn": "Opposite of fast",
+              "answer": 0,
+              "explain": "snabb – långsam."
+            },
+            {
+              "id": "m2",
+              "type": "select",
+              "tags": [
+                "ord.tema.adjektiv"
+              ],
+              "q": "Motsatsen till ledig (fri, inget jobb) är ...",
+              "qEn": "Opposite of free (not at work)",
+              "answer": 2,
+              "explain": "ledig – upptagen. Jag är ledig på lördag = I am free on Saturday."
+            },
+            {
+              "id": "m3",
+              "type": "select",
+              "tags": [
+                "ord.tema.adjektiv"
+              ],
+              "q": "Motsatsen till trött är ...",
+              "qEn": "Opposite of tired",
+              "answer": 3,
+              "explain": "trött – pigg (full of energy)."
+            }
+          ]
+        },
+        {
+          "heading": "Form i en mening",
+          "headingEn": "Form in a sentence",
+          "image": {
+            "src": "par2.svg",
+            "alt": "Snabb bil och långsam snigel, lätt och svårt prov, glad och ledsen",
+            "size": "wide"
+          },
+          "items": [
+            {
+              "id": "m4",
+              "type": "mcq",
+              "tags": [
+                "adjektiv.ett-ord"
+              ],
+              "q": "Vilken mening är rätt?",
+              "qEn": "Which sentence is correct?",
+              "options": [
+                "Frågan var svår, men provet var inte svår.",
+                "Frågan var svårt, men provet var inte svårt.",
+                "Frågan var svår, men provet var inte svårt.",
+                "Frågan var svår, men provet var inte svåra."
+              ],
+              "answer": 2,
+              "explain": "en fråga → svår. ett prov → svårt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jamfor",
+      "title": "Del 3: Jämförelse",
+      "titleEn": "Part 3: Comparison",
+      "instructions": "Använd -are / -ast eller de oregelbundna formerna.",
+      "instructionsEn": "Use -are / -ast or the irregular forms.",
+      "items": [
+        {
+          "id": "i2",
+          "type": "info",
+          "image": {
+            "src": "komparation.svg",
+            "alt": "Tre staplar: bra, bättre, bäst"
+          },
+          "md": "**Vanliga adjektiv:** + **are** / + **ast**: billig – billig**are** – billig**ast**, snabb – snabbare – snabbast.\n\n**De fem oregelbundna** (de är så vanliga att du redan har hört dem):\n\n| grundform | jämförelse | superlativ |\n|---|---|---|\n| bra | **bättre** | **bäst** |\n| dålig | **sämre** | **sämst** |\n| stor | **större** | **störst** |\n| liten | **mindre** | **minst** |\n| gammal | **äldre** | **äldst** |\n\n**Minneskrok:** vokalen blir ofta **ö/ä** (stor → större, gammal → äldre) och formerna blir korta.\n\n**Superlativ med substantiv:** *den billigaste jackan*, *det bästa hotellet* (den/det + **-aste**).\n\n**Obs:** inte *dåligare* och inte *mer bra*. Säg **sämre** och **bättre**."
+        },
+        {
+          "id": "c1",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Den här jackan är för dyr. Har ni en ___?",
+          "base": "billig",
+          "answers": [
+            "billigare"
+          ],
+          "explain": "jämförelse → billigare.",
+          "qEn": "This jacket is too expensive. Do you have a cheaper one?"
+        },
+        {
+          "id": "c2",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Min bror är ___ än jag. Han är 40 och jag är 35.",
+          "base": "gammal",
+          "answers": [
+            "äldre"
+          ],
+          "explain": "gammal – äldre – äldst. (Om personer säger man ofta äldre, inte 'gammalare'.)",
+          "qEn": "My brother is older than me."
+        },
+        {
+          "id": "c3",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Det här är den ___ lägenheten jag har sett.",
+          "base": "bra",
+          "answers": [
+            "bästa"
+          ],
+          "explain": "den + superlativ → bästa.",
+          "qEn": "This is the best flat I have seen."
+        },
+        {
+          "id": "c4",
+          "type": "mcq",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Jag mår dåligt i dag. I går mådde jag ___.",
+          "qEn": "I feel bad today. Yesterday I felt ___.",
+          "options": [
+            "dåligare",
+            "dålig",
+            "sämst",
+            "sämre"
+          ],
+          "answer": 3,
+          "explain": "dålig – sämre – sämst. Här: 'sämre' (jämförelse).",
+          "image": {
+            "src": "komparation.svg",
+            "alt": "bra, bättre, bäst",
+            "size": "small"
+          }
+        },
+        {
+          "id": "c5",
+          "type": "order",
+          "tags": [
+            "ordföljd.inversion",
+            "adjektiv.komparation"
+          ],
+          "q": "Sätt orden i rätt ordning.",
+          "words": [
+            "gamla",
+            "bättre",
+            "än",
+            "Den",
+            "soffan",
+            "den",
+            "här",
+            "är"
+          ],
+          "answers": [
+            "Den här soffan är bättre än den gamla"
+          ],
+          "explain": "Den här soffan är bättre än den gamla."
+        }
+      ]
+    },
+    {
+      "id": "lyssna",
+      "title": "Del 4: Lyssna",
+      "titleEn": "Part 4: Listen",
+      "instructions": "Lena och Erik pratar om en lägenhet. Lyssna två gånger.",
+      "instructionsEn": "Lena and Erik talk about a flat. Listen twice.",
+      "parts": [
+        {
+          "heading": "Dialog",
+          "headingEn": "Dialogue",
+          "image": {
+            "src": "lagenhet.svg",
+            "alt": "Ett hus med en annons: Uthyres, tre rum och kök"
+          },
+          "audio": {
+            "id": "d1",
+            "title": "En ny lägenhet",
+            "maxPlays": 2,
+            "speakers": {
+              "Lena": "f",
+              "Erik": "m"
+            },
+            "script": [
+              {
+                "speaker": "Erik",
+                "text": "Hej Lena! Nu har jag hittat en lägenhet. Den är ganska stor och väldigt ljus."
+              },
+              {
+                "speaker": "Lena",
+                "text": "Vad bra! Är den ny?"
+              },
+              {
+                "speaker": "Erik",
+                "text": "Nej, huset är gammalt, men köket är nytt. Hyran är nio tusen kronor i månaden. Det är dyrt, men min förra lägenhet var ännu dyrare."
+              },
+              {
+                "speaker": "Lena",
+                "text": "Är den större än din nuvarande?"
+              },
+              {
+                "speaker": "Erik",
+                "text": "Ja, mycket större. Nu har jag bara ett litet rum. Men jag är trött och har varit upptagen hela veckan, så jag behöver hjälp med flytten. Kan du hjälpa mig på lördag?"
+              },
+              {
+                "speaker": "Lena",
+                "text": "Ja, då är jag ledig. Det blir säkert en lång dag, men vi blir glada när det är klart."
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "d1q1",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Vad är nytt i lägenheten?",
+              "options": [
+                "Huset",
+                "Köket",
+                "Hela lägenheten",
+                "Ingenting"
+              ],
+              "answer": 1
+            },
+            {
+              "id": "d1q2",
+              "type": "short",
+              "tags": [
+                "hör.siffror"
+              ],
+              "q": "Hur mycket är hyran i månaden?",
+              "qEn": "In numbers or words",
+              "answers": [
+                "nio tusen",
+                "9 000",
+                "9000",
+                "9.000"
+              ]
+            },
+            {
+              "id": "d1q3",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Hur var Eriks förra lägenhet?",
+              "options": [
+                "Billigare",
+                "Större",
+                "Dyrare",
+                "Nyare"
+              ],
+              "answer": 2,
+              "explain": "'min förra lägenhet var ännu dyrare'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Del 5: Tala",
+      "titleEn": "Part 5: Speak",
+      "instructions": "Berätta i cirka 40 sekunder. Använd minst fyra adjektiv och en jämförelse.",
+      "instructionsEn": "Speak for about 40 seconds. Use at least four adjectives and one comparison.",
+      "items": [
+        {
+          "id": "t1",
+          "type": "speak",
+          "tags": [
+            "tal.berätta",
+            "adjektiv.komparation"
+          ],
+          "q": "Beskriv ditt hem och jämför det med ditt förra hem.",
+          "qEn": "Describe your home and compare it with your previous one.",
+          "maxSeconds": 60,
+          "bullets": [
+            "Är ditt hem stort eller litet? Gammalt eller nytt?",
+            "Vilket rum är bäst? Varför?",
+            "Är det dyrare eller billigare än ditt förra hem?",
+            "Är det större eller mindre? Är du nöjd?"
+          ],
+          "image": {
+            "src": "par1.svg",
+            "alt": "Stort och litet hus, varm och kall kopp, dyr och billig prislapp",
+            "size": "small"
+          }
+        }
+      ]
+    }
+  ]
+}

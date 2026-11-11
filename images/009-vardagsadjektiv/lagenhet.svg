@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="system-ui, Helvetica, Arial, sans-serif"><rect width="640" height="300" fill="#fff"/>
+<rect x="60" y="80" width="300" height="190" fill="#e8d9c4" stroke="#8a6d3b" stroke-width="3"/><polygon points="40,80 210,20 380,80" fill="#a9503f"/>
+<rect x="85" y="110" width="60" height="60" fill="#cfe6fa" stroke="#555" stroke-width="2"/><rect x="175" y="110" width="60" height="60" fill="#cfe6fa" stroke="#555" stroke-width="2"/><rect x="265" y="110" width="60" height="60" fill="#cfe6fa" stroke="#555" stroke-width="2"/>
+<rect x="185" y="200" width="50" height="70" fill="#8a6d3b"/>
+<g text-anchor="middle" fill="#222">
+<rect x="400" y="60" width="220" height="190" rx="10" fill="#fffbe6" stroke="#e0b100" stroke-width="3"/>
+<text x="510" y="92" font-size="20" font-weight="bold">Uthyres</text>
+<text x="510" y="125" font-size="18">3 rum och kök</text>
+<text x="510" y="153" font-size="18">Stor och ljus</text>
+<text x="510" y="181" font-size="18">Nära centrum</text>
+<text x="510" y="209" font-size="18">Ledig från 1 december</text>
+<text x="510" y="237" font-size="18">Ring Erik: 070-123 45 67</text>
+</g></svg>

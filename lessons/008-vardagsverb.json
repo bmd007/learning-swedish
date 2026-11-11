@@ -1,0 +1,446 @@
+{
+  "id": "008-vardagsverb",
+  "title": "Vardagsverb: gå, äta, se, säga ...",
+  "titleEn": "Everyday verbs: all their forms",
+  "mode": "practice",
+  "minutes": 14,
+  "intro": "Du ville lära dig vanliga verb i alla former: äta, säga, titta, se, gissa, försöka, förstå. Vi lär oss mönster: tre grupper, inte en lång lista.",
+  "introEn": "You asked for common verbs in all forms. We learn patterns: three groups, not one long list.",
+  "sections": [
+    {
+      "id": "monster",
+      "title": "Del 1: Tre sorters verb",
+      "titleEn": "Part 1: Three kinds of verbs",
+      "instructions": "Läs bilden. Skriv rätt form av verbet.",
+      "instructionsEn": "Read the picture. Write the correct verb form.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "md": "**Tre sorters verb.** Fråga först: hur slutar preteritum?\n\n| grupp | mönster | exempel |\n|---|---|---|\n| 1 | -ar – **-ade** – **-at** | titta – tittar – tittade – tittat |\n| 2 | -er – **-te** – **-t** | försöka – försöker – försökte – försökt |\n| 3 (starka) | ny vokal, ingen ändelse | äta – äter – **åt** – **ätit** |\n\n| infinitiv | presens | preteritum | supinum | imperativ |\n|---|---|---|---|---|\n| titta | tittar | tittade | tittat | titta! |\n| gissa | gissar | gissade | gissat | gissa! |\n| försöka | försöker | försökte | försökt | försök! |\n\n**Minneskrok:** nästan alla nya verb är grupp 1 eller 2. Du behöver bara lära dig de starka verben som *ord med en egen melodi*, inte alla på en gång.\n\n**Chunks:** *Gissa!* · *Försök igen!* · *Vad tittar du på?*\n\n**Persiska/English:** گروه ۱ و ۲ مثل فعل‌های باقاعده‌اند (-ade/-te ≈ English -ed: *looked, tried*).",
+          "image": {
+            "src": "grupper.svg",
+            "alt": "Tre grupper av verb: titta, försöka och äta med sina former"
+          }
+        },
+        {
+          "id": "g1",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Igår ___ vi på en film hemma.",
+          "base": "titta",
+          "answers": [
+            "tittade"
+          ],
+          "qEn": "Yesterday we watched a film at home.",
+          "explain": "igår → preteritum. Grupp 1: titta – tittade."
+        },
+        {
+          "id": "g2",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "Du har ___ rätt! Det är precis tre kilo.",
+          "base": "gissa",
+          "answers": [
+            "gissat"
+          ],
+          "qEn": "You have guessed right!",
+          "explain": "har + supinum. Grupp 1: gissa – gissat."
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "tags": [
+            "verb.presens"
+          ],
+          "q": "Jag ___ lära mig svenska varje dag.",
+          "base": "försöka",
+          "answers": [
+            "försöker"
+          ],
+          "qEn": "I try to learn Swedish every day.",
+          "explain": "Varje dag → presens. Grupp 2: försöka – försöker."
+        },
+        {
+          "id": "g4",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Igår ___ jag ringa dig tre gånger, men du svarade inte.",
+          "base": "försöka",
+          "answers": [
+            "försökte"
+          ],
+          "qEn": "Yesterday I tried to call you three times.",
+          "explain": "igår → preteritum. Grupp 2: försökte (-te)."
+        }
+      ]
+    },
+    {
+      "id": "starka",
+      "title": "Del 2: Starka verb – ny vokal",
+      "titleEn": "Part 2: Strong verbs – new vowel",
+      "instructions": "Titta på tidslinjen. Skriv rätt form.",
+      "instructionsEn": "Look at the timeline. Write the correct form.",
+      "items": [
+        {
+          "id": "i2",
+          "type": "info",
+          "md": "**Starka verb: vokalen ändras.** Mönstret är samma som på engelska (*eat – ate – eaten*, *see – saw – seen*).\n\n| infinitiv | presens | preteritum | supinum | imperativ | English |\n|---|---|---|---|---|---|\n| äta | äter | **åt** | **ätit** | ät! | eat – ate – eaten |\n| se | ser | **såg** | **sett** | se! | see – saw – seen |\n| gå | går | **gick** | **gått** | gå! | go – went – gone |\n| förstå | förstår | **förstod** | **förstått** | förstå! | understand – understood |\n| säga | säger | **sa** (sade) | **sagt** | säg! | say – said – said |\n\nFler vanliga: **ta** – tar – tog – tagit · **komma** – kommer – kom – kommit · **göra** – gör – gjorde – gjort · **veta** – vet – visste – vetat.\n\n**Minneskrok:** *har / hade* + supinum (har **ätit**, hade **sett**). Preteritum står ensamt (igår **åt** jag). *förstå* = *stå* med *för-* → förstod, förstått som *stå – stod – stått*. *sa(de)* = *said*.\n\n**Persiska:** خوردن – خورد – خورده, دیدن – دید – دیده, گفتن – گفت – گفته. Persiska har också tre former. Svenska: åt, såg, sa.",
+          "image": {
+            "src": "tidslinje.svg",
+            "alt": "Tidslinje: åt, har ätit, äter, ska äta"
+          }
+        },
+        {
+          "id": "g5",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Jag var hungrig, så jag ___ två smörgåsar igår.",
+          "base": "äta",
+          "answers": [
+            "åt"
+          ],
+          "qEn": "I was hungry, so I ate two sandwiches yesterday.",
+          "explain": "igår → preteritum: åt."
+        },
+        {
+          "id": "g6",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "Har du ___ min nya jacka? Jag hittar den inte.",
+          "base": "se",
+          "answers": [
+            "sett"
+          ],
+          "qEn": "Have you seen my new jacket?",
+          "explain": "har + supinum: sett."
+        },
+        {
+          "id": "g7",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum"
+          ],
+          "q": "Läraren ___ att provet var på fredag.",
+          "base": "säga",
+          "answers": [
+            "sa",
+            "sade"
+          ],
+          "qEn": "The teacher said the test was on Friday.",
+          "explain": "Preteritum: sa (eller sade). Supinum är sagt."
+        },
+        {
+          "id": "g8",
+          "type": "gap",
+          "tags": [
+            "verb.supinum"
+          ],
+          "q": "Jag har inte ___ vad hon menar.",
+          "base": "förstå",
+          "answers": [
+            "förstått"
+          ],
+          "qEn": "I haven't understood what she means.",
+          "explain": "har + supinum: förstått. Som stå – stått."
+        }
+      ]
+    },
+    {
+      "id": "titta-se",
+      "title": "Del 3: titta eller se?",
+      "titleEn": "Part 3: titta or se?",
+      "instructions": "Välj rätt verb eller preposition.",
+      "instructionsEn": "Choose the right verb or preposition.",
+      "items": [
+        {
+          "id": "i3",
+          "type": "info",
+          "md": "**titta (på)** = du riktar ögonen *med vilja*. Efter titta kommer **på**: *titta på TV, titta på mig*.\n\n**se** = du får något i ögonen, *resultatet*: *Jag ser en fågel. Jag ser ingenting. Har du sett min nyckel?*\n\n**Minneskrok:** *titta* = jag **gör** något. *se* = det **händer** i ögat.\n\n**Persiska:** نگاه کردن (titta på) ≠ دیدن (se). **English:** *look at* ≠ *see*.",
+          "image": {
+            "src": "titta-se.svg",
+            "alt": "Ett öga tittar på en TV, ett annat öga ser en fågel"
+          }
+        },
+        {
+          "id": "m1",
+          "type": "mcq",
+          "tags": [
+            "ord.förväxling"
+          ],
+          "q": "Det är helt mörkt i rummet. Jag ___ ingenting.",
+          "options": [
+            "tittar",
+            "ser",
+            "tittade på",
+            "hittar"
+          ],
+          "answer": 1,
+          "qEn": "It is totally dark. I can't see anything.",
+          "explain": "se = resultatet i ögat. Jag ser ingenting."
+        },
+        {
+          "id": "m2",
+          "type": "mcq",
+          "tags": [
+            "preposition",
+            "ord.förväxling"
+          ],
+          "q": "Titta ___ den vackra bilden på väggen!",
+          "options": [
+            "av",
+            "till",
+            "på",
+            "för"
+          ],
+          "answer": 2,
+          "qEn": "Look at the beautiful picture on the wall!",
+          "explain": "titta på = look at."
+        }
+      ]
+    },
+    {
+      "id": "fraser",
+      "title": "Del 4: Ordning och fraser",
+      "titleEn": "Part 4: Word order and phrases",
+      "instructions": "Sätt orden i rätt ordning. Välj rätt fras.",
+      "instructionsEn": "Put the words in order. Choose the right phrase.",
+      "items": [
+        {
+          "id": "i4",
+          "type": "info",
+          "md": "**Nyttiga fraser** när du inte förstår:\n\n- *Jag förstår inte.* – Kan du säga det igen? – Kan du säga det långsammare?\n- *Vad sa du?* · *Jag hörde inte vad du sa.*\n- *Gissa!* · *Jag gissar att det är ...* · *Försök igen!*\n\nOrdföljd: verbet på plats 2. *Igår **åt** jag pizza.* (inversion)"
+        },
+        {
+          "id": "o1",
+          "type": "order",
+          "tags": [
+            "ordföljd.fråga",
+            "verb.modal"
+          ],
+          "words": [
+            "du",
+            "säga",
+            "Kan",
+            "igen",
+            "det"
+          ],
+          "answers": [
+            "Kan du säga det igen"
+          ],
+          "q": "Ordna frågan.",
+          "qEn": "Can you say that again?",
+          "explain": "Fråga med modalverb: Kan + du + säga ..."
+        },
+        {
+          "id": "o2",
+          "type": "order",
+          "tags": [
+            "ordföljd.inversion",
+            "verb.preteritum"
+          ],
+          "words": [
+            "tittade",
+            "en",
+            "Igår",
+            "film",
+            "och",
+            "vi",
+            "åt",
+            "pizza",
+            "på"
+          ],
+          "answers": [
+            "Igår tittade vi på en film och åt pizza",
+            "Vi tittade på en film igår och åt pizza"
+          ],
+          "q": "Ordna meningen.",
+          "qEn": "Yesterday we watched a film and ate pizza.",
+          "explain": "Igår på plats 1 → verbet på plats 2: Igår tittade vi ... Båda verben i preteritum."
+        },
+        {
+          "id": "m3",
+          "type": "mcq",
+          "tags": [
+            "tal.interaktion",
+            "verb.presens"
+          ],
+          "q": "Läraren pratar för fort och du hör inte. Vad säger du?",
+          "options": [
+            "Jag gissar det.",
+            "Titta på mig!",
+            "Försök igen!",
+            "Jag förstår inte. Kan du säga det igen?"
+          ],
+          "answer": 3,
+          "qEn": "The teacher speaks too fast. What do you say?",
+          "explain": "Jag förstår inte. Kan du säga det igen? = artig fråga om upprepning."
+        }
+      ]
+    },
+    {
+      "id": "lyssna",
+      "title": "Del 5: Lyssna",
+      "titleEn": "Part 5: Listening",
+      "instructions": "Lyssna två gånger. Svara på frågorna.",
+      "instructionsEn": "Listen twice. Answer the questions.",
+      "parts": [
+        {
+          "heading": "Samtal",
+          "headingEn": "Conversation",
+          "audio": {
+            "id": "a1",
+            "title": "Vad gjorde du igår?",
+            "maxPlays": 2,
+            "speakers": {
+              "Johan": "m",
+              "Sara": "f"
+            },
+            "rate": "-5%",
+            "script": [
+              {
+                "speaker": "Johan",
+                "text": "Hej Sara! Vad gjorde du igår kväll?"
+              },
+              {
+                "speaker": "Sara",
+                "text": "Jag var hemma. Jag tittade på en film och åt pizza. Och du?"
+              },
+              {
+                "speaker": "Johan",
+                "text": "Jag gick till stationen, men tåget hade redan gått. Så jag tog bussen."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Åh nej! Träffade du Emil där?"
+              },
+              {
+                "speaker": "Johan",
+                "text": "Nej, jag såg honom inte. Men han sa att han kommer på lördag."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Bra! Då lagar jag middag. Gissa vad jag ska laga!"
+              },
+              {
+                "speaker": "Johan",
+                "text": "Pizza igen?"
+              },
+              {
+                "speaker": "Sara",
+                "text": "Nej! Jag försöker laga fisksoppa. Jag förstår inte receptet riktigt, men jag har sett en video."
+              },
+              {
+                "speaker": "Johan",
+                "text": "Låter gott! Jag kommer klockan sex."
+              }
+            ]
+          },
+          "image": {
+            "src": "kvall.svg",
+            "alt": "Sara tittar på film och äter pizza. Johan missar tåget och tar bussen."
+          },
+          "items": [
+            {
+              "id": "h1",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "verb.preteritum"
+              ],
+              "q": "Vad åt Sara igår?",
+              "qEn": "What did Sara eat yesterday?",
+              "answers": [
+                "pizza"
+              ],
+              "explain": "Jag tittade på en film och åt pizza."
+            },
+            {
+              "id": "h2",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Hur åkte Johan när tåget hade gått?",
+              "options": [
+                "Med bussen",
+                "Med tåget",
+                "Med bilen"
+              ],
+              "answer": 0,
+              "qEn": "How did Johan travel?",
+              "explain": "Tåget hade redan gått. Så jag tog bussen."
+            },
+            {
+              "id": "h3",
+              "type": "short",
+              "tags": [
+                "hör.tid",
+                "hör.detalj"
+              ],
+              "q": "När kommer Emil?",
+              "qEn": "When is Emil coming?",
+              "answers": [
+                "lördag"
+              ],
+              "explain": "Han sa att han kommer på lördag."
+            },
+            {
+              "id": "h4",
+              "type": "short",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Vad försöker Sara laga?",
+              "qEn": "What is Sara trying to cook?",
+              "answers": [
+                "fisksoppa",
+                "soppa"
+              ],
+              "explain": "Jag försöker laga fisksoppa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Del 6: Tala",
+      "titleEn": "Part 6: Speaking",
+      "instructions": "Berätta i cirka 45 sekunder. Använd verb i preteritum och presens.",
+      "instructionsEn": "Speak for about 45 seconds. Use verbs in past and present.",
+      "items": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "tags": [
+            "tal.berätta",
+            "verb.preteritum",
+            "verb.presens"
+          ],
+          "q": "Berätta om igår och om idag.",
+          "maxSeconds": 60,
+          "bullets": [
+            "Vad åt du igår? (åt)",
+            "Vad tittade du på, eller vad såg du? (tittade, såg)",
+            "Vart gick du? (gick)",
+            "Vad försöker du lära dig nu? (försöker)",
+            "Vad förstår du bra på svenska, och vad förstår du inte? (förstår)"
+          ],
+          "qEn": "Tell about yesterday (past) and today (present).",
+          "explain": "Igår → åt, tittade, såg, gick. Idag → försöker, förstår."
+        }
+      ]
+    }
+  ]
+}

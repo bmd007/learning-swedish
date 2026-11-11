@@ -47,3 +47,12 @@
   verified – a test-mode job ("s-passiv i presens och preteritum") was running when we stopped.
 - Next step: check that test-mode lesson (lessons/*-gen-*), review it; if bad, delete it and keep
   tuning. Then grade 004–006 when results arrive.
+
+## 2026-11-11 (evening)
+- Learner asked for a lesson on important daily verbs and one on daily adjectives. Built (via lesson-author
+  agents, reviewed by Claude): `008-vardagsverb` (verb groups -ade/-te/strong, äta/se/gå/förstå/säga +
+  ta/komma/göra/veta, titta vs se, chunks, dialogue, speaking) and `009-vardagsadjektiv` (en/ett/plural
+  forms, irregulars liten/gammal/ny, opposite pairs, comparison bra–bättre–bäst etc., flat dialogue,
+  speaking). Fixed: a listening question not supported by the dialogue, an image that gave away answers.
+- 007-gen-s-passiv-nu-och-da (local model, test mode) is still uncommitted and unreviewed.
+- Next step: review 007-gen; grade 003–009 when results arrive.

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" font-family="system-ui, Helvetica, Arial, sans-serif"><rect width="640" height="320" fill="#fff"/>
+<g text-anchor="middle" fill="#222">
+<text x="320" y="30" font-size="22" font-weight="bold">bra – bättre – bäst</text>
+<rect x="60" y="170" width="140" height="60" fill="#cfe6fa"/><rect x="250" y="130" width="140" height="100" fill="#9cc6f0"/><rect x="440" y="80" width="140" height="150" fill="#3b7dd8"/>
+<text x="130" y="205" font-size="22">bra</text><text x="320" y="185" font-size="22">bättre</text><text x="510" y="160" font-size="22" fill="#fff">bäst</text>
+<text x="130" y="255" font-size="16">Det är bra.</text><text x="320" y="255" font-size="16">Det är bättre än i går.</text><text x="510" y="255" font-size="16">Det är det bästa.</text>
+<rect x="30" y="272" width="580" height="38" rx="8" fill="#fff8e1" stroke="#e0b100" stroke-width="2"/>
+<text x="320" y="297" font-size="16">dålig – sämre – sämst  |  liten – mindre – minst  |  gammal – äldre – äldst</text>
+</g></svg>
