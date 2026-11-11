@@ -1,0 +1,163 @@
+{
+  "lessonId": "004-ga-gick-gatt",
+  "attemptId": "2026-11-11T21-57-08-500Z",
+  "final": true,
+  "startedAt": "2026-11-11T21:57:31.673Z",
+  "finishedAt": "2026-11-11T22:16:16.957Z",
+  "durationMin": 19,
+  "currentSection": null,
+  "sectionMinutes": {
+    "ga": 14.9,
+    "anvand": 3.8
+  },
+  "audioPlays": {},
+  "firstTry": {
+    "g1": true,
+    "g2": true,
+    "g3": true,
+    "g4": true,
+    "g5": true,
+    "g6": true,
+    "o1": true,
+    "o2": true,
+    "o3": true
+  },
+  "score": {
+    "ga": {
+      "correct": 6,
+      "total": 6
+    },
+    "anvand": {
+      "correct": 3,
+      "total": 3
+    }
+  },
+  "items": [
+    {
+      "id": "g1",
+      "section": "ga",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Hur ___ det på provet igår?",
+      "given": "gick",
+      "expected": "gick",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "ga",
+      "type": "gap",
+      "tags": [
+        "verb.supinum"
+      ],
+      "prompt": "Det har ___ bra hittills.",
+      "given": "gått",
+      "expected": "gått",
+      "correct": true
+    },
+    {
+      "id": "g3",
+      "section": "ga",
+      "type": "gap",
+      "tags": [
+        "verb.presens"
+      ],
+      "prompt": "Hur ___ det med din nya lägenhet?",
+      "given": "går",
+      "expected": "går",
+      "correct": true
+    },
+    {
+      "id": "g4",
+      "section": "ga",
+      "type": "gap",
+      "tags": [
+        "verb.presens"
+      ],
+      "prompt": "Tyvärr ___ det inte att betala kontant här.",
+      "given": "går",
+      "expected": "går",
+      "correct": true
+    },
+    {
+      "id": "g5",
+      "section": "ga",
+      "type": "gap",
+      "tags": [
+        "verb.supinum"
+      ],
+      "prompt": "När jag kom till stationen hade tåget redan ___.",
+      "given": "gått",
+      "expected": "gått",
+      "correct": true
+    },
+    {
+      "id": "g6",
+      "section": "ga",
+      "type": "mcq",
+      "tags": [
+        "ord.kollokation"
+      ],
+      "prompt": "Din vän frågar: \"Hur gick intervjun?\" Den var varken bra eller dålig. Vad svarar du?",
+      "given": "Det gick så där.",
+      "expected": "Det gick så där.",
+      "correct": true
+    },
+    {
+      "id": "o1",
+      "section": "anvand",
+      "type": "order",
+      "tags": [
+        "ordföljd.inversion"
+      ],
+      "prompt": "It went badly last Friday.",
+      "given": "det gick svagt i fredags",
+      "expected": "I fredags gick det svagt",
+      "correct": true
+    },
+    {
+      "id": "o2",
+      "section": "anvand",
+      "type": "order",
+      "tags": [
+        "ordföljd.bisats"
+      ],
+      "prompt": "I know that it didn't go well.",
+      "given": "Jag vet att det inte gick bra",
+      "expected": "Jag vet att det inte gick bra",
+      "correct": true
+    },
+    {
+      "id": "o3",
+      "section": "anvand",
+      "type": "order",
+      "tags": [
+        "ordföljd.fråga"
+      ],
+      "prompt": "How is it going at work?",
+      "given": "Hur går det på jobbet",
+      "expected": "Hur går det på jobbet",
+      "correct": true
+    },
+    {
+      "id": "t1",
+      "section": "anvand",
+      "type": "speak",
+      "tags": [
+        "tal.berätta"
+      ],
+      "prompt": "Hur gick din vecka? Berätta om något som gick bra och något som gick dåligt.",
+      "given": {
+        "recording": "004-ga-gick-gatt__t1__20261111-231440.webm",
+        "transcript": "den här vecka  igår eller för mig  på måndag  jag hade en bra kurs på svenska  men på torsdag Jag hade  en  mycket bra kurs i Spanien  men  det gick dåligt  för mig att prata Spanien  i kursen",
+        "seconds": 60
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-11T23:16:16"
+}

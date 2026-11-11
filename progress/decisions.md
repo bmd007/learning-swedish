@@ -31,6 +31,8 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   calendar for "i fredags", a horse being groomed for "rykta"). These build memory links and are needed
   whenever the meaning can be drawn. Anything other than plain text helps. → every lesson: rule image(s)
   + concept pictures for the key words.
+- **Speaking needs wiggle room (2026-11-11).** 60 s was too short for 5 speaking questions; the learner adds
+  extra sentences. Rule: maxSeconds ≥ 120 and 60 + 30 s per bullet. All existing speak items updated.
 - **Lessons need media and focus.** Text-only lessons are boring. Every lesson has related images
   (hand-drawn SVG that teaches the rule/scene, or free photos with credit) and audio where it fits.
   One topic per lesson, 10–15 min. A word question with two topics → two lessons.

@@ -61,3 +61,12 @@
   (q5 "Vad betyder"). Generator TODO: ambiguity check (ask reviewer "can another form also fit?"), reject
   questions shorter than ~4 words / ending without ?/./___, mcq "only one correct" check by filling each
   option into a sentence-type question.
+
+## 2026-11-11 (night)
+- Graded 003 (26/26 final, first try: strong verbs 3/10, vocab 7/8), 004 (9/9 + speaking A2+), 008 (15/19
+  + speaking A2+). Feedback files written. Speaking recordings were both cut at 60 s → all speak items now
+  maxSeconds ≥120 (60 + 30/bullet); rule in AUTHORING + decisions.
+- Tried local Whisper (KBLab/kb-whisper-small via faster-whisper, tools/transcribe.py): huggingface.co is
+  blocked on this network (connection reset) → still grading from Chrome transcripts.
+- Next step: lesson 011 on signal word → verb form (har + supinum, igår + preteritum, nu + presens,
+  group 2 -er) + också/inte placement + speaking with "i måndags hade jag". Then 005/006/009/010 when done.

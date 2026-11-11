@@ -97,7 +97,7 @@
             "tal.interaktion",
             "tal.berätta"
           ],
-          "maxSeconds": 60,
+          "maxSeconds": 120,
           "q": "Fråga 1",
           "audio": {
             "id": "e1",
@@ -124,7 +124,7 @@
             "tal.interaktion",
             "tal.berätta"
           ],
-          "maxSeconds": 60,
+          "maxSeconds": 120,
           "q": "Fråga 2",
           "audio": {
             "id": "e2",
@@ -147,7 +147,7 @@
             "tal.interaktion",
             "tal.argumentera"
           ],
-          "maxSeconds": 60,
+          "maxSeconds": 120,
           "q": "Fråga 3",
           "audio": {
             "id": "e3",
@@ -184,7 +184,7 @@
                 "tal.annons",
                 "tal.interaktion"
               ],
-              "maxSeconds": 45,
+              "maxSeconds": 120,
               "q": "Svara på examinatorns frågor om cykeln.",
               "audio": {
                 "id": "e4",
@@ -211,7 +211,7 @@
                 "tal.annons",
                 "tal.interaktion"
               ],
-              "maxSeconds": 45,
+              "maxSeconds": 120,
               "q": "Svara igen.",
               "audio": {
                 "id": "e5",
@@ -241,7 +241,7 @@
                 "tal.annons",
                 "ordföljd.fråga"
               ],
-              "maxSeconds": 60,
+              "maxSeconds": 120,
               "q": "Ställ minst fyra frågor till examinatorn om språkcaféet. Använd stödorden. Säg hela frågor.",
               "qEn": "Ask at least four full questions about the language café, using the keywords. Remember: in questions the verb comes first or right after the question word (När börjar…? Kostar det…?)."
             }
@@ -262,7 +262,7 @@
           "tags": [
             "tal.argumentera"
           ],
-          "maxSeconds": 90,
+          "maxSeconds": 120,
           "q": "Svara examinatorn.",
           "audio": {
             "id": "e7",
@@ -288,7 +288,7 @@
           "tags": [
             "tal.argumentera"
           ],
-          "maxSeconds": 60,
+          "maxSeconds": 120,
           "q": "Svara examinatorn.",
           "audio": {
             "id": "e8",

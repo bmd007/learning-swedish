@@ -197,7 +197,7 @@
           ],
           "q": "Hur gick din vecka? Berätta om något som gick bra och något som gick dåligt.",
           "qEn": "How did your week go? Tell about one thing that went well and one that went badly.",
-          "maxSeconds": 60,
+          "maxSeconds": 150,
           "bullets": [
             "Vad gick bra? När? (i måndags, igår …)",
             "Vad gick dåligt eller så där? Varför?",

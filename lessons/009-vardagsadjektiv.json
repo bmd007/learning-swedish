@@ -418,7 +418,7 @@
           ],
           "q": "Beskriv ditt hem och jämför det med ditt förra hem.",
           "qEn": "Describe your home and compare it with your previous one.",
-          "maxSeconds": 60,
+          "maxSeconds": 180,
           "bullets": [
             "Är ditt hem stort eller litet? Gammalt eller nytt?",
             "Vilket rum är bäst? Varför?",

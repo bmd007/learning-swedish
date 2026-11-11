@@ -439,7 +439,7 @@
             "verb.presens"
           ],
           "q": "Berätta om igår och om idag.",
-          "maxSeconds": 60,
+          "maxSeconds": 210,
           "bullets": [
             "Vad åt du igår? (åt)",
             "Vad tittade du på, eller vad såg du? (tittade, såg)",

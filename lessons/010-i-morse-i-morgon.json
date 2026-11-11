@@ -401,7 +401,7 @@
           ],
           "q": "Berätta om din vecka: vad har hänt och vad ska hända?",
           "qEn": "Tell about your week: what happened and what will happen?",
-          "maxSeconds": 60,
+          "maxSeconds": 150,
           "image": {
             "src": "tidslinje.svg",
             "alt": "Tidslinje med tidsord",

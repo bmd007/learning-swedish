@@ -1,0 +1,295 @@
+{
+  "lessonId": "008-vardagsverb",
+  "attemptId": "2026-11-11T22-18-05-477Z",
+  "final": true,
+  "startedAt": "2026-11-11T22:18:12.637Z",
+  "finishedAt": "2026-11-11T22:36:04.749Z",
+  "durationMin": 18,
+  "currentSection": null,
+  "sectionMinutes": {
+    "monster": 6.3,
+    "starka": 3.8,
+    "titta-se": 1.6,
+    "fraser": 1.7,
+    "lyssna": 2.5,
+    "tala": 2.1
+  },
+  "audioPlays": {
+    "a1": 1
+  },
+  "firstTry": {
+    "g1": true,
+    "g2": true,
+    "g3": false,
+    "g4": false,
+    "g5": true,
+    "g6": false,
+    "g7": false,
+    "g8": false,
+    "m1": true,
+    "m2": true,
+    "o1": true,
+    "o2": true,
+    "h4": false,
+    "h3": false,
+    "h2": true,
+    "h1": false
+  },
+  "score": {
+    "monster": {
+      "correct": 2,
+      "total": 4
+    },
+    "starka": {
+      "correct": 1,
+      "total": 4
+    },
+    "titta-se": {
+      "correct": 2,
+      "total": 2
+    },
+    "fraser": {
+      "correct": 3,
+      "total": 3
+    },
+    "lyssna": {
+      "correct": 3,
+      "total": 4
+    }
+  },
+  "items": [
+    {
+      "id": "g1",
+      "section": "monster",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Igår ___ vi på en film hemma.",
+      "given": "tittade",
+      "expected": "tittade",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "monster",
+      "type": "gap",
+      "tags": [
+        "verb.supinum"
+      ],
+      "prompt": "Du har ___ rätt! Det är precis tre kilo.",
+      "given": "gissat",
+      "expected": "gissat",
+      "correct": true
+    },
+    {
+      "id": "g3",
+      "section": "monster",
+      "type": "gap",
+      "tags": [
+        "verb.presens"
+      ],
+      "prompt": "Jag ___ lära mig svenska varje dag.",
+      "given": "försökar",
+      "expected": "försöker",
+      "correct": false
+    },
+    {
+      "id": "g4",
+      "section": "monster",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Igår ___ jag ringa dig tre gånger, men du svarade inte.",
+      "given": "försöker",
+      "expected": "försökte",
+      "correct": false
+    },
+    {
+      "id": "g5",
+      "section": "starka",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Jag var hungrig, så jag ___ två smörgåsar igår.",
+      "given": "åt",
+      "expected": "åt",
+      "correct": true
+    },
+    {
+      "id": "g6",
+      "section": "starka",
+      "type": "gap",
+      "tags": [
+        "verb.supinum"
+      ],
+      "prompt": "Har du ___ min nya jacka? Jag hittar den inte.",
+      "given": "set",
+      "expected": "sett",
+      "correct": false
+    },
+    {
+      "id": "g7",
+      "section": "starka",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum"
+      ],
+      "prompt": "Läraren ___ att provet var på fredag.",
+      "given": "säga",
+      "expected": "sa",
+      "correct": false
+    },
+    {
+      "id": "g8",
+      "section": "starka",
+      "type": "gap",
+      "tags": [
+        "verb.supinum"
+      ],
+      "prompt": "Jag har inte ___ vad hon menar.",
+      "given": "förstår",
+      "expected": "förstått",
+      "correct": false
+    },
+    {
+      "id": "m1",
+      "section": "titta-se",
+      "type": "mcq",
+      "tags": [
+        "ord.förväxling"
+      ],
+      "prompt": "Det är helt mörkt i rummet. Jag ___ ingenting.",
+      "given": "ser",
+      "expected": "ser",
+      "correct": true
+    },
+    {
+      "id": "m2",
+      "section": "titta-se",
+      "type": "mcq",
+      "tags": [
+        "preposition",
+        "ord.förväxling"
+      ],
+      "prompt": "Titta ___ den vackra bilden på väggen!",
+      "given": "på",
+      "expected": "på",
+      "correct": true
+    },
+    {
+      "id": "o1",
+      "section": "fraser",
+      "type": "order",
+      "tags": [
+        "ordföljd.fråga",
+        "verb.modal"
+      ],
+      "prompt": "Ordna frågan.",
+      "given": "Kan du säga det igen",
+      "expected": "Kan du säga det igen",
+      "correct": true
+    },
+    {
+      "id": "o2",
+      "section": "fraser",
+      "type": "order",
+      "tags": [
+        "ordföljd.inversion",
+        "verb.preteritum"
+      ],
+      "prompt": "Ordna meningen.",
+      "given": "Igår tittade vi på en film och åt pizza",
+      "expected": "Igår tittade vi på en film och åt pizza",
+      "correct": true
+    },
+    {
+      "id": "m3",
+      "section": "fraser",
+      "type": "mcq",
+      "tags": [
+        "tal.interaktion",
+        "verb.presens"
+      ],
+      "prompt": "Läraren pratar för fort och du hör inte. Vad säger du?",
+      "given": "Jag förstår inte. Kan du säga det igen?",
+      "expected": "Jag förstår inte. Kan du säga det igen?",
+      "correct": true
+    },
+    {
+      "id": "h1",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "verb.preteritum"
+      ],
+      "prompt": "Vad åt Sara igår?",
+      "given": "pizza",
+      "expected": "pizza",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "h2",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Hur åkte Johan när tåget hade gått?",
+      "given": "Med bussen",
+      "expected": "Med bussen",
+      "correct": true
+    },
+    {
+      "id": "h3",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.tid",
+        "hör.detalj"
+      ],
+      "prompt": "När kommer Emil?",
+      "given": "pa lårdag",
+      "expected": "lördag",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "h4",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad försöker Sara laga?",
+      "given": "fysksoppa",
+      "expected": "fisksoppa",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "s1",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.berätta",
+        "verb.preteritum",
+        "verb.presens"
+      ],
+      "prompt": "Berätta om igår och om idag.",
+      "given": {
+        "recording": "008-vardagsverb__s1__20261111-233550.webm",
+        "transcript": "Jag åt en  biffstek igår  tittade jag på en TV show  igår också Det heter Broman  jag också gick till en  björn den här veckan Jag också försöker att lära mig  att prata svenska  men jag förstår inte",
+        "seconds": 60
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-11T23:36:04"
+}

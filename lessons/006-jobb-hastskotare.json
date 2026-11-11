@@ -363,7 +363,7 @@
           ],
           "q": "Ring Lena om jobbet. Presentera dig och fråga om jobbet.",
           "qEn": "Call Lena. Introduce yourself and ask about the job.",
-          "maxSeconds": 75,
+          "maxSeconds": 180,
           "image": {
             "src": "mocka.jpg",
             "alt": "Ett stall av trä på landet",

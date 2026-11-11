@@ -15,11 +15,13 @@
 | Läsa | B1 (on easier-than-Swedex texts) | 001: 7/8, fast (10 min) |
 | Höra | B1 (on easier texts) | 001: 8/9 with 1 play each; missed 'däremot' contrast |
 | Skriva | ? | not done yet (→ 002) |
-| Tala | ? | not done yet (→ 002) |
-| Grammatik | syntax B1, morphology A2 | 001: word order 4/4; strong verbs/comparatives/plurals 0/5 |
-| Ordförråd | weak precision | 001: 0/6 (maybe rushed, 3.7 min) |
+| Tala | A2+ | 004, 008: fluent, lots of content, adds extra sentences; uses past tense; errors: inversion after time word, i måndags vs på måndag, *också* placement. Both recordings cut at 60 s (limit now ≥120 s). |
+| Grammatik | syntax B1 (writing), morphology A2 | 003: strong verbs 3/10 first try, 10/10 after hint; 008: form not matched to signal word (har → supinum, igår → preteritum) 5 errors; 004: gå 6/6 |
+| Ordförråd | improving | 003: 7/8 first try (was 0/6 in 001) |
 
 ## Known weaknesses
+- **Signal word → verb form** not automatic: har/hade → supinum (sett, förstått), igår → preteritum (försökte, sa). Knows the rules (fixes after hint), slow to apply.
+- Speaking: inversion after time word (*På måndag jag hade*), past days need -s (*i måndags*), *också/inte* after the verb (*jag också gick*).
 - Irregular morphology: strong verb past/supine (skrave, ät), group-3 verbs (bode), comparative (stortare), o→ö plural (bokar).
 - Precise vocabulary for frequent B1 words: tvungen, uppsagd, förmodligen, avboka, söka jobb, påminna/komma ihåg, däremot.
 - Fixed prepositions: intresserad av, i + duration.

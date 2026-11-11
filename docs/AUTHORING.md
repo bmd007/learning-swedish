@@ -82,7 +82,7 @@ Examples:
 {"id":"q3","type":"gap","tags":["verb.preteritum"],"q":"Igår ___ jag ett brev.","base":"skriva","answers":["skrev"]}
 {"id":"q4","type":"order","tags":["ordföljd.bisats"],"words":["att","han","inte","kommer","Jag","vet"],"answers":["Jag vet att han inte kommer"]}
 {"id":"q5","type":"short","tags":["hör.detalj"],"q":"Vad ska Eva köpa?","answers":["mjölk"]}
-{"id":"q6","type":"speak","tags":["tal.interaktion"],"q":"Svara på frågan.","maxSeconds":45,
+{"id":"q6","type":"speak","tags":["tal.interaktion"],"q":"Svara på frågan.","maxSeconds":120,
  "audio":{"id":"t6","maxPlays":2,"speakers":{"Examinator":"m"},"script":[{"speaker":"Examinator","text":"Vad gör du på fritiden?"}]}}
 ```
 
@@ -154,6 +154,8 @@ Swedex A2B1, 2026-12-04. Format and timeline: `progress/plan.md`. Shapes to mirr
 
 1. **Short and focused:** 10–15 minutes, **one topic per lesson** (one verb family, one rule, one
    exam task). About 10–16 items. If a word question touches two topics, make two lessons.
+1c. **Speaking time:** `maxSeconds` = at least 120, and 60 + 30 per bullet (5 bullets → 210). The learner
+   likes to add extra sentences – never cut them off.
 1b. **Media in every lesson:** images (see Images) and, where it fits, a short audio dialogue.
 2. **Target the data:** read `progress/tag-stats.md` + the latest feedback. ~70% of items on the weakest
    tags, ~30% review of strong areas. Aim for 60–70% correct.
