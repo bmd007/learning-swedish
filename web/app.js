@@ -359,16 +359,18 @@ async function openLesson(id) {
       };
       file.onchange = async () => {
         for (const f of file.files) {
-          const ext = (f.name.split(".").pop() || "jpg").toLowerCase();
           thumbs.insertAdjacentHTML("beforeend", `<span class="muted uploading">Laddar upp…</span>`);
-          const r = await fetch(`/api/upload?name=${lesson.id}__${item.id}&ext=${encodeURIComponent(ext)}`, { method: "POST", body: f })
+          const jpg = await toJpeg(f);
+          const body = jpg ?? f;
+          const ext = jpg ? "jpg" : (f.name.split(".").pop() || "jpg").toLowerCase();
+          const r = await fetch(`/api/upload?name=${lesson.id}__${item.id}&ext=${encodeURIComponent(ext)}`, { method: "POST", body })
             .then(r => r.json()).catch(() => ({}));
           if (r.saved) {
             state.uploads ??= {};
             (state.uploads[item.id] ??= []).push(r.saved);
             save();
           } else {
-            alert("Uppladdningen misslyckades. Använd JPG, PNG eller HEIC.");
+            alert(r.error ?? "Uppladdningen misslyckades. Använd JPG eller PNG.");
           }
           drawThumbs();
         }
@@ -577,6 +579,23 @@ async function openLesson(id) {
   }
 
   render();
+}
+
+async function toJpeg(file, maxSide = 2400) {
+  try {
+    const bmp = await createImageBitmap(file);
+    const scale = Math.min(1, maxSide / Math.max(bmp.width, bmp.height));
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.round(bmp.width * scale);
+    canvas.height = Math.round(bmp.height * scale);
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#fff";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(bmp, 0, 0, canvas.width, canvas.height);
+    return await new Promise(res => canvas.toBlob(res, "image/jpeg", 0.88));
+  } catch {
+    return null;
+  }
 }
 
 function playAudio(lessonId, audio) {

@@ -1,5 +1,6 @@
 import json
 import re
+import shutil
 import subprocess
 import sys
 import threading
@@ -56,6 +57,22 @@ def lesson_summaries():
             "reviewed": bool((data.get("generated") or {}).get("reviewed")),
         })
     return out
+
+
+def heic_to_jpg(src):
+    jpg = src.with_suffix(".jpg")
+    if shutil.which("sips"):
+        done = subprocess.run(["sips", "-s", "format", "jpeg", str(src), "--out", str(jpg)], capture_output=True)
+        if done.returncode == 0:
+            return jpg
+    try:
+        from PIL import Image
+        from pillow_heif import register_heif_opener
+        register_heif_opener()
+        Image.open(src).convert("RGB").save(jpg, "JPEG", quality=88)
+        return jpg
+    except Exception:
+        return None
 
 
 class Handler(SimpleHTTPRequestHandler):
@@ -168,12 +185,12 @@ class Handler(SimpleHTTPRequestHandler):
                 return self.send_json({"error": "bad name or type"}, 400)
             f = UPLOADS / f"{name}__{stamp}-{datetime.now().microsecond:06d}.{ext}"
             f.write_bytes(body)
-            if ext in ("heic", "heif", "webp"):
-                jpg = f.with_suffix(".jpg")
-                done = subprocess.run(["sips", "-s", "format", "jpeg", str(f), "--out", str(jpg)], capture_output=True)
-                if done.returncode == 0:
-                    f.unlink()
-                    f = jpg
+            if ext in ("heic", "heif"):
+                jpg = heic_to_jpg(f)
+                f.unlink(missing_ok=True)
+                if not jpg:
+                    return self.send_json({"error": "Kunde inte läsa HEIC-bilden. Spara den som JPG och försök igen."}, 415)
+                f = jpg
             return self.send_json({"saved": f.name})
         self.send_json({"error": "not found"}, 404)
 

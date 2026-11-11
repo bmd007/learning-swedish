@@ -10,7 +10,7 @@ You can create lessons, grade results, and write reports **without touching code
 | Images | `images/<lessonId>/<name>.svg/.png/.jpg` | lesson author (hand-drawn SVG or downloaded free photo) |
 | Learner answers | `results/*.json` (final), `results/drafts/*.json` (unfinished, saved after every answer) | the app |
 | Voice recordings | `recordings/` (gitignored) | the app |
-| Photos of handwritten answers | `uploads/` (gitignored; HEIC auto-converted to JPG) | the app (`write` items) |
+| Photos of handwritten answers | `uploads/` (gitignored; the browser converts every photo to JPG before upload. HEIC that the browser cannot read: `sips` on macOS, else `pillow-heif` if installed, else rejected with a message) | the app (`write` items) |
 | Feedback to learner | `feedback/<lessonId>__<attempt>.md` (shown in app) | grader |
 | Learner model | `progress/learner-profile.md`, `progress/plan.md`, `progress/decisions.md`, `progress/log.md` | teacher/grader |
 | Error stats | `progress/tag-stats.md` | `tools/report.py` (generated, never edit) |
