@@ -24,8 +24,30 @@ You need Python 3 and nothing else. Optional extras:
 | Good-quality listening audio | `python3 -m venv .venv && .venv/bin/pip install edge-tts` (needs internet) |
 | Checking SVG images | `brew install librsvg` (`rsvg-convert`) |
 | Generating lessons with a local model | [Ollama](https://ollama.com) + `ollama pull gemma3:12b` |
+| Better speech transcripts (local Whisper) | `.venv/bin/pip install faster-whisper "av<17"`, then `.venv/bin/python tools/transcribe.py recordings/<file>.webm` (downloads `KBLab/kb-whisper-small` from huggingface.co once, then works offline) |
+| HEIC photos on Windows/Linux | `pip install pillow-heif` (optional, see "Photos" below) |
 
 Without audio files, the browser reads the dialogues aloud itself (lower quality).
+
+### Windows and Linux
+
+Everything is plain Python and works on all three systems. Differences:
+- On Windows, start with `python server.py` and open http://localhost:8765, or use Git Bash or WSL for
+  `./start-app.sh`.
+- The venv Python is `.venv\Scripts\python` on Windows instead of `.venv/bin/python`.
+- faster-whisper may not have Windows wheels for the newest Python yet. Use Python 3.12 or 3.13 if
+  `pip install faster-whisper` fails. With an NVIDIA GPU it can run much faster (`device="cuda"`).
+- Use `rsvg-convert` from your package manager (`apt install librsvg2-bin`) or skip it.
+
+### Photos and recordings
+
+- **Photos of handwriting:** the browser converts every photo to JPG before upload, so any format the
+  browser can open works. If a HEIC still arrives (Chrome can't open HEIC), the server converts it with
+  `sips` (macOS) or `pillow-heif` if installed, otherwise it asks you to save the photo as JPG.
+  iPhone tip: Settings → Camera → Formats → *Most Compatible* saves JPG directly.
+- **Speaking:** recorded in the browser (`.webm`). Each speaking task gives at least 2 minutes (60 s +
+  30 s per question), so there is room for extra sentences. The transcript comes from the browser's
+  speech recognition. `tools/transcribe.py` gives a better one if Whisper is installed.
 
 ## How it works
 
@@ -43,7 +65,7 @@ you take a lesson ──▶ results/*.json ──▶ AI grades ──▶ feedbac
 | `feedback/` | graded feedback, shown with the **Feedback** button |
 | `progress/` | learner model: `plan.md`, `learner-profile.md`, `decisions.md`, `log.md`, `vocab.md`, `tag-stats.md` |
 | `docs/AUTHORING.md` | **the contract**: lesson format, item types, image and audio rules, how to grade |
-| `tools/` | `validate.py` (check a lesson), `build_audio.py` (make audio), `report.py` (scores per skill), `generate.py` (local-model generator) |
+| `tools/` | `validate.py` (check a lesson), `build_audio.py` (make audio), `report.py` (scores per skill), `generate.py` (local-model generator), `transcribe.py` (Swedish speech-to-text) |
 | `web/`, `server.py` | the app (Python standard library + plain JS, no build step) |
 | `materials/` | private course material (gitignored, see below) |
 
@@ -96,15 +118,6 @@ file can be the teacher. The rules live in **`docs/AUTHORING.md`**. Give the AI 
 3. After you take the lesson, ask it to grade: `python3 tools/report.py results/<file>.json` shows
    your answers item by item. The grading steps are at the end of `docs/AUTHORING.md`.
 
-**With a chat-only AI** (ChatGPT or Gemini in the browser):
-1. Paste or upload `docs/AUTHORING.md`, `progress/learner-profile.md` and `progress/tag-stats.md`.
-2. Ask: *"Write one lesson JSON file following this format, about <topic>."*
-3. Save the answer as `lessons/NNN-slug.json` (the file name must match `id`) and run
-   `python3 tools/validate.py` on it. If it complains, paste the errors back into the chat.
-4. Images: ask the AI for simple SVG drawings, save them in `images/<lesson-id>/`, and reference them
-   as described under "Images" in the guide. Lessons without images fail validation.
-5. To get your answers graded, paste the output of `python3 tools/report.py results/<file>.json`.
-
 **With a local model, no cloud AI at all:** the panel at the bottom of the app's home page
 ("Skapa en egen lektion") uses Ollama on your machine (`tools/generate.py`, default `gemma3:12b`). A
 small model makes mistakes, so the generator splits the work into small steps, reviews the language,
@@ -113,7 +126,7 @@ av Claude"*. Use them for extra practice, and expect an occasional wrong answer.
 
 Whichever AI you use, check that it:
 - double-checks every answer key (a wrong key teaches you the mistake);
-- keeps lessons short (10–15 min) and on one topic;
+- keeps lessons short (5-10–15 min) and on one topic;
 - adds pictures: rule images *and* pictures of what words mean.
 
 ---
@@ -123,4 +136,3 @@ Whichever AI you use, check that it:
 - `materials/` (gitignored) holds course material licensed to the learner, for example the Rivstart
   B1/B2 extra material. A password-protected copy is in `materials.zip` (Git LFS). Never publish it.
 - `recordings/` and `uploads/` (voice recordings, photos of handwriting) are gitignored.
-- Access tokens such as `nt-access.txt` are gitignored. Never commit them.
