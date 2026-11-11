@@ -15,6 +15,16 @@
       "instructionsEn": "Read the picture. Write the correct verb form.",
       "items": [
         {
+          "id": "i0",
+          "type": "info",
+          "md": "**Se verbet.** Tolv vanliga verb som bilder. Titta på bilden, säg verbet högt, säg sedan det röda ordet (preteritum). Bilden hjälper minnet.",
+          "image": {
+            "src": "handlingar.svg",
+            "alt": "Tolv bilder av verb: äta, säga, gissa, försöka, förstå, titta, se, gå, ta, komma, göra, veta, med preteritum",
+            "caption": "Bild + ord = minne. Säg verbet högt."
+          }
+        },
+        {
           "id": "i1",
           "type": "info",
           "md": "**Tre sorters verb.** Fråga först: hur slutar preteritum?\n\n| grupp | mönster | exempel |\n|---|---|---|\n| 1 | -ar – **-ade** – **-at** | titta – tittar – tittade – tittat |\n| 2 | -er – **-te** – **-t** | försöka – försöker – försökte – försökt |\n| 3 (starka) | ny vokal, ingen ändelse | äta – äter – **åt** – **ätit** |\n\n| infinitiv | presens | preteritum | supinum | imperativ |\n|---|---|---|---|---|\n| titta | tittar | tittade | tittat | titta! |\n| gissa | gissar | gissade | gissat | gissa! |\n| försöka | försöker | försökte | försökt | försök! |\n\n**Minneskrok:** nästan alla nya verb är grupp 1 eller 2. Du behöver bara lära dig de starka verben som *ord med en egen melodi*, inte alla på en gång.\n\n**Chunks:** *Gissa!* · *Försök igen!* · *Vad tittar du på?*\n\n**Persiska/English:** گروه ۱ و ۲ مثل فعل‌های باقاعده‌اند (-ade/-te ≈ English -ed: *looked, tried*).",
