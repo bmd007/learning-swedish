@@ -56,3 +56,8 @@
   speaking). Fixed: a listening question not supported by the dialogue, an image that gave away answers.
 - 007-gen-s-passiv-nu-och-da (local model, test mode) is still uncommitted and unreviewed.
 - Next step: review 007-gen; grade 003–009 when results arrive.
+- Reviewed + deleted 007-gen-s-passiv-nu-och-da (local model, test mode): 5/9 items bad – contradictory
+  context (q1), two valid answers (q2, q3 presens/preteritum; q6 two correct options), truncated question
+  (q5 "Vad betyder"). Generator TODO: ambiguity check (ask reviewer "can another form also fit?"), reject
+  questions shorter than ~4 words / ending without ?/./___, mcq "only one correct" check by filling each
+  option into a sentence-type question.

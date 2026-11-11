@@ -26,6 +26,11 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   its own fixes are not. So the harness drops items the reviewer rejects, grounds prompts with real textbook
   sentences, and code does all structure. Grammar drills come out mostly correct; theme lessons are weaker.
   Not Claude Code on Ollama: a 12B model is unreliable as an agent; a fixed pipeline is better.
+- **Two kinds of images, both wanted (2026-11-11).** (1) Rule images: text/tables/timelines that explain
+  grammar – useful. (2) Concept pictures: what a word or idea *looks like* (sunrise for "i morse", a
+  calendar for "i fredags", a horse being groomed for "rykta"). These build memory links and are needed
+  whenever the meaning can be drawn. Anything other than plain text helps. → every lesson: rule image(s)
+  + concept pictures for the key words.
 - **Lessons need media and focus.** Text-only lessons are boring. Every lesson has related images
   (hand-drawn SVG that teaches the rule/scene, or free photos with credit) and audio where it fits.
   One topic per lesson, 10–15 min. A word question with two topics → two lessons.

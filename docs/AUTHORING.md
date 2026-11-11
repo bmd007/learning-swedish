@@ -106,7 +106,11 @@ Two sources:
    Commons (CC0 / CC BY / CC BY-SA) into `images/<lessonId>/`, keep it < 300 KB, and fill `credit`.
    Never hotlink random sites.
 
-The picture must relate to the content: it shows the situation, the rule, or the words practised.
+The picture must relate to the content. Use **both kinds**:
+- **Rule images**: tables, timelines, charts that explain the grammar (text in a picture is fine).
+- **Concept pictures**: what a word or idea looks like (sunrise for *i morse*, calendar for *i fredags*,
+  big/small house for *stor/liten*). They create memory links. Add one for every key word or concept that
+  can be drawn – not only rules.
 
 ### Audio
 

@@ -129,6 +129,15 @@
       "instructionsEn": "Look at the verb. Has it happened, or will it happen?",
       "items": [
         {
+          "id": "i2",
+          "type": "info",
+          "image": {
+            "src": "kalender.svg",
+            "alt": "Kalender: i fredags, i dag, i morgon, på fredag; soluppgång i morse, sommar i somras, julgran i jul"
+          },
+          "md": "Titta på kalendern: **i fredags** är bakom dig, **på fredag** är framför dig."
+        },
+        {
           "id": "m1",
           "type": "mcq",
           "tags": [
