@@ -1,0 +1,399 @@
+{
+  "id": "011-signalord-verbform",
+  "title": "Signalordet väljer verbformen",
+  "titleEn": "The signal word chooses the verb form",
+  "mode": "practice",
+  "minutes": 14,
+  "intro": "Du kan formerna: sett, såg, ser. Nu tränar vi att välja rätt form direkt. Leta först efter signalordet: har/hade, igår eller nu.",
+  "introEn": "You know the forms. Now we practise choosing the right one fast. First find the signal word: har/hade, igår or nu.",
+  "sections": [
+    {
+      "id": "signal",
+      "title": "Del 1: Leta efter signalordet",
+      "titleEn": "Part 1: Look for the signal word",
+      "instructions": "Läs regeln. Skriv sedan rätt form av verbet.",
+      "instructionsEn": "Read the rule. Then write the right form of the verb.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "image": {
+            "src": "signal.svg",
+            "alt": "Tre kolumner: har/hade ger supinum, igår/i måndags ger preteritum, nu/varje dag ger presens"
+          },
+          "md": "**Rutin (2 sekunder):** innan du skriver verbet, leta efter **har/hade** eller ett **tidsord**. Välj sedan kolumn.\n\n| Signal | Form | Exempel |\n|---|---|---|\n| **har / hade** | supinum | Jag har **sett** den. |\n| **igår, i måndags, förra veckan** | preteritum | Igår **såg** jag den. |\n| **nu, varje dag, ofta** | presens | Jag **ser** den nu. |\n\n**Obs:** *försöka* är grupp 2: *jag försöker* (inte *försökar*), *jag försökte*, *jag har försökt*.\n\n**Persiska:** *har* är som «‑ه‌ام»: گفته‌ام = **har sagt**, دیده‌ام = **har sett**. Ser du *har*, behöver du formen med «‑ه».\n\n**English:** *har/hade* + supine. A past time word + preterite. A present time word + present."
+        },
+        {
+          "id": "g1",
+          "type": "gap",
+          "tags": [
+            "verb.supinum",
+            "verb.signalord"
+          ],
+          "q": "Jag har aldrig ___ en älg.",
+          "base": "se",
+          "answers": [
+            "sett"
+          ],
+          "qEn": "I have never seen a moose.",
+          "explain": "har → supinum: sett (två t)."
+        },
+        {
+          "id": "g2",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum",
+            "verb.signalord"
+          ],
+          "q": "Igår ___ jag inte vad läraren menade.",
+          "base": "förstå",
+          "answers": [
+            "förstod"
+          ],
+          "qEn": "Yesterday I didn't understand what the teacher meant.",
+          "explain": "igår → preteritum: förstod."
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "tags": [
+            "verb.presens",
+            "verb.signalord"
+          ],
+          "q": "Varje dag ___ jag att prata svenska med mina grannar.",
+          "base": "försöka",
+          "answers": [
+            "försöker"
+          ],
+          "qEn": "Every day I try to speak Swedish with my neighbours.",
+          "explain": "varje dag → presens. Grupp 2: försöker."
+        },
+        {
+          "id": "g4",
+          "type": "gap",
+          "tags": [
+            "verb.supinum",
+            "verb.signalord"
+          ],
+          "q": "Hon har redan ___ frukost.",
+          "base": "äta",
+          "answers": [
+            "ätit"
+          ],
+          "qEn": "She has already eaten breakfast.",
+          "explain": "har → supinum: ätit."
+        }
+      ]
+    },
+    {
+      "id": "bild",
+      "title": "Del 2: Samma verb, tre signaler",
+      "titleEn": "Part 2: Same verb, three signals",
+      "instructions": "Titta på bilden. Välj eller skriv rätt form.",
+      "instructionsEn": "Look at the picture. Choose or write the right form.",
+      "items": [
+        {
+          "id": "i2",
+          "type": "info",
+          "image": {
+            "src": "tallrik.svg",
+            "alt": "Tre tallrikar: Jag äter (full tallrik), Jag har ätit (tom tallrik), Jag åt (igår)"
+          },
+          "md": "Samma verb, tre bilder. **Tom tallrik nu** = *har ätit*. **Maten är på tallriken** = *äter*. **Igår** = *åt*."
+        },
+        {
+          "id": "m1",
+          "type": "mcq",
+          "tags": [
+            "verb.supinum",
+            "verb.signalord"
+          ],
+          "q": "Klockan är 13.10. Tallriken är tom. Jag är mätt. Vad säger du?",
+          "options": [
+            "Jag äter lunch.",
+            "Jag åt lunch igår.",
+            "Jag har ätit lunch.",
+            "Jag ska äta lunch."
+          ],
+          "answer": 2,
+          "qEn": "The plate is empty now. What do you say?",
+          "explain": "Det är slut, och det gäller nu: har ätit."
+        },
+        {
+          "id": "g5",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum",
+            "verb.signalord"
+          ],
+          "q": "I måndags ___ läraren att vi skulle öva mer.",
+          "base": "säga",
+          "answers": [
+            "sa",
+            "sade"
+          ],
+          "qEn": "Last Monday the teacher said we should practise more.",
+          "explain": "i måndags → preteritum: sa (eller sade)."
+        },
+        {
+          "id": "g6",
+          "type": "gap",
+          "tags": [
+            "verb.preteritum",
+            "verb.signalord"
+          ],
+          "q": "Förra veckan ___ min syster hit från Iran.",
+          "base": "komma",
+          "answers": [
+            "kom"
+          ],
+          "qEn": "Last week my sister came here from Iran.",
+          "explain": "förra veckan → preteritum: kom."
+        },
+        {
+          "id": "g7",
+          "type": "gap",
+          "tags": [
+            "verb.supinum",
+            "verb.signalord"
+          ],
+          "q": "Innan jag ringde hade hon redan ___ mejlet.",
+          "base": "skriva",
+          "answers": [
+            "skrivit"
+          ],
+          "qEn": "Before I called, she had already written the email.",
+          "explain": "hade → supinum: skrivit."
+        },
+        {
+          "id": "g8",
+          "type": "gap",
+          "tags": [
+            "verb.presens",
+            "verb.signalord"
+          ],
+          "q": "Vi ___ bussen till jobbet varje dag.",
+          "base": "ta",
+          "answers": [
+            "tar"
+          ],
+          "qEn": "We take the bus to work every day.",
+          "explain": "varje dag → presens: tar."
+        }
+      ]
+    },
+    {
+      "id": "ord",
+      "title": "Del 3: också och inte efter verbet",
+      "titleEn": "Part 3: också and inte after the verb",
+      "instructions": "Ordna orden. *Också* och *inte* står efter verbet (efter har: efter *har*).",
+      "instructionsEn": "Put the words in order. också and inte come after the verb (after har: after har).",
+      "items": [
+        {
+          "id": "i3",
+          "type": "info",
+          "image": {
+            "src": "signal.svg",
+            "alt": "Kolumner med verbformer: har sett, såg, ser",
+            "size": "small"
+          },
+          "md": "**Jag går inte. Jag går också.** Samma plats för *inte* och *också*: direkt efter verbet.\n\n*Jag **har också** sett filmen.* · *Igår **åt jag också** pizza.*\n\nSäg inte: ~~Jag också gick~~. Säg: **Jag gick också.**"
+        },
+        {
+          "id": "o1",
+          "type": "order",
+          "tags": [
+            "ordföljd.också",
+            "ordföljd.inversion"
+          ],
+          "words": [
+            "också",
+            "Jag",
+            "går",
+            "hem"
+          ],
+          "answers": [
+            "Jag går också hem",
+            "Jag går hem också"
+          ],
+          "explain": "Jag går också hem. Också efter verbet.",
+          "q": "I am going home too."
+        },
+        {
+          "id": "o2",
+          "type": "order",
+          "tags": [
+            "ordföljd.också",
+            "verb.supinum"
+          ],
+          "words": [
+            "också",
+            "har",
+            "Jag",
+            "filmen",
+            "sett"
+          ],
+          "answers": [
+            "Jag har också sett filmen",
+            "Jag har sett filmen också"
+          ],
+          "explain": "Jag har också sett filmen. Också efter har.",
+          "q": "I have also seen the film."
+        },
+        {
+          "id": "o3",
+          "type": "order",
+          "tags": [
+            "ordföljd.också",
+            "ordföljd.inversion"
+          ],
+          "words": [
+            "jag",
+            "Igår",
+            "också",
+            "åt",
+            "pizza"
+          ],
+          "answers": [
+            "Igår åt jag också pizza",
+            "Igår åt jag pizza också"
+          ],
+          "explain": "Igår först, sedan verbet (åt), sedan jag, sedan också.",
+          "q": "Yesterday I also ate pizza."
+        }
+      ]
+    },
+    {
+      "id": "hor",
+      "title": "Del 4: Lyssna – förra veckan och nu",
+      "titleEn": "Part 4: Listen – last week and now",
+      "instructions": "Lyssna två gånger. Svara på frågorna.",
+      "instructionsEn": "Listen twice. Answer the questions.",
+      "parts": [
+        {
+          "heading": "Samtal",
+          "headingEn": "Conversation",
+          "image": {
+            "src": "tallrik.svg",
+            "alt": "Jag äter, jag har ätit, jag åt",
+            "size": "small"
+          },
+          "audio": {
+            "id": "a1",
+            "title": "Sara och Johan om svenskakursen",
+            "maxPlays": 2,
+            "speakers": {
+              "Sara": "f",
+              "Johan": "m"
+            },
+            "script": [
+              {
+                "speaker": "Sara",
+                "text": "Hej Johan! Hur gick det på svenskakursen förra veckan?"
+              },
+              {
+                "speaker": "Johan",
+                "text": "I måndags hade jag ett prov. Jag har aldrig varit så nervös!"
+              },
+              {
+                "speaker": "Sara",
+                "text": "Och hur gick det?"
+              },
+              {
+                "speaker": "Johan",
+                "text": "Det gick bra. Jag förstod nästan allt, och jag skrev en lång text."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Vad bra! Vad gör du nu?"
+              },
+              {
+                "speaker": "Johan",
+                "text": "Nu försöker jag lära mig fler ord. Varje dag läser jag en timme. Och du?"
+              },
+              {
+                "speaker": "Sara",
+                "text": "Jag har också tittat på filmer på svenska. Jag förstår mer och mer."
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "h1",
+              "type": "mcq",
+              "tags": [
+                "hör.tid",
+                "verb.signalord"
+              ],
+              "q": "När hade Johan prov?",
+              "options": [
+                "I fredags",
+                "På måndag",
+                "I måndags",
+                "I dag"
+              ],
+              "answer": 2,
+              "explain": "I måndags hade jag ett prov."
+            },
+            {
+              "id": "h2",
+              "type": "short",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Hur gick provet?",
+              "answers": [
+                "bra"
+              ],
+              "explain": "Det gick bra."
+            },
+            {
+              "id": "h3",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj",
+                "verb.signalord"
+              ],
+              "q": "Vad gör Johan nu?",
+              "options": [
+                "Han tar ett prov.",
+                "Han försöker lära sig fler ord.",
+                "Han tittar på film.",
+                "Han skriver en lång text."
+              ],
+              "answer": 1,
+              "explain": "Nu försöker jag lära mig fler ord."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Del 5: Tala",
+      "titleEn": "Part 5: Speaking",
+      "instructions": "Berätta. Tänk på signalordet före varje verb. Du får prata länge.",
+      "instructionsEn": "Tell your story. Think of the signal word before each verb. You can talk for a long time.",
+      "items": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "tags": [
+            "tal.berätta",
+            "verb.signalord",
+            "ordföljd.också"
+          ],
+          "q": "Berätta om förra veckan och om nu.",
+          "maxSeconds": 180,
+          "bullets": [
+            "I måndags hade jag … (vad hände?)",
+            "Jag har aldrig … (något du inte har gjort)",
+            "Nu försöker jag … (vad försöker du göra nu?)",
+            "Jag … också … (använd också efter verbet)"
+          ],
+          "explain": "Kolla: i måndags hade jag (verbet på plats 2), har aldrig + supinum, nu försöker (grupp 2), jag gick också (också efter verbet)."
+        }
+      ]
+    }
+  ]
+}

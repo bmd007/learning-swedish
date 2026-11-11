@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" font-family="system-ui, sans-serif">
+  <rect width="700" height="340" fill="#fff"/>
+  <g text-anchor="middle" fill="#222">
+    <text x="350" y="30" font-size="20" font-weight="700">1. Hitta signalordet  2. Välj kolumn</text>
+    <rect x="15" y="50" width="215" height="275" rx="10" fill="#fefcbf" stroke="#b7791f" stroke-width="3"/>
+    <rect x="242" y="50" width="215" height="275" rx="10" fill="#fed7d7" stroke="#c53030" stroke-width="3"/>
+    <rect x="470" y="50" width="215" height="275" rx="10" fill="#c6f6d5" stroke="#2f855a" stroke-width="3"/>
+    <text x="122" y="82" font-size="22" font-weight="700">har / hade</text>
+    <text x="350" y="82" font-size="19" font-weight="700">igår / i måndags</text>
+    <text x="578" y="82" font-size="19" font-weight="700">nu / varje dag</text>
+    <text x="122" y="112" font-size="16">har ätit, hade sett</text>
+    <text x="350" y="112" font-size="16">förra veckan, i fredags</text>
+    <text x="578" y="112" font-size="16">ofta, alltid, just nu</text>
+    <text x="122" y="160" font-size="24" font-weight="700" fill="#744210">SUPINUM</text>
+    <text x="350" y="160" font-size="24" font-weight="700" fill="#9b2c2c">PRETERITUM</text>
+    <text x="578" y="160" font-size="24" font-weight="700" fill="#22543d">PRESENS</text>
+    <g font-size="20">
+      <text x="122" y="205">har <tspan font-weight="700">sett</tspan></text>
+      <text x="122" y="240">har <tspan font-weight="700">förstått</tspan></text>
+      <text x="122" y="275">har <tspan font-weight="700">sagt</tspan></text>
+      <text x="122" y="310">har <tspan font-weight="700">ätit</tspan></text>
+      <text x="350" y="205">såg</text>
+      <text x="350" y="240">förstod</text>
+      <text x="350" y="275">sa</text>
+      <text x="350" y="310">åt</text>
+      <text x="578" y="205">ser</text>
+      <text x="578" y="240">förstår</text>
+      <text x="578" y="275">säger</text>
+      <text x="578" y="310">äter</text>
+    </g>
+  </g>
+</svg>

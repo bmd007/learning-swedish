@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="system-ui, sans-serif">
+  <rect width="700" height="300" fill="#fff"/>
+  <g text-anchor="middle" fill="#222">
+    <rect x="15" y="15" width="215" height="270" rx="10" fill="#fff" stroke="#cbd5e0" stroke-width="2"/>
+    <rect x="242" y="15" width="215" height="270" rx="10" fill="#fff" stroke="#cbd5e0" stroke-width="2"/>
+    <rect x="470" y="15" width="215" height="270" rx="10" fill="#fff" stroke="#cbd5e0" stroke-width="2"/>
+    <text x="122" y="42" font-size="17" font-weight="700" fill="#22543d">Nu, klockan 12</text>
+    <text x="350" y="42" font-size="17" font-weight="700" fill="#744210">Klockan 13</text>
+    <text x="578" y="42" font-size="17" font-weight="700" fill="#9b2c2c">Igår</text>
+    <ellipse cx="122" cy="150" rx="75" ry="30" fill="#edf2f7" stroke="#718096" stroke-width="3"/>
+    <circle cx="105" cy="143" r="16" fill="#f6ad55"/><circle cx="140" cy="150" r="13" fill="#68d391"/><rect x="95" y="152" width="30" height="10" rx="4" fill="#e53e3e"/>
+    <ellipse cx="350" cy="150" rx="75" ry="30" fill="#edf2f7" stroke="#718096" stroke-width="3"/>
+    <ellipse cx="350" cy="150" rx="45" ry="16" fill="#fff" stroke="#cbd5e0" stroke-width="2"/>
+    <rect x="530" y="62" width="95" height="50" fill="#bee3f8" stroke="#2b6cb0" stroke-width="2"/><text x="578" y="93" font-size="16" font-weight="700">igår</text>
+    <ellipse cx="578" cy="170" rx="55" ry="20" fill="#edf2f7" stroke="#718096" stroke-width="2"/>
+    <circle cx="565" cy="165" r="11" fill="#f6ad55"/><circle cx="592" cy="170" r="9" fill="#68d391"/>
+    <text x="122" y="235" font-size="24" font-weight="700">Jag äter.</text>
+    <text x="122" y="265" font-size="14">presens</text>
+    <text x="350" y="235" font-size="24" font-weight="700">Jag har ätit.</text>
+    <text x="350" y="265" font-size="14">supinum, nu är det slut</text>
+    <text x="578" y="235" font-size="24" font-weight="700">Jag åt.</text>
+    <text x="578" y="265" font-size="14">preteritum, igår</text>
+  </g>
+</svg>
