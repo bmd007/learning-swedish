@@ -19,6 +19,13 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   sources (own texts, real-life Swedish, other material).
 - **B1 level ≈ Rivstart B1/B2 chapters 1–9 (maybe 10).** Chapters 11–18 are B2 – don't use them for
   B1/exam prep unless a specific item fits the level.
+- **Local lesson generator (2026-11-11).** Learner wanted a panel to generate lessons/tests with the local
+  Ollama model. Tested qwen3:8b, gemma3:4b (bad Swedish keys) and pulled gemma3:12b (best). One-shot output
+  had wrong grammar (e.g. "i 2015", "för tre år" without sedan), and blind self-check did not catch it (same
+  blind spots). What works: the model as a *reviewer* (yes/no verdicts on filled-in sentences) is reliable;
+  its own fixes are not. So the harness drops items the reviewer rejects, grounds prompts with real textbook
+  sentences, and code does all structure. Grammar drills come out mostly correct; theme lessons are weaker.
+  Not Claude Code on Ollama: a 12B model is unreliable as an agent; a fixed pipeline is better.
 - **Lessons need media and focus.** Text-only lessons are boring. Every lesson has related images
   (hand-drawn SVG that teaches the rule/scene, or free photos with credit) and audio where it fits.
   One topic per lesson, 10–15 min. A word question with two topics → two lessons.

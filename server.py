@@ -2,6 +2,8 @@ import json
 import re
 import subprocess
 import sys
+import threading
+import uuid
 from datetime import datetime
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -16,6 +18,22 @@ IMAGE_EXT = {"jpg", "jpeg", "png", "heic", "heif", "webp"}
 FEEDBACK = ROOT / "feedback"
 DRAFTS = RESULTS / "drafts"
 SAFE = re.compile(r"^[A-Za-z0-9_.-]+$")
+JOBS = {}
+GEN_LOCK = threading.Lock()
+
+
+def run_job(job_id, topic, mode):
+    job = JOBS[job_id]
+    sys.path.insert(0, str(ROOT / "tools"))
+    import generate
+    with GEN_LOCK:
+        job["status"] = "running"
+        try:
+            job["lessonId"] = generate.generate(topic, mode, log=job["log"].append)
+            job["status"] = "done"
+        except Exception as e:
+            job["log"].append(f"Fel: {e}")
+            job["status"] = "error"
 
 
 def lesson_summaries():
@@ -33,6 +51,9 @@ def lesson_summaries():
             "minutes": data.get("minutes"),
             "attempts": attempts.get(data["id"], 0),
             "hasFeedback": any(FEEDBACK.glob(f"{data['id']}__*.md")),
+            "mode": data.get("mode"),
+            "generated": bool(data.get("generated")),
+            "reviewed": bool((data.get("generated") or {}).get("reviewed")),
         })
     return out
 
@@ -78,6 +99,10 @@ class Handler(SimpleHTTPRequestHandler):
             if not f.exists():
                 return self.send_json({"error": "not found"}, 404)
             return self.send_text(f.read_text(encoding="utf-8"), "application/json; charset=utf-8")
+        m = re.fullmatch(r"/api/generate/([a-f0-9]+)", p)
+        if m:
+            job = JOBS.get(m.group(1))
+            return self.send_json(job if job else {"error": "not found"}, 200 if job else 404)
         m = re.fullmatch(r"/api/draft/([A-Za-z0-9_.-]+)", p)
         if m:
             files = sorted(DRAFTS.glob(f"{m.group(1)}__*.json"), key=lambda f: f.stat().st_mtime)
@@ -114,6 +139,18 @@ class Handler(SimpleHTTPRequestHandler):
             f.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
             draft.unlink(missing_ok=True)
             return self.send_json({"saved": f.name})
+        if url.path == "/api/generate":
+            data = json.loads(body or b"{}")
+            topic = str(data.get("topic", "")).strip()[:500]
+            mode = "exam" if data.get("mode") == "exam" else "practice"
+            if len(topic) < 3:
+                return self.send_json({"error": "beskriv ämnet"}, 400)
+            job_id = uuid.uuid4().hex[:12]
+            queued = GEN_LOCK.locked()
+            JOBS[job_id] = {"id": job_id, "topic": topic, "mode": mode, "status": "queued",
+                            "log": ["Väntar på att förra genereringen blir klar …"] if queued else [], "lessonId": None}
+            threading.Thread(target=run_job, args=(job_id, topic, mode), daemon=True).start()
+            return self.send_json({"id": job_id})
         if url.path == "/api/recording":
             q = parse_qs(url.query)
             name = q.get("name", [""])[0]

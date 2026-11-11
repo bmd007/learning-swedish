@@ -38,3 +38,12 @@
   meriterande, varannan helg), ad with Ja/Nej (Swedex reading shape), phone call (Swedex listening:
   MCQ + 1–5 word answers), speaking: call about the ad. Images: 2 SVGs + 3 Wikimedia photos (credited).
 - Next step: grade 004–006 when results arrive.
+
+## 2026-11-11 (later)
+- Built local lesson generator: `tools/generate.py` (Ollama, gemma3:12b) + panel at the bottom of the home
+  page (`POST /api/generate`, job polling, badge "Lokal modell · inte granskad av Claude").
+- Quality after several harness fixes: grammar drills mostly correct; theme lessons weaker (off-topic
+  mcq, unnatural lines). Last fixes (mcq gets the dialogue, keep dialogue lines if fix fails) are NOT yet
+  verified – a test-mode job ("s-passiv i presens och preteritum") was running when we stopped.
+- Next step: check that test-mode lesson (lessons/*-gen-*), review it; if bad, delete it and keep
+  tuning. Then grade 004–006 when results arrive.

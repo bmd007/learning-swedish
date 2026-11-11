@@ -41,6 +41,13 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
   - `POST /api/results` → `results/<lessonId>__<stamp>.json` (final; removes the draft)
   - `POST /api/recording?name=..&ext=..` → `recordings/` (gitignored, private)
   - `POST /api/upload?name=..&ext=..` → `uploads/` (photos of handwritten writing, gitignored; served at /uploads/)
+- `tools/generate.py` – lesson/test generator using a local Ollama model (default `gemma3:12b`, env
+  `OLLAMA_MODEL`). Steps: plan → items per section (JSON schema) → language review (drop/fix) → blind
+  self-check of answer keys → code builds ids/tags/shuffles/cover image → validate → audio. Grounded with
+  example sentences from Rivstart ch. 1–10 + hand-made lessons. Used by the app panel
+  (`POST /api/generate {topic, mode}`, `GET /api/generate/<job>`; jobs in memory, one at a time).
+  Generated lessons get `generated: {model, topic, reviewed: false}` → badge "inte granskad av Claude".
+  When grading such a lesson, review it and set `reviewed: true` (fix wrong keys first).
 - `web/` – plain HTML/JS engine (`app.js`) that renders any lesson JSON.
 - `lessons/NNN-slug.json` – one file per lesson/test. **Making a new lesson = writing a JSON file.**
 - `images/<lessonId>/` – lesson images (served at /images/), referenced by `image: {src, alt, caption?, credit?}`.

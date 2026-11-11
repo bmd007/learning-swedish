@@ -55,14 +55,60 @@ async function home() {
         <div>
           <h2>${esc(l.title)}</h2>
           ${en(l.titleEn)}
-          <div class="muted">${l.minutes ? `ca ${l.minutes} min · ` : ""}${l.attempts} försök</div>
+          <div class="muted">${l.minutes ? `ca ${l.minutes} min · ` : ""}${l.attempts} försök${l.mode === "exam" ? " · test" : ""}</div>
+          ${l.generated && !l.reviewed ? `<span class="badge gen-badge">Lokal modell · inte granskad av Claude</span>` : ""}
         </div>
         <div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end">
           ${l.hasFeedback ? `<a class="btn secondary" href="#/feedback/${l.id}">Feedback</a>` : ""}
           <a class="btn" href="#/lesson/${l.id}">${l.attempts ? "Gör igen" : "Starta"}</a>
         </div>
       </div>`).join("")}
+    <div class="card gen">
+      <h2>Skapa en egen lektion</h2>
+      <div class="en">Create your own lesson with the local AI model</div>
+      <textarea id="genTopic" rows="3" placeholder="Vad vill du träna? T.ex. &quot;prepositioner för tid&quot; eller &quot;ringa vårdcentralen och boka tid&quot;"></textarea>
+      <div class="gen-row">
+        <label><input type="radio" name="genMode" value="practice" checked> Lektion</label>
+        <label><input type="radio" name="genMode" value="exam"> Test</label>
+        <button class="btn" id="genBtn">Generera</button>
+      </div>
+      <div id="genStatus" class="muted"></div>
+    </div>
   `;
+  const btn = app.querySelector("#genBtn"), status = app.querySelector("#genStatus"), topic = app.querySelector("#genTopic");
+  const savedJob = store.get("genJob", null);
+  if (savedJob) poll(savedJob);
+  btn.onclick = async () => {
+    const mode = app.querySelector("input[name=genMode]:checked").value;
+    if (topic.value.trim().length < 3) { status.textContent = "Beskriv ämnet först."; return; }
+    btn.disabled = true;
+    status.textContent = "Startar …";
+    const res = await fetch("/api/generate", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ topic: topic.value, mode }) }).then(r => r.json());
+    if (res.error) { status.textContent = res.error; btn.disabled = false; return; }
+    store.set("genJob", res.id);
+    poll(res.id);
+  };
+  async function poll(id) {
+    btn.disabled = true;
+    const job = await fetch(`/api/generate/${id}`).then(r => r.ok ? r.json() : null).catch(() => null);
+    if (!job || !document.body.contains(status)) { if (!job) { store.set("genJob", null); btn.disabled = false; } return; }
+    const last = job.log.slice(-4).map(esc).join("<br>");
+    if (job.status === "done") {
+      store.set("genJob", null);
+      status.innerHTML = `Klar! <a class="btn" href="#/lesson/${job.lessonId}">Öppna lektionen</a>`;
+      btn.disabled = false;
+      setTimeout(home, 1500);
+      return;
+    }
+    if (job.status === "error") {
+      store.set("genJob", null);
+      status.innerHTML = last;
+      btn.disabled = false;
+      return;
+    }
+    status.innerHTML = `<b>Genererar (tar 3–6 min) …</b><br>${last}`;
+    setTimeout(() => poll(id), 2000);
+  }
 }
 
 async function openFeedback(id) {
@@ -163,6 +209,7 @@ async function openLesson(id) {
       <h1>${esc(lesson.title)}</h1>${en(lesson.titleEn)}
       <div class="card">
         <p>${esc(lesson.intro)}</p>${en(lesson.introEn)}
+        ${lesson.generated && !lesson.generated.reviewed ? `<p class="badge gen-badge">Gjord av den lokala modellen ${esc(lesson.generated.model)} · inte granskad av Claude – det kan finnas fel.</p>` : ""}
         <ul>${steps.map(s => `<li>${esc(s.title)} <span class="en">— ${esc(s.titleEn ?? "")}</span></li>`).join("")}</ul>
         ${lesson.minutes ? `<p class="muted">Tid: ca ${lesson.minutes} minuter.</p>` : ""}
       </div>
