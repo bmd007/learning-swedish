@@ -24,6 +24,15 @@
           }
         },
         {
+          "id": "i1b",
+          "type": "info",
+          "md": "**Bilder hjälper:** se handlingen, säg verbet, säg sedan formerna högt.",
+          "image": {
+            "src": "verb-bilder.svg",
+            "alt": "Tio starka verb som teckningar: skriva, äta, dricka, flyga, ta, se, bli, sitta, bo, tro"
+          }
+        },
+        {
           "id": "v1",
           "type": "gap",
           "tags": [
@@ -182,6 +191,24 @@
           }
         },
         {
+          "id": "i2b",
+          "type": "info",
+          "md": "**Se skillnaden:** ett träd blir högre och högre. Pluralen ändrar ofta vokalen: stad – städer, man – män.",
+          "image": {
+            "src": "jamforelse-bilder.svg",
+            "alt": "Tre träd som blir högre; en stad blir två städer; en man blir två män"
+          }
+        },
+        {
+          "id": "i2c",
+          "type": "info",
+          "image": {
+            "src": "plural-bilder.svg",
+            "alt": "En stad – två städer, en man – två män"
+          },
+          "md": "Plural med ny vokal: **a → ä**, **o → ö**."
+        },
+        {
           "id": "f1",
           "type": "gap",
           "tags": [
@@ -267,6 +294,15 @@
           "image": {
             "src": "ord.svg",
             "alt": "Ord vid jobbet och vid tandläkaren"
+          }
+        },
+        {
+          "id": "i3b",
+          "type": "info",
+          "md": "**Se betydelsen.** Jämför *påminna* (någon annan) och *komma ihåg* (du själv).",
+          "image": {
+            "src": "ord-bilder.svg",
+            "alt": "Fyra scener: uppsagd med kartong, avbokad tid i kalender, påminna och komma ihåg"
           }
         },
         {
