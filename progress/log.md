@@ -70,3 +70,16 @@
   blocked on this network (connection reset) → still grading from Chrome transcripts.
 - Next step: lesson 011 on signal word → verb form (har + supinum, igår + preteritum, nu + presens,
   group 2 -er) + också/inte placement + speaking with "i måndags hade jag". Then 005/006/009/010 when done.
+
+## 2026-11-13
+- Learner: listenings feel below B1 / not native. Added real-audio support: `audio.source` (file under
+  materials/, served at /materials/), `transcript` + `credit` shown after submit. `tools/fetch_klartext.py`
+  (56 SR Klartext clips downloaded), `tools/transcribe.py` switched to openai-whisper turbo (works offline).
+  build_audio.py: per-line rendering, trimmed silence, pauses between turns, speaker pitch/rate, default rate +0%.
+  AUTHORING + lesson-author agent: "prefer real audio" + B1 TTS script rules.
+- Built `012-radio-klartext`: 4 real Klartext clips (snow warning, hacker attack on shop freezers, chocolate
+  fight, blind masseur) → Swedex Hör del 4 headline matching (2 extra, near-miss traps) + 1–5 word details
+  + retell (speak).
+- 011 draft in results/drafts (learner started 011).
+- Next step: learner finishes 011, then takes 012. Grade both. Next listening lesson: a Rivstart ch. 7 dialogue
+  track, or a B1-style TTS dialogue with plan changes. Mock exam with the Swedex model test in late November.

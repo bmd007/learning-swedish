@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" font-family="Helvetica, Arial, sans-serif">
+  <rect width="640" height="260" fill="#f4f7fb"/>
+  <g fill="#fff" stroke="#34495e" stroke-width="2">
+    <path d="M20 20 h290 a14 14 0 0 1 14 14 v60 a14 14 0 0 1 -14 14 h-230 l-25 22 l5 -22 h-40 a14 14 0 0 1 -14 -14 v-60 a14 14 0 0 1 14 -14z"/>
+    <path d="M330 140 h290 a14 14 0 0 1 14 14 v60 a14 14 0 0 1 -14 14 h-40 l5 22 l-25 -22 h-230 a14 14 0 0 1 -14 -14 v-60 a14 14 0 0 1 14 -14z"/>
+  </g>
+  <text x="34" y="52" font-size="17" fill="#222">Det var <tspan fill="#c0392b" font-weight="bold">ju liksom</tspan> inte en fin kö…</text>
+  <text x="34" y="82" font-size="14" fill="#777">ju = som alla vet · liksom = utfyllnad (filler)</text>
+  <text x="344" y="172" font-size="17" fill="#222">En cykel har <tspan fill="#c0392b" font-weight="bold">pajat</tspan>.</text>
+  <text x="344" y="202" font-size="14" fill="#777">paja (vardag) = gå sönder</text>
+  <g transform="translate(70,170)" stroke="#34495e" stroke-width="3" fill="none">
+    <circle cx="0" cy="40" r="28"/><circle cx="110" cy="40" r="28"/><path d="M0 40 L35 0 H85 L110 40 M35 0 L55 40 L85 0"/>
+    <path d="M150 -10 l12 12 M162 -10 l-12 12" stroke="#c0392b"/>
+  </g>
+</svg>

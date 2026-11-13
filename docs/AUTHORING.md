@@ -114,17 +114,49 @@ The picture must relate to the content. Use **both kinds**:
 
 ### Audio
 
+Two kinds. **Prefer real audio** for listening tasks; use TTS for dialogues you need to control.
+
+**1. Real audio (native speakers)** – a private file under `materials/` (gitignored, served at `/materials/…`):
 ```json
-"audio": { "id": "a1",                 // unique in lesson; file = audio/<lessonId>/a1.m4a
-  "title": "shown in the transcript after submit",
-  "maxPlays": 2,                       // Swedex plays everything twice
-  "speakers": {"Sara": "f", "Johan": "m"},   // f = sv-SE-SofieNeural, m = sv-SE-MattiasNeural
-  "rate": "-5%",                       // optional, edge-tts rate
-  "script": [{"speaker": "Sara", "text": "..."}] }
+"audio": { "id": "k1", "title": "…", "maxPlays": 2,
+  "source": "materials/sr/klartext/<slug>.m4a",          // or materials/nok/audio/<file>.mp3
+  "credit": "Klartext, Sveriges Radio (P4 …). Automatisk transkription – kan ha små fel.",
+  "transcript": "full text, shown after submit" }      // or "script": [...] if you have speaker turns
 ```
-Write numbers the way they are said ("kvart över två", "tusen femtio kronor"). After writing a
-lesson, run `build_audio.py`. Without the file, the browser reads the script aloud (worse quality).
-Only two voices exist, so dialogues have at most one woman and one man.
+Sources:
+- **SR Klartext** (easy news, real reporters + real interviewees with dialect): `python3 -I tools/fetch_klartext.py`
+  → `materials/sr/klartext/<slug>.m4a` + `index.json` (headline, short text, length). ~1–3 min each.
+  Fits Swedex Hör del 2 (details, 1–5 words) and Hör del 4 (match radio items to headlines, 2 extra).
+- **Rivstart B1/B2 tracks**: `materials/nok/audio/` (+ `audio_index.json`); transcripts in
+  `materials/nok/docs/Horforstaelsetexter…pdf` (only some tracks). Use chapters 7–10 (not yet done in class).
+- **Swedex model test** (`materials/swedex-a2b1/`): keep for a full mock exam. Don't spend it on practice.
+
+Transcribe: `.venv/bin/python tools/transcribe.py --save <file>` (local Whisper "turbo"; writes `<file>.txt`).
+Read the transcript, fix obvious ASR errors, and build questions only on parts you are sure of.
+The file is not in git, so the lesson only works on a machine that has `materials/`.
+
+**2. TTS dialogue** (edge-tts) – file = `audio/<lessonId>/<id>.m4a`, built by `build_audio.py`:
+```json
+"audio": { "id": "a1", "title": "…", "maxPlays": 2,
+  "speakers": {"Sara": "f", "Johan": "m",
+               "Pelle": {"voice": "m", "pitch": "-8Hz", "rate": "+8%"}},  // 3rd person: same voice, other pitch
+  "rate": "+0%",                    // default for all speakers
+  "gap": 0.45,                      // pause in seconds between speaker turns (0.25 within a turn)
+  "script": [{"speaker": "Sara", "text": "...", "pause": 1.0}] }    // pause = silence before this line
+```
+Only two Swedish voices exist (Sofie f, Mattias m); vary `pitch`/`rate` for extra people.
+
+**Make TTS scripts sound like B1 speech, not a textbook:**
+- **Length:** 120–250 words, 1–2.5 min. Not 6 short lines.
+- **Spoken Swedish:** *ja, nä, mm, alltså, liksom, ju, väl, ba, typ, sen, nåt, nån, dom*; short answers
+  (*Ja, absolut. Nä, tyvärr.*); interruptions and restarts (*Vi kan … eller nej, vänta.*); hesitation with "…".
+- **Distractors the B1 way:** the speaker changes plans or corrects a number (*på tisdag – nej förresten,
+  onsdag*), mentions two times/prices/places and only one is the answer, says what is NOT the case.
+- **Paraphrase:** the question uses other words than the audio (*utan jobb* ↔ *arbetslös*). No word-matching.
+- **Implied info:** some answers need a small conclusion (attitude, reason, who decides).
+- Normal speed (`rate` +0% or faster). No slow, over-clear reading.
+Write numbers the way they are said ("kvart över två", "tusen femtio kronor").
+Without the file, the browser reads the script aloud (worse quality).
 
 ## Tags (taxonomy)
 

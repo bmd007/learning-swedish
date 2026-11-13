@@ -561,7 +561,11 @@ async function openLesson(id) {
           let audioHtml = "";
           if (it.audio && !shownAudio.has(it.audio.id)) {
             shownAudio.add(it.audio.id);
-            audioHtml = `<details><summary>Transkription: ${esc(it.audio.title ?? it.audio.id)}</summary><div class="transcript">${it.audio.script.map(l => `${l.speaker ? `<b>${esc(l.speaker)}:</b> ` : ""}${esc(l.text)}`).join("\n")}</div></details>`;
+            const lines = it.audio.script
+              ? it.audio.script.map(l => `${l.speaker ? `<b>${esc(l.speaker)}:</b> ` : ""}${esc(l.text)}`).join("\n")
+              : esc(it.audio.transcript);
+            const credit = it.audio.credit ? `<div class="muted">${esc(it.audio.credit)}</div>` : "";
+            audioHtml = `<details><summary>Transkription: ${esc(it.audio.title ?? it.audio.id)}</summary><div class="transcript">${lines}</div>${credit}</details>`;
           }
           const cls = g.correct === null ? "manual" : g.correct ? "ok" : "bad";
           const given = typeof g.given === "object" && g.given ? (g.given.transcript || "(inspelning)") : g.given;
@@ -600,10 +604,13 @@ async function toJpeg(file, maxSide = 2400) {
 
 function playAudio(lessonId, audio) {
   return new Promise(resolve => {
-    const el = new Audio(`/audio/${lessonId}/${audio.id}.m4a`);
+    const el = new Audio(audio.source ? `/${audio.source}` : `/audio/${lessonId}/${audio.id}.m4a`);
+    const fallback = () => audio.script
+      ? speak(audio.script).then(resolve)
+      : (alert("Ljudfilen saknas på den här datorn. (Audio file missing on this computer.)"), resolve());
     el.onended = resolve;
-    el.onerror = () => speak(audio.script).then(resolve);
-    el.play().catch(() => speak(audio.script).then(resolve));
+    el.onerror = fallback;
+    el.play().catch(fallback);
   });
 }
 

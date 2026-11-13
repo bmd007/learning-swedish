@@ -1,0 +1,265 @@
+{
+  "lessonId": "011-signalord-verbform",
+  "attemptId": "2026-11-13T20-24-23-752Z",
+  "final": true,
+  "startedAt": "2026-11-13T20:24:34.855Z",
+  "finishedAt": "2026-11-13T20:35:28.098Z",
+  "durationMin": 11,
+  "currentSection": null,
+  "sectionMinutes": {
+    "signal": 2.6,
+    "bild": 2.2,
+    "ord": 0.7,
+    "hor": 3,
+    "tala": 2.3
+  },
+  "audioPlays": {
+    "a1": 1
+  },
+  "firstTry": {
+    "g1": false,
+    "g2": false,
+    "g3": false,
+    "g4": true,
+    "m1": true,
+    "g5": false,
+    "g6": true,
+    "g7": true,
+    "g8": true
+  },
+  "score": {
+    "signal": {
+      "correct": 4,
+      "total": 4
+    },
+    "bild": {
+      "correct": 5,
+      "total": 5
+    },
+    "ord": {
+      "correct": 2,
+      "total": 3
+    },
+    "hor": {
+      "correct": 3,
+      "total": 3
+    }
+  },
+  "items": [
+    {
+      "id": "g1",
+      "section": "signal",
+      "type": "gap",
+      "tags": [
+        "verb.supinum",
+        "verb.signalord"
+      ],
+      "prompt": "Jag har aldrig ___ en älg.",
+      "given": "sett",
+      "expected": "sett",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "signal",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum",
+        "verb.signalord"
+      ],
+      "prompt": "Igår ___ jag inte vad läraren menade.",
+      "given": "förstod",
+      "expected": "förstod",
+      "correct": true
+    },
+    {
+      "id": "g3",
+      "section": "signal",
+      "type": "gap",
+      "tags": [
+        "verb.presens",
+        "verb.signalord"
+      ],
+      "prompt": "Varje dag ___ jag att prata svenska med mina grannar.",
+      "given": "försöker",
+      "expected": "försöker",
+      "correct": true
+    },
+    {
+      "id": "g4",
+      "section": "signal",
+      "type": "gap",
+      "tags": [
+        "verb.supinum",
+        "verb.signalord"
+      ],
+      "prompt": "Hon har redan ___ frukost.",
+      "given": "ätit",
+      "expected": "ätit",
+      "correct": true
+    },
+    {
+      "id": "m1",
+      "section": "bild",
+      "type": "mcq",
+      "tags": [
+        "verb.supinum",
+        "verb.signalord"
+      ],
+      "prompt": "Klockan är 13.10. Tallriken är tom. Jag är mätt. Vad säger du?",
+      "given": "Jag har ätit lunch.",
+      "expected": "Jag har ätit lunch.",
+      "correct": true
+    },
+    {
+      "id": "g5",
+      "section": "bild",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum",
+        "verb.signalord"
+      ],
+      "prompt": "I måndags ___ läraren att vi skulle öva mer.",
+      "given": "sa",
+      "expected": "sa",
+      "correct": true
+    },
+    {
+      "id": "g6",
+      "section": "bild",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum",
+        "verb.signalord"
+      ],
+      "prompt": "Förra veckan ___ min syster hit från Iran.",
+      "given": "kom",
+      "expected": "kom",
+      "correct": true
+    },
+    {
+      "id": "g7",
+      "section": "bild",
+      "type": "gap",
+      "tags": [
+        "verb.supinum",
+        "verb.signalord"
+      ],
+      "prompt": "Innan jag ringde hade hon redan ___ mejlet.",
+      "given": "skrivit",
+      "expected": "skrivit",
+      "correct": true
+    },
+    {
+      "id": "g8",
+      "section": "bild",
+      "type": "gap",
+      "tags": [
+        "verb.presens",
+        "verb.signalord"
+      ],
+      "prompt": "Vi ___ bussen till jobbet varje dag.",
+      "given": "tar",
+      "expected": "tar",
+      "correct": true
+    },
+    {
+      "id": "o1",
+      "section": "ord",
+      "type": "order",
+      "tags": [
+        "ordföljd.också",
+        "ordföljd.inversion"
+      ],
+      "prompt": "I am going home too.",
+      "given": "Jag går också hem",
+      "expected": "Jag går också hem",
+      "correct": true
+    },
+    {
+      "id": "o2",
+      "section": "ord",
+      "type": "order",
+      "tags": [
+        "ordföljd.också",
+        "verb.supinum"
+      ],
+      "prompt": "I have also seen the film.",
+      "given": "Jag har också sett filmen",
+      "expected": "Jag har också sett filmen",
+      "correct": true
+    },
+    {
+      "id": "o3",
+      "section": "ord",
+      "type": "order",
+      "tags": [
+        "ordföljd.också",
+        "ordföljd.inversion"
+      ],
+      "prompt": "Yesterday I also ate pizza.",
+      "given": "Igår åt också jag pizza",
+      "expected": "Igår åt jag också pizza",
+      "correct": false
+    },
+    {
+      "id": "h1",
+      "section": "hor",
+      "type": "mcq",
+      "tags": [
+        "hör.tid",
+        "verb.signalord"
+      ],
+      "prompt": "När hade Johan prov?",
+      "given": "I måndags",
+      "expected": "I måndags",
+      "correct": true
+    },
+    {
+      "id": "h2",
+      "section": "hor",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Hur gick provet?",
+      "given": "det gick bra",
+      "expected": "bra",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "h3",
+      "section": "hor",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "verb.signalord"
+      ],
+      "prompt": "Vad gör Johan nu?",
+      "given": "Han försöker lära sig fler ord.",
+      "expected": "Han försöker lära sig fler ord.",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.berätta",
+        "verb.signalord",
+        "ordföljd.också"
+      ],
+      "prompt": "Berätta om förra veckan och om nu.",
+      "given": {
+        "recording": "011-signalord-verbform__s1__20261113-213524.webm",
+        "transcript": "Jonas att det är jag en bra dag och hade jag pratade prata med min kollegor för två timmar  jag har aldrig var ätit fläskkött men vi prøvde det om det  nu försöker jag  att  läsa  om  hur man kan  ha en bra mat  Ja studerar också  hur man kan  köpa host for en bra mat",
+        "seconds": 76
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-13T21:35:28"
+}

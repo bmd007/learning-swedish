@@ -18,7 +18,10 @@ Then:
 - Every Swedish sentence must be natural, correct B1 Swedish. Double-check every answer key and every
   accepted answer. Spell å/ä/ö correctly.
 - Run `python3 tools/validate.py lessons/<file>` until it prints OK.
-- If the lesson has audio: `.venv/bin/python tools/build_audio.py lessons/<file>`.
+- Listening: prefer real audio (`docs/AUTHORING.md` → Audio): pick a clip from `materials/sr/klartext/index.json`
+  or a Rivstart ch. 7–10 track, transcribe it, and ask questions only about what the transcript clearly says.
+  For TTS dialogues follow the "sound like B1 speech" rules (length, spoken words, distractors, paraphrase).
+- If the lesson has TTS audio: `.venv/bin/python tools/build_audio.py lessons/<file>`.
 - Do not edit `server.py`, `web/`, or `tools/`. If the format can't express something, say so in your report.
 - Do not commit; the lead teacher reviews and commits.
 

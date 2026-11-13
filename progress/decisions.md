@@ -2,6 +2,21 @@
 
 Newest first. Write down anything that changes the plan, a preference, or a fact about the learner.
 
+## 2026-11-13
+- **Listening must sound native and B1 (learner feedback).** The TTS dialogues were "good but not B1": too
+  short, too clean, slow, two robotic voices, answers word-matched. Decisions:
+  1. Prefer **real audio**. SR **Klartext** (sverigesradio.se/klartext) = easy news with real reporters and
+     real interviewees (dialect, *ju/liksom/väl*, slang like *pajat*), 1–3 min clips + headline + short text.
+     Matches Swedex Hör del 2 and del 4. `tools/fetch_klartext.py` downloads them to materials/ (personal use,
+     not in git). Radio Sweden på lätt svenska (SR program 4916) is another option (longer, ~10 min).
+  2. Transcripts: huggingface is blocked here, but openai-whisper weights (openaipublic.azureedge.net) work.
+     Model "turbo" transcribes Klartext well (small errors with names/slang). Check before using.
+  3. Rivstart ch. 7–10 tracks for dialogues (not yet done in class). Swedex model-test audio is kept for a
+     full mock exam (late November).
+  4. TTS still used for controlled dialogues, but with B1 rules (AUTHORING → Audio): 120–250 words,
+     spoken words, plan changes / corrected numbers as distractors, paraphrased questions, normal speed,
+     pauses between turns, a 3rd voice via pitch.
+
 ## 2026-11-10
 - **Word questions = "teach me this".** When the learner asks about a Swedish word, verb, noun or
   expression, they don't know it and want to practice it in all its forms (conjugation, declension,

@@ -1,0 +1,333 @@
+{
+  "lessonId": "009-vardagsadjektiv",
+  "attemptId": "2026-11-13T20-36-49-016Z",
+  "final": false,
+  "startedAt": "2026-11-13T20:36:55.028Z",
+  "finishedAt": null,
+  "durationMin": 6,
+  "currentSection": "jamfor",
+  "sectionMinutes": {
+    "former": 1.5,
+    "motsatser": 2,
+    "jamfor": 3
+  },
+  "audioPlays": {},
+  "firstTry": {
+    "g1": true,
+    "g2": true,
+    "g3": false,
+    "g4": false,
+    "g5": false,
+    "g6": true,
+    "m1": true,
+    "m2": false,
+    "m3": true,
+    "m4": true,
+    "c1": true,
+    "c2": true,
+    "c3": false
+  },
+  "score": {
+    "former": {
+      "correct": 6,
+      "total": 6
+    },
+    "motsatser": {
+      "correct": 4,
+      "total": 4
+    },
+    "jamfor": {
+      "correct": 3,
+      "total": 5
+    }
+  },
+  "items": [
+    {
+      "id": "g1",
+      "section": "former",
+      "type": "gap",
+      "tags": [
+        "adjektiv.ett-ord"
+      ],
+      "prompt": "Vi bor i ett ___ hus med fem rum.",
+      "given": "stort",
+      "expected": "stort",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "former",
+      "type": "gap",
+      "tags": [
+        "adjektiv.plural"
+      ],
+      "prompt": "Jag har två ___ barn.",
+      "given": "små",
+      "expected": "små",
+      "correct": true
+    },
+    {
+      "id": "g3",
+      "section": "former",
+      "type": "gap",
+      "tags": [
+        "adjektiv.bestämd"
+      ],
+      "prompt": "Den ___ bilen är min.",
+      "given": "gamla",
+      "expected": "gamla",
+      "correct": true
+    },
+    {
+      "id": "g4",
+      "section": "former",
+      "type": "gap",
+      "tags": [
+        "adjektiv.ett-ord"
+      ],
+      "prompt": "Jag har fått ett ___ jobb.",
+      "given": "nytt",
+      "expected": "nytt",
+      "correct": true
+    },
+    {
+      "id": "g5",
+      "section": "former",
+      "type": "gap",
+      "tags": [
+        "adjektiv.ett-ord"
+      ],
+      "prompt": "Kaffet är ___. Kan du värma det?",
+      "given": "kallt",
+      "expected": "kallt",
+      "correct": true
+    },
+    {
+      "id": "g6",
+      "section": "former",
+      "type": "gap",
+      "tags": [
+        "adjektiv.ett-ord"
+      ],
+      "prompt": "Det var ett ___ prov. Alla klarade det.",
+      "given": "lätt",
+      "expected": "lätt",
+      "correct": true
+    },
+    {
+      "id": "m1",
+      "section": "motsatser",
+      "type": "select",
+      "tags": [
+        "ord.tema.adjektiv"
+      ],
+      "prompt": "Motsatsen till snabb är ...",
+      "given": "A. långsam",
+      "expected": "A. långsam",
+      "correct": true
+    },
+    {
+      "id": "m2",
+      "section": "motsatser",
+      "type": "select",
+      "tags": [
+        "ord.tema.adjektiv"
+      ],
+      "prompt": "Motsatsen till ledig (fri, inget jobb) är ...",
+      "given": "C. upptagen",
+      "expected": "C. upptagen",
+      "correct": true
+    },
+    {
+      "id": "m3",
+      "section": "motsatser",
+      "type": "select",
+      "tags": [
+        "ord.tema.adjektiv"
+      ],
+      "prompt": "Motsatsen till trött är ...",
+      "given": "D. pigg",
+      "expected": "D. pigg",
+      "correct": true
+    },
+    {
+      "id": "m4",
+      "section": "motsatser",
+      "type": "mcq",
+      "tags": [
+        "adjektiv.ett-ord"
+      ],
+      "prompt": "Vilken mening är rätt?",
+      "given": "Frågan var svår, men provet var inte svårt.",
+      "expected": "Frågan var svår, men provet var inte svårt.",
+      "correct": true
+    },
+    {
+      "id": "c1",
+      "section": "jamfor",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Den här jackan är för dyr. Har ni en ___?",
+      "given": "billigare",
+      "expected": "billigare",
+      "correct": true
+    },
+    {
+      "id": "c2",
+      "section": "jamfor",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Min bror är ___ än jag. Han är 40 och jag är 35.",
+      "given": "äldre",
+      "expected": "äldre",
+      "correct": true
+    },
+    {
+      "id": "c3",
+      "section": "jamfor",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Det här är den ___ lägenheten jag har sett.",
+      "given": "bästa",
+      "expected": "bästa",
+      "correct": true
+    },
+    {
+      "id": "c4",
+      "section": "jamfor",
+      "type": "mcq",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Jag mår dåligt i dag. I går mådde jag ___.",
+      "given": "dåligare",
+      "expected": "sämre",
+      "correct": false
+    },
+    {
+      "id": "c5",
+      "section": "jamfor",
+      "type": "order",
+      "tags": [
+        "ordföljd.inversion",
+        "adjektiv.komparation"
+      ],
+      "prompt": "Sätt orden i rätt ordning.",
+      "given": "Den gamla soffan är bättre än den här",
+      "expected": "Den här soffan är bättre än den gamla",
+      "correct": false
+    },
+    {
+      "id": "d1q1",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad är nytt i lägenheten?",
+      "given": null,
+      "expected": "Köket",
+      "correct": false
+    },
+    {
+      "id": "d1q2",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Hur mycket är hyran i månaden?",
+      "given": null,
+      "expected": "nio tusen",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "d1q3",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Hur var Eriks förra lägenhet?",
+      "given": null,
+      "expected": "Dyrare",
+      "correct": false
+    },
+    {
+      "id": "t1",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.berätta",
+        "adjektiv.komparation"
+      ],
+      "prompt": "Beskriv ditt hem och jämför det med ditt förra hem.",
+      "given": null,
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "state": {
+    "step": 2,
+    "answers": {
+      "g1": "stort",
+      "g2": "små",
+      "g3": "gamla",
+      "g4": "nytt",
+      "g5": "kallt",
+      "g6": "lätt",
+      "m1": 0,
+      "m2": 2,
+      "m3": 3,
+      "m4": 2,
+      "c1": "billigare",
+      "c2": "äldre",
+      "c3": "bästa",
+      "c4": 0,
+      "c5": [
+        3,
+        0,
+        4,
+        7,
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    "plays": {},
+    "sectionTime": {
+      "former": 89.734,
+      "motsatser": 117.36600000000001,
+      "jamfor": 181.783
+    },
+    "startedAt": 1794602215028,
+    "attemptId": "2026-11-13T20-36-49-016Z",
+    "updatedAt": 1794602603310,
+    "lastStep": 2,
+    "firstTry": {
+      "g1": true,
+      "g2": true,
+      "g3": false,
+      "g4": false,
+      "g5": false,
+      "g6": true,
+      "m1": true,
+      "m2": false,
+      "m3": true,
+      "m4": true,
+      "c1": true,
+      "c2": true,
+      "c3": false
+    }
+  },
+  "savedAt": "2026-11-13T21:43:23"
+}

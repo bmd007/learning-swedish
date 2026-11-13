@@ -24,7 +24,8 @@ You need Python 3 and nothing else. Optional extras:
 | Good-quality listening audio | `python3 -m venv .venv && .venv/bin/pip install edge-tts` (needs internet) |
 | Checking SVG images | `brew install librsvg` (`rsvg-convert`) |
 | Generating lessons with a local model | [Ollama](https://ollama.com) + `ollama pull gemma3:12b` |
-| Better speech transcripts (local Whisper) | `.venv/bin/pip install faster-whisper "av<17"`, then `.venv/bin/python tools/transcribe.py recordings/<file>.webm` (downloads `KBLab/kb-whisper-small` from huggingface.co once, then works offline) |
+| Better speech transcripts (local Whisper) | install ffmpeg (`brew install ffmpeg`) and `.venv/bin/pip install openai-whisper`, then `.venv/bin/python tools/transcribe.py [--save] <audio>` (downloads the "turbo" model, 1.5 GB, once; works offline after) |
+| Real radio for listening | `python3 -I tools/fetch_klartext.py` downloads SR Klartext clips to `materials/sr/klartext/` (private, not in git). Lessons with `audio.source` need these files |
 | HEIC photos on Windows/Linux | `pip install pillow-heif` (optional, see "Photos" below) |
 
 Without audio files, the browser reads the dialogues aloud itself (lower quality).
@@ -35,8 +36,7 @@ Everything is plain Python and works on all three systems. Differences:
 - On Windows, start with `python server.py` and open http://localhost:8765, or use Git Bash or WSL for
   `./start-app.sh`.
 - The venv Python is `.venv\Scripts\python` on Windows instead of `.venv/bin/python`.
-- faster-whisper may not have Windows wheels for the newest Python yet. Use Python 3.12 or 3.13 if
-  `pip install faster-whisper` fails. With an NVIDIA GPU it can run much faster (`device="cuda"`).
+- openai-whisper needs PyTorch; on Windows use Python 3.12 or 3.13 if the install fails. With an NVIDIA GPU it runs much faster.
 - Use `rsvg-convert` from your package manager (`apt install librsvg2-bin`) or skip it.
 
 ### Photos and recordings

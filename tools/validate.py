@@ -47,6 +47,15 @@ def check(path):
         if a.get("id") in audio_ids:
             err(f"{where}: duplicate audio id {a.get('id')}")
         audio_ids.add(a.get("id"))
+        src = a.get("source")
+        if src:
+            if not re.fullmatch(r"materials/[\w./-]+\.(m4a|mp3)", src) or ".." in src:
+                err(f"{where}: audio.source must be materials/....m4a|mp3")
+            elif not (ROOT / src).is_file():
+                print(f"warning: {where}: {src} not on this machine (private material)")
+            if not (a.get("script") or a.get("transcript")):
+                err(f"{where}: real audio needs script or transcript (shown after submit)")
+            return
         if not a.get("script"):
             err(f"{where}: audio.script is empty")
         speakers = a.get("speakers", {})
@@ -56,8 +65,9 @@ def check(path):
             if line.get("speaker") and line["speaker"] not in speakers:
                 err(f"{where}: speaker '{line['speaker']}' not in audio.speakers")
         for g in speakers.values():
-            if g not in ("f", "m"):
-                err(f"{where}: speaker gender must be 'f' or 'm'")
+            voice = g.get("voice") if isinstance(g, dict) else g
+            if voice not in ("f", "m"):
+                err(f"{where}: speaker must be 'f'/'m' or {{voice: 'f'|'m', pitch?, rate?}}")
 
     for s in lesson.get("sections", []):
         sid = s.get("id", "?")
