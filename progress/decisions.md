@@ -3,6 +3,10 @@
 Newest first. Write down anything that changes the plan, a preference, or a fact about the learner.
 
 ## 2026-11-13
+- **Reading practice in real exam shape + richer UI (learner request).** Reading tests 016 (Läs del 1+2) and
+  017 (del 3+4) with original texts, calibrated on the model test (model test itself kept for the mock).
+  UI: dashboard (countdown, skill meters, tabs, filters), separate exam view (timer, navigator, flags, A2/B1
+  verdict), learning view (instant feedback, live first-try score, split text/questions for reading).
 - **en/ett errors are memory, not grammar (learner, 2026-11-13).** The learner knows the agreement rule; they
   forget which nouns are en and which are ett. → Teach gender as vocabulary: always noun + article, ending
   rules that predict gender (-ing/-het/-are/-tion → en; -ande/-eri/-um/-em/-ment → ett), "guess en" (~75%),

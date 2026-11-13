@@ -1,0 +1,274 @@
+{
+ "id": "016-las-prov-a",
+ "title": "Läsprov A: del 1 och 2",
+ "titleEn": "Reading mock A: parts 1 and 2",
+ "mode": "exam",
+ "timeLimit": 32,
+ "minutes": 32,
+ "scoring": {
+  "max": 16,
+  "A2": 9,
+  "B1": 12
+ },
+ "intro": "Prov i Swedex-format. Brev, faktatext och annonser. 16 frågor, 32 minuter, inga hjälpmedel. Du ser rätt svar först efter att du lämnat in.",
+ "introEn": "Swedex-style test: letter, fact text, ads. 16 questions, 32 minutes, no aids. Answers are shown only after you submit.",
+ "sections": [
+  {
+   "id": "las",
+   "title": "Läsförståelse del 1",
+   "titleEn": "Reading part 1",
+   "instructions": "Läs texterna och svara Ja eller Nej på fråga 1–10.",
+   "instructionsEn": "Read the texts and answer Yes or No to questions 1–10.",
+   "parts": [
+    {
+     "heading": "Text 1: Fråga 1–5",
+     "headingEn": "Text 1: questions 1–5",
+     "passageTitle": "Ett brev",
+     "passage": "Göteborg den 3 oktober\n\nHej Lena!\n\nHur mår du? Nu har vi äntligen flyttat! Vi har fått en tvåa på Hisingen, i ett hus med hiss. Det är bra, för Oskar har haft ont i knät sedan i våras och klarar inte trappor så bra. Lägenheten är mindre än vår gamla, men köket är stort och vi har en liten balkong.\n\nHyran är lite högre än förut, men jag slipper åka så långt till jobbet. Förut tog det en timme med buss och spårvagn. Nu tar det tjugo minuter att gå, och på sommaren kan jag cykla.\n\nPå lördag den 19 oktober bjuder vi på inflyttningsfest klockan fem. Vi bjuder på mat, men du får gärna ta med något att dricka. Det finns inga parkeringsplatser vid huset, så det är bäst att du tar spårvagnen. Hållplatsen ligger precis utanför dörren. Kan du komma? Svara gärna före onsdag, så att jag vet hur mycket mat jag ska laga.\n\nKram\nMaria",
+     "items": [
+      {
+       "id": "j1",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj"
+       ],
+       "q": "Familjen bor nu i ett hus med hiss.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "\"Vi har fått en tvåa på Hisingen, i ett hus med hiss.\""
+      },
+      {
+       "id": "j2",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj"
+       ],
+       "q": "Oskar fick ont i knät när de flyttade.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "\"Oskar har haft ont i knät sedan i våras\" – smärtan började före flytten."
+      },
+      {
+       "id": "j3",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj"
+       ],
+       "q": "Den nya lägenheten är större än den gamla.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "\"Lägenheten är mindre än vår gamla.\""
+      },
+      {
+       "id": "j4",
+       "type": "mcq",
+       "tags": [
+        "läs.slutsats"
+       ],
+       "q": "Maria har kortare väg till jobbet än förut.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "Förut en timme, nu tjugo minuter: \"jag slipper åka så långt till jobbet\"."
+      },
+      {
+       "id": "j5",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj"
+       ],
+       "q": "Lena ska ta med mat till festen.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "\"Vi bjuder på mat, men du får gärna ta med något att dricka.\""
+      }
+     ]
+    },
+    {
+     "heading": "Text 2: Fråga 6–10",
+     "headingEn": "Text 2: questions 6–10",
+     "passageTitle": "Fakta om en simhall",
+     "passage": "Sjöbadet – kommunens simhall\n\nSjöbadet ligger på Storgatan 12. Tisdag till fredag är det öppet klockan 6–20 och på lördag och söndag klockan 9–17. På måndagar är simhallen stängd. Klockan 6–8 på morgonen är det bara motionssim, då får inga barn vara i den stora bassängen.\n\nEntrén kostar 60 kronor för vuxna och 30 kronor för barn och pensionärer. Du kan också köpa ett månadskort för 400 kronor. Med månadskort kan du simma så ofta du vill.\n\nAlla måste duscha utan badkläder innan de går i bassängen. Barn under åtta år måste ha en vuxen med sig hela tiden. Du får inte ta med egen mat in i simhallen, men i kaféet vid entrén kan du köpa fika och smörgåsar.\n\nPå tisdagar och torsdagar klockan 18 är det vattengympa. Du behöver inte anmäla dig i förväg, men kom gärna tio minuter innan så att du hinner byta om.",
+     "items": [
+      {
+       "id": "j6",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj"
+       ],
+       "q": "Simhallen är stängd på måndagar.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "\"På måndagar är simhallen stängd.\""
+      },
+      {
+       "id": "j7",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj"
+       ],
+       "q": "På lördagar öppnar simhallen klockan sex.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Lördag och söndag öppnar den klockan 9. Klockan 6 gäller tisdag–fredag."
+      },
+      {
+       "id": "j8",
+       "type": "mcq",
+       "tags": [
+        "läs.slutsats"
+       ],
+       "q": "Barn betalar mindre än vuxna.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "Vuxna 60 kronor, barn 30 kronor."
+      },
+      {
+       "id": "j9",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj"
+       ],
+       "q": "Man får äta egen mat i simhallen.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "\"Du får inte ta med egen mat in i simhallen.\" Man kan köpa mat i kaféet."
+      },
+      {
+       "id": "j10",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj"
+       ],
+       "q": "Med ett månadskort kan man simma hur ofta man vill.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "\"Med månadskort kan du simma så ofta du vill.\""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "annons",
+   "title": "Läsförståelse del 2",
+   "titleEn": "Reading part 2",
+   "instructions": "Välj vilken annons som passar bäst och svara på fråga 11–16. Två annonser passar ingen.",
+   "instructionsEn": "Choose the ad that fits best, questions 11–16. Two ads fit nobody.",
+   "parts": [
+    {
+     "heading": "Annonserna A–H",
+     "headingEn": "Ads A–H",
+     "passageTitle": "Anslagstavlan",
+     "passage": "A. Löpargruppen Snabba Skor\nVi startar en grupp för nybörjare! Vi springer tillsammans tisdagar och torsdagar klockan 18.00 från Idrottsparken. Ingen avgift, men du behöver egna löparskor. Alla är välkomna – ingen ska springa ensam!\n\nB. Excel för dig som arbetar\nKurs i kalkylprogram för anställda. Måndagar klockan 17.30–20.00, åtta gånger. Pris 3 800 kronor (arbetsgivaren betalar). Kursen ges på Handelsskolan. Anmälan senast 1 november.\n\nC. Lär dig spela gitarr!\nGitarrkurs för vuxna nybörjare på Musikskolan. Lördagar klockan 10–12, tio veckor. Du behöver ingen egen gitarr – vi har instrument att låna. Kostnad 900 kronor.\n\nD. Liten lägenhet mitt i stan\nEtta på 28 kvadratmeter på Storgatan, fem minuter från torget. Hyra 5 800 kronor i månaden. Husdjur tillåtna. Inflyttning 1 december.\n\nE. Mobilcaféet för seniorer\nHar du frågor om mobil, surfplatta eller dator? Kom till biblioteket tisdagar och torsdagar klockan 10–12. Vi hjälper dig. Gratis, ingen anmälan.\n\nF. Familjedag på Ekuddens gård\nVarje lördag i sommar klockan 11–16. Djur att klappa, grillplatser och lekplats ute i det gröna. Barn under 12 år går gratis, vuxna betalar 80 kronor. Ta med egen korv!\n\nG. Lägenhet att hyra i centrum\nTvå rum och kök, 52 kvadratmeter, nära torget. Hyra 7 500 kronor i månaden. Husdjur välkomna. Du kan flytta in direkt.\n\nH. Barnloppis i Folkets hus\nSöndag 12 mars klockan 10–14. Sälj och köp barnkläder, leksaker och barnvagnar. Bord kostar 100 kronor – boka senast fredag. Det finns fika.",
+     "image": {
+      "src": "tavla.svg",
+      "alt": "En anslagstavla med många papper",
+      "size": "small"
+     },
+     "options": [
+      "A. Löpargruppen Snabba Skor",
+      "B. Excel för dig som arbetar",
+      "C. Lär dig spela gitarr!",
+      "D. Liten lägenhet mitt i stan",
+      "E. Mobilcaféet för seniorer",
+      "F. Familjedag på Ekuddens gård",
+      "G. Lägenhet att hyra i centrum",
+      "H. Barnloppis i Folkets hus"
+     ],
+     "items": [
+      {
+       "id": "m1",
+       "type": "select",
+       "tags": [
+        "läs.matcha"
+       ],
+       "q": "Karin är 68 år och nyss pensionär. Hon vill lära sig använda sin mobil och dator bättre, men hon kan bara på dagtid och vill helst inte betala.",
+       "answer": 4,
+       "explain": "E: hjälp med mobil och dator, klockan 10–12, gratis. B är på kvällen och för anställda."
+      },
+      {
+       "id": "m2",
+       "type": "select",
+       "tags": [
+        "läs.matcha"
+       ],
+       "q": "Ahmed har tre barn: 4, 7 och 10 år. På lördagarna vill familjen göra något tillsammans utomhus, men det får inte kosta mycket.",
+       "answer": 5,
+       "explain": "F: lördagar, utomhus, barn gratis. H är inomhus och på söndag."
+      },
+      {
+       "id": "m3",
+       "type": "select",
+       "tags": [
+        "läs.matcha"
+       ],
+       "q": "Johanna arbetar på dagarna. Hon vill börja motionera genom att springa med andra på kvällen. Hon har aldrig sprungit förut och vill inte betala.",
+       "answer": 0,
+       "explain": "A: nybörjare, kvällar klockan 18, ingen avgift. C och B kostar pengar."
+      },
+      {
+       "id": "m4",
+       "type": "select",
+       "tags": [
+        "läs.matcha"
+       ],
+       "q": "Mikael söker en liten lägenhet nära centrum. Hyran får vara högst 6 000 kronor, och han har en katt.",
+       "answer": 3,
+       "explain": "D: etta i centrum, 5 800 kronor, husdjur tillåtna. G kostar 7 500 kronor."
+      },
+      {
+       "id": "m5",
+       "type": "select",
+       "tags": [
+        "läs.matcha"
+       ],
+       "q": "Fatima har en barnvagn och kläder som hennes barn har vuxit ur. Hon vill sälja sakerna själv. Hon kan bara på söndagar.",
+       "answer": 7,
+       "explain": "H: man kan sälja barnvagnar och barnkläder, och loppisen är på söndag."
+      },
+      {
+       "id": "m6",
+       "type": "select",
+       "tags": [
+        "läs.matcha"
+       ],
+       "q": "Peter vill lära sig spela gitarr. Han har aldrig spelat och har ingen gitarr. Han kan bara på helgen.",
+       "answer": 2,
+       "explain": "C: nybörjarkurs på lördagar, man kan låna instrument."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

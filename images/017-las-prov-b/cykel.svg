@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="system-ui, Helvetica, Arial, sans-serif">
+<rect width="600" height="300" fill="#ffffff"/>
+<line x1="40" y1="240" x2="560" y2="240" stroke="#888" stroke-width="4"/>
+<g fill="none" stroke="#1f4e79" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="200" cy="200" r="55"/><circle cx="400" cy="200" r="55"/>
+<path d="M200 200L260 120L370 120L400 200M260 120L300 200L200 200M300 200L370 120M250 100L285 100M370 120L355 90L385 85"/>
+</g>
+<circle cx="300" cy="200" r="10" fill="#1f4e79"/>
+<text x="300" y="275" text-anchor="middle" font-size="20" fill="#1f4e79">Cykel</text>
+</svg>

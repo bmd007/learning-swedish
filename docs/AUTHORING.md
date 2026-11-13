@@ -160,6 +160,20 @@ Only two Swedish voices exist (Sofie f, Mattias m); vary `pitch`/`rate` for extr
 Write numbers the way they are said ("kvart över två", "tusen femtio kronor").
 Without the file, the browser reads the script aloud (worse quality).
 
+### Exam mode (tests)
+
+`"mode": "exam"` (or no mode) opens the separate exam screen: dark exam header, countdown, section tabs,
+question navigator with ⚑ flags, no hints/English/explanations until submit, level verdict on the result page.
+Lesson-level fields for exams:
+```json
+"mode": "exam", "timeLimit": 32,               // minutes, countdown (overtime is allowed but recorded)
+"scoring": {"max": 16, "A2": 9, "B1": 12},     // thresholds scaled from Swedex (reading 30/17/22, listening 30/14/22)
+"numberStart": 17                               // first question number, to match the real test's numbering
+```
+Parts with a `passage` are shown side by side (text left, questions right) on wide screens, in both modes.
+Write `(1)`, `(2)` … in a passage to get numbered sentence markers (Läs del 4).
+`"mode": "practice"` = learning screen: instant feedback on mcq/select, Enter checks gaps, live first-try score.
+
 ## Tags (taxonomy)
 
 Use existing tags when possible. New tags follow `area.sub`. Tags drive `progress/tag-stats.md`.

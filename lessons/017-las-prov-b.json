@@ -1,0 +1,268 @@
+{
+  "id": "017-las-prov-b",
+  "title": "Läsprov B: del 3 och 4",
+  "titleEn": "Reading mock B: parts 3 and 4",
+  "mode": "exam",
+  "timeLimit": 28,
+  "minutes": 28,
+  "scoring": {
+    "max": 14,
+    "A2": 8,
+    "B1": 10
+  },
+  "intro": "Prov i Swedex-format. Två insändare och en faktatext. 14 frågor, 28 minuter, inga hjälpmedel. Du ser rätt svar först efter att du lämnat in.",
+  "introEn": "Swedex-style test: two letters to the editor and a fact text. 14 questions, 28 minutes, no aids.",
+  "sections": [
+    {
+      "id": "insandare",
+      "title": "Läsförståelse del 3",
+      "titleEn": "Reading part 3",
+      "instructions": "Läs insändarna och svara på fråga 17–22. Välj ett alternativ.",
+      "instructionsEn": "Read the letters to the editor and answer questions 17–22. Choose one option.",
+      "parts": [
+        {
+          "heading": "Insändare 1: Fråga 17–19",
+          "headingEn": "Letter 1: questions 17–19",
+          "passageTitle": "Insändare",
+          "passage": "Linje 12 måste vara kvar\n\nJag blev mycket ledsen när jag läste att kommunen vill ta bort buss 12 från nästa år. Jag är 79 år och bor i Södra Ängby, där det varken finns affär eller vårdcentral. Varje vecka åker jag med buss 12 till centrum för att handla och träffa min dotter, som bor där. Jag har ingen bil och kan inte cykla längre, eftersom jag har dålig balans.\n\nKommunen säger att bara få människor åker med bussen. Det kan stämma på förmiddagen, men på morgonen och eftermiddagen är den full av skolbarn och människor som ska till jobbet. Dessutom tror jag att fler skulle åka om bussen gick oftare. Nu går den bara en gång i timmen.\n\nJag förstår att kommunen måste spara pengar. Men det är fel att spara på dem som har minst möjligheter att ta sig fram. Jag hoppas att politikerna tänker om innan de bestämmer sig.\n\nGunvor Eriksson, Södra Ängby",
+          "items": [
+            {
+              "id": "i1",
+              "type": "mcq",
+              "tags": [
+                "läs.huvudtanke"
+              ],
+              "q": "Varför skriver Gunvor insändaren?",
+              "options": [
+                "Hon vill att kommunen behåller buss 12.",
+                "Hon vill att bussen ska gå till fler platser.",
+                "Hon tycker att bussen är för dyr.",
+                "Hon vill berätta om sin dotter."
+              ],
+              "answer": 0,
+              "explain": "Hon blir ledsen för att bussen ska tas bort och hoppas att politikerna tänker om."
+            },
+            {
+              "id": "i2",
+              "type": "mcq",
+              "tags": [
+                "läs.detalj"
+              ],
+              "q": "Varför behöver Gunvor buss 12?",
+              "options": [
+                "Hon jobbar i centrum.",
+                "Hon är rädd för bilar.",
+                "Hon har ingen bil och kan inte cykla.",
+                "Hennes dotter bor i Södra Ängby."
+              ],
+              "answer": 2,
+              "explain": "\"Jag har ingen bil och kan inte cykla längre.\""
+            },
+            {
+              "id": "i3",
+              "type": "mcq",
+              "tags": [
+                "läs.åsikt"
+              ],
+              "q": "Vad tycker Gunvor om att bara få människor åker buss?",
+              "options": [
+                "Det är helt fel.",
+                "Det stämmer bara vid vissa tider på dagen.",
+                "Det beror på att bussen är för långsam.",
+                "Det är inget problem för kommunen."
+              ],
+              "answer": 1,
+              "explain": "\"Det kan stämma på förmiddagen, men på morgonen och eftermiddagen är den full.\""
+            }
+          ]
+        },
+        {
+          "heading": "Insändare 2: Fråga 20–22",
+          "headingEn": "Letter 2: questions 20–22",
+          "passageTitle": "Insändare",
+          "passage": "Ja till mobilfria lektioner\n\nJag är lärare på en högstadieskola och har arbetat i tolv år. Under de senaste åren har något förändrats. Förr pratade eleverna med varandra på rasterna. Nu tittar många ner i mobilen hela tiden, och ofta även på lektionerna.\n\nPå vår skola infördes en ny regel i höstas: mobilerna ligger i en låda i klassrummet under lektionen. Först protesterade många elever, och några föräldrar tyckte att det var fel, eftersom de vill kunna nå sina barn. Men efter två månader ser jag en stor skillnad. Eleverna lyssnar bättre, och på rasterna spelar de kort och pratar. Några har till och med sagt att det är skönt att slippa mobilen.\n\nVissa menar att skolan borde lära barnen använda mobilen på ett bra sätt i stället för att förbjuda den. Det håller jag med om, men det är lättare att lära sig något när man först har fått lugn och ro. Jag tycker att fler skolor borde pröva samma regel.\n\nAnders Lindqvist, lärare",
+          "items": [
+            {
+              "id": "i4",
+              "type": "mcq",
+              "tags": [
+                "läs.detalj"
+              ],
+              "q": "Vad har hänt på Anders skola?",
+              "options": [
+                "Eleverna får inte ha mobil i skolan alls.",
+                "Mobilerna läggs undan under lektionerna.",
+                "Eleverna får använda mobilen bara på rasterna.",
+                "Föräldrarna ringer till läraren varje dag."
+              ],
+              "answer": 1,
+              "explain": "\"Mobilerna ligger i en låda i klassrummet under lektionen.\" På rasterna har eleverna alltså inte förbud."
+            },
+            {
+              "id": "i5",
+              "type": "mcq",
+              "tags": [
+                "läs.slutsats"
+              ],
+              "q": "Hur tycker eleverna om regeln nu?",
+              "options": [
+                "Alla är fortfarande emot den.",
+                "Några av dem är nöjda med den.",
+                "Ingen har pratat om den.",
+                "De tycker att den är orättvis mot föräldrarna."
+              ],
+              "answer": 1,
+              "explain": "\"Några har till och med sagt att det är skönt att slippa mobilen.\" Först protesterade många, men det har ändrats."
+            },
+            {
+              "id": "i6",
+              "type": "mcq",
+              "tags": [
+                "läs.åsikt"
+              ],
+              "q": "Vad tycker Anders om att skolan ska lära barnen använda mobilen?",
+              "options": [
+                "Det är en dålig idé.",
+                "Det är föräldrarnas uppgift.",
+                "Det är bra, men lugn och ro kommer först.",
+                "Det är viktigare än att förbjuda mobilen."
+              ],
+              "answer": 2,
+              "explain": "\"Det håller jag med om, men det är lättare att lära sig när man först har fått lugn och ro.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fakta",
+      "title": "Läsförståelse del 4",
+      "titleEn": "Reading part 4",
+      "instructions": "Läs texten. Meningarna i texten har nummer. Varje mening nedan betyder ungefär samma som en mening i texten. Välj numret på den meningen (fråga 23–30). Om ingen mening i texten passar, välj 0.",
+      "instructionsEn": "Each statement means about the same as one numbered sentence in the text. Choose that number (23–30). If no sentence fits, choose 0.",
+      "parts": [
+        {
+          "heading": "Faktatext",
+          "headingEn": "Fact text",
+          "passageTitle": "Fakta",
+          "passage": "Cykla till jobbet – bra för kroppen och plånboken\n\n(1)Allt fler svenskar cyklar till jobbet, särskilt i de större städerna. (2)I Malmö och Umeå väljer ungefär var fjärde person cykeln en vanlig arbetsdag. (3)Det finns flera skäl till att cykeln är så populär. (4)För det första är det ett billigt sätt att ta sig fram, eftersom man slipper betala för bensin och parkering. (5)För det andra får man motion utan att behöva avsätta tid för träning. (6)Forskare har visat att den som cyklar till jobbet blir sjuk mer sällan än andra. (7)Dessutom är cykeln ofta snabbare än bilen i städer med mycket trafik.\n\n(8)Många tror att man måste vara vältränad för att cykla till jobbet, men det stämmer inte. (9)Den som bor fem kilometer från jobbet behöver ungefär tjugo minuter. (10)Man behöver inte heller köpa en dyr cykel. (11)En enkel cykel med fungerande bromsar och lampor är tillräckligt. (12)Det viktigaste är att cykeln passar kroppen, så att man inte får ont i ryggen.\n\n(13)På vintern är halka det största problemet. (14)Många kommuner plogar därför cykelvägarna före bilvägarna. (15)Den som cyklar på vintern bör ha dubbdäck på cykeln. (16)Hjälm är inte obligatoriskt för vuxna, men experter rekommenderar att alla använder det.\n\n(17)Många arbetsgivare uppmuntrar sina anställda att cykla. (18)Vissa företag har egna cykelrum och duschar, så att man kan byta om. (19)Andra erbjuder en cykelförmån, där man hyr en cykel av arbetsgivaren till ett lägre pris.\n\n(20)Om du är osäker kan du börja med att cykla en eller två dagar i veckan. (21)Det kan också vara bra att kombinera cykel och kollektivtrafik, om avståndet är långt. (22)På många tåg och bussar i regionen får man ta med sig cykeln mot en liten avgift. (23)Efter några veckor märker de flesta att de mår bättre. (24)Många vill sedan aldrig åka på något annat sätt.",
+          "image": {
+            "src": "cykel.svg",
+            "alt": "En cykel",
+            "size": "small"
+          },
+          "options": [
+            "0 – ingen mening i texten",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"
+          ],
+          "items": [
+            {
+              "id": "s1",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Man sparar pengar eftersom man inte behöver tanka bilen eller betala för att ställa den.",
+              "answer": 4,
+              "explain": "Mening 4: \"slipper betala för bensin och parkering\"."
+            },
+            {
+              "id": "s2",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Studier visar att cyklister har färre sjukdagar än andra.",
+              "answer": 6,
+              "explain": "Mening 6: \"blir sjuk mer sällan än andra\"."
+            },
+            {
+              "id": "s3",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "I tät trafik kommer man ofta fortare fram med cykel än med bil.",
+              "answer": 7,
+              "explain": "Mening 7: \"snabbare än bilen i städer med mycket trafik\"."
+            },
+            {
+              "id": "s4",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Cykelns storlek måste passa den som cyklar, annars kan man få ont i ryggen.",
+              "answer": 12,
+              "explain": "Mening 12: \"cykeln passar kroppen, så att man inte får ont i ryggen\"."
+            },
+            {
+              "id": "s5",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Många väljer cykeln eftersom de tycker att kollektivtrafiken är dålig.",
+              "answer": 0,
+              "explain": "Ingen mening säger något om dålig kollektivtrafik som skäl."
+            },
+            {
+              "id": "s6",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Vissa arbetsgivare låter de anställda hyra en cykel billigt.",
+              "answer": 19,
+              "explain": "Mening 19: \"hyr en cykel av arbetsgivaren till ett lägre pris\"."
+            },
+            {
+              "id": "s7",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Man ska alltid ha reflexväst när man cyklar.",
+              "answer": 0,
+              "explain": "Texten nämner inte reflexväst. Mening 16 handlar om hjälm."
+            },
+            {
+              "id": "s8",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "På en del tåg och bussar får man ha med cykeln om man betalar lite.",
+              "answer": 22,
+              "explain": "Mening 22: \"får man ta med sig cykeln mot en liten avgift\". Mening 21 handlar om att kombinera, inte om avgiften."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numberStart": 17
+}

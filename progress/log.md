@@ -105,3 +105,10 @@
 - Graded 013 (boende 7/12, jämförelse 6/6 but 1/6 first try, lyssna 5/7; speaking A2, Whisper). Feedback written. g9 'Men det' acceptable.
 - Vs 009: adjective endings and irregular comparison NOT yet automatic; listening förra/nu trap repeated.
 - Next step: short drill on adjective after mitt/den/det (-a) + comparison pairs, with förra/nuvarande listening; then grade 012 and 014; then past-story lesson.
+
+## 2026-11-13 (night)
+- Graded 013 (19/25; agreement errors repeat; learner says en/ett = memory problem) → built 015-en-eller-ett.
+- Learner asked for exam-like reading + a richer UI. Built 016-las-prov-a (Läs del 1 Ja/Nej ×10 + del 2 ads ×6,
+  32 min, B1 ≥ 12/16) and 017-las-prov-b (del 3 insändare ×6 + del 4 synonym sentences ×8, 28 min, B1 ≥ 10/14),
+  reviewed keys. New UI: dashboard, exam view, learning view (see CLAUDE.md / AUTHORING "Exam mode").
+- Next step: learner takes 012, 014, 015, 016, 017. Then grade; past-story lesson; listening test in exam view.

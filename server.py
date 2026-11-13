@@ -37,26 +37,78 @@ def run_job(job_id, topic, mode):
             job["status"] = "error"
 
 
+SKILLS = {"läs": "läsa", "hör": "höra", "skriv": "skriva", "tal": "tala"}
+
+
+def skill_of(tag):
+    return SKILLS.get(tag.split(".")[0], "grammatik")
+
+
+def lesson_items(data):
+    for sec in data.get("sections", []):
+        for part in sec.get("parts", [sec]):
+            for item in part.get("items", []):
+                if item.get("type") != "info":
+                    yield item
+
+
+def final_results():
+    out = {}
+    for f in sorted(RESULTS.glob("*.json")):
+        try:
+            out.setdefault(f.name.rsplit("__", 1)[0], []).append(json.loads(f.read_text(encoding="utf-8")))
+        except (OSError, ValueError):
+            continue
+    return out
+
+
 def lesson_summaries():
-    attempts = {}
-    for f in RESULTS.glob("*.json"):
-        lesson_id = f.name.rsplit("__", 1)[0]
-        attempts[lesson_id] = attempts.get(lesson_id, 0) + 1
+    results = final_results()
     out = []
     for f in sorted(LESSONS.glob("*.json")):
         data = json.loads(f.read_text(encoding="utf-8"))
+        runs = results.get(data["id"], [])
+        last = runs[-1] if runs else None
+        score = None
+        if last:
+            parts = (last.get("score") or {}).values()
+            score = {"correct": sum(p["correct"] for p in parts), "total": sum(p["total"] for p in parts),
+                     "date": (last.get("finishedAt") or last.get("savedAt") or "")[:10]}
+        skills = sorted({skill_of(t) for it in lesson_items(data) for t in it.get("tags", [])})
         out.append({
             "id": data["id"],
             "title": data.get("title"),
             "titleEn": data.get("titleEn"),
             "minutes": data.get("minutes"),
-            "attempts": attempts.get(data["id"], 0),
+            "timeLimit": data.get("timeLimit"),
+            "attempts": len(runs) or int(any(FEEDBACK.glob(f"{data['id']}__*.md"))),
+            "lastScore": score,
+            "skills": skills,
             "hasFeedback": any(FEEDBACK.glob(f"{data['id']}__*.md")),
             "mode": data.get("mode"),
             "generated": bool(data.get("generated")),
             "reviewed": bool((data.get("generated") or {}).get("reviewed")),
         })
     return out
+
+
+def progress_summary():
+    plan = (ROOT / "progress" / "plan.md")
+    m = re.search(r"\d{4}-\d{2}-\d{2}", plan.read_text(encoding="utf-8")) if plan.exists() else None
+    skills, minutes, done = {}, 0, 0
+    for runs in final_results().values():
+        for r in runs:
+            done += 1
+            minutes += min(sum((r.get("sectionMinutes") or {}).values()) or (r.get("durationMin") or 0), 60)
+            for it in r.get("items", []):
+                for skill in {skill_of(t) for t in it.get("tags", [])} or {"grammatik"}:
+                    s = skills.setdefault(skill, {"correct": 0, "total": 0, "teacher": 0})
+                    if it.get("correct") is None:
+                        s["teacher"] += 1
+                    else:
+                        s["total"] += 1
+                        s["correct"] += bool(it["correct"])
+    return {"examDate": m.group(0) if m else None, "skills": skills, "minutes": minutes, "attempts": done}
 
 
 def heic_to_jpg(src):
@@ -110,6 +162,8 @@ class Handler(SimpleHTTPRequestHandler):
             return super().do_GET()
         if p == "/api/lessons":
             return self.send_json(lesson_summaries())
+        if p == "/api/progress":
+            return self.send_json(progress_summary())
         m = re.fullmatch(r"/api/lessons/([A-Za-z0-9_.-]+)", p)
         if m:
             f = LESSONS / f"{m.group(1)}.json"
