@@ -1,18 +1,21 @@
 {
   "lessonId": "009-vardagsadjektiv",
   "attemptId": "2026-11-13T20-36-49-016Z",
-  "final": false,
+  "final": true,
   "startedAt": "2026-11-13T20:36:55.028Z",
-  "finishedAt": null,
-  "durationMin": 8,
-  "currentSection": "lyssna",
+  "finishedAt": "2026-11-13T20:49:11.596Z",
+  "durationMin": 12,
+  "currentSection": null,
   "sectionMinutes": {
     "former": 1.5,
     "motsatser": 2,
     "jamfor": 4.1,
-    "lyssna": 0
+    "lyssna": 2.1,
+    "tala": 2.6
   },
-  "audioPlays": {},
+  "audioPlays": {
+    "d1": 2
+  },
   "firstTry": {
     "g1": true,
     "g2": true,
@@ -41,6 +44,10 @@
     "jamfor": {
       "correct": 4,
       "total": 5
+    },
+    "lyssna": {
+      "correct": 2,
+      "total": 3
     }
   },
   "items": [
@@ -233,9 +240,9 @@
         "hör.detalj"
       ],
       "prompt": "Vad är nytt i lägenheten?",
-      "given": null,
+      "given": "Köket",
       "expected": "Köket",
-      "correct": false
+      "correct": true
     },
     {
       "id": "d1q2",
@@ -245,9 +252,9 @@
         "hör.siffror"
       ],
       "prompt": "Hur mycket är hyran i månaden?",
-      "given": null,
+      "given": "9000 krona i månaden",
       "expected": "nio tusen",
-      "correct": false,
+      "correct": true,
       "teacherCheck": true
     },
     {
@@ -258,7 +265,7 @@
         "hör.detalj"
       ],
       "prompt": "Hur var Eriks förra lägenhet?",
-      "given": null,
+      "given": "Större",
       "expected": "Dyrare",
       "correct": false
     },
@@ -271,67 +278,15 @@
         "adjektiv.komparation"
       ],
       "prompt": "Beskriv ditt hem och jämför det med ditt förra hem.",
-      "given": null,
+      "given": {
+        "recording": "009-vardagsadjektiv__t1__20261113-214906.webm",
+        "transcript": "är mycket små Vi har bara  en Rom  så  en gammal  lägenhet  och mycket gammal  du har bara ett rum  därför bästa rommet er  Är det  man kan inte vila  en bra som bästa när det bara finns en bra  Det är min första lägenhet  men man kan säga att det är  dyrare än min Fora hem  i kusten i månader kostar  min for love and Boxer  jag är  Ja jag mår mycket bra och bättre i min  know Nintendo",
+        "seconds": 129
+      },
       "expected": null,
       "correct": null
     }
   ],
   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
-  "state": {
-    "step": 3,
-    "answers": {
-      "g1": "stort",
-      "g2": "små",
-      "g3": "gamla",
-      "g4": "nytt",
-      "g5": "kallt",
-      "g6": "lätt",
-      "m1": 0,
-      "m2": 2,
-      "m3": 3,
-      "m4": 2,
-      "c1": "billigare",
-      "c2": "äldre",
-      "c3": "bästa",
-      "c4": 0,
-      "c5": [
-        3,
-        6,
-        4,
-        7,
-        1,
-        2,
-        5,
-        0
-      ]
-    },
-    "plays": {},
-    "sectionTime": {
-      "former": 89.734,
-      "motsatser": 117.36600000000001,
-      "jamfor": 245.27399999999994,
-      "lyssna": 0.602
-    },
-    "startedAt": 1794602215028,
-    "attemptId": "2026-11-13T20-36-49-016Z",
-    "updatedAt": 1794602667403,
-    "lastStep": 3,
-    "firstTry": {
-      "g1": true,
-      "g2": true,
-      "g3": false,
-      "g4": false,
-      "g5": false,
-      "g6": true,
-      "m1": true,
-      "m2": false,
-      "m3": true,
-      "m4": true,
-      "c1": true,
-      "c2": true,
-      "c3": false,
-      "c5": false
-    }
-  },
-  "savedAt": "2026-11-13T21:44:28"
+  "savedAt": "2026-11-13T21:49:11"
 }

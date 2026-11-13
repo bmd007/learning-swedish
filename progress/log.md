@@ -87,3 +87,7 @@
 ## 2026-11-13 (evening)
 - Graded 011 (final 14/15; first-try gaps 5/9; listening 3/3; speaking A2+, improved: också after verb, har+supinum correct). Whisper transcript used for speaking. Feedback written.
 - Next step: lesson on telling a past story (preteritum chain, sedan/då, i/för/sedan with time, i måndags) + speed gaps on signal words. Then grade 012, 009.
+
+## 2026-11-13 (night)
+- Graded 009 (auto 16/18: former 6/6, motsatser 4/4, jämförelse 4/5, lyssna 2/3; first-try gaps weak on ett-ord/plural endings). Speaking A2 (Whisper transcript; end unclear). Feedback written.
+- Next step: adjective agreement lesson (en/ett/plural, hem/rum/hus as ett-ord, learn noun + article, den/det + adjektiv-a) + irregular comparison (sämre, större, äldre, bäst). Then grade 012, plus a past-story lesson from the previous plan.
