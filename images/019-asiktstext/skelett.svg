@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="system-ui, Helvetica, Arial, sans-serif">
+  <rect width="640" height="400" fill="#ffffff"/>
+  <g font-size="17">
+    <rect x="20" y="12" width="400" height="38" rx="8" fill="#fcf3cf" stroke="#b7950b" stroke-width="2"/>
+    <text x="34" y="36" font-weight="bold" fill="#7d6608">Rubrik: Behåll skoltiden!</text>
+    <rect x="20" y="60" width="400" height="56" rx="8" fill="#d6eaf8" stroke="#1a5276" stroke-width="2"/>
+    <text x="34" y="82" font-weight="bold" fill="#1a5276">Inledning</text>
+    <text x="34" y="104" fill="#1a5276">Jag läste insändaren … Jag håller inte med.</text>
+    <rect x="20" y="126" width="400" height="38" rx="8" fill="#d5f5e3" stroke="#1e8449" stroke-width="2"/>
+    <text x="34" y="150" fill="#1e8449"><tspan font-weight="bold">Skäl 1</tspan>  För det första …</text>
+    <rect x="20" y="172" width="400" height="38" rx="8" fill="#d5f5e3" stroke="#1e8449" stroke-width="2"/>
+    <text x="34" y="196" fill="#1e8449"><tspan font-weight="bold">Skäl 2</tspan>  För det andra …</text>
+    <rect x="20" y="218" width="400" height="38" rx="8" fill="#d5f5e3" stroke="#1e8449" stroke-width="2"/>
+    <text x="34" y="242" fill="#1e8449"><tspan font-weight="bold">Skäl 3</tspan>  Dessutom …</text>
+    <rect x="20" y="266" width="400" height="38" rx="8" fill="#fadbd8" stroke="#922b21" stroke-width="2"/>
+    <text x="34" y="290" fill="#922b21"><tspan font-weight="bold">Motargument</tspan>  Visserligen …, men …</text>
+    <rect x="20" y="314" width="400" height="38" rx="8" fill="#e8daef" stroke="#6c3483" stroke-width="2"/>
+    <text x="34" y="338" fill="#6c3483"><tspan font-weight="bold">Avslutning</tspan>  Därför tycker jag att …</text>
+    <text x="34" y="378" fill="#333">Med vänliga hälsningar, Anders Lindqvist</text>
+  </g>
+  <g font-size="16" fill="#333">
+    <text x="440" y="36" font-weight="bold">Formell text</text>
+    <text x="440" y="62">Ingen &quot;Hej!&quot;</text>
+    <text x="440" y="84">Ingen &quot;Kram&quot;</text>
+    <text x="440" y="106">Hela namnet</text>
+    <text x="440" y="128">Inga smileys</text>
+    <text x="440" y="150">Inga förkortningar</text>
+    <text x="440" y="190" font-weight="bold">Informell text</text>
+    <text x="440" y="216">Hej Lisa!</text>
+    <text x="440" y="238">Kram, Ali</text>
+  </g>
+</svg>

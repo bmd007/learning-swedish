@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" font-family="system-ui, Helvetica, Arial, sans-serif">
+  <rect width="600" height="260" fill="#ffffff"/>
+  <rect x="60" y="15" width="480" height="230" fill="#f4f1ea" stroke="#555" stroke-width="3"/>
+  <text x="300" y="52" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">Stadens Tidning</text>
+  <line x1="80" y1="64" x2="520" y2="64" stroke="#555" stroke-width="2"/>
+  <text x="80" y="96" font-size="18" font-weight="bold" fill="#1a5276">INSÄNDARE</text>
+  <rect x="80" y="108" width="260" height="10" fill="#bbb"/>
+  <rect x="80" y="128" width="260" height="10" fill="#bbb"/>
+  <rect x="80" y="148" width="260" height="10" fill="#bbb"/>
+  <rect x="80" y="168" width="180" height="10" fill="#bbb"/>
+  <rect x="370" y="90" width="150" height="100" fill="#d6eaf8" stroke="#1a5276" stroke-width="2"/>
+  <text x="445" y="148" text-anchor="middle" font-size="16" fill="#1a5276">Din åsikt?</text>
+  <text x="80" y="220" font-size="15" fill="#333">Skriv ett svar: åsikt + skäl + avslutning</text>
+</svg>

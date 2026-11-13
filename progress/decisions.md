@@ -3,10 +3,12 @@
 Newest first. Write down anything that changes the plan, a preference, or a fact about the learner.
 
 ## 2026-11-13
+- **No time-based planning (learner).** Don't ask for dates, no week plans or countdowns. Just react: grade each
+  attempt, then build the next lesson from the data. (Supersedes the Swedex timeline in plan.md.)
 - **Main target is now the SFI D national test, old format** (learner is enrolled in SFI D and takes it before
   the 2027 change). Swedex A2B1 is a backup. ~70% of practice is shared; add SFI D shapes: charts/chat/sms/
   interview matching in reading, MCQ listening, formal opinion text + informal letter, "berätta och ge råd" and a
-  pair discussion with agreement. Test date unknown – ask.
+  pair discussion with agreement.
 - **Reading practice in real exam shape + richer UI (learner request).** Reading tests 016 (Läs del 1+2) and
   017 (del 3+4) with original texts, calibrated on the model test (model test itself kept for the mock).
   UI: dashboard (countdown, skill meters, tabs, filters), separate exam view (timer, navigator, flags, A2/B1

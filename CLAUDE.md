@@ -8,7 +8,8 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
 
 ## Resume checklist (read this first after a restart)
 
-0. Read `progress/plan.md` (current goal: SFI D national test, old format; date unknown. Backup: Swedex A2B1).
+0. Read `progress/plan.md` (goal: SFI D national test, old format; backup Swedex A2B1). No time-based
+   planning: react to the learner's efforts (grade → next lesson).
 1. Read `progress/learner-profile.md` (who the learner is, goals, strengths/weaknesses).
 1b. Read `progress/decisions.md` (notes from conversations: preferences, decisions).
 2. Read `progress/log.md` (chronological log; the LAST entry says what is in flight and what's next).

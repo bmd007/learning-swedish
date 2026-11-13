@@ -2,8 +2,8 @@
 
 Goal: SFI D national test (old format; the learner is enrolled in SFI D and takes the test before the
 2027 syllabus change). Pass (G) needed in all four parts: Läsa, Höra, Skriva, Tala.
-Test date: unknown (ask the learner / their SFI school). When known, write it as `Test date: YYYY-MM-DD`
-on this line's place – the app's countdown reads it.
+No time-based planning (learner's wish): don't ask for the test date, no schedules or countdowns.
+React to the learner's efforts: grade what they do, then build the next lesson from the results.
 Backup: Swedex A2B1 (2026-12-04, Göteborg) – most practice transfers.
 
 ## SFI D format (old test, see docs/research.md)

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" font-family="system-ui, Helvetica, Arial, sans-serif">
+  <rect width="600" height="260" fill="#ffffff"/>
+  <rect x="20" y="15" width="560" height="200" rx="10" fill="#1b2a49"/>
+  <g stroke-width="4" stroke-linecap="round">
+    <g stroke="#f4d03f"><line x1="170" y1="100" x2="170" y2="50"/><line x1="170" y1="100" x2="215" y2="70"/><line x1="170" y1="100" x2="125" y2="70"/><line x1="170" y1="100" x2="220" y2="115"/><line x1="170" y1="100" x2="120" y2="115"/><line x1="170" y1="100" x2="190" y2="148"/><line x1="170" y1="100" x2="150" y2="148"/></g>
+    <g stroke="#ec7063"><line x1="400" y1="80" x2="400" y2="35"/><line x1="400" y1="80" x2="440" y2="55"/><line x1="400" y1="80" x2="360" y2="55"/><line x1="400" y1="80" x2="445" y2="95"/><line x1="400" y1="80" x2="355" y2="95"/><line x1="400" y1="80" x2="420" y2="125"/><line x1="400" y1="80" x2="380" y2="125"/></g>
+  </g>
+  <rect x="20" y="195" width="560" height="20" fill="#0e1628"/>
+  <text x="300" y="245" text-anchor="middle" font-size="17" fill="#333">Fyrverkerier: fint för några – jobbigt för andra?</text>
+</svg>
