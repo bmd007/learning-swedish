@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" font-family="Helvetica, Arial, sans-serif">
+  <rect width="640" height="220" fill="#f7f4ec"/>
+  <text x="320" y="85" text-anchor="middle" font-size="76" font-weight="bold"><tspan fill="#2471a3">19</tspan><tspan fill="#999"> | </tspan><tspan fill="#c0392b">47</tspan></text>
+  <rect x="40" y="120" width="170" height="56" rx="10" fill="#d6eaf8"/><text x="125" y="156" text-anchor="middle" font-size="26" fill="#1a5276">nitton</text>
+  <rect x="235" y="120" width="170" height="56" rx="10" fill="#eee"/><text x="320" y="156" text-anchor="middle" font-size="26" fill="#444">hundra</text>
+  <rect x="430" y="120" width="170" height="56" rx="10" fill="#fadbd8"/><text x="515" y="156" text-anchor="middle" font-size="26" fill="#922b21">fyrtiosju</text>
+  <text x="320" y="205" text-anchor="middle" font-size="15" fill="#777">nittonhundrafyrtiosju – ett ord, tre delar</text>
+</svg>

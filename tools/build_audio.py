@@ -31,10 +31,17 @@ def speaker_settings(audio, name):
 
 
 async def render_line(text, voice, rate, pitch, mp3):
-    with open(mp3, "wb") as f:
-        async for chunk in edge_tts.Communicate(text, voice, rate=rate, pitch=pitch).stream():
-            if chunk["type"] == "audio":
-                f.write(chunk["data"])
+    for attempt in range(4):
+        try:
+            with open(mp3, "wb") as f:
+                async for chunk in edge_tts.Communicate(text, voice, rate=rate, pitch=pitch).stream():
+                    if chunk["type"] == "audio":
+                        f.write(chunk["data"])
+            return
+        except edge_tts.exceptions.EdgeTTSException:
+            if attempt == 3:
+                raise
+            await asyncio.sleep(2 * (attempt + 1))
 
 
 def pcm(mp3, tmp):

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 140" font-family="Helvetica, Arial, sans-serif">
+  <rect width="640" height="140" fill="#f7f4ec"/>
+  <line x1="30" y1="70" x2="610" y2="70" stroke="#555" stroke-width="4"/><path d="M610 70 l-14 -9 v18z" fill="#555"/>
+  <g fill="#fff" stroke="#555" stroke-width="2"><circle cx="70" cy="70" r="9"/><circle cx="170" cy="70" r="9"/><circle cx="270" cy="70" r="9"/><circle cx="370" cy="70" r="9"/><circle cx="470" cy="70" r="9"/><circle cx="560" cy="70" r="9"/></g>
+  <g font-size="14" text-anchor="middle" fill="#333">
+    <text x="70" y="45">född</text><text x="170" y="45">Stockholm</text><text x="270" y="45">bröllop</text><text x="370" y="45">barn</text><text x="470" y="45">huset</text><text x="560" y="45">pension</text>
+    <g fill="#aaa" font-size="18"><text x="70" y="105">19__</text><text x="170" y="105">19__</text><text x="270" y="105">19__</text><text x="370" y="105">19__</text><text x="470" y="105">19__</text><text x="560" y="105">20__</text></g>
+  </g>
+</svg>

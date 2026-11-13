@@ -1,0 +1,666 @@
+{
+  "id": "014-artal-och-tal",
+  "title": "Årtal och tal: 1947, 1448, 1884",
+  "titleEn": "Years and numbers: 1947, 1448, 1884",
+  "mode": "practice",
+  "minutes": 14,
+  "intro": "Hur säger man 1947 på svenska? Och hur hör man skillnaden på sjutton och sjuttio? Du lär dig mönstret, lyssnar på tal och årtal, och hör en morfar berätta om sitt liv.",
+  "introEn": "How do you say 1947 in Swedish, and how do you hear 17 vs 70? Learn the pattern, listen to numbers and years, and hear a grandfather tell his life story.",
+  "sections": [
+    {
+      "id": "regel",
+      "title": "Så läser man årtal",
+      "titleEn": "How to read years",
+      "instructions": "Läs. Lyssna på exemplen.",
+      "instructionsEn": "Read. Listen to the examples.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "image": {
+            "src": "artal.svg",
+            "alt": "Årtalet 1947 delas i 19 och 47: nitton-hundra-fyrtiosju"
+          },
+          "md": "**Årtal = två tal efter varandra.** Dela årtalet i mitten: **19 | 47**.\n\n| årtal | så säger man | delar |\n|---|---|---|\n| 1448 | **fjorton**hundra**fyrtio**åtta | 14 hundra 48 |\n| 1884 | **arton**hundra**åttio**fyra | 18 hundra 84 |\n| 1947 | **nitton**hundra**fyrtio**sju | 19 hundra 47 |\n| 1905 | nittonhundra**fem** | 19 hundra 5 |\n| 2008 | **tvåtusen**åtta | 2000 + 8 |\n| 2015 | **tjugohundra**femton *eller* **tvåtusen**femton | båda är rätt |\n\nMan säger alltid **hundra** i mitten (inte *nitton fyrtiosju* som på engelska *nineteen forty-seven*).\n\n**Persiska:** på persiska säger man hela talet: «هزار و نهصد و چهل و هفت». Svenskan liknar mer engelskan, men med *hundra* i mitten.\n\n**Prepositioner:** *Jag kom till Sverige **2015**.* / *… **år** 2015.* – inte ~~i 2015~~.\nÅrhundrade: *på **1800-talet*** (artonhundratalet). Decennium: *på **80-talet*** (åttiotalet)."
+        },
+        {
+          "id": "i2",
+          "type": "info",
+          "image": {
+            "src": "ton-tio.svg",
+            "alt": "Par av tal: sjutton 17 och sjuttio 70, fjorton 14 och fyrtio 40, arton 18 och åttio 80"
+          },
+          "md": "**Lyssna på slutet: -ton eller -tio?**\n\n| -ton (13–19) | -tio (30–90) |\n|---|---|\n| tret**ton** 13 | tret**tio** 30 |\n| fjor**ton** 14 | fyr**tio** 40 |\n| fem**ton** 15 | fem**tio** 50 |\n| sex**ton** 16 | sex**tio** 60 |\n| sjut**ton** 17 | sjut**tio** 70 |\n| ar**ton** 18 | åt**tio** 80 |\n| nit**ton** 19 | nit**tio** 90 |\n\n- **-ton** har ett tydligt *n* på slutet: *sjutt-o**n***.\n- **-tio** sägs ofta **-ti** i vardagen: *fyrti, sjutti, åtti, nitti*. Inget *n*!\n- **fjorton** (14) och **fyrtio** (40) börjar olika: *fj-* och *fy-*.\n- **arton** (18) och **åttio** (80) börjar olika: *a-* och *å-*."
+        }
+      ]
+    },
+    {
+      "id": "par",
+      "title": "Hör skillnaden",
+      "titleEn": "Hear the difference",
+      "instructions": "Lyssna. Välj talet du hör.",
+      "instructionsEn": "Listen. Choose the number you hear.",
+      "items": [
+        {
+          "id": "p1",
+          "type": "mcq",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Vilket tal hör du?",
+          "qEn": "Which number do you hear?",
+          "audio": {
+            "id": "a_p1",
+            "maxPlays": 2,
+            "title": "sjuttio",
+            "speakers": {
+              "Röst": "f"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "sjuttio"
+              }
+            ]
+          },
+          "options": [
+            "17",
+            "70",
+            "7",
+            "77"
+          ],
+          "answer": 1,
+          "explain": "sjut-tio (ofta 'sjutti'), inget n på slutet = 70.",
+          "explainEn": "No n at the end = 70."
+        },
+        {
+          "id": "p2",
+          "type": "mcq",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Vilket tal hör du?",
+          "qEn": "Which number do you hear?",
+          "audio": {
+            "id": "a_p2",
+            "maxPlays": 2,
+            "title": "fjorton",
+            "speakers": {
+              "Röst": "f"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "fjorton"
+              }
+            ]
+          },
+          "options": [
+            "40",
+            "44",
+            "14",
+            "4"
+          ],
+          "answer": 2,
+          "explain": "fjor-ton: fj- och n på slutet = 14.",
+          "explainEn": "fj- and an n at the end = 14."
+        },
+        {
+          "id": "p3",
+          "type": "mcq",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Vilket tal hör du?",
+          "qEn": "Which number do you hear?",
+          "audio": {
+            "id": "a_p3",
+            "maxPlays": 2,
+            "title": "åttiotre",
+            "speakers": {
+              "Röst": "f"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "åttiotre"
+              }
+            ]
+          },
+          "options": [
+            "83",
+            "38",
+            "18",
+            "813"
+          ],
+          "answer": 0,
+          "explain": "Svenska: tiotalet först, sedan ental: åttio-tre = 83.",
+          "explainEn": "Tens first, then ones: 83."
+        },
+        {
+          "id": "p4",
+          "type": "mcq",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Vilket tal hör du?",
+          "qEn": "Which number do you hear?",
+          "audio": {
+            "id": "a_p4",
+            "maxPlays": 2,
+            "title": "artonhundrasextio",
+            "speakers": {
+              "Röst": "f"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "artonhundrasextio"
+              }
+            ]
+          },
+          "options": [
+            "1816",
+            "1860",
+            "1806",
+            "8160"
+          ],
+          "answer": 1,
+          "explain": "arton-hundra-sextio = 18 | 60.",
+          "explainEn": "18 hundred 60."
+        },
+        {
+          "id": "p5",
+          "type": "mcq",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Vilket tal hör du?",
+          "qEn": "Which number do you hear?",
+          "audio": {
+            "id": "a_p5",
+            "maxPlays": 2,
+            "title": "nittonhundranittio",
+            "speakers": {
+              "Röst": "f"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "nittonhundranittio"
+              }
+            ]
+          },
+          "options": [
+            "1919",
+            "1990",
+            "1909",
+            "1999"
+          ],
+          "answer": 1,
+          "explain": "nitton (19) + hundra + nittio (90) = 1990.",
+          "explainEn": "19 hundred 90."
+        },
+        {
+          "id": "p6",
+          "type": "mcq",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Vilket tal hör du?",
+          "qEn": "Which number do you hear?",
+          "audio": {
+            "id": "a_p6",
+            "maxPlays": 2,
+            "title": "sextonhundrafyrtiofem",
+            "speakers": {
+              "Röst": "f"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "sextonhundrafyrtiofem"
+              }
+            ]
+          },
+          "options": [
+            "1645",
+            "1445",
+            "1654",
+            "6045"
+          ],
+          "answer": 0,
+          "explain": "sexton (16) – hundra – fyrtiofem (45).",
+          "explainEn": "16 hundred 45."
+        }
+      ]
+    },
+    {
+      "id": "diktat",
+      "title": "Skriv årtalet",
+      "titleEn": "Write the year",
+      "instructions": "Lyssna. Skriv årtalet med siffror, till exempel 1750.",
+      "instructionsEn": "Listen. Write the year in digits, e.g. 1750.",
+      "items": [
+        {
+          "id": "d1",
+          "type": "short",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Skriv årtalet med siffror.",
+          "qEn": "Write the year in digits.",
+          "audio": {
+            "id": "a_d1",
+            "maxPlays": 2,
+            "title": "Hon föddes nittonhundrafyrtiosju.",
+            "speakers": {
+              "Röst": "f"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Hon föddes nittonhundrafyrtiosju."
+              }
+            ]
+          },
+          "answers": [
+            "1947"
+          ],
+          "explain": "nitton-hundra-fyrtiosju = 1947",
+          "explainEn": "nitton-hundra-fyrtiosju = 1947"
+        },
+        {
+          "id": "d2",
+          "type": "short",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Skriv årtalet med siffror.",
+          "qEn": "Write the year in digits.",
+          "audio": {
+            "id": "a_d2",
+            "maxPlays": 2,
+            "title": "Staden fick en ny kyrka fjortonhundrafyrtioåtta.",
+            "speakers": {
+              "Röst": "m"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Staden fick en ny kyrka fjortonhundrafyrtioåtta."
+              }
+            ]
+          },
+          "answers": [
+            "1448"
+          ],
+          "explain": "fjorton-hundra-fyrtioåtta = 1448",
+          "explainEn": "fjorton-hundra-fyrtioåtta = 1448"
+        },
+        {
+          "id": "d3",
+          "type": "short",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Skriv årtalet med siffror.",
+          "qEn": "Write the year in digits.",
+          "audio": {
+            "id": "a_d3",
+            "maxPlays": 2,
+            "title": "Huset byggdes artonhundraåttiofyra.",
+            "speakers": {
+              "Röst": "f"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Huset byggdes artonhundraåttiofyra."
+              }
+            ]
+          },
+          "answers": [
+            "1884"
+          ],
+          "explain": "arton-hundra-åttiofyra = 1884",
+          "explainEn": "arton-hundra-åttiofyra = 1884"
+        },
+        {
+          "id": "d4",
+          "type": "short",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Skriv årtalet med siffror.",
+          "qEn": "Write the year in digits.",
+          "audio": {
+            "id": "a_d4",
+            "maxPlays": 2,
+            "title": "Kriget slutade sjuttonhundratjugoett.",
+            "speakers": {
+              "Röst": "m"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Kriget slutade sjuttonhundratjugoett."
+              }
+            ]
+          },
+          "answers": [
+            "1721"
+          ],
+          "explain": "sjutton-hundra-tjugoett = 1721",
+          "explainEn": "sjutton-hundra-tjugoett = 1721"
+        },
+        {
+          "id": "d5",
+          "type": "short",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Skriv årtalet med siffror.",
+          "qEn": "Write the year in digits.",
+          "audio": {
+            "id": "a_d5",
+            "maxPlays": 2,
+            "title": "Min pappa kom till Sverige nittonhundranittiotre.",
+            "speakers": {
+              "Röst": "f"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Min pappa kom till Sverige nittonhundranittiotre."
+              }
+            ]
+          },
+          "answers": [
+            "1993"
+          ],
+          "explain": "nitton-hundra-nittiotre = 1993",
+          "explainEn": "nitton-hundra-nittiotre = 1993"
+        },
+        {
+          "id": "d6",
+          "type": "short",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Skriv årtalet med siffror.",
+          "qEn": "Write the year in digits.",
+          "audio": {
+            "id": "a_d6",
+            "maxPlays": 2,
+            "title": "Vi flyttade hit tjugohundrafemton.",
+            "speakers": {
+              "Röst": "m"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Vi flyttade hit tjugohundrafemton."
+              }
+            ]
+          },
+          "answers": [
+            "2015"
+          ],
+          "explain": "tjugohundra-femton = 2015 (man kan också säga tvåtusenfemton).",
+          "explainEn": "tjugohundra-femton = 2015 (man kan också säga tvåtusenfemton)."
+        },
+        {
+          "id": "d7",
+          "type": "short",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Skriv årtalet med siffror.",
+          "qEn": "Write the year in digits.",
+          "audio": {
+            "id": "a_d7",
+            "maxPlays": 2,
+            "title": "Skolan stängde artonhundrasjuttio.",
+            "speakers": {
+              "Röst": "f"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Skolan stängde artonhundrasjuttio."
+              }
+            ]
+          },
+          "answers": [
+            "1870"
+          ],
+          "explain": "arton-hundra-sjuttio = 1870. Inget n efter sjutti- → 70, inte 17.",
+          "explainEn": "arton-hundra-sjuttio = 1870. Inget n efter sjutti- → 70, inte 17."
+        },
+        {
+          "id": "d8",
+          "type": "short",
+          "tags": [
+            "hör.siffror"
+          ],
+          "q": "Skriv årtalet med siffror.",
+          "qEn": "Write the year in digits.",
+          "audio": {
+            "id": "a_d8",
+            "maxPlays": 2,
+            "title": "Bron öppnade nittonhundrafjorton.",
+            "speakers": {
+              "Röst": "m"
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Bron öppnade nittonhundrafjorton."
+              }
+            ]
+          },
+          "answers": [
+            "1914"
+          ],
+          "explain": "nitton-hundra-fjorton = 1914. fj- + n → 14, inte 40.",
+          "explainEn": "nitton-hundra-fjorton = 1914. fj- + n → 14, inte 40."
+        }
+      ]
+    },
+    {
+      "id": "morfar",
+      "title": "Lyssna: Sara intervjuar morfar",
+      "titleEn": "Listen: Sara interviews her grandfather",
+      "instructions": "Du hör samtalet två gånger. Svara med siffror eller 1–5 ord.",
+      "instructionsEn": "You hear it twice. Answer in digits or 1–5 words.",
+      "parts": [
+        {
+          "image": {
+            "src": "tidslinje.svg",
+            "alt": "En tidslinje med tomma rutor för årtal",
+            "size": "small"
+          },
+          "audio": {
+            "id": "a_morfar",
+            "title": "Sara intervjuar morfar",
+            "maxPlays": 2,
+            "gap": 0.5,
+            "speakers": {
+              "Sara": "f",
+              "Morfar": {
+                "voice": "m",
+                "pitch": "-10Hz",
+                "rate": "-3%"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Sara",
+                "text": "Morfar, jag har en skoluppgift. Jag ska skriva om nån i familjen. Kan jag intervjua dig?"
+              },
+              {
+                "speaker": "Morfar",
+                "text": "Ja, absolut. Vad vill du veta?"
+              },
+              {
+                "speaker": "Sara",
+                "text": "När är du född?"
+              },
+              {
+                "speaker": "Morfar",
+                "text": "Jag är född nittonhundrafyrtiosju. I Sundsvall."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Och när flyttade du till Stockholm?"
+              },
+              {
+                "speaker": "Morfar",
+                "text": "Det var … nittonhundrasextioåtta. Jag var tjugoett år och skulle börja jobba på Ericsson."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Okej. Och när träffade du mormor?"
+              },
+              {
+                "speaker": "Morfar",
+                "text": "Samma år, på en dans. Vi gifte oss nittonhundrasjuttioett – nej, vänta. Sjuttiotvå. Mormor skulle bli arg nu, haha. Sjuttiotvå, i juni."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Haha. Och mamma, när föddes hon?"
+              },
+              {
+                "speaker": "Morfar",
+                "text": "Din mamma kom nittonhundrasjuttiofyra. Och din morbror Johan nittonhundraåttio."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Jaha. Och huset i Huddinge, när köpte ni det?"
+              },
+              {
+                "speaker": "Morfar",
+                "text": "Det köpte vi nittonhundraåttiofem. Det kostade fyrahundrafemtiotusen kronor. I dag kostar det nog sju miljoner, typ."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Oj! Och när slutade du jobba?"
+              },
+              {
+                "speaker": "Morfar",
+                "text": "Tvåtusentolv. Då gick jag i pension. Efter fyrtiofyra år på samma ställe."
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "m1",
+              "type": "short",
+              "tags": [
+                "hör.siffror"
+              ],
+              "q": "Vilket år flyttade morfar till Stockholm?",
+              "qEn": "Which year did he move to Stockholm?",
+              "answers": [
+                "1968"
+              ],
+              "explain": "”nittonhundrasextioåtta” = 1968. Han var tjugoett år.",
+              "explainEn": "1968."
+            },
+            {
+              "id": "m2",
+              "type": "short",
+              "tags": [
+                "hör.siffror",
+                "hör.detalj"
+              ],
+              "q": "Vilket år gifte sig morfar och mormor?",
+              "qEn": "Which year did they marry?",
+              "answers": [
+                "1972"
+              ],
+              "explain": "Han säger först sjuttioett, men rättar sig: ”nej, vänta. Sjuttiotvå.” = 1972. Swedex-fälla: svaret kommer efter *nej, vänta*.",
+              "explainEn": "He corrects himself: 1972, not 1971."
+            },
+            {
+              "id": "m3",
+              "type": "short",
+              "tags": [
+                "hör.siffror"
+              ],
+              "q": "Vilket år föddes Saras mamma?",
+              "qEn": "Which year was Sara's mother born?",
+              "answers": [
+                "1974"
+              ],
+              "explain": "”Din mamma kom nittonhundrasjuttiofyra.” Att *komma* = att födas här. Johan föddes 1980.",
+              "explainEn": "1974 (Johan: 1980)."
+            },
+            {
+              "id": "m4",
+              "type": "mcq",
+              "tags": [
+                "hör.siffror"
+              ],
+              "q": "Vad kostade huset när de köpte det?",
+              "qEn": "What did the house cost when they bought it?",
+              "options": [
+                "45 000 kronor",
+                "450 000 kronor",
+                "4 500 000 kronor",
+                "7 000 000 kronor"
+              ],
+              "answer": 1,
+              "explain": "”fyrahundrafemtiotusen kronor” = 450 000. Sju miljoner är vad det kostar i dag.",
+              "explainEn": "450,000 kr. Seven million is today's price."
+            },
+            {
+              "id": "m5",
+              "type": "short",
+              "tags": [
+                "hör.siffror",
+                "hör.detalj"
+              ],
+              "q": "Hur många år jobbade morfar på samma ställe?",
+              "qEn": "How many years did he work at the same place?",
+              "answers": [
+                "44",
+                "fyrtiofyra"
+              ],
+              "explain": "”Efter fyrtiofyra år på samma ställe.” (1968–2012 = 44 år.)",
+              "explainEn": "44 years."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Din tidslinje",
+      "titleEn": "Your timeline",
+      "instructions": "Berätta om ditt liv med årtal. Säg årtalen högt och tydligt.",
+      "instructionsEn": "Tell about your life with years. Say the years clearly.",
+      "items": [
+        {
+          "id": "t1",
+          "type": "speak",
+          "tags": [
+            "tal.berätta"
+          ],
+          "q": "Berätta om viktiga år i ditt liv.",
+          "qEn": "Tell about important years in your life.",
+          "maxSeconds": 180,
+          "bullets": [
+            "När och var är du född? (Jag är född nittonhundra…)",
+            "När kom du till Sverige? (Jag kom till Sverige …)",
+            "När började du läsa svenska / jobba / plugga?",
+            "Ett år som var viktigt för dig – vad hände då?"
+          ],
+          "explain": "Säg årtalet utan *i*: *Jag kom till Sverige tjugohundrafemton.* Preteritum: kom, började, flyttade, träffade.",
+          "explainEn": "No 'i' before a year. Past tense for events."
+        }
+      ]
+    }
+  ]
+}

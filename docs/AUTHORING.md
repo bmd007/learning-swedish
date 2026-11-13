@@ -155,6 +155,8 @@ Only two Swedish voices exist (Sofie f, Mattias m); vary `pitch`/`rate` for extr
 - **Paraphrase:** the question uses other words than the audio (*utan jobb* ↔ *arbetslös*). No word-matching.
 - **Implied info:** some answers need a small conclusion (attitude, reason, who decides).
 - Normal speed (`rate` +0% or faster). No slow, over-clear reading.
+- TTS traps: *Mm* is read as "millimeter", *Wow* sounds odd – use *Jaha*, *Aha*, *Oj*. Write years/numbers as
+  words (*nittonhundrafyrtiosju*) to control how they are said. Check new audio with `tools/transcribe.py`.
 Write numbers the way they are said ("kvart över två", "tusen femtio kronor").
 Without the file, the browser reads the script aloud (worse quality).
 

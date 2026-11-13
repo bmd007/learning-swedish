@@ -1,0 +1,373 @@
+{
+  "lessonId": "013-adjektiv-kongruens",
+  "attemptId": "2026-11-13T20-58-06-431Z",
+  "final": true,
+  "startedAt": "2026-11-13T20:58:10.112Z",
+  "finishedAt": "2026-11-13T21:12:51.835Z",
+  "durationMin": 15,
+  "currentSection": null,
+  "sectionMinutes": {
+    "monster": 0.7,
+    "boende": 2.6,
+    "jamfor": 2.1,
+    "lyssna": 3.6,
+    "tala": 5.7
+  },
+  "audioPlays": {
+    "a1": 1
+  },
+  "firstTry": {
+    "c2": false,
+    "c1": false,
+    "c3": true,
+    "c4": false,
+    "c5": false,
+    "h6": true,
+    "h7": false
+  },
+  "score": {
+    "boende": {
+      "correct": 7,
+      "total": 12
+    },
+    "jamfor": {
+      "correct": 6,
+      "total": 6
+    },
+    "lyssna": {
+      "correct": 5,
+      "total": 7
+    }
+  },
+  "items": [
+    {
+      "id": "g1",
+      "section": "boende",
+      "type": "gap",
+      "tags": [
+        "adjektiv.ett-ord",
+        "substantiv.en-ett"
+      ],
+      "prompt": "Jag bodde i en ___ lägenhet i Högdalen.",
+      "given": "gammal",
+      "expected": "gammal",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "boende",
+      "type": "gap",
+      "tags": [
+        "adjektiv.ett-ord",
+        "substantiv.en-ett"
+      ],
+      "prompt": "Det här är mitt ___ hem.",
+      "given": "nytt",
+      "expected": "nya",
+      "correct": false
+    },
+    {
+      "id": "g3",
+      "section": "boende",
+      "type": "gap",
+      "tags": [
+        "adjektiv.ett-ord"
+      ],
+      "prompt": "Vi har ett ___ kök med ny spis.",
+      "given": "stort",
+      "expected": "stort",
+      "correct": true
+    },
+    {
+      "id": "g4",
+      "section": "boende",
+      "type": "gap",
+      "tags": [
+        "adjektiv.ett-ord"
+      ],
+      "prompt": "Sovrummet är ___ på natten.",
+      "given": "kallt",
+      "expected": "kallt",
+      "correct": true
+    },
+    {
+      "id": "g5",
+      "section": "boende",
+      "type": "gap",
+      "tags": [
+        "adjektiv.plural"
+      ],
+      "prompt": "Vi hade två ___ rum i vår förra lägenhet.",
+      "given": "små",
+      "expected": "små",
+      "correct": true
+    },
+    {
+      "id": "g6",
+      "section": "boende",
+      "type": "gap",
+      "tags": [
+        "pronomen.sin",
+        "adjektiv.ett-ord"
+      ],
+      "prompt": "Jag saknar ___ förra hem.",
+      "given": "min",
+      "expected": "mitt",
+      "correct": false
+    },
+    {
+      "id": "g7",
+      "section": "boende",
+      "type": "gap",
+      "tags": [
+        "adjektiv.bestämd"
+      ],
+      "prompt": "Jag saknar min ___ lägenhet.",
+      "given": "gammlat",
+      "expected": "gamla",
+      "correct": false
+    },
+    {
+      "id": "g8",
+      "section": "boende",
+      "type": "gap",
+      "tags": [
+        "pronomen.sin"
+      ],
+      "prompt": "Lägenheten är liten. ___ har bara ett rum.",
+      "given": "Den",
+      "expected": "den",
+      "correct": true
+    },
+    {
+      "id": "g9",
+      "section": "boende",
+      "type": "gap",
+      "tags": [
+        "pronomen.sin"
+      ],
+      "prompt": "Rummet är litet. ___ har ett stort fönster.",
+      "given": "Men det",
+      "expected": "det",
+      "correct": false
+    },
+    {
+      "id": "g10",
+      "section": "boende",
+      "type": "gap",
+      "tags": [
+        "substantiv.plural"
+      ],
+      "prompt": "Hyran är nio tusen ___ i månaden.",
+      "given": "kroner",
+      "expected": "kronor",
+      "correct": false
+    },
+    {
+      "id": "m1",
+      "section": "boende",
+      "type": "mcq",
+      "tags": [
+        "adjektiv.ett-ord",
+        "substantiv.en-ett"
+      ],
+      "prompt": "Vilken mening är rätt?",
+      "given": "Jag bor i en stor lägenhet.",
+      "expected": "Jag bor i en stor lägenhet.",
+      "correct": true
+    },
+    {
+      "id": "o1",
+      "section": "boende",
+      "type": "order",
+      "tags": [
+        "ordföljd.inversion",
+        "adjektiv.komparation"
+      ],
+      "prompt": null,
+      "given": "Mitt förra hem var mindre än mitt nya hem",
+      "expected": "Mitt förra hem var mindre än mitt nya hem",
+      "correct": true
+    },
+    {
+      "id": "c1",
+      "section": "jamfor",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Köket var dåligt, men badrummet var ännu ___.",
+      "given": "sämre",
+      "expected": "sämre",
+      "correct": true
+    },
+    {
+      "id": "c2",
+      "section": "jamfor",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Min nya lägenhet är mycket ___ än min förra.",
+      "given": "större",
+      "expected": "större",
+      "correct": true
+    },
+    {
+      "id": "c3",
+      "section": "jamfor",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Min nya lägenhet är större ___ min förra.",
+      "given": "än",
+      "expected": "än",
+      "correct": true
+    },
+    {
+      "id": "c4",
+      "section": "jamfor",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Min syster är fem år ___ än jag.",
+      "given": "äldre",
+      "expected": "äldre",
+      "correct": true
+    },
+    {
+      "id": "c5",
+      "section": "jamfor",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation",
+        "adjektiv.bestämd"
+      ],
+      "prompt": "Det här var den ___ lägenheten jag har sett.",
+      "given": "sämsta",
+      "expected": "sämsta",
+      "correct": true
+    },
+    {
+      "id": "m2",
+      "section": "jamfor",
+      "type": "mcq",
+      "tags": [
+        "adjektiv.komparation"
+      ],
+      "prompt": "Vilken mening är rätt?",
+      "given": "Mitt rum är större än ditt.",
+      "expected": "Mitt rum är större än ditt.",
+      "correct": true
+    },
+    {
+      "id": "h1",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Hur många rum har Erik nu?",
+      "given": "3 rum",
+      "expected": "tre",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "h2",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Vad kostade Eriks FÖRRA lägenhet i månaden?",
+      "given": "9000 kroner",
+      "expected": "8500",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "h3",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "adjektiv.komparation"
+      ],
+      "prompt": "Vad var dåligt i Eriks förra lägenhet?",
+      "given": "Badrummet",
+      "expected": "Köket",
+      "correct": false
+    },
+    {
+      "id": "h4",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Var bor Erik nu?",
+      "given": "I Årsta",
+      "expected": "I Årsta",
+      "correct": true
+    },
+    {
+      "id": "h5",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.slutsats",
+        "adjektiv.komparation"
+      ],
+      "prompt": "Hur är hyran nu jämfört med förut?",
+      "given": "Lite högre",
+      "expected": "Lite högre",
+      "correct": true
+    },
+    {
+      "id": "h6",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad säger Erik om området där han bor nu?",
+      "given": "Det är lugnt och nära kollektivtrafik.",
+      "expected": "Det är lugnt och nära kollektivtrafik.",
+      "correct": true
+    },
+    {
+      "id": "h7",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Erik hade balkong i sin förra lägenhet.",
+      "given": "Falskt",
+      "expected": "Falskt",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.berätta",
+        "adjektiv.komparation"
+      ],
+      "prompt": "Jämför ditt förra hem och ditt nuvarande hem.",
+      "given": {
+        "recording": "013-adjektiv-kongruens__s1__20261113-221248.webm",
+        "transcript": "Idag får jag i centrum men får rätt podde jag i Flogsta  i Flogsta jag hade en  20 kvadratmeter  Rom men nu Jag har Jag har en 35 kvadratmeter lägenhet  man kan säga det var  inte  eller ingenting bättre förut  a new nu Jag har en storare  lägenheten jag  har  mitt egen köket  Det är mycket bra och lugnt  när man  handlar andra mat  idag Jag betala  idag betalar jag  5000 kr för i månad  som är  dyrare än min förut Rom  min får  mitt förra rum Rom  år äldre än min  lagenheter nu",
+        "seconds": 151
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-13T22:12:51"
+}

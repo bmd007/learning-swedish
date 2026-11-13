@@ -91,3 +91,12 @@
 ## 2026-11-13 (night)
 - Graded 009 (auto 16/18: former 6/6, motsatser 4/4, jämförelse 4/5, lyssna 2/3; first-try gaps weak on ett-ord/plural endings). Speaking A2 (Whisper transcript; end unclear). Feedback written.
 - Next step: adjective agreement lesson (en/ett/plural, hem/rum/hus as ett-ord, learn noun + article, den/det + adjektiv-a) + irregular comparison (sämre, större, äldre, bäst). Then grade 012, plus a past-story lesson from the previous plan.
+
+## 2026-11-13 (later)
+- Graded 011 (14/15, speaking A2+) and 009 (16/18, speaking A2; adjective agreement + irregular comparison weak).
+- Built 013-adjektiv-kongruens (lesson-author, reviewed: keys OK, fixed info claim + h2 answers).
+- Learner asked for listening practice on numbers/years (1947, 1448, 1884). Built 014-artal-och-tal: year pattern
+  (19|hundra|47), -ton vs -tio pairs (17/70, 14/40, 18/80), 6 "which number" mcq, 8 year dictations, B1 TTS
+  interview with a self-corrected year (1971 → 72), speak: own timeline. Audio verified with Whisper.
+- Found: edge-tts reads "Mm" as "millimeter" → rule in AUTHORING; fixed 013 audio. build_audio retries on TTS errors.
+- Next step: learner takes 012, 013, 014. Then the past-story lesson (preteritum chain, i måndags, i/för … sedan).
