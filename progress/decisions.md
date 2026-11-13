@@ -3,6 +3,9 @@
 Newest first. Write down anything that changes the plan, a preference, or a fact about the learner.
 
 ## 2026-11-13
+- **Narrow skill drills must be short (learner feedback).** A 14-min lesson on reading years was "too much".
+  One small skill (numbers, one word, one rule) → 5–8 min, ~8–10 items, speaking only if it is the point.
+  Keep 10–15 min for exam-shaped or mixed lessons.
 - **Listening must sound native and B1 (learner feedback).** The TTS dialogues were "good but not B1": too
   short, too clean, slow, two robotic voices, answers word-matched. Decisions:
   1. Prefer **real audio**. SR **Klartext** (sverigesradio.se/klartext) = easy news with real reporters and

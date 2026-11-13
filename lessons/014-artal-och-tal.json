@@ -3,9 +3,9 @@
   "title": "Årtal och tal: 1947, 1448, 1884",
   "titleEn": "Years and numbers: 1947, 1448, 1884",
   "mode": "practice",
-  "minutes": 14,
-  "intro": "Hur säger man 1947 på svenska? Och hur hör man skillnaden på sjutton och sjuttio? Du lär dig mönstret, lyssnar på tal och årtal, och hör en morfar berätta om sitt liv.",
-  "introEn": "How do you say 1947 in Swedish, and how do you hear 17 vs 70? Learn the pattern, listen to numbers and years, and hear a grandfather tell his life story.",
+  "minutes": 7,
+  "intro": "Hur säger man 1947 på svenska? Och hur hör man skillnaden på sjutton och sjuttio? Kort lektion: mönstret, några tal och årtal, och en morfar som berättar om sitt liv.",
+  "introEn": "How do you say 1947, and how do you hear 17 vs 70? Short lesson: the pattern, some numbers and years, and a grandfather telling his story.",
   "sections": [
     {
       "id": "regel",
@@ -106,38 +106,6 @@
           "explainEn": "fj- and an n at the end = 14."
         },
         {
-          "id": "p3",
-          "type": "mcq",
-          "tags": [
-            "hör.siffror"
-          ],
-          "q": "Vilket tal hör du?",
-          "qEn": "Which number do you hear?",
-          "audio": {
-            "id": "a_p3",
-            "maxPlays": 2,
-            "title": "åttiotre",
-            "speakers": {
-              "Röst": "f"
-            },
-            "script": [
-              {
-                "speaker": "Röst",
-                "text": "åttiotre"
-              }
-            ]
-          },
-          "options": [
-            "83",
-            "38",
-            "18",
-            "813"
-          ],
-          "answer": 0,
-          "explain": "Svenska: tiotalet först, sedan ental: åttio-tre = 83.",
-          "explainEn": "Tens first, then ones: 83."
-        },
-        {
           "id": "p4",
           "type": "mcq",
           "tags": [
@@ -200,38 +168,6 @@
           "answer": 1,
           "explain": "nitton (19) + hundra + nittio (90) = 1990.",
           "explainEn": "19 hundred 90."
-        },
-        {
-          "id": "p6",
-          "type": "mcq",
-          "tags": [
-            "hör.siffror"
-          ],
-          "q": "Vilket tal hör du?",
-          "qEn": "Which number do you hear?",
-          "audio": {
-            "id": "a_p6",
-            "maxPlays": 2,
-            "title": "sextonhundrafyrtiofem",
-            "speakers": {
-              "Röst": "f"
-            },
-            "script": [
-              {
-                "speaker": "Röst",
-                "text": "sextonhundrafyrtiofem"
-              }
-            ]
-          },
-          "options": [
-            "1645",
-            "1445",
-            "1654",
-            "6045"
-          ],
-          "answer": 0,
-          "explain": "sexton (16) – hundra – fyrtiofem (45).",
-          "explainEn": "16 hundred 45."
         }
       ]
     },
@@ -325,90 +261,6 @@
           ],
           "explain": "arton-hundra-åttiofyra = 1884",
           "explainEn": "arton-hundra-åttiofyra = 1884"
-        },
-        {
-          "id": "d4",
-          "type": "short",
-          "tags": [
-            "hör.siffror"
-          ],
-          "q": "Skriv årtalet med siffror.",
-          "qEn": "Write the year in digits.",
-          "audio": {
-            "id": "a_d4",
-            "maxPlays": 2,
-            "title": "Kriget slutade sjuttonhundratjugoett.",
-            "speakers": {
-              "Röst": "m"
-            },
-            "script": [
-              {
-                "speaker": "Röst",
-                "text": "Kriget slutade sjuttonhundratjugoett."
-              }
-            ]
-          },
-          "answers": [
-            "1721"
-          ],
-          "explain": "sjutton-hundra-tjugoett = 1721",
-          "explainEn": "sjutton-hundra-tjugoett = 1721"
-        },
-        {
-          "id": "d5",
-          "type": "short",
-          "tags": [
-            "hör.siffror"
-          ],
-          "q": "Skriv årtalet med siffror.",
-          "qEn": "Write the year in digits.",
-          "audio": {
-            "id": "a_d5",
-            "maxPlays": 2,
-            "title": "Min pappa kom till Sverige nittonhundranittiotre.",
-            "speakers": {
-              "Röst": "f"
-            },
-            "script": [
-              {
-                "speaker": "Röst",
-                "text": "Min pappa kom till Sverige nittonhundranittiotre."
-              }
-            ]
-          },
-          "answers": [
-            "1993"
-          ],
-          "explain": "nitton-hundra-nittiotre = 1993",
-          "explainEn": "nitton-hundra-nittiotre = 1993"
-        },
-        {
-          "id": "d6",
-          "type": "short",
-          "tags": [
-            "hör.siffror"
-          ],
-          "q": "Skriv årtalet med siffror.",
-          "qEn": "Write the year in digits.",
-          "audio": {
-            "id": "a_d6",
-            "maxPlays": 2,
-            "title": "Vi flyttade hit tjugohundrafemton.",
-            "speakers": {
-              "Röst": "m"
-            },
-            "script": [
-              {
-                "speaker": "Röst",
-                "text": "Vi flyttade hit tjugohundrafemton."
-              }
-            ]
-          },
-          "answers": [
-            "2015"
-          ],
-          "explain": "tjugohundra-femton = 2015 (man kan också säga tvåtusenfemton).",
-          "explainEn": "tjugohundra-femton = 2015 (man kan också säga tvåtusenfemton)."
         },
         {
           "id": "d7",
@@ -598,24 +450,6 @@
               "explainEn": "1974 (Johan: 1980)."
             },
             {
-              "id": "m4",
-              "type": "mcq",
-              "tags": [
-                "hör.siffror"
-              ],
-              "q": "Vad kostade huset när de köpte det?",
-              "qEn": "What did the house cost when they bought it?",
-              "options": [
-                "45 000 kronor",
-                "450 000 kronor",
-                "4 500 000 kronor",
-                "7 000 000 kronor"
-              ],
-              "answer": 1,
-              "explain": "”fyrahundrafemtiotusen kronor” = 450 000. Sju miljoner är vad det kostar i dag.",
-              "explainEn": "450,000 kr. Seven million is today's price."
-            },
-            {
               "id": "m5",
               "type": "short",
               "tags": [
@@ -632,33 +466,6 @@
               "explainEn": "44 years."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "tala",
-      "title": "Din tidslinje",
-      "titleEn": "Your timeline",
-      "instructions": "Berätta om ditt liv med årtal. Säg årtalen högt och tydligt.",
-      "instructionsEn": "Tell about your life with years. Say the years clearly.",
-      "items": [
-        {
-          "id": "t1",
-          "type": "speak",
-          "tags": [
-            "tal.berätta"
-          ],
-          "q": "Berätta om viktiga år i ditt liv.",
-          "qEn": "Tell about important years in your life.",
-          "maxSeconds": 180,
-          "bullets": [
-            "När och var är du född? (Jag är född nittonhundra…)",
-            "När kom du till Sverige? (Jag kom till Sverige …)",
-            "När började du läsa svenska / jobba / plugga?",
-            "Ett år som var viktigt för dig – vad hände då?"
-          ],
-          "explain": "Säg årtalet utan *i*: *Jag kom till Sverige tjugohundrafemton.* Preteritum: kom, började, flyttade, träffade.",
-          "explainEn": "No 'i' before a year. Past tense for events."
         }
       ]
     }

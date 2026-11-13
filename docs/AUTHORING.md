@@ -186,7 +186,7 @@ Swedex A2B1, 2026-12-04. Format and timeline: `progress/plan.md`. Shapes to mirr
 
 ## Pedagogy rules (follow these)
 
-1. **Short and focused:** 10–15 minutes, **one topic per lesson** (one verb family, one rule, one
+1. **Short and focused:** 10–15 minutes (a narrow skill drill like numbers or one word: **5–8 min**, ~8–10 items), **one topic per lesson** (one verb family, one rule, one
    exam task). About 10–16 items. If a word question touches two topics, make two lessons.
 1c. **Speaking time:** `maxSeconds` = at least 120, and 60 + 30 per bullet (5 bullets → 210). The learner
    likes to add extra sentences – never cut them off.
