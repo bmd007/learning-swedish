@@ -2,37 +2,39 @@
 
 | tag | wrong/seen | error rate | latest wrong examples |
 |---|---|---|---|
-| `substantiv.plural` | 3/3 | 100% | 003-former-och-ord/f4: 'böcker' → 'böcker'; 003-former-och-ord/f5: 'fötter' → 'fötter'; 001-diagnos/g11: 'bokar' → 'böcker' |
+| `substantiv.plural` | 4/4 | 100% | 003-former-och-ord/f5: 'fötter' → 'fötter'; 013-adjektiv-kongruens/g10: 'kroner' → 'kronor'; 001-diagnos/g11: 'bokar' → 'böcker' |
 | `verb.reflexiv` | 1/1 | 100% | 001-diagnos/g17: 'tvätta sig om händerna' → 'tvätta sig' |
+| `adjektiv.bestämd` | 3/4 | 75% | 009-vardagsadjektiv/g3: 'gamla' → 'gamla'; 013-adjektiv-kongruens/g7: 'gammlat' → 'gamla'; 013-adjektiv-kongruens/c5: 'sämsta' → 'sämsta' |
 | `preposition` | 2/3 | 67% | 003-former-och-ord/p1: 'av' → 'av'; 001-diagnos/g13: 'på' → 'av' |
 | `verb.preteritum` | 10/17 | 59% | 011-signalord-verbform/g5: 'sa' → 'sa'; 001-diagnos/g8: 'skrave' → 'skrev'; 001-diagnos/g10: 'bode' → 'bodde' |
-| `adjektiv.komparation` | 5/9 | 56% | 009-vardagsadjektiv/c4: 'dåligare' → 'sämre'; 009-vardagsadjektiv/c5: 'Den här soffan är bättre än den gamla' → 'Den här soffan är bättre än den gamla'; 001-diagnos/g7: 'stortare' → 'större' |
+| `adjektiv.komparation` | 10/18 | 56% | 013-adjektiv-kongruens/c5: 'sämsta' → 'sämsta'; 013-adjektiv-kongruens/h3: 'Badrummet' → 'Köket'; 001-diagnos/g7: 'stortare' → 'större' |
 | `ord.synonym` | 5/9 | 56% | 001-diagnos/o2: 'Hon fick högre lön.' → 'Hon förlorade sitt jobb.'; 001-diagnos/o3: 'ofta' → 'troligen'; 001-diagnos/o4: 'Jag måste boka en ny tid.' → 'Jag måste säga att jag inte kommer.' |
 | `verb.supinum` | 8/16 | 50% | 008-vardagsverb/g8: 'förstår' → 'förstått'; 011-signalord-verbform/g1: 'sett' → 'sett'; 001-diagnos/g9: 'ät' → 'ätit' |
-| `adjektiv.bestämd` | 1/2 | 50% | 009-vardagsadjektiv/g3: 'gamla' → 'gamla' |
-| `hör.detalj` | 5/13 | 38% | 008-vardagsverb/h4: 'fysksoppa' → 'fisksoppa'; 009-vardagsadjektiv/d1q3: 'Större' → 'Dyrare'; 001-diagnos/h8: 'Personal på trafikbolaget.' → 'Ungdomar och pensionärer.' |
+| `pronomen.sin` | 2/4 | 50% | 013-adjektiv-kongruens/g6: 'min' → 'mitt'; 013-adjektiv-kongruens/g9: 'Men det' → 'det' |
+| `hör.siffror` | 1/2 | 50% | 013-adjektiv-kongruens/h2: '9000 kroner' → '8500' |
+| `hör.detalj` | 7/18 | 39% | 013-adjektiv-kongruens/h3: 'Badrummet' → 'Köket'; 013-adjektiv-kongruens/h7: 'Falskt' → 'Falskt'; 001-diagnos/h8: 'Personal på trafikbolaget.' → 'Ungdomar och pensionärer.' |
 | `verb.signalord` | 4/11 | 36% | 011-signalord-verbform/g2: 'förstod' → 'förstod'; 011-signalord-verbform/g3: 'försöker' → 'försöker'; 011-signalord-verbform/g5: 'sa' → 'sa' |
+| `adjektiv.ett-ord` | 4/12 | 33% | 009-vardagsadjektiv/g5: 'kallt' → 'kallt'; 013-adjektiv-kongruens/g2: 'nytt' → 'nya'; 013-adjektiv-kongruens/g6: 'min' → 'mitt' |
 | `verb.presens` | 2/6 | 33% | 008-vardagsverb/g3: 'försökar' → 'försöker'; 011-signalord-verbform/g3: 'försöker' → 'försöker' |
-| `adjektiv.ett-ord` | 2/6 | 33% | 009-vardagsadjektiv/g4: 'nytt' → 'nytt'; 009-vardagsadjektiv/g5: 'kallt' → 'kallt' |
 | `ord.kollokation` | 1/3 | 33% | 001-diagnos/o5: 'letat' → 'sökt' |
 | `preposition.tid` | 1/3 | 33% | 001-diagnos/g14: 'sedan' → 'i' |
 | `hör.tid` | 1/3 | 33% | 008-vardagsverb/h3: 'pa lårdag' → 'lördag' |
 | `ord.tema.adjektiv` | 1/3 | 33% | 009-vardagsadjektiv/m2: 'C. upptagen' → 'C. upptagen' |
 | `ordföljd.också` | 1/3 | 33% | 011-signalord-verbform/o3: 'Igår åt också jag pizza' → 'Igår åt jag också pizza' |
+| `substantiv.en-ett` | 1/3 | 33% | 013-adjektiv-kongruens/g2: 'nytt' → 'nya' |
 | `läs.slutsats` | 1/3 | 33% | 001-diagnos/l6: 'Hon blev uppsagd.' → 'Hennes arbete var för tungt för kroppen.' |
-| `ordföljd.inversion` | 2/7 | 29% | 009-vardagsadjektiv/c5: 'Den här soffan är bättre än den gamla' → 'Den här soffan är bättre än den gamla'; 011-signalord-verbform/o3: 'Igår åt också jag pizza' → 'Igår åt jag också pizza' |
+| `ordföljd.inversion` | 2/8 | 25% | 009-vardagsadjektiv/c5: 'Den här soffan är bättre än den gamla' → 'Den här soffan är bättre än den gamla'; 011-signalord-verbform/o3: 'Igår åt också jag pizza' → 'Igår åt jag också pizza' |
 | `ord.förväxling` | 1/5 | 20% | 001-diagnos/o6: 'komma ihåg' → 'påminna' |
 | `ordföljd.bisats` | 0/4 | 0% |  |
 | `läs.detalj` | 0/4 | 0% |  |
 | `ordföljd.fråga` | 0/2 | 0% |  |
+| `adjektiv.plural` | 0/2 | 0% |  |
 | `hör.huvudtanke` | 0/2 | 0% |  |
 | `verb.modal` | 0/1 | 0% |  |
 | `tal.interaktion` | 0/1 | 0% |  |
-| `adjektiv.plural` | 0/1 | 0% |  |
-| `hör.siffror` | 0/1 | 0% |  |
+| `hör.slutsats` | 0/1 | 0% |  |
 | `läs.huvudtanke` | 0/1 | 0% |  |
 | `hör.åsikt` | 0/1 | 0% |  |
-| `pronomen.sin` | 0/1 | 0% |  |
 | `bisats.om-att` | 0/1 | 0% |  |
 | `verb.passiv` | 0/1 | 0% |  |
 | `verb.partikel` | 0/1 | 0% |  |

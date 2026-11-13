@@ -100,3 +100,8 @@
   interview with a self-corrected year (1971 → 72), speak: own timeline. Audio verified with Whisper.
 - Found: edge-tts reads "Mm" as "millimeter" → rule in AUTHORING; fixed 013 audio. build_audio retries on TTS errors.
 - Next step: learner takes 012, 013, 014. Then the past-story lesson (preteritum chain, i måndags, i/för … sedan).
+
+## 2026-11-13 (night 2)
+- Graded 013 (boende 7/12, jämförelse 6/6 but 1/6 first try, lyssna 5/7; speaking A2, Whisper). Feedback written. g9 'Men det' acceptable.
+- Vs 009: adjective endings and irregular comparison NOT yet automatic; listening förra/nu trap repeated.
+- Next step: short drill on adjective after mitt/den/det (-a) + comparison pairs, with förra/nuvarande listening; then grade 012 and 014; then past-story lesson.
