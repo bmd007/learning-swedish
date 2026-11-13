@@ -3,6 +3,10 @@
 Newest first. Write down anything that changes the plan, a preference, or a fact about the learner.
 
 ## 2026-11-13
+- **en/ett errors are memory, not grammar (learner, 2026-11-13).** The learner knows the agreement rule; they
+  forget which nouns are en and which are ett. → Teach gender as vocabulary: always noun + article, ending
+  rules that predict gender (-ing/-het/-are/-tion → en; -ande/-eri/-um/-em/-ment → ett), "guess en" (~75%),
+  colour-coded concept pictures (ett = red, en = blue), and recycle ett-words in later lessons (vocab.md).
 - **Narrow skill drills must be short (learner feedback).** A 14-min lesson on reading years was "too much".
   One small skill (numbers, one word, one rule) → 5–8 min, ~8–10 items, speaking only if it is the point.
   Keep 10–15 min for exam-shaped or mixed lessons.

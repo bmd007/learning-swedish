@@ -1,0 +1,169 @@
+{
+  "id": "015-mitt-nya-hem",
+  "title": "Mitt nya hem: adjektiv efter min/mitt",
+  "titleEn": "My new home: adjectives after min/mitt",
+  "mode": "practice",
+  "minutes": 7,
+  "intro": "Mitt nya hem, min gamla lägenhet, mitt förra kök. Kort träning på det som gick fel i 009 och 013: ändelsen efter min/mitt, och min eller mitt.",
+  "introEn": "Short drill on what went wrong in 009 and 013: the ending after min/mitt, and min vs mitt.",
+  "sections": [
+    {
+      "id": "regel",
+      "title": "Tre frågor",
+      "titleEn": "Three questions",
+      "instructions": "Läs rutinen. Använd den i övningarna.",
+      "instructionsEn": "Read the routine. Use it in the exercises.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "image": {
+            "src": "tre-fragor.svg",
+            "alt": "Tre frågor före adjektivet: en eller ett, finns min/mitt/den/det, annars -, -t eller -a"
+          },
+          "md": "**Före varje adjektiv: ställ tre frågor.**\n\n1. **en eller ett?** → *min lägenhet* (en), *mitt hem* (ett). *Hem, rum, kök, hus* är ett-ord.\n2. **Står *min/mitt/den/det/de* före adjektivet?** → då slutar adjektivet **alltid på -a**.\n3. **Nej?** → en-ord: ingen ändelse, ett-ord: **-t**, plural: **-a**.\n\n| med min/mitt/den/det | utan |\n|---|---|\n| mitt **nya** hem | ett **nytt** hem |\n| min **gamla** lägenhet | en **gammal** lägenhet |\n| mitt **förra** kök | ett **stort** kök |\n| mitt **eget** kök | ett **eget** rum |\n\n**Obs:** *egen* är oregelbunden: *min egen lägenhet*, men *mitt **eget** kök* (ett-ord). Här är det *-t* även efter *mitt*. Det gäller bara *egen*.\n\n**Mått:** *ett rum **på** 20 kvadratmeter* (rum är ett-ord). Vi säger inte *en 20 kvadratmeter rum*.\n\n**Persiska:** efter «mitt/det» = som bestämd form → alltid **-a**."
+        }
+      ]
+    },
+    {
+      "id": "ova",
+      "title": "Snabba luckor",
+      "titleEn": "Quick gaps",
+      "instructions": "Fyll i. Använd de tre frågorna.",
+      "instructionsEn": "Fill in. Use the three questions.",
+      "items": [
+        {
+          "id": "g1",
+          "type": "gap",
+          "tags": ["pronomen.min-mitt", "ord.tema.boende"],
+          "q": "Jag saknar ___ förra hem.",
+          "qEn": "Hem is an ett-word.",
+          "base": "min / mitt",
+          "answers": ["mitt"],
+          "explain": "Hem är ett ett-ord: ett hem → mitt hem.",
+          "explainEn": "Hem is an ett-word: ett hem → mitt hem."
+        },
+        {
+          "id": "g2",
+          "type": "gap",
+          "tags": ["adjektiv.bestämd", "ord.tema.boende"],
+          "q": "Det här är mitt ___ hem.",
+          "base": "ny",
+          "answers": ["nya"],
+          "explain": "Efter mitt: alltid -a. Mitt nya hem. (Utan mitt: ett nytt hem.)",
+          "explainEn": "After mitt: always -a. (Without mitt: ett nytt hem.)"
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "tags": ["pronomen.min-mitt", "adjektiv.bestämd"],
+          "q": "Jag trivdes i ___ gamla lägenhet.",
+          "base": "min / mitt",
+          "answers": ["min"],
+          "explain": "En lägenhet → min lägenhet. Adjektivet är redan rätt: gamla.",
+          "explainEn": "En lägenhet → min. The adjective gamla is already correct."
+        },
+        {
+          "id": "g4",
+          "type": "mcq",
+          "tags": ["adjektiv.bestämd", "adjektiv.ett-ord"],
+          "q": "Vilken mening är rätt?",
+          "qEn": "Which sentence is correct?",
+          "options": [
+            "Vi har köpt ett nya hem.",
+            "Vi har köpt ett nytt hem.",
+            "Vi har köpt mitt nytt hem."
+          ],
+          "answer": 1,
+          "explain": "Ett hem → ett nytt hem (ingen min/mitt → -t). Mitt nya hem skulle ha -a.",
+          "explainEn": "Ett hem, no mitt → -t: ett nytt hem. With mitt it would be mitt nya hem."
+        },
+        {
+          "id": "g5",
+          "type": "gap",
+          "tags": ["adjektiv.ett-ord", "ord.tema.boende"],
+          "q": "I min nya lägenhet har jag mitt ___ kök.",
+          "base": "egen",
+          "answers": ["eget"],
+          "explain": "Kök är ett ett-ord: mitt eget kök. Egen blir eget (som ett-t).",
+          "explainEn": "Kök is an ett-word: mitt eget kök."
+        },
+        {
+          "id": "g6",
+          "type": "gap",
+          "tags": ["substantiv.en-ett", "ord.tema.boende"],
+          "q": "Jag hyr ___ rum på tjugo kvadratmeter.",
+          "base": "en / ett",
+          "answers": ["ett"],
+          "explain": "Rum är ett ett-ord: ett rum på tjugo kvadratmeter.",
+          "explainEn": "Rum is an ett-word."
+        },
+        {
+          "id": "g7",
+          "type": "gap",
+          "tags": ["adjektiv.komparation", "ord.tema.boende"],
+          "q": "Badrummet här är ___ än i min gamla lägenhet.",
+          "base": "dålig",
+          "answers": ["sämre"],
+          "explain": "dålig – sämre – sämst. Inte dåligare.",
+          "explainEn": "dålig – sämre – sämst."
+        },
+        {
+          "id": "g8",
+          "type": "gap",
+          "tags": ["adjektiv.komparation", "ord.tema.boende"],
+          "q": "Huset är mycket ___ än mitt förra hem.",
+          "base": "gammal",
+          "answers": ["äldre"],
+          "explain": "gammal – äldre – äldst.",
+          "explainEn": "gammal – äldre – äldst."
+        }
+      ]
+    },
+    {
+      "id": "lyssna",
+      "title": "Förra eller nuvarande?",
+      "titleEn": "Previous or current?",
+      "instructions": "Lyssna två gånger. Fråga först: gäller det förra eller nuvarande lägenheten?",
+      "instructionsEn": "Listen twice. First ask: is it about the previous or the current flat?",
+      "items": [
+        {
+          "id": "h1",
+          "type": "mcq",
+          "tags": ["hör.siffror", "hör.detalj"],
+          "q": "Hur mycket betalar Johan i hyra nu?",
+          "qEn": "How much rent does Johan pay now?",
+          "audio": {
+            "id": "a_h1",
+            "title": "Johan har flyttat",
+            "maxPlays": 2,
+            "speakers": {"Sara": "f", "Johan": "m"},
+            "script": [
+              {"speaker": "Sara", "text": "Du flyttade ju i våras. Hur var din förra lägenhet?"},
+              {"speaker": "Johan", "text": "Ja, den var liten alltså, bara femtio kvadratmeter. Men hyran var okej, typ sju tusen kronor."},
+              {"speaker": "Sara", "text": "Och nu då? Är det mycket större?"},
+              {"speaker": "Johan", "text": "Ja, nu har jag sextiofem kvadratmeter, så det är ju bättre. Men hyran … den är nio tusen tvåhundra i månaden. Ganska dyrt, ja."},
+              {"speaker": "Sara", "text": "Oj. Men du trivs?"},
+              {"speaker": "Johan", "text": "Ja, absolut. Fast köket var faktiskt bättre förut."}
+            ]
+          },
+          "options": ["7 000 kronor", "6 500 kronor", "9 200 kronor"],
+          "answer": 2,
+          "explain": "Förra: sju tusen. Nu: nio tusen tvåhundra = 9 200.",
+          "explainEn": "Previous: 7,000. Now: 9,200."
+        },
+        {
+          "id": "h2",
+          "type": "mcq",
+          "tags": ["hör.siffror", "hör.detalj"],
+          "q": "Hur stor var Johans förra lägenhet?",
+          "qEn": "How big was Johan's previous flat?",
+          "options": ["50 kvadratmeter", "65 kvadratmeter", "60 kvadratmeter"],
+          "answer": 0,
+          "explain": "Förra: femtio kvadratmeter. Nu: sextiofem.",
+          "explainEn": "Previous: 50 m². Now: 65 m²."
+        }
+      ]
+    }
+  ]
+}
