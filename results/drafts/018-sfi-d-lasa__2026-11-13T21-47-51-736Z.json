@@ -1,0 +1,238 @@
+{
+  "lessonId": "018-sfi-d-lasa",
+  "attemptId": "2026-11-13T21-47-51-736Z",
+  "final": false,
+  "mode": "exam",
+  "startedAt": "2026-11-13T21:47:58.576Z",
+  "finishedAt": null,
+  "durationMin": 0,
+  "timeLimitMin": 25,
+  "overtime": false,
+  "currentSection": null,
+  "sectionMinutes": {
+    "annonser": 0.2,
+    "sms": 0.1,
+    "diagram": 0.1,
+    "forum": 0,
+    "intervju": 0,
+    "mottagare": 0
+  },
+  "audioPlays": {},
+  "firstTry": {},
+  "flags": [],
+  "score": {},
+  "items": [
+    {
+      "id": "a1",
+      "section": "annonser",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Vad gäller för språkcafét?",
+      "given": null,
+      "expected": "Man kan komma utan att anmäla sig.",
+      "correct": false
+    },
+    {
+      "id": "a2",
+      "section": "annonser",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Vad ska den göra som vill sälja saker på loppisen?",
+      "given": null,
+      "expected": "Anmäla sig senast onsdag och betala 100 kronor på plats.",
+      "correct": false
+    },
+    {
+      "id": "s1",
+      "section": "sms",
+      "type": "mcq",
+      "tags": [
+        "läs.syfte"
+      ],
+      "prompt": "Vad vill Nina?",
+      "given": null,
+      "expected": "Hon vill avboka och föreslå en ny tid.",
+      "correct": false
+    },
+    {
+      "id": "s2",
+      "section": "sms",
+      "type": "mcq",
+      "tags": [
+        "läs.syfte"
+      ],
+      "prompt": "Vad vill Jonas?",
+      "given": null,
+      "expected": "Han vill be om hjälp med paketen.",
+      "correct": false
+    },
+    {
+      "id": "s3",
+      "section": "sms",
+      "type": "mcq",
+      "tags": [
+        "läs.syfte"
+      ],
+      "prompt": "Vad vill avsändaren?",
+      "given": null,
+      "expected": "Hon vill klaga på att soffan är försenad.",
+      "correct": false
+    },
+    {
+      "id": "d1",
+      "section": "diagram",
+      "type": "mcq",
+      "tags": [
+        "läs.diagram"
+      ],
+      "prompt": "Vilken åldersgrupp åker oftast kollektivt?",
+      "given": null,
+      "expected": "18–29 år",
+      "correct": false
+    },
+    {
+      "id": "d2",
+      "section": "diagram",
+      "type": "mcq",
+      "tags": [
+        "läs.diagram"
+      ],
+      "prompt": "Hur många procent av de som är 50–64 år åker bil till jobbet?",
+      "given": null,
+      "expected": "55 procent",
+      "correct": false
+    },
+    {
+      "id": "d3",
+      "section": "diagram",
+      "type": "mcq",
+      "tags": [
+        "läs.diagram"
+      ],
+      "prompt": "Vilket påstående stämmer med diagrammet?",
+      "given": null,
+      "expected": "Cykel är mindre vanligt ju äldre man är.",
+      "correct": false
+    },
+    {
+      "id": "f1",
+      "section": "forum",
+      "type": "select",
+      "tags": [
+        "läs.åsikt"
+      ],
+      "prompt": "Mobilen kan vara ett bra verktyg på lektionerna.",
+      "given": null,
+      "expected": "Cecilia",
+      "correct": false
+    },
+    {
+      "id": "f2",
+      "section": "forum",
+      "type": "select",
+      "tags": [
+        "läs.åsikt"
+      ],
+      "prompt": "Mobilen gör att eleverna lär sig mindre.",
+      "given": null,
+      "expected": "Amir",
+      "correct": false
+    },
+    {
+      "id": "f3",
+      "section": "forum",
+      "type": "select",
+      "tags": [
+        "läs.åsikt"
+      ],
+      "prompt": "Barn umgås mindre när de har mobilen på rasten.",
+      "given": null,
+      "expected": "David",
+      "correct": false
+    },
+    {
+      "id": "i1",
+      "section": "intervju",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Vilken fråga hör till svar 1?",
+      "given": null,
+      "expected": "B. Hur började du som caféägare?",
+      "correct": false
+    },
+    {
+      "id": "i2",
+      "section": "intervju",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Vilken fråga hör till svar 2?",
+      "given": null,
+      "expected": "C. När börjar din arbetsdag?",
+      "correct": false
+    },
+    {
+      "id": "i3",
+      "section": "intervju",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Vilken fråga hör till svar 3?",
+      "given": null,
+      "expected": "A. Vad säljer ni mest av?",
+      "correct": false
+    },
+    {
+      "id": "m1",
+      "section": "mottagare",
+      "type": "mcq",
+      "tags": [
+        "läs.mottagare"
+      ],
+      "prompt": "Vem har texten skrivits till?",
+      "given": null,
+      "expected": "Personer som vill ha hjälp med deklarationen.",
+      "correct": false
+    },
+    {
+      "id": "m2",
+      "section": "mottagare",
+      "type": "mcq",
+      "tags": [
+        "läs.mottagare"
+      ],
+      "prompt": "Vem har texten skrivits till?",
+      "given": null,
+      "expected": "Barnens föräldrar.",
+      "correct": false
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "state": {
+    "step": 6,
+    "answers": {},
+    "plays": {},
+    "sectionTime": {
+      "annonser": 9.466000000000001,
+      "sms": 5.725,
+      "diagram": 4.5920000000000005,
+      "forum": 1.533,
+      "intervju": 1.8159999999999998,
+      "mottagare": 1.776
+    },
+    "startedAt": 1794606478576,
+    "attemptId": "2026-11-13T21-47-51-736Z",
+    "flags": {},
+    "updatedAt": 1794606503484,
+    "lastStep": 5
+  },
+  "savedAt": "2026-11-13T22:48:24"
+}

@@ -1,0 +1,230 @@
+{
+  "lessonId": "016-las-prov-a",
+  "attemptId": "2026-11-13T21-48-33-199Z",
+  "final": false,
+  "mode": "exam",
+  "startedAt": "2026-11-13T21:48:34.230Z",
+  "finishedAt": null,
+  "durationMin": 0,
+  "timeLimitMin": 32,
+  "overtime": false,
+  "currentSection": null,
+  "sectionMinutes": {
+    "las": 0,
+    "annons": 0
+  },
+  "audioPlays": {},
+  "firstTry": {},
+  "flags": [],
+  "score": {},
+  "items": [
+    {
+      "id": "j1",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Familjen bor nu i ett hus med hiss.",
+      "given": null,
+      "expected": "Ja",
+      "correct": false
+    },
+    {
+      "id": "j2",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Oskar fick ont i knät när de flyttade.",
+      "given": null,
+      "expected": "Nej",
+      "correct": false
+    },
+    {
+      "id": "j3",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Den nya lägenheten är större än den gamla.",
+      "given": null,
+      "expected": "Nej",
+      "correct": false
+    },
+    {
+      "id": "j4",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.slutsats"
+      ],
+      "prompt": "Maria har kortare väg till jobbet än förut.",
+      "given": null,
+      "expected": "Ja",
+      "correct": false
+    },
+    {
+      "id": "j5",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Lena ska ta med mat till festen.",
+      "given": null,
+      "expected": "Nej",
+      "correct": false
+    },
+    {
+      "id": "j6",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Simhallen är stängd på måndagar.",
+      "given": null,
+      "expected": "Ja",
+      "correct": false
+    },
+    {
+      "id": "j7",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "På lördagar öppnar simhallen klockan sex.",
+      "given": null,
+      "expected": "Nej",
+      "correct": false
+    },
+    {
+      "id": "j8",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.slutsats"
+      ],
+      "prompt": "Barn betalar mindre än vuxna.",
+      "given": null,
+      "expected": "Ja",
+      "correct": false
+    },
+    {
+      "id": "j9",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Man får äta egen mat i simhallen.",
+      "given": null,
+      "expected": "Nej",
+      "correct": false
+    },
+    {
+      "id": "j10",
+      "section": "las",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Med ett månadskort kan man simma hur ofta man vill.",
+      "given": null,
+      "expected": "Ja",
+      "correct": false
+    },
+    {
+      "id": "m1",
+      "section": "annons",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Karin är 68 år och nyss pensionär. Hon vill lära sig använda sin mobil och dator bättre, men hon kan bara på dagtid och vill helst inte betala.",
+      "given": null,
+      "expected": "E. Mobilcaféet för seniorer",
+      "correct": false
+    },
+    {
+      "id": "m2",
+      "section": "annons",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Ahmed har tre barn: 4, 7 och 10 år. På lördagarna vill familjen göra något tillsammans utomhus, men det får inte kosta mycket.",
+      "given": null,
+      "expected": "F. Familjedag på Ekuddens gård",
+      "correct": false
+    },
+    {
+      "id": "m3",
+      "section": "annons",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Johanna arbetar på dagarna. Hon vill börja motionera genom att springa med andra på kvällen. Hon har aldrig sprungit förut och vill inte betala.",
+      "given": null,
+      "expected": "A. Löpargruppen Snabba Skor",
+      "correct": false
+    },
+    {
+      "id": "m4",
+      "section": "annons",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Mikael söker en liten lägenhet nära centrum. Hyran får vara högst 6 000 kronor, och han har en katt.",
+      "given": null,
+      "expected": "D. Liten lägenhet mitt i stan",
+      "correct": false
+    },
+    {
+      "id": "m5",
+      "section": "annons",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Fatima har en barnvagn och kläder som hennes barn har vuxit ur. Hon vill sälja sakerna själv. Hon kan bara på söndagar.",
+      "given": null,
+      "expected": "H. Barnloppis i Folkets hus",
+      "correct": false
+    },
+    {
+      "id": "m6",
+      "section": "annons",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Peter vill lära sig spela gitarr. Han har aldrig spelat och har ingen gitarr. Han kan bara på helgen.",
+      "given": null,
+      "expected": "C. Lär dig spela gitarr!",
+      "correct": false
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "state": {
+    "step": 2,
+    "answers": {},
+    "plays": {},
+    "sectionTime": {
+      "las": 2.9490000000000003,
+      "annons": 2.509
+    },
+    "startedAt": 1794606514230,
+    "attemptId": "2026-11-13T21-48-33-199Z",
+    "flags": {},
+    "updatedAt": 1794606519688,
+    "lastStep": 1
+  },
+  "savedAt": "2026-11-13T22:48:40"
+}

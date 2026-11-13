@@ -3,6 +3,10 @@
 Newest first. Write down anything that changes the plan, a preference, or a fact about the learner.
 
 ## 2026-11-13
+- **SFI C test memory (learner).** Had to write about "min första mobiltelefon" (who gave it, features) and froze:
+  old-phone vocabulary was never taught. Lesson: unfamiliar-topic vocabulary is a real risk on SFI D too.
+  → Train omskrivning (circumlocution chunks: *en sån där … som man …*, *en sak som man använder för att …*)
+  and recycle it in writing/speaking tasks on unexpected everyday topics.
 - **No time-based planning (learner).** Don't ask for dates, no week plans or countdowns. Just react: grade each
   attempt, then build the next lesson from the data. (Supersedes the Swedex timeline in plan.md.)
 - **Main target is now the SFI D national test, old format** (learner is enrolled in SFI D and takes it before
