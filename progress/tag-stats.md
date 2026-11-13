@@ -5,18 +5,23 @@
 | `substantiv.plural` | 3/3 | 100% | 003-former-och-ord/f4: 'böcker' → 'böcker'; 003-former-och-ord/f5: 'fötter' → 'fötter'; 001-diagnos/g11: 'bokar' → 'böcker' |
 | `verb.reflexiv` | 1/1 | 100% | 001-diagnos/g17: 'tvätta sig om händerna' → 'tvätta sig' |
 | `preposition` | 2/3 | 67% | 003-former-och-ord/p1: 'av' → 'av'; 001-diagnos/g13: 'på' → 'av' |
-| `verb.supinum` | 7/11 | 64% | 008-vardagsverb/g6: 'set' → 'sett'; 008-vardagsverb/g8: 'förstår' → 'förstått'; 001-diagnos/g9: 'ät' → 'ätit' |
-| `verb.preteritum` | 8/14 | 57% | 008-vardagsverb/h1: 'pizza' → 'pizza'; 001-diagnos/g8: 'skrave' → 'skrev'; 001-diagnos/g10: 'bode' → 'bodde' |
+| `verb.preteritum` | 10/17 | 59% | 011-signalord-verbform/g5: 'sa' → 'sa'; 001-diagnos/g8: 'skrave' → 'skrev'; 001-diagnos/g10: 'bode' → 'bodde' |
+| `adjektiv.komparation` | 5/9 | 56% | 009-vardagsadjektiv/c3: 'bästa' → 'bästa'; 009-vardagsadjektiv/c4: 'dåligare' → 'sämre'; 009-vardagsadjektiv/c5: 'Den här soffan är bättre än den gamla' → 'Den här soffan är bättre än den gamla' |
 | `ord.synonym` | 5/9 | 56% | 001-diagnos/o2: 'Hon fick högre lön.' → 'Hon förlorade sitt jobb.'; 001-diagnos/o3: 'ofta' → 'troligen'; 001-diagnos/o4: 'Jag måste boka en ny tid.' → 'Jag måste säga att jag inte kommer.' |
-| `adjektiv.komparation` | 2/4 | 50% | 003-former-och-ord/f1: 'större' → 'större'; 001-diagnos/g7: 'stortare' → 'större' |
-| `hör.tid` | 1/2 | 50% | 008-vardagsverb/h3: 'pa lårdag' → 'lördag' |
-| `hör.detalj` | 4/9 | 44% | 008-vardagsverb/h3: 'pa lårdag' → 'lördag'; 008-vardagsverb/h4: 'fysksoppa' → 'fisksoppa'; 001-diagnos/h8: 'Personal på trafikbolaget.' → 'Ungdomar och pensionärer.' |
+| `verb.supinum` | 8/16 | 50% | 008-vardagsverb/g8: 'förstår' → 'förstått'; 011-signalord-verbform/g1: 'sett' → 'sett'; 001-diagnos/g9: 'ät' → 'ätit' |
+| `adjektiv.bestämd` | 1/2 | 50% | 009-vardagsadjektiv/g3: 'gamla' → 'gamla' |
+| `hör.detalj` | 4/11 | 36% | 008-vardagsverb/h3: 'pa lårdag' → 'lördag'; 008-vardagsverb/h4: 'fysksoppa' → 'fisksoppa'; 001-diagnos/h8: 'Personal på trafikbolaget.' → 'Ungdomar och pensionärer.' |
+| `verb.signalord` | 4/11 | 36% | 011-signalord-verbform/g2: 'förstod' → 'förstod'; 011-signalord-verbform/g3: 'försöker' → 'försöker'; 011-signalord-verbform/g5: 'sa' → 'sa' |
+| `verb.presens` | 2/6 | 33% | 008-vardagsverb/g3: 'försökar' → 'försöker'; 011-signalord-verbform/g3: 'försöker' → 'försöker' |
+| `adjektiv.ett-ord` | 2/6 | 33% | 009-vardagsadjektiv/g4: 'nytt' → 'nytt'; 009-vardagsadjektiv/g5: 'kallt' → 'kallt' |
 | `ord.kollokation` | 1/3 | 33% | 001-diagnos/o5: 'letat' → 'sökt' |
 | `preposition.tid` | 1/3 | 33% | 001-diagnos/g14: 'sedan' → 'i' |
+| `hör.tid` | 1/3 | 33% | 008-vardagsverb/h3: 'pa lårdag' → 'lördag' |
+| `ordföljd.också` | 1/3 | 33% | 011-signalord-verbform/o3: 'Igår åt också jag pizza' → 'Igår åt jag också pizza' |
 | `läs.slutsats` | 1/3 | 33% | 001-diagnos/l6: 'Hon blev uppsagd.' → 'Hennes arbete var för tungt för kroppen.' |
-| `verb.presens` | 1/4 | 25% | 008-vardagsverb/g3: 'försökar' → 'försöker' |
+| `ord.tema.adjektiv` | 1/3 | 33% | 009-vardagsadjektiv/m2: 'C. upptagen' → 'C. upptagen' |
+| `ordföljd.inversion` | 2/7 | 29% | 011-signalord-verbform/o3: 'Igår åt också jag pizza' → 'Igår åt jag också pizza'; 009-vardagsadjektiv/c5: 'Den här soffan är bättre än den gamla' → 'Den här soffan är bättre än den gamla' |
 | `ord.förväxling` | 1/5 | 20% | 001-diagnos/o6: 'komma ihåg' → 'påminna' |
-| `ordföljd.inversion` | 0/4 | 0% |  |
 | `ordföljd.bisats` | 0/4 | 0% |  |
 | `läs.detalj` | 0/4 | 0% |  |
 | `ordföljd.fråga` | 0/2 | 0% |  |
@@ -25,9 +30,8 @@
 | `tal.interaktion` | 0/1 | 0% |  |
 | `läs.huvudtanke` | 0/1 | 0% |  |
 | `hör.åsikt` | 0/1 | 0% |  |
-| `adjektiv.ett-ord` | 0/1 | 0% |  |
-| `adjektiv.bestämd` | 0/1 | 0% |  |
 | `pronomen.sin` | 0/1 | 0% |  |
 | `bisats.om-att` | 0/1 | 0% |  |
 | `verb.passiv` | 0/1 | 0% |  |
 | `verb.partikel` | 0/1 | 0% |  |
+| `adjektiv.plural` | 0/1 | 0% |  |

@@ -83,3 +83,7 @@
 - 011 draft in results/drafts (learner started 011).
 - Next step: learner finishes 011, then takes 012. Grade both. Next listening lesson: a Rivstart ch. 7 dialogue
   track, or a B1-style TTS dialogue with plan changes. Mock exam with the Swedex model test in late November.
+
+## 2026-11-13 (evening)
+- Graded 011 (final 14/15; first-try gaps 5/9; listening 3/3; speaking A2+, improved: också after verb, har+supinum correct). Whisper transcript used for speaking. Feedback written.
+- Next step: lesson on telling a past story (preteritum chain, sedan/då, i/för/sedan with time, i måndags) + speed gaps on signal words. Then grade 012, 009.
