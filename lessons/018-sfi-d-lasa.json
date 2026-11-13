@@ -1,0 +1,398 @@
+{
+ "id": "018-sfi-d-lasa",
+ "title": "SFI D: Läsa",
+ "titleEn": "SFI D: Reading",
+ "mode": "exam",
+ "timeLimit": 25,
+ "minutes": 25,
+ "scoring": {
+  "max": 16,
+  "G": 10
+ },
+ "intro": "Prov i stil med nationella provet i sfi kurs D. Annonser, sms, diagram, forum, intervju och mottagare. 16 frågor, 25 minuter. Du ser rätt svar först efter att du lämnat in.",
+ "introEn": "Test in the style of the SFI course D national test. 16 questions, 25 minutes. Answers are shown after you submit.",
+ "sections": [
+  {
+   "id": "annonser",
+   "title": "Del 1: Annonser",
+   "titleEn": "Ads",
+   "instructions": "Läs annonserna. Välj det alternativ som stämmer med texten.",
+   "instructionsEn": "Read the ads. Choose the option that matches the text.",
+   "parts": [
+    {
+     "heading": "Annons 1",
+     "headingEn": "Ad 1",
+     "passageTitle": "Språkcafé på biblioteket",
+     "image": {
+      "src": "annonser.svg",
+      "alt": "Två anslag på en anslagstavla"
+     },
+     "passage": "Välkommen till vårt språkcafé!\n\nVi träffas varje torsdag klockan 17.30–19.00 i Hörsalen på Stadsbiblioteket. Här kan du träna svenska och träffa nya människor. Det är gratis att delta och du behöver inte anmäla dig. Fika kan du köpa för 20 kronor.",
+     "items": [
+      {
+       "id": "a1",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj"
+       ],
+       "q": "Vad gäller för språkcafét?",
+       "options": [
+        "Man måste anmäla sig i förväg.",
+        "Man kan komma utan att anmäla sig.",
+        "Det kostar 20 kronor att delta.",
+        "Det är öppet varje onsdag."
+       ],
+       "answer": 1,
+       "explain": "\"Det är gratis att delta och du behöver inte anmäla dig.\" De 20 kronorna är bara för fika."
+      }
+     ]
+    },
+    {
+     "heading": "Annons 2",
+     "headingEn": "Ad 2",
+     "passageTitle": "Loppis i Folkets hus",
+     "passage": "Stor loppis nästa lördag klockan 10–15 i Folkets hus!\n\nVill du sälja dina egna saker? Du hyr ett bord för 100 kronor. Anmäl dig senast onsdag till Ahmed på telefon 070-123 45 67. Du betalar för bordet på plats. Vi säljer kaffe och våfflor. Alla är välkomna att handla.",
+     "items": [
+      {
+       "id": "a2",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj"
+       ],
+       "q": "Vad ska den göra som vill sälja saker på loppisen?",
+       "options": [
+        "Anmäla sig senast onsdag och betala 100 kronor på plats.",
+        "Komma på lördag morgon utan att anmäla sig.",
+        "Betala 100 kronor i förväg när man ringer.",
+        "Ta med ett eget bord och betala ingenting."
+       ],
+       "answer": 0,
+       "explain": "Anmälan senast onsdag, och bordet betalas på plats."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sms",
+   "title": "Del 2: Sms",
+   "titleEn": "Text messages",
+   "instructions": "Läs sms:en. Vad vill avsändaren? Välj ett alternativ.",
+   "instructionsEn": "Read the messages. What does the sender want?",
+   "parts": [
+    {
+     "heading": "Sms 1",
+     "headingEn": "Message 1",
+     "passage": "Hej Karin! Jag är jätteledsen, men jag kan inte komma på middagen i kväll. Barnen har feber och jag måste vara hemma med dem. Kan vi ses nästa vecka i stället? Hälsa Peter! /Nina",
+     "items": [
+      {
+       "id": "s1",
+       "type": "mcq",
+       "tags": [
+        "läs.syfte"
+       ],
+       "q": "Vad vill Nina?",
+       "options": [
+        "Hon vill bjuda Karin på middag.",
+        "Hon vill avboka och föreslå en ny tid.",
+        "Hon vill att Karin ska passa barnen.",
+        "Hon vill klaga på maten."
+       ],
+       "answer": 1,
+       "explain": "Hon kan inte komma i kväll och föreslår nästa vecka."
+      }
+     ],
+     "image": {
+      "src": "sms.svg",
+      "alt": "En mobiltelefon med sms"
+     }
+    },
+    {
+     "heading": "Sms 2",
+     "headingEn": "Message 2",
+     "passage": "Hej grannen! Det är Jonas på tredje våningen. Jag väntar flera paket, men jag är inte hemma förrän sent i dag. Kan du ta emot dem om budet ringer på din dörr? Jag bjuder på fika som tack!",
+     "items": [
+      {
+       "id": "s2",
+       "type": "mcq",
+       "tags": [
+        "läs.syfte"
+       ],
+       "q": "Vad vill Jonas?",
+       "options": [
+        "Han vill klaga på höga ljud.",
+        "Han vill bjuda grannen på fest.",
+        "Han vill be om hjälp med paketen.",
+        "Han vill sälja något."
+       ],
+       "answer": 2,
+       "explain": "\"Kan du ta emot dem?\" – han ber om hjälp. Fikat är ett tack."
+      }
+     ]
+    },
+    {
+     "heading": "Sms 3",
+     "headingEn": "Message 3",
+     "passage": "Hej! Jag beställde en soffa hos er för tre veckor sedan, och den har fortfarande inte kommit. Ingen svarar när jag ringer. Jag vill ha besked i dag, annars vill jag ha pengarna tillbaka.",
+     "items": [
+      {
+       "id": "s3",
+       "type": "mcq",
+       "tags": [
+        "läs.syfte"
+       ],
+       "q": "Vad vill avsändaren?",
+       "options": [
+        "Hon vill klaga på att soffan är försenad.",
+        "Hon vill beställa en soffa till.",
+        "Hon vill ändra sin adress.",
+        "Hon vill ha tips om möbler."
+       ],
+       "answer": 0,
+       "explain": "Soffan har inte kommit och ingen svarar – hon klagar och kräver svar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagram",
+   "title": "Del 3: Diagram",
+   "titleEn": "Chart",
+   "instructions": "Titta på diagrammet. Svara på frågorna. Du ska använda siffrorna i diagrammet.",
+   "instructionsEn": "Look at the chart and use its numbers.",
+   "parts": [
+    {
+     "heading": "Hur reser vi till jobbet?",
+     "headingEn": "How do we travel to work?",
+     "image": {
+      "src": "diagram.svg",
+      "alt": "Stapeldiagram över hur människor i tre åldersgrupper reser till jobbet",
+      "caption": "Källa: en fiktiv undersökning i Lillstaden."
+     },
+     "items": [
+      {
+       "id": "d1",
+       "type": "mcq",
+       "tags": [
+        "läs.diagram"
+       ],
+       "q": "Vilken åldersgrupp åker oftast kollektivt?",
+       "options": [
+        "30–49 år",
+        "50–64 år",
+        "18–29 år"
+       ],
+       "answer": 2,
+       "explain": "Kollektivt: 40 % bland 18–29 år, 30 % bland 30–49 och 25 % bland 50–64."
+      },
+      {
+       "id": "d2",
+       "type": "mcq",
+       "tags": [
+        "läs.diagram"
+       ],
+       "q": "Hur många procent av de som är 50–64 år åker bil till jobbet?",
+       "options": [
+        "10 procent",
+        "25 procent",
+        "45 procent",
+        "55 procent"
+       ],
+       "answer": 3,
+       "explain": "Den röda stapeln för 50–64 år visar 55."
+      },
+      {
+       "id": "d3",
+       "type": "mcq",
+       "tags": [
+        "läs.diagram"
+       ],
+       "q": "Vilket påstående stämmer med diagrammet?",
+       "options": [
+        "Cykel är mindre vanligt ju äldre man är.",
+        "Bil är vanligast i alla åldersgrupper.",
+        "Att gå är vanligast bland 30–49 år.",
+        "Kollektivtrafik är vanligast bland de äldsta."
+       ],
+       "answer": 0,
+       "explain": "Cykel: 25, 20, 10 procent. Bil är inte vanligast bland 18–29 (där är kollektivt störst). Att gå: bara 5 % bland 30–49."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "forum",
+   "title": "Del 4: Vem tycker vad?",
+   "titleEn": "Who thinks what?",
+   "instructions": "Fyra personer skriver i ett forum. Vem tycker vad? Välj en person för varje påstående.",
+   "instructionsEn": "Four people write in a forum. Who says what?",
+   "parts": [
+    {
+     "heading": "Ska barn ha mobil i skolan?",
+     "headingEn": "Should children have phones at school?",
+     "image": {
+      "src": "forum.svg",
+      "alt": "Fyra pratbubblor med namn"
+     },
+     "options": [
+      "Amir",
+      "Birgitta",
+      "Cecilia",
+      "David"
+     ],
+     "passage": "Amir: Mobilen ska vara avstängd under lektionerna. Eleverna blir så lätt distraherade, och då lär de sig mindre. På rasten får de gärna använda den.\n\nBirgitta: Min dotter är tolv år och går hem själv. Jag vill kunna nå henne efter skolan, så hon måste ha mobilen med sig. Det räcker att den ligger i väskan på lektionerna.\n\nCecilia: Jag är lärare och använder mobilerna i undervisningen. Eleverna kan slå upp ord, fotografera tavlan och göra frågesporter. Ett förbud vore ett misstag.\n\nDavid: Jag tycker att mobilerna ska förbjudas helt i skolan. Barn pratar för lite med varandra på rasten när alla tittar på skärmen.",
+     "items": [
+      {
+       "id": "f1",
+       "type": "select",
+       "tags": [
+        "läs.åsikt"
+       ],
+       "q": "Mobilen kan vara ett bra verktyg på lektionerna.",
+       "answer": 2,
+       "explain": "Cecilia: eleverna kan slå upp ord, fotografera tavlan och göra frågesporter."
+      },
+      {
+       "id": "f2",
+       "type": "select",
+       "tags": [
+        "läs.åsikt"
+       ],
+       "q": "Mobilen gör att eleverna lär sig mindre.",
+       "answer": 0,
+       "explain": "Amir: eleverna blir distraherade, och då lär de sig mindre."
+      },
+      {
+       "id": "f3",
+       "type": "select",
+       "tags": [
+        "läs.åsikt"
+       ],
+       "q": "Barn umgås mindre när de har mobilen på rasten.",
+       "answer": 3,
+       "explain": "David: barn pratar för lite med varandra på rasten."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "intervju",
+   "title": "Del 5: Intervju",
+   "titleEn": "Interview",
+   "instructions": "Frågorna i intervjun saknas. Välj rätt fråga till varje svar. Det finns fem frågor men bara tre svar, så två frågor passar inte.",
+   "instructionsEn": "The questions are missing. Match each answer to a question. Two questions are extra.",
+   "parts": [
+    {
+     "heading": "Intervju med Rosa, som driver ett café",
+     "headingEn": "Interview with Rosa, café owner",
+     "image": {
+      "src": "intervju.svg",
+      "alt": "En mikrofon"
+     },
+     "options": [
+      "A. Vad säljer ni mest av?",
+      "B. Hur började du som caféägare?",
+      "C. När börjar din arbetsdag?",
+      "D. Vad vill du göra i framtiden?",
+      "E. Hur många arbetar hos er?"
+     ],
+     "passage": "Svar 1: Det började för tio år sedan. Jag jobbade på ett kontor och trivdes inte, men jag har alltid tyckt om att baka. En dag hittade jag en lokal som var till salu, och då bestämde jag mig.\n\nSvar 2: Redan klockan fyra på morgonen. Då är det tyst och lugnt, och brödet ska vara klart när vi öppnar klockan sju.\n\nSvar 3: Kanelbullar, utan tvekan! Vi säljer över tvåhundra varje dag. Men många kunder gillar också vårt glutenfria bröd.",
+     "items": [
+      {
+       "id": "i1",
+       "type": "select",
+       "tags": [
+        "läs.matcha"
+       ],
+       "q": "Vilken fråga hör till svar 1?",
+       "answer": 1,
+       "explain": "Svaret berättar hur det började för tio år sedan: B."
+      },
+      {
+       "id": "i2",
+       "type": "select",
+       "tags": [
+        "läs.matcha"
+       ],
+       "q": "Vilken fråga hör till svar 2?",
+       "answer": 2,
+       "explain": "\"Redan klockan fyra\" – när arbetsdagen börjar: C."
+      },
+      {
+       "id": "i3",
+       "type": "select",
+       "tags": [
+        "läs.matcha"
+       ],
+       "q": "Vilken fråga hör till svar 3?",
+       "answer": 0,
+       "explain": "Kanelbullar, över tvåhundra per dag – det de säljer mest av: A."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mottagare",
+   "title": "Del 6: Till vem?",
+   "titleEn": "Who is it for?",
+   "instructions": "Vem har skrivit texten till? Välj ett alternativ.",
+   "instructionsEn": "Who is the text written for?",
+   "parts": [
+    {
+     "heading": "Text 1",
+     "headingEn": "Text 1",
+     "image": {
+      "src": "mottagare.svg",
+      "alt": "Två anslag och ett frågetecken"
+     },
+     "passage": "Nu är det dags att deklarera! Många tycker att blanketterna är svåra, särskilt om man inte har bott här så länge. Kom till biblioteket på tisdag kväll. Våra volontärer pratar enkel svenska och hjälper dig steg för steg. Ta med din e-legitimation.",
+     "items": [
+      {
+       "id": "m1",
+       "type": "mcq",
+       "tags": [
+        "läs.mottagare"
+       ],
+       "q": "Vem har texten skrivits till?",
+       "options": [
+        "Personer som arbetar på Skatteverket.",
+        "Personer som vill ha hjälp med deklarationen.",
+        "Elever som ska skriva ett prov.",
+        "Pensionärer som vill resa."
+       ],
+       "answer": 1,
+       "explain": "Texten erbjuder hjälp med att deklarera."
+      }
+     ]
+    },
+    {
+     "heading": "Text 2",
+     "headingEn": "Text 2",
+     "passage": "Hej! Nästa vecka har vi utvecklingssamtal. Boka en tid på skolans hemsida senast fredag. Om ni inte kan komma, kan vi ta samtalet över telefon. Skriv gärna ner frågor om hur ert barn trivs i klassen.\n\nHälsningar\nAnna, klassföreståndare",
+     "items": [
+      {
+       "id": "m2",
+       "type": "mcq",
+       "tags": [
+        "läs.mottagare"
+       ],
+       "q": "Vem har texten skrivits till?",
+       "options": [
+        "Eleverna i klassen.",
+        "Lärare på skolan.",
+        "Barnens föräldrar.",
+        "Rektorn."
+       ],
+       "answer": 2,
+       "explain": "\"Hur ert barn trivs\" – texten är till föräldrarna."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -112,3 +112,11 @@
   32 min, B1 ≥ 12/16) and 017-las-prov-b (del 3 insändare ×6 + del 4 synonym sentences ×8, 28 min, B1 ≥ 10/14),
   reviewed keys. New UI: dashboard, exam view, learning view (see CLAUDE.md / AUTHORING "Exam mode").
 - Next step: learner takes 012, 014, 015, 016, 017. Then grade; past-story lesson; listening test in exam view.
+
+## 2026-11-13 (late)
+- Goal switched to SFI D (old national test); no time-based planning (react to efforts).
+- Built 018-sfi-d-lasa (SFI D reading test: ads, sms purpose, chart, who-thinks-what, interview matching,
+  addressee; 16 items, 25 min, G ≥ 10) and 019-asiktstext (formal opinion text: skeleton, linking words +
+  word order, model answer, write a reply to "Förbjud fyrverkerier!"). Both reviewed.
+- Next step: grade whatever the learner does (012, 014–019). Then SFI D speaking: "berätta och ge råd" +
+  pair discussion with a TTS partner.

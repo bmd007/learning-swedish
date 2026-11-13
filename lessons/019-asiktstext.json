@@ -1,0 +1,339 @@
+{
+  "id": "019-asiktstext",
+  "title": "Åsiktstext: svara på en insändare",
+  "titleEn": "Opinion text: answer a letter to the editor",
+  "mode": "practice",
+  "minutes": 20,
+  "intro": "På SFI D-provet ska du skriva en formell text: du svarar på en insändare med din åsikt och dina skäl. Här lär du dig formen, bindeorden och ordföljden – och sedan skriver du själv.",
+  "introEn": "In the SFI D test you write a formal text: you answer a letter to the editor with your opinion and reasons. Learn the shape, the linking words and the word order – then write your own.",
+  "sections": [
+    {
+      "id": "form",
+      "title": "Formen",
+      "titleEn": "The shape",
+      "instructions": "Läs. Titta på bilden.",
+      "instructionsEn": "Read. Look at the picture.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "image": {
+            "src": "skelett.svg",
+            "alt": "Skelettet i en åsiktstext: rubrik, inledning, tre skäl, motargument, avslutning och underskrift",
+            "caption": "Skelettet i en åsiktstext, formell och informell stil."
+          },
+          "md": "**En åsiktstext har alltid samma skelett.** Titta på bilden.\n\n| Del | Vad du gör | Exempel |\n|---|---|---|\n| **Rubrik** | kort, visar din åsikt | *Behåll skoltiden!* |\n| **Inledning** | vad du svarar på + din åsikt | *Jag läste insändaren \"…\" och jag håller (inte) med.* |\n| **Skäl 1, 2, 3** | ett skäl per stycke, med exempel | *För det första … För det andra … Dessutom …* |\n| **Motargument** | visa att du förstår andra, svara sedan | *Visserligen …, men …* |\n| **Avslutning** | upprepa din åsikt | *Därför tycker jag att …* |\n| **Underskrift** | hela namnet | *Anders Lindqvist* |\n\n**Formell eller informell?**\n\n| Formell (insändare, myndighet) | Informell (vän) |\n|---|---|\n| ingen hälsning (eller *Hej,* till en redaktion) | *Hej Lisa!* |\n| *Med vänliga hälsningar,* + hela namnet | *Kram,* / *Hälsningar,* + förnamn |\n| *Jag anser att …*, *enligt min mening* (eller *Jag tycker att …*) | *Jag tycker att …* |\n| inga smileys, inga *typ / ba / asså* | OK i sms |\n\n**Persiska:** در متن رسمی سلام و خداحافظی دوستانه («Hej!» و «Kram») نمی‌نویسیم. ساختار مثل مقاله است: نظر، دلیل‌ها، جواب به نظر مخالف، نتیجه."
+        },
+        {
+          "id": "i2",
+          "type": "info",
+          "md": "**Bindeord gör texten till en helhet (textbindning – viktigt för betyget).** Men ordföljden skiljer sig:\n\n| Bindeord | Vad det är | Ordföljd efter ordet | Exempel |\n|---|---|---|---|\n| **eftersom**, **därför att** | bisats | subjekt + **inte före verbet** | *Jag cyklar, eftersom jag **inte** har bil.* |\n| **men**, **och**, **eller** | huvudsats-ord | normal ordföljd (ingen inversion) | *Det är bra, men jag håller inte med.* |\n| **därför**, **dessutom**, **alltså** | adverb | **inversion**: verb före subjekt | *Därför **tycker jag** …* · *Dessutom **kostar det** …* |\n| **till exempel**, **å andra sidan**, **visserligen** | adverb | **inversion** | *Till exempel **finns det** …* |\n\n**Minnesregel:** *eftersom* = en bisats (som *att, om, när*): *inte* står före verbet. *Därför, dessutom* ligger på plats 1 i huvudsatsen, och då kommer verbet på plats 2.\n\n**Persiska:** بعد از «därför» و «dessutom» فعل قبل از فاعل می‌آید (Därför tar jag bussen). بعد از «eftersom» ساختار جمله‌ی پایه دارد: فاعل + inte + فعل."
+        }
+      ]
+    },
+    {
+      "id": "modell",
+      "title": "Modelltext",
+      "titleEn": "Model text",
+      "instructions": "Läs insändaren och svaret. Svara på frågorna.",
+      "instructionsEn": "Read the letter and the reply. Answer the questions.",
+      "parts": [
+        {
+          "heading": "Insändare och svar",
+          "headingEn": "Letter and reply",
+          "passageTitle": "Ska skolan börja klockan nio?",
+          "passage": "INSÄNDARE: Börja skolan klockan nio!\nTonåringar är trötta på morgonen. Många sover för lite, och det är svårt att koncentrera sig klockan åtta. Om skolan började senare skulle eleverna må bättre och lära sig mer.\nElsa, 16 år\n\nSVAR:\n\nBehåll skoltiden!\n\nJag läste insändaren \"Börja skolan klockan nio!\" i tidningen i går, och jag håller inte med.\n\nFör det första tror jag inte att eleverna skulle sova mer. Om skolan börjar senare går tonåringarna bara och lägger sig senare på kvällen.\n\nFör det andra skulle skoldagen sluta senare. Då hinner många inte med sina fritidsaktiviteter, till exempel fotboll och körsång, som ofta börjar klockan fem.\n\nDessutom börjar de flesta jobb klockan åtta. Eleverna måste lära sig att vara i tid.\n\nVisserligen är många tonåringar trötta på morgonen, men det beror oftast på att de sitter vid mobilen på natten. Lösningen är att lägga bort mobilen tidigare, inte att ändra skoltiden.\n\nDärför tycker jag att skolan ska börja klockan åtta, precis som i dag.\n\nMed vänliga hälsningar\nAnders Lindqvist, Malmö",
+          "image": {
+            "src": "tidning.svg",
+            "alt": "En tidningssida med rubriken Insändare",
+            "caption": "En insändare i tidningen."
+          },
+          "items": [
+            {
+              "id": "m1",
+              "type": "mcq",
+              "tags": [
+                "läs.detalj",
+                "skriv.insändare"
+              ],
+              "q": "Tycker skribenten (Anders) som Elsa?",
+              "qEn": "Does Anders agree with Elsa?",
+              "options": [
+                "Ja, helt och hållet",
+                "Nej, han håller inte med",
+                "Han vet inte"
+              ],
+              "answer": 1,
+              "explain": "Inledningen säger det: \"jag håller inte med\". Det ska du alltid skriva tidigt i texten.",
+              "explainEn": "The opening says it: 'I don't agree'. Always say it early."
+            },
+            {
+              "id": "m2",
+              "type": "mcq",
+              "tags": [
+                "läs.huvudtanke",
+                "skriv.insändare"
+              ],
+              "q": "Vilket är Anders första skäl?",
+              "qEn": "What is Anders's first reason?",
+              "options": [
+                "Föräldrarna jobbar tidigt.",
+                "Skolmaten är dålig.",
+                "Lärarna vill börja klockan åtta.",
+                "Tonåringar skulle gå och lägga sig senare, så de sover inte mer."
+              ],
+              "answer": 3,
+              "explain": "Stycket \"För det första\" ger det första skälet.",
+              "explainEn": "The paragraph 'För det första' gives the first reason."
+            },
+            {
+              "id": "m3",
+              "type": "mcq",
+              "tags": [
+                "läs.detalj",
+                "skriv.insändare"
+              ],
+              "q": "Vilken mening är motargumentet?",
+              "qEn": "Which sentence is the counter-argument?",
+              "options": [
+                "Visserligen är många tonåringar trötta på morgonen, men det beror oftast på att de sitter vid mobilen på natten.",
+                "För det första tror jag inte att eleverna skulle sova mer.",
+                "Dessutom börjar de flesta jobb klockan åtta.",
+                "Därför tycker jag att skolan ska börja klockan åtta, precis som i dag."
+              ],
+              "answer": 0,
+              "explain": "Motargumentet börjar med \"Visserligen\" och svaret kommer efter \"men\".",
+              "explainEn": "The counter-argument starts with 'Visserligen'; the answer comes after 'men'."
+            },
+            {
+              "id": "m4",
+              "type": "mcq",
+              "tags": [
+                "läs.slutsats",
+                "skriv.insändare"
+              ],
+              "q": "Vad gör \"Visserligen … men …\" i texten?",
+              "qEn": "What does 'Visserligen … men …' do?",
+              "options": [
+                "Skribenten ändrar åsikt.",
+                "Skribenten ber om ursäkt.",
+                "Skribenten säger att motparten har en poäng, men håller fast vid sin åsikt.",
+                "Skribenten ger ett exempel."
+              ],
+              "answer": 2,
+              "explain": "Du visar att du förstår den andra sidan. Sedan svarar du. Det ger en mer övertygande text.",
+              "explainEn": "You show you understand the other side, then answer. It makes the text more convincing."
+            },
+            {
+              "id": "m5",
+              "type": "order",
+              "tags": [
+                "läs.slutsats",
+                "skriv.insändare"
+              ],
+              "q": "Sätt delarna i rätt ordning.",
+              "qEn": "Put the parts in order.",
+              "words": [
+                "Avslutning",
+                "Skäl-2",
+                "Rubrik",
+                "Motargument",
+                "Skäl-3",
+                "Inledning",
+                "Skäl-1"
+              ],
+              "answers": [
+                "Rubrik Inledning Skäl-1 Skäl-2 Skäl-3 Motargument Avslutning"
+              ],
+              "explain": "Rubrik, inledning, tre skäl, motargument, avslutning.",
+              "explainEn": "Title, opening, three reasons, counter-argument, ending."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bindeord",
+      "title": "Bindeord och ordföljd",
+      "titleEn": "Linking words and word order",
+      "instructions": "Bygg meningarna. Tänk: bisats (inte före verbet) eller inversion (verbet på plats 2)?",
+      "instructionsEn": "Build the sentences. Think: subordinate clause (inte before the verb) or inversion (verb in position 2)?",
+      "items": [
+        {
+          "id": "b1",
+          "type": "order",
+          "tags": [
+            "ordföljd.bisats",
+            "skriv.insändare"
+          ],
+          "q": "Bygg meningen.",
+          "words": [
+            "eftersom",
+            "Jag",
+            "barnen",
+            "tycker",
+            "inte",
+            "att",
+            "sover",
+            "det",
+            "är",
+            "fel",
+            "tillräckligt"
+          ],
+          "answers": [
+            "Jag tycker att det är fel eftersom barnen inte sover tillräckligt"
+          ],
+          "explain": "Eftersom + bisats: subjekt, sedan inte, sedan verbet.",
+          "explainEn": "Eftersom + subordinate clause: subject, then inte, then verb.",
+          "image": {
+            "src": "tidning.svg",
+            "alt": "En tidningssida med rubriken Insändare",
+            "size": "small"
+          }
+        },
+        {
+          "id": "b2",
+          "type": "order",
+          "tags": [
+            "ordföljd.inversion",
+            "skriv.insändare"
+          ],
+          "q": "Bygg meningen.",
+          "words": [
+            "Därför",
+            "jag",
+            "vill",
+            "att",
+            "kommunen",
+            "bygger",
+            "fler",
+            "cykelbanor"
+          ],
+          "answers": [
+            "Därför vill jag att kommunen bygger fler cykelbanor"
+          ],
+          "explain": "Därför står på plats 1, verbet vill på plats 2, sedan subjektet jag.",
+          "explainEn": "Därför is in position 1, the verb vill in position 2, then the subject."
+        },
+        {
+          "id": "b3",
+          "type": "order",
+          "tags": [
+            "ordföljd.inversion",
+            "skriv.insändare"
+          ],
+          "q": "Bygg meningen.",
+          "words": [
+            "biljetterna",
+            "för",
+            "Dessutom",
+            "kostar",
+            "mycket"
+          ],
+          "answers": [
+            "Dessutom kostar biljetterna för mycket"
+          ],
+          "explain": "Dessutom + inversion: kostar före biljetterna.",
+          "explainEn": "Dessutom + inversion: kostar before biljetterna."
+        },
+        {
+          "id": "b4",
+          "type": "order",
+          "tags": [
+            "ordföljd.inversion",
+            "skriv.insändare"
+          ],
+          "q": "Bygg meningen. Obs: också.",
+          "qEn": "Build the sentence. Careful: också.",
+          "words": [
+            "också",
+            "blir",
+            "luften",
+            "Dessutom",
+            "renare"
+          ],
+          "answers": [
+            "Dessutom blir luften också renare",
+            "Dessutom blir luften renare också"
+          ],
+          "explain": "Efter verbet och subjektet: Dessutom blir luften också renare. Inte: Dessutom också blir …",
+          "explainEn": "After the verb and subject: Dessutom blir luften också renare."
+        },
+        {
+          "id": "b5",
+          "type": "gap",
+          "tags": [
+            "konjunktion",
+            "skriv.insändare"
+          ],
+          "q": "Bilen är dyr. ___ tar jag bussen.",
+          "qEn": "The car is expensive. ___ I take the bus.",
+          "answers": [
+            "Därför",
+            "Alltså"
+          ],
+          "explain": "Därför / alltså (resultat) + inversion: tar jag.",
+          "explainEn": "Därför / alltså (result) + inversion: tar jag."
+        },
+        {
+          "id": "b6",
+          "type": "gap",
+          "tags": [
+            "konjunktion",
+            "ordföljd.bisats"
+          ],
+          "q": "Jag cyklar till jobbet ___ det är gratis och bra för hälsan.",
+          "qEn": "I cycle to work ___ it is free and good for health.",
+          "answers": [
+            "eftersom",
+            "därför att"
+          ],
+          "explain": "Eftersom / därför att ger ett skäl och startar en bisats. (Utan att: Därför cyklar jag.)",
+          "explainEn": "Eftersom / därför att give a reason and start a subordinate clause."
+        }
+      ]
+    },
+    {
+      "id": "skriv",
+      "title": "Skriv din åsiktstext",
+      "titleEn": "Write your opinion text",
+      "instructions": "Läs insändaren. Skriv ett svar i tidningen. Använd skelettet och bindeorden.",
+      "instructionsEn": "Read the letter. Write a reply. Use the skeleton and linking words.",
+      "parts": [
+        {
+          "heading": "Insändare",
+          "headingEn": "Letter to the editor",
+          "passageTitle": "Förbjud fyrverkerier!",
+          "passage": "Förbjud fyrverkerier!\n\nPå nyårsafton skjuter många människor upp fyrverkerier. Det låter högt och det luktar illa i flera timmar. Många hundar och katter blir livrädda, och en del äldre människor kan inte sova. Efter festen ligger det skräp överallt i parken och på gatorna. Jag tycker att kommunen ska förbjuda privata fyrverkerier. Staden kan i stället ordna en gemensam show där alla får titta tillsammans.\n\nKarin Holm, Uppsala",
+          "image": {
+            "src": "fyrverkeri.svg",
+            "alt": "Fyrverkerier på natthimlen",
+            "caption": "Fyrverkerier: ja eller nej?"
+          },
+          "items": [
+            {
+              "id": "w1",
+              "type": "write",
+              "tags": [
+                "skriv.insändare",
+                "skriv.mejl.formell"
+              ],
+              "minWords": 150,
+              "maxWords": 250,
+              "q": "Skriv ett svar till Karin Holms insändare. Berätta vad du tycker och varför. Börja och sluta på ett passande sätt.",
+              "qEn": "Write a reply to Karin Holm's letter. Say what you think and why. Start and end in a suitable way.",
+              "bullets": [
+                "Rubrik + inledning: vad svarar du på, och håller du med eller inte?",
+                "Skäl 1 med exempel (För det första …)",
+                "Skäl 2 med exempel (För det andra … / Dessutom …)",
+                "Ett motargument och ditt svar (Visserligen …, men …)",
+                "Avslutning (Därför tycker jag att …) + hela namnet",
+                "Kolla: verbform efter har/igår, adjektiv (ett/en/plural), också efter verbet, i/för + tid"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
