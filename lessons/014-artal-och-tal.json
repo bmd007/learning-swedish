@@ -128,12 +128,12 @@
             ]
           },
           "options": [
-            "1816",
             "1860",
+            "1816",
             "1806",
             "8160"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "arton-hundra-sextio = 18 | 60.",
           "explainEn": "18 hundred 60."
         },
@@ -161,11 +161,11 @@
           },
           "options": [
             "1919",
-            "1990",
             "1909",
-            "1999"
+            "1999",
+            "1990"
           ],
-          "answer": 1,
+          "answer": 3,
           "explain": "nitton (19) + hundra + nittio (90) = 1990.",
           "explainEn": "19 hundred 90."
         }
