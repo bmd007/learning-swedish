@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="system-ui, Helvetica, Arial, sans-serif"><rect width="640" height="300" fill="#fff"/>
+<rect x="20" y="40" width="270" height="215" rx="12" fill="#f4f1ec" stroke="#8a6d3b" stroke-width="2"/>
+<text x="155" y="30" font-size="20" text-anchor="middle" font-weight="bold" fill="#8a6d3b">min förra lägenhet</text>
+<rect x="85" y="130" width="140" height="100" fill="#cdb68f"/><polygon points="70,130 155,85 240,130" fill="#a9503f"/>
+<rect x="105" y="150" width="30" height="30" fill="#fff"/><rect x="165" y="170" width="30" height="60" fill="#fff"/>
+<text x="155" y="250" font-size="17" text-anchor="middle" fill="#222">en <tspan font-weight="bold">gammal</tspan>, <tspan font-weight="bold">liten</tspan> lägenhet</text>
+<rect x="350" y="40" width="270" height="215" rx="12" fill="#eef7f0" stroke="#2e9e4f" stroke-width="2"/>
+<text x="485" y="30" font-size="20" text-anchor="middle" font-weight="bold" fill="#2e9e4f">mitt nya hem</text>
+<rect x="370" y="105" width="230" height="125" fill="#9bd1a8"/><polygon points="355,105 485,50 615,105" fill="#2e7d4f"/>
+<rect x="390" y="130" width="35" height="35" fill="#fff"/><rect x="445" y="130" width="35" height="35" fill="#fff"/><rect x="500" y="130" width="35" height="35" fill="#fff"/><rect x="552" y="170" width="30" height="60" fill="#fff"/>
+<text x="485" y="250" font-size="17" text-anchor="middle" fill="#222">ett <tspan font-weight="bold">nytt</tspan>, <tspan font-weight="bold">stort</tspan> hem</text>
+<text x="320" y="285" font-size="17" text-anchor="middle" fill="#222">Mitt nya hem är <tspan font-weight="bold">större</tspan> och <tspan font-weight="bold">dyrare</tspan> än min förra lägenhet.</text>
+</svg>

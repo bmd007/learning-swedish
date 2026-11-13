@@ -1,0 +1,533 @@
+{
+  "id": "013-adjektiv-kongruens",
+  "title": "Adjektiv: en, ett, plural – och oregelbunden jämförelse",
+  "titleEn": "Adjective agreement and irregular comparison (housing)",
+  "mode": "practice",
+  "minutes": 13,
+  "intro": "Du skriver ofta en gammalt lägenhet eller min förra hem. Här tränar vi ett mönster: substantivet bestämmer adjektivet. Sedan jämför vi: dålig – sämre – sämst.",
+  "introEn": "You often write 'en gammalt lägenhet'. Here we train one pattern: the noun decides the adjective. Then comparison.",
+  "sections": [
+    {
+      "id": "monster",
+      "title": "Del 1: Mönstret",
+      "titleEn": "Part 1: The pattern",
+      "instructions": "Läs tabellen och kroken. Sedan övar vi.",
+      "instructionsEn": "Read the table and the hook. Then we practise.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "image": {
+            "src": "regel.svg",
+            "alt": "Tabell: en gammal lägenhet, ett gammalt hem, gamla lägenheter, den gamla lägenheten"
+          },
+          "md": "**Substantivet bestämmer adjektivet.** Fråga alltid: *en eller ett? en eller flera?*\n\n| substantiv | adjektiv | exempel |\n|---|---|---|\n| **en**-ord | grundform (–) | en gammal lägenhet |\n| **ett**-ord | **+ t** | ett gammalt hem |\n| flera (plural) | **+ a** | gamla lägenheter |\n| bestämd (den/det/de, min/mitt/mina) | **+ a** | den gamla lägenheten, min gamla lägenhet |\n\n**Minneskrok:** ett-ord = **t**. *Ett hem, ett rum, ett kök* → *ett nytt hem, ett stort rum, ett litet kök*.\n\n**Lär dig substantivet med artikeln:** *ett hem, ett rum, en lägenhet*. Då följer adjektivet med.\n\n**Ägande:** *min* (en) – **mitt** (ett) – *mina* (flera): *min lägenhet, mitt hem, mina rum*. *Förra* ändras inte: *min förra lägenhet, mitt förra hem*.\n\n**Hänvisa tillbaka:** en-ord → **den**, ett-ord → **det**, flera → **de**.\n*Lägenheten är liten. **Den** har bara ett rum.* (inte: *Det är liten*)\nOregelbundet: liten – litet – **små** (plural), men *den/det lilla*.\n\n**Persiska:** adjektivet ändras aldrig på persiska («خانه بزرگ»، «خانه‌ها بزرگ»). Därför känns svenskan godtycklig. Det är inte logik, det är ett mönster Vanliga ett-ord i boendet: *hem, rum, hus, kök, badrum, fönster*.\n\n**Ett substantiv i plural efter siffra:** *nio tusen **kronor***, *två rum*."
+        },
+        {
+          "id": "i2",
+          "type": "info",
+          "md": "**Oregelbunden komparation** (korta, vanliga adjektiv ändrar vokal):\n\n| grundform | komparativ | superlativ |\n|---|---|---|\n| bra | **bättre** | **bäst** |\n| dålig | **sämre** | **sämst** |\n| stor | **större** | **störst** |\n| liten | **mindre** | **minst** |\n| gammal | **äldre** | **äldst** |\n\nRegelbundna: *billig – billigare – billigast*, *dyr – dyrare – dyrast*.\nJämförelse med **än**: *Min nya lägenhet är större **än** min förra.* (inte *en*: *en* = a)\n**Persiska:** «بزرگ‌تر از» – *än* = «از» här.\nSuperlativ bestämd: *den **sämsta** lägenheten*."
+        }
+      ]
+    },
+    {
+      "id": "boende",
+      "title": "Del 2: Boende – rätt ändelse",
+      "titleEn": "Part 2: Housing – the right ending",
+      "instructions": "Fråga: en eller ett? ett eller flera? Skriv rätt form.",
+      "instructionsEn": "Ask: en or ett? one or many? Write the right form.",
+      "image": {
+        "src": "lagenhet-gammal-ny.svg",
+        "alt": "Min förra lägenhet: gammal och liten. Mitt nya hem: nytt och stort.",
+        "caption": "en gammal lägenhet – ett nytt hem"
+      },
+      "items": [
+        {
+          "id": "g1",
+          "type": "gap",
+          "tags": [
+            "adjektiv.ett-ord",
+            "substantiv.en-ett"
+          ],
+          "q": "Jag bodde i en ___ lägenhet i Högdalen.",
+          "base": "gammal",
+          "answers": [
+            "gammal"
+          ],
+          "qEn": "I lived in an old flat in Högdalen.",
+          "explain": "lägenhet = en-ord → ingen ändelse: en gammal lägenhet."
+        },
+        {
+          "id": "g2",
+          "type": "gap",
+          "tags": [
+            "adjektiv.ett-ord",
+            "substantiv.en-ett"
+          ],
+          "q": "Det här är mitt ___ hem.",
+          "base": "ny",
+          "answers": [
+            "nya"
+          ],
+          "qEn": "This is my new home.",
+          "explain": "Efter mitt (possessiv) tar adjektivet -a: mitt nya hem. (Utan possessiv: ett nytt hem.)"
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "tags": [
+            "adjektiv.ett-ord"
+          ],
+          "q": "Vi har ett ___ kök med ny spis.",
+          "base": "stor",
+          "answers": [
+            "stort"
+          ],
+          "qEn": "We have a big kitchen with a new stove.",
+          "explain": "kök = ett-ord → stort."
+        },
+        {
+          "id": "g4",
+          "type": "gap",
+          "tags": [
+            "adjektiv.ett-ord"
+          ],
+          "q": "Sovrummet är ___ på natten.",
+          "base": "kall",
+          "answers": [
+            "kallt"
+          ],
+          "qEn": "The bedroom is cold at night.",
+          "explain": "rum = ett-ord → kallt (också efter är)."
+        },
+        {
+          "id": "g5",
+          "type": "gap",
+          "tags": [
+            "adjektiv.plural"
+          ],
+          "q": "Vi hade två ___ rum i vår förra lägenhet.",
+          "base": "liten",
+          "answers": [
+            "små"
+          ],
+          "qEn": "We had two small rooms in our previous flat.",
+          "explain": "Plural av liten = små."
+        },
+        {
+          "id": "g6",
+          "type": "gap",
+          "tags": [
+            "pronomen.sin",
+            "adjektiv.ett-ord"
+          ],
+          "q": "Jag saknar ___ förra hem.",
+          "base": "min",
+          "answers": [
+            "mitt"
+          ],
+          "qEn": "I miss my previous home.",
+          "explain": "hem = ett-ord → mitt förra hem."
+        },
+        {
+          "id": "g7",
+          "type": "gap",
+          "tags": [
+            "adjektiv.bestämd"
+          ],
+          "q": "Jag saknar min ___ lägenhet.",
+          "base": "gammal",
+          "answers": [
+            "gamla"
+          ],
+          "qEn": "I miss my old flat.",
+          "explain": "Efter min/mitt/mina eller den/det/de: -a → min gamla lägenhet."
+        },
+        {
+          "id": "g8",
+          "type": "gap",
+          "tags": [
+            "pronomen.sin"
+          ],
+          "q": "Lägenheten är liten. ___ har bara ett rum.",
+          "base": "",
+          "answers": [
+            "den"
+          ],
+          "qEn": "The flat is small. It has only one room.",
+          "explain": "lägenhet = en-ord → Den. (Det är liten ✗.)"
+        },
+        {
+          "id": "g9",
+          "type": "gap",
+          "tags": [
+            "pronomen.sin"
+          ],
+          "q": "Rummet är litet. ___ har ett stort fönster.",
+          "base": "",
+          "answers": [
+            "det"
+          ],
+          "qEn": "The room is small. It has a big window.",
+          "explain": "rum = ett-ord → Det."
+        },
+        {
+          "id": "g10",
+          "type": "gap",
+          "tags": [
+            "substantiv.plural"
+          ],
+          "q": "Hyran är nio tusen ___ i månaden.",
+          "base": "krona",
+          "answers": [
+            "kronor"
+          ],
+          "qEn": "The rent is nine thousand kronor a month.",
+          "explain": "krona → kronor (plural efter siffra)."
+        },
+        {
+          "id": "m1",
+          "type": "mcq",
+          "tags": [
+            "adjektiv.ett-ord",
+            "substantiv.en-ett"
+          ],
+          "q": "Vilken mening är rätt?",
+          "options": [
+            "Jag bor i ett stor lägenhet.",
+            "Jag bor i en stor lägenhet.",
+            "Jag bor i en stort lägenhet."
+          ],
+          "answer": 1,
+          "explain": "en lägenhet → en stor lägenhet."
+        },
+        {
+          "id": "o1",
+          "type": "order",
+          "tags": [
+            "ordföljd.inversion",
+            "adjektiv.komparation"
+          ],
+          "words": [
+            "än",
+            "mitt",
+            "hem",
+            "Mitt",
+            "var",
+            "nya",
+            "mindre",
+            "förra",
+            "hem"
+          ],
+          "answers": [
+            "Mitt förra hem var mindre än mitt nya hem"
+          ],
+          "qEn": "My previous home was smaller than my new home.",
+          "explain": "Mitt förra hem var mindre än mitt nya hem."
+        }
+      ]
+    },
+    {
+      "id": "jamfor",
+      "title": "Del 3: Jämför – oregelbundet och än",
+      "titleEn": "Part 3: Compare – irregular forms and än",
+      "instructions": "Använd tabellen med bra – bättre – bäst.",
+      "instructionsEn": "Use the table with bra – bättre – bäst.",
+      "items": [
+        {
+          "id": "c1",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Köket var dåligt, men badrummet var ännu ___.",
+          "base": "dålig",
+          "answers": [
+            "sämre"
+          ],
+          "qEn": "The kitchen was bad, but the bathroom was even worse.",
+          "explain": "dålig – sämre – sämst (inte dåligare)."
+        },
+        {
+          "id": "c2",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Min nya lägenhet är mycket ___ än min förra.",
+          "base": "stor",
+          "answers": [
+            "större"
+          ],
+          "qEn": "My new flat is much bigger than my previous one.",
+          "explain": "stor – större – störst."
+        },
+        {
+          "id": "c3",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Min nya lägenhet är större ___ min förra.",
+          "base": "",
+          "answers": [
+            "än"
+          ],
+          "qEn": "…bigger than my previous one.",
+          "explain": "än = than. en = a."
+        },
+        {
+          "id": "c4",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Min syster är fem år ___ än jag.",
+          "base": "gammal",
+          "answers": [
+            "äldre"
+          ],
+          "qEn": "My sister is five years older than me.",
+          "explain": "gammal – äldre – äldst."
+        },
+        {
+          "id": "c5",
+          "type": "gap",
+          "tags": [
+            "adjektiv.komparation",
+            "adjektiv.bestämd"
+          ],
+          "q": "Det här var den ___ lägenheten jag har sett.",
+          "base": "dålig",
+          "answers": [
+            "sämsta"
+          ],
+          "qEn": "This was the worst flat I have seen.",
+          "explain": "Bestämd superlativ: den sämsta lägenheten."
+        },
+        {
+          "id": "m2",
+          "type": "mcq",
+          "tags": [
+            "adjektiv.komparation"
+          ],
+          "q": "Vilken mening är rätt?",
+          "options": [
+            "Mitt rum är större än ditt.",
+            "Mitt rum är mer stor än ditt.",
+            "Mitt rum är större en ditt."
+          ],
+          "answer": 0,
+          "explain": "större än (kort adjektiv: ändra vokal, inte mer + adjektiv)."
+        }
+      ]
+    },
+    {
+      "id": "lyssna",
+      "title": "Del 4: Lyssna – förra eller nuvarande?",
+      "titleEn": "Part 4: Listening – previous or current?",
+      "instructions": "Erik har flyttat. Lyssna två gånger. Håll isär förra och nuvarande lägenheten.",
+      "instructionsEn": "Erik has moved. Listen twice. Keep the previous and current flat apart.",
+      "parts": [
+        {
+          "heading": "Samtal",
+          "headingEn": "Conversation",
+          "audio": {
+            "id": "a1",
+            "title": "Eriks nya och förra lägenhet",
+            "maxPlays": 2,
+            "speakers": {
+              "Lena": "f",
+              "Erik": "m"
+            },
+            "rate": "+5%",
+            "script": [
+              {
+                "speaker": "Lena",
+                "text": "Hej Erik! Du har flyttat, hörde jag. Hur är den nya lägenheten?"
+              },
+              {
+                "speaker": "Erik",
+                "text": "Ja, alltså, den är mycket bättre än min förra. Den förra var liten, bara två rum och kök. Nu har jag tre rum."
+              },
+              {
+                "speaker": "Lena",
+                "text": "Oj, vad bra. Bodde du inte i Högdalen förut?"
+              },
+              {
+                "speaker": "Erik",
+                "text": "Jo, precis, i Högdalen. Men nu bor jag i Årsta. Det är mycket lugnare här, och det är nära till tunnelbanan."
+              },
+              {
+                "speaker": "Lena",
+                "text": "Och hyran då? Var den högre förut, eller …"
+              },
+              {
+                "speaker": "Erik",
+                "text": "Nä, faktiskt inte. Den förra kostade åtta tusen kronor i månaden – nej, vänta, åtta tusen femhundra, med el. Nu betalar jag nio tusen. Så den är lite dyrare, men den är ju mycket större."
+              },
+              {
+                "speaker": "Lena",
+                "text": "Mm, det är det värt. Är köket nytt?"
+              },
+              {
+                "speaker": "Erik",
+                "text": "Ja, det är renoverat. Men badrummet är ganska gammalt, tyvärr. I den förra lägenheten var badrummet fint, men köket var typ det sämsta. Bara en liten spis och ingen diskmaskin."
+              },
+              {
+                "speaker": "Lena",
+                "text": "Och har du balkong nu?"
+              },
+              {
+                "speaker": "Erik",
+                "text": "Ja, en stor balkong mot gården. Det hade jag inte förut. Där satt jag bara vid fönstret och tittade ut …"
+              },
+              {
+                "speaker": "Lena",
+                "text": "Vad skönt! Jag kommer och hälsar på snart."
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "h1",
+              "type": "short",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Hur många rum har Erik nu?",
+              "qEn": "How many rooms does Erik have now?",
+              "answers": [
+                "tre",
+                "3"
+              ],
+              "explain": "Nu har jag tre rum. (Förra: två rum och kök.)"
+            },
+            {
+              "id": "h2",
+              "type": "short",
+              "tags": [
+                "hör.siffror"
+              ],
+              "q": "Vad kostade Eriks FÖRRA lägenhet i månaden?",
+              "qEn": "What did Erik's PREVIOUS flat cost a month?",
+              "answers": [
+                "8500",
+                "8 500",
+                "åtta tusen femhundra",
+                "åtta tusen fem hundra",
+                "åttatusenfemhundra"
+              ],
+              "explain": "Åtta tusen – nej, åtta tusen femhundra. Nu: nio tusen."
+            },
+            {
+              "id": "h3",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj",
+                "adjektiv.komparation"
+              ],
+              "q": "Vad var dåligt i Eriks förra lägenhet?",
+              "options": [
+                "Köket",
+                "Badrummet",
+                "Balkongen",
+                "Området"
+              ],
+              "answer": 0,
+              "explain": "Köket var det sämsta. Badrummet är gammalt i den NYA lägenheten."
+            },
+            {
+              "id": "h4",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Var bor Erik nu?",
+              "options": [
+                "I Högdalen",
+                "På Södermalm",
+                "I Årsta",
+                "I Hägersten"
+              ],
+              "answer": 2,
+              "explain": "Nu bor jag i Årsta. Högdalen var förut."
+            },
+            {
+              "id": "h5",
+              "type": "mcq",
+              "tags": [
+                "hör.slutsats",
+                "adjektiv.komparation"
+              ],
+              "q": "Hur är hyran nu jämfört med förut?",
+              "options": [
+                "Mycket lägre",
+                "Mycket högre",
+                "Lite högre"
+              ],
+              "answer": 2,
+              "explain": "9000 mot 8500: lite dyrare."
+            },
+            {
+              "id": "h6",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Vad säger Erik om området där han bor nu?",
+              "options": [
+                "Det är billigt och nära jobbet.",
+                "Det är livligt med många affärer.",
+                "Det är gammalt men fint.",
+                "Det är lugnt och nära kollektivtrafik."
+              ],
+              "answer": 3,
+              "explain": "Lugnare här, nära till tunnelbanan."
+            },
+            {
+              "id": "h7",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Erik hade balkong i sin förra lägenhet.",
+              "options": [
+                "Sant",
+                "Falskt"
+              ],
+              "answer": 1,
+              "explain": "Nu har han en stor balkong. Det hade han inte förut."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Del 5: Tala – förr och nu",
+      "titleEn": "Part 5: Speaking – then and now",
+      "instructions": "Jämför ditt förra och ditt nuvarande hem. Tänk: en eller ett? Använd min/mitt, än och oregelbundna former.",
+      "instructionsEn": "Compare your previous and current home. Think: en or ett? Use min/mitt, än and irregular forms.",
+      "items": [
+        {
+          "id": "s1",
+          "type": "speak",
+          "tags": [
+            "tal.berätta",
+            "adjektiv.komparation"
+          ],
+          "q": "Jämför ditt förra hem och ditt nuvarande hem.",
+          "maxSeconds": 210,
+          "bullets": [
+            "Var bodde du förut och var bor du nu?",
+            "Hur stort är det, hur många rum? (Den/Det är …)",
+            "Vad var bättre förut och vad är bättre nu?",
+            "Jämför hyran: vad kostar det i kronor?",
+            "Vad är äldre, nyare, större eller mindre? (…än…)"
+          ]
+        }
+      ]
+    }
+  ]
+}
