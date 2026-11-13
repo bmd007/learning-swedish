@@ -1,0 +1,229 @@
+{
+  "id": "015-en-eller-ett",
+  "title": "En eller ett? Tre knep",
+  "titleEn": "En or ett? Three tricks",
+  "mode": "practice",
+  "minutes": 7,
+  "intro": "Du glömmer ofta om ett ord är en eller ett. Här får du tre knep: gissa en, läs ändelsen, och lär ett-orden i hemmet som en bild.",
+  "introEn": "You often forget whether a word is en or ett. Three tricks: guess en, read the ending, and learn the home ett-words as one picture.",
+  "sections": [
+    {
+      "id": "knep",
+      "title": "Tre knep",
+      "titleEn": "Three tricks",
+      "instructions": "Läs. Titta på bilden.",
+      "instructionsEn": "Read. Look at the picture.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "image": {
+            "src": "hus.svg",
+            "alt": "Ett hus med ett kök, ett badrum, ett sovrum och ett fönster i rött; en lägenhet, en dörr, en balkong, en soffa och en hyra i blått",
+            "caption": "Rött = ett-ord. Blått = en-ord."
+          },
+          "md": "**Ingen regel för alla ord. Men tre knep hjälper.**\n\n**1. Gissa *en*.** Cirka **3 av 4** substantiv är en-ord. Osäker? Säg *en*.\n\n**2. Ändelsen avslöjar ordet.**\n\n| en-ord | ett-ord |\n|---|---|\n| *-ing / -ning*: en tidning, en förening | *-ande / -ende*: ett meddelande, ett leende |\n| *-het*: en frihet, en säkerhet | *-eri*: ett bageri |\n| *-else*: en upplevelse | *-um*: ett museum, ett rum, ett centrum |\n| *-are*: en lärare, en säljare | *-em*: ett problem, ett system |\n| *-tion / -sion*: en station | *-ment*: ett dokument |\n| *-dom, -ism, -ist, -or*: en sjukdom, en turist, en doktor | |\n\nMänniskor och träd/blommor är oftast *en*: *en granne, en gran, en ros*. (Undantag: *ett barn*.)\n\n**3. Titta på bestämd form när du läser.** *lägenhet**en*** → en-ord. *hus**et***, *kök**et*** → ett-ord. Varje gång du ser *-en* eller *-et*: lägg märke till det.\n\n**Ett-orden i hemmet** (lär dem som en bild, se huset): **ett hem, ett rum, ett kök, ett badrum, ett sovrum, ett hus, ett fönster, ett golv, ett kontrakt, ett område, ett kvarter, ett garage**.\nMånga andra saker i hemmet är *en*: *en lägenhet, en dörr, en balkong, en soffa, en säng, en hyra*.\n\n**Persiska:** persiska har inget genus. Därför måste du lära dig ordet **med** sin artikel, som när du lär dig pluralen med ordet: *ett hem*, inte bara *hem*."
+        }
+      ]
+    },
+    {
+      "id": "en-ett",
+      "title": "En eller ett?",
+      "titleEn": "En or ett?",
+      "instructions": "Välj snabbt. Först orden du kan, sedan nya ord: använd ändelsen.",
+      "instructionsEn": "Choose fast. First known words, then new words: use the ending.",
+      "items": [
+        {
+          "id": "q1",
+          "type": "mcq",
+          "tags": [
+            "substantiv.en-ett",
+            "ord.tema.boende"
+          ],
+          "q": "___ kök",
+          "options": [
+            "en",
+            "ett"
+          ],
+          "answer": 1,
+          "explain": "Ett kök, ett badrum: rum i huset är ett-ord (köket).",
+          "explainEn": "Ett kök, ett badrum: rum i huset är ett-ord (köket).",
+          "qEn": "en or ett?"
+        },
+        {
+          "id": "q2",
+          "type": "mcq",
+          "tags": [
+            "substantiv.en-ett",
+            "ord.tema.boende"
+          ],
+          "q": "___ lägenhet",
+          "options": [
+            "en",
+            "ett"
+          ],
+          "answer": 0,
+          "explain": "En lägenhet (lägenheten). Slutar på -het: alltid en.",
+          "explainEn": "En lägenhet (lägenheten). Slutar på -het: alltid en.",
+          "qEn": "en or ett?"
+        },
+        {
+          "id": "q3",
+          "type": "mcq",
+          "tags": [
+            "substantiv.en-ett",
+            "ord.tema.boende"
+          ],
+          "q": "___ hem",
+          "options": [
+            "en",
+            "ett"
+          ],
+          "answer": 1,
+          "explain": "Ett hem (hemmet).",
+          "explainEn": "Ett hem (hemmet).",
+          "qEn": "en or ett?"
+        },
+        {
+          "id": "q4",
+          "type": "mcq",
+          "tags": [
+            "substantiv.en-ett",
+            "ord.tema.boende"
+          ],
+          "q": "Jag bor i ___ rum på tjugo kvadratmeter.",
+          "options": [
+            "en",
+            "ett"
+          ],
+          "answer": 1,
+          "explain": "Ett rum (rummet). Ändelsen -um brukar vara ett.",
+          "explainEn": "Ett rum (rummet). Ändelsen -um brukar vara ett.",
+          "qEn": "en or ett?"
+        },
+        {
+          "id": "q5",
+          "type": "mcq",
+          "tags": [
+            "substantiv.en-ett",
+            "ord.tema.boende"
+          ],
+          "q": "Ny ändelse: ___ meddelande",
+          "options": [
+            "en",
+            "ett"
+          ],
+          "answer": 1,
+          "explain": "Ändelsen -ande: ett meddelande, ett leende.",
+          "explainEn": "Ändelsen -ande: ett meddelande, ett leende.",
+          "qEn": "en or ett?"
+        },
+        {
+          "id": "q6",
+          "type": "mcq",
+          "tags": [
+            "substantiv.en-ett",
+            "ord.tema.boende"
+          ],
+          "q": "Ny ändelse: ___ tidning",
+          "options": [
+            "en",
+            "ett"
+          ],
+          "answer": 0,
+          "explain": "Ändelsen -ning: en tidning.",
+          "explainEn": "Ändelsen -ning: en tidning.",
+          "qEn": "en or ett?"
+        },
+        {
+          "id": "q7",
+          "type": "mcq",
+          "tags": [
+            "substantiv.en-ett",
+            "ord.tema.boende"
+          ],
+          "q": "Ny ändelse: ___ museum",
+          "options": [
+            "en",
+            "ett"
+          ],
+          "answer": 1,
+          "explain": "Ändelsen -um: ett museum, som ett rum.",
+          "explainEn": "Ändelsen -um: ett museum, som ett rum.",
+          "qEn": "en or ett?"
+        },
+        {
+          "id": "q8",
+          "type": "mcq",
+          "tags": [
+            "substantiv.en-ett",
+            "ord.tema.boende"
+          ],
+          "q": "Ny ändelse: ___ frihet",
+          "options": [
+            "en",
+            "ett"
+          ],
+          "answer": 0,
+          "explain": "Ändelsen -het: en frihet, som en lägenhet.",
+          "explainEn": "Ändelsen -het: en frihet, som en lägenhet.",
+          "qEn": "en or ett?"
+        }
+      ]
+    },
+    {
+      "id": "mening",
+      "title": "I en mening",
+      "titleEn": "In a sentence",
+      "instructions": "Skriv en eller ett.",
+      "instructionsEn": "Write en or ett.",
+      "items": [
+        {
+          "id": "g1",
+          "type": "gap",
+          "tags": [
+            "substantiv.en-ett",
+            "ord.tema.boende"
+          ],
+          "q": "Vi har ___ stort kök.",
+          "base": "en / ett",
+          "answers": [
+            "ett"
+          ],
+          "explain": "Ett kök → ett stort kök.",
+          "explainEn": "Ett kök → ett stort kök."
+        },
+        {
+          "id": "g2",
+          "type": "gap",
+          "tags": [
+            "substantiv.en-ett",
+            "ord.tema.boende"
+          ],
+          "q": "Jag letar efter ___ billig lägenhet.",
+          "base": "en / ett",
+          "answers": [
+            "en"
+          ],
+          "explain": "En lägenhet → en billig lägenhet.",
+          "explainEn": "En lägenhet → en billig lägenhet."
+        },
+        {
+          "id": "g3",
+          "type": "gap",
+          "tags": [
+            "substantiv.en-ett",
+            "ord.tema.boende"
+          ],
+          "q": "Bakom huset finns ___ garage.",
+          "base": "en / ett",
+          "answers": [
+            "ett"
+          ],
+          "explain": "Ett garage (garaget).",
+          "explainEn": "Ett garage (garaget)."
+        }
+      ]
+    }
+  ]
+}
