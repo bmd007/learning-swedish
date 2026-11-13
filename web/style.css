@@ -210,9 +210,9 @@ body.exam-mode .top::before { content: "PROV · Swedex-format"; color: #cfd8e3; 
 .score { font-size: 46px; font-weight: 800; color: var(--accent); line-height: 1; }
 .score span { font-size: 22px; color: var(--muted); font-weight: 400; margin-left: 4px; }
 .level { font-size: 20px; padding: 6px 14px; border-radius: 10px; }
-.level-B1 { background: var(--ok-soft); color: var(--ok); }
+.level-B1, .level-G { background: var(--ok-soft); color: var(--ok); }
 .level-A2 { background: var(--mid-soft); color: var(--mid); }
-.level-under-A2 { background: var(--bad-soft); color: var(--bad); }
+.level-under-A2, .level-IG { background: var(--bad-soft); color: var(--bad); }
 .levelbar { position: relative; height: 14px; border-radius: 7px; background: var(--line); margin: 34px 0 18px; }
 .levelbar span { position: absolute; inset: 0 auto 0 0; border-radius: 7px; background: var(--accent); }
 .levelbar i { position: absolute; top: -6px; width: 2px; height: 26px; background: var(--text); }

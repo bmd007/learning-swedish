@@ -94,7 +94,9 @@ def lesson_summaries():
 
 def progress_summary():
     plan = (ROOT / "progress" / "plan.md")
-    m = re.search(r"\d{4}-\d{2}-\d{2}", plan.read_text(encoding="utf-8")) if plan.exists() else None
+    text = plan.read_text(encoding="utf-8") if plan.exists() else ""
+    m = re.search(r"^Test date:\s*(\d{4}-\d{2}-\d{2})", text, re.M)
+    goal = re.search(r"^# Plan:\s*(.+)$", text, re.M)
     skills, minutes, done = {}, 0, 0
     for runs in final_results().values():
         for r in runs:
@@ -108,7 +110,7 @@ def progress_summary():
                     else:
                         s["total"] += 1
                         s["correct"] += bool(it["correct"])
-    return {"examDate": m.group(0) if m else None, "skills": skills, "minutes": minutes, "attempts": done}
+    return {"examDate": m.group(1) if m else None, "goal": goal.group(1) if goal else None, "skills": skills, "minutes": minutes, "attempts": done}
 
 
 def heic_to_jpg(src):

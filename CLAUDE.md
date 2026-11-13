@@ -8,7 +8,7 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
 
 ## Resume checklist (read this first after a restart)
 
-0. Read `progress/plan.md` (current goal + timeline: Swedex A2B1 2026-12-04).
+0. Read `progress/plan.md` (current goal: SFI D national test, old format; date unknown. Backup: Swedex A2B1).
 1. Read `progress/learner-profile.md` (who the learner is, goals, strengths/weaknesses).
 1b. Read `progress/decisions.md` (notes from conversations: preferences, decisions).
 2. Read `progress/log.md` (chronological log; the LAST entry says what is in flight and what's next).
@@ -93,7 +93,8 @@ Tags drive the learner model (e.g. `ordföljd.inversion`, `ordföljd.bisats`, `a
 - Short: 10–15 min per lesson, **one topic per lesson**. The learner's study time is unpredictable.
 - **Media in every lesson:** related images (`images/<lessonId>/`, hand-drawn SVG or free photos,
   see docs/AUTHORING.md "Images") and audio where it fits. Text-only lessons are boring.
-- Swedex A2B1 task shapes first (see progress/plan.md). Mix in grammar only where errors show it is needed.
+- Exam task shapes first: SFI D (old national test) and Swedex A2B1 (see progress/plan.md). Mix in grammar
+  only where errors show it is needed.
 - Record in `progress/decisions.md` decisions, preferences, facts about the learner, and parts of a
   conversation with real value (hard-won findings, research worth keeping). Skip casual questions
   whose answers are easy to find again.

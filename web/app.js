@@ -77,7 +77,7 @@ async function home() {
     const cls = p == null ? "" : p >= 73 ? "good" : p >= 57 ? "mid" : "low";
     return `<div class="meter ${cls}">
       <div class="meter-head"><span>${SKILLS[key].icon} ${SKILLS[key].label}</span><b>${p == null ? "–" : p + "%"}</b></div>
-      <div class="bar"><span style="width:${p ?? 0}%"></span><i style="left:73%" title="B1 ≈ 22/30"></i></div>
+      <div class="bar"><span style="width:${p ?? 0}%"></span><i style="left:73%" title="B1"></i></div>
       <div class="muted small">${s?.total ? `${s.correct}/${s.total} rätt` : "inga svar än"}${s?.total && s.total < 5 ? " (för få)" : ""}${s?.teacher ? ` · ${s.teacher} bedöms av läraren` : ""}</div>
     </div>`;
   };
@@ -106,8 +106,8 @@ async function home() {
     <section class="dash">
       <div class="dash-hero">
         <div>
-          <div class="muted small">Mål: Swedex A2B1</div>
-          <h1>${days != null && days >= 0 ? `${days} dagar kvar` : "Hej!"}</h1>
+          <div class="muted small">Mål: ${esc(prog.goal ?? "B1")}</div>
+          <h1>${days != null && days >= 0 ? `${days} dagar kvar` : "Hej! Välkommen."}</h1>
           ${en(days != null && days >= 0 ? `${days} days to the exam (${prog.examDate})` : "")}
           <div class="muted small">${prog.attempts ?? 0} lektioner klara · ca ${Math.round(prog.minutes ?? 0)} min övning</div>
         </div>
@@ -118,7 +118,7 @@ async function home() {
         </a>` : ""}
       </div>
       <div class="meters">${Object.keys(SKILLS).map(meter).join("")}</div>
-      <div class="muted small">Strecket = B1-gränsen på Swedex (ca 73 %). <span class="en">The line marks the B1 pass mark.</span></div>
+      <div class="muted small">Strecket = ungefär B1 (ca 73 % rätt). <span class="en">The line marks roughly B1.</span></div>
     </section>
     <div class="tabs">
       <button data-tab="todo">Att göra <span class="count">${todo.length}</span></button>
@@ -329,7 +329,7 @@ async function openLesson(id) {
           <div><b>${items.length}</b><span>uppgifter</span></div>
           <div><b>${steps.length}</b><span>delar</span></div>
           <div><b>${exam && lesson.timeLimit ? lesson.timeLimit : lesson.minutes ?? "?"}</b><span>${exam && lesson.timeLimit ? "min (tidsgräns)" : "min ungefär"}</span></div>
-          ${lesson.scoring ? `<div><b>${lesson.scoring.B1}/${lesson.scoring.max}</b><span>för B1</span></div>` : ""}
+          ${lesson.scoring ? `<div><b>${lesson.scoring.G ?? lesson.scoring.B1}/${lesson.scoring.max}</b><span>${lesson.scoring.G != null ? "för G (godkänt)" : "för B1"}</span></div>` : ""}
         </div>
         <ol class="toc">${steps.map(s => `<li>${esc(s.title)}${exam ? "" : ` <span class="en">— ${esc(s.titleEn ?? "")}</span>`}</li>`).join("")}</ol>
         ${exam ? `<div class="rules">
@@ -765,19 +765,20 @@ async function openLesson(id) {
     const byId = Object.fromEntries(items.map(i => [i.id, i]));
     const shownAudio = new Set(), shownPassage = new Set();
     const sc = lesson.scoring;
-    const level = sc ? (right >= sc.B1 ? "B1" : right >= sc.A2 ? "A2" : "under A2") : null;
+    const level = !sc ? null : sc.G != null ? (right >= sc.G ? "G" : "IG") : (right >= sc.B1 ? "B1" : right >= sc.A2 ? "A2" : "under A2");
+    const marks = !sc ? [] : Object.entries(sc).filter(([k]) => k !== "max");
     app.innerHTML = `
       <h1>Resultat</h1><div class="en">Results — saved. Your teacher will grade writing and speaking.</div>
       <div class="card result-card">
         <div class="result-top">
           <div class="score">${right}<span>/ ${auto.length}</span></div>
-          ${level ? `<div class="level level-${level.replace(" ", "-")}">Nivå: <b>${level}</b></div>` : ""}
+          ${level ? `<div class="level level-${level.replace(" ", "-")}">${sc.G != null ? "Resultat" : "Nivå"}: <b>${level}</b></div>` : ""}
           ${!exam && ft.length ? `<div class="muted">Första försöket: ${ft.filter(Boolean).length} av ${ft.length}</div>` : ""}
           ${payload.overtime ? `<div class="badge warn-badge">Övertid</div>` : ""}
           <div class="muted">${payload.durationMin} min</div>
         </div>
         ${sc ? `<div class="levelbar"><span style="width:${pct(right, sc.max)}%"></span>
-          <i style="left:${pct(sc.A2, sc.max)}%"><em>A2 ${sc.A2}</em></i><i style="left:${pct(sc.B1, sc.max)}%"><em>B1 ${sc.B1}</em></i></div>` : ""}
+          ${marks.map(([k, v]) => `<i style="left:${pct(v, sc.max)}%"><em>${k} ${v}</em></i>`).join("")}</div>` : ""}
         <table class="scores">${steps.filter(s => bySection[s.id]).map(s => {
           const b = bySection[s.id];
           return `<tr><td>${esc(s.title)}</td><td class="mini"><span style="width:${pct(b.correct, b.total)}%"></span></td><td>${b.correct} / ${b.total}</td></tr>`;

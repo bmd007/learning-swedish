@@ -1,4 +1,29 @@
-# Plan: Swedex A2B1 on 2026-12-04 (Göteborg)
+# Plan: SFI kurs D national test (old format)
+
+Goal: SFI D national test (old format; the learner is enrolled in SFI D and takes the test before the
+2027 syllabus change). Pass (G) needed in all four parts: Läsa, Höra, Skriva, Tala.
+Test date: unknown (ask the learner / their SFI school). When known, write it as `Test date: YYYY-MM-DD`
+on this line's place – the app's countdown reads it.
+Backup: Swedex A2B1 (2026-12-04, Göteborg) – most practice transfers.
+
+## SFI D format (old test, see docs/research.md)
+- Läsa: short texts + one longer article. Find info in ads, purpose of a text message, read a chart, match
+  interview questions ↔ answers, who a text is written for, "who thinks what" in chat posts. Mostly MCQ/matching.
+- Höra: interviews, conversations, news – multiple choice.
+- Skriva: (1) informal letter/email to a friend (2) formal text, e.g. reply to an insändare: opinion +
+  reasons + fitting start/end. Criteria: content, adaptation to reader, coherence/structure, textbindning,
+  ordförråd, grammatik (viss variation och säkerhet), stavning.
+- Tala: (1) solo "Berätta och ge råd" 3–4 min (2) pair discussion from a mind map ~10 min, agree on the
+  most important factors. Criteria add interaction + uttal.
+- Pass/fail per part (G/IG). Total 4–5 h over several sessions.
+
+## Priorities (from the learner's data)
+1. Writing + speaking in SFI D shapes (new: formal opinion text, giving advice, pair discussion).
+2. Reading: SFI D text types (charts, chat posts, sms, interview matching) + Swedex-style practice we have.
+3. Grammar from errors: adjective agreement / en-ett memory, verb forms after signal words, past-story chains.
+4. Listening: real audio (Klartext) + MCQ; already ~B1.
+
+## Previous plan (Swedex A2B1) – kept for reference
 
 Goal: B1 in all four parts (overall = lowest part). Reading ≥ 22/30, listening ≥ 22/30.
 Then SFI D / citizenship route as backup.

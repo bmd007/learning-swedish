@@ -190,7 +190,17 @@ Use existing tags when possible. New tags follow `area.sub`. Tags drive `progres
 
 ## Exam we prepare for
 
-Swedex A2B1, 2026-12-04. Format and timeline: `progress/plan.md`. Shapes to mirror:
+**Main: SFI D national test (old format).** Format and priorities: `progress/plan.md`. SFI D shapes:
+- Reading: ads (find info), purpose of an sms, read a chart/table, match interview questions ↔ answers,
+  who a text is written for, "who thinks what" in chat/forum posts, one longer article with MCQ.
+- Listening: interviews, conversations, news – `mcq`.
+- Writing: informal letter/email to a friend; formal opinion text (e.g. reply to an insändare).
+- Speaking: solo "Berätta och ge råd" (3–4 min, `maxSeconds` 240); pair discussion from a mind map where the
+  partner (TTS voice, item `audio`) gives views and the learner must react, argue and agree.
+SFI D is pass/fail: in `scoring` use `{"max": n, "G": ~60–65% of n}` (no official per-item cut-offs;
+the app shows A2/B1 only when those keys exist).
+
+**Backup: Swedex A2B1** (2026-12-04). Shapes to mirror:
 - Reading: Ja/Nej on letters/fact texts (`mcq` with ["Ja","Nej"]), people↔ads (`select` + part `options`),
   insändare MCQ, fact text ↔ synonymous sentences (`select`).
 - Listening (played twice): messages MCQ, radio/messages and dialogue answered in 1–5 words (`short`),
