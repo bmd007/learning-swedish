@@ -1,0 +1,328 @@
+{
+  "id": "020-utan-ordet",
+  "title": "Du vet inte ordet? Beskriv det!",
+  "titleEn": "Don't know the word? Describe it!",
+  "mode": "practice",
+  "minutes": 12,
+  "intro": "På provet kommer ibland ett ämne där du saknar orden. Lösningen är omskrivning: du beskriver saken med enkla ord. Du får mönster, övar, lyssnar och skriver om din första mobiltelefon.",
+  "introEn": "Sometimes the test topic needs words you don't have. The solution is circumlocution: describe the thing in simple words. Patterns, practice, listening, then write about your first phone.",
+  "sections": [
+    {
+      "id": "monster",
+      "title": "Mönstren",
+      "titleEn": "The patterns",
+      "instructions": "Läs mönstren. Titta på bilden.",
+      "instructionsEn": "Read the patterns. Look at the picture.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "md": "**Du vet inte ordet? Beskriv det!** Det kallas *omskrivning*. Det är helt okej på provet: du visar att du kan förklara. Du behöver inte det exakta ordet.\n\n| Mönster | Exempel |\n|---|---|\n| **en sån där … som man …** | *en sån där sak som man har på sig när det regnar* |\n| **en sak som man använder för att …** | *en sak som man använder för att ladda telefonen* |\n| **det är ungefär som …, fast …** | *Det är ungefär som en dator, fast mindre.* |\n| **den hade … i stället för …** | *Den hade knappar i stället för en pekskärm.* |\n| **ett ställe där man …** | *ett ställe där man kan låna böcker* |\n| **en person som …** | *en person som lagar bilar* |\n| **jag vet inte vad det heter på svenska, men …** | *Jag vet inte vad det heter på svenska, men man använder det när man …* |\n| **det var lite som …** | *Det var lite som ett litet datorspel.* |\n\n**Mellanord (umbrella words):** *en sak / en grej, en apparat, ett program, en knapp, en skärm, en funktion, ett spel.* Börja med ett brett ord och lägg till en beskrivning: *en apparat som …*\n\n**Regel:** efter *som* kommer en bisats. Verbet i presens eller preteritum, och *inte* står före verbet: *en telefon som inte fungerade*, *en sak som man inte behöver idag*.\n\n**Persiska:** وقتی کلمه را نمی‌دانی، توضیحش بده: «چیزی که با آن … می‌کنیم». *som* مثل «که» است. بعد از *som* ترتیب جمله مثل جملهٔ پیرو است: *som inte fungerade* (نه *som fungerade inte*).",
+          "image": {
+            "src": "telefon.svg",
+            "alt": "En gammal mobiltelefon med pilar till antenn, liten skärm, knappar med siffror och en vikbar mitt",
+            "caption": "Gammal telefon: beskriv delarna med enkla ord."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ova",
+      "title": "Öva",
+      "titleEn": "Practice",
+      "instructions": "Välj den beskrivning som passar.",
+      "instructionsEn": "Choose the description that fits.",
+      "parts": [
+        {
+          "heading": "Vilken beskrivning passar?",
+          "headingEn": "Which description fits?",
+          "items": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "tags": [
+                "ord.omskrivning"
+              ],
+              "q": "Du vet inte ordet \"laddare\". Vilken beskrivning passar?",
+              "qEn": "You don't know the word 'charger'. Which description fits?",
+              "options": [
+                "En sak som man tittar på när man ringer",
+                "En sak som man använder för att ladda telefonen",
+                "Ett ställe där man köper telefoner"
+              ],
+              "answer": 1,
+              "explain": "Mönster: en sak som man använder för att + verb.",
+              "explainEn": "Pattern: en sak som man använder för att + verb."
+            },
+            {
+              "id": "q2",
+              "type": "mcq",
+              "tags": [
+                "ord.omskrivning"
+              ],
+              "q": "Vilken beskrivning passar ordet \"bibliotek\"?",
+              "qEn": "Which description fits 'library'?",
+              "options": [
+                "Ett ställe där man kan låna böcker gratis",
+                "En person som säljer böcker",
+                "En sak som man använder för att skriva"
+              ],
+              "answer": 0,
+              "explain": "Mönster: ett ställe där man …",
+              "explainEn": "Pattern: ett ställe där man …"
+            }
+          ]
+        },
+        {
+          "heading": "Ord och beskrivningar",
+          "headingEn": "Words and descriptions",
+          "options": [
+            "A. en tvättmaskin",
+            "B. ett körkort",
+            "C. ett paraply",
+            "D. en kalender"
+          ],
+          "items": [
+            {
+              "id": "s1",
+              "type": "select",
+              "tags": [
+                "ord.omskrivning"
+              ],
+              "q": "En sak som man använder när det regnar, så att man inte blir blöt.",
+              "answer": 2,
+              "explain": "Ett paraply.",
+              "explainEn": "An umbrella."
+            },
+            {
+              "id": "s2",
+              "type": "select",
+              "tags": [
+                "ord.omskrivning"
+              ],
+              "q": "En apparat där man lägger in smutsiga kläder. Den tvättar dem.",
+              "answer": 0,
+              "explain": "En tvättmaskin.",
+              "explainEn": "A washing machine."
+            }
+          ]
+        },
+        {
+          "heading": "Fyll i",
+          "headingEn": "Fill in",
+          "items": [
+            {
+              "id": "g1",
+              "type": "gap",
+              "tags": [
+                "ord.omskrivning",
+                "verb.preteritum"
+              ],
+              "q": "Jag hade en telefon som man ___ vika ihop.",
+              "base": "kunna",
+              "answers": [
+                "kunde"
+              ],
+              "qEn": "I had a phone that you could fold.",
+              "explain": "Berättar om förr: preteritum, kunde.",
+              "explainEn": "Telling about the past: kunde."
+            },
+            {
+              "id": "g2",
+              "type": "gap",
+              "tags": [
+                "ord.omskrivning",
+                "verb.presens"
+              ],
+              "q": "Det är en sak som man ___ för att öppna burkar.",
+              "base": "använda",
+              "answers": [
+                "använder"
+              ],
+              "explain": "Allmänt sant nu: presens, använder.",
+              "explainEn": "General truth now: present."
+            },
+            {
+              "id": "g3",
+              "type": "gap",
+              "tags": [
+                "ord.omskrivning",
+                "preposition"
+              ],
+              "q": "Min första telefon hade knappar i stället ___ en pekskärm.",
+              "answers": [
+                "för"
+              ],
+              "explain": "i stället för = instead of.",
+              "explainEn": "i stället för = instead of."
+            },
+            {
+              "id": "o1",
+              "type": "order",
+              "tags": [
+                "ordföljd.bisats"
+              ],
+              "q": "Sätt orden i rätt ordning.",
+              "words": [
+                "telefon",
+                "inte",
+                "en",
+                "Det",
+                "som",
+                "fungerade",
+                "bra",
+                "var"
+              ],
+              "answers": [
+                "Det var en telefon som inte fungerade bra"
+              ],
+              "explain": "I bisatsen efter som står inte före verbet: som inte fungerade.",
+              "explainEn": "In the clause after som, inte comes before the verb."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hora",
+      "title": "Lyssna",
+      "titleEn": "Listen",
+      "instructions": "Lyssna två gånger. Välj rätt svar.",
+      "instructionsEn": "Listen twice. Choose the correct answer.",
+      "parts": [
+        {
+          "heading": "Saras första telefon",
+          "headingEn": "Sara's first phone",
+          "audio": {
+            "id": "a1",
+            "title": "Saras första mobil",
+            "maxPlays": 2,
+            "speakers": {
+              "Sara": "f",
+              "Johan": "m"
+            },
+            "rate": "+5%",
+            "script": [
+              {
+                "speaker": "Johan",
+                "text": "Du, Sara, minns du din första mobil?"
+              },
+              {
+                "speaker": "Sara",
+                "text": "Ja, absolut! Alltså, det var en sån där liten telefon med knappar, du vet, en sån som man kunde vika ihop. Jag fick den av min pappa när jag var tolv. Nej vänta, tretton."
+              },
+              {
+                "speaker": "Johan",
+                "text": "Kunde man surfa på den?"
+              },
+              {
+                "speaker": "Sara",
+                "text": "Nä, inte alls. Eller, det gick väl, men det var så långsamt att ingen använde det. Man kunde ringa och skicka sms, och sen fanns det ett spel. Jag vet inte vad det heter, men det var ett sånt där spel med en orm som blev längre och längre."
+              },
+              {
+                "speaker": "Johan",
+                "text": "Jaha, ormspelet! Jag spelade det jättemycket."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Precis! Det var lite som en liten dator, fast mycket sämre. Och batteriet, det höll i en vecka. Idag måste jag ladda telefonen varje kväll. Men kamera hade den inte. Min kompis hade en med kamera, men min pappa tyckte att det var onödigt."
+              },
+              {
+                "speaker": "Johan",
+                "text": "Och nu då?"
+              },
+              {
+                "speaker": "Sara",
+                "text": "Nu har jag en smartphone, men jag saknar den gamla lite. Man tittade inte på skärmen hela tiden."
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "h1",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Vad kunde man göra med Saras första telefon?",
+              "qEn": "What could you do with Sara's first phone?",
+              "options": [
+                "Man kunde surfa och ta bilder.",
+                "Man kunde bara ringa.",
+                "Man kunde ringa, skriva sms och spela ett spel."
+              ],
+              "answer": 2,
+              "explain": "Hon säger: ringa och skicka sms, och ett spel (ormspelet).",
+              "explainEn": "Calls, sms and a game."
+            },
+            {
+              "id": "h2",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Vad var bra med den gamla telefonen?",
+              "qEn": "What was good about the old phone?",
+              "options": [
+                "Den hade en bra kamera.",
+                "Batteriet räckte länge.",
+                "Den var billig."
+              ],
+              "answer": 1,
+              "explain": "Batteriet höll i en vecka.",
+              "explainEn": "The battery lasted a week."
+            },
+            {
+              "id": "h3",
+              "type": "mcq",
+              "tags": [
+                "hör.slutsats"
+              ],
+              "q": "Vem ville inte att telefonen skulle ha kamera?",
+              "qEn": "Who did not want the phone to have a camera?",
+              "options": [
+                "Saras kompis",
+                "Saras pappa",
+                "Sara själv"
+              ],
+              "answer": 1,
+              "explain": "Pappan tyckte att en kamera var onödig.",
+              "explainEn": "Her dad thought it was unnecessary."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skriv",
+      "title": "Skriv",
+      "titleEn": "Write",
+      "instructions": "Skriv en text. Du kommer säkert inte ihåg alla ord för gamla telefoner. Beskriv dem i stället!",
+      "instructionsEn": "Write a text. If you lack a word, describe it.",
+      "items": [
+        {
+          "id": "w1",
+          "type": "write",
+          "tags": [
+            "skriv.berätta",
+            "ord.omskrivning"
+          ],
+          "q": "Min första mobiltelefon",
+          "qEn": "My first mobile phone",
+          "minWords": 80,
+          "maxWords": 150,
+          "bullets": [
+            "Vem gav dig telefonen, och när?",
+            "Hur såg den ut?",
+            "Vad kunde den göra?",
+            "Vad använde du den till?",
+            "Vad tycker du om telefoner idag?",
+            "Använd minst tre mönster från kortet, till exempel: en sån där … som man …, den hade … i stället för …, det var lite som …"
+          ],
+          "explain": "Läraren läser din text.",
+          "explainEn": "The teacher reads your text."
+        }
+      ]
+    }
+  ]
+}

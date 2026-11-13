@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="system-ui, Helvetica, Arial, sans-serif">
+  <rect width="640" height="340" fill="#ffffff"/>
+  <line x1="300" y1="30" x2="300" y2="8" stroke="#555" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="300" cy="8" r="5" fill="#555"/>
+  <rect x="240" y="30" width="120" height="290" rx="18" fill="#34495e"/>
+  <rect x="256" y="50" width="88" height="62" rx="4" fill="#aed6c0" stroke="#222" stroke-width="2"/>
+  <text x="300" y="86" text-anchor="middle" font-size="14" fill="#222">12:30</text>
+  <g fill="#ecf0f1">
+    <circle cx="268" cy="150" r="9"/><circle cx="300" cy="150" r="9"/><circle cx="332" cy="150" r="9"/>
+    <circle cx="268" cy="182" r="9"/><circle cx="300" cy="182" r="9"/><circle cx="332" cy="182" r="9"/>
+    <circle cx="268" cy="214" r="9"/><circle cx="300" cy="214" r="9"/><circle cx="332" cy="214" r="9"/>
+    <circle cx="268" cy="246" r="9"/><circle cx="300" cy="246" r="9"/><circle cx="332" cy="246" r="9"/>
+  </g>
+  <line x1="250" y1="285" x2="350" y2="285" stroke="#95a5a6" stroke-width="2" stroke-dasharray="5 4"/>
+  <g stroke="#1a5276" stroke-width="2" fill="none">
+    <path d="M285 12 L200 22"/><path d="M256 80 L200 80"/><path d="M268 200 L200 200"/><path d="M250 285 L200 285"/>
+    <path d="M360 120 L430 80"/><path d="M360 230 L430 230"/>
+  </g>
+  <g font-size="16" fill="#1a5276">
+    <text x="12" y="20">antenn</text><text x="12" y="30" font-size="13">en sak som sticker upp</text>
+    <text x="12" y="76">liten skärm</text><text x="12" y="96" font-size="13">ingen färg, ingen pekskärm</text>
+    <text x="12" y="196">knappar med siffror</text><text x="12" y="216" font-size="13">man tryckte på dem</text>
+    <text x="12" y="281">kunde vikas ihop</text><text x="12" y="301" font-size="13">i mitten, som en bok</text>
+    <text x="436" y="76">ingen kamera</text>
+    <text x="436" y="226">ringa och sms</text><text x="436" y="246" font-size="13">inget internet</text>
+  </g>
+</svg>
