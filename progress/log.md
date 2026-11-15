@@ -127,3 +127,10 @@
   MCQ; ch. 5 helgen – forum "vem tycker vad"), self-check with explanations, a copyable result summary to paste
   into chat. Artifact publishing unavailable (API-token session) → file sent to the phone manually.
 - Next step: when the learner pastes the result, log the errors in the learner model.
+
+## 2026-11-15 – Full-length reading for the phone
+- Learner: phone reading too short → wants real exam length.
+- New `tools/phone_reading.py` + `reading/_template.html`: lesson JSON → standalone phone page (timer, check per part, copyable result).
+- Exported: `reading/swedex-lasprov-helt.html` (016+017, 30 q, 60 min), `reading/sfi-d-lasprov.html` (018), `reading/taglasning-2.html` (new 021, full Swedex reading on Rivstart themes: friluftsliv, träning/kurser, husdjur, vardagen 1960–idag).
+- 021 reviewed: fixed grammar in del 4 sentence 30, two explanations.
+- Next: grade whatever the learner pastes/finishes. Then SFI D speaking lesson (berätta + ge råd, pair discussion).

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" font-family="system-ui, sans-serif">
+<rect width="600" height="260" fill="#ffffff"/>
+<rect x="0" y="150" width="600" height="110" fill="#bfe3f5"/>
+<ellipse cx="300" cy="150" rx="190" ry="38" fill="#7fb36a"/>
+<polygon points="250,150 300,85 350,150" fill="#e8913a"/>
+<polygon points="300,85 300,150 350,150" fill="#c8741f"/>
+<rect x="388" y="105" width="8" height="40" fill="#6b4a2b"/><polygon points="392,70 372,112 412,112" fill="#2f7a3f"/>
+<polygon points="70,200 130,200 120,214 80,214" fill="#d9453b"/><line x1="100" y1="170" x2="100" y2="200" stroke="#333" stroke-width="3"/>
+<text x="300" y="40" text-anchor="middle" font-size="26" fill="#234">Ekön – tält på ön</text>
+<text x="100" y="240" text-anchor="middle" font-size="16" fill="#234">kajak</text>
+<text x="300" y="178" text-anchor="middle" font-size="16" fill="#fff">tält</text>
+</svg>

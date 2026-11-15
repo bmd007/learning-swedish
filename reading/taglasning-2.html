@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tågläsning 2 – helt läsprov</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one narrow reading column like an exam booklet; sticky bar with timer + part tabs. */
+:root {
+  --paper: #f7f8fa; --sheet: #ffffff; --ink: #1b2430; --soft: #5b6573; --rule: #dfe3e8;
+  --blue: #1f5f8b; --blue-soft: #e6eff6; --mark: #f2c94c; --ok: #1d7a46; --ok-soft: #e4f3ea;
+  --bad: #b3362b; --bad-soft: #fbe8e6; --warn: #9a6a00;
+  --sans: Inter, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12161c; --sheet: #1a2028; --ink: #e6e9ee; --soft: #9aa4b1; --rule: #2c3440;
+    --blue: #7fb6e0; --blue-soft: #1d2a37; --mark: #e0b43a; --ok: #5cc68a; --ok-soft: #16301f;
+    --bad: #ff8a7d; --bad-soft: #3a1f1c; --warn: #e0b43a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12161c; --sheet: #1a2028; --ink: #e6e9ee; --soft: #9aa4b1; --rule: #2c3440;
+  --blue: #7fb6e0; --blue-soft: #1d2a37; --mark: #e0b43a; --ok: #5cc68a; --ok-soft: #16301f;
+  --bad: #ff8a7d; --bad-soft: #3a1f1c; --warn: #e0b43a; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+[hidden] { display: none !important; }
+body { margin: 0; padding-top: env(safe-area-inset-top, 0px); background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--sheet); }
+.wrap { max-width: 660px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { background: var(--sheet); }
+header.top .wrap { padding-block: 16px 4px; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+h1 { font-size: 25px; line-height: 1.2; margin: 4px 0 2px; text-wrap: balance; }
+.sub { color: var(--soft); font-size: 15px; margin: 0 0 4px; }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--sheet); border-bottom: 1px solid var(--rule); }
+.bar .wrap { padding-block: 8px; display: grid; gap: 8px; }
+.clock { display: flex; justify-content: space-between; align-items: center; font-size: 14px; color: var(--soft); font-variant-numeric: tabular-nums; }
+.clock b { color: var(--ink); font-size: 16px; }
+.clock b.warn { color: var(--warn); } .clock b.over { color: var(--bad); }
+.tabs { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.tabs a { flex: 1 0 auto; min-width: 64px; text-align: center; text-decoration: none; color: var(--ink); font-size: 14px; font-weight: 600; padding: 7px 8px; border-radius: 10px; border: 1px solid var(--rule); display: flex; flex-direction: column; }
+.tabs a small { font-weight: 400; font-size: 12px; color: var(--soft); font-variant-numeric: tabular-nums; }
+.tabs a[aria-current="true"] { background: var(--blue); border-color: var(--blue); color: var(--sheet); }
+.tabs a[aria-current="true"] small { color: var(--sheet); opacity: .85; }
+.tabs a.done small { color: var(--ok); font-weight: 600; }
+.tabs a.done[aria-current="true"] small { color: var(--sheet); }
+main .wrap { padding-block: 16px 48px; display: grid; gap: 16px; }
+h2.sec { font-size: 21px; margin: 4px 0 0; }
+.how { font-size: 15px; color: var(--soft); margin: 0; }
+article.text { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 18px 16px; font-size: 18px; line-height: 1.65; min-width: 0; overflow-wrap: break-word; }
+article.text h3 { font-size: 19px; line-height: 1.3; margin: 0 0 10px; text-wrap: balance; }
+article.text .head { font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--soft); margin-bottom: 6px; }
+article.text p { margin: 0 0 12px; white-space: pre-line; }
+article.text p:last-child { margin-bottom: 0; }
+.sn { display: inline-block; min-width: 22px; padding: 0 5px; margin-right: 3px; border-radius: 6px; background: var(--blue); color: var(--sheet); font-size: 12px; font-weight: 700; text-align: center; line-height: 19px; vertical-align: 2px; font-variant-numeric: tabular-nums; }
+.q { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 14px; display: grid; gap: 10px; }
+.q p { margin: 0; font-weight: 500; }
+.q .n { display: inline-flex; align-items: center; justify-content: center; min-width: 28px; height: 26px; padding: 0 6px; border-radius: 99px; background: var(--blue); color: var(--sheet); font-size: 13px; font-weight: 700; margin-right: 8px; font-variant-numeric: tabular-nums; }
+.opts { display: grid; gap: 8px; }
+.opts.two { grid-template-columns: 1fr 1fr; }
+.opts.grid { grid-template-columns: repeat(auto-fill, minmax(48px, 1fr)); gap: 6px; }
+.opts button { font: inherit; font-size: 16px; text-align: left; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 11px 12px; min-height: 46px; cursor: pointer; }
+.opts.two button, .opts.grid button { text-align: center; font-weight: 600; padding: 10px 4px; }
+.opts.grid button.wide { grid-column: 1 / -1; font-weight: 500; }
+.opts button[aria-pressed="true"] { border-color: var(--blue); background: var(--blue-soft); box-shadow: inset 0 0 0 1px var(--blue); }
+.opts button.is-key { border-color: var(--ok); background: var(--ok-soft); box-shadow: inset 0 0 0 1px var(--ok); }
+.opts button.is-miss { border-color: var(--bad); background: var(--bad-soft); }
+.q input { font: inherit; width: 100%; padding: 10px 12px; border: 1px solid var(--rule); border-bottom: 2px solid var(--blue); border-radius: 10px; background: var(--paper); color: var(--ink); }
+.q.right { border-color: var(--ok); } .q.wrong { border-color: var(--bad); }
+.why { font-size: 15px; border-radius: 10px; padding: 10px 12px; }
+.q.right .why { background: var(--ok-soft); } .q.wrong .why { background: var(--bad-soft); }
+.why b { display: block; }
+.legend { font-size: 14px; color: var(--soft); background: var(--sheet); border: 1px dashed var(--rule); border-radius: 10px; padding: 8px 12px; }
+.legend div { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.actions { display: grid; gap: 10px; }
+.btn { font: inherit; font-weight: 600; font-size: 17px; border: 0; border-radius: 12px; padding: 14px; background: var(--blue); color: var(--sheet); cursor: pointer; text-align: center; text-decoration: none; }
+.btn.ghost { background: transparent; color: var(--blue); border: 1px solid var(--blue); }
+.btn:focus-visible, .opts button:focus-visible, .tabs a:focus-visible { outline: 3px solid var(--mark); outline-offset: 2px; }
+.score { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 14px 16px; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.score strong { font-size: 30px; font-variant-numeric: tabular-nums; }
+.score span { color: var(--soft); font-size: 15px; }
+.summary { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 16px; display: grid; gap: 12px; }
+.summary h2 { font-size: 20px; margin: 0; }
+.verdict { font-size: 22px; font-weight: 700; padding: 8px 14px; border-radius: 10px; justify-self: start; }
+.verdict.good { background: var(--ok-soft); color: var(--ok); } .verdict.mid { background: var(--blue-soft); color: var(--blue); } .verdict.low { background: var(--bad-soft); color: var(--bad); }
+.summary table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: 15px; }
+.summary td { padding: 7px 0; border-bottom: 1px solid var(--rule); }
+.summary td:last-child { text-align: right; font-weight: 600; }
+.summary textarea { width: 100%; min-height: 110px; font: 13px/1.4 ui-monospace, Menlo, monospace; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 10px; }
+.hint { font-size: 14px; color: var(--soft); margin: 0; }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="eyebrow" id="eyebrow"></div>
+  <h1 id="title"></h1>
+  <p class="sub" id="sub"></p>
+</div></header>
+<div class="bar"><div class="wrap">
+  <div class="clock" id="clock"></div>
+  <nav class="tabs" id="tabs" aria-label="Delar"></nav>
+</div></div>
+<main><div class="wrap" id="view"></div></main>
+<script>
+const TEST = {"id": "021", "title": "Tågläsning 2 – helt läsprov", "eyebrow": "Läsförståelse · Swedex A2B1 / SFI D", "numberStart": 1, "timeLimit": 60, "scoring": {"max": 30, "A2": 17, "B1": 22}, "sections": [{"title": "Läsförståelse del 1", "instructions": "Läs brevet och de två faktatexterna. Svara Ja eller Nej på fråga 1–10.", "parts": [{"heading": "Fråga 1–10", "passageTitle": "Brev och faktatexter", "passage": "BREV\n\nGöteborg den 3 maj\n\nHej Daniel!\n\nTack för ditt mejl! Vad roligt att du kommer och hälsar på mig i juni. Jag har redan planerat en hel del. Först och främst vill jag att vi åker ut till Ekön en helg. Jag har aldrig sovit i tält på en ö, men det måste vara fantastiskt! Du behöver inte köpa något, för min kollega Peter har lovat att låna ut sitt tält och två sovsäckar. Du behöver bara ta med bra skor och regnkläder, för vädret kan ändras snabbt.\n\nJag vill gärna hyra varsin kajak också, men jag har inte hunnit boka än. Jag har hört att kajakerna brukar vara slut i slutet av juni, så vi bör inte vänta för länge. Jag är lite orolig för maten. Jag tror att det finns en butik på ön, men jag är inte säker. Jag skickar med information om både ön och stigen som jag nämner nedan.\n\nVeckan efter vill jag att vi går första etappen av Gröna stigen. Min syster gick den förra sommaren och tyckte att den var mycket lättare än hon hade trott. Hon sa också att man måste boka plats i vindskydden, men det vet jag inte om det stämmer.\n\nJag längtar efter att få träffa dig!\n\nKram,\nSofia\n\n——————\n\nEKÖN\n\nEkön ligger i Göteborgs södra skärgård och är ungefär fyra kilometer lång. På ön finns inga bilvägar, så man går till fots. Man kommer till Ekön med färja från Hamnen. Resan tar 40 minuter, och färjan går två gånger om dagen: klockan 9.00 och klockan 16.30. Biljetten kostar 90 kronor.\n\nFrån juni till augusti kan man hyra kajak vid bryggan. Det kostar 250 kronor per dag, och flytväst ingår. Det är bra att boka i förväg, eftersom kajakerna ofta är slut redan i slutet av juni.\n\nMan får tälta gratis på tre markerade platser. Eld är förbjuden under sommaren eftersom skogen är torr, men man får använda gasolkök. Det finns ingen butik på ön, så ta med all mat. Dricksvatten finns vid bryggan, och vid hamnen ligger ett litet kafé som är öppet på helgerna. Ta alltid med skräpet hem igen.\n\n——————\n\nGRÖNA STIGEN\n\nGröna stigen är en vandringsled genom skog och längs sjöar. Hela leden är ungefär 80 kilometer lång och består av åtta etapper. Varje etapp är mellan 8 och 12 kilometer och tar tre till fem timmar att gå. Leden är markerad med gröna märken på träd och stenar.\n\nEtapp 1 är den lättaste och passar bra för den som är nybörjare. Etapp 5 är svårast, eftersom den har många branta backar. Vid slutet av varje etapp finns ett vindskydd där man får sova gratis. Man behöver inte boka, men det är först till kvarn som gäller. Det finns ingen mat att köpa längs leden, så man måste ta med både mat och vatten. Hundar är välkomna men ska vara kopplade. Startpunkten för etapp 1 ligger vid tågstationen i Olsbo.", "items": [{"id": "l1", "type": "mcq", "q": "Daniel kommer och hälsar på Sofia i juni.", "options": ["Ja", "Nej"], "answer": 0, "explain": "Brevet: \"Vad roligt att du kommer och hälsar på mig i juni.\""}, {"id": "l2", "type": "mcq", "q": "Daniel måste köpa ett eget tält.", "options": ["Ja", "Nej"], "answer": 1, "explain": "Brevet: \"Du behöver inte köpa något, för min kollega Peter har lovat att låna ut sitt tält.\""}, {"id": "l3", "type": "mcq", "q": "Sofia har redan bokat kajakerna.", "options": ["Ja", "Nej"], "answer": 1, "explain": "Brevet: \"jag har inte hunnit boka än\"."}, {"id": "l4", "type": "mcq", "q": "Sofia vill att de går den första etappen av Gröna stigen.", "options": ["Ja", "Nej"], "answer": 0, "explain": "Brevet: \"Veckan efter vill jag att vi går första etappen av Gröna stigen.\""}, {"id": "l5", "type": "mcq", "q": "Man tar sig till Ekön med båt.", "options": ["Ja", "Nej"], "answer": 0, "explain": "Ekön: \"Man kommer till Ekön med färja från Hamnen.\""}, {"id": "l6", "type": "mcq", "q": "Det går att köpa mat i en butik på Ekön.", "options": ["Ja", "Nej"], "answer": 1, "explain": "Ekön: \"Det finns ingen butik på ön, så ta med all mat.\" Sofia är osäker i brevet, men faktatexten svarar."}, {"id": "l7", "type": "mcq", "q": "Sofia och Daniel kan ta färjan till Ekön klockan 12.", "options": ["Ja", "Nej"], "answer": 1, "explain": "Ekön: färjan går \"klockan 9.00 och klockan 16.30\" – inte klockan 12."}, {"id": "l8", "type": "mcq", "q": "Den första etappen av Gröna stigen passar nybörjare.", "options": ["Ja", "Nej"], "answer": 0, "explain": "Gröna stigen: \"Etapp 1 är den lättaste och passar bra för den som är nybörjare.\""}, {"id": "l9", "type": "mcq", "q": "På Gröna stigen måste man boka plats i vindskydden.", "options": ["Ja", "Nej"], "answer": 1, "explain": "Gröna stigen: \"Man behöver inte boka, men det är först till kvarn som gäller.\" Sofias syster hade fel (eller Sofia minns fel)."}, {"id": "l10", "type": "mcq", "q": "Hela Gröna stigen är ungefär åtta mil lång.", "options": ["Ja", "Nej"], "answer": 0, "explain": "Gröna stigen: \"ungefär 80 kilometer lång\" = åtta mil."}]}]}, {"title": "Läsförståelse del 2", "instructions": "Läs annonserna A–H. Välj vilken annons som passar bäst för varje person (fråga 11–16). Du kan bara använda varje annons en gång. Två annonser passar ingen.", "parts": [{"heading": "Fråga 11–16", "passageTitle": "Träning och kurser", "passage": "Annons A: Stavgång i skogen\nNordic walking med guide\nVi går torsdagar klockan 10.00 i Hammarskogen. Passet är cirka 90 minuter, passar alla åldrar och går i lugnt tempo. Stavar kan lånas. Efteråt dricker vi kaffe tillsammans. Pris: 80 kronor per gång.\n\nAnnons B: Salsa för par\nDansa salsa!\nNy kurs startar i höst på lördagskvällar klockan 19–21 i Folkets hus. Kursen är åtta kvällar. Ni behöver inga förkunskaper, men ni måste komma två och två. Pris: 1 200 kronor per par. Dansskolan Rytmen.\n\nAnnons C: Klättring för nybörjare\nProva på klättring!\nKlätterhallen Toppen ordnar en introkurs på måndagar klockan 17.30–19.30, fyra gånger. Du lär dig grunderna med en erfaren instruktör. Skor, sele och rep ingår i priset. Åldersgräns: 16 år. Pris: 900 kronor.\n\nAnnons D: Seniorgympa\nAktiv 65+\nMjuk gympa i Folkets hus varje onsdag klockan 10.00. Vi tränar lugnt, och det finns stolar om man behöver vila. Efteråt fikar vi tillsammans. Alla över 65 år är välkomna. Pris: 50 kronor per gång.\n\nAnnons E: Gympa för små och stora\nRör er tillsammans!\nLördagar klockan 10.00–10.45 i skolans gymnastiksal. För barn mellan 2 och 5 år tillsammans med en vuxen. Vi sjunger, hoppar och leker. Ta med strumpor. Pris: 40 kronor per familj.\n\nAnnons F: Yoga i parken\nBörja dagen med yoga!\nVi träffas tisdagar och torsdagar klockan 6.30 i Slottsparken, från maj till september. En instruktör leder passet. Du tar med din egen matta. Passar nybörjare. Pris: 600 kronor för hela säsongen.\n\nAnnons G: Löpargruppen Snabba Fötter\nSpring med oss!\nVi träffas tisdagar, onsdagar och torsdagar klockan 18.00 vid Stadsparkens entré. Vi springer fem kilometer utomhus i alla väder och i olika tempo. Alla är välkomna. Ingen avgift. Ta med egna löparskor.\n\nAnnons H: Boxning för alla\nTräna kondition och styrka!\nBoxningsklubben Slaget har träning tisdagar och torsdagar klockan 19.00–20.30 med tränare. Handskar och bandage lånas ut. Åldersgräns: 18 år. Pris: 300 kronor i månaden.", "options": ["A. Stavgång i skogen", "B. Salsa för par", "C. Klättring för nybörjare", "D. Seniorgympa", "E. Gympa för små och stora", "F. Yoga i parken", "G. Löpargruppen Snabba Fötter", "H. Boxning för alla"], "items": [{"id": "l11", "type": "select", "q": "Anna jobbar till klockan 17 och vill träna utomhus på kvällen. Hon vill inte betala något.", "answer": 6, "explain": "Annons G: kväll (18.00), utomhus, \"Ingen avgift\". Yoga (F) och stavgång (A) är utomhus men på morgonen/dagen och kostar pengar."}, {"id": "l12", "type": "select", "q": "Mohammed är 17 år och vill lära sig en helt ny sport på måndagarna. Han har ingen egen utrustning.", "answer": 2, "explain": "Annons C: måndagar, åldersgräns 16 år, \"Skor, sele och rep ingår\". Boxning (H) kräver 18 år och är på tisdag/torsdag."}, {"id": "l13", "type": "select", "q": "Lena vill ha hård träning med tränare. Hon kan bara träna tisdagar och torsdagar från klockan 19 och vill inte köpa egen utrustning.", "answer": 7, "explain": "Annons H: tisdagar och torsdagar 19.00–20.30, tränare, \"Handskar och bandage lånas ut\". Yoga (F) är samma dagar men klockan 6.30 och man tar med egen matta."}, {"id": "l14", "type": "select", "q": "Erik och hans fru vill göra något roligt tillsammans på lördagskvällen. De har aldrig dansat förut.", "answer": 1, "explain": "Annons B: lördagskvällar, par, \"inga förkunskaper\"."}, {"id": "l15", "type": "select", "q": "Birgit är 72 år och vill träna lugnt inomhus. Hon vill gärna fika med andra efteråt.", "answer": 3, "explain": "Annons D: \"Mjuk gympa i Folkets hus\", \"Efteråt fikar vi tillsammans\". Stavgång (A) har också kaffe men är utomhus."}, {"id": "l16", "type": "select", "q": "Jonas har en treårig dotter. De vill träna tillsammans på lördagsförmiddagen.", "answer": 4, "explain": "Annons E: lördagar 10.00, barn 2–5 år med en vuxen."}]}]}, {"title": "Läsförståelse del 3", "instructions": "Läs de två insändarna. Välj rätt svar på fråga 17–22.", "parts": [{"heading": "Fråga 17–19", "passageTitle": "Koppla hunden!", "passage": "I lördags var jag i Stadsparken med min treåriga son. Vi satt på en filt och åt äpplen när en stor hund kom springande över gräset. Hunden hoppade upp på min son och välte omkull honom. Ägaren stod långt bort och ropade: \"Han är jättesnäll!\" Min son grät i en timme, och sedan dess vill han inte gå förbi en hund utan att hålla hårt i min hand.\n\nI vår stad finns en regel om att hundar ska vara kopplade i parkerna, hela året. Ändå ser jag varje dag hundar som springer fritt. Jag hade själv hund när jag var barn, så jag är inte emot djur. Men man vet aldrig hur en hund reagerar, och inte alla människor tycker om hundar. Vissa är rädda, andra är allergiska.\n\nHundägare säger ofta att hunden behöver springa. Det förstår jag. Därför finns det hundrastgårdar där hundarna får vara lösa. Alla kan se att en park med barn, picknickfiltar och cyklister inte är rätt plats för det.\n\nJag har pratat med andra föräldrar i parken, och många berättar liknande historier. En mamma sa att hennes dotter slutade cykla efter att en hund hade sprungit efter cykeln. Hundägarna tror ofta att hunden bara leker, men för ett litet barn är en stor hund som kommer springande skrämmande.\n\nJag ber alla hundägare: följ reglerna! Det handlar om respekt för andra.\n\nOrolig förälder", "items": [{"id": "l17", "type": "mcq", "q": "Varför skriver författaren insändaren?", "options": ["För att varna för en farlig hund i Stadsparken", "För att föreslå att hundar ska förbjudas i staden", "För att be hundägare att följa reglerna i parken", "För att berätta om en trevlig dag i parken"], "answer": 2, "explain": "\"Jag ber alla hundägare: följ reglerna! Det handlar om respekt för andra.\""}, {"id": "l18", "type": "mcq", "q": "Vad hände med författarens son efter mötet med hunden?", "options": ["Han blev rädd för hundar.", "Han fick åka till sjukhus.", "Han blev allergisk mot hundar.", "Han ville ha en egen hund."], "answer": 0, "explain": "\"sedan dess vill han inte gå förbi en hund utan att hålla hårt i min hand.\""}, {"id": "l19", "type": "mcq", "q": "Vilken inställning till hundar har författaren?", "options": ["Författaren är rädd för alla hundar.", "Författaren har inget emot hundar men vill att de är kopplade i parken.", "Författaren tycker att hundar ska förbjudas i staden."], "answer": 1, "explain": "\"Jag hade själv hund när jag var barn, så jag är inte emot djur\" och \"hundar ska vara kopplade i parkerna\". Författaren tycker att hundrastgårdar är bra."}]}, {"heading": "Fråga 20–22", "passageTitle": "Hundar behöver springa", "passage": "Jag har läst insändaren \"Koppla hunden!\" och jag förstår att det måste ha varit obehagligt. Det var inte okej att en hund välte ett barn, och jag skäms å hundägarens vägnar. Men jag vill ändå berätta hur det ser ut för oss som har hund.\n\nMin border collie behöver minst två timmars motion varje dag, och det räcker inte att gå i koppel. Hundrastgården i vårt område är liten, och den ligger tjugo minuter bort med buss. Därför släpper jag hunden lös i Stadsparken, men bara tidigt på morgonen, vid sex, när det nästan inte finns några människor där. Då kommer hunden alltid när jag ropar. På dagen, när det är många människor i parken, har jag den i koppel.\n\nJag har gått hundkurs med min hund i två år, och vi har tränat mycket på att komma direkt när jag ropar. Det är stor skillnad på en tränad hund och en ostyrig hund, och det vore bra om fler hundägare gick på kurs. Jag ser också människor som aldrig plockar upp efter sin hund, och det är inte okej. De flesta av oss tar sitt ansvar.\n\nJag tycker att staden ska bygga en större hundpark. Det bor fler hundar i staden nu än för tio år sedan, men hundrastgårdarna är desamma. Om hundägarna hade bättre alternativ skulle färre behöva bryta mot reglerna.\n\nHenrik, hundägare", "items": [{"id": "l20", "type": "mcq", "q": "Vad tycker Henrik om hundrastgården i sitt område?", "options": ["Den är farlig för små hundar.", "Den är bättre än Stadsparken.", "Den är stängd på morgnarna.", "Den är liten och ligger långt bort."], "answer": 3, "explain": "\"Hundrastgården i vårt område är liten, och den ligger tjugo minuter bort med buss.\""}, {"id": "l21", "type": "mcq", "q": "När släpper Henrik sin hund lös i parken?", "options": ["På eftermiddagen när barnen leker", "Bara i hundrastgården", "Tidigt på morgonen, när det är få människor där", "Hela dagen om hunden lyder"], "answer": 2, "explain": "\"bara tidigt på morgonen, vid sex, när det nästan inte finns några människor där\". På dagen har han hunden i koppel."}, {"id": "l22", "type": "mcq", "q": "Varför bryter många hundägare mot reglerna, enligt Henrik?", "options": ["De känner inte till reglerna.", "De tycker inte om barn.", "De har farliga hundar.", "Det finns inte tillräckligt bra platser där hundar får springa."], "answer": 3, "explain": "\"Om hundägarna hade bättre alternativ skulle färre behöva bryta mot reglerna.\""}]}]}, {"title": "Läsförståelse del 4", "instructions": "Läs texten. Meningarna är numrerade. Vilken mening i texten säger ungefär samma sak som meningarna i fråga 23–30? Välj numret. Om ingen mening i texten säger samma sak, välj 0.", "parts": [{"heading": "Fråga 23–30", "passageTitle": "Vardagen i Sverige – från 1960-talet till idag", "passage": "(1) Under de senaste sextio åren har vardagen i Sverige förändrats mycket. (2) Hur vi bor, arbetar och umgås skiljer sig tydligt från hur det var för våra föräldrar och far- och morföräldrar. (3) Här får du en kort översikt över några av de viktigaste förändringarna, decennium för decennium.\n\n(4) På 1960-talet växte städerna snabbt. (5) Många flyttade från landsbygden till staden eftersom det fanns jobb i industrin, och nya lägenheter byggdes i stor skala. (6) Mellan 1965 och 1974 byggde man en miljon bostäder i det som kallas miljonprogrammet. (7) Många av de nya bostäderna låg i utkanten av städerna och hade modernt kök och eget badrum. (8) Samtidigt kom arbetare från bland annat Italien, Grekland och Finland för att arbeta i svenska fabriker. (9) År 1962 beslutade riksdagen att alla barn skulle gå nio år i en gemensam grundskola. (10) Därmed träffades barn från olika delar av samhället i samma skola.\n\n(11) Under 1970-talet började allt fler kvinnor arbeta utanför hemmet. (12) Många barn bar nyckeln i ett snöre runt halsen och var ensamma hemma en stund efter skolan. (13) År 1974 ersattes mammaledigheten av föräldraförsäkringen, och därmed kunde även pappor få ersättning när de var hemma med barnen. (14) Många familjer köpte nu färg-tv, men det fanns fortfarande bara två kanaler att välja på. (15) På 1980-talet blev videobandspelaren populär, och man kunde för första gången se film hemma när man själv ville. (16) De första mobiltelefonerna var stora och dyra, och det var mest affärsmän som använde dem. (17) Samtidigt började många intressera sig för hälsa, och joggingspåren fylldes av människor i träningsoverall.\n\n(18) Under 1990-talet kom datorn och internet in i hemmen. (19) Först var det få som hade internet, och uppkopplingen var så långsam att man inte kunde ringa i telefon medan man var på nätet. (20) Samtidigt blev det allt vanligare med mobiltelefon, och i slutet av årtiondet hade de flesta vuxna en. (21) Många lärde sig också skriva e-post, och brev i brevlådan blev allt färre. (22) Sverige gick med i EU år 1995, vilket gjorde det lättare att resa och studera i andra europeiska länder. (23) Många började då också semestra utomlands oftare, till exempel i Spanien och Grekland.\n\n(24) På 2000-talet förändrades kommunikationen igen. (25) Smarta telefoner gjorde att man kunde läsa nyheter, betala räkningar och prata med vänner var man än befann sig. (26) Det blev också enklare att hålla kontakten med släkt och vänner i andra länder, och många som har flyttat till Sverige uppskattar det. (27) Idag använder många kort eller mobilen när de handlar, och sedlar och mynt används allt mer sällan. (28) Det har också blivit vanligt att köpa kläder, böcker och biljetter på nätet. (29) Fler människor arbetar också hemifrån, vilket blev särskilt vanligt under pandemin. (30) Många upplever att andra kan nå dem hela tiden, och det gör det svårare att koppla av.\n\n(31) Samtidigt har en del saker förblivit likadana. (32) Svenskar fikar fortfarande, och många åker till stugan eller ut i naturen på semestern. (33) Även om tekniken har förändrats vill de flesta fortfarande ha tid för familj och vänner. (34) Frågan är hur vardagen ser ut om femtio år.", "options": ["0 – ingen mening i texten", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34"], "items": [{"id": "l23", "type": "select", "q": "Riksdagen bestämde att alla barn skulle få gå lika många år i skolan.", "answer": 9, "explain": "Mening 9: \"År 1962 beslutade riksdagen att alla barn skulle gå nio år i en gemensam grundskola.\""}, {"id": "l24", "type": "select", "q": "Det är svårare att vara ledig när andra alltid kan nå en.", "answer": 30, "explain": "Mening 30: \"Många upplever att andra kan nå dem hela tiden, och det gör det svårare att koppla av.\""}, {"id": "l25", "type": "select", "q": "Många lämnade landsbygden eftersom det fanns arbete i staden.", "answer": 5, "explain": "Mening 5: \"Många flyttade från landsbygden till staden eftersom det fanns jobb i industrin, och nya lägenheter byggdes i stor skala.\""}, {"id": "l26", "type": "select", "q": "Under 1960-talet hade de flesta familjer en egen bil.", "answer": 0, "explain": "Ingen mening säger detta. Texten nämner inte bilar på 1960-talet."}, {"id": "l27", "type": "select", "q": "Pappor kunde också få pengar när de var hemma med små barn.", "answer": 13, "explain": "Mening 13: \"År 1974 ersattes mammaledigheten av föräldraförsäkringen, och därmed kunde även pappor få ersättning när de var hemma med barnen.\""}, {"id": "l28", "type": "select", "q": "Pengar i form av sedlar och mynt används mer sällan nu.", "answer": 27, "explain": "Mening 27: \"Idag använder många kort eller mobilen när de handlar, och sedlar och mynt används allt mer sällan.\""}, {"id": "l29", "type": "select", "q": "Den första mobiltelefonen kom till Sverige år 1981.", "answer": 0, "explain": "Texten säger inte vilket år den första mobiltelefonen kom. Mening 16 säger bara att de första mobiltelefonerna var stora och dyra."}, {"id": "l30", "type": "select", "q": "Man kunde inte prata i telefon samtidigt som man använde internet.", "answer": 19, "explain": "Mening 19: \"Först var det få som hade internet, och uppkopplingen var så långsam att man inte kunde ringa i telefon medan man var på nätet.\""}]}]}]};
+const KEY = "phone-reading:" + TEST.id;
+const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
+const store = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
+let state = load();
+state.answers ||= {}; state.checked ||= {};
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const norm = s => String(s ?? "").toLowerCase().replace(/[.,!?;:"]/g, "").replace(/\s+/g, " ").trim();
+const fmt = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+
+let num = TEST.numberStart || 1;
+TEST.sections.forEach((s, si) => {
+  s.key = `del-${si + 1}`;
+  s.items = [];
+  s.parts.forEach(p => p.items.forEach(it => { it.n = num++; it.options ||= p.options; it.sec = s.key; s.items.push(it); }));
+});
+const ALL = TEST.sections.flatMap(s => s.items);
+
+function isRight(it) {
+  const a = state.answers[it.id];
+  if (a == null || a === "") return false;
+  if (it.type === "mcq" || it.type === "select") return a === it.answer;
+  if (it.type === "short") return it.answers.some(x => norm(a).includes(norm(x)));
+  return it.answers.some(x => norm(a) === norm(x));
+}
+const expected = it => (it.type === "mcq" || it.type === "select") ? it.options[it.answer] : it.answers[0];
+const secScore = s => s.items.filter(isRight).length;
+
+function current() {
+  const h = location.hash.slice(1);
+  return TEST.sections.some(s => s.key === h) || h === "resultat" ? h : TEST.sections[0].key;
+}
+
+function header() {
+  document.getElementById("eyebrow").textContent = TEST.eyebrow;
+  document.getElementById("title").textContent = TEST.title;
+  document.getElementById("sub").textContent = `${ALL.length} frågor${TEST.timeLimit ? ` · ${TEST.timeLimit} minuter` : ""} · Rätta en del i taget eller allt på slutet.`;
+}
+
+function tabs() {
+  const cur = current();
+  document.getElementById("tabs").innerHTML = TEST.sections.map((s, i) => {
+    const answered = s.items.filter(it => state.answers[it.id] != null && state.answers[it.id] !== "").length;
+    const done = state.checked[s.key];
+    return `<a href="#${s.key}" aria-current="${cur === s.key}" class="${done ? "done" : ""}">Del ${i + 1}<small>${done ? `${secScore(s)}/${s.items.length} rätt` : `${answered}/${s.items.length}`}</small></a>`;
+  }).join("") + `<a href="#resultat" aria-current="${cur === "resultat"}">Resultat<small>${ALL.length} frågor</small></a>`;
+}
+
+function clock() {
+  const el = document.getElementById("clock");
+  if (!state.startedAt) { el.innerHTML = `<span>Klockan startar vid första svaret.</span><b>${TEST.timeLimit ? TEST.timeLimit + ":00" : "0:00"}</b>`; return; }
+  const sec = (Date.now() - state.startedAt) / 1000;
+  if (!TEST.timeLimit) { el.innerHTML = `<span>Tid</span><b>${fmt(sec)}</b>`; return; }
+  const left = TEST.timeLimit * 60 - sec;
+  el.innerHTML = left > 0
+    ? `<span>Tid kvar (som på provet)</span><b class="${left < 300 ? "warn" : ""}">${fmt(left)}</b>`
+    : `<span>Tiden är slut – fortsätt gärna ändå</span><b class="over">+${fmt(-left)}</b>`;
+}
+setInterval(clock, 1000);
+
+function passageHtml(p) {
+  if (!p.passage) return "";
+  const paras = p.passage.split(/\n\s*\n/).map(t => `<p>${esc(t.trim()).replace(/\((\d{1,2})\)\s*/g, '<span class="sn">$1</span>')}</p>`).join("");
+  return `<article class="text">${p.heading ? `<div class="head">${esc(p.heading)}</div>` : ""}${p.passageTitle ? `<h3>${esc(p.passageTitle)}</h3>` : ""}${paras}</article>`;
+}
+
+function optsHtml(it, checked) {
+  const given = state.answers[it.id];
+  const opts = it.options;
+  const numeric = opts.every(o => /^\d/.test(o));
+  const lettered = opts.every(o => /^[A-Z]\./.test(o));
+  const yn = opts.length === 2 && opts.every(o => o.length < 8);
+  const cls = yn ? "two" : (numeric || lettered) ? "grid" : "";
+  const label = o => numeric ? o.split(/\s/)[0] : lettered ? o.slice(0, 1) : o;
+  return `<div class="opts ${cls}">${opts.map((o, i) => {
+    const mark = checked ? (i === it.answer ? "is-key" : i === given ? "is-miss" : "") : "";
+    const wide = numeric && /\s/.test(o) ? " wide" : "";
+    return `<button type="button" data-i="${i}" aria-pressed="${given === i}" class="${mark}${wide}" ${checked ? "disabled" : ""} title="${esc(o)}">${esc(wide ? o : label(o))}</button>`;
+  }).join("")}</div>`;
+}
+
+function itemHtml(it, checked) {
+  const given = state.answers[it.id];
+  const verdict = checked ? (isRight(it) ? "right" : "wrong") : "";
+  const control = (it.type === "mcq" || it.type === "select")
+    ? optsHtml(it, checked)
+    : `<input data-in="${it.id}" value="${esc(given ?? "")}" ${checked ? "disabled" : ""} autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Skriv ditt svar">`;
+  const why = checked ? `<div class="why"><b>${isRight(it) ? "✓ Rätt" : `✗ Rätt svar: ${esc(expected(it))}`}</b>${esc(it.explain ?? "")}</div>` : "";
+  return `<div class="q ${verdict}" data-id="${it.id}"><p><span class="n">${it.n}</span>${esc(it.q ?? "")}</p>${control}${why}</div>`;
+}
+
+function legendHtml(p) {
+  if (!p.options || !p.options.every(o => /^[A-Z]\./.test(o))) return "";
+  return `<div class="legend">${p.options.map(o => `<div>${esc(o)}</div>`).join("")}</div>`;
+}
+
+function renderSection(s) {
+  const checked = !!state.checked[s.key];
+  const idx = TEST.sections.indexOf(s);
+  const answered = s.items.filter(it => state.answers[it.id] != null && state.answers[it.id] !== "").length;
+  return `
+    <h2 class="sec">${esc(s.title)}</h2>
+    ${s.instructions ? `<p class="how">${esc(s.instructions)}</p>` : ""}
+    ${s.parts.map(p => `${passageHtml(p)}${legendHtml(p)}${p.items.map(it => itemHtml(it, checked)).join("")}`).join("")}
+    ${checked ? `<div class="score"><strong>${secScore(s)} / ${s.items.length}</strong><span>${secScore(s) >= Math.ceil(s.items.length * .73) ? "B1-nivå på den här delen." : "Läs förklaringarna och texten igen."}</span></div>` : ""}
+    <div class="actions">
+      ${checked
+        ? `<a class="btn" href="#${idx < TEST.sections.length - 1 ? TEST.sections[idx + 1].key : "resultat"}">${idx < TEST.sections.length - 1 ? `Nästa: del ${idx + 2} →` : "Se resultatet →"}</a>
+           <button class="btn ghost" type="button" id="redo">Gör om del ${idx + 1}</button>`
+        : `<button class="btn" type="button" id="check">Rätta del ${idx + 1} (${answered}/${s.items.length} svar)</button>
+           ${idx < TEST.sections.length - 1 ? `<a class="btn ghost" href="#${TEST.sections[idx + 1].key}">Hoppa till del ${idx + 2} utan att rätta</a>` : ""}`}
+    </div>`;
+}
+
+function renderResult() {
+  const total = ALL.filter(isRight).length;
+  const allChecked = TEST.sections.every(s => state.checked[s.key]);
+  const sc = TEST.scoring;
+  let verdict = "";
+  if (sc && allChecked) {
+    if (sc.G != null) verdict = total >= sc.G ? ["good", "G – godkänt"] : ["low", "IG – inte godkänt än"];
+    else verdict = total >= sc.B1 ? ["good", "B1"] : total >= sc.A2 ? ["mid", "A2"] : ["low", "under A2"];
+  }
+  const used = state.startedAt ? Math.round(((state.finishedAt || Date.now()) - state.startedAt) / 60000) : 0;
+  const lines = [`${TEST.title} – resultat`, `Totalt: ${total}/${ALL.length}${verdict ? ` (${verdict[1]})` : ""} · tid: ${used} min${TEST.timeLimit ? ` av ${TEST.timeLimit}` : ""}`,
+    ...TEST.sections.map((s, i) => {
+      const wrong = s.items.filter(it => !isRight(it)).map(it => it.n);
+      return `Del ${i + 1}: ${state.checked[s.key] ? `${secScore(s)}/${s.items.length}${wrong.length ? `, fel: ${wrong.join(", ")}` : ""}` : "inte rättad"}`;
+    })];
+  return `
+    <section class="summary">
+      <h2>Resultat</h2>
+      ${verdict ? `<div class="verdict ${verdict[0]}">${total} / ${ALL.length} · ${verdict[1]}</div>` : `<p class="hint">Rätta alla delar för att se nivån.</p>`}
+      ${sc && sc.B1 != null ? `<p class="hint">Gränser: A2 ${sc.A2} poäng, B1 ${sc.B1} poäng.</p>` : sc && sc.G != null ? `<p class="hint">Gräns för G: ${sc.G} poäng (uppskattad).</p>` : ""}
+      <table>${TEST.sections.map((s, i) => `<tr><td>Del ${i + 1} · ${esc(s.title)}</td><td>${state.checked[s.key] ? `${secScore(s)} / ${s.items.length}` : "–"}</td></tr>`).join("")}</table>
+      <p class="hint">Kopiera och klistra in i chatten med läraren (Claude).</p>
+      <textarea id="report" readonly>${esc(lines.join("\n"))}</textarea>
+      ${allChecked ? "" : `<button class="btn" type="button" id="checkall">Rätta alla delar nu</button>`}
+      <button class="btn ${allChecked ? "" : "ghost"}" type="button" id="copy">Kopiera resultatet</button>
+      <button class="btn ghost" type="button" id="reset">Börja om hela provet</button>
+    </section>`;
+}
+
+function render() {
+  header(); tabs(); clock();
+  const cur = current();
+  const view = document.getElementById("view");
+  const sec = TEST.sections.find(s => s.key === cur);
+  view.innerHTML = sec ? renderSection(sec) : renderResult();
+  const started = () => { if (!state.startedAt) { state.startedAt = Date.now(); } };
+  view.querySelectorAll(".q").forEach(qel => {
+    qel.querySelectorAll(".opts button").forEach(b => b.onclick = () => {
+      started();
+      state.answers[qel.dataset.id] = Number(b.dataset.i); store();
+      qel.querySelectorAll(".opts button").forEach(x => x.setAttribute("aria-pressed", x === b));
+      tabs(); refreshCheck(sec);
+    });
+    const inp = qel.querySelector("input");
+    if (inp) inp.oninput = () => { started(); state.answers[qel.dataset.id] = inp.value; store(); tabs(); refreshCheck(sec); };
+  });
+  const check = document.getElementById("check");
+  if (check) check.onclick = () => { state.checked[cur] = true; if (TEST.sections.every(s => state.checked[s.key])) state.finishedAt ||= Date.now(); store(); render(); window.scrollTo(0, 0); };
+  const redo = document.getElementById("redo");
+  if (redo) redo.onclick = () => { delete state.checked[cur]; sec.items.forEach(it => delete state.answers[it.id]); delete state.finishedAt; store(); render(); window.scrollTo(0, 0); };
+  const all = document.getElementById("checkall");
+  if (all) all.onclick = () => { TEST.sections.forEach(s => state.checked[s.key] = true); state.finishedAt ||= Date.now(); store(); render(); };
+  const copy = document.getElementById("copy");
+  if (copy) copy.onclick = () => {
+    const ta = document.getElementById("report");
+    navigator.clipboard?.writeText(ta.value).then(() => { copy.textContent = "Kopierat ✓"; }, () => { ta.select(); copy.textContent = "Markerat – kopiera själv"; });
+  };
+  const reset = document.getElementById("reset");
+  if (reset) reset.onclick = () => {
+    if (!reset.dataset.sure) { reset.dataset.sure = "1"; reset.textContent = "Tryck igen för att radera alla svar"; return; }
+    state = { answers: {}, checked: {} }; store(); location.hash = TEST.sections[0].key; render();
+  };
+}
+function refreshCheck(sec) {
+  const c = document.getElementById("check");
+  if (c && sec) c.textContent = `Rätta del ${TEST.sections.indexOf(sec) + 1} (${sec.items.filter(it => state.answers[it.id] != null && state.answers[it.id] !== "").length}/${sec.items.length} svar)`;
+}
+window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
+render();
+</script>
+</body>
+</html>
