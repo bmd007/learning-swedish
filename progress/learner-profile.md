@@ -12,7 +12,7 @@
 
 | Skill | Estimate | Evidence |
 |---|---|---|
-| Läsa | B1 (on easier-than-Swedex texts) | 001: 7/8, fast (10 min) |
+| Läsa | B1 (Swedex del 1–2 level) | 016: 15/16 in 11 of 32 min (only miss: 'men' contrast trap, j5). 001: 7/8, fast (10 min) |
 | Höra | B1 (on easier texts) | 013: 5/7 (took 'nio tusen' for the previous flat, 8500; förra/nu trap again); 009: 2/3 (mixed förra/nuvarande, missed dyrare); 011: 3/3 with 1 play. 001: 001: 8/9 with 1 play each; missed 'däremot' contrast |
 | Skriva | ? | not done yet (→ 002) |
 | Tala | A2+ | 013: A2; good flow, comparison used (större, dyrare än, äldre än); errors mitt egen köket, en 20 kvadratmeter rum, min förut rum. 009: A2; content on all bullets, but en/ett endings (en gammalt lägenhet, min förra hem, större en), 'Det är' for 'Den är'; end of recording unclear. 011: used har+supinum, också after verb, nu försöker correctly; errors: i måndag(s), hade+past mix, för/i duration. 004, 008: fluent, lots of content, adds extra sentences; uses past tense; errors: inversion after time word, i måndags vs på måndag, *också* placement. Both recordings cut at 60 s (limit now ≥120 s). |

@@ -134,3 +134,9 @@
 - Exported: `reading/swedex-lasprov-helt.html` (016+017, 30 q, 60 min), `reading/sfi-d-lasprov.html` (018), `reading/taglasning-2.html` (new 021, full Swedex reading on Rivstart themes: friluftsliv, träning/kurser, husdjur, vardagen 1960–idag).
 - 021 reviewed: fixed grammar in del 4 sentence 30, two explanations.
 - Next: grade whatever the learner pastes/finishes. Then SFI D speaking lesson (berätta + ge råd, pair discussion).
+
+## 2026-11-15 – Graded 016 (läsprov A)
+- 15/16 → B1 (threshold 12). 11 min of 32. Del 2 annonser 6/6. Only miss j5: contrast after *men*.
+- Pattern: misses come from contrast words (men/däremot), also seen in 001 listening. Tag `läs.kontrast`.
+- App change same day: select items now buttons (no dropdowns). Learner asked about classic radio circles; waiting for their answer.
+- Next: 017 (del 3+4) or Tågläsning 2. Add contrast-word traps in next listening/reading lesson.
