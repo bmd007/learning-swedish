@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SFI D – läsprov</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one narrow reading column like an exam booklet; sticky bar with timer + part tabs. */
+:root {
+  --paper: #f7f8fa; --sheet: #ffffff; --ink: #1b2430; --soft: #5b6573; --rule: #dfe3e8;
+  --blue: #1f5f8b; --blue-soft: #e6eff6; --mark: #f2c94c; --ok: #1d7a46; --ok-soft: #e4f3ea;
+  --bad: #b3362b; --bad-soft: #fbe8e6; --warn: #9a6a00;
+  --sans: Inter, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12161c; --sheet: #1a2028; --ink: #e6e9ee; --soft: #9aa4b1; --rule: #2c3440;
+    --blue: #7fb6e0; --blue-soft: #1d2a37; --mark: #e0b43a; --ok: #5cc68a; --ok-soft: #16301f;
+    --bad: #ff8a7d; --bad-soft: #3a1f1c; --warn: #e0b43a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12161c; --sheet: #1a2028; --ink: #e6e9ee; --soft: #9aa4b1; --rule: #2c3440;
+  --blue: #7fb6e0; --blue-soft: #1d2a37; --mark: #e0b43a; --ok: #5cc68a; --ok-soft: #16301f;
+  --bad: #ff8a7d; --bad-soft: #3a1f1c; --warn: #e0b43a; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+[hidden] { display: none !important; }
+body { margin: 0; padding-top: env(safe-area-inset-top, 0px); background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--sheet); }
+.wrap { max-width: 660px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { background: var(--sheet); }
+header.top .wrap { padding-block: 16px 4px; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+h1 { font-size: 25px; line-height: 1.2; margin: 4px 0 2px; text-wrap: balance; }
+.sub { color: var(--soft); font-size: 15px; margin: 0 0 4px; }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--sheet); border-bottom: 1px solid var(--rule); }
+.bar .wrap { padding-block: 8px; display: grid; gap: 8px; }
+.clock { display: flex; justify-content: space-between; align-items: center; font-size: 14px; color: var(--soft); font-variant-numeric: tabular-nums; }
+.clock b { color: var(--ink); font-size: 16px; }
+.clock b.warn { color: var(--warn); } .clock b.over { color: var(--bad); }
+.tabs { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.tabs a { flex: 1 0 auto; min-width: 64px; text-align: center; text-decoration: none; color: var(--ink); font-size: 14px; font-weight: 600; padding: 7px 8px; border-radius: 10px; border: 1px solid var(--rule); display: flex; flex-direction: column; }
+.tabs a small { font-weight: 400; font-size: 12px; color: var(--soft); font-variant-numeric: tabular-nums; }
+.tabs a[aria-current="true"] { background: var(--blue); border-color: var(--blue); color: var(--sheet); }
+.tabs a[aria-current="true"] small { color: var(--sheet); opacity: .85; }
+.tabs a.done small { color: var(--ok); font-weight: 600; }
+.tabs a.done[aria-current="true"] small { color: var(--sheet); }
+main .wrap { padding-block: 16px 48px; display: grid; gap: 16px; }
+h2.sec { font-size: 21px; margin: 4px 0 0; }
+.how { font-size: 15px; color: var(--soft); margin: 0; }
+article.text { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 18px 16px; font-size: 18px; line-height: 1.65; min-width: 0; overflow-wrap: break-word; }
+article.text h3 { font-size: 19px; line-height: 1.3; margin: 0 0 10px; text-wrap: balance; }
+article.text .head { font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--soft); margin-bottom: 6px; }
+article.text p { margin: 0 0 12px; white-space: pre-line; }
+article.text p:last-child { margin-bottom: 0; }
+.sn { display: inline-block; min-width: 22px; padding: 0 5px; margin-right: 3px; border-radius: 6px; background: var(--blue); color: var(--sheet); font-size: 12px; font-weight: 700; text-align: center; line-height: 19px; vertical-align: 2px; font-variant-numeric: tabular-nums; }
+.q { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 14px; display: grid; gap: 10px; }
+.q p { margin: 0; font-weight: 500; }
+.q .n { display: inline-flex; align-items: center; justify-content: center; min-width: 28px; height: 26px; padding: 0 6px; border-radius: 99px; background: var(--blue); color: var(--sheet); font-size: 13px; font-weight: 700; margin-right: 8px; font-variant-numeric: tabular-nums; }
+.opts { display: grid; gap: 8px; }
+.opts.two { grid-template-columns: 1fr 1fr; }
+.opts.grid { grid-template-columns: repeat(auto-fill, minmax(48px, 1fr)); gap: 6px; }
+.opts button { font: inherit; font-size: 16px; text-align: left; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 11px 12px; min-height: 46px; cursor: pointer; }
+.opts.two button, .opts.grid button { text-align: center; font-weight: 600; padding: 10px 4px; }
+.opts.grid button.wide { grid-column: 1 / -1; font-weight: 500; }
+.opts button[aria-pressed="true"] { border-color: var(--blue); background: var(--blue-soft); box-shadow: inset 0 0 0 1px var(--blue); }
+.opts button.is-key { border-color: var(--ok); background: var(--ok-soft); box-shadow: inset 0 0 0 1px var(--ok); }
+.opts button.is-miss { border-color: var(--bad); background: var(--bad-soft); }
+.q input { font: inherit; width: 100%; padding: 10px 12px; border: 1px solid var(--rule); border-bottom: 2px solid var(--blue); border-radius: 10px; background: var(--paper); color: var(--ink); }
+.q.right { border-color: var(--ok); } .q.wrong { border-color: var(--bad); }
+.why { font-size: 15px; border-radius: 10px; padding: 10px 12px; }
+.q.right .why { background: var(--ok-soft); } .q.wrong .why { background: var(--bad-soft); }
+.why b { display: block; }
+.legend { font-size: 14px; color: var(--soft); background: var(--sheet); border: 1px dashed var(--rule); border-radius: 10px; padding: 8px 12px; }
+.legend div { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.actions { display: grid; gap: 10px; }
+.btn { font: inherit; font-weight: 600; font-size: 17px; border: 0; border-radius: 12px; padding: 14px; background: var(--blue); color: var(--sheet); cursor: pointer; text-align: center; text-decoration: none; }
+.btn.ghost { background: transparent; color: var(--blue); border: 1px solid var(--blue); }
+.btn:focus-visible, .opts button:focus-visible, .tabs a:focus-visible { outline: 3px solid var(--mark); outline-offset: 2px; }
+.score { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 14px 16px; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.score strong { font-size: 30px; font-variant-numeric: tabular-nums; }
+.score span { color: var(--soft); font-size: 15px; }
+.summary { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 16px; display: grid; gap: 12px; }
+.summary h2 { font-size: 20px; margin: 0; }
+.verdict { font-size: 22px; font-weight: 700; padding: 8px 14px; border-radius: 10px; justify-self: start; }
+.verdict.good { background: var(--ok-soft); color: var(--ok); } .verdict.mid { background: var(--blue-soft); color: var(--blue); } .verdict.low { background: var(--bad-soft); color: var(--bad); }
+.summary table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: 15px; }
+.summary td { padding: 7px 0; border-bottom: 1px solid var(--rule); }
+.summary td:last-child { text-align: right; font-weight: 600; }
+.summary textarea { width: 100%; min-height: 110px; font: 13px/1.4 ui-monospace, Menlo, monospace; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 10px; }
+.hint { font-size: 14px; color: var(--soft); margin: 0; }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="eyebrow" id="eyebrow"></div>
+  <h1 id="title"></h1>
+  <p class="sub" id="sub"></p>
+</div></header>
+<div class="bar"><div class="wrap">
+  <div class="clock" id="clock"></div>
+  <nav class="tabs" id="tabs" aria-label="Delar"></nav>
+</div></div>
+<main><div class="wrap" id="view"></div></main>
+<script>
+const TEST = {"id": "018", "title": "SFI D – läsprov", "eyebrow": "Läsförståelse · SFI D", "numberStart": 1, "timeLimit": 25, "scoring": {"max": 16, "G": 10}, "sections": [{"title": "Del 1: Annonser", "instructions": "Läs annonserna. Välj det alternativ som stämmer med texten.", "parts": [{"heading": "Annons 1", "passageTitle": "Språkcafé på biblioteket", "passage": "Välkommen till vårt språkcafé!\n\nVi träffas varje torsdag klockan 17.30–19.00 i Hörsalen på Stadsbiblioteket. Här kan du träna svenska och träffa nya människor. Det är gratis att delta och du behöver inte anmäla dig. Fika kan du köpa för 20 kronor.", "items": [{"id": "a1", "type": "mcq", "q": "Vad gäller för språkcafét?", "options": ["Man måste anmäla sig i förväg.", "Man kan komma utan att anmäla sig.", "Det kostar 20 kronor att delta.", "Det är öppet varje onsdag."], "answer": 1, "explain": "\"Det är gratis att delta och du behöver inte anmäla dig.\" De 20 kronorna är bara för fika."}]}, {"heading": "Annons 2", "passageTitle": "Loppis i Folkets hus", "passage": "Stor loppis nästa lördag klockan 10–15 i Folkets hus!\n\nVill du sälja dina egna saker? Du hyr ett bord för 100 kronor. Anmäl dig senast onsdag till Ahmed på telefon 070-123 45 67. Du betalar för bordet på plats. Vi säljer kaffe och våfflor. Alla är välkomna att handla.", "items": [{"id": "a2", "type": "mcq", "q": "Vad ska den göra som vill sälja saker på loppisen?", "options": ["Anmäla sig senast onsdag och betala 100 kronor på plats.", "Komma på lördag morgon utan att anmäla sig.", "Betala 100 kronor i förväg när man ringer.", "Ta med ett eget bord och betala ingenting."], "answer": 0, "explain": "Anmälan senast onsdag, och bordet betalas på plats."}]}]}, {"title": "Del 2: Sms", "instructions": "Läs sms:en. Vad vill avsändaren? Välj ett alternativ.", "parts": [{"heading": "Sms 1", "passage": "Hej Karin! Jag är jätteledsen, men jag kan inte komma på middagen i kväll. Barnen har feber och jag måste vara hemma med dem. Kan vi ses nästa vecka i stället? Hälsa Peter! /Nina", "items": [{"id": "s1", "type": "mcq", "q": "Vad vill Nina?", "options": ["Hon vill bjuda Karin på middag.", "Hon vill avboka och föreslå en ny tid.", "Hon vill att Karin ska passa barnen.", "Hon vill klaga på maten."], "answer": 1, "explain": "Hon kan inte komma i kväll och föreslår nästa vecka."}]}, {"heading": "Sms 2", "passage": "Hej grannen! Det är Jonas på tredje våningen. Jag väntar flera paket, men jag är inte hemma förrän sent i dag. Kan du ta emot dem om budet ringer på din dörr? Jag bjuder på fika som tack!", "items": [{"id": "s2", "type": "mcq", "q": "Vad vill Jonas?", "options": ["Han vill klaga på höga ljud.", "Han vill bjuda grannen på fest.", "Han vill be om hjälp med paketen.", "Han vill sälja något."], "answer": 2, "explain": "\"Kan du ta emot dem?\" – han ber om hjälp. Fikat är ett tack."}]}, {"heading": "Sms 3", "passage": "Hej! Jag beställde en soffa hos er för tre veckor sedan, och den har fortfarande inte kommit. Ingen svarar när jag ringer. Jag vill ha besked i dag, annars vill jag ha pengarna tillbaka.", "items": [{"id": "s3", "type": "mcq", "q": "Vad vill avsändaren?", "options": ["Hon vill klaga på att soffan är försenad.", "Hon vill beställa en soffa till.", "Hon vill ändra sin adress.", "Hon vill ha tips om möbler."], "answer": 0, "explain": "Soffan har inte kommit och ingen svarar – hon klagar och kräver svar."}]}]}, {"title": "Del 3: Diagram", "instructions": "Titta på diagrammet. Svara på frågorna. Du ska använda siffrorna i diagrammet.", "parts": [{"heading": "Hur reser vi till jobbet?", "items": [{"id": "d1", "type": "mcq", "q": "Vilken åldersgrupp åker oftast kollektivt?", "options": ["30–49 år", "50–64 år", "18–29 år"], "answer": 2, "explain": "Kollektivt: 40 % bland 18–29 år, 30 % bland 30–49 och 25 % bland 50–64."}, {"id": "d2", "type": "mcq", "q": "Hur många procent av de som är 50–64 år åker bil till jobbet?", "options": ["10 procent", "25 procent", "45 procent", "55 procent"], "answer": 3, "explain": "Den röda stapeln för 50–64 år visar 55."}, {"id": "d3", "type": "mcq", "q": "Vilket påstående stämmer med diagrammet?", "options": ["Cykel är mindre vanligt ju äldre man är.", "Bil är vanligast i alla åldersgrupper.", "Att gå är vanligast bland 30–49 år.", "Kollektivtrafik är vanligast bland de äldsta."], "answer": 0, "explain": "Cykel: 25, 20, 10 procent. Bil är inte vanligast bland 18–29 (där är kollektivt störst). Att gå: bara 5 % bland 30–49."}]}]}, {"title": "Del 4: Vem tycker vad?", "instructions": "Fyra personer skriver i ett forum. Vem tycker vad? Välj en person för varje påstående.", "parts": [{"heading": "Ska barn ha mobil i skolan?", "passage": "Amir: Mobilen ska vara avstängd under lektionerna. Eleverna blir så lätt distraherade, och då lär de sig mindre. På rasten får de gärna använda den.\n\nBirgitta: Min dotter är tolv år och går hem själv. Jag vill kunna nå henne efter skolan, så hon måste ha mobilen med sig. Det räcker att den ligger i väskan på lektionerna.\n\nCecilia: Jag är lärare och använder mobilerna i undervisningen. Eleverna kan slå upp ord, fotografera tavlan och göra frågesporter. Ett förbud vore ett misstag.\n\nDavid: Jag tycker att mobilerna ska förbjudas helt i skolan. Barn pratar för lite med varandra på rasten när alla tittar på skärmen.", "options": ["Amir", "Birgitta", "Cecilia", "David"], "items": [{"id": "f1", "type": "select", "q": "Mobilen kan vara ett bra verktyg på lektionerna.", "answer": 2, "explain": "Cecilia: eleverna kan slå upp ord, fotografera tavlan och göra frågesporter."}, {"id": "f2", "type": "select", "q": "Mobilen gör att eleverna lär sig mindre.", "answer": 0, "explain": "Amir: eleverna blir distraherade, och då lär de sig mindre."}, {"id": "f3", "type": "select", "q": "Barn umgås mindre när de har mobilen på rasten.", "answer": 3, "explain": "David: barn pratar för lite med varandra på rasten."}]}]}, {"title": "Del 5: Intervju", "instructions": "Frågorna i intervjun saknas. Välj rätt fråga till varje svar. Det finns fem frågor men bara tre svar, så två frågor passar inte.", "parts": [{"heading": "Intervju med Rosa, som driver ett café", "passage": "Svar 1: Det började för tio år sedan. Jag jobbade på ett kontor och trivdes inte, men jag har alltid tyckt om att baka. En dag hittade jag en lokal som var till salu, och då bestämde jag mig.\n\nSvar 2: Redan klockan fyra på morgonen. Då är det tyst och lugnt, och brödet ska vara klart när vi öppnar klockan sju.\n\nSvar 3: Kanelbullar, utan tvekan! Vi säljer över tvåhundra varje dag. Men många kunder gillar också vårt glutenfria bröd.", "options": ["A. Vad säljer ni mest av?", "B. Hur började du som caféägare?", "C. När börjar din arbetsdag?", "D. Vad vill du göra i framtiden?", "E. Hur många arbetar hos er?"], "items": [{"id": "i1", "type": "select", "q": "Vilken fråga hör till svar 1?", "answer": 1, "explain": "Svaret berättar hur det började för tio år sedan: B."}, {"id": "i2", "type": "select", "q": "Vilken fråga hör till svar 2?", "answer": 2, "explain": "\"Redan klockan fyra\" – när arbetsdagen börjar: C."}, {"id": "i3", "type": "select", "q": "Vilken fråga hör till svar 3?", "answer": 0, "explain": "Kanelbullar, över tvåhundra per dag – det de säljer mest av: A."}]}]}, {"title": "Del 6: Till vem?", "instructions": "Vem har skrivit texten till? Välj ett alternativ.", "parts": [{"heading": "Text 1", "passage": "Nu är det dags att deklarera! Många tycker att blanketterna är svåra, särskilt om man inte har bott här så länge. Kom till biblioteket på tisdag kväll. Våra volontärer pratar enkel svenska och hjälper dig steg för steg. Ta med din e-legitimation.", "items": [{"id": "m1", "type": "mcq", "q": "Vem har texten skrivits till?", "options": ["Personer som arbetar på Skatteverket.", "Personer som vill ha hjälp med deklarationen.", "Elever som ska skriva ett prov.", "Pensionärer som vill resa."], "answer": 1, "explain": "Texten erbjuder hjälp med att deklarera."}]}, {"heading": "Text 2", "passage": "Hej! Nästa vecka har vi utvecklingssamtal. Boka en tid på skolans hemsida senast fredag. Om ni inte kan komma, kan vi ta samtalet över telefon. Skriv gärna ner frågor om hur ert barn trivs i klassen.\n\nHälsningar\nAnna, klassföreståndare", "items": [{"id": "m2", "type": "mcq", "q": "Vem har texten skrivits till?", "options": ["Eleverna i klassen.", "Lärare på skolan.", "Barnens föräldrar.", "Rektorn."], "answer": 2, "explain": "\"Hur ert barn trivs\" – texten är till föräldrarna."}]}]}]};
+const KEY = "phone-reading:" + TEST.id;
+const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
+const store = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
+let state = load();
+state.answers ||= {}; state.checked ||= {};
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const norm = s => String(s ?? "").toLowerCase().replace(/[.,!?;:"]/g, "").replace(/\s+/g, " ").trim();
+const fmt = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+
+let num = TEST.numberStart || 1;
+TEST.sections.forEach((s, si) => {
+  s.key = `del-${si + 1}`;
+  s.items = [];
+  s.parts.forEach(p => p.items.forEach(it => { it.n = num++; it.options ||= p.options; it.sec = s.key; s.items.push(it); }));
+});
+const ALL = TEST.sections.flatMap(s => s.items);
+
+function isRight(it) {
+  const a = state.answers[it.id];
+  if (a == null || a === "") return false;
+  if (it.type === "mcq" || it.type === "select") return a === it.answer;
+  if (it.type === "short") return it.answers.some(x => norm(a).includes(norm(x)));
+  return it.answers.some(x => norm(a) === norm(x));
+}
+const expected = it => (it.type === "mcq" || it.type === "select") ? it.options[it.answer] : it.answers[0];
+const secScore = s => s.items.filter(isRight).length;
+
+function current() {
+  const h = location.hash.slice(1);
+  return TEST.sections.some(s => s.key === h) || h === "resultat" ? h : TEST.sections[0].key;
+}
+
+function header() {
+  document.getElementById("eyebrow").textContent = TEST.eyebrow;
+  document.getElementById("title").textContent = TEST.title;
+  document.getElementById("sub").textContent = `${ALL.length} frågor${TEST.timeLimit ? ` · ${TEST.timeLimit} minuter` : ""} · Rätta en del i taget eller allt på slutet.`;
+}
+
+function tabs() {
+  const cur = current();
+  document.getElementById("tabs").innerHTML = TEST.sections.map((s, i) => {
+    const answered = s.items.filter(it => state.answers[it.id] != null && state.answers[it.id] !== "").length;
+    const done = state.checked[s.key];
+    return `<a href="#${s.key}" aria-current="${cur === s.key}" class="${done ? "done" : ""}">Del ${i + 1}<small>${done ? `${secScore(s)}/${s.items.length} rätt` : `${answered}/${s.items.length}`}</small></a>`;
+  }).join("") + `<a href="#resultat" aria-current="${cur === "resultat"}">Resultat<small>${ALL.length} frågor</small></a>`;
+}
+
+function clock() {
+  const el = document.getElementById("clock");
+  if (!state.startedAt) { el.innerHTML = `<span>Klockan startar vid första svaret.</span><b>${TEST.timeLimit ? TEST.timeLimit + ":00" : "0:00"}</b>`; return; }
+  const sec = (Date.now() - state.startedAt) / 1000;
+  if (!TEST.timeLimit) { el.innerHTML = `<span>Tid</span><b>${fmt(sec)}</b>`; return; }
+  const left = TEST.timeLimit * 60 - sec;
+  el.innerHTML = left > 0
+    ? `<span>Tid kvar (som på provet)</span><b class="${left < 300 ? "warn" : ""}">${fmt(left)}</b>`
+    : `<span>Tiden är slut – fortsätt gärna ändå</span><b class="over">+${fmt(-left)}</b>`;
+}
+setInterval(clock, 1000);
+
+function passageHtml(p) {
+  if (!p.passage) return "";
+  const paras = p.passage.split(/\n\s*\n/).map(t => `<p>${esc(t.trim()).replace(/\((\d{1,2})\)\s*/g, '<span class="sn">$1</span>')}</p>`).join("");
+  return `<article class="text">${p.heading ? `<div class="head">${esc(p.heading)}</div>` : ""}${p.passageTitle ? `<h3>${esc(p.passageTitle)}</h3>` : ""}${paras}</article>`;
+}
+
+function optsHtml(it, checked) {
+  const given = state.answers[it.id];
+  const opts = it.options;
+  const numeric = opts.every(o => /^\d/.test(o));
+  const lettered = opts.every(o => /^[A-Z]\./.test(o));
+  const yn = opts.length === 2 && opts.every(o => o.length < 8);
+  const cls = yn ? "two" : (numeric || lettered) ? "grid" : "";
+  const label = o => numeric ? o.split(/\s/)[0] : lettered ? o.slice(0, 1) : o;
+  return `<div class="opts ${cls}">${opts.map((o, i) => {
+    const mark = checked ? (i === it.answer ? "is-key" : i === given ? "is-miss" : "") : "";
+    const wide = numeric && /\s/.test(o) ? " wide" : "";
+    return `<button type="button" data-i="${i}" aria-pressed="${given === i}" class="${mark}${wide}" ${checked ? "disabled" : ""} title="${esc(o)}">${esc(wide ? o : label(o))}</button>`;
+  }).join("")}</div>`;
+}
+
+function itemHtml(it, checked) {
+  const given = state.answers[it.id];
+  const verdict = checked ? (isRight(it) ? "right" : "wrong") : "";
+  const control = (it.type === "mcq" || it.type === "select")
+    ? optsHtml(it, checked)
+    : `<input data-in="${it.id}" value="${esc(given ?? "")}" ${checked ? "disabled" : ""} autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Skriv ditt svar">`;
+  const why = checked ? `<div class="why"><b>${isRight(it) ? "✓ Rätt" : `✗ Rätt svar: ${esc(expected(it))}`}</b>${esc(it.explain ?? "")}</div>` : "";
+  return `<div class="q ${verdict}" data-id="${it.id}"><p><span class="n">${it.n}</span>${esc(it.q ?? "")}</p>${control}${why}</div>`;
+}
+
+function legendHtml(p) {
+  if (!p.options || !p.options.every(o => /^[A-Z]\./.test(o))) return "";
+  return `<div class="legend">${p.options.map(o => `<div>${esc(o)}</div>`).join("")}</div>`;
+}
+
+function renderSection(s) {
+  const checked = !!state.checked[s.key];
+  const idx = TEST.sections.indexOf(s);
+  const answered = s.items.filter(it => state.answers[it.id] != null && state.answers[it.id] !== "").length;
+  return `
+    <h2 class="sec">${esc(s.title)}</h2>
+    ${s.instructions ? `<p class="how">${esc(s.instructions)}</p>` : ""}
+    ${s.parts.map(p => `${passageHtml(p)}${legendHtml(p)}${p.items.map(it => itemHtml(it, checked)).join("")}`).join("")}
+    ${checked ? `<div class="score"><strong>${secScore(s)} / ${s.items.length}</strong><span>${secScore(s) >= Math.ceil(s.items.length * .73) ? "B1-nivå på den här delen." : "Läs förklaringarna och texten igen."}</span></div>` : ""}
+    <div class="actions">
+      ${checked
+        ? `<a class="btn" href="#${idx < TEST.sections.length - 1 ? TEST.sections[idx + 1].key : "resultat"}">${idx < TEST.sections.length - 1 ? `Nästa: del ${idx + 2} →` : "Se resultatet →"}</a>
+           <button class="btn ghost" type="button" id="redo">Gör om del ${idx + 1}</button>`
+        : `<button class="btn" type="button" id="check">Rätta del ${idx + 1} (${answered}/${s.items.length} svar)</button>
+           ${idx < TEST.sections.length - 1 ? `<a class="btn ghost" href="#${TEST.sections[idx + 1].key}">Hoppa till del ${idx + 2} utan att rätta</a>` : ""}`}
+    </div>`;
+}
+
+function renderResult() {
+  const total = ALL.filter(isRight).length;
+  const allChecked = TEST.sections.every(s => state.checked[s.key]);
+  const sc = TEST.scoring;
+  let verdict = "";
+  if (sc && allChecked) {
+    if (sc.G != null) verdict = total >= sc.G ? ["good", "G – godkänt"] : ["low", "IG – inte godkänt än"];
+    else verdict = total >= sc.B1 ? ["good", "B1"] : total >= sc.A2 ? ["mid", "A2"] : ["low", "under A2"];
+  }
+  const used = state.startedAt ? Math.round(((state.finishedAt || Date.now()) - state.startedAt) / 60000) : 0;
+  const lines = [`${TEST.title} – resultat`, `Totalt: ${total}/${ALL.length}${verdict ? ` (${verdict[1]})` : ""} · tid: ${used} min${TEST.timeLimit ? ` av ${TEST.timeLimit}` : ""}`,
+    ...TEST.sections.map((s, i) => {
+      const wrong = s.items.filter(it => !isRight(it)).map(it => it.n);
+      return `Del ${i + 1}: ${state.checked[s.key] ? `${secScore(s)}/${s.items.length}${wrong.length ? `, fel: ${wrong.join(", ")}` : ""}` : "inte rättad"}`;
+    })];
+  return `
+    <section class="summary">
+      <h2>Resultat</h2>
+      ${verdict ? `<div class="verdict ${verdict[0]}">${total} / ${ALL.length} · ${verdict[1]}</div>` : `<p class="hint">Rätta alla delar för att se nivån.</p>`}
+      ${sc && sc.B1 != null ? `<p class="hint">Gränser: A2 ${sc.A2} poäng, B1 ${sc.B1} poäng.</p>` : sc && sc.G != null ? `<p class="hint">Gräns för G: ${sc.G} poäng (uppskattad).</p>` : ""}
+      <table>${TEST.sections.map((s, i) => `<tr><td>Del ${i + 1} · ${esc(s.title)}</td><td>${state.checked[s.key] ? `${secScore(s)} / ${s.items.length}` : "–"}</td></tr>`).join("")}</table>
+      <p class="hint">Kopiera och klistra in i chatten med läraren (Claude).</p>
+      <textarea id="report" readonly>${esc(lines.join("\n"))}</textarea>
+      ${allChecked ? "" : `<button class="btn" type="button" id="checkall">Rätta alla delar nu</button>`}
+      <button class="btn ${allChecked ? "" : "ghost"}" type="button" id="copy">Kopiera resultatet</button>
+      <button class="btn ghost" type="button" id="reset">Börja om hela provet</button>
+    </section>`;
+}
+
+function render() {
+  header(); tabs(); clock();
+  const cur = current();
+  const view = document.getElementById("view");
+  const sec = TEST.sections.find(s => s.key === cur);
+  view.innerHTML = sec ? renderSection(sec) : renderResult();
+  const started = () => { if (!state.startedAt) { state.startedAt = Date.now(); } };
+  view.querySelectorAll(".q").forEach(qel => {
+    qel.querySelectorAll(".opts button").forEach(b => b.onclick = () => {
+      started();
+      state.answers[qel.dataset.id] = Number(b.dataset.i); store();
+      qel.querySelectorAll(".opts button").forEach(x => x.setAttribute("aria-pressed", x === b));
+      tabs(); refreshCheck(sec);
+    });
+    const inp = qel.querySelector("input");
+    if (inp) inp.oninput = () => { started(); state.answers[qel.dataset.id] = inp.value; store(); tabs(); refreshCheck(sec); };
+  });
+  const check = document.getElementById("check");
+  if (check) check.onclick = () => { state.checked[cur] = true; if (TEST.sections.every(s => state.checked[s.key])) state.finishedAt ||= Date.now(); store(); render(); window.scrollTo(0, 0); };
+  const redo = document.getElementById("redo");
+  if (redo) redo.onclick = () => { delete state.checked[cur]; sec.items.forEach(it => delete state.answers[it.id]); delete state.finishedAt; store(); render(); window.scrollTo(0, 0); };
+  const all = document.getElementById("checkall");
+  if (all) all.onclick = () => { TEST.sections.forEach(s => state.checked[s.key] = true); state.finishedAt ||= Date.now(); store(); render(); };
+  const copy = document.getElementById("copy");
+  if (copy) copy.onclick = () => {
+    const ta = document.getElementById("report");
+    navigator.clipboard?.writeText(ta.value).then(() => { copy.textContent = "Kopierat ✓"; }, () => { ta.select(); copy.textContent = "Markerat – kopiera själv"; });
+  };
+  const reset = document.getElementById("reset");
+  if (reset) reset.onclick = () => {
+    if (!reset.dataset.sure) { reset.dataset.sure = "1"; reset.textContent = "Tryck igen för att radera alla svar"; return; }
+    state = { answers: {}, checked: {} }; store(); location.hash = TEST.sections[0].key; render();
+  };
+}
+function refreshCheck(sec) {
+  const c = document.getElementById("check");
+  if (c && sec) c.textContent = `Rätta del ${TEST.sections.indexOf(sec) + 1} (${sec.items.filter(it => state.answers[it.id] != null && state.answers[it.id] !== "").length}/${sec.items.length} svar)`;
+}
+window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
+render();
+</script>
+</body>
+</html>
