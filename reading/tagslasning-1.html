@@ -1,0 +1,302 @@
+<title>Tågläsning 1</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one narrow reading column, like an exam booklet; sticky tab bar switches between three texts. */
+:root {
+  --paper: #f7f8fa;
+  --sheet: #ffffff;
+  --ink: #1b2430;
+  --soft: #5b6573;
+  --rule: #dfe3e8;
+  --blue: #1f5f8b;
+  --blue-soft: #e6eff6;
+  --mark: #f2c94c;
+  --ok: #1d7a46;
+  --ok-soft: #e4f3ea;
+  --bad: #b3362b;
+  --bad-soft: #fbe8e6;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: Inter, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12161c; --sheet: #1a2028; --ink: #e6e9ee; --soft: #9aa4b1; --rule: #2c3440;
+    --blue: #7fb6e0; --blue-soft: #1d2a37; --mark: #e0b43a; --ok: #5cc68a; --ok-soft: #16301f;
+    --bad: #ff8a7d; --bad-soft: #3a1f1c; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12161c; --sheet: #1a2028; --ink: #e6e9ee; --soft: #9aa4b1; --rule: #2c3440;
+  --blue: #7fb6e0; --blue-soft: #1d2a37; --mark: #e0b43a; --ok: #5cc68a; --ok-soft: #16301f;
+  --bad: #ff8a7d; --bad-soft: #3a1f1c; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--sheet); }
+.wrap { max-width: 640px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { background: var(--sheet); border-bottom: 1px solid var(--rule); }
+header.top .wrap { padding-block: 18px 6px; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--soft); }
+h1 { font-size: 26px; line-height: 1.2; margin: 4px 0 2px; text-wrap: balance; }
+.sub { color: var(--soft); font-size: 15px; margin: 0 0 6px; }
+nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--sheet); border-bottom: 1px solid var(--rule); }
+nav.tabs .wrap { display: flex; gap: 6px; padding-block: 8px; }
+nav.tabs a { flex: 1; min-width: 0; text-align: center; text-decoration: none; color: var(--ink); font-size: 14px; font-weight: 600; padding: 8px 4px; border-radius: 10px; border: 1px solid var(--rule); display: flex; flex-direction: column; gap: 1px; }
+nav.tabs a small { font-weight: 400; font-size: 12px; color: var(--soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+nav.tabs a[aria-current="true"] { background: var(--blue); border-color: var(--blue); color: var(--sheet); }
+nav.tabs a[aria-current="true"] small { color: var(--sheet); opacity: .85; }
+nav.tabs a .done { color: var(--ok); }
+nav.tabs a[aria-current="true"] .done { color: var(--sheet); }
+main .wrap { padding-block: 18px 40px; display: grid; gap: 18px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 99px; background: var(--blue-soft); color: var(--blue); }
+.how { font-size: 15px; color: var(--soft); margin: 0; }
+article.text { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 20px 18px; font-family: var(--serif); font-size: 19px; line-height: 1.62; }
+article.text h2 { font-family: var(--sans); font-size: 21px; line-height: 1.25; margin: 0 0 10px; text-wrap: balance; }
+article.text p { margin: 0 0 14px; }
+article.text p:last-child { margin-bottom: 0; }
+article.text .sign { font-style: italic; color: var(--soft); }
+.post { border-top: 1px solid var(--rule); padding-top: 12px; margin-top: 12px; }
+.post:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+.post b { font-family: var(--sans); font-size: 15px; display: block; }
+.post .age { font-family: var(--sans); font-size: 13px; color: var(--soft); font-weight: 400; }
+.qs { display: grid; gap: 14px; }
+.qs h3 { font-size: 15px; letter-spacing: .06em; text-transform: uppercase; color: var(--soft); margin: 6px 0 0; }
+.q { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 14px; display: grid; gap: 10px; }
+.q p { margin: 0; font-weight: 500; }
+.q .n { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; border-radius: 99px; background: var(--blue); color: var(--sheet); font-size: 13px; font-weight: 700; margin-right: 8px; font-variant-numeric: tabular-nums; }
+.opts { display: grid; gap: 8px; }
+.opts.two { grid-template-columns: 1fr 1fr; }
+.opts.names { grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); }
+.opts button { font: inherit; font-size: 16px; text-align: left; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 11px 12px; min-height: 46px; cursor: pointer; }
+.opts.two button, .opts.names button { text-align: center; font-weight: 600; }
+.opts button[aria-pressed="true"] { border-color: var(--blue); background: var(--blue-soft); box-shadow: inset 0 0 0 1px var(--blue); }
+.opts button:focus-visible, .btn:focus-visible, nav.tabs a:focus-visible { outline: 3px solid var(--mark); outline-offset: 2px; }
+.q.right { border-color: var(--ok); }
+.q.wrong { border-color: var(--bad); }
+.opts button.is-key { border-color: var(--ok); background: var(--ok-soft); box-shadow: inset 0 0 0 1px var(--ok); }
+.opts button.is-miss { border-color: var(--bad); background: var(--bad-soft); }
+.why { font-size: 15px; border-radius: 10px; padding: 10px 12px; }
+.q.right .why { background: var(--ok-soft); }
+.q.wrong .why { background: var(--bad-soft); }
+.why b { display: block; }
+.bar { display: grid; gap: 10px; }
+.btn { font: inherit; font-weight: 600; font-size: 17px; border: 0; border-radius: 12px; padding: 14px; background: var(--blue); color: var(--sheet); cursor: pointer; }
+.btn.ghost { background: transparent; color: var(--blue); border: 1px solid var(--blue); }
+.score { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 14px 16px; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.score strong { font-size: 30px; font-variant-numeric: tabular-nums; }
+.score span { color: var(--soft); font-size: 15px; }
+.summary { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 16px; display: grid; gap: 10px; }
+.summary h2 { font-size: 18px; margin: 0; }
+.summary table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: 15px; }
+.summary td { padding: 6px 0; border-bottom: 1px solid var(--rule); }
+.summary td:last-child { text-align: right; font-weight: 600; }
+.summary textarea { width: 100%; min-height: 90px; font: 13px/1.4 ui-monospace, Menlo, monospace; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 10px; }
+.hint { font-size: 14px; color: var(--soft); margin: 0; }
+@media (prefers-reduced-motion: no-preference) { .q { transition: border-color .15s; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="eyebrow">Läsförståelse · SFI D / B1</div>
+    <h1>Tågläsning 1</h1>
+    <p class="sub">Tre texter, tre ämnen från Rivstart. Läs, svara, tryck på <b>Rätta</b>.</p>
+  </div>
+</header>
+<nav class="tabs" aria-label="Texter">
+  <div class="wrap" id="tabs"></div>
+</nav>
+<main><div class="wrap" id="view"></div></main>
+
+<script>
+const TEXTS = [
+  {
+    id: "text-1", short: "Socker", chapter: "Rivstart kap. 6 · Matvanor", kind: "Faktatext", task: "Ja eller nej + flerval",
+    how: "Läs texten. Stämmer påståendet med texten? Svara Ja eller Nej. Sedan två flervalsfrågor.",
+    title: "Svenskarna och sockret",
+    body: [
+      "Varje svensk äter i genomsnitt omkring 30 kilo socker per år. Det mesta kommer inte från sockerskålen hemma, utan från färdiga produkter: läsk, godis, kakor, yoghurt med smak och till och med bröd och ketchup. Därför märker många inte hur mycket socker de faktiskt får i sig.",
+      "Godis har en särskild plats i Sverige. Lördagsgodis är en tradition sedan 1950-talet. Då rekommenderade läkare att barn bara skulle äta godis en dag i veckan, för att skydda tänderna. I dag köper svenskarna ändå godis mycket oftare än så. Lösgodis, där man själv plockar godis i en påse, är extra populärt, och en svensk äter i snitt cirka 15 kilo godis om året. Det är mer än i nästan alla andra länder.",
+      "Livsmedelsverket rekommenderar att socker ska stå för högst tio procent av det man äter under en dag. För mycket socker kan ge karies, övervikt och en högre risk för diabetes typ 2. Men experter säger att man inte behöver sluta äta godis helt. Det viktigaste är vanorna i vardagen.",
+      "Några enkla råd: drick vatten i stället för läsk till maten, läs innehållsförteckningen på förpackningen och välj naturell yoghurt med färsk frukt. Om du vill ha godis, ta en mindre påse – och ät den långsamt.",
+    ],
+    groups: [
+      { label: "Ja eller nej?", type: "yn", qs: [
+        { q: "Det mesta sockret som svenskar äter kommer från sockerskålen hemma.", a: 1, why: "”Det mesta kommer inte från sockerskålen hemma, utan från färdiga produkter.”" },
+        { q: "Lördagsgodis började för att skydda barnens tänder.", a: 0, why: "Läkare rekommenderade godis en dag i veckan ”för att skydda tänderna”." },
+        { q: "I dag äter svenskar godis bara på lördagar.", a: 1, why: "”I dag köper svenskarna ändå godis mycket oftare än så.”" },
+        { q: "Svenskar äter mer godis än människor i de flesta andra länder.", a: 0, why: "”Det är mer än i nästan alla andra länder.”" },
+        { q: "Livsmedelsverket säger att man ska sluta äta godis helt.", a: 1, why: "Experter säger att man ”inte behöver sluta äta godis helt”." },
+        { q: "Det finns socker i vissa produkter som inte smakar sött.", a: 0, why: "Socker finns ”till och med” i bröd och ketchup. ”Till och med” visar att det är förvånande." },
+      ]},
+      { label: "Välj ett alternativ", type: "mc", qs: [
+        { q: "Varför märker många inte hur mycket socker de äter?", opts: ["Sockret finns i färdiga produkter.", "De äter mest lösgodis.", "Läkarna informerar inte om det.", "Socker smakar inte mycket."], a: 0, why: "”… från färdiga produkter … Därför märker många inte …” Därför binder ihop orsak och följd." },
+        { q: "Vilket råd ger texten?", opts: ["Ät godis bara på helgen.", "Köp godis i en stor påse.", "Drick vatten i stället för läsk till maten.", "Välj yoghurt med smak."], a: 2, why: "Första rådet i sista stycket. Texten säger ”naturell” yoghurt, inte yoghurt med smak." },
+      ]},
+    ],
+  },
+  {
+    id: "text-2", short: "Naturen", chapter: "Rivstart kap. 1 & 7 · Friluftsliv", kind: "Insändare", task: "Flerval",
+    how: "Läs insändaren. Välj det alternativ som stämmer bäst med texten.",
+    title: "Ta hand om naturen – den är allas!",
+    body: [
+      "Jag bor i en liten by i Dalarna, nära en sjö som många turister besöker på sommaren. Jag älskar att människor vill vara ute i naturen. Det är bra för både kroppen och själen. I Sverige har vi dessutom allemansrätten: alla får gå, cykla, bada och tälta en natt nästan överallt i naturen, även på mark som någon annan äger.",
+      "Men allemansrätten betyder inte att man får göra vad man vill. Förra sommaren hittade jag plastflaskor, engångsgrillar och till och med en gammal campingstol vid stranden. En grupp hade gjort upp eld direkt på berget, så att berget sprack. Och en kväll spelade några ungdomar hög musik till klockan tre på natten, mitt emot ett hus där en familj med småbarn bor.",
+      "Jag tror inte att de flesta gör så här för att de är elaka. Många vet helt enkelt inte vilka regler som gäller. Därför vill jag att kommunen sätter upp skyltar vid sjön, på flera språk, som förklarar allemansrätten. Skolorna borde också lära eleverna mer om den.",
+      "Kom ihåg den enkla regeln: inte störa, inte förstöra. Ta med dig skräpet hem. Då kan vi alla fortsätta att njuta av naturen.",
+    ],
+    sign: "Ingrid Mattsson, Rättvik",
+    groups: [
+      { label: "Välj ett alternativ", type: "mc", qs: [
+        { q: "Varför skriver Ingrid insändaren?", opts: ["Hon vill att turisterna ska sluta komma.", "Hon vill att fler ska lära sig reglerna i naturen.", "Hon vill sälja sin mark vid sjön.", "Hon klagar på att kommunen har stängt stranden."], a: 1, why: "Hennes förslag: skyltar som förklarar allemansrätten och mer undervisning i skolan." },
+        { q: "Vad tycker Ingrid om att människor är ute i naturen?", opts: ["Det borde bara gälla de som bor i byn.", "Det stör djuren.", "Det är bra för hälsan.", "Det kostar kommunen för mycket."], a: 2, why: "”Det är bra för både kroppen och själen.” Själen = hur man mår inuti." },
+        { q: "Vad hände förra sommaren?", opts: ["Någon tältade i Ingrids trädgård.", "Det låg skräp vid stranden.", "Familjen med småbarn flyttade.", "Ungdomarna städade stranden."], a: 1, why: "Plastflaskor, engångsgrillar och en campingstol vid stranden." },
+        { q: "Varför gör människor fel, enligt Ingrid?", opts: ["Skyltarna vid sjön är på fel språk.", "De är elaka.", "De flesta är turister från andra länder.", "De känner inte till reglerna."], a: 3, why: "”Många vet helt enkelt inte vilka regler som gäller.” Fälla: det finns inga skyltar än – hon vill att kommunen sätter upp dem." },
+        { q: "Vad betyder ”inte störa, inte förstöra”?", opts: ["Visa hänsyn mot andra och skada inte naturen.", "Man får inte vara i naturen på natten.", "Man får bara gå på stigar.", "Man måste fråga markägaren först."], a: 0, why: "Störa = vara jobbig för andra (hög musik). Förstöra = göra sönder (berget som sprack)." },
+      ]},
+    ],
+  },
+  {
+    id: "text-3", short: "Helgen", chapter: "Rivstart kap. 5 · Helg och vardag", kind: "Forum", task: "Vem tycker vad?",
+    how: "Fem personer skriver i ett forum. Läs inläggen. Vem passar påståendet? En person kan passa flera påståenden.",
+    title: "Tråd: Hur ser din perfekta helg ut?",
+    posts: [
+      { name: "Lina", age: "34 år", text: "För mig är sovmorgon det viktigaste. Under veckan går jag upp halv sex, så på lördagen stänger jag av väckarklockan och sover så länge jag orkar. Sedan äter jag frukost i soffan i mjukiskläder. Jag vill inte planera någonting alls." },
+      { name: "Hassan", age: "41 år", text: "Jag har tre barn, så det finns ingen sovmorgon hemma hos oss, haha. Men det gör inget. På lördagar åker vi ut i skogen och grillar korv, nästan oavsett väder. Barnen får springa av sig och jag får frisk luft." },
+      { name: "Maja", age: "27 år", text: "Helgen är min chans att träffa folk. Jag jobbar hemifrån hela veckan och blir lite ensam. Därför bokar jag alltid in något: en middag med vänner, en konsert eller en fest. Om jag stannar hemma blir jag rastlös." },
+      { name: "Per", age: "58 år", text: "Jag försöker göra saker som jag inte hinner på vardagarna: laga mat från grunden, läsa en hel bok, ringa min syster. Mobilen ligger avstängd från fredag kväll. Det har gjort mig mycket lugnare." },
+      { name: "Sofia", age: "22 år", text: "Jag extrajobbar på ett kafé på lördagar och söndagar, så min helg är måndag och tisdag. Det är faktiskt skönt. Då är det lugnt i affärerna och på gymmet." },
+    ],
+    groups: [
+      { label: "Vem? Välj en person", type: "who", qs: [
+        { q: "Vill inte ha några planer alls.", a: "Lina", why: "Lina: ”Jag vill inte planera någonting alls.” Maja gör tvärtom – hon bokar alltid in något." },
+        { q: "Är ute i naturen även när vädret är dåligt.", a: "Hassan", why: "Hassan: ”nästan oavsett väder”. Oavsett = det spelar ingen roll." },
+        { q: "Känner sig ensam under veckan.", a: "Maja", why: "Maja jobbar hemifrån och ”blir lite ensam”." },
+        { q: "Använder inte telefonen på helgen.", a: "Per", why: "Per: ”Mobilen ligger avstängd från fredag kväll.”" },
+        { q: "Kan inte sova länge på helgen.", a: "Hassan", why: "Hassan: ”det finns ingen sovmorgon hemma hos oss”. Lina går upp tidigt på vardagar, men sover länge på lördagen." },
+        { q: "Är ledig andra dagar än lördag och söndag.", a: "Sofia", why: "Sofia: ”min helg är måndag och tisdag”." },
+        { q: "Gör hemma det som det inte finns tid för annars.", a: "Per", why: "Per: ”saker som jag inte hinner på vardagarna”. Hinna = ha tid." },
+      ]},
+    ],
+  },
+];
+const NAMES = ["Lina", "Hassan", "Maja", "Per", "Sofia"];
+const KEY = "tagslasning-1";
+
+const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
+const store = s => { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch {} };
+let state = load();
+state.answers ||= {};
+state.checked ||= {};
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const optionsFor = (g, q) => g.type === "yn" ? ["Ja", "Nej"] : g.type === "who" ? NAMES : q.opts;
+const keyOf = (g, q) => g.type === "who" ? NAMES.indexOf(q.a) : q.a;
+const allQs = t => t.groups.flatMap((g, gi) => g.qs.map((q, qi) => ({ g, q, id: `${t.id}-${gi}-${qi}` })));
+const scoreOf = t => allQs(t).filter(({ g, q, id }) => state.answers[id] === keyOf(g, q)).length;
+
+function current() {
+  const h = location.hash.slice(1);
+  return TEXTS.find(t => t.id === h) ? h : h === "resultat" ? "resultat" : TEXTS[0].id;
+}
+
+function tabs() {
+  const cur = current();
+  document.getElementById("tabs").innerHTML = TEXTS.map((t, i) => {
+    const done = state.checked[t.id] ? ` <span class="done">${scoreOf(t)}/${allQs(t).length}</span>` : "";
+    return `<a href="#${t.id}" aria-current="${cur === t.id}">Text ${i + 1}${done}<small>${esc(t.short)}</small></a>`;
+  }).join("") + `<a href="#resultat" aria-current="${cur === "resultat"}">Resultat<small>alla tre</small></a>`;
+}
+
+function renderText(t) {
+  const checked = !!state.checked[t.id];
+  let n = 0;
+  const text = t.posts
+    ? `<h2>${esc(t.title)}</h2>${t.posts.map(p => `<div class="post"><b>${esc(p.name)} <span class="age">${esc(p.age)}</span></b>${esc(p.text)}</div>`).join("")}`
+    : `<h2>${esc(t.title)}</h2>${t.body.map(p => `<p>${esc(p)}</p>`).join("")}${t.sign ? `<p class="sign">${esc(t.sign)}</p>` : ""}`;
+  const groups = t.groups.map((g, gi) => `<h3>${esc(g.label)}</h3>${g.qs.map((q, qi) => {
+    n++;
+    const id = `${t.id}-${gi}-${qi}`, opts = optionsFor(g, q), key = keyOf(g, q), given = state.answers[id];
+    const verdict = checked ? (given === key ? "right" : "wrong") : "";
+    const cls = g.type === "yn" ? "two" : g.type === "who" ? "names" : "";
+    return `<div class="q ${verdict}" data-id="${id}">
+      <p><span class="n">${n}</span>${esc(q.q)}</p>
+      <div class="opts ${cls}">${opts.map((o, oi) => {
+        const mark = checked ? (oi === key ? " is-key" : oi === given ? " is-miss" : "") : "";
+        return `<button type="button" data-o="${oi}" aria-pressed="${given === oi}" class="${mark.trim()}" ${checked ? "disabled" : ""}>${esc(o)}</button>`;
+      }).join("")}</div>
+      ${checked ? `<div class="why"><b>${given === key ? "✓ Rätt" : given == null ? "– Inget svar · rätt: " + esc(opts[key]) : "✗ Rätt svar: " + esc(opts[key])}</b>${esc(q.why)}</div>` : ""}
+    </div>`;
+  }).join("")}`).join("");
+  const total = allQs(t).length, answered = allQs(t).filter(x => state.answers[x.id] != null).length;
+  const idx = TEXTS.indexOf(t);
+  return `
+    <div class="meta"><span class="chip">${esc(t.chapter)}</span><span class="chip">${esc(t.kind)}</span><span class="chip">${esc(t.task)}</span></div>
+    <p class="how">${esc(t.how)}</p>
+    <article class="text">${text}</article>
+    <section class="qs">${groups}</section>
+    ${checked ? `<div class="score"><strong>${scoreOf(t)} / ${total}</strong><span>${scoreOf(t) >= Math.ceil(total * .7) ? "Bra! Det är B1-nivå." : "Läs förklaringarna och texten en gång till."}</span></div>` : ""}
+    <div class="bar">
+      ${checked
+        ? `${idx < TEXTS.length - 1 ? `<a class="btn" href="#${TEXTS[idx + 1].id}" style="text-align:center;text-decoration:none">Nästa text →</a>` : `<a class="btn" href="#resultat" style="text-align:center;text-decoration:none">Se resultatet →</a>`}
+           <button class="btn ghost" type="button" id="redo">Gör om text ${idx + 1}</button>`
+        : `<button class="btn" type="button" id="check">Rätta (${answered}/${total} svar)</button>`}
+    </div>`;
+}
+
+function renderResult() {
+  const rows = TEXTS.map((t, i) => `<tr><td>Text ${i + 1} · ${esc(t.short)}</td><td>${state.checked[t.id] ? `${scoreOf(t)} / ${allQs(t).length}` : "inte rättad"}</td></tr>`).join("");
+  const report = ["Tågläsning 1 – resultat", ...TEXTS.map((t, i) => {
+    const wrong = allQs(t).map((x, k) => ({ ...x, k: k + 1 })).filter(x => state.answers[x.id] !== keyOf(x.g, x.q)).map(x => x.k);
+    return `Text ${i + 1} (${t.short}): ${state.checked[t.id] ? `${scoreOf(t)}/${allQs(t).length}${wrong.length ? `, fel på fråga ${wrong.join(", ")}` : ""}` : "inte gjord"}`;
+  })].join("\n");
+  return `
+    <section class="summary">
+      <h2>Resultat</h2>
+      <table>${rows}</table>
+      <p class="hint">Kopiera och klistra in i chatten med läraren (Claude), så kommer felen tillbaka i nästa lektion.</p>
+      <textarea id="report" readonly>${esc(report)}</textarea>
+      <button class="btn" type="button" id="copy">Kopiera resultatet</button>
+      <button class="btn ghost" type="button" id="reset">Börja om alla texter</button>
+    </section>`;
+}
+
+function render() {
+  tabs();
+  const cur = current();
+  const view = document.getElementById("view");
+  view.innerHTML = cur === "resultat" ? renderResult() : renderText(TEXTS.find(t => t.id === cur));
+  view.querySelectorAll(".q").forEach(qel => qel.querySelectorAll(".opts button").forEach(b => b.onclick = () => {
+    state.answers[qel.dataset.id] = Number(b.dataset.o);
+    store(state);
+    qel.querySelectorAll(".opts button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    const c = document.getElementById("check");
+    const t = TEXTS.find(t => t.id === cur);
+    if (c) c.textContent = `Rätta (${allQs(t).filter(x => state.answers[x.id] != null).length}/${allQs(t).length} svar)`;
+  }));
+  const check = document.getElementById("check");
+  if (check) check.onclick = () => { state.checked[cur] = true; store(state); render(); document.querySelector(".qs")?.scrollIntoView({ block: "start" }); };
+  const redo = document.getElementById("redo");
+  if (redo) redo.onclick = () => {
+    delete state.checked[cur];
+    Object.keys(state.answers).filter(k => k.startsWith(cur + "-")).forEach(k => delete state.answers[k]);
+    store(state); render(); window.scrollTo(0, 0);
+  };
+  const copy = document.getElementById("copy");
+  if (copy) copy.onclick = () => {
+    const ta = document.getElementById("report");
+    navigator.clipboard?.writeText(ta.value).then(() => { copy.textContent = "Kopierat ✓"; }, () => { ta.select(); copy.textContent = "Markerat – kopiera själv"; });
+  };
+  const reset = document.getElementById("reset");
+  if (reset) reset.onclick = () => {
+    if (reset.dataset.sure) { state = { answers: {}, checked: {} }; store(state); location.hash = TEXTS[0].id; render(); return; }
+    reset.dataset.sure = "1"; reset.textContent = "Tryck igen för att radera alla svar";
+  };
+}
+
+window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
+render();
+</script>

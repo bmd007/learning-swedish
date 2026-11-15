@@ -120,3 +120,10 @@
   word order, model answer, write a reply to "Förbjud fyrverkerier!"). Both reviewed.
 - Next step: grade whatever the learner does (012, 014–019). Then SFI D speaking: "berätta och ge råd" +
   pair discussion with a TTS partner.
+
+## 2026-11-15
+- Learner wants reading practice on the phone (train). Built `reading/tagslasning-1.html`: one self-contained
+  page, 3 texts on Rivstart themes (ch. 6 socker – faktatext Ja/Nej + MCQ; ch. 1/7 allemansrätten – insändare
+  MCQ; ch. 5 helgen – forum "vem tycker vad"), self-check with explanations, a copyable result summary to paste
+  into chat. Artifact publishing unavailable (API-token session) → file sent to the phone manually.
+- Next step: when the learner pastes the result, log the errors in the learner model.

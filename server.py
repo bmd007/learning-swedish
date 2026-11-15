@@ -188,7 +188,7 @@ class Handler(SimpleHTTPRequestHandler):
             if not files:
                 return self.send_json({"error": "not found"}, 404)
             return self.send_text(files[-1].read_text(encoding="utf-8"))
-        if p.startswith(("/web/", "/audio/", "/uploads/", "/images/")):
+        if p.startswith(("/web/", "/audio/", "/uploads/", "/images/", "/reading/")):
             return super().do_GET()
         if p.startswith("/materials/") and p.endswith((".m4a", ".mp3")) and ".." not in p:
             return super().do_GET()
