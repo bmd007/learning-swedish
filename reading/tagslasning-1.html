@@ -1,8 +1,12 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Tågläsning 1</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 <style>
 /* Layout: one narrow reading column, like an exam booklet; sticky tab bar switches between three texts. */
 :root {
@@ -18,7 +22,6 @@
   --ok-soft: #e4f3ea;
   --bad: #b3362b;
   --bad-soft: #fbe8e6;
-  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: Inter, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
@@ -34,7 +37,9 @@
   --bad: #ff8a7d; --bad-soft: #3a1f1c; color-scheme: dark;
 }
 * { box-sizing: border-box; }
-body { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.5; }
+html { -webkit-text-size-adjust: 100%; }
+[hidden] { display: none !important; }
+body { margin: 0; padding-top: env(safe-area-inset-top, 0px); background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.5; }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--sheet); }
 .wrap { max-width: 640px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 header.top { background: var(--sheet); border-bottom: 1px solid var(--rule); }
@@ -54,15 +59,15 @@ main .wrap { padding-block: 18px 40px; display: grid; gap: 18px; }
 .meta { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 99px; background: var(--blue-soft); color: var(--blue); }
 .how { font-size: 15px; color: var(--soft); margin: 0; }
-article.text { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 20px 18px; font-family: var(--serif); font-size: 19px; line-height: 1.62; }
-article.text h2 { font-family: var(--sans); font-size: 21px; line-height: 1.25; margin: 0 0 10px; text-wrap: balance; }
+article.text { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 20px 18px; font-size: 18.5px; line-height: 1.65; }
+article.text h2 { font-size: 21px; line-height: 1.25; margin: 0 0 10px; text-wrap: balance; }
 article.text p { margin: 0 0 14px; }
 article.text p:last-child { margin-bottom: 0; }
 article.text .sign { font-style: italic; color: var(--soft); }
 .post { border-top: 1px solid var(--rule); padding-top: 12px; margin-top: 12px; }
 .post:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
-.post b { font-family: var(--sans); font-size: 15px; display: block; }
-.post .age { font-family: var(--sans); font-size: 13px; color: var(--soft); font-weight: 400; }
+.post b { font-size: 15px; display: block; margin-bottom: 2px; }
+.post .age { font-size: 13px; color: var(--soft); font-weight: 400; }
 .qs { display: grid; gap: 14px; }
 .qs h3 { font-size: 15px; letter-spacing: .06em; text-transform: uppercase; color: var(--soft); margin: 6px 0 0; }
 .q { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 14px; display: grid; gap: 10px; }
@@ -98,7 +103,8 @@ article.text .sign { font-style: italic; color: var(--soft); }
 .hint { font-size: 14px; color: var(--soft); margin: 0; }
 @media (prefers-reduced-motion: no-preference) { .q { transition: border-color .15s; } }
 </style>
-
+</head>
+<body>
 <header class="top">
   <div class="wrap">
     <div class="eyebrow">Läsförståelse · SFI D / B1</div>
@@ -300,3 +306,5 @@ function render() {
 window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
 render();
 </script>
+</body>
+</html>
