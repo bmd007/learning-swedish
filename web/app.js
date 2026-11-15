@@ -411,7 +411,7 @@ async function openLesson(id) {
         if (item.type === "info") {
           const box = h(`<div class="teach"><div class="teach-label">💡 Så funkar det</div></div>`);
           if (item.image) box.append(renderImage(item.image));
-          box.append(h(`<div class="md">${md(item.md)}</div>`));
+          box.append(h(`<div class="md">${md(item.md)}${exam ? "" : en(item.mdEn)}</div>`));
           right.append(box);
           continue;
         }

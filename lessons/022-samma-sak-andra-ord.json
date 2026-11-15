@@ -1,0 +1,374 @@
+{
+  "id": "022-samma-sak-andra-ord",
+  "title": "Samma sak, andra ord",
+  "titleEn": "Same meaning, different words",
+  "mode": "practice",
+  "minutes": 12,
+  "intro": "Swedex läsning del 4 handlar om att se samma betydelse med andra ord. Här tränar du strategin, vanliga ordpar och 'men'-fällor.",
+  "introEn": "Swedex reading part 4 is about spotting the same meaning in other words. You practise the strategy, common word pairs and 'but' traps.",
+  "sections": [
+    {
+      "id": "strategi",
+      "title": "1. Strategi och ordpar",
+      "titleEn": "1. Strategy and word pairs",
+      "instructions": "Läs kortet.",
+      "instructionsEn": "Read the card.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "image": {
+            "src": "strategi.svg",
+            "alt": "Fråga och textmening betyder samma sak med olika ord",
+            "caption": "Samma sak, andra ord"
+          },
+          "md": "**Swedex läsning del 4:** du får en mening. Hitta meningen i texten som betyder *samma sak* – men med **andra ord**.\n\n**Strategi (3 steg):**\n1. Hitta ett **sökord som inte kan bytas ut** (t.ex. *ryggen*, *trafik*, *sjuk*, *pengar*).\n2. Läs den meningen i texten. Betyder den samma sak?\n3. Välj **0 – ingen mening** först när **två** sökord inte gav något.\n\nOrd som *fortare*, *oftare*, *billigt* byts ofta ut. Sök inte efter dem.\n\n*Persiska:* ابتدا کلمه‌ای را پیدا کن که نمی‌شود عوض کرد، بعد جمله را بخوان. «۰» را فقط وقتی انتخاب کن که دو کلمهٔ کلیدی جواب ندادند.",
+          "mdEn": "Find a keyword that cannot be replaced, read that sentence, choose 0 only after two keywords failed."
+        },
+        {
+          "id": "i2",
+          "type": "info",
+          "md": "**Vanliga par (samma sak):**\n\n| Text | Betyder samma som |\n|---|---|\n| fortare | snabbare |\n| mer sällan | inte så ofta / färre gånger |\n| det stämmer inte | det är fel |\n| behöver inte | det är inte nödvändigt |\n| tillräckligt | det räcker |\n| många | en stor del av |\n| öka | bli fler / bli större |\n| minska | bli färre / bli mindre |\n| i förväg | innan |\n| gratis | kostar ingenting |\n| mycket trafik | tät trafik |\n\n**Kontrast: *men, däremot, fast*.** Delen **efter** *men* är ofta viktigast. *Det kan stämma, men …* = *delvis sant*, inte *helt fel*. *men* = اما / ولی."
+        }
+      ]
+    },
+    {
+      "id": "para",
+      "title": "2. Vilken mening betyder samma sak?",
+      "titleEn": "2. Which sentence means the same?",
+      "instructions": "Välj meningen som betyder samma sak.",
+      "instructionsEn": "Choose the sentence with the same meaning.",
+      "items": [
+        {
+          "id": "p1",
+          "type": "mcq",
+          "tags": [
+            "läs.synonym"
+          ],
+          "q": "Vilken mening betyder samma sak? \"Du behöver inte ta med dig lunch till kursen.\"",
+          "options": [
+            "Du får inte ta med lunch.",
+            "Det är inte nödvändigt att ha med lunch.",
+            "Lunchen kostar extra.",
+            "Du måste ta med lunch."
+          ],
+          "answer": 1,
+          "explain": "\"behöver inte\" = \"inte nödvändigt\". Alternativ 4 är tvärtom.",
+          "explainEn": "You do not need to bring lunch."
+        },
+        {
+          "id": "p2",
+          "type": "mcq",
+          "tags": [
+            "läs.synonym"
+          ],
+          "q": "Vilken mening betyder samma sak? \"Du måste boka tid i förväg.\"",
+          "options": [
+            "Man kan komma utan att boka.",
+            "Man bokar när man kommer dit.",
+            "Man betalar när man bokar.",
+            "Man ska boka innan man kommer."
+          ],
+          "answer": 3,
+          "explain": "\"i förväg\" = \"innan\".",
+          "explainEn": "In advance = before."
+        },
+        {
+          "id": "p3",
+          "type": "mcq",
+          "tags": [
+            "läs.synonym"
+          ],
+          "q": "Vilken mening betyder samma sak? \"Hyran är gratis de första två månaderna.\"",
+          "options": [
+            "Hyran är låg i två månader.",
+            "Man betalar ingenting för hyran de första två månaderna.",
+            "Man betalar hyran i förväg för två månader.",
+            "Hyran höjs efter två månader."
+          ],
+          "answer": 1,
+          "explain": "\"gratis\" = \"man betalar ingenting\".",
+          "explainEn": "gratis = free"
+        },
+        {
+          "id": "p4",
+          "type": "mcq",
+          "tags": [
+            "läs.synonym"
+          ],
+          "q": "Vilken mening betyder samma sak? \"Antalet elever i klassen har ökat.\"",
+          "options": [
+            "Det är fler elever i klassen nu.",
+            "Det är färre elever i klassen nu.",
+            "Klassen har fått en ny lärare.",
+            "Eleverna har blivit bättre."
+          ],
+          "answer": 0,
+          "explain": "\"öka\" = \"bli fler\". Alternativ 2 är tvärtom.",
+          "explainEn": "öka = increase"
+        },
+        {
+          "id": "p5",
+          "type": "mcq",
+          "tags": [
+            "läs.synonym"
+          ],
+          "q": "Vilken mening betyder samma sak? \"Det är tillräckligt att komma tio minuter före avgång.\"",
+          "options": [
+            "Man måste komma tidigare än tio minuter.",
+            "Tåget går tio minuter tidigare.",
+            "Man får inte komma för tidigt.",
+            "Tio minuter före avgång räcker."
+          ],
+          "answer": 3,
+          "explain": "\"tillräckligt\" = \"räcker\".",
+          "explainEn": "tillräckligt = enough"
+        },
+        {
+          "id": "p6",
+          "type": "mcq",
+          "tags": [
+            "läs.synonym"
+          ],
+          "q": "Vilken mening betyder samma sak? \"En stor del av invånarna röstar inte i kommunalvalet.\"",
+          "options": [
+            "Alla invånare röstar i kommunalvalet.",
+            "Kommunen har bara få invånare.",
+            "Många invånare lägger inte sin röst i kommunalvalet.",
+            "Det är inget kommunalval i år."
+          ],
+          "answer": 2,
+          "explain": "\"en stor del av\" = \"många\".",
+          "explainEn": "en stor del av = many"
+        },
+        {
+          "id": "p7",
+          "type": "mcq",
+          "tags": [
+            "läs.synonym"
+          ],
+          "q": "Vilken mening betyder samma sak? \"Bussen går mer sällan på helgen.\"",
+          "options": [
+            "Bussen går oftare på helgen.",
+            "Det går inte lika många bussar på helgen.",
+            "Bussen går bara på helgen.",
+            "Bussen är dyrare på helgen."
+          ],
+          "answer": 1,
+          "explain": "\"mer sällan\" = \"inte lika ofta\" = färre turer.",
+          "explainEn": "mer sällan = less often"
+        }
+      ]
+    },
+    {
+      "id": "del4",
+      "title": "3. Minitest: hitta meningen",
+      "titleEn": "3. Mini test: find the sentence",
+      "instructions": "Välj numret på meningen som säger samma sak. En mening finns inte i texten (0). Sök först efter ett sökord.",
+      "instructionsEn": "Pick the number of the sentence with the same meaning. One is not in the text (0). Search a keyword first.",
+      "parts": [
+        {
+          "heading": "Faktatext",
+          "headingEn": "Fact text",
+          "passageTitle": "Sopsortering",
+          "passage": "Sopsortering i Sverige\n\n(1)Nästan alla svenska hushåll sorterar sina sopor, och systemet fungerar bra. (2)Ungefär nio av tio tycker att det är viktigt att återvinna. (3)Hemma har man ofta flera kärl: ett för matavfall, ett för papper och ett för plast. (4)Glas och metall lämnar man oftast på en återvinningsstation i närheten. (5)Där finns också behållare för tidningar och kartong.\n\n(6)Flaskor och burkar med pant får man pengar för i affären. (7)Pantsystemet gör att nästan alla lämnar tillbaka sina burkar. (8)Matavfall blir biogas som bussar kan köra på. (9)Vissa saker får man inte slänga bland vanliga sopor, till exempel batterier och lampor. (10)Sådant tar man med till en affär som säljer varorna eller till en återvinningscentral.\n\n(11)Stora saker som soffor och kylskåp lämnar man på återvinningscentralen. (12)Där är det oftast gratis för privatpersoner. (13)Öppettiderna skiljer sig mellan kommunerna, så det är bra att kolla på kommunens hemsida först. (14)Den som bor i lägenhet har ofta ett sorteringsrum i huset. (15)Fråga hyresvärden om du är osäker på reglerna. (16)Mindre avfall är bra för miljön, men det bästa är att inte köpa onödiga saker.",
+          "options": [
+            "0 – ingen mening i texten",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "items": [
+            {
+              "id": "s1",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Man får tillbaka pengar när man lämnar vissa flaskor.",
+              "answer": 6,
+              "explain": "Mening 6: \"Flaskor och burkar med pant får man pengar för\"."
+            },
+            {
+              "id": "s2",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Av gammal mat kan man göra bränsle till fordon.",
+              "answer": 8,
+              "explain": "Mening 8: \"Matavfall blir biogas som bussar kan köra på\"."
+            },
+            {
+              "id": "s3",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Batterier ska inte kastas i soptunnan med annat avfall.",
+              "answer": 9,
+              "explain": "Mening 9: \"får man inte slänga bland vanliga sopor, till exempel batterier\"."
+            },
+            {
+              "id": "s4",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Man kan lämna gamla kläder i en container vid affären.",
+              "answer": 0,
+              "explain": "Ingen mening nämner kläder. Sökord: kläder, container – inga träffar. Då är 0 rätt."
+            },
+            {
+              "id": "s5",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Privatpersoner behöver oftast inte betala där.",
+              "answer": 12,
+              "explain": "Mening 12: \"oftast gratis för privatpersoner\"."
+            },
+            {
+              "id": "s6",
+              "type": "select",
+              "tags": [
+                "läs.synonym"
+              ],
+              "q": "Hyresgäster kan få hjälp av den som äger huset om de inte vet hur man sorterar.",
+              "answer": 15,
+              "explain": "Mening 15: \"Fråga hyresvärden om du är osäker på reglerna\"."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kontrast",
+      "title": "4. Men-fällor: Ja eller Nej?",
+      "titleEn": "4. 'But' traps: yes or no?",
+      "instructions": "Läs delen efter men / däremot / fast noga.",
+      "instructionsEn": "Read the part after men / däremot / fast carefully.",
+      "parts": [
+        {
+          "heading": "Text 1",
+          "headingEn": "Text 1",
+          "passage": "Kalaset börjar klockan fem. Vi bjuder på mat, men ta med något att dricka.",
+          "items": [
+            {
+              "id": "c1",
+              "type": "mcq",
+              "tags": [
+                "läs.kontrast"
+              ],
+              "q": "Kommer gästerna att få mat?",
+              "options": [
+                "Ja",
+                "Nej"
+              ],
+              "answer": 0,
+              "explain": "\"Vi bjuder på mat\" = maten ingår. Efter \"men\" gäller bara drickan."
+            }
+          ]
+        },
+        {
+          "heading": "Text 2",
+          "headingEn": "Text 2",
+          "passage": "Kommunen säger att biblioteket är tomt. Det kan stämma på förmiddagen, men på eftermiddagen är det fullt av skolelever.",
+          "items": [
+            {
+              "id": "c2",
+              "type": "mcq",
+              "tags": [
+                "läs.kontrast"
+              ],
+              "q": "Är biblioteket tomt hela dagen?",
+              "options": [
+                "Ja",
+                "Nej"
+              ],
+              "answer": 1,
+              "explain": "Efter \"men\": \"på eftermiddagen är det fullt av skolelever\". Delvis sant (förmiddag), alltså inte hela dagen."
+            }
+          ]
+        },
+        {
+          "heading": "Text 3",
+          "headingEn": "Text 3",
+          "passage": "Jag har bott i Sverige i fem år. Jag förstår det mesta, men jag har fortfarande svårt att prata snabbt med svenskar.",
+          "items": [
+            {
+              "id": "c3",
+              "type": "mcq",
+              "tags": [
+                "läs.kontrast"
+              ],
+              "q": "Förstår skribenten det mesta på svenska?",
+              "options": [
+                "Ja",
+                "Nej"
+              ],
+              "answer": 0,
+              "explain": "\"Jag förstår det mesta\" = ja. Efter \"men\" handlar det om att prata, inte förstå."
+            }
+          ]
+        },
+        {
+          "heading": "Text 4",
+          "headingEn": "Text 4",
+          "passage": "Lägenheten är fin och ligger centralt. Däremot är hyran högre än i andra områden, och det finns ingen balkong.",
+          "items": [
+            {
+              "id": "c4",
+              "type": "mcq",
+              "tags": [
+                "läs.kontrast"
+              ],
+              "q": "Är hyran lägre än i andra områden?",
+              "options": [
+                "Ja",
+                "Nej"
+              ],
+              "answer": 1,
+              "explain": "Efter \"Däremot\": \"hyran högre än i andra områden\"."
+            }
+          ]
+        },
+        {
+          "heading": "Text 5",
+          "headingEn": "Text 5",
+          "passage": "Vi skulle gärna åka på semester i sommar, fast vi har inte råd med någon lång resa.",
+          "items": [
+            {
+              "id": "c5",
+              "type": "mcq",
+              "tags": [
+                "läs.kontrast"
+              ],
+              "q": "Har familjen råd att åka långt i sommar?",
+              "options": [
+                "Ja",
+                "Nej"
+              ],
+              "answer": 1,
+              "explain": "Efter \"fast\": \"vi har inte råd med någon lång resa\"."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -147,3 +147,8 @@
 - Fixed 017 i4 explanation (it contradicted the key).
 - Learner: A/B/C cards are fine (no radio circles).
 - Next: lesson 022 – paraphrase/synonyms (del 4 shape) + contrast words (men, däremot, fast, det kan stämma men).
+
+## 2026-11-15 – Lesson 022 ready
+- 022-samma-sak-andra-ord (12 min): del-4 strategy card + paraphrase pairs, 7 paraphrase mcq, mini del 4 (Sopsortering, 6 items), 5 contrast traps (men/däremot/fast/det kan stämma men).
+- Reviewed: fixed passage grammar, Persian line, moved contrast texts into passages. App now shows `mdEn` on info cards.
+- Next: grade 022. Then Tågläsning 2 / SFI D speaking lesson.
