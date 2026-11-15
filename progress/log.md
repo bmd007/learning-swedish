@@ -140,3 +140,10 @@
 - Pattern: misses come from contrast words (men/däremot), also seen in 001 listening. Tag `läs.kontrast`.
 - App change same day: select items now buttons (no dropdowns). Learner asked about classic radio circles; waiting for their answer.
 - Next: 017 (del 3+4) or Tågläsning 2. Add contrast-word traps in next listening/reading lesson.
+
+## 2026-11-15 – Graded 017 (läsprov B)
+- 9/14 (A2 on its own; B1 needs 10). 016+017 = 24/30 → B1 on a full Swedex reading test.
+- Del 4: 3 misses all '0' where text says the same with other words. Del 3: 'det kan stämma, men' trap again.
+- Fixed 017 i4 explanation (it contradicted the key).
+- Learner: A/B/C cards are fine (no radio circles).
+- Next: lesson 022 – paraphrase/synonyms (del 4 shape) + contrast words (men, däremot, fast, det kan stämma men).

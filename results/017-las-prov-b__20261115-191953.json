@@ -1,0 +1,201 @@
+{
+  "lessonId": "017-las-prov-b",
+  "attemptId": "2026-11-15T18-04-20-781Z",
+  "final": true,
+  "mode": "exam",
+  "startedAt": "2026-11-15T18:04:22.996Z",
+  "finishedAt": "2026-11-15T18:19:53.743Z",
+  "durationMin": 16,
+  "timeLimitMin": 28,
+  "overtime": false,
+  "currentSection": null,
+  "sectionMinutes": {
+    "insandare": 8.5,
+    "fakta": 7
+  },
+  "audioPlays": {},
+  "firstTry": {},
+  "flags": [],
+  "score": {
+    "insandare": {
+      "correct": 4,
+      "total": 6
+    },
+    "fakta": {
+      "correct": 5,
+      "total": 8
+    }
+  },
+  "items": [
+    {
+      "id": "i1",
+      "section": "insandare",
+      "type": "mcq",
+      "tags": [
+        "läs.huvudtanke"
+      ],
+      "prompt": "Varför skriver Gunvor insändaren?",
+      "given": "Hon vill att kommunen behåller buss 12.",
+      "expected": "Hon vill att kommunen behåller buss 12.",
+      "correct": true
+    },
+    {
+      "id": "i2",
+      "section": "insandare",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Varför behöver Gunvor buss 12?",
+      "given": "Hon har ingen bil och kan inte cykla.",
+      "expected": "Hon har ingen bil och kan inte cykla.",
+      "correct": true
+    },
+    {
+      "id": "i3",
+      "section": "insandare",
+      "type": "mcq",
+      "tags": [
+        "läs.åsikt"
+      ],
+      "prompt": "Vad tycker Gunvor om att bara få människor åker buss?",
+      "given": "Det är helt fel.",
+      "expected": "Det stämmer bara vid vissa tider på dagen.",
+      "correct": false
+    },
+    {
+      "id": "i4",
+      "section": "insandare",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Vad har hänt på Anders skola?",
+      "given": "Eleverna får använda mobilen bara på rasterna.",
+      "expected": "Mobilerna läggs undan under lektionerna.",
+      "correct": false
+    },
+    {
+      "id": "i5",
+      "section": "insandare",
+      "type": "mcq",
+      "tags": [
+        "läs.slutsats"
+      ],
+      "prompt": "Hur tycker eleverna om regeln nu?",
+      "given": "Några av dem är nöjda med den.",
+      "expected": "Några av dem är nöjda med den.",
+      "correct": true
+    },
+    {
+      "id": "i6",
+      "section": "insandare",
+      "type": "mcq",
+      "tags": [
+        "läs.åsikt"
+      ],
+      "prompt": "Vad tycker Anders om att skolan ska lära barnen använda mobilen?",
+      "given": "Det är bra, men lugn och ro kommer först.",
+      "expected": "Det är bra, men lugn och ro kommer först.",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "fakta",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Man sparar pengar eftersom man inte behöver tanka bilen eller betala för att ställa den.",
+      "given": "4",
+      "expected": "4",
+      "correct": true
+    },
+    {
+      "id": "s2",
+      "section": "fakta",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Studier visar att cyklister har färre sjukdagar än andra.",
+      "given": "0 – ingen mening i texten",
+      "expected": "6",
+      "correct": false
+    },
+    {
+      "id": "s3",
+      "section": "fakta",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "I tät trafik kommer man ofta fortare fram med cykel än med bil.",
+      "given": "0 – ingen mening i texten",
+      "expected": "7",
+      "correct": false
+    },
+    {
+      "id": "s4",
+      "section": "fakta",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Cykelns storlek måste passa den som cyklar, annars kan man få ont i ryggen.",
+      "given": "0 – ingen mening i texten",
+      "expected": "12",
+      "correct": false
+    },
+    {
+      "id": "s5",
+      "section": "fakta",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Många väljer cykeln eftersom de tycker att kollektivtrafiken är dålig.",
+      "given": "0 – ingen mening i texten",
+      "expected": "0 – ingen mening i texten",
+      "correct": true
+    },
+    {
+      "id": "s6",
+      "section": "fakta",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Vissa arbetsgivare låter de anställda hyra en cykel billigt.",
+      "given": "19",
+      "expected": "19",
+      "correct": true
+    },
+    {
+      "id": "s7",
+      "section": "fakta",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Man ska alltid ha reflexväst när man cyklar.",
+      "given": "0 – ingen mening i texten",
+      "expected": "0 – ingen mening i texten",
+      "correct": true
+    },
+    {
+      "id": "s8",
+      "section": "fakta",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "På en del tåg och bussar får man ha med cykeln om man betalar lite.",
+      "given": "22",
+      "expected": "22",
+      "correct": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-15T19:19:53"
+}
