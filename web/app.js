@@ -19,6 +19,7 @@ const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "
 const en = s => s ? `<div class="en">${esc(s)}</div>` : "";
 const norm = s => String(s ?? "").toLowerCase().replace(/[.,!?;:"]/g, "").replace(/\s+/g, " ").trim();
 const fmt = sec => `${Math.floor(sec / 60)}:${String(Math.floor(sec % 60)).padStart(2, "0")}`;
+const isCompact = opts => opts.length > 6 && opts.every(o => /^([A-Z]\.|\d)/.test(o));
 const AUTO = new Set(["mcq", "select", "gap", "order", "short"]);
 const h = html => { const t = document.createElement("template"); t.innerHTML = html.trim(); return t.content.firstElementChild; };
 const md = s => window.marked ? marked.parse(s ?? "") : `<pre>${esc(s)}</pre>`;
@@ -404,7 +405,7 @@ async function openLesson(id) {
       if (part.image) left.append(renderImage(part.image));
       if (part.passage) left.append(h(`<div class="passage">${part.passageTitle ? `<h3>${esc(part.passageTitle)}</h3>` : ""}<div class="passage-body">${esc(part.passage).replace(/\((\d{1,2})\)/g, '<b class="sn">$1</b>')}</div></div>`));
       if (part.audio) right.append(renderPlayer(part.audio));
-      if (part.options && !part.passage) right.append(h(`<ol class="optlist" type="A">${part.options.map(o => `<li>${esc(o)}</li>`).join("")}</ol>`));
+      if (part.options && !part.passage && isCompact(part.options)) right.append(h(`<ol class="optlist" type="A">${part.options.map(o => `<li>${esc(o)}</li>`).join("")}</ol>`));
       for (const raw of part.items ?? []) {
         const item = { ...raw, options: raw.options ?? part.options };
         if (item.type === "info") {
@@ -500,20 +501,25 @@ async function openLesson(id) {
     const set = v => { state.answers[item.id] = v; save(); };
     const cur = state.answers[item.id];
 
-    if (item.type === "mcq") {
-      const yn = item.options.length === 2 && item.options.every(o => o.length < 8);
-      wrap.innerHTML = `${q}<div class="options ${yn ? "inline" : ""}">${item.options.map((o, i) => `
-        <label class="opt ${cur === i ? "sel" : ""}"><input type="radio" name="${item.id}" value="${i}" ${cur === i ? "checked" : ""}>${yn ? "" : `<span class="key">${String.fromCharCode(65 + i)}</span>`}<span>${esc(o)}</span></label>`).join("")}</div>`;
+    if (item.type === "mcq" || item.type === "select") {
+      const compact = isCompact(item.options);
+      const yn = !compact && item.options.length === 2 && item.options.every(o => o.length < 8);
+      const parts = o => {
+        const m = o.match(/^([A-Z])\.\s*(.*)$/);
+        return m ? [m[1], m[2]] : [null, o];
+      };
+      wrap.innerHTML = `${q}<div class="options ${yn ? "inline" : compact ? "grid" : ""}">${item.options.map((o, i) => {
+        const [k, text] = parts(o);
+        const wide = compact && /\s/.test(o);
+        const inner = compact
+          ? `<span>${esc(wide ? o : (k ?? o))}</span>`
+          : `${yn ? "" : `<span class="key">${k ?? String.fromCharCode(65 + i)}</span>`}<span>${esc(text)}</span>`;
+        return `<label class="opt ${cur === i ? "sel" : ""}${wide ? " wide" : ""}" title="${esc(o)}"><input type="radio" name="${item.id}" value="${i}" ${cur === i ? "checked" : ""}>${inner}</label>`;
+      }).join("")}</div>`;
       wrap.querySelectorAll("input").forEach(inp => inp.onchange = () => {
         set(Number(inp.value));
         wrap.querySelectorAll(".opt").forEach(o => o.classList.toggle("sel", o.contains(inp)));
       });
-    } else if (item.type === "select") {
-      const labeled = item.options.every(o => /^([A-Z]\.|\d)/.test(o));
-      const letters = !labeled && (item.options.length > 4 || item.options.some(o => o.split(/\s+/).length > 8));
-      wrap.innerHTML = `${q}<select class="gap"><option value="">– välj –</option>${item.options.map((o, i) =>
-        `<option value="${i}" ${cur === i ? "selected" : ""}>${letters ? String.fromCharCode(65 + i) + ". " : ""}${esc(o.split(/\s+/).slice(0, 8).join(" "))}${o.split(/\s+/).length > 8 ? "…" : ""}</option>`).join("")}</select>`;
-      wrap.querySelector("select").onchange = e => set(e.target.value === "" ? null : Number(e.target.value));
     } else if (item.type === "short") {
       wrap.innerHTML = `${q}<input class="gap wide-in" autocomplete="off" spellcheck="false" placeholder="1–5 ord" value="${esc(cur ?? "")}">`;
       wrap.querySelector("input").oninput = e => set(e.target.value);

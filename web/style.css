@@ -130,6 +130,9 @@ details.gen summary { cursor: pointer; }
 .options { display: grid; gap: 8px; margin-top: 10px; }
 .options.inline { grid-template-columns: repeat(2, minmax(0, 160px)); }
 .options.inline .opt { justify-content: center; font-weight: 600; }
+.options.grid { grid-template-columns: repeat(auto-fill, minmax(52px, 1fr)); gap: 6px; }
+.options.grid .opt { justify-content: center; font-weight: 600; padding: 10px 4px; font-variant-numeric: tabular-nums; }
+.options.grid .opt.wide { grid-column: 1 / -1; font-weight: 500; }
 .opt { position: relative; display: flex; gap: 10px; align-items: center; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; cursor: pointer; background: var(--card); transition: border-color .1s, background .1s; }
 .opt:hover { border-color: var(--accent); }
 .opt.sel { border-color: var(--accent); background: var(--accent-soft); }
