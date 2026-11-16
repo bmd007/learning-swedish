@@ -188,3 +188,7 @@
   name instead of place), time 14 taken for platform, 'när jag gick i pension' ≠ before. Spelling of short answers.
 - Reading B1 (24/30) + listening B1 (24/30) → Swedex B1 receptive skills look safe.
 - Next: writing in Swedex shape (email ~50 words answering questions + ~100 words calendar email). Then speaking.
+
+## 2026-11-17 – Lesson 026: Swedex skrivprov (exam mode)
+- 026-skriv-swedex (60 min, 2 write items, no scoring; Claude grades). Del 1: Nina's email, 3 questions (describe area, which day, food) + own question back, 40–80 words. Del 2: calendar tis–lör, today = torsdag, mail to moster Lena, 90–140 words: i förrgår/i går (preteritum), i morse + nu (past vs presens), i morgon/på lördag (ska/presens), say what you thought.
+- Next: grade 026 with Swedex criteria (content, form, correctness); watch signal word → verb form, inversion after time words, -s forms.

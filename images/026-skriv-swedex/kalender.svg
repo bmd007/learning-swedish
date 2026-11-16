@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="system-ui, sans-serif">
+  <rect width="700" height="300" fill="#fff"/>
+  <text x="350" y="28" font-size="20" font-weight="700" text-anchor="middle" fill="#222">Det är torsdag i dag</text>
+  <g font-size="15" text-anchor="middle" fill="#222">
+    <rect x="15" y="50" width="125" height="150" rx="8" fill="#fed7d7" stroke="#c53030" stroke-width="3"/>
+    <text x="77" y="76" font-weight="700">tisdag</text><text x="77" y="98" fill="#c53030" font-weight="700">i förrgår</text>
+    <rect x="145" y="50" width="125" height="150" rx="8" fill="#fed7d7" stroke="#c53030" stroke-width="3"/>
+    <text x="207" y="76" font-weight="700">onsdag</text><text x="207" y="98" fill="#c53030" font-weight="700">i går</text>
+    <rect x="275" y="50" width="150" height="150" rx="8" fill="#fefcbf" stroke="#d69e2e" stroke-width="4"/>
+    <text x="350" y="76" font-weight="700">torsdag</text><text x="350" y="98" fill="#975a16" font-weight="700">i dag · i morse · nu</text>
+    <rect x="430" y="50" width="125" height="150" rx="8" fill="#c6f6d5" stroke="#2f855a" stroke-width="3"/>
+    <text x="492" y="76" font-weight="700">fredag</text><text x="492" y="98" fill="#2f855a" font-weight="700">i morgon</text>
+    <rect x="560" y="50" width="125" height="150" rx="8" fill="#c6f6d5" stroke="#2f855a" stroke-width="3"/>
+    <text x="622" y="76" font-weight="700">lördag</text><text x="622" y="98" fill="#2f855a" font-weight="700">på lördag</text>
+  </g>
+  <g font-size="16" fill="#222" text-anchor="middle">
+    <text x="77" y="150" font-size="30">&#x1F9B7;</text><text x="207" y="150" font-size="30">&#x1F3CA;</text>
+    <text x="350" y="150" font-size="30">&#x1F4BC;</text><text x="492" y="150" font-size="30">&#x1F382;</text><text x="622" y="150" font-size="30">&#x1F686;</text>
+  </g>
+  <text x="350" y="240" font-size="17" text-anchor="middle" fill="#444">förflutet: preteritum (gick, åt) · nu: presens · framtid: ska / kommer att</text>
+  <text x="350" y="268" font-size="17" text-anchor="middle" fill="#444">har + supinum: Jag har redan ätit.</text>
+</svg>

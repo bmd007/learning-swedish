@@ -1,0 +1,104 @@
+{
+ "id": "026-skriv-swedex",
+ "title": "Skrivprov: Swedex A2B1 (två mejl)",
+ "titleEn": "Writing test: Swedex A2B1 (two emails)",
+ "mode": "exam",
+ "timeLimit": 60,
+ "minutes": 60,
+ "intro": "Det här är ett skrivprov som på riktiga Swedex. Du skriver två mejl. Del 1: svara på en väns mejl, cirka 50 ord. Del 2: berätta för en släkting om dina dagar, cirka 100 ord. Använd rätt hälsning och avslutning. Ställ en fråga tillbaka. Skriv på dator eller på papper och ladda upp ett foto. Ingen ordbok. Claude rättar efteråt.",
+ "introEn": "A writing test like the real Swedex. Two emails. Part 1: reply to a friend, about 50 words. Part 2: tell a relative about your days, about 100 words. Use a correct greeting and ending. Ask a question back. Type, or write on paper and upload a photo. No dictionary. Claude grades it afterwards.",
+ "sections": [
+  {
+   "id": "del1",
+   "title": "Skriv del 1: Svara på mejlet",
+   "titleEn": "Writing part 1: Reply to the email",
+   "instructions": "Läs mejlet från Nina. Skriv ett svar, cirka 50 ord. Svara på alla tre frågor, börja och sluta på ett bra sätt, och ställ en egen fråga till Nina.",
+   "instructionsEn": "Read Nina's email. Write a reply, about 50 words. Answer all three questions, open and close properly, and ask Nina a question of your own.",
+   "parts": [
+    {
+     "heading": "Mejl från Nina",
+     "headingEn": "Email from Nina",
+     "passageTitle": "Från: Nina · Ämne: Jag kommer till dig!",
+     "passage": "Hej!\n\nHur mår du? Det var länge sedan vi hördes. Nu har jag äntligen bokat biljett: jag kommer till dig i början av december och stannar i tre dagar. Jag längtar!\n\nJag har några frågor:\n1. Hur ser ditt område ut? Är det lugnt eller livligt, och vad finns det i närheten?\n2. Vilken dag passar bäst för dig, fredag eller lördag?\n3. Vilken mat tycker du om? Jag vill gärna laga middag åt oss.\n\nSkriv snart!\nKram, Nina",
+     "image": {
+      "src": "mejl.svg",
+      "alt": "Ett mejl med tre uppgifter: beskriv, berätta, svara",
+      "caption": "Tre frågor. Svara på alla och ställ en fråga tillbaka."
+     },
+     "items": [
+      {
+       "id": "w1",
+       "type": "write",
+       "tags": [
+        "skriv.mejl.svar",
+        "skriv.beskriva",
+        "skriv.fråga"
+       ],
+       "minWords": 40,
+       "maxWords": 80,
+       "q": "Skriv ditt svar till Nina (cirka 50 ord).",
+       "qEn": "Write your reply to Nina (about 50 words).",
+       "bullets": [
+        "Börja med en hälsning (till exempel Hej Nina!) och tacka för mejlet",
+        "Beskriv ditt område: hur det ser ut och vad som finns i närheten",
+        "Skriv vilken dag som passar bäst, fredag eller lördag, och varför",
+        "Skriv vilken mat du tycker om",
+        "Ställ en fråga till Nina (till exempel om resan eller vad hon vill göra)",
+        "Avsluta på ett bra sätt (till exempel Hälsningar, Kram) och skriv ditt namn"
+       ],
+       "explain": "Claude rättar: innehåll (alla tre frågor + din egen fråga), hälsning och avslutning, och grammatik.",
+       "explainEn": "Claude grades: content (all 3 questions + your own question), greeting and ending, grammar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "del2",
+   "title": "Skriv del 2: Berätta om dina dagar",
+   "titleEn": "Writing part 2: Tell about your days",
+   "instructions": "Du har en kalender för fem dagar. Idag är det torsdag. Skriv ett mejl till din moster Lena, cirka 100 ord. Berätta vad du gjorde, vad du gör och vad du ska göra. Skriv också vad du tyckte.",
+   "instructionsEn": "A calendar for five days. Today is Thursday. Write an email to your aunt Lena, about 100 words. Tell what you did, what you do, and what you will do. Also say what you thought.",
+   "parts": [
+    {
+     "heading": "Din kalender",
+     "headingEn": "Your calendar",
+     "passageTitle": "Kalender: Idag är det torsdag",
+     "passage": "Tisdag (i förrgår):  14.00 tandläkaren · kväll: middag hos grannen\nOnsdag (i går):  simhallen med Sara · kväll: bio, ny film\nTorsdag (idag):  08.30 jobbintervju (i morse) · nu: hemma, städa lägenheten\nFredag (i morgon):  festen hos Sara, hon fyller 30 år\nLördag:  tåget till Malmö, hälsa på mormor",
+     "image": {
+      "src": "kalender.svg",
+      "alt": "Kalender med tisdag till lördag och torsdag som idag",
+      "caption": "Förflutet, nutid och framtid. Titta på signalorden."
+     },
+     "items": [
+      {
+       "id": "w2",
+       "type": "write",
+       "tags": [
+        "skriv.kalender",
+        "skriv.berätta",
+        "verb.preteritum",
+        "verb.futurum",
+        "verb.presens"
+       ],
+       "minWords": 90,
+       "maxWords": 140,
+       "q": "Skriv ditt mejl till moster Lena (cirka 100 ord).",
+       "qEn": "Write your email to aunt Lena (about 100 words). Past: i förrgår gick jag… / i går simmade jag… / i morse hade jag… Present: nu städar jag. Future: i morgon ska jag… / på lördag åker jag…",
+       "bullets": [
+        "Hälsning till Lena (Hej moster Lena!) och en fråga om hur hon mår",
+        "Vad gjorde du i förrgår (tisdag) och i går (onsdag)?",
+        "Vad hände i morse, och vad gör du nu?",
+        "Vad tyckte du om filmen eller intervjun?",
+        "Vad ska du göra i morgon och på lördag?",
+        "Avslutning och en fråga tillbaka till Lena (till exempel om hon vill komma)"
+       ],
+       "explain": "Claude rättar: rätt tid efter signalord (i går åt jag, nu städar jag, i morgon ska jag), ordföljd efter tidsord (I går simmade jag), och om du skriver vad du tyckte.",
+       "explainEn": "Claude grades: correct tense after signal words, inversion after time words, and whether you say what you thought."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
