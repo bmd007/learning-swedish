@@ -161,3 +161,8 @@
     myndigheter, region/kommun) + three portraits Thiel/Jansson/af Klint, A/B/C matching.
 - Phone page: reading/langlasning-rivstart.html (both tests, 45 q, 60 min).
 - Next: grade 022/023/024 when done. Then SFI D speaking lesson (berätta + ge råd, pair discussion).
+
+## 2026-11-16 – Exam-like listening
+- Friend's Swedex report (docs/research.md): listening hardest – played twice back to back, noise.
+- App: exam-mode audio plays maxPlays times in a row on one click. build_audio.py: `noise` low/medium/high.
+- Next: lesson 025 = full Swedex hörprov (5 parts, exam conditions, some noisy recordings).

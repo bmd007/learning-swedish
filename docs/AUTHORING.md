@@ -145,6 +145,11 @@ The file is not in git, so the lesson only works on a machine that has `material
   "script": [{"speaker": "Sara", "text": "...", "pause": 1.0}] }    // pause = silence before this line
 ```
 Only two Swedish voices exist (Sofie f, Mattias m); vary `pitch`/`rate` for extra people.
+`"noise": "low" | "medium" | "high"` (or a number 0–1) mixes background murmur into the TTS file – the real
+Swedex listening test has recordings with background noise. Use "medium" on some items in exam tests.
+
+**Exam playback:** in exam mode, one click plays the recording `maxPlays` times in a row (2 s gap, no pause),
+like the real test where the teacher plays it twice without stopping. Set `"strict": false` on an audio to opt out.
 
 **Make TTS scripts sound like B1 speech, not a textbook:**
 - **Length:** 120–250 words, 1–2.5 min. Not 6 short lines.

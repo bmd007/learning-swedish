@@ -177,3 +177,12 @@ Matrices:
   grades + sfi + the state test remain).
 
 <!-- archive: material-material -->
+
+## Swedex A2B1 – report from a test taker (learner's friend, 2026-11)
+- Reading: easiest part. Clear instructions, little writing.
+- Listening: hardest. The teacher plays each recording twice **back to back, no pause**. You write answers
+  while listening. 5 min before start to read the questions; ~30 s between parts. Some recordings have
+  background noise or unclear speakers.
+- Writing: two emails, ~50 and ~100 words (model test del 2 says "ca 100 ord"). Practise asking questions
+  and describing things.
+- Speaking: 15 min, exactly as in the model test (muntligt deltagarmaterial).

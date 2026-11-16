@@ -112,3 +112,9 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   longer article. So about the same as the longest test text, but denser (names, years, rare words).
 - Repo is PUBLIC → never copy book text into lessons. Rewrite the same facts in own words (also trains
   paraphrase), reuse the words the learner marked. Done in 023 + 024.
+
+## 2026-11-16 – Friend's Swedex report
+- Friend took Swedex A2B1: listening hardest (twice in a row, no pause, noise, unclear speakers, write while
+  listening). Writing = two emails ~50 + ~100 words. Details in docs/research.md.
+- → App: exam-mode audio now plays twice in a row on one click. build_audio.py: `noise` option.
+  Listening practice must include exam conditions; Swedex writing tasks use 50/100 words.

@@ -1,5 +1,6 @@
 import asyncio
 import json
+import random
 import subprocess
 import sys
 import tempfile
@@ -60,6 +61,20 @@ def silence(seconds):
     return b"\x00\x00" * int(RATE * seconds)
 
 
+def add_noise(data, level):
+    """level 0–1: background murmur (low-passed noise with slow swells), relative to full scale."""
+    level = {"low": 0.03, "medium": 0.06, "high": 0.1}.get(level, level)
+    samples = array("h", data)
+    rnd = random.Random(1)
+    low = swell = 0.0
+    for i, v in enumerate(samples):
+        low += 0.08 * (rnd.uniform(-1, 1) - low)
+        if i % 2400 == 0:
+            swell = 0.6 + 0.4 * rnd.random()
+        samples[i] = max(-32768, min(32767, int(v + low * swell * level * 32767 * 4)))
+    return samples.tobytes()
+
+
 async def render(audio, m4a):
     gap = audio.get("gap", 0.45)
     frames, previous = [], None
@@ -73,12 +88,15 @@ async def render(audio, m4a):
                 frames.append(silence(line.get("pause", default)))
             frames.append(pcm(mp3, tmp))
             previous = line.get("speaker")
+        data = b"".join(frames)
+        if audio.get("noise"):
+            data = add_noise(data, audio["noise"])
         wav = Path(tmp) / "all.wav"
         with wave.open(str(wav), "wb") as w:
             w.setnchannels(1)
             w.setsampwidth(2)
             w.setframerate(RATE)
-            w.writeframes(b"".join(frames))
+            w.writeframes(data)
         subprocess.run(["afconvert", "-f", "m4af", "-d", "aac", str(wav), str(m4a)], check=True)
 
 

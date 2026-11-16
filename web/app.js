@@ -474,13 +474,20 @@ async function openLesson(id) {
       btn.disabled = used >= max;
     };
     upd();
+    const strict = exam && audio.strict !== false;
+    if (strict && !(state.plays[audio.id] >= max)) btn.textContent = `▶ Spela upp (${max} gånger i rad)`;
     btn.onclick = async () => {
-      state.plays[audio.id] = (state.plays[audio.id] ?? 0) + 1;
-      save();
       btn.disabled = true;
-      btn.textContent = "🔊 Spelar…";
       el.classList.add("playing");
-      await playAudio(lesson.id, audio);
+      do {
+        state.plays[audio.id] = (state.plays[audio.id] ?? 0) + 1;
+        save();
+        upd();
+        btn.disabled = true;
+        btn.textContent = `🔊 Spelar… (${state.plays[audio.id]}/${max})`;
+        await playAudio(lesson.id, audio);
+        if (strict && state.plays[audio.id] < max) await new Promise(r => setTimeout(r, 2000));
+      } while (strict && state.plays[audio.id] < max);
       el.classList.remove("playing");
       btn.textContent = "▶ Spela upp";
       upd();
