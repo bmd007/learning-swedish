@@ -1,0 +1,1076 @@
+{
+ "id": "025-horprov-swedex",
+ "title": "Hörprov: Swedex A2B1 (hela provet)",
+ "titleEn": "Listening test: Swedex A2B1 (full test)",
+ "mode": "exam",
+ "timeLimit": 35,
+ "minutes": 35,
+ "scoring": {
+  "max": 30,
+  "A2": 14,
+  "B1": 22
+ },
+ "intro": "Det här är ett helt hörprov som på riktiga Swedex. 30 poäng, fem delar. Varje inspelning spelas två gånger i rad, utan paus. Du skriver medan du lyssnar. Några inspelningar har bakgrundsljud, och några personer pratar snabbt. Läs frågorna först. Lyssna i lugn och ro, utan att pausa. Gränser: A2 = 14 poäng, B1 = 22 poäng. Använd hörlurar.",
+ "introEn": "A full listening test like the real Swedex. 30 points, five parts. Every recording plays twice back to back with no pause. You write while listening. Some recordings have background noise, and some speakers are fast. Read the questions first. Do not pause. Limits: A2 = 14, B1 = 22. Use headphones.",
+ "sections": [
+  {
+   "id": "del1",
+   "title": "Hör del 1: Meddelanden",
+   "titleEn": "Listening part 1: Messages",
+   "instructions": "Du hör sex korta meddelanden. Välj rätt svar (A, B eller C). Varje meddelande spelas två gånger.",
+   "instructionsEn": "Six short messages. Choose the right answer. Each plays twice.",
+   "parts": [
+    {
+     "heading": "Meddelande 1",
+     "headingEn": "Message 1",
+     "audio": {
+      "id": "m1",
+      "title": "Meddelande 1 – tandläkaren",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": "f"
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Hej, det här är Maria från Tandkliniken Solrosen. Jag ringer till Karim Nouri. Din tid på tisdag klockan två måste vi tyvärr flytta, för doktor Lind är sjuk. Vi kan erbjuda onsdag klockan tio … nej förlåt, onsdag är fullbokad. Torsdag klockan tio går bra. Hör av dig om det inte passar. Annars ses vi på torsdag. Du når oss på noll åtta, fyra fem, sex sju, åtta nio. Hej då."
+       }
+      ],
+      "context": "Telefonmeddelande"
+     },
+     "items": [
+      {
+       "id": "q1",
+       "type": "mcq",
+       "tags": [
+        "hör.tid"
+       ],
+       "q": "När har Karim sin nya tid?",
+       "qEn": "When is Karim's new appointment?",
+       "options": [
+        "Tisdag klockan två",
+        "Onsdag klockan tio",
+        "Torsdag klockan tio"
+       ],
+       "answer": 2,
+       "explain": "Onsdag är ett förslag som tas tillbaka ('nej förlåt, fullbokad'). Den nya tiden är torsdag klockan tio.",
+       "explainEn": "Wednesday is withdrawn. The new time is Thursday at ten."
+      }
+     ],
+     "image": {
+      "src": "hor-del-1.svg",
+      "alt": "En telefon med en röstbrevlåda och sex meddelanden",
+      "caption": "Del 1: sex korta meddelanden"
+     }
+    },
+    {
+     "heading": "Meddelande 2",
+     "headingEn": "Message 2",
+     "audio": {
+      "id": "m2",
+      "title": "Meddelande 2 – tågstationen",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": "f"
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Uppmärksamma resenärer. Tåg femhundratrettiofyra mot Göteborg avgår inte från spår fyra, som det står på tavlan, utan från spår nio. Tåget är dessutom femton minuter försenat. Det går klockan fjorton och tjugo i stället för klockan fjorton och fem. Resenärer som ska byta i Alingsås hinner med sitt anslutningståg. Vi ber om ursäkt för förseningen."
+       }
+      ],
+      "noise": {
+       "sound": "train",
+       "level": 0.35
+      },
+      "context": "Utrop på en station"
+     },
+     "items": [
+      {
+       "id": "q2",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Varifrån avgår tåget?",
+       "qEn": "Where does the train leave from?",
+       "options": [
+        "Från spår 4",
+        "Från spår 9",
+        "Från spår 14"
+       ],
+       "answer": 1,
+       "explain": "'inte från spår fyra … utan från spår nio'. Fjorton är klockslaget (14.20).",
+       "explainEn": "Not track 4 but track 9. Fourteen is the time."
+      }
+     ]
+    },
+    {
+     "heading": "Meddelande 3",
+     "headingEn": "Message 3",
+     "audio": {
+      "id": "m3",
+      "title": "Meddelande 3 – Jonas",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": "m"
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Hej Lena, det är Jonas. Du, jag skulle ju hämta dig på lördag med bilen, men den står på verkstaden och blir inte klar förrän på måndag. Så jag tänkte att vi tar bussen i stället. Den går tjugo över nio från torget. Är det okej för dig? Annars kan vi ta en taxi, men det blir ganska dyrt. Ring mig när du hör det här. Hej!"
+       }
+      ],
+      "rate": "+6%",
+      "context": "Telefonmeddelande"
+     },
+     "items": [
+      {
+       "id": "q3",
+       "type": "mcq",
+       "tags": [
+        "hör.huvudtanke"
+       ],
+       "q": "Varför ringer Jonas?",
+       "qEn": "Why does Jonas call?",
+       "options": [
+        "Han vill ändra hur de ska resa.",
+        "Han vill att Lena ska låna hans bil.",
+        "Han vill boka en taxi åt Lena."
+       ],
+       "answer": 0,
+       "explain": "Bilen är på verkstad, så han föreslår buss i stället. Taxi är bara ett andra alternativ.",
+       "explainEn": "His car is at the garage, so he suggests the bus. A taxi is only the backup."
+      }
+     ]
+    },
+    {
+     "heading": "Meddelande 4",
+     "headingEn": "Message 4",
+     "audio": {
+      "id": "m4",
+      "title": "Meddelande 4 – mataffären",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": "f"
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Välkommen till Matkassen! Bara idag har vi extrapris på färska bananer. De kostar vanligtvis tjugofem kronor kilot, men idag betalar du bara femton. Äpplen och päron kostar som vanligt tjugo kronor kilot. Och glöm inte att vi stänger tidigare i kväll, redan klockan sju."
+       }
+      ],
+      "rate": "+4%",
+      "context": "Utrop i en butik"
+     },
+     "items": [
+      {
+       "id": "q4",
+       "type": "mcq",
+       "tags": [
+        "hör.siffror"
+       ],
+       "q": "Vad kostar bananerna idag?",
+       "qEn": "What do the bananas cost today?",
+       "options": [
+        "20 kronor kilot",
+        "25 kronor kilot",
+        "15 kronor kilot"
+       ],
+       "answer": 2,
+       "explain": "Vanligt pris 25, idag 15. Äpplen och päron kostar 20.",
+       "explainEn": "Normal price 25, today 15. Apples cost 20."
+      }
+     ]
+    },
+    {
+     "heading": "Meddelande 5",
+     "headingEn": "Message 5",
+     "audio": {
+      "id": "m5",
+      "title": "Meddelande 5 – hyran",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": "m"
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Hej, det här är Peter Åkesson på Bostadsbolaget. Jag ringer angående din hyra. Din förra hyra var sex tusen åttahundra kronor i månaden, men från första januari höjs den till sex tusen niohundra. Du får ett brev om det i veckan. Har du frågor kan du ringa mig på vardagar mellan nio och tolv. Tack och hej då."
+       }
+      ],
+      "context": "Telefonmeddelande"
+     },
+     "items": [
+      {
+       "id": "q5",
+       "type": "mcq",
+       "tags": [
+        "hör.siffror"
+       ],
+       "q": "Hur mycket blir hyran från januari?",
+       "qEn": "How much is the rent from January?",
+       "options": [
+        "6 800 kronor",
+        "6 900 kronor",
+        "9 600 kronor"
+       ],
+       "answer": 1,
+       "explain": "Förra hyran: 6 800. Nya hyran från januari: 6 900.",
+       "explainEn": "Previous rent 6,800. New rent 6,900."
+      }
+     ]
+    },
+    {
+     "heading": "Meddelande 6",
+     "headingEn": "Message 6",
+     "audio": {
+      "id": "m6",
+      "title": "Meddelande 6 – Erik",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": "m"
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Hej Sofia, det är Erik. Jag står på bussen och det är kö, så jag kommer för sent. Vi har ju möte klockan nio med kunden, men jag tror att jag är där först vid halv tio. Kan du börja utan mig? Du har presentationen i din dator. Och kan du säga till Maria att jag kommer? Tack. Vi ses snart."
+       }
+      ],
+      "rate": "+8%",
+      "noise": {
+       "sound": "car",
+       "level": 0.3
+      },
+      "context": "Telefonmeddelande (Erik ringer från bussen)"
+     },
+     "items": [
+      {
+       "id": "q6",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Vad vill Erik att Sofia gör?",
+       "qEn": "What does Erik want Sofia to do?",
+       "options": [
+        "Börja mötet utan honom",
+        "Flytta mötet till halv tio",
+        "Hämta honom vid bussen"
+       ],
+       "answer": 0,
+       "explain": "'Kan du börja utan mig?' Mötet flyttas inte – han är bara sen.",
+       "explainEn": "'Can you start without me?' The meeting is not moved."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "del2",
+   "title": "Hör del 2: Meddelanden och radio",
+   "titleEn": "Listening part 2: Messages and radio",
+   "instructions": "Du hör tre inslag. Svara på frågorna med 1–5 ord. Skriv kort.",
+   "instructionsEn": "Three items. Answer with 1–5 words.",
+   "parts": [
+    {
+     "heading": "Meddelande 7–8",
+     "headingEn": "Messages 7–8",
+     "image": {
+      "src": "hor-del-2.svg",
+      "alt": "En radio, en ryggsäck och en buss – tre korta inslag",
+      "caption": "Del 2: svara med 1–5 ord"
+     },
+     "audio": {
+      "id": "a1",
+      "title": "Telefonmeddelande – hittegods",
+      "maxPlays": 2,
+      "speakers": {
+       "Martin": {
+        "voice": "m",
+        "rate": "+10%",
+        "pitch": "-4Hz"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Martin",
+        "text": "Hej, det här är Martin Berg. Jag ringer angående en ryggsäck som jag tappade på bussen i tisdags … nej förlåt, i onsdags. Det var buss fyrtiosju mot Hässelby. Ryggsäcken är blå och i den ligger min dator och en gul tröja. Jag har försökt ringa er två gånger, men ingen svarar. Kan ni ringa mig på noll sju noll, fyra tre två, nio sex fem? Jag jobbar till fem, men efter det går det bra."
+       }
+      ],
+      "noise": {
+       "sound": "traffic",
+       "level": 0.5
+      },
+      "context": "Telefonmeddelande till hittegodskontoret"
+     },
+     "items": [
+      {
+       "id": "q7",
+       "type": "short",
+       "tags": [
+        "hör.tid"
+       ],
+       "q": "Vilken dag tappade Martin ryggsäcken?",
+       "qEn": "Which day did Martin lose the backpack?",
+       "answers": [
+        "onsdag",
+        "på onsdag",
+        "i onsdags"
+       ],
+       "explain": "'i tisdags … nej förlåt, i onsdags'. Rättelsen gäller.",
+       "explainEn": "He corrects himself: Wednesday."
+      },
+      {
+       "id": "q8",
+       "type": "short",
+       "tags": [
+        "hör.siffror"
+       ],
+       "q": "Vilken buss åkte han med?",
+       "qEn": "Which bus did he take?",
+       "answers": [
+        "47",
+        "fyrtiosju",
+        "buss 47",
+        "fyrtisju"
+       ],
+       "explain": "Buss 47 mot Hässelby.",
+       "explainEn": "Bus 47."
+      }
+     ]
+    },
+    {
+     "heading": "Meddelande 9–10",
+     "headingEn": "Items 9–10",
+     "audio": {
+      "id": "a2",
+      "title": "Radio – nytt bibliotek",
+      "maxPlays": 2,
+      "speakers": {
+       "Programledare": "f"
+      },
+      "script": [
+       {
+        "speaker": "Programledare",
+        "text": "Och nu till kulturnytt. Stadsbiblioteket i Västerås har byggt om. Förut låg barnavdelningen på bottenvåningen, men nu ligger den en trappa upp, på andra våningen, och där finns också en liten scen för sagostunder. Biblioteket är öppet varje dag, vardagar till åtta på kvällen och på helgerna till fyra. På lördag klockan elva är det invigning. Då kommer en barnboksförfattare och läser högt, och de första hundra barnen får en gratis bok. Alla är välkomna, och det kostar ingenting."
+       }
+      ],
+      "context": "Radioprogram"
+     },
+     "items": [
+      {
+       "id": "q9",
+       "type": "short",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Var ligger barnavdelningen nu?",
+       "qEn": "Where is the children's section now?",
+       "answers": [
+        "andra våningen",
+        "en trappa upp",
+        "våning 2",
+        "andra",
+        "övervåningen"
+       ],
+       "explain": "'Förut … på bottenvåningen, men nu … en trappa upp, på andra våningen' (förra/nu).",
+       "explainEn": "Before: ground floor. Now: second floor."
+      },
+      {
+       "id": "q10",
+       "type": "short",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Vad får de första barnen på lördag?",
+       "qEn": "What do the first children get on Saturday?",
+       "answers": [
+        "bok",
+        "en bok",
+        "gratis bok"
+       ],
+       "explain": "'de första hundra barnen får en gratis bok'.",
+       "explainEn": "A free book."
+      }
+     ]
+    },
+    {
+     "heading": "Inslag 11–12",
+     "headingEn": "Items 11–12",
+     "audio": {
+      "id": "a3",
+      "title": "Radio – Musikhjälpen (Klartext)",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/de-leder-musikhjalpen.m4a",
+      "credit": "Klartext, Sveriges Radio. Automatisk transkription – kan ha små fel.",
+      "transcript": "Det blir Farah Abadi, Assia Dahir och Hampus Hedström som programleder Musikhjälpen i år. Sista november går programledarna in i buren på Stora torget i Linköping. Och i en vecka ska de samla in så mycket pengar det bara går. Programmet sänds både i radiokanalen P3 och på SVT Play. Temat för årets insamling är psykisk hälsa i krig och kris. Malin Haag, Klartext.",
+      "context": "Radioinslag (Klartext)"
+     },
+     "items": [
+      {
+       "id": "q11",
+       "type": "short",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Var går programledarna in i buren?",
+       "qEn": "Where do the presenters go into the glass cage?",
+       "answers": [
+        "Linköping",
+        "Stora torget",
+        "torget i Linköping"
+       ],
+       "explain": "'går programledarna in i buren på Stora torget i Linköping'.",
+       "explainEn": "On Stora torget in Linköping."
+      },
+      {
+       "id": "q12",
+       "type": "short",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Vad är temat för årets insamling?",
+       "qEn": "What is the theme of this year's fundraising?",
+       "answers": [
+        "psykisk hälsa",
+        "hälsa i krig",
+        "krig och kris",
+        "psykiska hälsa"
+       ],
+       "explain": "'Temat … är psykisk hälsa i krig och kris'.",
+       "explainEn": "Mental health in war and crisis."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "del3",
+   "title": "Hör del 3: Dialog",
+   "titleEn": "Listening part 3: Dialogue",
+   "instructions": "Du hör en dialog. Svara på frågorna med 1–5 ord. Frågorna kommer i samma ordning som i samtalet.",
+   "instructionsEn": "A dialogue. Answer with 1–5 words. The questions follow the order of the conversation.",
+   "parts": [
+    {
+     "heading": "Dialog: Sara och Daniel planerar en födelsedag",
+     "headingEn": "Dialogue: Sara and Daniel plan a birthday",
+     "image": {
+      "src": "hor-del-3.svg",
+      "alt": "Sara och Daniel vid ett bord med en present och en tårta",
+      "caption": "Del 3: en dialog"
+     },
+     "audio": {
+      "id": "d1",
+      "title": "Dialog – Lasses födelsedag",
+      "maxPlays": 2,
+      "speakers": {
+       "Sara": "f",
+       "Daniel": {
+        "voice": "m",
+        "rate": "+14%",
+        "pitch": "-5Hz"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Sara",
+        "text": "Hej Daniel! Du, vi måste prata om Lasses födelsedag. Han fyller femtio nästa vecka."
+       },
+       {
+        "speaker": "Daniel",
+        "text": "Ja, just det, det har jag inte glömt. Är det inte på fredag?"
+       },
+       {
+        "speaker": "Sara",
+        "text": "Nä, själva dagen är på torsdag, men vi firar på fredag, efter jobbet."
+       },
+       {
+        "speaker": "Daniel",
+        "text": "Okej. Och var tänkte du? På kontoret?"
+       },
+       {
+        "speaker": "Sara",
+        "text": "Jag tänkte först på kontoret, men det är lite tråkigt. Så jag har bokat bord på Restaurang Nilsson. Åtta personer, klockan sex."
+       },
+       {
+        "speaker": "Daniel",
+        "text": "Åh, bra. Fast Nilsson är ju rätt dyrt, eller hur?"
+       },
+       {
+        "speaker": "Sara",
+        "text": "Jo, det kan stämma, men de har en gruppmeny för trehundra kronor per person, och då ingår både mat och kaffe. Dryck får man betala själv."
+       },
+       {
+        "speaker": "Daniel",
+        "text": "Okej, det låter rimligt. Vad ska vi ge honom för present?"
+       },
+       {
+        "speaker": "Sara",
+        "text": "Jag tänkte en bok, men han läser ju aldrig. Han älskar att laga mat, så kanske ett presentkort till en matbutik?"
+       },
+       {
+        "speaker": "Daniel",
+        "text": "Hmm, presentkort är lite opersonligt. Vad sägs om en kniv? Han säger alltid att hans knivar är gamla."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Ja, det är en bra idé! Men en bra kniv kostar nog fyrahundra kronor."
+       },
+       {
+        "speaker": "Daniel",
+        "text": "Då delar vi på det. Alla lägger hundrafemtio … nej, vänta, vi är åtta, så femtio kronor var räcker."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Perfekt. Kan du köpa kniven? Jag har inte tid, jag är på kurs hela veckan."
+       },
+       {
+        "speaker": "Daniel",
+        "text": "Visst, jag köper den på onsdag. Och du säger till de andra?"
+       },
+       {
+        "speaker": "Sara",
+        "text": "Ja, jag mejlar dem i kväll. Du kan väl ta med ett kort som alla kan skriva på."
+       },
+       {
+        "speaker": "Daniel",
+        "text": "Absolut, det fixar jag."
+       }
+      ],
+      "noise": {
+       "sound": "cafe",
+       "level": 0.35
+      },
+      "context": "Dialog på ett kafé"
+     },
+     "items": [
+      {
+       "id": "q13",
+       "type": "short",
+       "tags": [
+        "hör.tid"
+       ],
+       "q": "Vilken dag fyller Lasse år?",
+       "qEn": "Which day is Lasse's birthday?",
+       "answers": [
+        "torsdag",
+        "på torsdag"
+       ],
+       "explain": "Dagen är torsdag, men festen är på fredag.",
+       "explainEn": "His birthday is Thursday; the party is Friday."
+      },
+      {
+       "id": "q14",
+       "type": "short",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Var ska de fira?",
+       "qEn": "Where will they celebrate?",
+       "answers": [
+        "restaurang nilsson",
+        "nilsson",
+        "restaurang",
+        "på restaurang"
+       ],
+       "explain": "Först kontoret, sedan bokar Sara bord på Restaurang Nilsson.",
+       "explainEn": "At Restaurant Nilsson, not the office."
+      },
+      {
+       "id": "q15",
+       "type": "short",
+       "tags": [
+        "hör.siffror"
+       ],
+       "q": "Vad kostar gruppmenyn per person?",
+       "qEn": "What does the group menu cost per person?",
+       "answers": [
+        "300",
+        "trehundra",
+        "tre hundra"
+       ],
+       "explain": "'trehundra kronor per person' (mat och kaffe ingår).",
+       "explainEn": "300 kronor."
+      },
+      {
+       "id": "q16",
+       "type": "short",
+       "tags": [
+        "hör.åsikt"
+       ],
+       "q": "Vad ska de ge Lasse i present?",
+       "qEn": "What will they give Lasse as a present?",
+       "answers": [
+        "kniv",
+        "en kniv",
+        "knivar"
+       ],
+       "explain": "Presentkort är opersonligt – Daniel föreslår en kniv.",
+       "explainEn": "A knife."
+      },
+      {
+       "id": "q17",
+       "type": "short",
+       "tags": [
+        "hör.siffror"
+       ],
+       "q": "Hur mycket ska varje person betala för presenten?",
+       "qEn": "How much does each person pay for the present?",
+       "answers": [
+        "50",
+        "femtio",
+        "50 kronor"
+       ],
+       "explain": "Kniven kostar 400, åtta personer: 50 kronor var (inte 150).",
+       "explainEn": "400 / 8 = 50."
+      },
+      {
+       "id": "q18",
+       "type": "short",
+       "tags": [
+        "hör.tid"
+       ],
+       "q": "När ska Daniel köpa presenten?",
+       "qEn": "When will Daniel buy the present?",
+       "answers": [
+        "onsdag",
+        "på onsdag"
+       ],
+       "explain": "'jag köper den på onsdag'.",
+       "explainEn": "On Wednesday."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "del4",
+   "title": "Hör del 4: Radioinslag och rubriker",
+   "titleEn": "Listening part 4: Radio items and headlines",
+   "instructions": "Du hör fyra radioinslag. Välj rätt rubrik till varje inslag. Två rubriker passar inte.",
+   "instructionsEn": "Four radio items. Match each to a headline. Two headlines are extra.",
+   "parts": [
+    {
+     "heading": "Radioinslag 1",
+     "headingEn": "Radio item 1",
+     "options": [
+      "A. Löparstjärna vann maraton i New York",
+      "B. Önskan blev verklighet för Malin",
+      "C. Väktare stoppade flicka med hund – nu krävs pengar",
+      "D. Fler hundar förbjuds i köpcentrum",
+      "E. Ny julvärd i tv är vald",
+      "F. Tågolycka stoppade trafiken i södra Stockholm"
+     ],
+     "audio": {
+      "id": "r1",
+      "title": "Inslag 1 – olycka (Klartext)",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/posttag-krockade-med-gravmaskin-tva-skadade.m4a",
+      "credit": "Klartext, Sveriges Radio. Automatisk transkription – kan ha små fel.",
+      "transcript": "Två personer skadades i en tågolycka natten till torsdagen. Olyckan hände vid ett banarbete i södra Stockholm. Det var ett posttåg som krockade med en grävmaskin och då skadades två personer som jobbade på platsen. Den ena personen skadades allvarligt. Olyckan har påverkat tågtrafiken från Stockholm söderut under hela torsdagen. Trafikverket tror att tågtrafiken ska kunna gå som vanligt igen vid sextiden på fredagsmorgonen. Laila Karlsson, Klartext.",
+      "context": "Radioinslag 1 av 4 (Klartext)"
+     },
+     "items": [
+      {
+       "id": "q19",
+       "type": "select",
+       "tags": [
+        "hör.matcha"
+       ],
+       "q": "Vilken rubrik passar inslag 1?",
+       "qEn": "Which headline fits?",
+       "answer": 5,
+       "explain": "Posttåg + grävmaskin + trafik söderut = F.",
+       "explainEn": "Posttåg + grävmaskin + trafik söderut = F."
+      }
+     ],
+     "image": {
+      "src": "hor-del-4.svg",
+      "alt": "En radio och sex rubriker, fyra pilar till inslagen",
+      "caption": "Del 4: fyra inslag, sex rubriker – två blir över"
+     }
+    },
+    {
+     "heading": "Radioinslag 2",
+     "headingEn": "Radio item 2",
+     "options": [
+      "A. Löparstjärna vann maraton i New York",
+      "B. Önskan blev verklighet för Malin",
+      "C. Väktare stoppade flicka med hund – nu krävs pengar",
+      "D. Fler hundar förbjuds i köpcentrum",
+      "E. Ny julvärd i tv är vald",
+      "F. Tågolycka stoppade trafiken i södra Stockholm"
+     ],
+     "audio": {
+      "id": "r2",
+      "title": "Inslag 2 – dagläger (Klartext)",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/malin-danielsson-fick-rida-kamel-pa-daglager-i-blekinge.m4a",
+      "credit": "Klartext, Sveriges Radio. Automatisk transkription – kan ha små fel.",
+      "transcript": "Varje år ordnar föreningen K3H i Blekinge ett dagläger för personer med olika funktionsnedsättningar. På daglägret ordnades det massor av aktiviteter. I år var en av aktiviteterna att rida kamel. Och den idén kom deltagaren Malin Danielsson med redan förra året, för det var hennes högsta önskan. Hon blev så glad när hon fick se kamelen. (Intervju med Malin om hur det kändes.)",
+      "context": "Radioinslag 2 av 4 (Klartext)"
+     },
+     "items": [
+      {
+       "id": "q20",
+       "type": "select",
+       "tags": [
+        "hör.matcha"
+       ],
+       "q": "Vilken rubrik passar inslag 2?",
+       "qEn": "Which headline fits?",
+       "answer": 1,
+       "explain": "Malins högsta önskan var att rida kamel – och hon fick göra det = B.",
+       "explainEn": "Malins högsta önskan var att rida kamel – och hon fick göra det = B."
+      }
+     ]
+    },
+    {
+     "heading": "Radioinslag 3",
+     "headingEn": "Radio item 3",
+     "options": [
+      "A. Löparstjärna vann maraton i New York",
+      "B. Önskan blev verklighet för Malin",
+      "C. Väktare stoppade flicka med hund – nu krävs pengar",
+      "D. Fler hundar förbjuds i köpcentrum",
+      "E. Ny julvärd i tv är vald",
+      "F. Tågolycka stoppade trafiken i södra Stockholm"
+     ],
+     "audio": {
+      "id": "r3",
+      "title": "Inslag 3 – tv (Klartext)",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/carina-bergfeldt-ar-arets-julvard-i-tv.m4a",
+      "credit": "Klartext, Sveriges Radio. Automatisk transkription – kan ha små fel.",
+      "transcript": "På torsdagen fick vi veta att årets julvärd i tv kommer att vara Carina Bergfeldt. Carina känner många igen från hennes kvällsshow i tv. Hon har också nyligen gjort tv-serien Alla mina bokstäver. Nu har hon alltså fått jobbet som årets julvärd i tv på julafton. (Intervju: hon är peppad och vill förmedla gemenskap.) Rasmus Grosin på Kulturnytt intervjuade. Laila Karlsson, Klartext.",
+      "context": "Radioinslag 3 av 4 (Klartext)"
+     },
+     "items": [
+      {
+       "id": "q21",
+       "type": "select",
+       "tags": [
+        "hör.matcha"
+       ],
+       "q": "Vilken rubrik passar inslag 3?",
+       "qEn": "Which headline fits?",
+       "answer": 4,
+       "explain": "Årets julvärd i tv = Carina Bergfeldt = E.",
+       "explainEn": "Årets julvärd i tv = Carina Bergfeldt = E."
+      }
+     ]
+    },
+    {
+     "heading": "Radioinslag 4",
+     "headingEn": "Radio item 4",
+     "options": [
+      "A. Löparstjärna vann maraton i New York",
+      "B. Önskan blev verklighet för Malin",
+      "C. Väktare stoppade flicka med hund – nu krävs pengar",
+      "D. Fler hundar förbjuds i köpcentrum",
+      "E. Ny julvärd i tv är vald",
+      "F. Tågolycka stoppade trafiken i södra Stockholm"
+     ],
+     "audio": {
+      "id": "r4",
+      "title": "Inslag 4 – diskriminering (Klartext)",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/flicka-med-assistanshund-diskriminerades-i-kopcentrum.m4a",
+      "credit": "Klartext, Sveriges Radio. Automatisk transkription – kan ha små fel.",
+      "transcript": "Ett vaktbolag diskriminerade en flicka med assistanshund. Nu vill diskrimineringsombudsmannen att bolaget ska betala pengar i ersättning till flickan. En väktare bad henne gå därifrån och sa att hundar är förbjudna i centrumet. Men flickan förklarade att hennes hund är en assistanshund. Vaktbolaget har sagt att de gjorde fel och har bett om ursäkt. Men det räcker inte, säger DO. Nu vill myndigheten att vaktbolaget ska betala 20 000 kronor till flickan. Laila Karlsson, Klartext.",
+      "context": "Radioinslag 4 av 4 (Klartext)"
+     },
+     "items": [
+      {
+       "id": "q22",
+       "type": "select",
+       "tags": [
+        "hör.matcha"
+       ],
+       "q": "Vilken rubrik passar inslag 4?",
+       "qEn": "Which headline fits?",
+       "answer": 2,
+       "explain": "Väktaren stoppade flickan, och DO vill att bolaget betalar ersättning = C. D passar inte: det handlar inte om nya hundförbud.",
+       "explainEn": "Väktaren stoppade flickan, och DO vill att bolaget betalar ersättning = C. D passar inte: det handlar inte om nya hundförbud."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "del5",
+   "title": "Hör del 5: Intervjuer",
+   "titleEn": "Listening part 5: Interviews",
+   "instructions": "Du hör två intervjuer. Är påståendena sanna eller falska?",
+   "instructionsEn": "Two interviews. Are the statements true or false?",
+   "parts": [
+    {
+     "heading": "Intervju 1: Mikael bytte yrke",
+     "headingEn": "Interview 1",
+     "image": {
+      "src": "hor-del-5.svg",
+      "alt": "En mikrofon mellan två personer, två rutor med Sant och Falskt",
+      "caption": "Del 5: Sant eller Falskt?"
+     },
+     "audio": {
+      "id": "i1",
+      "title": "Intervju 1 – Mikael",
+      "maxPlays": 2,
+      "speakers": {
+       "Johanna": "f",
+       "Mikael": {
+        "voice": "m",
+        "rate": "+10%",
+        "pitch": "-3Hz"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Johanna",
+        "text": "Idag har vi besök av Mikael Öberg, som för två år sedan bytte yrke. Välkommen, Mikael."
+       },
+       {
+        "speaker": "Mikael",
+        "text": "Tack, tack."
+       },
+       {
+        "speaker": "Johanna",
+        "text": "Du jobbade ju som ekonom, men nu kör du buss. Hur kom det sig?"
+       },
+       {
+        "speaker": "Mikael",
+        "text": "Ja, alltså, jag satt vid en dator åtta timmar om dagen och jag mådde inte bra. Det var mycket stress och jag sov dåligt. Så en dag tänkte jag: nu får det vara nog. Jag hade alltid tyckt om att köra, så jag tog bussförarkort och började på stadsbussarna."
+       },
+       {
+        "speaker": "Johanna",
+        "text": "Och hur var det i början?"
+       },
+       {
+        "speaker": "Mikael",
+        "text": "Jättejobbigt, faktiskt. Jag var van vid att sitta still, och plötsligt skulle jag möta hundratals människor varje dag. Lönen är också lägre. Jag tjänar ungefär tjugotvåtusen i månaden, och på mitt förra jobb var det trettiofemtusen. Men jag har aldrig ångrat mig."
+       },
+       {
+        "speaker": "Johanna",
+        "text": "Vad är det bästa med jobbet nu?"
+       },
+       {
+        "speaker": "Mikael",
+        "text": "Att jag slutar klockan tre och sen är ledig. På mitt gamla jobb tog jag med mig jobbet hem. Och passagerarna är oftast jättetrevliga. Fast på morgonen, när folk är sena, kan de vara lite sura."
+       },
+       {
+        "speaker": "Johanna",
+        "text": "Skulle du rekommendera andra att byta yrke?"
+       },
+       {
+        "speaker": "Mikael",
+        "text": "Ja, om man mår dåligt. Men man ska tänka efter först. Min fru var emot det i början, men nu tycker hon att jag är gladare. Så hon har ändrat sig."
+       },
+       {
+        "speaker": "Johanna",
+        "text": "Tack för att du kom, Mikael."
+       }
+      ],
+      "context": "Radiointervju"
+     },
+     "items": [
+      {
+       "id": "q23",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Mikael mådde dåligt på sitt förra jobb.",
+       "qEn": "True or false?",
+       "options": [
+        "Sant",
+        "Falskt"
+       ],
+       "answer": 0,
+       "explain": "'jag mådde inte bra … mycket stress'.",
+       "explainEn": "'jag mådde inte bra … mycket stress'."
+      },
+      {
+       "id": "q24",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Mikael tjänar mer pengar som busschaufför.",
+       "qEn": "True or false?",
+       "options": [
+        "Sant",
+        "Falskt"
+       ],
+       "answer": 1,
+       "explain": "Lönen är lägre: 22 000 mot 35 000 på förra jobbet.",
+       "explainEn": "Lönen är lägre: 22 000 mot 35 000 på förra jobbet."
+      },
+      {
+       "id": "q25",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Mikael tycker att de flesta passagerarna är trevliga.",
+       "qEn": "True or false?",
+       "options": [
+        "Sant",
+        "Falskt"
+       ],
+       "answer": 0,
+       "explain": "'passagerarna är oftast jättetrevliga' (på morgonen kan några vara sura).",
+       "explainEn": "'passagerarna är oftast jättetrevliga' (på morgonen kan några vara sura)."
+      },
+      {
+       "id": "q26",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Mikaels fru tyckte från början att det var en bra idé.",
+       "qEn": "True or false?",
+       "options": [
+        "Sant",
+        "Falskt"
+       ],
+       "answer": 1,
+       "explain": "'Min fru var emot det i början'.",
+       "explainEn": "'Min fru var emot det i början'."
+      }
+     ]
+    },
+    {
+     "heading": "Intervju 2: Karin på second hand",
+     "headingEn": "Interview 2",
+     "audio": {
+      "id": "i2",
+      "title": "Intervju 2 – Karin",
+      "maxPlays": 2,
+      "speakers": {
+       "Reporter": "m",
+       "Karin": {
+        "voice": "f",
+        "rate": "+10%",
+        "pitch": "-8Hz"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Reporter",
+        "text": "Vi står utanför second hand-butiken Återbruket i centrum. Här träffar jag Karin, som jobbar i butiken utan lön. Hur länge har du varit här, Karin?"
+       },
+       {
+        "speaker": "Karin",
+        "text": "Oj, snart tio år. Jag började när jag gick i pension. Jag blev ju hemma, och ja, man blir lite ensam. Jag var sjuksköterska i trettio år."
+       },
+       {
+        "speaker": "Reporter",
+        "text": "Vad gör du här i butiken?"
+       },
+       {
+        "speaker": "Karin",
+        "text": "Jag sorterar kläder mest, och så står jag i kassan på torsdagar. Vi har öppet vardagar tio till sex, och på lördagar elva till tre. Nej förresten, till fyra. Jag blandar alltid ihop det."
+       },
+       {
+        "speaker": "Reporter",
+        "text": "Och pengarna då? Vart går dom?"
+       },
+       {
+        "speaker": "Karin",
+        "text": "Allt går till barnfamiljer som har det svårt, till exempel till vinterkläder och skolmaterial. Förra året fick vi ihop nästan tvåhundratusen kronor, och det är mer än året innan. Då var det bara hundrafemtiotusen."
+       },
+       {
+        "speaker": "Reporter",
+        "text": "Vad är det bästa med jobbet?"
+       },
+       {
+        "speaker": "Karin",
+        "text": "Människorna. Både dom som jobbar här och kunderna. Jag har fått många nya vänner. Men det är inte alltid roligt. Ibland kommer folk med smutsiga saker som man inte kan sälja, och då blir jag lite irriterad."
+       },
+       {
+        "speaker": "Reporter",
+        "text": "Skulle du vilja att fler unga kom hit?"
+       },
+       {
+        "speaker": "Karin",
+        "text": "Absolut. Vi är nästan bara pensionärer. Men dom unga har ju skola och jobb, så jag förstår."
+       }
+      ],
+      "noise": {
+       "sound": "cafe",
+       "level": 0.45
+      },
+      "context": "Intervju utanför en butik"
+     },
+     "items": [
+      {
+       "id": "q27",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Karin började i butiken innan hon blev pensionär.",
+       "qEn": "True or false?",
+       "options": [
+        "Sant",
+        "Falskt"
+       ],
+       "answer": 1,
+       "explain": "'Jag började när jag gick i pension'.",
+       "explainEn": "'Jag började när jag gick i pension'."
+      },
+      {
+       "id": "q28",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Karin arbetade tidigare som sjuksköterska.",
+       "qEn": "True or false?",
+       "options": [
+        "Sant",
+        "Falskt"
+       ],
+       "answer": 0,
+       "explain": "'Jag var sjuksköterska i trettio år'.",
+       "explainEn": "'Jag var sjuksköterska i trettio år'."
+      },
+      {
+       "id": "q29",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Butiken stänger klockan fyra på lördagar.",
+       "qEn": "True or false?",
+       "options": [
+        "Sant",
+        "Falskt"
+       ],
+       "answer": 0,
+       "explain": "'elva till tre. Nej förresten, till fyra' – rättelsen gäller.",
+       "explainEn": "'elva till tre. Nej förresten, till fyra' – rättelsen gäller."
+      },
+      {
+       "id": "q30",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Förra året fick butiken ihop hundrafemtiotusen kronor.",
+       "qEn": "True or false?",
+       "options": [
+        "Sant",
+        "Falskt"
+       ],
+       "answer": 1,
+       "explain": "Förra året: nästan 200 000. Året innan: 150 000.",
+       "explainEn": "Förra året: nästan 200 000. Året innan: 150 000."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

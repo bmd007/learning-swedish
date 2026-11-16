@@ -174,3 +174,9 @@
   examiner prompts opt out (`strict: false`).
 - Scene sounds added to 10 old dialogues (001 a2, 005, 006, 008, 009, 010, 011, 013, 014 morfar, 020);
   001 voicemail + news stay clean; 014 number drills clean. Audio rebuilt.
+
+## 2026-11-16 – Lesson 025: full Swedex hörprov (exam mode)
+- 30 items like the model test: del 1 six messages (mcq), del 2 six short (2 TTS + 1 Klartext Musikhjälpen), del 3 one dialogue (6 short, 237 words), del 4 four real Klartext clips (posttåg, kamel, julvärd, assistanshund) ↔ 6 headings, del 5 two interviews (8 Sant/Falskt). timeLimit 35, A2 14 / B1 22.
+- Scene sounds: m2 train .35, m6 car .3, a1 traffic .5, d1 cafe .35, i2 cafe .45. Whisper check: all answers audible. Fast/low-pitched speakers: Martin, Daniel, Karin, Mikael.
+- Traps: corrections (tisdag–onsdag, torsdag not onsdag, hundrafemtio–femtio, tre–fyra), förra/nu (hyra, barnavdelning, förra året), 'det kan stämma, men'.
+- Next: learner takes 025 once without pausing; grade, check which parts fail (noise vs. numbers vs. corrections).
