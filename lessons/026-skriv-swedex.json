@@ -64,7 +64,7 @@
      "heading": "Din kalender",
      "headingEn": "Your calendar",
      "passageTitle": "Kalender: Idag är det torsdag",
-     "passage": "Tisdag (i förrgår):  14.00 tandläkaren · kväll: middag hos grannen\nOnsdag (i går):  simhallen med Sara · kväll: bio, ny film\nTorsdag (idag):  08.30 jobbintervju (i morse) · nu: hemma, städa lägenheten\nFredag (i morgon):  festen hos Sara, hon fyller 30 år\nLördag:  tåget till Malmö, hälsa på mormor",
+     "passage": "I dag är det torsdag den 10 december.\n\nMåndag 7 dec:  14.00 tandläkaren (ont!) · kväll: middag hos grannen\nOnsdag 9 dec:  simhallen med Sara · kväll: bio, ny svensk film (tråkig?)\nTorsdag 10 dec:  08.30 jobbintervju · efter lunch: städa lägenheten\nFredag 11 dec:  fest hos Sara, hon fyller 30\nLördag 12 dec:  10.15-tåget till Malmö, hälsa på mormor",
      "image": {
       "src": "kalender.svg",
       "alt": "Kalender med tisdag till lördag och torsdag som idag",
@@ -84,14 +84,12 @@
        "minWords": 90,
        "maxWords": 140,
        "q": "Skriv ditt mejl till moster Lena (cirka 100 ord).",
-       "qEn": "Write your email to aunt Lena (about 100 words). Past: i förrgår gick jag… / i går simmade jag… / i morse hade jag… Present: nu städar jag. Future: i morgon ska jag… / på lördag åker jag…",
+       "qEn": "Write your email to aunt Lena (about 100 words). Today is Thursday 10 December, after lunch. Use the right time words and verb forms for each day.",
        "bullets": [
-        "Hälsning till Lena (Hej moster Lena!) och en fråga om hur hon mår",
-        "Vad gjorde du i förrgår (tisdag) och i går (onsdag)?",
-        "Vad hände i morse, och vad gör du nu?",
-        "Vad tyckte du om filmen eller intervjun?",
-        "Vad ska du göra i morgon och på lördag?",
-        "Avslutning och en fråga tillbaka till Lena (till exempel om hon vill komma)"
+        "Börja mejlet på ett bra sätt och fråga hur Lena mår",
+        "Berätta om fem dagar i kalendern: vad du har gjort, vad du gör nu och vad du ska göra",
+        "Skriv vad du tyckte om några av sakerna",
+        "Avsluta mejlet på ett bra sätt, med en fråga tillbaka till Lena"
        ],
        "explain": "Claude rättar: rätt tid efter signalord (i går åt jag, nu städar jag, i morgon ska jag), ordföljd efter tidsord (I går simmade jag), och om du skriver vad du tyckte.",
        "explainEn": "Claude grades: correct tense after signal words, inversion after time words, and whether you say what you thought."

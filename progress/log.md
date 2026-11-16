@@ -192,3 +192,5 @@
 ## 2026-11-17 – Lesson 026: Swedex skrivprov (exam mode)
 - 026-skriv-swedex (60 min, 2 write items, no scoring; Claude grades). Del 1: Nina's email, 3 questions (describe area, which day, food) + own question back, 40–80 words. Del 2: calendar tis–lör, today = torsdag, mail to moster Lena, 90–140 words: i förrgår/i går (preteritum), i morse + nu (past vs presens), i morgon/på lördag (ska/presens), say what you thought.
 - Next: grade 026 with Swedex criteria (content, form, correctness); watch signal word → verb form, inversion after time words, -s forms.
+- Reviewed 026: removed the signal words and grammar summary from the calendar (the real test gives only dates),
+  added Monday 7 Dec → forces *i måndags*. Today = torsdag 10 dec, after lunch (interview = i morse, städa = nu).
