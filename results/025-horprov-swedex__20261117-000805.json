@@ -1,0 +1,441 @@
+{
+  "lessonId": "025-horprov-swedex",
+  "attemptId": "2026-11-16T22-37-20-175Z",
+  "final": true,
+  "mode": "exam",
+  "startedAt": "2026-11-16T22:37:21.952Z",
+  "finishedAt": "2026-11-16T23:08:05.090Z",
+  "durationMin": 31,
+  "timeLimitMin": 35,
+  "overtime": false,
+  "currentSection": null,
+  "sectionMinutes": {
+    "del1": 6.2,
+    "del2": 4.9,
+    "del3": 4.6,
+    "del4": 8.3,
+    "del5": 6.7
+  },
+  "audioPlays": {
+    "m1": 2,
+    "m2": 2,
+    "m3": 2,
+    "m4": 2,
+    "m5": 2,
+    "m6": 2,
+    "a1": 2,
+    "a2": 2,
+    "a3": 2,
+    "d1": 2,
+    "r1": 2,
+    "r2": 2,
+    "r3": 2,
+    "r4": 2,
+    "i1": 2,
+    "i2": 2
+  },
+  "firstTry": {},
+  "flags": [
+    "q3",
+    "q16",
+    "q27"
+  ],
+  "score": {
+    "del1": {
+      "correct": 5,
+      "total": 6
+    },
+    "del2": {
+      "correct": 3,
+      "total": 6
+    },
+    "del3": {
+      "correct": 5,
+      "total": 6
+    },
+    "del4": {
+      "correct": 4,
+      "total": 4
+    },
+    "del5": {
+      "correct": 6,
+      "total": 8
+    }
+  },
+  "items": [
+    {
+      "id": "q1",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.tid"
+      ],
+      "prompt": "När har Karim sin nya tid?",
+      "given": "Torsdag klockan tio",
+      "expected": "Torsdag klockan tio",
+      "correct": true
+    },
+    {
+      "id": "q2",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Varifrån avgår tåget?",
+      "given": "Från spår 14",
+      "expected": "Från spår 9",
+      "correct": false
+    },
+    {
+      "id": "q3",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.huvudtanke"
+      ],
+      "prompt": "Varför ringer Jonas?",
+      "given": "Han vill ändra hur de ska resa.",
+      "expected": "Han vill ändra hur de ska resa.",
+      "correct": true
+    },
+    {
+      "id": "q4",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Vad kostar bananerna idag?",
+      "given": "15 kronor kilot",
+      "expected": "15 kronor kilot",
+      "correct": true
+    },
+    {
+      "id": "q5",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Hur mycket blir hyran från januari?",
+      "given": "6 900 kronor",
+      "expected": "6 900 kronor",
+      "correct": true
+    },
+    {
+      "id": "q6",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad vill Erik att Sofia gör?",
+      "given": "Börja mötet utan honom",
+      "expected": "Börja mötet utan honom",
+      "correct": true
+    },
+    {
+      "id": "q7",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.tid"
+      ],
+      "prompt": "Vilken dag tappade Martin ryggsäcken?",
+      "given": "onsdags på buss",
+      "expected": "onsdag",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q8",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Vilken buss åkte han med?",
+      "given": "buss 47 till hessleby",
+      "expected": "47",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q9",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Var ligger barnavdelningen nu?",
+      "given": "stads biblioteket",
+      "expected": "andra våningen",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q10",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad får de första barnen på lördag?",
+      "given": "en gratis bok",
+      "expected": "bok",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q11",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Var går programledarna in i buren?",
+      "given": "music hjalpen in år ",
+      "expected": "Linköping",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q12",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad är temat för årets insamling?",
+      "given": "sikiksgs halsa på kyryg ",
+      "expected": "psykisk hälsa",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q13",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.tid"
+      ],
+      "prompt": "Vilken dag fyller Lasse år?",
+      "given": "torsdag",
+      "expected": "torsdag",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q14",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Var ska de fira?",
+      "given": "restaurang",
+      "expected": "restaurang nilsson",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q15",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Vad kostar gruppmenyn per person?",
+      "given": "300 kronor",
+      "expected": "300",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q16",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.åsikt"
+      ],
+      "prompt": "Vad ska de ge Lasse i present?",
+      "given": "knopp knive ",
+      "expected": "kniv",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q17",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Hur mycket ska varje person betala för presenten?",
+      "given": "50 kronor",
+      "expected": "50",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q18",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.tid"
+      ],
+      "prompt": "När ska Daniel köpa presenten?",
+      "given": "önsdag",
+      "expected": "onsdag",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q19",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "hör.matcha"
+      ],
+      "prompt": "Vilken rubrik passar inslag 1?",
+      "given": "F. Tågolycka stoppade trafiken i södra Stockholm",
+      "expected": "F. Tågolycka stoppade trafiken i södra Stockholm",
+      "correct": true
+    },
+    {
+      "id": "q20",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "hör.matcha"
+      ],
+      "prompt": "Vilken rubrik passar inslag 2?",
+      "given": "B. Önskan blev verklighet för Malin",
+      "expected": "B. Önskan blev verklighet för Malin",
+      "correct": true
+    },
+    {
+      "id": "q21",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "hör.matcha"
+      ],
+      "prompt": "Vilken rubrik passar inslag 3?",
+      "given": "E. Ny julvärd i tv är vald",
+      "expected": "E. Ny julvärd i tv är vald",
+      "correct": true
+    },
+    {
+      "id": "q22",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "hör.matcha"
+      ],
+      "prompt": "Vilken rubrik passar inslag 4?",
+      "given": "C. Väktare stoppade flicka med hund – nu krävs pengar",
+      "expected": "C. Väktare stoppade flicka med hund – nu krävs pengar",
+      "correct": true
+    },
+    {
+      "id": "q23",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Mikael mådde dåligt på sitt förra jobb.",
+      "given": "Sant",
+      "expected": "Sant",
+      "correct": true
+    },
+    {
+      "id": "q24",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Mikael tjänar mer pengar som busschaufför.",
+      "given": "Falskt",
+      "expected": "Falskt",
+      "correct": true
+    },
+    {
+      "id": "q25",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Mikael tycker att de flesta passagerarna är trevliga.",
+      "given": "Falskt",
+      "expected": "Sant",
+      "correct": false
+    },
+    {
+      "id": "q26",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Mikaels fru tyckte från början att det var en bra idé.",
+      "given": "Falskt",
+      "expected": "Falskt",
+      "correct": true
+    },
+    {
+      "id": "q27",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Karin började i butiken innan hon blev pensionär.",
+      "given": "Sant",
+      "expected": "Falskt",
+      "correct": false
+    },
+    {
+      "id": "q28",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Karin arbetade tidigare som sjuksköterska.",
+      "given": "Sant",
+      "expected": "Sant",
+      "correct": true
+    },
+    {
+      "id": "q29",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Butiken stänger klockan fyra på lördagar.",
+      "given": "Sant",
+      "expected": "Sant",
+      "correct": true
+    },
+    {
+      "id": "q30",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Förra året fick butiken ihop hundrafemtiotusen kronor.",
+      "given": "Falskt",
+      "expected": "Falskt",
+      "correct": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-17T00:08:05"
+}

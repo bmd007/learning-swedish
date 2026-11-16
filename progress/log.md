@@ -180,3 +180,11 @@
 - Scene sounds: m2 train .35, m6 car .3, a1 traffic .5, d1 cafe .35, i2 cafe .45. Whisper check: all answers audible. Fast/low-pitched speakers: Martin, Daniel, Karin, Mikael.
 - Traps: corrections (tisdag–onsdag, torsdag not onsdag, hundrafemtio–femtio, tre–fyra), förra/nu (hyra, barnavdelning, förra året), 'det kan stämma, men'.
 - Next: learner takes 025 once without pausing; grade, check which parts fail (noise vs. numbers vs. corrections).
+
+## 2026-11-17 – Graded 025 (hörprov Swedex)
+- 24/30 → B1 (threshold 22), 31 of 35 min, under test conditions (two plays in a row, scene noise).
+  Accepted q18 'önsdag'; q12 spelling not accepted. Del 4 real radio 4/4, del 3 dialogue 6/6.
+- Misses: 'fast' contrast (3rd test in a row with men/fast trap), wrong kind of answer for 'var' (building/programme
+  name instead of place), time 14 taken for platform, 'när jag gick i pension' ≠ before. Spelling of short answers.
+- Reading B1 (24/30) + listening B1 (24/30) → Swedex B1 receptive skills look safe.
+- Next: writing in Swedex shape (email ~50 words answering questions + ~100 words calendar email). Then speaking.
