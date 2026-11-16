@@ -1,0 +1,355 @@
+{
+ "id": "024-langlasning-samhalle-konst",
+ "title": "Långläsning B: Så styrs Sverige + konst runt 1900",
+ "titleEn": "Long reading B: how Sweden is governed + art around 1900",
+ "mode": "exam",
+ "timeLimit": 30,
+ "minutes": 30,
+ "scoring": {
+  "max": 23,
+  "A2": 13,
+  "B1": 17
+ },
+ "intro": "Två teman från Rivstart B1/B2 (kapitel 6 och 2). Del 1: en lång samhällstext med Ja/Nej (som Swedex del 1 – och bra för medborgarskapet). Del 2: tre korta porträtt – vilken text handlar det om? 23 frågor, 30 minuter.",
+ "introEn": "Rivstart themes ch. 6 and 2. Part 1: long civics text, Yes/No. Part 2: three short portraits – which text? 23 questions, 30 min.",
+ "sections": [
+  {
+   "id": "del1",
+   "title": "Del 1: Samhälle",
+   "titleEn": "Part 1: Society",
+   "instructions": "Läs texten. Stämmer meningen med texten? Svara Ja eller Nej (fråga 1–12).",
+   "instructionsEn": "Does the sentence match the text? Yes/No (1–12).",
+   "parts": [
+    {
+     "heading": "Fråga 1–12",
+     "passageTitle": "Så styrs Sverige",
+     "passage": "Valet\nVart fjärde år, den andra söndagen i september, är det allmänna val i Sverige. Samma dag röstar man i tre olika val: till riksdagen (nationell nivå), till regionen (regional nivå) och till kommunen (lokal nivå).\nFör att få rösta i riksdagsvalet måste man vara svensk medborgare och ha fyllt 18 år. I valen till kommun och region är reglerna annorlunda. Medborgare i ett EU-land, Island eller Norge som bor i Sverige får rösta där. Kommer man från ett annat land, måste man ha bott i Sverige i minst tre år i rad.\nUngefär åtta av tio som har rösträtt brukar rösta. Var femte person stannar alltså hemma – de kallas ibland soffliggare. Vart femte år är det dessutom val till Europaparlamentet.\n\nRiksdagen\nRiksdagen har 349 ledamöter. Ett parti måste få minst fyra procent av rösterna för att komma in. Riksdagen beslutar om nya lagar och om statens budget. Förslagen till nya lagar kan komma från regeringen (propositioner) eller från ledamöterna själva (motioner). Riksdagen kontrollerar också att regeringen och myndigheterna sköter sitt arbete.\nTalmannen leder arbetet i riksdagen. Efter ett val föreslår talmannen vem som ska bli statsminister. Sedan röstar riksdagen om förslaget.\n\nRegeringen\nRegeringen kan bestå av ett parti eller av flera partier tillsammans. Har regeringen fått mer än hälften av rösterna, kallas den majoritetsregering. Har den fått mindre, är det en minoritetsregering. Då måste den samarbeta med andra partier för att få igenom sina förslag i riksdagen. Statsministern väljer sina ministrar, till exempel finansministern och utrikesministern. Kort sagt: regeringen föreslår, riksdagen beslutar och regeringen ser till att besluten blir verklighet.\n\nMyndigheterna\nDet finns fler än 300 myndigheter, till exempel Skatteverket och Arbetsförmedlingen. De ska se till att riksdagens och regeringens beslut genomförs. I Sverige får en minister inte styra hur en myndighet sköter sitt arbete i detalj. Myndigheterna arbetar självständigt.\n\nLän, regioner och kommuner\nSverige är indelat i 21 län. I varje län finns en länsstyrelse, och dess chef kallas landshövding. På samma geografiska område finns 21 regioner. Regionernas viktigaste uppgifter är sjukvården och kollektivtrafiken.\nSverige har 290 kommuner. Den minsta har bara några tusen invånare, den största ungefär en miljon. Kommunerna bestämmer själva om mycket, till exempel skola, förskola, äldreomsorg och vägar. Men vissa saker måste alla kommuner erbjuda, bland annat socialtjänst och sfi. Pengarna kommer främst från kommunalskatten. Den är olika hög i olika kommuner – skillnaden kan vara ungefär fem procentenheter.",
+     "image": {
+      "src": "val.svg",
+      "alt": "Tre valsedlar: gul för riksdagen, blå för regionen, vit för kommunen"
+     },
+     "items": [
+      {
+       "id": "p1",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Riksdagsval, regionval och kommunval äger rum samma dag.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "Ja. \"Samma dag röstar man i tre olika val.\""
+      },
+      {
+       "id": "p2",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Anna från Polen har bott i Sverige i ett år. Hon får rösta i kommunvalet.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "Ja. Polen är ett EU-land. För EU-medborgare finns inget krav på tre år."
+      },
+      {
+       "id": "p3",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Reza från Iran har bott i Sverige i två år. Han får rösta i regionvalet.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Nej. Från ett land utanför EU/Norden: minst tre år i rad."
+      },
+      {
+       "id": "p4",
+       "type": "mcq",
+       "tags": [
+        "läs.janej",
+        "läs.siffror"
+       ],
+       "q": "Ungefär 20 procent av dem som har rösträtt brukar inte rösta.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "Ja. Åtta av tio röstar → var femte (20 %) stannar hemma."
+      },
+      {
+       "id": "p5",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Ett parti som får 3 procent av rösterna får några platser i riksdagen.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Nej. Gränsen är fyra procent."
+      },
+      {
+       "id": "p6",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Alla förslag till nya lagar kommer från regeringen.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Nej. De kan också komma från ledamöterna (motioner)."
+      },
+      {
+       "id": "p7",
+       "type": "mcq",
+       "tags": [
+        "läs.janej",
+        "läs.synonym"
+       ],
+       "q": "Talmannen bestämmer ensam vem som blir statsminister.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Nej. Talmannen föreslår – sedan röstar riksdagen."
+      },
+      {
+       "id": "p8",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "En minoritetsregering behöver hjälp från andra partier för att få igenom sina förslag.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "Ja. \"Då måste den samarbeta med andra partier.\""
+      },
+      {
+       "id": "p9",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "En minister kan bestämma hur Skatteverket ska hantera din deklaration.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Nej. Myndigheterna arbetar självständigt – ministrar får inte styra i detalj."
+      },
+      {
+       "id": "p10",
+       "type": "mcq",
+       "tags": [
+        "läs.janej",
+        "läs.slutsats"
+       ],
+       "q": "Om du behöver träffa en läkare är det regionen som ansvarar för vården.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "Ja. Regionernas viktigaste uppgift är sjukvården."
+      },
+      {
+       "id": "p11",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Man betalar lika mycket kommunalskatt i hela Sverige.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Nej. Den är olika hög – upp till ca fem procentenheter skillnad."
+      },
+      {
+       "id": "p12",
+       "type": "mcq",
+       "tags": [
+        "läs.janej",
+        "läs.kontrast"
+       ],
+       "q": "En kommun kan själv välja att inte erbjuda sfi.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Nej. Sfi är en av sakerna som alla kommuner måste erbjuda. \"Kommunerna bestämmer själva om mycket. Men …\" – men-fällan igen!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "del2",
+   "title": "Del 2: Tre porträtt",
+   "titleEn": "Part 2: Three portraits",
+   "instructions": "Läs de tre texterna. Vilken text passar meningen? Välj A, B eller C (fråga 13–23). Du kan välja samma bokstav flera gånger.",
+   "instructionsEn": "Which text (A, B, C) fits each sentence? Letters can repeat.",
+   "parts": [
+    {
+     "heading": "Fråga 13–23",
+     "passageTitle": "Konst och vänskap runt år 1900",
+     "passage": "A. ERNEST OCH SIGNE THIEL – PARET SOM ÄLSKADE KONST\nErnest Thiel tjänade stora pengar på banker och aktier, och runt år 1900 var han en av de rikaste männen i Sverige. När han var gift med sin första fru, Anna, blev han kär i Signe, som var privatlärare för parets barn. Ernest skilde sig och gifte om sig med Signe. Det blev en stor skandal, för på den tiden var skilsmässor ovanliga och skamliga.\nSigne väckte Ernests intresse för modern konst och filosofi, och genom henne lärde han känna många konstnärer. Han köpte så många tavlor att de inte fick plats i lägenheten. Därför lät paret arkitekten Ferdinand Boberg rita en vit villa på Djurgården i Stockholm, som skulle vara både hem och galleri. Där hade de middagar och fester, och ibland spelkvällar med kort och schack.\nMen lyckan varade inte. Paret gled ifrån varandra och skilde sig, och några år senare dog Signe. I slutet av 1920-talet förlorade Ernest nästan alla sina pengar i en börskrasch. Han blev tvungen att sälja huset och konsten till staten. Huset blev ett museum, Thielska galleriet, som är öppet för alla.\n\nB. EUGÈNE JANSSON – MANNEN SOM MÅLADE STOCKHOLM I BLÅTT\nEugène Jansson bodde på Södermalm och hade utsikt över vattnet. På sommaren steg han upp klockan fyra för att måla staden i gryningen. Han målade tomma gator med gatlyktor och vatten i skymningen eller på natten, nästan alltid i blått. Därför kallades han ”blåmålaren”.\nHan hade studerat på Konstakademien men tog aldrig examen. Undervisningen var gammaldags, tyckte han, och han var med i en grupp som ville förändra den. I början gick karriären trögt. Men när Ernest Thiel köpte tre tavlor vid sitt första besök i ateljén, började en lång vänskap. Senare köpte även kungen hans tavlor.\nNu hade Eugène råd att betala modeller, och han började måla nakna män – gymnaster och akrobater. Det chockade publiken. Idag ser många bilderna som hans sätt att visa att han var homosexuell, något som var olagligt i Sverige fram till 1944. När han dog, brände hans bror alla hans brev, skisser och foton.\n\nC. HILMA AF KLINT – KONSTNÄREN SOM PRATADE MED ANDAR\nSverige var tidigt med att låta kvinnor studera konst, och Hilma af Klint gick på Konstakademien på 1880-talet. Efter studierna målade hon landskap och porträtt och var en framgångsrik konstnär. Men något annat blev viktigare för henne: spiritismen. I gruppen De fem försökte hon få kontakt med döda personers andar.\nHon trodde att en ande gav henne uppdraget att göra målningar till ett tempel. Mellan 1906 och 1915 målade hon 193 tavlor med cirklar, spiraler och starka färger – en del över tre meter höga. Enligt henne själv bestämde hon inte motiven; hon var bara ett verktyg för anden. Hon gjorde också skisser till ett runt tempel på ön Ven, men det blev aldrig byggt.\nUnder sitt liv visade hon målningarna bara två gånger, och det blev ingen succé. Hon hoppades att människor i framtiden skulle förstå dem bättre. Därför bestämde hon att de inte fick visas förrän tjugo år efter hennes död. År 2018 såg över 600 000 personer hennes konst på Guggenheimmuseet i New York.",
+     "image": {
+      "src": "konst.svg",
+      "alt": "Två målningar: en blå stad i gryningen och färgglada cirklar och spiraler"
+     },
+     "options": [
+      "A – Ernest och Signe Thiel",
+      "B – Eugène Jansson",
+      "C – Hilma af Klint"
+     ],
+     "items": [
+      {
+       "id": "k1",
+       "type": "select",
+       "tags": [
+        "läs.matcha",
+        "läs.synonym"
+       ],
+       "q": "Arbetade helst medan andra sov.",
+       "answer": 1,
+       "explain": "B: steg upp klockan fyra för att måla i gryningen."
+      },
+      {
+       "id": "k2",
+       "type": "select",
+       "tags": [
+        "läs.matcha",
+        "läs.synonym"
+       ],
+       "q": "Förlorade nästan hela sin förmögenhet.",
+       "answer": 0,
+       "explain": "A: börskraschen på 1920-talet."
+      },
+      {
+       "id": "k3",
+       "type": "select",
+       "tags": [
+        "läs.matcha",
+        "läs.synonym"
+       ],
+       "q": "Menade att någon annan styrde vad som hamnade på duken.",
+       "answer": 2,
+       "explain": "C: \"hon var bara ett verktyg för anden\"."
+      },
+      {
+       "id": "k4",
+       "type": "select",
+       "tags": [
+        "läs.matcha",
+        "läs.synonym"
+       ],
+       "q": "Ett kärleksförhållande fick folk att prata.",
+       "answer": 0,
+       "explain": "A: skilsmässan blev en skandal."
+      },
+      {
+       "id": "k5",
+       "type": "select",
+       "tags": [
+        "läs.matcha",
+        "läs.synonym"
+       ],
+       "q": "Tyckte att utbildningen var omodern.",
+       "answer": 1,
+       "explain": "B: \"Undervisningen var gammaldags\"."
+      },
+      {
+       "id": "k6",
+       "type": "select",
+       "tags": [
+        "läs.matcha",
+        "läs.synonym"
+       ],
+       "q": "En byggnad planerades men byggdes aldrig.",
+       "answer": 2,
+       "explain": "C: templet på Ven. (A:s villa byggdes!)"
+      },
+      {
+       "id": "k7",
+       "type": "select",
+       "tags": [
+        "läs.matcha",
+        "läs.synonym"
+       ],
+       "q": "Ett privat hem blev senare öppet för allmänheten.",
+       "answer": 0,
+       "explain": "A: villan blev Thielska galleriet."
+      },
+      {
+       "id": "k8",
+       "type": "select",
+       "tags": [
+        "läs.matcha",
+        "läs.synonym"
+       ],
+       "q": "Mycket material försvann efter konstnärens död.",
+       "answer": 1,
+       "explain": "B: brodern brände brev, skisser och foton."
+      },
+      {
+       "id": "k9",
+       "type": "select",
+       "tags": [
+        "läs.matcha",
+        "läs.synonym"
+       ],
+       "q": "Ville att verken skulle visas först långt senare.",
+       "answer": 2,
+       "explain": "C: inte förrän tjugo år efter hennes död."
+      },
+      {
+       "id": "k10",
+       "type": "select",
+       "tags": [
+        "läs.matcha",
+        "läs.synonym"
+       ],
+       "q": "En kvinna fick sin man att bli intresserad av ny konst.",
+       "answer": 0,
+       "explain": "A: Signe väckte Ernests intresse."
+      },
+      {
+       "id": "k11",
+       "type": "select",
+       "tags": [
+        "läs.matcha",
+        "läs.synonym"
+       ],
+       "q": "Fick hjälp av en rik vän i början av karriären.",
+       "answer": 1,
+       "explain": "B: Thiel köpte tre tavlor – starten på vänskapen. Texten handlar om Jansson, även om Thiel nämns."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -152,3 +152,12 @@
 - 022-samma-sak-andra-ord (12 min): del-4 strategy card + paraphrase pairs, 7 paraphrase mcq, mini del 4 (Sopsortering, 6 items), 5 contrast traps (men/däremot/fast/det kan stämma men).
 - Reviewed: fixed passage grammar, Persian line, moved contrast texts into passages. App now shows `mdEn` on info cards.
 - Next: grade 022. Then Tågläsning 2 / SFI D speaking lesson.
+
+## 2026-11-16 – Long reading from Rivstart themes
+- Learner sent photos of Rivstart readings. Built two exam-mode tests in own words (repo is public):
+  - 023-langlasning-fritid-djur (22 q, 30 min): long article "Fritid förr och nu" (SFI D long text, MCQ,
+    one chart item) + fact text on huggorm/geting/fästing (del 4 paraphrase + Ja/Nej with däremot/ändå traps).
+  - 024-langlasning-samhalle-konst (23 q, 30 min): "Så styrs Sverige" Ja/Nej (rösträtt, 4 %, talman,
+    myndigheter, region/kommun) + three portraits Thiel/Jansson/af Klint, A/B/C matching.
+- Phone page: reading/langlasning-rivstart.html (both tests, 45 q, 60 min).
+- Next: grade 022/023/024 when done. Then SFI D speaking lesson (berätta + ge råd, pair discussion).

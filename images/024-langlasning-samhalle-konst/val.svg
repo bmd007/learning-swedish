@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="system-ui, sans-serif">
+<rect width="600" height="300" fill="#ffffff"/>
+<text x="300" y="34" text-anchor="middle" font-size="22" fill="#234">Valdagen: tre val samma dag</text>
+<rect x="40" y="70" width="150" height="190" fill="#f6dd5c" stroke="#999"/>
+<rect x="225" y="70" width="150" height="190" fill="#7fb2e5" stroke="#999"/>
+<rect x="410" y="70" width="150" height="190" fill="#f4f4f4" stroke="#999"/>
+<g font-size="20" text-anchor="middle" fill="#234">
+<text x="115" y="140">Riksdagen</text><text x="300" y="140">Regionen</text><text x="485" y="140">Kommunen</text>
+</g>
+<g font-size="15" text-anchor="middle" fill="#234">
+<text x="115" y="175">nationell nivå</text><text x="300" y="175">regional nivå</text><text x="485" y="175">lokal nivå</text>
+<text x="115" y="215">lagar, budget</text><text x="300" y="215">sjukvård, buss</text><text x="485" y="215">skola, äldreomsorg</text>
+</g>
+</svg>

@@ -1,0 +1,392 @@
+{
+ "id": "023-langlasning-fritid-djur",
+ "title": "Långläsning A: Fritid förr och nu + små djur",
+ "titleEn": "Long reading A: leisure then and now + small animals",
+ "mode": "exam",
+ "timeLimit": 30,
+ "minutes": 30,
+ "scoring": {
+  "max": 22,
+  "A2": 13,
+  "B1": 16
+ },
+ "intro": "Två längre texter på teman från Rivstart B1/B2 (kapitel 1 och natur). Del 1: en lång artikel med flervalsfrågor (som den längre texten i SFI D). Del 2: en faktatext – samma sak med andra ord (Swedex del 4) och Ja/Nej. 22 frågor, 30 minuter.",
+ "introEn": "Two longer texts on Rivstart themes. Part 1: long article, multiple choice (SFI D long text). Part 2: fact text – same meaning, other words (Swedex part 4) + Yes/No. 22 questions, 30 min.",
+ "sections": [
+  {
+   "id": "del1",
+   "title": "Del 1: Lång artikel",
+   "titleEn": "Part 1: Long article",
+   "instructions": "Läs artikeln. Välj det svar som stämmer bäst med texten (fråga 1–9).",
+   "instructionsEn": "Read the article. Choose the best answer (1–9).",
+   "parts": [
+    {
+     "heading": "Fråga 1–9",
+     "passageTitle": "Fritid förr och nu",
+     "passage": "För 150 år sedan hade de flesta svenskar knappt någon fritid alls. Nästan alla bodde på landet och arbetade i jordbruket. Dagen började tidigt på morgonen och slutade sent på kvällen. När arbetet var slut, behövde man sova och vila för att orka med nästa dag. Det var årstiderna som bestämde hur mycket man jobbade. På sommaren fanns det mest att göra på gården, så just då var det nästan omöjligt att vara ledig. Ordet semester var okänt för de flesta.\n\nI slutet av 1800-talet kom industrin. Många familjer lämnade landet och flyttade till städerna för att jobba i fabrikerna. En ny grupp i samhället växte fram: arbetarklassen. Livet i fabriken var inte lättare än livet på gården. Arbetarna jobbade sex dagar i veckan och ofta tolv timmar om dagen.\n\nSakta blev det bättre. År 1919 fick Sverige en lag om arbetstid: ingen skulle behöva arbeta mer än åtta timmar om dagen. I mitten av 1930-talet började politikerna diskutera semester. Men de var inte bara positiva. De var oroliga för vad folk skulle göra med all ledig tid. Tänk om de bara låg på soffan, drack alkohol eller gick på bio varje kväll? Det ansågs vara ett olämpligt sätt att använda fritiden.\n\nDärför ordnade man år 1936 en stor utställning i Ystad som hette Fritiden. Där kunde besökarna få tips om passande aktiviteter. Budskapet var enkelt: fritiden skulle skapa friska och lyckliga människor som sedan orkade arbeta bra resten av året. Man skulle röra på sig, cykla, gympa och bo i tält eller i en enkel stuga ute i naturen. Två år senare, 1938, kom den första semesterlagen. Nu hade alla som arbetade rätt till två veckors betald semester.\n\nAlla fick ändå inte lika mycket ledigt. Många kvinnor var hemmafruar och hade ingen semester alls, eftersom hushållsarbetet aldrig tog slut. På 1940-talet startade staten därför husmorssemestrar. Då kunde kvinnorna resa bort några dagar och slippa matlagning, städning och tvätt.\n\nSedan dess har semestern blivit längre. År 1951 fick man tre veckor och 1963 fyra veckor. Sedan 1978 har alla rätt till fem veckors semester.\n\nOch vad gör svenskarna på fritiden idag? Många vill resa, träna eller vara ute i skogen. Andra föredrar att stanna hemma och läsa, laga mat, spela dataspel, sy eller arbeta i trädgården. Det låter avkopplande, men alla tycker inte att det är lätt. En del säger att de har så många aktiviteter att de blir stressade även när de är lediga. Det kan också vara svårt att få tid till både jobb, familj och fritid. De flesta svenskar säger ändå att balansen mellan arbete och fritid är bra.",
+     "image": {
+      "src": "semester.svg",
+      "alt": "Diagram: rätt till semester – 2 veckor 1938, 3 veckor 1951, 4 veckor 1963, 5 veckor 1978"
+     },
+     "items": [
+      {
+       "id": "f1",
+       "type": "mcq",
+       "tags": [
+        "läs.huvudtanke"
+       ],
+       "q": "Vad handlar texten mest om?",
+       "options": [
+        "Hur svenska bönder arbetade förr",
+        "Hur svenskarnas fritid har förändrats under 150 år",
+        "Varför svenskar blir stressade på semestern",
+        "Utställningen i Ystad år 1936"
+       ],
+       "answer": 1,
+       "explain": "Texten går från 1800-talet till idag. De andra svaren är bara en del av texten.",
+       "explainEn": "The text covers 150 years; the other options are only one paragraph each."
+      },
+      {
+       "id": "f2",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj",
+        "läs.synonym"
+       ],
+       "q": "Varför var det svårt för bönderna att vara lediga?",
+       "options": [
+        "De ville inte ha semester.",
+        "Det fanns en lag mot semester.",
+        "De hade inte råd att resa bort.",
+        "Arbetet följde årstiderna, och på sommaren fanns det mest att göra."
+       ],
+       "answer": 3,
+       "explain": "\"Det var årstiderna som bestämde … På sommaren fanns det mest att göra på gården.\""
+      },
+      {
+       "id": "f3",
+       "type": "mcq",
+       "tags": [
+        "läs.synonym",
+        "läs.kontrast"
+       ],
+       "q": "Hur var livet för arbetarna i städerna?",
+       "options": [
+        "Minst lika hårt som på landet",
+        "Lättare, eftersom de var lediga på helgerna",
+        "Bra, eftersom de bara jobbade åtta timmar",
+        "Bättre, eftersom de fick betald semester"
+       ],
+       "answer": 0,
+       "explain": "\"inte lättare än livet på gården\" = minst lika hårt. Åtta timmar kom först 1919.",
+       "explainEn": "'not easier than' = at least as hard."
+      },
+      {
+       "id": "f4",
+       "type": "mcq",
+       "tags": [
+        "läs.kontrast",
+        "läs.slutsats"
+       ],
+       "q": "Vad tyckte politikerna när de diskuterade semester på 1930-talet?",
+       "options": [
+        "De var bara glada.",
+        "De tyckte att två veckor var för lite.",
+        "De ville att folk skulle gå på bio.",
+        "De var rädda att folk skulle använda den lediga tiden på fel sätt."
+       ],
+       "answer": 3,
+       "explain": "\"Men de var inte bara positiva. De var oroliga …\" – men vänder tanken.",
+       "explainEn": "'men' turns the idea: they were worried."
+      },
+      {
+       "id": "f5",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj",
+        "läs.synonym"
+       ],
+       "q": "Varför ordnade man utställningen Fritiden?",
+       "options": [
+        "För att ge folk idéer om bra saker att göra när de var lediga",
+        "För att sälja tält och cyklar",
+        "För att visa den nya semesterlagen",
+        "För att få fler turister till Ystad"
+       ],
+       "answer": 0,
+       "explain": "\"få tips om passande aktiviteter\" = idéer om bra saker att göra. Lagen kom först två år senare."
+      },
+      {
+       "id": "f6",
+       "type": "mcq",
+       "tags": [
+        "läs.slutsats"
+       ],
+       "q": "Enligt utställningen var fritiden bra också för …",
+       "options": [
+        "kvinnorna, som fick slippa hushållet.",
+        "arbetet, eftersom vilade människor jobbar bättre.",
+        "bönderna, som fick mer tid på sommaren.",
+        "staten, som tjänade pengar på bio."
+       ],
+       "answer": 1,
+       "explain": "\"… friska och lyckliga människor som sedan orkade arbeta bra resten av året.\""
+      },
+      {
+       "id": "f7",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj",
+        "läs.synonym"
+       ],
+       "q": "Varför fick kvinnor husmorssemester?",
+       "options": [
+        "De hade jobbat i fabrikerna.",
+        "De var trötta efter jobbet i fabriken.",
+        "Hemarbetet tog aldrig slut, så de var aldrig riktigt lediga.",
+        "De ville lära sig laga mat."
+       ],
+       "answer": 2,
+       "explain": "\"Många kvinnor var hemmafruar … hushållsarbetet aldrig tog slut.\" De jobbade hemma, inte i fabriken."
+      },
+      {
+       "id": "f8",
+       "type": "mcq",
+       "tags": [
+        "läs.diagram",
+        "läs.siffror"
+       ],
+       "q": "Titta på diagrammet. Hur många veckors semester hade man rätt till år 1970?",
+       "options": [
+        "Två",
+        "Tre",
+        "Fyra",
+        "Fem"
+       ],
+       "answer": 2,
+       "explain": "1963 → fyra veckor. Fem veckor först 1978. 1970 ligger mellan.",
+       "explainEn": "1970 is between 1963 (4) and 1978 (5)."
+      },
+      {
+       "id": "f9",
+       "type": "mcq",
+       "tags": [
+        "läs.kontrast",
+        "läs.detalj"
+       ],
+       "q": "Vad säger de flesta svenskar om sin fritid idag?",
+       "options": [
+        "Att de är för stressade för att njuta av den",
+        "Att de helst vill stanna hemma",
+        "Att semestern är för kort",
+        "Att de har en bra balans mellan jobb och fritid"
+       ],
+       "answer": 3,
+       "explain": "\"En del\" blir stressade – men \"de flesta … ändå\" har bra balans. Läs vem som säger vad: en del ≠ de flesta.",
+       "explainEn": "'some' get stressed; 'most … still' have a good balance."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "del2",
+   "title": "Del 2: Faktatext",
+   "titleEn": "Part 2: Fact text",
+   "instructions": "Läs texten. Meningarna har nummer. Fråga 10–18: varje mening betyder ungefär samma som en mening i texten. Välj numret. Om ingen mening passar, välj 0. Fråga 19–22: svara Ja eller Nej.",
+   "instructionsEn": "Sentences 10–18: pick the text sentence with the same meaning, or 0. 19–22: Yes or No.",
+   "parts": [
+    {
+     "heading": "Fråga 10–18",
+     "passageTitle": "Små djur – stora problem?",
+     "passage": "Små djur – stora problem?\n\n(1)I Sverige finns det få farliga djur i vardagen, men det finns några små djur som man bör känna till. (2)Det gäller framför allt huggormen, getingen och fästingen.\n\n(3)Huggormen är Sveriges enda giftiga orm. (4)Den biter nästan aldrig människor, eftersom den själv är rädd och oftast kryper iväg när någon kommer. (5)Om man ändå blir biten, gör det ont och huden runt bettet svullnar. (6)Ett bett kan bli farligt för allergiker eller om giftet kommer direkt i ett blodkärl. (7)Man ska därför alltid kontakta vården efter ett ormbett. (8)Dödsfall är däremot mycket ovanliga: det händer ungefär en gång på åtta år. (9)Trots det är många så rädda för huggormar att de inte vågar gå ut i skogen.\n\n(10)För de flesta är ett getingstick bara obehagligt. (11)Men för den som är allergisk kan ett stick ge en allergichock och vara livsfarligt. (12)Det är också farligt att bli stucken i munnen, eftersom tungan kan svullna så mycket att man får svårt att andas. (13)Varje år dör ungefär en person i Sverige efter ett getingstick.\n\n(14)Det djur som orsakar mest lidande är ändå fästingen, fast den bara är några millimeter stor. (15)Fästingen suger blod från djur och människor och kan föra över sjukdomar. (16)Den vanligaste är borrelia, och cirka 10 000 personer behandlas varje år med antibiotika mot den. (17)Utan behandling kan man få feber och ont i lederna, och i värsta fall kan ansiktet bli förlamat. (18)Mot borrelia finns det inget vaccin. (19)Mot sjukdomen TBE kan man däremot vaccinera sig. (20)De flesta som får TBE blir bara lite sjuka. (21)Men ungefär var tredje person som inte är vaccinerad får en inflammation i hjärnan. (22)Risken är störst i skärgården utanför Stockholm och runt Mälaren, och därför rekommenderas de som bor där att vaccinera sig. (23)Sjukdomen sprider sig, och idag finns det TBE i stora delar av södra och mellersta Sverige.",
+     "image": {
+      "src": "djur.svg",
+      "alt": "En huggorm, en geting och en liten fästing"
+     },
+     "options": [
+      "0 – ingen mening i texten",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23"
+     ],
+     "items": [
+      {
+       "id": "d1",
+       "type": "select",
+       "tags": [
+        "läs.synonym"
+       ],
+       "q": "Ormen försöker oftast komma bort när den möter människor.",
+       "answer": 4,
+       "explain": "Mening 4: \"oftast kryper iväg när någon kommer\"."
+      },
+      {
+       "id": "d2",
+       "type": "select",
+       "tags": [
+        "läs.synonym"
+       ],
+       "q": "Det är mycket sällsynt att någon dör av ett huggormsbett.",
+       "answer": 8,
+       "explain": "Mening 8: \"Dödsfall är däremot mycket ovanliga\"."
+      },
+      {
+       "id": "d3",
+       "type": "select",
+       "tags": [
+        "läs.synonym"
+       ],
+       "q": "Rädslan för ormar gör att vissa människor håller sig borta från skogen.",
+       "answer": 9,
+       "explain": "Mening 9: \"inte vågar gå ut i skogen\"."
+      },
+      {
+       "id": "d4",
+       "type": "select",
+       "tags": [
+        "läs.synonym"
+       ],
+       "q": "Huggormar är vanligast i norra Sverige.",
+       "answer": 0,
+       "explain": "0 – texten säger inget om var huggormar bor. Mening 22–23 handlar om TBE."
+      },
+      {
+       "id": "d5",
+       "type": "select",
+       "tags": [
+        "läs.synonym"
+       ],
+       "q": "Ett stick i munnen kan göra det svårt att få luft.",
+       "answer": 12,
+       "explain": "Mening 12: \"svårt att andas\" = svårt att få luft."
+      },
+      {
+       "id": "d6",
+       "type": "select",
+       "tags": [
+        "läs.synonym"
+       ],
+       "q": "Fästingen är liten men skapar mer problem än de andra djuren.",
+       "answer": 14,
+       "explain": "Mening 14: \"orsakar mest lidande … fast den bara är några millimeter\"."
+      },
+      {
+       "id": "d7",
+       "type": "select",
+       "tags": [
+        "läs.synonym"
+       ],
+       "q": "Det finns ingen spruta som skyddar mot borrelia.",
+       "answer": 18,
+       "explain": "Mening 18: \"inget vaccin\" = ingen spruta som skyddar."
+      },
+      {
+       "id": "d8",
+       "type": "select",
+       "tags": [
+        "läs.synonym"
+       ],
+       "q": "Den som har blivit biten av en orm bör alltid ringa sjukvården.",
+       "answer": 7,
+       "explain": "Mening 7: \"alltid kontakta vården efter ett ormbett\"."
+      },
+      {
+       "id": "d9",
+       "type": "select",
+       "tags": [
+        "läs.synonym"
+       ],
+       "q": "En av tre ovaccinerade som får TBE får problem med hjärnan.",
+       "answer": 21,
+       "explain": "Mening 21: \"var tredje\" = en av tre."
+      }
+     ]
+    },
+    {
+     "heading": "Fråga 19–22: Ja eller Nej?",
+     "items": [
+      {
+       "id": "d10",
+       "type": "mcq",
+       "tags": [
+        "läs.janej",
+        "läs.kontrast"
+       ],
+       "q": "Ett huggormsbett är farligt för alla människor.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Nej. Mening 6: farligt för allergiker eller om giftet går i ett blodkärl. \"Om man ändå blir biten\" betyder inte att det är farligt för alla."
+      },
+      {
+       "id": "d11",
+       "type": "mcq",
+       "tags": [
+        "läs.janej",
+        "läs.kontrast"
+       ],
+       "q": "Man kan vaccinera sig mot TBE.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "Ja. Mening 19: \"Mot TBE kan man däremot vaccinera sig\". Däremot = kontrast mot borrelia (inget vaccin)."
+      },
+      {
+       "id": "d12",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "De flesta som blir stuckna av en geting behöver vård.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Nej. Mening 10: för de flesta är det bara obehagligt."
+      },
+      {
+       "id": "d13",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "TBE finns bara runt Stockholm.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Nej. Mening 23: i stora delar av södra och mellersta Sverige. Risken är störst runt Stockholm – det betyder inte \"bara\"."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

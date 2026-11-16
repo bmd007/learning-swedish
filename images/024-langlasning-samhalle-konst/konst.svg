@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" font-family="system-ui, sans-serif">
+<rect width="600" height="280" fill="#ffffff"/>
+<rect x="20" y="40" width="270" height="200" fill="#1d3a6b"/>
+<rect x="20" y="170" width="270" height="70" fill="#2c5a9c"/>
+<g fill="#0f2245"><rect x="40" y="130" width="30" height="40"/><rect x="75" y="110" width="25" height="60"/><rect x="105" y="140" width="40" height="30"/><rect x="150" y="100" width="12" height="70"/><rect x="170" y="125" width="45" height="45"/><rect x="225" y="135" width="40" height="35"/></g>
+<g fill="#f6e7a0"><circle cx="60" cy="185" r="3"/><circle cx="110" cy="190" r="3"/><circle cx="160" cy="186" r="3"/><circle cx="210" cy="192" r="3"/><circle cx="255" cy="188" r="3"/></g>
+<rect x="310" y="40" width="270" height="200" fill="#e07a4f"/>
+<circle cx="380" cy="100" r="45" fill="#f3d27a"/><path d="M380 100 m-30 0 a30 30 0 1 1 30 30 a20 20 0 1 1 -20 -20 a10 10 0 1 1 10 10" stroke="#b5472a" stroke-width="3" fill="none"/>
+<circle cx="510" cy="170" r="50" fill="#2b3f73"/><circle cx="510" cy="170" r="30" fill="#c9b8e8"/><circle cx="510" cy="170" r="12" fill="#f4f0e0"/>
+<circle cx="440" cy="200" r="16" fill="#9cc48a"/><circle cx="470" cy="80" r="18" fill="#f4c6c0"/>
+<g font-size="16" text-anchor="middle" fill="#234"><text x="155" y="265">stad i blått, i gryningen</text><text x="445" y="265">cirklar och spiraler</text></g>
+</svg>

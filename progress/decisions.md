@@ -101,3 +101,14 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 - Learner asked to decouple content (questions, results, interactions) from server/UI code so simpler AIs
   can generate lessons, reports, plans from repo documents. → docs/AUTHORING.md is the contract; tools/ do
   deterministic work (validate, report, audio); .claude/agents/ define author/grader roles.
+
+## 2026-11-16 – Rivstart reading photos
+- Learner sent 9 photos of Rivstart B1/B2 readings (`materials/nok/rivstart_reading_pics/`, private):
+  Fritid förr och nu (ch 1), Konst och vänskap runt 1900 – Thiel, Jansson, af Klint (ch 2),
+  Sveriges styrelseskick (ch 6), Stickande och bitande djur. The learner's handwritten notes in the
+  photos show words they looked up (knappt, orka, okänt, växte fram, olämpligt, ordnade, passande,
+  orsakar, lidande, vågar, ändå, däremot, lindriga besvär, skamliga, förrän, beundrade).
+- Length: Rivstart texts are 400–700 words per theme. Test texts: Swedex 220–530 words, SFI D has one
+  longer article. So about the same as the longest test text, but denser (names, years, rare words).
+- Repo is PUBLIC → never copy book text into lessons. Rewrite the same facts in own words (also trains
+  paraphrase), reuse the words the learner marked. Done in 023 + 024.
