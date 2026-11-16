@@ -75,6 +75,25 @@ def add_noise(data, level):
     return samples.tobytes()
 
 
+def add_scene(data, sound, level, tmp):
+    """Loop sounds/<sound>.m4a under the speech, with 1 s of scene before and after and short fades."""
+    wav = Path(tmp) / "scene.wav"
+    subprocess.run(["afconvert", "-f", "WAVE", "-d", f"LEI16@{RATE}", "-c", "1", str(ROOT / "sounds" / f"{sound}.m4a"), str(wav)], check=True)
+    with wave.open(str(wav)) as w:
+        bg = array("h", w.readframes(w.getnframes()))
+    lead = RATE
+    speech = array("h", silence(1) + data + silence(1))
+    n, fade, xf = len(speech), RATE // 2, RATE // 2
+    for i in range(n):
+        j = i % (len(bg) - xf)
+        b = bg[j]
+        if j < xf and i >= xf:
+            b = b * j / xf + bg[len(bg) - xf + j] * (1 - j / xf)
+        env = min(1.0, i / fade, (n - 1 - i) / fade)
+        speech[i] = max(-32768, min(32767, int(speech[i] + b * level * env)))
+    return speech.tobytes()
+
+
 async def render(audio, m4a):
     gap = audio.get("gap", 0.45)
     frames, previous = [], None
@@ -89,8 +108,11 @@ async def render(audio, m4a):
             frames.append(pcm(mp3, tmp))
             previous = line.get("speaker")
         data = b"".join(frames)
-        if audio.get("noise"):
-            data = add_noise(data, audio["noise"])
+        noise = audio.get("noise")
+        if isinstance(noise, dict):
+            data = add_scene(data, noise["sound"], noise.get("level", 0.3), tmp)
+        elif noise:
+            data = add_noise(data, noise)
         wav = Path(tmp) / "all.wav"
         with wave.open(str(wav), "wb") as w:
             w.setnchannels(1)

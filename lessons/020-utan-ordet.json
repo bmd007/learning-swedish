@@ -235,7 +235,11 @@
                 "speaker": "Sara",
                 "text": "Nu har jag en smartphone, men jag saknar den gamla lite. Man tittade inte på skärmen hela tiden."
               }
-            ]
+            ],
+            "noise": {
+              "sound": "cafe",
+              "level": 0.35
+            }
           },
           "items": [
             {

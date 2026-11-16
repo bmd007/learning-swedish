@@ -110,7 +110,8 @@
                 "speaker": "Examinator",
                 "text": "Hej och välkommen! Kan du berätta lite om dig själv? Var kommer du ifrån, och hur länge har du bott i Sverige?"
               }
-            ]
+            ],
+            "strict": false
           },
           "image": {
             "src": "samtal.svg",
@@ -137,7 +138,8 @@
                 "speaker": "Examinator",
                 "text": "Vad gör du på fritiden? Har du någon hobby?"
               }
-            ]
+            ],
+            "strict": false
           }
         },
         {
@@ -160,7 +162,8 @@
                 "speaker": "Examinator",
                 "text": "Varför vill du lära dig svenska? Och i vilka situationer använder du svenska i vardagen?"
               }
-            ]
+            ],
+            "strict": false
           }
         }
       ]
@@ -197,7 +200,8 @@
                     "speaker": "Examinator",
                     "text": "Hej, jag ringer om cykeln som du säljer. Hur gammal är den, och är den i bra skick?"
                   }
-                ]
+                ],
+                "strict": false
               },
               "image": {
                 "src": "annons.svg",
@@ -224,7 +228,8 @@
                     "speaker": "Examinator",
                     "text": "Okej, låter bra. Men tolvhundra kronor är lite mycket för mig. Kan du sänka priset? Och när kan jag komma och titta på den?"
                   }
-                ]
+                ],
+                "strict": false
               }
             }
           ]
@@ -275,7 +280,8 @@
                 "speaker": "Examinator",
                 "text": "Nu ska vi prata om mobiltelefoner. Många säger att vi använder mobilen för mycket. Vad tycker du? Finns det fördelar och nackdelar?"
               }
-            ]
+            ],
+            "strict": false
           },
           "image": {
             "src": "mobil.svg",
@@ -301,7 +307,8 @@
                 "speaker": "Examinator",
                 "text": "Intressant. Tycker du att barn under tolv år ska ha en egen mobil? Varför, eller varför inte?"
               }
-            ]
+            ],
+            "strict": false
           }
         }
       ]

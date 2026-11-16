@@ -166,3 +166,11 @@
 - Friend's Swedex report (docs/research.md): listening hardest – played twice back to back, noise.
 - App: exam-mode audio plays maxPlays times in a row on one click. build_audio.py: `noise` low/medium/high.
 - Next: lesson 025 = full Swedex hörprov (5 parts, exam conditions, some noisy recordings).
+
+## 2026-11-16 – Scene sounds + two plays in a row everywhere
+- Learner: noise = scene sounds (car, vacuum …), apply to all listening. Added 8 real scene sounds
+  (sounds/, Wikimedia Commons, credits in sounds/CREDITS.md); `noise: {sound, level}` in build_audio.py.
+- All listening audio (practice + exam) now plays maxPlays times in a row on one click; speaking-task
+  examiner prompts opt out (`strict: false`).
+- Scene sounds added to 10 old dialogues (001 a2, 005, 006, 008, 009, 010, 011, 013, 014 morfar, 020);
+  001 voicemail + news stay clean; 014 number drills clean. Audio rebuilt.

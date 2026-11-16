@@ -403,7 +403,11 @@
                 "speaker": "Morfar",
                 "text": "Tvåtusentolv. Då gick jag i pension. Efter fyrtiofyra år på samma ställe."
               }
-            ]
+            ],
+            "noise": {
+              "sound": "rain",
+              "level": 0.3
+            }
           },
           "items": [
             {

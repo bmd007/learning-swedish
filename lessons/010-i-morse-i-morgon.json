@@ -321,7 +321,11 @@
                 "speaker": "Sara",
                 "text": "Bra. Då ses vi i morgon klockan nio. Hej då!"
               }
-            ]
+            ],
+            "noise": {
+              "sound": "traffic",
+              "level": 0.35
+            }
           },
           "items": [
             {

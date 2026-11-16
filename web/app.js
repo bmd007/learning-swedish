@@ -474,7 +474,7 @@ async function openLesson(id) {
       btn.disabled = used >= max;
     };
     upd();
-    const strict = exam && audio.strict !== false;
+    const strict = audio.strict !== false;
     if (strict && !(state.plays[audio.id] >= max)) btn.textContent = `▶ Spela upp (${max} gånger i rad)`;
     btn.onclick = async () => {
       btn.disabled = true;

@@ -300,7 +300,11 @@
                 "speaker": "Johan",
                 "text": "Okej, jag gör det i dag. Men glöm inte att Birgitta inte får veta någonting!"
               }
-            ]
+            ],
+            "noise": {
+              "sound": "cafe",
+              "level": 0.3
+            }
           },
           "items": [
             {

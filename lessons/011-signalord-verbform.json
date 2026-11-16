@@ -315,7 +315,11 @@
                 "speaker": "Sara",
                 "text": "Jag har också tittat på filmer på svenska. Jag förstår mer och mer."
               }
-            ]
+            ],
+            "noise": {
+              "sound": "cafe",
+              "level": 0.3
+            }
           },
           "items": [
             {

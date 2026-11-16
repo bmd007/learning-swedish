@@ -349,7 +349,11 @@
                 "speaker": "Lena",
                 "text": "Ja, då är jag ledig. Det blir säkert en lång dag, men vi blir glada när det är klart."
               }
-            ]
+            ],
+            "noise": {
+              "sound": "kitchen",
+              "level": 0.3
+            }
           },
           "items": [
             {

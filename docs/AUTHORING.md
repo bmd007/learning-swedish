@@ -145,11 +145,16 @@ The file is not in git, so the lesson only works on a machine that has `material
   "script": [{"speaker": "Sara", "text": "...", "pause": 1.0}] }    // pause = silence before this line
 ```
 Only two Swedish voices exist (Sofie f, Mattias m); vary `pitch`/`rate` for extra people.
-`"noise": "low" | "medium" | "high"` (or a number 0–1) mixes background murmur into the TTS file – the real
-Swedex listening test has recordings with background noise. Use "medium" on some items in exam tests.
+**Scene sound:** `"noise": {"sound": "<name>", "level": 0.3}` loops `sounds/<name>.m4a` under the speech
+(1 s of scene before the voices). Names: vacuum, cafe, car, train, traffic, kids, rain, kitchen (credits in
+`sounds/CREDITS.md`). Pick the sound that fits the story (call from a car → car, at home → vacuum/kitchen,
+station → train). level 0.3 = clearly there, 0.5 = hard. The real Swedex test has recordings with background
+noise and unclear speakers: put a scene sound on about a third of TTS recordings. (Old presets
+"low"/"medium"/"high" = generic murmur; don't use.)
 
-**Exam playback:** in exam mode, one click plays the recording `maxPlays` times in a row (2 s gap, no pause),
-like the real test where the teacher plays it twice without stopping. Set `"strict": false` on an audio to opt out.
+**Playback:** one click plays the recording `maxPlays` times in a row (2 s gap, no pause, no stopping),
+like the real test where the teacher plays it twice back to back. Questions stay visible: answer while
+listening. `"strict": false` on an audio opts out (only for teaching dialogues, not for tasks).
 
 **Make TTS scripts sound like B1 speech, not a textbook:**
 - **Length:** 120–250 words, 1–2.5 min. Not 6 short lines.

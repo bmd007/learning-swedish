@@ -386,7 +386,11 @@
                 "speaker": "Lena",
                 "text": "Vad skönt! Jag kommer och hälsar på snart."
               }
-            ]
+            ],
+            "noise": {
+              "sound": "vacuum",
+              "level": 0.35
+            }
           },
           "items": [
             {

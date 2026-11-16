@@ -275,7 +275,11 @@
                 "speaker": "Amir",
                 "text": "Toppen. Tack så mycket, vi ses på torsdag!"
               }
-            ]
+            ],
+            "noise": {
+              "sound": "car",
+              "level": 0.35
+            }
           },
           "items": [
             {
@@ -381,7 +385,8 @@
                 "speaker": "Lena",
                 "text": "Solbacka ridskola, det är Lena. Vad kan jag hjälpa dig med?"
               }
-            ]
+            ],
+            "strict": false
           },
           "bullets": [
             "Hälsa och säg varför du ringer (Jag ringer om annonsen …)",

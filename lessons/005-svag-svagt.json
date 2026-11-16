@@ -262,7 +262,11 @@
                 "speaker": "Johan",
                 "text": "Hoppas det. Tränaren säger att vår största svaghet är konditionen."
               }
-            ]
+            ],
+            "noise": {
+              "sound": "kids",
+              "level": 0.3
+            }
           },
           "items": [
             {

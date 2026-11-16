@@ -354,7 +354,11 @@
                 "speaker": "Johan",
                 "text": "Låter gott! Jag kommer klockan sex."
               }
-            ]
+            ],
+            "noise": {
+              "sound": "train",
+              "level": 0.3
+            }
           },
           "image": {
             "src": "kvall.svg",
