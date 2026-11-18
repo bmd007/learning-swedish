@@ -37,3 +37,7 @@
 ## Open questions for the learner
 - Test date / which school (SFI D on paper, pass/fail).
 - Hours per week available.
+
+## Attention (2026-11-18, self-reported)
+- Lower attention span lately: skips the end of questions; reads a Swedish word as a look-alike English word.
+- Train: full-question reading + key words, false-friends drill, short focus sprints, final check pass.
