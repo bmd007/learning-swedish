@@ -65,7 +65,17 @@ def render_line(text, voice, rate, wav):
     cached = CACHE / f"{hashlib.md5(f'{voice}|{rate}|{text}'.encode()).hexdigest()}.wav"
     if not cached.exists():
         generate(text, voice, rate, cached)
+        free_memory()
     shutil.copy(cached, wav)
+
+
+def free_memory():
+    """MPS keeps memory after each generation; without this one long build grew to 38 GB and swapped."""
+    import gc
+    import torch
+    gc.collect()
+    if torch.backends.mps.is_available():
+        torch.mps.empty_cache()
 
 
 def generate(text, voice, rate, wav):
@@ -79,8 +89,9 @@ def generate(text, voice, rate, wav):
         best = None
         for attempt in range(3):
             torch.manual_seed(random.Random(chunk + str(attempt) + os.environ.get("TTS_TAKE", "")).randint(0, 2**31))
-            w = m.generate(chunk, language_id="sv", audio_prompt_path=str(REFS / f"{voice}.wav"),
-                           exaggeration=0.5, cfg_weight=0.4)
+            with torch.inference_mode():
+                w = m.generate(chunk, language_id="sv", audio_prompt_path=str(REFS / f"{voice}.wav"),
+                               exaggeration=0.5, cfg_weight=0.4).cpu()
             seconds = w.shape[-1] / m.sr
             score = abs(seconds / max(expected, 0.6) - 1)
             if best is None or score < best[0]:
