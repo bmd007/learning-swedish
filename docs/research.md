@@ -186,3 +186,93 @@ Matrices:
 - Writing: two emails, ~50 and ~100 words (model test del 2 says "ca 100 ord"). Practise asking questions
   and describing things.
 - Speaking: 15 min, exactly as in the model test (muntligt deltagarmaterial).
+
+## Swedex A2B1 – research beyond the model test (2026-11-18)
+
+Labels: **[official]** = Folkuniversitetet document/page; **[official, old format]** = Folkuniversitetet
+material from the pre-2022 separate A2/B1 tests (still downloadable, not the current test);
+**[third party]** = test centre or school page; **[anecdotal]** = test-taker report.
+FU = `https://www.folkuniversitetet.se/globalassets/dokumentbanken/lokala-dokument/dokument_region_vast/goteborg/swedex`
+
+### Test-taker reports: almost none online
+- No Reddit, Flashback, Persian or Arabic first-hand reports of the **current** A2B1 test were found
+  (searched sv/en/fa/ar, YouTube). The friend's report above stays our best source.
+- [anecdotal, official site] One doctor failed **hörförståelse** first time and passed it later as a
+  restprov; oral examiner "mycket hjälpsam", nerves went after a few minutes; staff chat with you while
+  you wait for the oral part (so the oral is held later in the day, separately).
+  https://www.folkuniversitetet.se/mer-om-sprak/sprakexamina-och-sprakprov/swedex-swedish-examinations/deltagarintervjuer/roster-om-swedex/
+- [anecdotal, old A2 format, 2017] Order: reading → (ord & grammatik) → break → writing → listening → oral.
+  Fast connected speech in listening was the hard part; oral lasted 15 min, not the 8 min she expected.
+  https://www.alicetehlarsson.se/blog/swedex2
+
+### Göteborg test day (current)
+- [official] A2B1 Göteborg dates: 20 Nov, **4 Dec** (shows "Boka reservplats" = full, waiting list) and
+  **9 Dec 2026** (Wed, "Boka nu" = seats left) — 9 Dec is a backup date. Norra Allégatan 6, 09:00–17:00,
+  3125 kr. "Schemat för examen får du i samband med testet. Räkna med att det tar en heldag."
+  Booking closes one week before; cancel ≤1 week before = 25 % fee.
+  https://www.folkuniversitetet.se/kurser-utbildningar/sprak/svenskaswedish/swedex-test/goteborg/92398/ ,
+  https://www.folkuniversitetet.se/kurser-utbildningar/sprak/svenskaswedish/swedex-test/goteborg/108597/
+- [official] Restprov (one part, e.g. läsförståelse 1041 kr) must be done within 6 months **and by
+  2026-12-31**. Re-marking (ombedömning) costs 1500 kr, refunded if the overall result improves.
+  Certificate ~3 weeks after the test. Overall level = lowest part; just under A2 → A1 certificate.
+  https://www.folkuniversitetet.se/mer-om-sprak/sprakexamina-och-sprakprov/swedex-swedish-examinations/faq
+- [official] FAQ: "Swedex B1 motsvarar ungefär nivån för sfi kurs D." (same page)
+- [third party] Barcelona centre: written part ~3 h 15 min in one block (läs + hör + skriv), oral ~25 min
+  incl. admin, A2B1 oral individual. https://institutnordic.com/en/swedex/
+
+### Grading details (what we can and cannot know)
+- [official] Current A2B1: läs and hör are pure point counts (A2/B1 limits in the testformat PDF); writing
+  and speaking are judged by testledare against "bestämda bedömningskriterier"; the current criteria
+  tables are **not published** (testformat only names the criteria). FAQ link above.
+- [official, old format, 2009] The old A2/B1 marking guide shows how Swedex scores, likely the same
+  logic today (inference, not confirmed): `FU/modelltest-b1/swedex_b1_bedomning_a2_b1.pdf`
+  - Old B1 writing (10 p): **fullgörande** = number of content points covered (5→3 p, 4→2, 3→1, <3→0);
+    **kommunikativ utformning** 0–4 (coherence between points, acceptable phrasing, **correct letter
+    phrases** – greeting/closing); **formell korrekthet** 0–3 (morphology, syntax, spelling).
+    **Any criterion at 0 = whole task failed.** "Brister" judged against what the level requires.
+  - Old oral (40 p): 1) kommunikativa färdigheter och interaktion 18/15/10/0, 2) formell korrekthet och
+    uttrycksförmåga 12/10/7/0, 3) uttal, intonation, flyt 10/8/5/0. A = no/small faults; B = faults that
+    don't disturb; C = "man måste fråga för att förstå"; D = no communication. **Any D = oral failed.**
+    Judged as a whole, not per task part. Form: `FU/modelltest-b1/swedex_b1_munt_bedomningsblankett.pdf`
+- [official, B2C1 doc] B2C1 rules say: several answers to one question = 0 p; minor spelling errors give
+  no deduction in written short answers. Not stated for A2B1, but probably the same policy —
+  practise writing ONE short answer. `FU/modelltest-b2c1/b2c1-testformat.pdf`
+- Typical fail reasons (inference from the criteria, not from reports): skipping a content point/question
+  in the email, missing greeting/closing, wrong tense in the calendar task, listening below 22/30.
+
+### Extra practice material (official, old format, still downloadable 2026-11-18)
+Same institution, same task families; use for extra realistic practice, not as a copy of the current test.
+- **Old B1 listening** (40 min): `FU/modelltest-b1/swedex_b1_hf.pdf`, audio
+  `FU/modelltest-b1/swedex_b1_hf_modelltest_01.mp3` … `_04.mp3`, key + transcript
+  `FU/modelltest-b1/swedex_b1_facit_hf_transkription.pdf`. Parts: picture MCQ on short dialogues,
+  draw a route on a map from a phone message, **match 6 radio clips to headings (3 extra)**, **interviews
+  with R/F statements**, questions on answering-machine messages. Del 2+3 = same task types as current
+  Hör del 4 and 5. Each part gives 15–45 s to read the questions first.
+- **Old B1 reading**: `FU/modelltest-b1/swedex_b1_las.pdf` (+ `swedex_b1_facit_las.pdf`): match headings to
+  7 paragraphs (extra options), questions on a fact text where **the answer may not be in the text**,
+  MCQ on an argumentative text (≈ current del 3 insändare).
+- **Old B1 writing**: `FU/modelltest-b1/swedex_b1_skriv.pdf` – reply to a pen-friend letter, describe your
+  week from a calendar, "Tänk på att det är den 7 maj idag", at least five dates, ~100 words. The calendar
+  task has existed since at least 2003 → stable task: "today" sits in the middle of the week, so past days
+  need preteritum/perfekt and later days need ska/kommer att.
+- **Old B1 oral** (pair format, now replaced): examiner script `FU/modelltest-b1/swedex_b1_munt_manus.pdf`,
+  statements `FU/modelltest-b1/swedex_b1_munt_amnen.pdf` (e.g. city vs countryside, money and happiness,
+  cats vs dogs). Good prompts for current oral **del 3 "prata om ett ämne / säg vad du tycker"**.
+  Old format description: `FU/modelltest-b1/swedex_b1_testformat_muntligt_a2_b1.pdf`.
+- **Old A2** (easier warm-up): `FU/swedex_a2_las.pdf` (Ja/Nej on texts – same as current Läs del 1),
+  `FU/swedex_a2_hf.pdf` + `FU/swedex_a2_hf_modelltest_02.mp3`. Old A2 listening says "Varje meddelande
+  repeteras direkt" – matches the friend's report (played twice back to back).
+- Not retrievable: `FU/modelltest-a2b1/modelltest-a2b1-muntlig-uppgift.pdf` (listed in 2022, now
+  redirects; probably the examiner side of the current oral). Full file list via Wayback CDX:
+  https://web.archive.org/cdx/search/cdx?url=folkuniversitetet.se/globalassets/dokumentbanken/lokala-dokument/dokument_region_vast/goteborg/swedex/*
+- Copyright: FU says the model tests are for individual self-study only. Fine for the learner's own
+  practice; don't republish. https://www.folkuniversitetet.se/mer-om-sprak/sprakexamina-och-sprakprov/swedex-swedish-examinations/swedex-a2b1-och-b2c1/modelltest/
+
+### Outdated / misleading third-party sources (ignore)
+- Pages still describing an "ord och grammatik" part, 5 parts, or A2/B1/B2 as separate levels are pre-2022:
+  https://www.scandinavianschool.org/swedex , https://theswedishteacher.com/sv/blog/which-exam-should-i-choose/ ,
+  Wikipedia. The svenska.app "Swedex B1" mock uses that old format: https://www.svenska.app/exams
+- [official] Current format since spring 2022 (A2B1 + B2C1, level per skill):
+  https://www.folkuniversitetet.se/mer-om-sprak/sprakexamina-och-sprakprov/swedex-swedish-examinations/swedex-a2b1-och-b2c1/
+- [official] Prep advice for A2B1 is only generic: Klartext, 8 Sidor, Radio Sweden på lätt svenska,
+  Nyheter på lätt svenska. https://www.folkuniversitetet.se/mer-om-sprak/sprakexamina-och-sprakprov/swedex-swedish-examinations/tips-och-rad/

@@ -44,3 +44,4 @@ No free Swedish child speakers found.
 | Scene sounds (car, café, vacuum …) | Wikimedia Commons | see `sounds/CREDITS.md` | `sounds/` (in git) | – |
 | Rivstart B1/B2 extramaterial | Folkuniversitetet / book | © – private | `materials/nok/` | see its README |
 | Swedex A2B1 model test | Folkuniversitetet | © – private | `materials/swedex-a2b1/` | – |
+| Old Swedex B1 + A2 model tests (pre-2022): B1 listening 4 mp3 (~37 min) + `b1hf.pdf` questions + `swedex_b1_facit_hf_transkription.pdf`, B1 reading, writing, oral (topics, picture prompt, script, assessment form), A2 reading/listening, A2B1 oral task, B2C1 format | folkuniversitetet.se `/globalassets/dokumentbanken/lokala-dokument/dokument_region_vast/goteborg/swedex/` (`modelltest-b1/…`, list via web.archive.org CDX; see docs/research.md 2026-11-18) | © – private | `materials/swedex-old/` | curl the direct links (2026-11-18) |
