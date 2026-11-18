@@ -213,3 +213,17 @@
 - 26/30 → B1 (del1 9/10, del2 6/6, del3 6/6, del4 5/8), 32 min. No short items.
 - Misses: del 4 synonyms again (3x chose '0'), mil vs kilometer in l10.
 - Next step: short del 4 drill (synonyms + units mil/km); then grade 026 writing and 027 listening when done.
+
+## 2026-11-19 – Voices, highlighter, old official B1 hörprov
+- Human voices: build_audio.py --chatterbox → materials/tts/ (private, app prefers it). Cast tools/voice_cast.json:
+  LibriVox (4★ Anna Sofia, Cecilia2), NOK actors (7, private), NST (38 speakers 19–77, 10 regions), child = pitched ref.
+  Done: 001 002 005 006 008 009 011 013 020; 010 two lines redone (TTS_TAKE=2); 014 + 025 building.
+  Check with tools/check_tts.py (Whisper WER), fix lines with tools/redo_tts_line.py.
+- Highlighter in exams + lessons (select → yellow, click removes, saved per attempt). Learner asked for it.
+- Learner: attention tools only as practice lessons; tests stay exam-like (decisions.md).
+- Research Swedex (docs/research.md 2026-11-18): old official B1/A2 tests downloaded to materials/swedex-old/.
+- Private lessons in materials/lessons/. 028-swedex-b1-gammalt-horprov: real old B1 listening test, 26 items, 40 min,
+  real picture options, q2 = draw the route on the real map (new `draw` item, graded by Claude). B1 ≈ 17 (no official mark).
+- Exam booked: Swedex A2B1 Göteborg 2026-12-04.
+- Next: learner takes 026 (writing) and 028; grade. Then Swedex oral practice from the old oral material
+  (materials/swedex-old/swedex_b1_munt_*), then a short del 4 paraphrase lesson (key-word step, practice only).
