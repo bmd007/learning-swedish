@@ -18,6 +18,8 @@ UPLOADS = ROOT / "uploads"
 IMAGE_EXT = {"jpg", "jpeg", "png", "heic", "heif", "webp"}
 FEEDBACK = ROOT / "feedback"
 DRAFTS = RESULTS / "drafts"
+VOICE_SAMPLES = ROOT / "materials" / "voices" / "samples"
+VOICE_RATINGS = ROOT / "progress" / "voice-ratings.json"
 SAFE = re.compile(r"^[A-Za-z0-9_.-]+$")
 JOBS = {}
 GEN_LOCK = threading.Lock()
@@ -188,9 +190,14 @@ class Handler(SimpleHTTPRequestHandler):
             if not files:
                 return self.send_json({"error": "not found"}, 404)
             return self.send_text(files[-1].read_text(encoding="utf-8"))
+        if p == "/api/voices":
+            index = VOICE_SAMPLES / "index.json"
+            samples = json.loads(index.read_text(encoding="utf-8")) if index.exists() else []
+            ratings = json.loads(VOICE_RATINGS.read_text(encoding="utf-8")) if VOICE_RATINGS.exists() else {}
+            return self.send_json({"samples": samples, "ratings": ratings})
         if p.startswith(("/web/", "/audio/", "/uploads/", "/images/", "/reading/")):
             return super().do_GET()
-        if p.startswith("/materials/") and p.endswith((".m4a", ".mp3")) and ".." not in p:
+        if p.startswith("/materials/") and p.endswith((".m4a", ".mp3", ".wav")) and ".." not in p:
             return super().do_GET()
         self.send_json({"error": "not found"}, 404)
 
@@ -214,6 +221,21 @@ class Handler(SimpleHTTPRequestHandler):
             f.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
             draft.unlink(missing_ok=True)
             return self.send_json({"saved": f.name})
+        if url.path == "/api/voices/rate":
+            data = json.loads(body or b"{}")
+            file = str(data.get("file", ""))
+            if not re.fullmatch(r"[\w/.-]+", file) or ".." in file:
+                return self.send_json({"error": "bad file"}, 400)
+            ratings = json.loads(VOICE_RATINGS.read_text(encoding="utf-8")) if VOICE_RATINGS.exists() else {}
+            entry = ratings.get(file, {})
+            if "rating" in data:
+                entry["rating"] = max(0, min(5, int(data["rating"])))
+            if "note" in data:
+                entry["note"] = str(data["note"])[:500]
+            entry["at"] = datetime.now().isoformat(timespec="seconds")
+            ratings[file] = entry
+            VOICE_RATINGS.write_text(json.dumps(ratings, ensure_ascii=False, indent=1), encoding="utf-8")
+            return self.send_json({"saved": file})
         if url.path == "/api/generate":
             data = json.loads(body or b"{}")
             topic = str(data.get("topic", "")).strip()[:500]

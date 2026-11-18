@@ -262,3 +262,12 @@ body.exam-mode .sv-keys { bottom: 84px; }
   .dash-hero h1 { font-size: 28px; }
   .options.inline { grid-template-columns: 1fr 1fr; }
 }
+
+.nav-link { color: var(--muted); text-decoration: none; font-size: 15px; }
+.nav-link:hover { color: var(--accent); }
+.voice-row { display: grid; grid-template-columns: 170px 1fr auto; gap: 6px 14px; align-items: center; padding: 10px 0; border-top: 1px solid var(--line); }
+.voice-row audio { width: 100%; height: 36px; }
+.voice-note { grid-column: 1 / -1; font: inherit; font-size: 15px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); }
+.stars button { background: none; border: none; font-size: 24px; color: var(--line); cursor: pointer; padding: 0 2px; }
+.stars button.on { color: var(--yellow); }
+@media (max-width: 600px) { .voice-row { grid-template-columns: 1fr; } }
