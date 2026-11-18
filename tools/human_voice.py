@@ -8,6 +8,7 @@ References: materials/voices/refs/<voice>.wav (private; see docs/sources.md).
 """
 import hashlib
 import json
+import os
 import random
 import re
 import subprocess
@@ -77,7 +78,7 @@ def generate(text, voice, rate, wav):
         expected = len(chunk) / 14
         best = None
         for attempt in range(3):
-            torch.manual_seed(random.Random(chunk + str(attempt)).randint(0, 2**31))
+            torch.manual_seed(random.Random(chunk + str(attempt) + os.environ.get("TTS_TAKE", "")).randint(0, 2**31))
             w = m.generate(chunk, language_id="sv", audio_prompt_path=str(REFS / f"{voice}.wav"),
                            exaggeration=0.5, cfg_weight=0.4)
             seconds = w.shape[-1] / m.sr

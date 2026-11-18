@@ -208,6 +208,7 @@ async function openLesson(id) {
   };
   state.attemptId ??= new Date().toISOString().replace(/[:.]/g, "-");
   state.flags ??= {};
+  state.marks ??= {};
   let pushTimer = null;
   const save = () => {
     state.updatedAt = Date.now();
@@ -395,7 +396,7 @@ async function openLesson(id) {
     </div>`);
     app.replaceChildren(el);
     const blocks = el.querySelector("#blocks");
-    for (const part of sec.parts ?? [{ items: sec.items, passage: sec.passage, audio: sec.audio, image: sec.image }]) {
+    for (const [pi, part] of (sec.parts ?? [{ items: sec.items, passage: sec.passage, audio: sec.audio, image: sec.image }]).entries()) {
       const split = !!part.passage;
       const card = h(`<div class="card part ${split ? "split" : ""}"></div>`);
       const left = split ? h(`<div class="part-text"></div>`) : card;
@@ -403,7 +404,7 @@ async function openLesson(id) {
       if (split) card.append(left, right);
       if (part.heading) left.append(h(`<div class="part-head"><h2>${esc(part.heading)}</h2>${exam ? "" : en(part.headingEn)}</div>`));
       if (part.image) left.append(renderImage(part.image));
-      if (part.passage) left.append(h(`<div class="passage">${part.passageTitle ? `<h3>${esc(part.passageTitle)}</h3>` : ""}<div class="passage-body">${esc(part.passage).replace(/\((\d{1,2})\)/g, '<b class="sn">$1</b>')}</div></div>`));
+      if (part.passage) left.append(h(`<div class="passage">${part.passageTitle ? `<h3>${esc(part.passageTitle)}</h3>` : ""}<div class="passage-body" data-hl="p:${esc(sec.id)}:${pi}">${esc(part.passage).replace(/\((\d{1,2})\)/g, '<b class="sn">$1</b>')}</div></div>`));
       if (part.audio) right.append(renderPlayer(part.audio));
       if (part.options && !part.passage && isCompact(part.options)) right.append(h(`<ol class="optlist" type="A">${part.options.map(o => `<li>${esc(o)}</li>`).join("")}</ol>`));
       for (const raw of part.items ?? []) {
@@ -424,6 +425,13 @@ async function openLesson(id) {
       }
       blocks.append(card);
     }
+    el.querySelectorAll("[data-hl]").forEach(paintMarks);
+    el.addEventListener("mouseup", addMark);
+    el.addEventListener("touchend", () => setTimeout(addMark, 0));
+    el.addEventListener("click", e => {
+      const m = e.target.closest("mark.hl");
+      if (m && getSelection().isCollapsed) removeMark(m);
+    });
     el.querySelector("#prev").onclick = () => go(state.step - 1);
     el.querySelector("#next").onclick = () => go(state.step + 1);
     el.querySelectorAll(".exam-tabs button").forEach(b => b.onclick = () => go(Number(b.dataset.step)));
@@ -434,6 +442,71 @@ async function openLesson(id) {
     });
     if (exam) el.addEventListener("input", refreshExamNav), el.addEventListener("change", refreshExamNav), el.addEventListener("click", e => { if (e.target.closest(".chip")) setTimeout(refreshExamNav, 0); });
     updateLive();
+  }
+
+  function textOffset(box, node, offset) {
+    const r = document.createRange();
+    r.setStart(box, 0);
+    r.setEnd(node, offset);
+    return r.toString().length;
+  }
+
+  function addMark() {
+    const sel = getSelection();
+    if (!sel.rangeCount || sel.isCollapsed) return;
+    const range = sel.getRangeAt(0);
+    const box = range.commonAncestorContainer.nodeType === 1
+      ? range.commonAncestorContainer.closest("[data-hl]")
+      : range.commonAncestorContainer.parentElement.closest("[data-hl]");
+    if (!box) return;
+    const a = textOffset(box, range.startContainer, range.startOffset);
+    const b = textOffset(box, range.endContainer, range.endOffset);
+    if (b - a < 1) return;
+    const key = box.dataset.hl;
+    const list = [...(state.marks[key] ?? []), [a, b]].sort((x, y) => x[0] - y[0]);
+    const merged = [];
+    for (const m of list) {
+      const last = merged.at(-1);
+      if (last && m[0] <= last[1]) last[1] = Math.max(last[1], m[1]);
+      else merged.push([...m]);
+    }
+    state.marks[key] = merged;
+    sel.removeAllRanges();
+    paintMarks(box);
+    save();
+  }
+
+  function removeMark(mark) {
+    const box = mark.closest("[data-hl]");
+    const at = textOffset(box, mark.firstChild, 0);
+    state.marks[box.dataset.hl] = (state.marks[box.dataset.hl] ?? []).filter(([a, b]) => !(a <= at && at < b));
+    paintMarks(box);
+    save();
+  }
+
+  function paintMarks(box) {
+    box.dataset.orig ??= box.innerHTML;
+    box.innerHTML = box.dataset.orig;
+    const marks = state.marks[box.dataset.hl] ?? [];
+    if (!marks.length) return;
+    const walker = document.createTreeWalker(box, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    for (let n = walker.nextNode(), pos = 0; n; n = walker.nextNode()) {
+      nodes.push([n, pos]);
+      pos += n.length;
+    }
+    for (const [node, start] of nodes) {
+      const end = start + node.length;
+      const cuts = marks.filter(([a, b]) => a < end && b > start).map(([a, b]) => [Math.max(a, start) - start, Math.min(b, end) - start]);
+      for (const [a, b] of cuts.reverse()) {
+        const mid = node.splitText(a);
+        mid.splitText(b - a);
+        const m = document.createElement("mark");
+        m.className = "hl";
+        mid.replaceWith(m);
+        m.append(mid);
+      }
+    }
   }
 
   function refreshExamNav() {
@@ -504,7 +577,7 @@ async function openLesson(id) {
   function renderItem(item, num) {
     const wrap = h(`<div class="item" id="q-${esc(item.id)}"></div>`);
     const qEn = exam ? "" : en(item.qEn);
-    const q = item.q ? `<div class="q"><span class="qnum">${num}</span>${esc(item.q)}</div>${qEn}` : `<span class="qnum">${num}</span>`;
+    const q = item.q ? `<div class="q"><span class="qnum">${num}</span><span data-hl="q:${esc(item.id)}">${esc(item.q)}</span></div>${qEn}` : `<span class="qnum">${num}</span>`;
     const set = v => { state.answers[item.id] = v; save(); };
     const cur = state.answers[item.id];
 

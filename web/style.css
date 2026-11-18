@@ -263,3 +263,4 @@ body.exam-mode .sv-keys { bottom: 84px; }
   .options.inline { grid-template-columns: 1fr 1fr; }
 }
 
+mark.hl { background: #ffe066; color: #1f2328; border-radius: 2px; padding: 0 1px; cursor: pointer; }

@@ -136,7 +136,8 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 ## 2026-11-18 – Attention / false friends
 - Learner: attention span is lower now → doesn't read the whole question; takes a Swedish word for a similar
   English word and only later sees the mistake. Wants to work on focus.
-- Plan: (1) false-friends drill (sv↔en look-alikes) built from their own misreads + common ones, repeated across
-  lessons; (2) exam habit "read the full question, mark 2 key words, then answer" trained in the app (key-word
-  step before options in practice mode); (3) short sets (5–8 items) as focus sprints; (4) a final check pass in
-  exams (flagged + all "0"/Nej answers re-read).
+- Decision (learner): attention training ONLY as practice lessons. Tests/exams must NOT change or get easier –
+  they stay as close as possible to the real Swedex / SFI D. Do: key-word step in practice lessons, short focus
+  sprints (5–8 items). Skip: false-friends drill, end-of-exam check pass.
+- Exams get free highlighting (select text → marker), like the learner does on paper. A tool, not a hint.
+- Research real Swedex question types beyond the official sample PDF (online reports, other mock tests).
