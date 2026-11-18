@@ -168,4 +168,4 @@ if __name__ == "__main__":
     flags = {"--force", "--chatterbox"}
     args = [a for a in sys.argv[1:] if a not in flags]
     engine = "chatterbox" if "--chatterbox" in sys.argv else "edge"
-    asyncio.run(main(args or sorted(str(p) for p in (ROOT / "lessons").glob("*.json")), "--force" in sys.argv, engine))
+    asyncio.run(main(args or sorted(str(p) for d in ("lessons", "materials/lessons") for p in (ROOT / d).glob("*.json")), "--force" in sys.argv, engine))

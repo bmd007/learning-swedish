@@ -131,6 +131,10 @@ Sources:
   `materials/nok/docs/Horforstaelsetexter…pdf` (only some tracks). Use chapters 7–10 (not yet done in class).
 - **Swedex model test** (`materials/swedex-a2b1/`): keep for a full mock exam. Don't spend it on practice.
 
+**Private lessons:** a lesson built on licensed material (old Swedex tests, Rivstart) whose questions can't be
+public goes in `materials/lessons/NNN-slug.json` (gitignored). The app lists it like any other lesson; results and
+feedback work the same. Validate with `python3 -I tools/validate.py materials/lessons/x.json`.
+
 **Cut a part of a long clip:** add `"clip": [start, end]` (seconds) next to `source`. `build_audio.py` cuts it to
 `materials/clips/<lessonId>/<id>.m4a` (private, short fades) and the app plays that file. Find the times with
 `.venv/bin/python tools/transcribe.py --timestamps <file>`; give ~0.3 s margin. Interview parts = varied real voices

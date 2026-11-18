@@ -135,7 +135,7 @@ def check(path):
 
 
 if __name__ == "__main__":
-    paths = sys.argv[1:] or sorted(str(p) for p in (ROOT / "lessons").glob("*.json"))
+    paths = sys.argv[1:] or sorted(str(p) for d in ("lessons", "materials/lessons") for p in (ROOT / d).glob("*.json"))
     bad = 0
     for p in paths:
         errs = check(p)

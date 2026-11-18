@@ -12,6 +12,7 @@ from urllib.parse import urlparse, parse_qs
 
 ROOT = Path(__file__).parent.resolve()
 LESSONS = ROOT / "lessons"
+PRIVATE_LESSONS = ROOT / "materials" / "lessons"
 RESULTS = ROOT / "results"
 RECORDINGS = ROOT / "recordings"
 UPLOADS = ROOT / "uploads"
@@ -62,10 +63,15 @@ def final_results():
     return out
 
 
+def lesson_files():
+    """Public lessons + private ones built from licensed material (materials/lessons/, gitignored)."""
+    return sorted([*LESSONS.glob("*.json"), *PRIVATE_LESSONS.glob("*.json")], key=lambda f: f.name)
+
+
 def lesson_summaries():
     results = final_results()
     out = []
-    for f in sorted(LESSONS.glob("*.json")):
+    for f in lesson_files():
         data = json.loads(f.read_text(encoding="utf-8"))
         runs = results.get(data["id"], [])
         last = runs[-1] if runs else None
@@ -169,6 +175,8 @@ class Handler(SimpleHTTPRequestHandler):
         m = re.fullmatch(r"/api/lessons/([A-Za-z0-9_.-]+)", p)
         if m:
             f = LESSONS / f"{m.group(1)}.json"
+            if not f.exists():
+                f = PRIVATE_LESSONS / f"{m.group(1)}.json"
             if not f.exists():
                 return self.send_json({"error": "not found"}, 404)
             return self.send_text(f.read_text(encoding="utf-8"), "application/json; charset=utf-8")
