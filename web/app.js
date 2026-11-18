@@ -191,7 +191,7 @@ function generatorPanel() {
 
 async function openVoices() {
   const { samples, ratings } = await fetch("/api/voices").then(r => r.json());
-  const groups = Object.groupBy(samples, s => s.text);
+  const groups = Object.groupBy(samples.toReversed(), s => s.group ?? s.text);
   const rated = samples.filter(s => ratings[s.file]?.rating).length;
   app.innerHTML = `<a class="back" href="#/">← Startsidan</a>
     <h1>Röster</h1>
@@ -199,10 +199,10 @@ async function openVoices() {
       (t.ex. "för långsam", "konstig betoning", "bra för en äldre man"). Sparas direkt. ${rated}/${samples.length} betygsatta.</p>
     <p class="en">Rate each voice 1–5: how human and clear does it sound? Comments save automatically.</p>
     ${samples.length ? "" : `<div class="card">Inga röstprover än.</div>`}`;
-  for (const [text, list] of Object.entries(groups)) {
+  for (const [group, list] of Object.entries(groups)) {
     const card = document.createElement("div");
     card.className = "card";
-    card.innerHTML = `<p><b>”${text}”</b></p>`;
+    card.innerHTML = list[0].group ? `<h2>${group}</h2><p class="muted">”${list[0].text}”</p>` : `<p><b>”${group}”</b></p>`;
     for (const s of list) {
       const r = ratings[s.file] ?? {};
       const row = document.createElement("div");

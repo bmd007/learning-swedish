@@ -1,0 +1,59 @@
+{
+ "materials/voices/samples/v1/edge-mattias-0.mp3": {
+  "rating": 2,
+  "at": "2026-11-18T22:30:36"
+ },
+ "materials/voices/samples/v1/edge-sofie-0.mp3": {
+  "rating": 3,
+  "at": "2026-11-18T22:30:42"
+ },
+ "materials/voices/samples/v1/annasofia-lugn-0.wav": {
+  "rating": 4,
+  "at": "2026-11-18T22:30:50"
+ },
+ "materials/voices/samples/v1/annasofia-livlig-0.wav": {
+  "note": "is very similar to the one before it (calm)",
+  "at": "2026-11-18T22:31:23",
+  "rating": 3
+ },
+ "materials/voices/samples/v1/cecilia-lugn-0.wav": {
+  "rating": 4,
+  "at": "2026-11-18T22:31:29"
+ },
+ "materials/voices/samples/v1/cecilia-livlig-0.wav": {
+  "note": "is very similar to the one before it (calm)",
+  "at": "2026-11-18T22:31:39"
+ },
+ "materials/voices/samples/v1/edge-mattias-1.mp3": {
+  "rating": 1,
+  "at": "2026-11-18T22:31:42"
+ },
+ "materials/voices/samples/v1/edge-sofie-1.mp3": {
+  "rating": 2,
+  "at": "2026-11-18T22:31:47"
+ },
+ "materials/voices/samples/v1/annasofia-lugn-1.wav": {
+  "rating": 4,
+  "at": "2026-11-18T22:31:52"
+ },
+ "materials/voices/samples/v2/kid-annasofia-1.25-barn.wav": {
+  "rating": 4,
+  "at": "2026-11-18T22:39:14"
+ },
+ "materials/voices/samples/v2/cecilia2-kompis.wav": {
+  "rating": 4,
+  "at": "2026-11-18T22:39:19"
+ },
+ "materials/voices/samples/v2/cecilia-kompis.wav": {
+  "rating": 1,
+  "at": "2026-11-18T22:39:20"
+ },
+ "materials/voices/samples/v2/annasofia-kompis.wav": {
+  "rating": 4,
+  "at": "2026-11-18T22:39:25"
+ },
+ "materials/voices/samples/v1/cecilia2-lugn-2.wav": {
+  "rating": 3,
+  "at": "2026-11-18T22:39:38"
+ }
+}
