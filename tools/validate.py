@@ -53,6 +53,9 @@ def check(path):
                 err(f"{where}: audio.source must be materials/....m4a|mp3")
             elif not (ROOT / src).is_file():
                 print(f"warning: {where}: {src} not on this machine (private material)")
+            clip = a.get("clip")
+            if clip is not None and not (isinstance(clip, list) and len(clip) == 2 and 0 <= clip[0] < clip[1]):
+                err(f"{where}: audio.clip must be [start, end] in seconds")
             if not (a.get("script") or a.get("transcript")):
                 err(f"{where}: real audio needs script or transcript (shown after submit)")
             return

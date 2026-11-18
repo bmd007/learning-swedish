@@ -122,11 +122,28 @@ async def render(audio, m4a):
         subprocess.run(["afconvert", "-f", "m4af", "-d", "aac", str(wav), str(m4a)], check=True)
 
 
+def cut_clip(audio, out_dir, force):
+    """Real audio part: cut audio.source to [start, end] seconds (private, under materials/clips/), short fades."""
+    out = out_dir / f"{audio['id']}.m4a"
+    if out.exists() and not force:
+        print(f"skip {out.relative_to(ROOT)}")
+        return
+    out_dir.mkdir(parents=True, exist_ok=True)
+    start, end = audio["clip"]
+    length = end - start
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", str(start), "-t", str(length), "-i", str(ROOT / audio["source"]),
+                    "-af", f"afade=t=in:d=0.15,afade=t=out:st={max(0, length - 0.3)}:d=0.3", "-c:a", "aac", "-b:a", "96k", str(out)], check=True)
+    print(f"cut {out.relative_to(ROOT)}")
+
+
 async def main(paths, force):
     for p in paths:
         lesson = json.loads(Path(p).read_text(encoding="utf-8"))
         out_dir = ROOT / "audio" / lesson["id"]
         for audio in audios(lesson):
+            if audio.get("clip"):
+                cut_clip(audio, ROOT / "materials" / "clips" / lesson["id"], force)
+                continue
             if audio.get("source"):
                 continue
             out_dir.mkdir(parents=True, exist_ok=True)

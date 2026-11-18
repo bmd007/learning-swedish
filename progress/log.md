@@ -194,3 +194,17 @@
 - Next: grade 026 with Swedex criteria (content, form, correctness); watch signal word → verb form, inversion after time words, -s forms.
 - Reviewed 026: removed the signal words and grammar summary from the calendar (the real test gives only dates),
   added Monday 7 Dec → forces *i måndags*. Today = torsdag 10 dec, after lunch (interview = i morse, städa = nu).
+
+## 2026-11-18 – Human voices: real clips now, Chatterbox TTS next
+- Learner: TTS voices sound like machines; wants human voices (personalities, accents) or real audio cut into parts.
+- edge-tts has only 3 Swedish voices. Work Gemini gateway has no TTS (404). Plan: Chatterbox multilingual (local,
+  Swedish, voice cloning from ~10 s reference). huggingface.co is blocked on this network → learner downloads the
+  weights elsewhere with tools/download/chatterbox.sh (Pi) / .ps1 (Windows) and copies them to models/chatterbox/.
+  Reference voices: LibriVox Swedish readers (public domain) in materials/voices/librivox/ (private). Never clone
+  SR speakers (repo is public, audio/ is committed). .venv-tts (python 3.11) has chatterbox-tts installed.
+- New: audio `clip: [start, end]` → build_audio.py cuts real audio to materials/clips/<lesson>/<id>.m4a.
+  transcribe.py --timestamps.
+- Lesson 027-riktiga-roster: 8 real interview clips (Skåne, Värmland, fast Stockholm, foreign accent, one-word
+  answers), 17 q. Unused but transcribed: gordon/karin café, emily golf, daniel MFF, elpris expert (next lesson).
+- Next: when models/chatterbox/ exists: test Swedish quality with LibriVox refs, send samples, add engine to
+  build_audio.py (speaker → reference voice), rebuild dialogue audio. Grade 026/027 when done.

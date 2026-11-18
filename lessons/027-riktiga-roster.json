@@ -1,0 +1,462 @@
+{
+ "id": "027-riktiga-roster",
+ "title": "Riktiga röster: korta radioklipp",
+ "titleEn": "Real voices: short radio clips",
+ "minutes": 15,
+ "intro": "Nu lyssnar du på riktiga människor – inte datorröster. Åtta korta klipp från Sveriges Radio: skånska, värmländska, snabbt stockholmskt, en tränare med brytning och några som svarar med ett eller två ord. Varje klipp spelas två gånger i rad. Läs frågorna först. Du behöver inte förstå varje ord.",
+ "introEn": "Real people now – no computer voices. Eight short clips from Swedish Radio: Skåne and Värmland accents, fast Stockholm speech, a coach with a foreign accent, and people who answer in one or two words. Each clip plays twice in a row. Read the questions first. You don't need every word.",
+ "sections": [
+  {
+   "id": "klipp",
+   "title": "Lyssna och svara",
+   "titleEn": "Listen and answer",
+   "instructions": "Läs frågorna. Klicka på play. Klippet spelas två gånger. Svara kort (1–5 ord) eller välj.",
+   "instructionsEn": "Read the questions. Press play. The clip plays twice. Answer briefly (1–5 words) or choose.",
+   "parts": [
+    {
+     "heading": "1. Marie i Kristianstad",
+     "headingEn": "1. Marie in Kristianstad (Skåne accent)",
+     "audio": {
+      "id": "c1",
+      "title": "Marie och elpriset",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/nar-elpriserna-stiger-sparar-man-in-pa-dusch-och-varme.m4a",
+      "clip": [
+       8.0,
+       28.2
+      ],
+      "credit": "Klartext, Sveriges Radio (P4). Automatisk transkription, rättad – kan ha små fel.",
+      "transcript": "Marie Anderberg bor i Kristianstad i ett gammalt hus som inte är isolerat. Hon har mössa på sig inomhus så att hon kan sänka värmen. Och sen följer hon hur elpriset förändrar sig. – Jag har en diskmaskin, den använder jag en gång i veckan. Man får ransonera dusch och man får ransonera allting.",
+      "context": "Radioreportage. Marie pratar skånska."
+     },
+     "items": [
+      {
+       "id": "q1",
+       "type": "short",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Vad har Marie på sig inomhus?",
+       "qEn": "What does Marie wear indoors?",
+       "answers": [
+        "mössa"
+       ],
+       "explain": "'Hon har mössa på sig inomhus så att hon kan sänka värmen.'",
+       "explainEn": "A hat (mössa) – so she can turn the heat down."
+      },
+      {
+       "id": "q2",
+       "type": "short",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Hur ofta använder hon diskmaskinen?",
+       "qEn": "How often does she use the dishwasher?",
+       "answers": [
+        "en gång i veckan",
+        "1 gång i veckan",
+        "en gång per vecka",
+        "en gång varje vecka"
+       ],
+       "explain": "'den använder jag en gång i veckan'. Skånska: 'veckan' låter nästan som 'väckan'.",
+       "explainEn": "Once a week. In Skåne Swedish the vowels sound different – listen for the number + 'i veckan'."
+      }
+     ],
+     "image": {
+      "src": "roster.svg",
+      "alt": "Åtta personer med namn och ort: Marie, Ida, Lepty, Ulrika, Johan, Susanne, Rosie, Luigi",
+      "caption": "Vem pratar, och var?"
+     }
+    },
+    {
+     "heading": "2. Ida i Karlstad",
+     "headingEn": "2. Ida in Karlstad (Värmland)",
+     "audio": {
+      "id": "c2",
+      "title": "Ida om Timmy",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/ida-och-timmy-vill-flytta-ihop.m4a",
+      "clip": [
+       9.4,
+       29.9
+      ],
+      "credit": "Klartext, Sveriges Radio (P4). Automatisk transkription, rättad – kan ha små fel.",
+      "transcript": "Nu vill de flytta ihop och bli sambos. Ida berättar varför hon blev kär i Timmy. – Han är väldigt snäll, trevlig och omtänksam. Och det är just det jag faller för. – Ida och Timmy har varit ett par i över två år. Just nu bor de i varsin servicelägenhet.",
+      "context": "Radioreportage"
+     },
+     "items": [
+      {
+       "id": "q3",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Varför blev Ida kär i Timmy?",
+       "qEn": "Why did Ida fall in love with Timmy?",
+       "options": [
+        "Han är snäll, trevlig och omtänksam.",
+        "Han är rolig och sportig.",
+        "Han lagar god mat."
+       ],
+       "answer": 0,
+       "explain": "'Han är väldigt snäll, trevlig och omtänksam.' 'Faller för' = blir kär i (falls for).",
+       "explainEn": "Kind, nice and caring. 'falla för' = fall for."
+      },
+      {
+       "id": "q4",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "hör.fälla"
+       ],
+       "q": "Bor Ida och Timmy tillsammans nu?",
+       "qEn": "Do Ida and Timmy live together now?",
+       "options": [
+        "Ja, i en servicelägenhet.",
+        "Ja, hos Timmys föräldrar.",
+        "Nej, de bor i var sin lägenhet."
+       ],
+       "answer": 2,
+       "explain": "'De bor i varsin servicelägenhet' = var och en har sin egen. 'Nu vill de flytta ihop' = de bor inte ihop än.",
+       "explainEn": "'varsin' = each their own (Persian: هر کدام مال خودش). They WANT to move in together – not yet."
+      }
+     ]
+    },
+    {
+     "heading": "3. Lepty i Kristinehamn",
+     "headingEn": "3. Lepty in Kristinehamn",
+     "audio": {
+      "id": "c3",
+      "title": "Lepty och ersättningen",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/lepty-vill-ha-mer-betalt-for-jobbet-pa-daglig-verksamhet.m4a",
+      "clip": [
+       18.3,
+       33.6
+      ],
+      "credit": "Klartext, Sveriges Radio (P4). Automatisk transkription, rättad – kan ha små fel.",
+      "transcript": "Den som går på daglig verksamhet kan få en ersättning av kommunen. Den kallas för habersättning, och i Kristinehamn är den 70 kronor per dag. Det gör att Lepty får omkring 1 400 kronor i månaden. Det tycker hon är för lite.",
+      "context": "Radioreportage"
+     },
+     "items": [
+      {
+       "id": "q5",
+       "type": "short",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Hur många kronor får Lepty per dag?",
+       "qEn": "How many kronor per day?",
+       "answers": [
+        "70",
+        "sjuttio"
+       ],
+       "explain": "'70 kronor per dag'. Sjuttio (70) – inte sjutton (17).",
+       "explainEn": "70 – not 17 (sjutton). Listen for the -tio ending."
+      },
+      {
+       "id": "q6",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "hör.siffror"
+       ],
+       "q": "Ungefär hur mycket får hon i månaden?",
+       "qEn": "About how much per month?",
+       "answers": [
+        "1400",
+        "1 400",
+        "1.400",
+        "tusen fyrahundra",
+        "ettusen fyrahundra",
+        "fjortonhundra"
+       ],
+       "explain": "'omkring 1 400 kronor i månaden' (fjortonhundra / tusen fyrahundra).",
+       "explainEn": "About 1,400 kronor a month. Swedes often say 'fjortonhundra' = 14 hundred."
+      }
+     ]
+    },
+    {
+     "heading": "4. Chefen svarar",
+     "headingEn": "4. The manager answers",
+     "audio": {
+      "id": "c4",
+      "title": "Kommunens chef",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/lepty-vill-ha-mer-betalt-for-jobbet-pa-daglig-verksamhet.m4a",
+      "clip": [
+       55.6,
+       72.5
+      ],
+      "credit": "Klartext, Sveriges Radio (P4). Automatisk transkription, rättad – kan ha små fel.",
+      "transcript": "Hon säger att Kristinehamn har ungefär lika hög habersättning som andra kommuner har. Kommunerna väljer själva om de ska betala ut habersättning. Det är en extra peng och inte en lön. – Det här är ju en uppmuntran att delta i daglig verksamhet, inte någon anställning.",
+      "context": "Radioreportage. Chefen Ulrika Gullberg pratar."
+     },
+     "items": [
+      {
+       "id": "q7",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Kristinehamn betalar mycket mindre än andra kommuner.",
+       "qEn": "True or false?",
+       "options": [
+        "Sant",
+        "Falskt"
+       ],
+       "answer": 1,
+       "explain": "'ungefär lika hög … som andra kommuner' = ungefär samma.",
+       "explainEn": "'ungefär lika hög som' = about the same as."
+      },
+      {
+       "id": "q8",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "hör.parafras"
+       ],
+       "q": "Kommunerna bestämmer själva om de betalar habersättning.",
+       "qEn": "True or false?",
+       "options": [
+        "Sant",
+        "Falskt"
+       ],
+       "answer": 0,
+       "explain": "'Kommunerna väljer själva' = de bestämmer själva.",
+       "explainEn": "'väljer själva' = decide themselves (paraphrase!)."
+      },
+      {
+       "id": "q9",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Enligt chefen är habersättningen en lön.",
+       "qEn": "True or false?",
+       "options": [
+        "Sant",
+        "Falskt"
+       ],
+       "answer": 1,
+       "explain": "'en extra peng och inte en lön … inte någon anställning'.",
+       "explainEn": "'inte en lön' = not a salary."
+      }
+     ]
+    },
+    {
+     "heading": "5. Johan, brandman i Uppsala",
+     "headingEn": "5. Johan, firefighter in Uppsala",
+     "audio": {
+      "id": "c5",
+      "title": "Brandmannen Johan",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/gladje-nar-daglig-verksamhet-hjalper-brandman.m4a",
+      "clip": [
+       70.6,
+       96.0
+      ],
+      "credit": "Klartext, Sveriges Radio (P4). Automatisk transkription, rättad – kan ha små fel.",
+      "transcript": "Johan Svedbrandt är brandman. Han tycker att hans nya arbetskamrater gör brandstationen till en bättre arbetsplats. – De är glädjespridare här hos oss och hjälper oss med viktiga arbetsuppgifter, som gör att vi kan lägga fokus på lite andra saker i stället. För alla de här sakerna hade ju personalen hos oss behövt göra annars. Så det är väldigt uppskattat.",
+      "context": "Radioreportage"
+     },
+     "items": [
+      {
+       "id": "q10",
+       "type": "mcq",
+       "tags": [
+        "hör.huvudtanke"
+       ],
+       "q": "Vad tycker Johan om sina nya arbetskamrater?",
+       "qEn": "What does Johan think of his new colleagues?",
+       "options": [
+        "De gör jobbet svårare för brandmännen.",
+        "De borde jobba fler dagar i veckan.",
+        "De gör arbetsplatsen bättre, och brandmännen hinner med andra saker."
+       ],
+       "answer": 2,
+       "explain": "'glädjespridare' (de sprider glädje) + 'vi kan lägga fokus på lite andra saker'.",
+       "explainEn": "They spread joy and free the firefighters' time."
+      },
+      {
+       "id": "q11",
+       "type": "mcq",
+       "tags": [
+        "hör.talspråk"
+       ],
+       "q": "'… hade personalen behövt göra annars.' Vad betyder det?",
+       "qEn": "What does it mean?",
+       "options": [
+        "Personalen vill göra andra saker.",
+        "Utan hjälpen hade brandmännen fått göra jobbet själva.",
+        "Personalen gjorde jobbet förut, men nu gör de det igen."
+       ],
+       "answer": 1,
+       "explain": "'annars' = om de inte fick hjälp. 'hade behövt göra' = would have had to do.",
+       "explainEn": "'annars' = otherwise (اگر نه / وگرنه)."
+      }
+     ]
+    },
+    {
+     "heading": "6. Susanne på brandstationen",
+     "headingEn": "6. Susanne at the fire station",
+     "audio": {
+      "id": "c6",
+      "title": "Susanne svarar kort",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/gladje-nar-daglig-verksamhet-hjalper-brandman.m4a",
+      "clip": [
+       96.3,
+       132.3
+      ],
+      "credit": "Klartext, Sveriges Radio (P4). Automatisk transkription, rättad – kan ha små fel.",
+      "transcript": "Susanne ser fram emot de dagar hon jobbar på brandstationen. Det är särskilt en arbetsuppgift hon gillar lite extra mycket. – Tvätta bilar. – Är det det roligaste? – Yes. – Vad mer får ni göra här på brandstationen, då? – Städa. – Hur tycker du det är med kollegorna, då? – De är snälla. – Har du fått prata någonting med brandmännen? – Lite grann. – Lite grann? – Lite blyg av mig. – Hur roligt är det att få hjälpa till på en brandstation? – Högsta poäng.",
+      "context": "Intervju. Susanne svarar med korta ord – lyssna noga."
+     },
+     "items": [
+      {
+       "id": "q12",
+       "type": "short",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Vilken arbetsuppgift gillar Susanne mest?",
+       "qEn": "Which task does Susanne like most?",
+       "answers": [
+        "tvätta bil",
+        "tvättar bil",
+        "biltvätt"
+       ],
+       "explain": "'Tvätta bilar' – 'Är det det roligaste?' – 'Yes.'",
+       "explainEn": "Washing cars."
+      },
+      {
+       "id": "q13",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Har Susanne pratat mycket med brandmännen?",
+       "qEn": "Has Susanne talked a lot with the firefighters?",
+       "options": [
+        "Bara lite – hon är lite blyg.",
+        "Ja, hela tiden.",
+        "Nej, de är inte snälla."
+       ],
+       "answer": 0,
+       "explain": "'Lite grann … lite blyg av mig.' Och kollegorna? 'De är snälla.'",
+       "explainEn": "'lite grann' = a little; 'blyg' = shy."
+      }
+     ]
+    },
+    {
+     "heading": "7. Rosie i Stockholm",
+     "headingEn": "7. Rosie in Stockholm (fast speech)",
+     "audio": {
+      "id": "c7",
+      "title": "Rosie om dottern",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/sommarlagret-hjalpte-rosies-dotter-nu-blir-det-lager-for-hemmasittare-igen.m4a",
+      "clip": [
+       25.0,
+       53.3
+      ],
+      "credit": "Klartext, Sveriges Radio (P4). Automatisk transkription, rättad – kan ha små fel.",
+      "transcript": "Rosies dotter hade ångest. Hon hade inte så många vänner, och hon var sällan i skolan. Men att vara tillsammans och göra sommargrejer med andra unga hemmasittare, det var jättebra. – Ja men hon har faktiskt konstaterat nu efteråt – för nu går det mycket bättre och hon mår mycket bättre – och då sa hon här i vintras: ”Ja men mamma, jag tror att det var den dagen, och det lägret där. Det var då det vände.”",
+      "context": "Radioreportage. Rosie pratar snabbt."
+     },
+     "items": [
+      {
+       "id": "q14",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "hör.förr-nu"
+       ],
+       "q": "Hur mår Rosies dotter nu?",
+       "qEn": "How is Rosie's daughter now?",
+       "options": [
+        "Sämre än förut.",
+        "Likadant som förut.",
+        "Mycket bättre."
+       ],
+       "answer": 2,
+       "explain": "'nu går det mycket bättre och hon mår mycket bättre'. Förut: ångest, få vänner, sällan i skolan.",
+       "explainEn": "Much better now. Before: anxiety, few friends, rarely at school."
+      },
+      {
+       "id": "q15",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "tid.signalord"
+       ],
+       "q": "Dottern sa det 'i vintras'. När var det?",
+       "qEn": "When is 'i vintras'?",
+       "options": [
+        "Nästa vinter.",
+        "Förra vintern.",
+        "Varje vinter."
+       ],
+       "answer": 1,
+       "explain": "i vintras = förra vintern (som i somras, i höstas, i våras). Jämför: i vinter = nu / den här vintern.",
+       "explainEn": "'i vintras' = last winter. Same pattern as i somras/i höstas/i våras – the -as form points back in time."
+      }
+     ]
+    },
+    {
+     "heading": "8. Luigi, tränare i Malmö",
+     "headingEn": "8. Luigi, coach in Malmö (foreign accent)",
+     "audio": {
+      "id": "c8",
+      "title": "Luigi om träningarna",
+      "maxPlays": 2,
+      "source": "materials/sr/klartext/drommen-blev-sann-daniel-47-fick-spela-for-malmo-ff--2.m4a",
+      "clip": [
+       45.2,
+       60.0
+      ],
+      "credit": "Klartext, Sveriges Radio (P4). Automatisk transkription, rättad – kan ha små fel.",
+      "transcript": "Luigi Cordasco är den som håller i träningarna. – Vi har ungefär en grupp av 25 spelare. Vi tycker att det är en fantastisk satsning för samhället. Det ligger också väldigt nära vår kärnverksamhet, för det är fotboll det handlar om egentligen.",
+      "context": "Radioreportage. Luigi har en annan brytning – precis som många i Sverige."
+     },
+     "items": [
+      {
+       "id": "q16",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "hör.siffror"
+       ],
+       "q": "Hur många spelare finns i gruppen?",
+       "qEn": "How many players are in the group?",
+       "answers": [
+        "25",
+        "tjugofem"
+       ],
+       "explain": "'ungefär en grupp av 25 spelare'.",
+       "explainEn": "About 25 players."
+      },
+      {
+       "id": "q17",
+       "type": "mcq",
+       "tags": [
+        "hör.huvudtanke"
+       ],
+       "q": "Varför passar projektet Malmö FF?",
+       "qEn": "Why does the project suit Malmö FF?",
+       "options": [
+        "Det handlar om fotboll – det klubben gör.",
+        "Klubben får mycket pengar för det.",
+        "Spelarna ska spela i A-laget."
+       ],
+       "answer": 0,
+       "explain": "'väldigt nära vår kärnverksamhet, för det är fotboll det handlar om'. Kärnverksamhet = det viktigaste man gör.",
+       "explainEn": "'kärnverksamhet' = core business. It's about football."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

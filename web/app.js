@@ -865,7 +865,8 @@ async function toJpeg(file, maxSide = 2400) {
 
 function playAudio(lessonId, audio) {
   return new Promise(resolve => {
-    const el = new Audio(audio.source ? `/${audio.source}` : `/audio/${lessonId}/${audio.id}.m4a`);
+    const el = new Audio(audio.clip ? `/materials/clips/${lessonId}/${audio.id}.m4a`
+      : audio.source ? `/${audio.source}` : `/audio/${lessonId}/${audio.id}.m4a`);
     const fallback = () => audio.script
       ? speak(audio.script).then(resolve)
       : (alert("Ljudfilen saknas på den här datorn. (Audio file missing on this computer.)"), resolve());

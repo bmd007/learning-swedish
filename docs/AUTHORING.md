@@ -131,6 +131,11 @@ Sources:
   `materials/nok/docs/Horforstaelsetexter…pdf` (only some tracks). Use chapters 7–10 (not yet done in class).
 - **Swedex model test** (`materials/swedex-a2b1/`): keep for a full mock exam. Don't spend it on practice.
 
+**Cut a part of a long clip:** add `"clip": [start, end]` (seconds) next to `source`. `build_audio.py` cuts it to
+`materials/clips/<lessonId>/<id>.m4a` (private, short fades) and the app plays that file. Find the times with
+`.venv/bin/python tools/transcribe.py --timestamps <file>`; give ~0.3 s margin. Interview parts = varied real voices
+(accents, fast speech, one-word answers) → prefer them over the reporter's reading voice. Example: lesson 027.
+
 Transcribe: `.venv/bin/python tools/transcribe.py --save <file>` (local Whisper "turbo"; writes `<file>.txt`).
 Read the transcript, fix obvious ASR errors, and build questions only on parts you are sure of.
 The file is not in git, so the lesson only works on a machine that has `materials/`.

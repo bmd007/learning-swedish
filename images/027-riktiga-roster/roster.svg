@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" font-family="system-ui, sans-serif">
+<rect width="640" height="330" fill="#fff"/>
+<text x="320" y="34" font-size="22" font-weight="700" text-anchor="middle" fill="#222">Riktiga röster – vem pratar?</text>
+<rect x="20" y="56" width="140" height="120" rx="14" fill="#e8f1fb" stroke="#bbb"/>
+<rect x="82" y="68" width="16" height="26" rx="8" fill="#555"/><path d="M76 86 q14 18 28 0" stroke="#555" stroke-width="3" fill="none"/><line x1="90" y1="96" x2="90" y2="104" stroke="#555" stroke-width="3"/>
+<text x="90" y="128" font-size="20" font-weight="700" text-anchor="middle" fill="#222">Marie</text>
+<text x="90" y="149" font-size="16" text-anchor="middle" fill="#333">Kristianstad</text>
+<text x="90" y="168" font-size="16" font-style="italic" text-anchor="middle" fill="#666">skånska</text>
+<rect x="175" y="56" width="140" height="120" rx="14" fill="#fdf0e6" stroke="#bbb"/>
+<rect x="237" y="68" width="16" height="26" rx="8" fill="#555"/><path d="M231 86 q14 18 28 0" stroke="#555" stroke-width="3" fill="none"/><line x1="245" y1="96" x2="245" y2="104" stroke="#555" stroke-width="3"/>
+<text x="245" y="128" font-size="20" font-weight="700" text-anchor="middle" fill="#222">Ida</text>
+<text x="245" y="149" font-size="16" text-anchor="middle" fill="#333">Karlstad</text>
+<text x="245" y="168" font-size="16" font-style="italic" text-anchor="middle" fill="#666">värmländska</text>
+<rect x="330" y="56" width="140" height="120" rx="14" fill="#fdf0e6" stroke="#bbb"/>
+<rect x="392" y="68" width="16" height="26" rx="8" fill="#555"/><path d="M386 86 q14 18 28 0" stroke="#555" stroke-width="3" fill="none"/><line x1="400" y1="96" x2="400" y2="104" stroke="#555" stroke-width="3"/>
+<text x="400" y="128" font-size="20" font-weight="700" text-anchor="middle" fill="#222">Lepty</text>
+<text x="400" y="149" font-size="16" text-anchor="middle" fill="#333">Kristinehamn</text>
+<text x="400" y="168" font-size="16" font-style="italic" text-anchor="middle" fill="#666">värmländska</text>
+<rect x="485" y="56" width="140" height="120" rx="14" fill="#eef6ea" stroke="#bbb"/>
+<rect x="547" y="68" width="16" height="26" rx="8" fill="#555"/><path d="M541 86 q14 18 28 0" stroke="#555" stroke-width="3" fill="none"/><line x1="555" y1="96" x2="555" y2="104" stroke="#555" stroke-width="3"/>
+<text x="555" y="128" font-size="20" font-weight="700" text-anchor="middle" fill="#222">Ulrika</text>
+<text x="555" y="149" font-size="16" text-anchor="middle" fill="#333">Kristinehamn</text>
+<text x="555" y="168" font-size="16" font-style="italic" text-anchor="middle" fill="#666">chef, formell</text>
+<rect x="20" y="191" width="140" height="120" rx="14" fill="#fbeaea" stroke="#bbb"/>
+<rect x="82" y="203" width="16" height="26" rx="8" fill="#555"/><path d="M76 221 q14 18 28 0" stroke="#555" stroke-width="3" fill="none"/><line x1="90" y1="231" x2="90" y2="239" stroke="#555" stroke-width="3"/>
+<text x="90" y="263" font-size="20" font-weight="700" text-anchor="middle" fill="#222">Johan</text>
+<text x="90" y="284" font-size="16" text-anchor="middle" fill="#333">Uppsala</text>
+<text x="90" y="303" font-size="16" font-style="italic" text-anchor="middle" fill="#666">brandman</text>
+<rect x="175" y="191" width="140" height="120" rx="14" fill="#fbeaea" stroke="#bbb"/>
+<rect x="237" y="203" width="16" height="26" rx="8" fill="#555"/><path d="M231 221 q14 18 28 0" stroke="#555" stroke-width="3" fill="none"/><line x1="245" y1="231" x2="245" y2="239" stroke="#555" stroke-width="3"/>
+<text x="245" y="263" font-size="20" font-weight="700" text-anchor="middle" fill="#222">Susanne</text>
+<text x="245" y="284" font-size="16" text-anchor="middle" fill="#333">Uppsala</text>
+<text x="245" y="303" font-size="16" font-style="italic" text-anchor="middle" fill="#666">korta svar</text>
+<rect x="330" y="191" width="140" height="120" rx="14" fill="#f3edf9" stroke="#bbb"/>
+<rect x="392" y="203" width="16" height="26" rx="8" fill="#555"/><path d="M386 221 q14 18 28 0" stroke="#555" stroke-width="3" fill="none"/><line x1="400" y1="231" x2="400" y2="239" stroke="#555" stroke-width="3"/>
+<text x="400" y="263" font-size="20" font-weight="700" text-anchor="middle" fill="#222">Rosie</text>
+<text x="400" y="284" font-size="16" text-anchor="middle" fill="#333">Stockholm</text>
+<text x="400" y="303" font-size="16" font-style="italic" text-anchor="middle" fill="#666">snabbt tal</text>
+<rect x="485" y="191" width="140" height="120" rx="14" fill="#e8f1fb" stroke="#bbb"/>
+<rect x="547" y="203" width="16" height="26" rx="8" fill="#555"/><path d="M541 221 q14 18 28 0" stroke="#555" stroke-width="3" fill="none"/><line x1="555" y1="231" x2="555" y2="239" stroke="#555" stroke-width="3"/>
+<text x="555" y="263" font-size="20" font-weight="700" text-anchor="middle" fill="#222">Luigi</text>
+<text x="555" y="284" font-size="16" text-anchor="middle" fill="#333">Malmö</text>
+<text x="555" y="303" font-size="16" font-style="italic" text-anchor="middle" fill="#666">brytning</text>
+</svg>

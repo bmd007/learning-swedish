@@ -118,3 +118,9 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   listening). Writing = two emails ~50 + ~100 words. Details in docs/research.md.
 - → App: exam-mode audio now plays twice in a row on one click. build_audio.py: `noise` option.
   Listening practice must include exam conditions; Swedex writing tasks use 50/100 words.
+
+## 2026-11-18 – Voices
+- Learner finds TTS voices clearly machine-made; wants human-like voices with different personalities and accents.
+  Real audio cut into short parts is the accepted fallback (lesson 027).
+- Learner is fine using the work AI gateway for this project ("you are my work AI already"), but it has no TTS.
+- huggingface.co is blocked on the Mac's network; learner downloads models on another network (scripts in tools/download/).
