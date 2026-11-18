@@ -1,17 +1,19 @@
 {
   "lessonId": "021-lasprov-helt-rivstart",
   "attemptId": "2026-11-18T21-56-43-928Z",
-  "final": false,
+  "final": true,
   "mode": "exam",
   "startedAt": "2026-11-18T21:57:44.772Z",
-  "finishedAt": null,
-  "durationMin": 10,
+  "finishedAt": "2026-11-18T22:29:22.080Z",
+  "durationMin": 32,
   "timeLimitMin": 60,
   "overtime": false,
-  "currentSection": "del2",
+  "currentSection": null,
   "sectionMinutes": {
     "del1": 9.6,
-    "del2": 0
+    "del2": 7.6,
+    "del3": 6.9,
+    "del4": 7.4
   },
   "audioPlays": {},
   "firstTry": {},
@@ -20,6 +22,18 @@
     "del1": {
       "correct": 9,
       "total": 10
+    },
+    "del2": {
+      "correct": 6,
+      "total": 6
+    },
+    "del3": {
+      "correct": 6,
+      "total": 6
+    },
+    "del4": {
+      "correct": 5,
+      "total": 8
     }
   },
   "items": [
@@ -161,9 +175,9 @@
         "läs.matcha"
       ],
       "prompt": "Anna jobbar till klockan 17 och vill träna utomhus på kvällen. Hon vill inte betala något.",
-      "given": null,
+      "given": "G. Löpargruppen Snabba Fötter",
       "expected": "G. Löpargruppen Snabba Fötter",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l12",
@@ -173,9 +187,9 @@
         "läs.matcha"
       ],
       "prompt": "Mohammed är 17 år och vill lära sig en helt ny sport på måndagarna. Han har ingen egen utrustning.",
-      "given": null,
+      "given": "C. Klättring för nybörjare",
       "expected": "C. Klättring för nybörjare",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l13",
@@ -185,9 +199,9 @@
         "läs.matcha"
       ],
       "prompt": "Lena vill ha hård träning med tränare. Hon kan bara träna tisdagar och torsdagar från klockan 19 och vill inte köpa egen utrustning.",
-      "given": null,
+      "given": "H. Boxning för alla",
       "expected": "H. Boxning för alla",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l14",
@@ -197,9 +211,9 @@
         "läs.matcha"
       ],
       "prompt": "Erik och hans fru vill göra något roligt tillsammans på lördagskvällen. De har aldrig dansat förut.",
-      "given": null,
+      "given": "B. Salsa för par",
       "expected": "B. Salsa för par",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l15",
@@ -209,9 +223,9 @@
         "läs.matcha"
       ],
       "prompt": "Birgit är 72 år och vill träna lugnt inomhus. Hon vill gärna fika med andra efteråt.",
-      "given": null,
+      "given": "D. Seniorgympa",
       "expected": "D. Seniorgympa",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l16",
@@ -221,9 +235,9 @@
         "läs.matcha"
       ],
       "prompt": "Jonas har en treårig dotter. De vill träna tillsammans på lördagsförmiddagen.",
-      "given": null,
+      "given": "E. Gympa för små och stora",
       "expected": "E. Gympa för små och stora",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l17",
@@ -233,9 +247,9 @@
         "läs.huvudtanke"
       ],
       "prompt": "Varför skriver författaren insändaren?",
-      "given": null,
+      "given": "För att be hundägare att följa reglerna i parken",
       "expected": "För att be hundägare att följa reglerna i parken",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l18",
@@ -245,9 +259,9 @@
         "läs.detalj"
       ],
       "prompt": "Vad hände med författarens son efter mötet med hunden?",
-      "given": null,
+      "given": "Han blev rädd för hundar.",
       "expected": "Han blev rädd för hundar.",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l19",
@@ -258,9 +272,9 @@
         "läs.slutsats"
       ],
       "prompt": "Vilken inställning till hundar har författaren?",
-      "given": null,
+      "given": "Författaren har inget emot hundar men vill att de är kopplade i parken.",
       "expected": "Författaren har inget emot hundar men vill att de är kopplade i parken.",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l20",
@@ -270,9 +284,9 @@
         "läs.detalj"
       ],
       "prompt": "Vad tycker Henrik om hundrastgården i sitt område?",
-      "given": null,
+      "given": "Den är liten och ligger långt bort.",
       "expected": "Den är liten och ligger långt bort.",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l21",
@@ -282,9 +296,9 @@
         "läs.detalj"
       ],
       "prompt": "När släpper Henrik sin hund lös i parken?",
-      "given": null,
+      "given": "Tidigt på morgonen, när det är få människor där",
       "expected": "Tidigt på morgonen, när det är få människor där",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l22",
@@ -295,9 +309,9 @@
         "läs.huvudtanke"
       ],
       "prompt": "Varför bryter många hundägare mot reglerna, enligt Henrik?",
-      "given": null,
+      "given": "Det finns inte tillräckligt bra platser där hundar får springa.",
       "expected": "Det finns inte tillräckligt bra platser där hundar får springa.",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l23",
@@ -307,9 +321,9 @@
         "läs.synonym"
       ],
       "prompt": "Riksdagen bestämde att alla barn skulle få gå lika många år i skolan.",
-      "given": null,
+      "given": "9",
       "expected": "9",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l24",
@@ -319,7 +333,7 @@
         "läs.synonym"
       ],
       "prompt": "Det är svårare att vara ledig när andra alltid kan nå en.",
-      "given": null,
+      "given": "0 – ingen mening i texten",
       "expected": "30",
       "correct": false
     },
@@ -331,7 +345,7 @@
         "läs.synonym"
       ],
       "prompt": "Många lämnade landsbygden eftersom det fanns arbete i staden.",
-      "given": null,
+      "given": "0 – ingen mening i texten",
       "expected": "5",
       "correct": false
     },
@@ -343,9 +357,9 @@
         "läs.synonym"
       ],
       "prompt": "Under 1960-talet hade de flesta familjer en egen bil.",
-      "given": null,
+      "given": "0 – ingen mening i texten",
       "expected": "0 – ingen mening i texten",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l27",
@@ -355,9 +369,9 @@
         "läs.synonym"
       ],
       "prompt": "Pappor kunde också få pengar när de var hemma med små barn.",
-      "given": null,
+      "given": "13",
       "expected": "13",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l28",
@@ -367,7 +381,7 @@
         "läs.synonym"
       ],
       "prompt": "Pengar i form av sedlar och mynt används mer sällan nu.",
-      "given": null,
+      "given": "0 – ingen mening i texten",
       "expected": "27",
       "correct": false
     },
@@ -379,9 +393,9 @@
         "läs.synonym"
       ],
       "prompt": "Den första mobiltelefonen kom till Sverige år 1981.",
-      "given": null,
+      "given": "0 – ingen mening i texten",
       "expected": "0 – ingen mening i texten",
-      "correct": false
+      "correct": true
     },
     {
       "id": "l30",
@@ -391,40 +405,11 @@
         "läs.synonym"
       ],
       "prompt": "Man kunde inte prata i telefon samtidigt som man använde internet.",
-      "given": null,
+      "given": "19",
       "expected": "19",
-      "correct": false
+      "correct": true
     }
   ],
   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
-  "state": {
-    "step": 1,
-    "answers": {
-      "l1": 0,
-      "l2": 1,
-      "l3": 1,
-      "l4": 0,
-      "l6": 1,
-      "l5": 0,
-      "l7": 1,
-      "l8": 0,
-      "l9": 1,
-      "l10": 1
-    },
-    "plays": {},
-    "sectionTime": {
-      "del1": 575.5209999999998,
-      "del2": 0.601
-    },
-    "startedAt": 1795039064772,
-    "attemptId": "2026-11-18T21-56-43-928Z",
-    "flags": {
-      "l6": false,
-      "l5": false,
-      "l9": false
-    },
-    "updatedAt": 1795039640293,
-    "lastStep": 1
-  },
-  "savedAt": "2026-11-18T23:07:20"
+  "savedAt": "2026-11-18T23:29:22"
 }

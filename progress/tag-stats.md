@@ -11,30 +11,35 @@
 | `ord.synonym` | 5/9 | 56% | 001-diagnos/o2: 'Hon fick högre lön.' → 'Hon förlorade sitt jobb.'; 001-diagnos/o3: 'ofta' → 'troligen'; 001-diagnos/o4: 'Jag måste boka en ny tid.' → 'Jag måste säga att jag inte kommer.' |
 | `verb.supinum` | 8/16 | 50% | 008-vardagsverb/g8: 'förstår' → 'förstått'; 011-signalord-verbform/g1: 'sett' → 'sett'; 001-diagnos/g9: 'ät' → 'ätit' |
 | `pronomen.sin` | 2/4 | 50% | 013-adjektiv-kongruens/g6: 'min' → 'mitt'; 013-adjektiv-kongruens/g9: 'Men det' → 'det' |
-| `hör.siffror` | 1/2 | 50% | 013-adjektiv-kongruens/h2: '9000 kroner' → '8500' |
-| `hör.detalj` | 7/18 | 39% | 013-adjektiv-kongruens/h3: 'Badrummet' → 'Köket'; 013-adjektiv-kongruens/h7: 'Falskt' → 'Falskt'; 001-diagnos/h8: 'Personal på trafikbolaget.' → 'Ungdomar och pensionärer.' |
+| `hör.detalj` | 13/33 | 39% | 025-horprov-swedex/q25: 'Falskt' → 'Sant'; 025-horprov-swedex/q27: 'Sant' → 'Falskt'; 001-diagnos/h8: 'Personal på trafikbolaget.' → 'Ungdomar och pensionärer.' |
+| `läs.synonym` | 6/16 | 38% | 021-lasprov-helt-rivstart/l24: '0 – ingen mening i texten' → '30'; 021-lasprov-helt-rivstart/l25: '0 – ingen mening i texten' → '5'; 021-lasprov-helt-rivstart/l28: '0 – ingen mening i texten' → '27' |
 | `verb.signalord` | 4/11 | 36% | 011-signalord-verbform/g2: 'förstod' → 'förstod'; 011-signalord-verbform/g3: 'försöker' → 'försöker'; 011-signalord-verbform/g5: 'sa' → 'sa' |
 | `adjektiv.ett-ord` | 4/12 | 33% | 009-vardagsadjektiv/g5: 'kallt' → 'kallt'; 013-adjektiv-kongruens/g2: 'nytt' → 'nya'; 013-adjektiv-kongruens/g6: 'min' → 'mitt' |
 | `verb.presens` | 2/6 | 33% | 008-vardagsverb/g3: 'försökar' → 'försöker'; 011-signalord-verbform/g3: 'försöker' → 'försöker' |
 | `ord.kollokation` | 1/3 | 33% | 001-diagnos/o5: 'letat' → 'sökt' |
 | `preposition.tid` | 1/3 | 33% | 001-diagnos/g14: 'sedan' → 'i' |
-| `hör.tid` | 1/3 | 33% | 008-vardagsverb/h3: 'pa lårdag' → 'lördag' |
 | `ord.tema.adjektiv` | 1/3 | 33% | 009-vardagsadjektiv/m2: 'C. upptagen' → 'C. upptagen' |
 | `ordföljd.också` | 1/3 | 33% | 011-signalord-verbform/o3: 'Igår åt också jag pizza' → 'Igår åt jag också pizza' |
 | `substantiv.en-ett` | 1/3 | 33% | 013-adjektiv-kongruens/g2: 'nytt' → 'nya' |
-| `läs.slutsats` | 1/3 | 33% | 001-diagnos/l6: 'Hon blev uppsagd.' → 'Hennes arbete var för tungt för kroppen.' |
+| `läs.åsikt` | 1/3 | 33% | 017-las-prov-b/i3: 'Det är helt fel.' → 'Det stämmer bara vid vissa tider på dagen.' |
+| `hör.tid` | 2/7 | 29% | 008-vardagsverb/h3: 'pa lårdag' → 'lördag'; 025-horprov-swedex/q18: 'önsdag' → 'onsdag' |
 | `ordföljd.inversion` | 2/8 | 25% | 009-vardagsadjektiv/c5: 'Den här soffan är bättre än den gamla' → 'Den här soffan är bättre än den gamla'; 011-signalord-verbform/o3: 'Igår åt också jag pizza' → 'Igår åt jag också pizza' |
 | `ord.förväxling` | 1/5 | 20% | 001-diagnos/o6: 'komma ihåg' → 'påminna' |
+| `hör.siffror` | 1/7 | 14% | 013-adjektiv-kongruens/h2: '9000 kroner' → '8500' |
+| `läs.detalj` | 3/24 | 12% | 016-las-prov-a/j5: 'Ja' → 'Nej'; 017-las-prov-b/i4: 'Eleverna får använda mobilen bara på rasterna.' → 'Mobilerna läggs undan under lektionerna.'; 021-lasprov-helt-rivstart/l10: 'Nej' → 'Ja' |
+| `läs.janej` | 1/10 | 10% | 021-lasprov-helt-rivstart/l10: 'Nej' → 'Ja' |
+| `läs.slutsats` | 1/11 | 9% | 001-diagnos/l6: 'Hon blev uppsagd.' → 'Hennes arbete var för tungt för kroppen.' |
+| `läs.matcha` | 0/12 | 0% |  |
 | `ordföljd.bisats` | 0/4 | 0% |  |
-| `läs.detalj` | 0/4 | 0% |  |
+| `läs.huvudtanke` | 0/4 | 0% |  |
+| `hör.matcha` | 0/4 | 0% |  |
+| `hör.huvudtanke` | 0/3 | 0% |  |
 | `ordföljd.fråga` | 0/2 | 0% |  |
 | `adjektiv.plural` | 0/2 | 0% |  |
-| `hör.huvudtanke` | 0/2 | 0% |  |
+| `hör.åsikt` | 0/2 | 0% |  |
 | `verb.modal` | 0/1 | 0% |  |
 | `tal.interaktion` | 0/1 | 0% |  |
 | `hör.slutsats` | 0/1 | 0% |  |
-| `läs.huvudtanke` | 0/1 | 0% |  |
-| `hör.åsikt` | 0/1 | 0% |  |
 | `bisats.om-att` | 0/1 | 0% |  |
 | `verb.passiv` | 0/1 | 0% |  |
 | `verb.partikel` | 0/1 | 0% |  |

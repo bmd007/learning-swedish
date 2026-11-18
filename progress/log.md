@@ -208,3 +208,8 @@
   answers), 17 q. Unused but transcribed: gordon/karin café, emily golf, daniel MFF, elpris expert (next lesson).
 - Next: when models/chatterbox/ exists: test Swedish quality with LibriVox refs, send samples, add engine to
   build_audio.py (speaker → reference voice), rebuild dialogue audio. Grade 026/027 when done.
+
+## 2026-11-18 – Graded 021 (full Rivstart reading test)
+- 26/30 → B1 (del1 9/10, del2 6/6, del3 6/6, del4 5/8), 32 min. No short items.
+- Misses: del 4 synonyms again (3x chose '0'), mil vs kilometer in l10.
+- Next step: short del 4 drill (synonyms + units mil/km); then grade 026 writing and 027 listening when done.

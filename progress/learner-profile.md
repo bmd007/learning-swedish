@@ -12,7 +12,7 @@
 
 | Skill | Estimate | Evidence |
 |---|---|---|
-| Läsa | B1 (full Swedex reading 24/30) | 017: 9/14 (del 4 synonyms 5/8: picks '0' when words differ; 'det kan stämma, men' trap). 016: 15/16 in 11 of 32 min (only miss: 'men' contrast trap, j5). 001: 7/8, fast (10 min) |
+| Läsa | B1 (021 full test 26/30 in 32 min; 016+017 24/30) | 021: 26/30 (del1 9/10, del2 6/6, del3 6/6, del4 5/8; misses: 3x '0' instead of synonym again (ledig=koppla av, lämnade=flyttade från, mer sällan), 'åtta mil'=80 km marked Nej). 017: 9/14 (del 4 synonyms 5/8: picks '0' when words differ; 'det kan stämma, men' trap). 016: 15/16 in 11 of 32 min (only miss: 'men' contrast trap, j5). 001: 7/8, fast (10 min) |
 | Höra | B1 (full Swedex hörprov 24/30 under test conditions) | 025: 24/30 (two plays in a row, scene noise): del 4 real radio 4/4, del 3 6/6; misses: fast-contrast, answered wrong kind of info (var → name not place), 14 time vs platform 9; spelling of answers (psykisk). Caught all number corrections. 013: 5/7 (took 'nio tusen' for the previous flat, 8500; förra/nu trap again); 009: 2/3 (mixed förra/nuvarande, missed dyrare); 011: 3/3 with 1 play. 001: 001: 8/9 with 1 play each; missed 'däremot' contrast |
 | Skriva | ? | not done yet (→ 002) |
 | Tala | A2+ | 013: A2; good flow, comparison used (större, dyrare än, äldre än); errors mitt egen köket, en 20 kvadratmeter rum, min förut rum. 009: A2; content on all bullets, but en/ett endings (en gammalt lägenhet, min förra hem, större en), 'Det är' for 'Den är'; end of recording unclear. 011: used har+supinum, också after verb, nu försöker correctly; errors: i måndag(s), hade+past mix, för/i duration. 004, 008: fluent, lots of content, adds extra sentences; uses past tense; errors: inversion after time word, i måndags vs på måndag, *också* placement. Both recordings cut at 60 s (limit now ≥120 s). |
@@ -20,6 +20,7 @@
 | Ordförråd | improving | 003: 7/8 first try (was 0/6 in 001) |
 
 ## Known weaknesses
+- (021) Reading del 4 synonyms: chooses '0 – ingen mening' too fast (2 tests in a row, 6 of 16 wrong). Svensk mil = 10 km (answered Nej to 'åtta mil' = 80 km).
 - (013) Not improved vs 009: adjective after mitt/min/den/det must be -a (mitt nytt hem, gammlat), mitt/min by noun; irregular comparison (sämre, större, äldre, sämsta) right only after hint. Listening: förra/nu trap again; spelled kroner.
 - (009) Adjective agreement en/ett/plural (gamla/nytt/kallt first try wrong; speaking *en gammalt lägenhet*, *min hem*); irregular comparison *dålig-sämre* (wrote dåligare), *bästa*; *större än* (said *en*). Listening: förra vs nuvarande.
 - (011) Signal word still slow in gaps (4 of 9 wrong first try), but speaking is now mostly right. *också* + inversion in writing: *Igår åt jag också* (wrote *åt också jag*). Duration: i/för/sedan; *hade* + preteritum mix.

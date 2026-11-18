@@ -12,3 +12,5 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `hör.siffror` (025) – q2 took 14 (the time 14.20) for the platform (9).
 - `hör.tid` / ord (025) – q27 'när jag gick i pension' read as before retiring (när vs innan).
 - `stavning` (025) – psykisk → 'sikiksgs', onsdag → 'önsdag', kniv → 'knive'. Writes what he hears phonetically.
+- `läs.synonym` – 021: 3/8 wrong again (l24 ledig=koppla av, l25 lämnade landsbygden=flyttade från, l28 sedlar/mynt mer sällan). All three: chose '0'. Pattern across 017 + 021: 6/16 wrong, always '0'.
+- `läs.detalj` – 021 l10: 'åtta mil' vs '80 kilometer' → Nej (mil = 10 km).
