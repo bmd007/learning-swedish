@@ -264,3 +264,8 @@ body.exam-mode .sv-keys { bottom: 84px; }
 }
 
 mark.hl { background: #ffe066; color: #1f2328; border-radius: 2px; padding: 0 1px; cursor: pointer; }
+.draw-box { position: relative; max-width: 640px; margin: 8px 0; border: 1px solid var(--line); background: #fff; }
+.draw-box img { display: block; width: 100%; height: auto; user-select: none; -webkit-user-drag: none; }
+.draw-box canvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; cursor: crosshair; }
+.option-pics { max-width: 640px; background: #fff; border: 1px solid var(--line); margin: 8px 0; }
+.option-pics img { display: block; width: 100%; }

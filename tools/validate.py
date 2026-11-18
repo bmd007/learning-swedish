@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-TYPES = {"mcq", "select", "gap", "order", "short", "write", "speak", "info"}
+TYPES = {"mcq", "select", "gap", "order", "short", "write", "speak", "info", "draw"}
 ID = re.compile(r"^[A-Za-z0-9_.-]+$")
 
 
@@ -121,7 +121,9 @@ def check(path):
                     for a in answers:
                         if norm(a) != sorted(w.lower() for w in words):
                             err(f"{where}: answer '{a}' does not use exactly the given words")
-                if t in ("write", "speak") and not it.get("q"):
+                if t == "draw" and not (it.get("map") or {}).get("src"):
+                    err(f"{where}: draw item needs map: {{src, alt}}")
+                if t in ("write", "speak", "draw") and not it.get("q"):
                     err(f"{where}: needs q")
                 if it.get("audio"):
                     check_audio(it["audio"], where)

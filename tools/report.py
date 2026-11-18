@@ -24,6 +24,9 @@ def show_one(path):
     first = d.get("firstTry", {})
     for i in d["items"]:
         mark = {True: "OK", False: "XX", None: "??"}[i["correct"]]
+        if i["type"] == "draw":
+            print(f"\n{i['id']} draw on {i.get('map')} ({', '.join(i['tags'])}): {'drawing saved (results JSON → drawing, PNG data URL)' if i.get('drawing') else '(not done)'}  expected: {i.get('expected')}\n")
+            continue
         if i["type"] in ("write", "speak"):
             given = i.get("given")
             if isinstance(given, dict):

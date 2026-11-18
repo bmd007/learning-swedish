@@ -620,6 +620,43 @@ async function openLesson(id) {
       };
       wrap.querySelector("button.clear").onclick = () => { chosen = []; set([]); draw(); };
       draw();
+    } else if (item.type === "draw") {
+      wrap.innerHTML = `${q}<div class="draw-box"><img src="${esc(item.map.src)}" alt="${esc(item.map.alt ?? "")}"><canvas></canvas></div>
+        <button type="button" class="btn secondary sm clear">Sudda</button>`;
+      const img = wrap.querySelector("img"), cv = wrap.querySelector("canvas"), ctx = cv.getContext("2d");
+      const fit = () => {
+        cv.width = img.naturalWidth;
+        cv.height = img.naturalHeight;
+        if (state.answers[item.id]) {
+          const old = new Image();
+          old.onload = () => ctx.drawImage(old, 0, 0);
+          old.src = state.answers[item.id];
+        }
+      };
+      if (img.complete && img.naturalWidth) fit(); else img.onload = fit;
+      const pos = e => {
+        const r = cv.getBoundingClientRect();
+        return [(e.clientX - r.left) * cv.width / r.width, (e.clientY - r.top) * cv.height / r.height];
+      };
+      let drawing = false;
+      cv.onpointerdown = e => {
+        drawing = true;
+        cv.setPointerCapture(e.pointerId);
+        Object.assign(ctx, { strokeStyle: "#d1242f", lineWidth: Math.max(3, cv.width / 180), lineCap: "round", lineJoin: "round" });
+        ctx.beginPath();
+        ctx.moveTo(...pos(e));
+      };
+      cv.onpointermove = e => {
+        if (!drawing) return;
+        ctx.lineTo(...pos(e));
+        ctx.stroke();
+      };
+      cv.onpointerup = () => {
+        if (!drawing) return;
+        drawing = false;
+        set(cv.toDataURL("image/png"));
+      };
+      wrap.querySelector("button.clear").onclick = () => { ctx.clearRect(0, 0, cv.width, cv.height); set(null); };
     } else if (item.type === "write") {
       wrap.innerHTML = `${q}${item.bullets ? `<ul>${item.bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>` : ""}
         <textarea spellcheck="false" autocorrect="off" placeholder="Skriv här… eller ladda upp ett foto av din handskrivna text nedan.">${esc(cur ?? "")}</textarea>
@@ -797,6 +834,7 @@ async function openLesson(id) {
       const given = Array.isArray(a) ? a.map(i => item.words[i]).join(" ") : null;
       return { given, expected: item.answers[0], correct: item.answers.some(x => norm(x) === norm(given)) };
     }
+    if (item.type === "draw") return { given: a ? "(ritning)" : null, drawing: a ?? null, map: item.map.src, expected: item.expect ?? null, correct: null };
     return { given: a ?? null, expected: null, correct: null, ...(state.uploads?.[item.id]?.length ? { images: state.uploads[item.id] } : {}) };
   }
 

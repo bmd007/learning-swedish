@@ -85,6 +85,7 @@ item common: { id (unique in lesson), type, tags: ["area.sub"], q, qEn, explain,
   gap:   q contains "___", base (dictionary form hint), answers[] (accepted)
   order: words[] (shuffled), answers[] (accepted sentences, punctuation ignored)
   write: minWords, maxWords, bullets[]          → graded by Claude
+  draw:  map {src, alt}, expect → learner draws on the picture (e.g. route on a map), graded by Claude
   speak: maxSeconds, bullets[], audio? (examiner question played first) → recording + browser transcript, graded by Claude
 ```
 Tags drive the learner model (e.g. `ordföljd.inversion`, `ordföljd.bisats`, `adjektiv.bestämd`,
