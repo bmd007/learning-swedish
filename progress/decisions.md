@@ -141,3 +141,6 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   sprints (5–8 items). Skip: false-friends drill, end-of-exam check pass.
 - Exams get free highlighting (select text → marker), like the learner does on paper. A tool, not a hint.
 - Research real Swedex question types beyond the official sample PDF (online reports, other mock tests).
+
+## 2026-11-19 – Exam booked
+- Learner has booked Swedex A2B1, Göteborg, **2026-12-04** (confirmed booking, not waiting list). 15 days left.
