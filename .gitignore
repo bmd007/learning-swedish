@@ -24,3 +24,8 @@ uploads/
 
 # Private access tokens
 nt-access.txt
+
+# Model files copied in by hand (move them to models/chatterbox/)
+tools/download/*
+!tools/download/*.sh
+!tools/download/*.ps1
