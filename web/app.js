@@ -55,7 +55,6 @@ function route() {
   const [, view, id] = location.hash.split("/");
   if (view === "lesson" && id) return openLesson(id);
   if (view === "feedback" && id) return openFeedback(id);
-  if (view === "voices") return openVoices();
   return home();
 }
 
@@ -186,43 +185,6 @@ function generatorPanel() {
     }
     status.innerHTML = `<b>Genererar (tar 3–6 min) …</b><br>${last}`;
     setTimeout(() => poll(id), 2000);
-  }
-}
-
-async function openVoices() {
-  const { samples, ratings } = await fetch("/api/voices").then(r => r.json());
-  const groups = Object.groupBy(samples.toReversed(), s => s.group ?? s.text);
-  const rated = samples.filter(s => ratings[s.file]?.rating).length;
-  app.innerHTML = `<a class="back" href="#/">← Startsidan</a>
-    <h1>Röster</h1>
-    <p class="muted">Lyssna och ge 1–5 stjärnor: hur mänsklig och tydlig låter rösten? Skriv gärna en kommentar
-      (t.ex. "för långsam", "konstig betoning", "bra för en äldre man"). Sparas direkt. ${rated}/${samples.length} betygsatta.</p>
-    <p class="en">Rate each voice 1–5: how human and clear does it sound? Comments save automatically.</p>
-    ${samples.length ? "" : `<div class="card">Inga röstprover än.</div>`}`;
-  for (const [group, list] of Object.entries(groups)) {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = list[0].group ? `<h2>${group}</h2><p class="muted">”${list[0].text}”</p>` : `<p><b>”${group}”</b></p>`;
-    for (const s of list) {
-      const r = ratings[s.file] ?? {};
-      const row = document.createElement("div");
-      row.className = "voice-row";
-      row.innerHTML = `<div class="voice-name"><b>${s.voice}</b> <span class="muted">${s.label ?? ""}</span></div>
-        <audio controls preload="none" src="/${s.file}"></audio>
-        <div class="stars">${[1, 2, 3, 4, 5].map(n => `<button data-n="${n}" class="${n <= (r.rating ?? 0) ? "on" : ""}">★</button>`).join("")}</div>
-        <input class="voice-note" placeholder="Kommentar …" value="${(r.note ?? "").replaceAll('"', "&quot;")}">`;
-      const save = data => fetch("/api/voices/rate", { method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ file: s.file, ...data }) });
-      row.querySelectorAll(".stars button").forEach(b => b.onclick = () => {
-        const n = +b.dataset.n;
-        row.querySelectorAll(".stars button").forEach(x => x.classList.toggle("on", +x.dataset.n <= n));
-        save({ rating: n });
-      });
-      const note = row.querySelector(".voice-note");
-      note.onchange = () => save({ note: note.value });
-      card.append(row);
-    }
-    app.append(card);
   }
 }
 
@@ -903,14 +865,22 @@ async function toJpeg(file, maxSide = 2400) {
 
 function playAudio(lessonId, audio) {
   return new Promise(resolve => {
-    const el = new Audio(audio.clip ? `/materials/clips/${lessonId}/${audio.id}.m4a`
-      : audio.source ? `/${audio.source}` : `/audio/${lessonId}/${audio.id}.m4a`);
+    const urls = audio.clip ? [`/materials/clips/${lessonId}/${audio.id}.m4a`]
+      : audio.source ? [`/${audio.source}`]
+      : [`/materials/tts/${lessonId}/${audio.id}.m4a`, `/audio/${lessonId}/${audio.id}.m4a`];
     const fallback = () => audio.script
       ? speak(audio.script).then(resolve)
       : (alert("Ljudfilen saknas på den här datorn. (Audio file missing on this computer.)"), resolve());
-    el.onended = resolve;
-    el.onerror = fallback;
-    el.play().catch(fallback);
+    const tryUrl = i => {
+      if (i >= urls.length) return fallback();
+      const el = new Audio(urls[i]);
+      let failed = false;
+      const next = () => { if (!failed) { failed = true; tryUrl(i + 1); } };
+      el.onended = resolve;
+      el.onerror = next;
+      el.play().catch(next);
+    };
+    tryUrl(0);
   });
 }
 

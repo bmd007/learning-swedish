@@ -12,7 +12,8 @@ Everything here is in gitignored folders (`materials/`, `models/`). Only the cod
 | **LibriVox Swedish audiobooks** (chapter 1–2 of each, 64 kb mp3) | archive.org (`<id>_64kb.mp3`) | Public domain | `materials/voices/librivox/` | see table below |
 | **NST svensk ATG-database 16 kHz** (Nordisk Språkteknologi, 1999–2000): 1012 speakers, age 16–77, sex, region of youth (10 regions), read sentences | nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-56/ → `https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/` (`metadata_se_csv.zip` 20 MB, `lydfiler_16_1.tar.gz` 32 GB = channel 1/head mic, `lydfiler_16_2` = channel 2) | CC0 | `materials/voices/nst/` (`NST_se.csv`, `picked.json`, `clips/`) | `tools/nst_voices.py pick / fetch / refs`. Streaming the 32 GB tar breaks; download it with `curl -C -` first, extract, then delete the tar. |
 | Reference clips for voice cloning (~12 s per speaker) | cut from LibriVox + NST; `kid-*` = adult female ref raised in pitch/formant (asetrate ×1.25/×1.4) | as source | `materials/voices/refs/` | `tools/nst_voices.py refs`; LibriVox cuts: ffmpeg `-ss 90 -t 12` (see log 2026-11-18) |
-| Voice samples + ratings | generated | – | `materials/voices/samples/`, ratings in `progress/voice-ratings.json` (in git) | `.venv-tts/bin/python tools/voice_samples.py <batch>`; rate in app `#/voices` |
+| NOK/Rivstart actors as references (7 actors: 4 f, 3 m) | cut from `materials/nok/audio/` by speaker clustering | © licensed to the learner → outputs stay private (`materials/tts/`) | `materials/voices/refs/nok-*.wav`, `materials/voices/nok_speakers.json` | `.venv-tts/bin/python tools/nok_voices.py` |
+| Generated lesson audio (human voices) | Chatterbox + `tools/voice_cast.json` | private | `materials/tts/<lessonId>/` | `build_audio.py --chatterbox` |
 
 LibriVox items used (archive.org identifiers, reader):
 
@@ -27,8 +28,9 @@ LibriVox items used (archive.org identifiers, reader):
 
 Other Swedish LibriVox items found (not downloaded): nyckfull_kvinna_3/4, nyckfull_kvinna_del2, walthers_aftventyr (Måns Broo), sockerpullor_pepparkorn_petra (Petra), vandrande_draeknarne (Lars Rolander).
 
-Rule: only clone voices whose owners released them (LibriVox = public domain, NST = CC0, anonymous). Never clone
-SR/Klartext speakers or other real, named people – generated audio goes into the public repo.
+Rule: Chatterbox audio is never committed (`materials/tts/`, private). Public `audio/` stays edge-tts.
+Voices: LibriVox (public domain), NST (CC0, anonymous), NOK actors (licensed to the learner, private use only).
+Never clone SR/Klartext speakers or other real, named people.
 
 Checked and not usable (2026-11-18): Gemini TTS via the work gateway (404), Wikimedia Commons Swedish audio
 (single words only), Mozilla Common Voice sv-SE (good: CC0, age-tagged, but needs a login on Mozilla Data Collective).

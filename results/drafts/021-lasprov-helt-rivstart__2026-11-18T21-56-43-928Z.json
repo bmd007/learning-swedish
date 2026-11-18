@@ -1,0 +1,430 @@
+{
+  "lessonId": "021-lasprov-helt-rivstart",
+  "attemptId": "2026-11-18T21-56-43-928Z",
+  "final": false,
+  "mode": "exam",
+  "startedAt": "2026-11-18T21:57:44.772Z",
+  "finishedAt": null,
+  "durationMin": 10,
+  "timeLimitMin": 60,
+  "overtime": false,
+  "currentSection": "del2",
+  "sectionMinutes": {
+    "del1": 9.6,
+    "del2": 0
+  },
+  "audioPlays": {},
+  "firstTry": {},
+  "flags": [],
+  "score": {
+    "del1": {
+      "correct": 9,
+      "total": 10
+    }
+  },
+  "items": [
+    {
+      "id": "l1",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.detalj"
+      ],
+      "prompt": "Daniel kommer och hälsar på Sofia i juni.",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "l2",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.detalj"
+      ],
+      "prompt": "Daniel måste köpa ett eget tält.",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "l3",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.detalj"
+      ],
+      "prompt": "Sofia har redan bokat kajakerna.",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "l4",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.detalj"
+      ],
+      "prompt": "Sofia vill att de går den första etappen av Gröna stigen.",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "l5",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.detalj"
+      ],
+      "prompt": "Man tar sig till Ekön med båt.",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "l6",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.slutsats"
+      ],
+      "prompt": "Det går att köpa mat i en butik på Ekön.",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "l7",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.slutsats"
+      ],
+      "prompt": "Sofia och Daniel kan ta färjan till Ekön klockan 12.",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "l8",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.detalj"
+      ],
+      "prompt": "Den första etappen av Gröna stigen passar nybörjare.",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "l9",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.slutsats"
+      ],
+      "prompt": "På Gröna stigen måste man boka plats i vindskydden.",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "l10",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.detalj"
+      ],
+      "prompt": "Hela Gröna stigen är ungefär åtta mil lång.",
+      "given": "Nej",
+      "expected": "Ja",
+      "correct": false
+    },
+    {
+      "id": "l11",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Anna jobbar till klockan 17 och vill träna utomhus på kvällen. Hon vill inte betala något.",
+      "given": null,
+      "expected": "G. Löpargruppen Snabba Fötter",
+      "correct": false
+    },
+    {
+      "id": "l12",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Mohammed är 17 år och vill lära sig en helt ny sport på måndagarna. Han har ingen egen utrustning.",
+      "given": null,
+      "expected": "C. Klättring för nybörjare",
+      "correct": false
+    },
+    {
+      "id": "l13",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Lena vill ha hård träning med tränare. Hon kan bara träna tisdagar och torsdagar från klockan 19 och vill inte köpa egen utrustning.",
+      "given": null,
+      "expected": "H. Boxning för alla",
+      "correct": false
+    },
+    {
+      "id": "l14",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Erik och hans fru vill göra något roligt tillsammans på lördagskvällen. De har aldrig dansat förut.",
+      "given": null,
+      "expected": "B. Salsa för par",
+      "correct": false
+    },
+    {
+      "id": "l15",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Birgit är 72 år och vill träna lugnt inomhus. Hon vill gärna fika med andra efteråt.",
+      "given": null,
+      "expected": "D. Seniorgympa",
+      "correct": false
+    },
+    {
+      "id": "l16",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha"
+      ],
+      "prompt": "Jonas har en treårig dotter. De vill träna tillsammans på lördagsförmiddagen.",
+      "given": null,
+      "expected": "E. Gympa för små och stora",
+      "correct": false
+    },
+    {
+      "id": "l17",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "läs.huvudtanke"
+      ],
+      "prompt": "Varför skriver författaren insändaren?",
+      "given": null,
+      "expected": "För att be hundägare att följa reglerna i parken",
+      "correct": false
+    },
+    {
+      "id": "l18",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Vad hände med författarens son efter mötet med hunden?",
+      "given": null,
+      "expected": "Han blev rädd för hundar.",
+      "correct": false
+    },
+    {
+      "id": "l19",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "läs.åsikt",
+        "läs.slutsats"
+      ],
+      "prompt": "Vilken inställning till hundar har författaren?",
+      "given": null,
+      "expected": "Författaren har inget emot hundar men vill att de är kopplade i parken.",
+      "correct": false
+    },
+    {
+      "id": "l20",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "Vad tycker Henrik om hundrastgården i sitt område?",
+      "given": null,
+      "expected": "Den är liten och ligger långt bort.",
+      "correct": false
+    },
+    {
+      "id": "l21",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "läs.detalj"
+      ],
+      "prompt": "När släpper Henrik sin hund lös i parken?",
+      "given": null,
+      "expected": "Tidigt på morgonen, när det är få människor där",
+      "correct": false
+    },
+    {
+      "id": "l22",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "läs.slutsats",
+        "läs.huvudtanke"
+      ],
+      "prompt": "Varför bryter många hundägare mot reglerna, enligt Henrik?",
+      "given": null,
+      "expected": "Det finns inte tillräckligt bra platser där hundar får springa.",
+      "correct": false
+    },
+    {
+      "id": "l23",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Riksdagen bestämde att alla barn skulle få gå lika många år i skolan.",
+      "given": null,
+      "expected": "9",
+      "correct": false
+    },
+    {
+      "id": "l24",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Det är svårare att vara ledig när andra alltid kan nå en.",
+      "given": null,
+      "expected": "30",
+      "correct": false
+    },
+    {
+      "id": "l25",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Många lämnade landsbygden eftersom det fanns arbete i staden.",
+      "given": null,
+      "expected": "5",
+      "correct": false
+    },
+    {
+      "id": "l26",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Under 1960-talet hade de flesta familjer en egen bil.",
+      "given": null,
+      "expected": "0 – ingen mening i texten",
+      "correct": false
+    },
+    {
+      "id": "l27",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Pappor kunde också få pengar när de var hemma med små barn.",
+      "given": null,
+      "expected": "13",
+      "correct": false
+    },
+    {
+      "id": "l28",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Pengar i form av sedlar och mynt används mer sällan nu.",
+      "given": null,
+      "expected": "27",
+      "correct": false
+    },
+    {
+      "id": "l29",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Den första mobiltelefonen kom till Sverige år 1981.",
+      "given": null,
+      "expected": "0 – ingen mening i texten",
+      "correct": false
+    },
+    {
+      "id": "l30",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Man kunde inte prata i telefon samtidigt som man använde internet.",
+      "given": null,
+      "expected": "19",
+      "correct": false
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "state": {
+    "step": 1,
+    "answers": {
+      "l1": 0,
+      "l2": 1,
+      "l3": 1,
+      "l4": 0,
+      "l6": 1,
+      "l5": 0,
+      "l7": 1,
+      "l8": 0,
+      "l9": 1,
+      "l10": 1
+    },
+    "plays": {},
+    "sectionTime": {
+      "del1": 575.5209999999998,
+      "del2": 0.601
+    },
+    "startedAt": 1795039064772,
+    "attemptId": "2026-11-18T21-56-43-928Z",
+    "flags": {
+      "l6": false,
+      "l5": false,
+      "l9": false
+    },
+    "updatedAt": 1795039640293,
+    "lastStep": 1
+  },
+  "savedAt": "2026-11-18T23:07:20"
+}

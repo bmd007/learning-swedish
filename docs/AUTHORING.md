@@ -149,7 +149,16 @@ The file is not in git, so the lesson only works on a machine that has `material
   "gap": 0.45,                      // pause in seconds between speaker turns (0.25 within a turn)
   "script": [{"speaker": "Sara", "text": "...", "pause": 1.0}] }    // pause = silence before this line
 ```
-Only two Swedish voices exist (Sofie f, Mattias m); vary `pitch`/`rate` for extra people.
+Only two Swedish edge voices exist (Sofie f, Mattias m); vary `pitch`/`rate` for extra people.
+
+**Human voices (Chatterbox, local):** after the edge build, also run
+`.venv-tts/bin/python tools/build_audio.py --chatterbox lessons/<file>.json` → `materials/tts/<lessonId>/<id>.m4a`
+(private, this Mac only; the app plays it first and falls back to `audio/`). ~15 s per line, lines cached in
+`materials/tts/.cache/`. Voices come from `tools/voice_cast.json`: recurring characters (Sara, Lena, Johan, Erik,
+Ali, Amir, Examinator, Morfar, Barn …) always get the same voice; other speakers (Röst, Reporter …) get a pool
+voice per audio id. Pin one with `"speakers": {"Kund": {"voice": "f", "cast": "nok-f-04"}}`. New recurring
+character → add to `people`. `rate: "+10%"` still speeds the line up; `pitch` is ignored. Check the result with
+`tools/transcribe.py` (the model sometimes drops or repeats a word).
 **Scene sound:** `"noise": {"sound": "<name>", "level": 0.3}` loops `sounds/<name>.m4a` under the speech
 (1 s of scene before the voices). Names: vacuum, cafe, car, train, traffic, kids, rain, kitchen (credits in
 `sounds/CREDITS.md`). Pick the sound that fits the story (call from a car → car, at home → vacuum/kitchen,

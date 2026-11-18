@@ -1,0 +1,18 @@
+{
+ "_doc": "Voice per character for build_audio.py --chatterbox. Names = materials/voices/refs/<name>.wav (private). See tools/human_voice.py, docs/sources.md.",
+ "people": {
+  "Sara": "cecilia2",
+  "Lena": "annasofia",
+  "Johan": "nok-m-02",
+  "Erik": "nok-m-01",
+  "Ali": "nok-m-05",
+  "Amir": "mans",
+  "Examinator": "nok-m-06",
+  "Nyheter": "nok-m-01",
+  "Barn": "kid-annasofia-1.25"
+ },
+ "pool": {
+  "f": ["nok-f-00", "nok-f-03", "nok-f-04", "petra", "annasofia", "cecilia2"],
+  "m": ["nok-m-01", "nok-m-02", "nok-m-05", "nok-m-06", "mans"]
+ }
+}

@@ -124,3 +124,11 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   Real audio cut into short parts is the accepted fallback (lesson 027).
 - Learner is fine using the work AI gateway for this project ("you are my work AI already"), but it has no TTS.
 - huggingface.co is blocked on the Mac's network; learner downloads models on another network (scripts in tools/download/).
+
+## 2026-11-18 – Human voices: decision
+- Learner rated samples (then stopped rating: "you know enough"): Chatterbox voices 3–4★, edge 1–3★.
+  Best: Anna Sofia, Cecilia2, child voice (Anna Sofia pitched ×1.25) = 4★; Petra, Måns 3★; Lars 2★; Cecilia as
+  friend 1★. "Calm" vs "lively" settings sound the same → personality must come from different reference speakers.
+- Learner wants high variety: old, young, man, boy, girl, boss, administrator … → cast in tools/voice_cast.json from
+  LibriVox + NST (age/region) + NOK actors. Learner OK with using NOK audio as voice references.
+- All Chatterbox audio is private (materials/tts/), app prefers it; audio/ (edge) stays as public fallback.

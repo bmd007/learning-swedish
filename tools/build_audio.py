@@ -45,9 +45,13 @@ async def render_line(text, voice, rate, pitch, mp3):
             await asyncio.sleep(2 * (attempt + 1))
 
 
+def to_wav(src, wav):
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(src), "-ac", "1", "-ar", str(RATE), "-c:a", "pcm_s16le", str(wav)], check=True)
+
+
 def pcm(mp3, tmp):
     wav = Path(tmp) / "line.wav"
-    subprocess.run(["afconvert", "-f", "WAVE", "-d", f"LEI16@{RATE}", "-c", "1", str(mp3), str(wav)], check=True)
+    to_wav(mp3, wav)
     with wave.open(str(wav)) as w:
         samples = array("h", w.readframes(w.getnframes()))
     loud = [i for i, v in enumerate(samples) if abs(v) > 400]
@@ -78,7 +82,7 @@ def add_noise(data, level):
 def add_scene(data, sound, level, tmp):
     """Loop sounds/<sound>.m4a under the speech, with 1 s of scene before and after and short fades."""
     wav = Path(tmp) / "scene.wav"
-    subprocess.run(["afconvert", "-f", "WAVE", "-d", f"LEI16@{RATE}", "-c", "1", str(ROOT / "sounds" / f"{sound}.m4a"), str(wav)], check=True)
+    to_wav(ROOT / "sounds" / f"{sound}.m4a", wav)
     with wave.open(str(wav)) as w:
         bg = array("h", w.readframes(w.getnframes()))
     lead = RATE
@@ -94,14 +98,19 @@ def add_scene(data, sound, level, tmp):
     return speech.tobytes()
 
 
-async def render(audio, m4a):
+async def render(audio, m4a, engine="edge"):
     gap = audio.get("gap", 0.45)
     frames, previous = [], None
     with tempfile.TemporaryDirectory() as tmp:
         for i, line in enumerate(audio["script"]):
             voice, rate, pitch = speaker_settings(audio, line.get("speaker"))
-            mp3 = Path(tmp) / f"{i}.mp3"
-            await render_line(line["text"], voice, rate, pitch, mp3)
+            if engine == "chatterbox":
+                import human_voice
+                mp3 = Path(tmp) / f"{i}.wav"
+                human_voice.render_line(line["text"], human_voice.voice_for(audio, line.get("speaker")), rate, mp3)
+            else:
+                mp3 = Path(tmp) / f"{i}.mp3"
+                await render_line(line["text"], voice, rate, pitch, mp3)
             if i:
                 default = gap if line.get("speaker") != previous else 0.25
                 frames.append(silence(line.get("pause", default)))
@@ -136,10 +145,10 @@ def cut_clip(audio, out_dir, force):
     print(f"cut {out.relative_to(ROOT)}")
 
 
-async def main(paths, force):
+async def main(paths, force, engine):
     for p in paths:
         lesson = json.loads(Path(p).read_text(encoding="utf-8"))
-        out_dir = ROOT / "audio" / lesson["id"]
+        out_dir = ROOT / ("materials/tts" if engine == "chatterbox" else "audio") / lesson["id"]
         for audio in audios(lesson):
             if audio.get("clip"):
                 cut_clip(audio, ROOT / "materials" / "clips" / lesson["id"], force)
@@ -151,10 +160,12 @@ async def main(paths, force):
             if m4a.exists() and not force:
                 print(f"skip {m4a.relative_to(ROOT)}")
                 continue
-            await render(audio, m4a)
+            await render(audio, m4a, engine)
             print(f"built {m4a.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
-    args = [a for a in sys.argv[1:] if a != "--force"]
-    asyncio.run(main(args or sorted(str(p) for p in (ROOT / "lessons").glob("*.json")), "--force" in sys.argv))
+    flags = {"--force", "--chatterbox"}
+    args = [a for a in sys.argv[1:] if a not in flags]
+    engine = "chatterbox" if "--chatterbox" in sys.argv else "edge"
+    asyncio.run(main(args or sorted(str(p) for p in (ROOT / "lessons").glob("*.json")), "--force" in sys.argv, engine))
