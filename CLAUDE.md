@@ -66,6 +66,7 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
 - `materials/` – gitignored private sources. `materials/nok/` = Rivstart B1/B2 extramaterial (exercises,
   audio, transcripts, facit, word lists); see its README. Never commit or publish it. One source among
   others, not the curriculum. B1 ≈ chapters 1–9 (maybe 10); 11–18 are B2.
+- `docs/sources.md` – every downloaded source (TTS weights, LibriVox, NST, Klartext …): where from, licence, local path, how to refetch.
 - `docs/research.md` – research on SFI D format, citizenship test, agentic tutors, TTS/STT.
 - venv: `.venv` (edge-tts). Recreate: `python3 -m venv .venv && .venv/bin/pip install edge-tts`.
 

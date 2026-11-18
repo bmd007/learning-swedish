@@ -55,5 +55,17 @@
  "materials/voices/samples/v1/cecilia2-lugn-2.wav": {
   "rating": 3,
   "at": "2026-11-18T22:39:38"
+ },
+ "materials/voices/samples/v2/petra-kompis.wav": {
+  "rating": 3,
+  "at": "2026-11-18T22:49:16"
+ },
+ "materials/voices/samples/v2/mans-kompis.wav": {
+  "rating": 3,
+  "at": "2026-11-18T22:49:23"
+ },
+ "materials/voices/samples/v2/lars-kompis.wav": {
+  "rating": 2,
+  "at": "2026-11-18T22:49:29"
  }
 }
