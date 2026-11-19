@@ -160,7 +160,7 @@ async def main(paths, force, engine):
             if m4a.exists() and not force:
                 print(f"skip {m4a.relative_to(ROOT)}")
                 continue
-            await render(audio, m4a, engine)
+            await render({**audio, "_lesson": lesson["id"]}, m4a, engine)
             print(f"built {m4a.relative_to(ROOT)}")
 
 

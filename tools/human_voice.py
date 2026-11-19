@@ -41,7 +41,7 @@ def voice_for(audio, name):
     taken = {CAST["people"].get(n) for n in audio.get("speakers", {})}
     pool = [v for v in CAST["pool"][spec["voice"]] if v not in taken]
     others = sorted(n for n in audio.get("speakers", {}) if n not in CAST["people"])
-    seed = int(hashlib.md5(audio["id"].encode()).hexdigest(), 16)
+    seed = int(hashlib.md5(f'{audio.get("_lesson", "")}/{audio["id"]}'.encode()).hexdigest(), 16)
     return pool[(seed + others.index(name)) % len(pool)]
 
 
