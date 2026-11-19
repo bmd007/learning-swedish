@@ -1,7 +1,7 @@
 """Check Chatterbox lesson audio against the script with local Whisper (catches dropped/repeated/garbled words).
 
   .venv/bin/python -I tools/check_tts.py [lessons/x.json ...]
-Prints word error rate per audio in materials/tts/<lessonId>/; > 15 % = listen and rebuild (delete the
+Prints character error rate (numbers spelled out) per audio in materials/tts/<lessonId>/; > 15 % = listen and rebuild (delete the
 cached lines in materials/tts/.cache/ or pin another voice with "cast").
 """
 import json
@@ -11,6 +11,9 @@ import warnings
 from pathlib import Path
 
 import whisper
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from textnorm import cer  # noqa: E402
 
 warnings.filterwarnings("ignore")
 ROOT = Path(__file__).resolve().parent.parent
@@ -45,9 +48,9 @@ for p in paths:
         f = ROOT / "materials" / "tts" / lesson["id"] / f"{a['id']}.m4a"
         if not f.exists():
             continue
-        hyp = model.transcribe(str(f), language="sv", fp16=False)["text"]
+        hyp = model.transcribe(str(f), language="sv", fp16=False, condition_on_previous_text=False)["text"]
         ref = " ".join(l["text"] for l in a["script"])
-        e = wer(words(ref), words(hyp))
+        e = cer(ref, hyp)
         print(f"{'BAD ' if e > 0.15 else 'ok  '}{e:5.0%}  {lesson['id']}/{a['id']}", flush=True)
         if e > 0.15:
             print(f"      want: {ref}\n      got:  {hyp.strip()}", flush=True)

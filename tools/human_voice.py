@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 REFS = ROOT / "materials" / "voices" / "refs"
 CAST = json.loads((ROOT / "tools" / "voice_cast.json").read_text(encoding="utf-8"))
 _model = None
+_whisper = None
 
 
 def model():
@@ -78,26 +79,42 @@ def free_memory():
         torch.mps.empty_cache()
 
 
+def heard(w, sr):
+    """Whisper transcript of a generated chunk (CPU, so it doesn't fight the TTS model for GPU memory)."""
+    global _whisper
+    import whisper
+    import torchaudio.functional as F
+    if _whisper is None:
+        _whisper = whisper.load_model("turbo", device="cpu")
+    audio = F.resample(w, sr, 16000)[0].numpy()
+    return _whisper.transcribe(audio, language="sv", fp16=False)["text"]
+
+
 def generate(text, voice, rate, wav):
-    """Retries with another seed when the length looks wrong (babble or cut-off)."""
+    """Each chunk: generate, let Whisper listen, retry with a new seed until it matches the text (max 5 tries)."""
     import torch
     import torchaudio
+    from textnorm import cer
     m = model()
     pieces = []
     for chunk in chunks(text):
-        expected = len(chunk) / 14
         best = None
-        for attempt in range(3):
+        for attempt in range(5):
             torch.manual_seed(random.Random(chunk + str(attempt) + os.environ.get("TTS_TAKE", "")).randint(0, 2**31))
             with torch.inference_mode():
                 w = m.generate(chunk, language_id="sv", audio_prompt_path=str(REFS / f"{voice}.wav"),
                                exaggeration=0.5, cfg_weight=0.4).cpu()
             seconds = w.shape[-1] / m.sr
-            score = abs(seconds / max(expected, 0.6) - 1)
+            if seconds > 3 + len(chunk) / 7:
+                score = 1.0
+            else:
+                score = cer(chunk, heard(w, m.sr))
             if best is None or score < best[0]:
                 best = (score, w)
-            if score < 0.6:
+            if score <= 0.08:
                 break
+        if best[0] > 0.08:
+            print(f"  warn: best take {best[0]:.0%} off for {voice}: {chunk[:60]}", flush=True)
         pieces += [best[1], torch.zeros(1, int(m.sr * 0.2))]
     torchaudio.save(str(wav), torch.cat(pieces[:-1], dim=-1).clamp(-1, 1), m.sr, encoding="PCM_S", bits_per_sample=16)
     speed = 1 + int(str(rate).strip("%+") or 0) / 100 if str(rate).startswith("+") else 1.0
