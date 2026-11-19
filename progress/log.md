@@ -236,3 +236,10 @@
 - Human voices built and Whisper-checked: all 21 files 0–4 % off.
 - Next: grade 026 / 028 / "Nu du" recordings when the learner does them. Real speaking practice (learner speaks
   more) after the model-answer series.
+
+## 2026-11-19 – Graded 002 writing (handwritten)
+- Task 1 (reply to Maria): A2, all 4 content points, ~128 words, name Maja (wrong), MVH to friend, many noun/infinitive/spelling errors but understandable. Likely pass.
+- Task 2 (week email): A2, 3 points, tenses right per section (improved), but NO greeting/closing and ~164 words (max 120) -> at risk of failing kommunikativ utformning.
+- Top 3: letter frame + word limit; noun forms (min + noun, plural, en/ett); verb after modal-like verbs (no *att*, infinitive) + time-word errors.
+- Feedback: feedback/002-skriva-tala__20261119-175433.md
+- Next step: short writing practice (exam 50/100 words) with a frame checklist (Hej name ... Kram), word count, noun endings + "ska/behöver inte + infinitive" gap drill; then another handwritten email under time (exam 2026-12-04).

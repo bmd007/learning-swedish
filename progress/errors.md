@@ -14,3 +14,10 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `stavning` (025) – psykisk → 'sikiksgs', onsdag → 'önsdag', kniv → 'knive'. Writes what he hears phonetically.
 - `läs.synonym` – 021: 3/8 wrong again (l24 ledig=koppla av, l25 lämnade landsbygden=flyttade från, l28 sedlar/mynt mer sällan). All three: chose '0'. Pattern across 017 + 021: 6/16 wrong, always '0'.
 - `läs.detalj` – 021 l10: 'åtta mil' vs '80 kilometer' → Nej (mil = 10 km).
+- `skriv.mejl.svar` (002 s1, handwritten) – all 4 content points covered, ~128 words (max 120). Greeting used wrong name (*Maja* for Maria); closing *MVH* too formal for a friend. Level A2.
+- `skriv.ram` (002 s2) – no greeting and no closing in the friend email; ~164 words (max 120). Task could fail on kommunikativ utformning.
+- `substantiv.form` (002) – *min lägenheten* (min + noun without -en), *många affärer* (wrote äffaren), *hur många natten*, *två filmar*, *en mote*, *båda är intressant*.
+- `verb.infinitiv` (002) – *att* after hinner inte/behöver inte (*hinner inte att decorera*, *behöver inte att åka*), *ska jag tvätt*, *chilla* (chillar), *för sova* (för att sova).
+- `ordföljd.bisats` (002 s2) – *att det ska inte byte* (inte before verb in bisats); `ordföljd.inversion` – *Nesta dagen, i tisdag, jag hade jag*. Rare slips (was solid before).
+- `verb.preteritum` (002 s2) – tense sections right (past/present/future) = improved. Time word wrong: tisdag + *i morgon* (igår); *i måndag* (måndags).
+- `stavning` (002) – phonetic: bill, äffaren, favorite, villade, decorera, faktist, sqmt; å/ä/ö dots missing in handwriting (*ga*, *hora*).
