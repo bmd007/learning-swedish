@@ -227,3 +227,12 @@
 - Exam booked: Swedex A2B1 Göteborg 2026-12-04.
 - Next: learner takes 026 (writing) and 028; grade. Then Swedex oral practice from the old oral material
   (materials/swedex-old/swedex_b1_munt_*), then a short del 4 paraphrase lesson (key-word step, practice only).
+
+## 2026-11-19 – Lessons 029–035: Modellsvar Swedex muntligt
+- Learner asked for short lessons (≤ 5 min) with real-test-like speaking questions + good model answers to listen to,
+  with good voices. 7 lessons: 029 presentation, 030 vardag, 031 annons svara, 032 annons fråga, 033 ämne bo,
+  034 ämne mobilen, 035 ämne resor. Each: 2 model exchanges (Testledare = annasofia, candidates from the pool),
+  technique items, "Fraser att låna", "Nu du" speak item (graded by Claude).
+- Human voices built and Whisper-checked: all 21 files 0–4 % off.
+- Next: grade 026 / 028 / "Nu du" recordings when the learner does them. Real speaking practice (learner speaks
+  more) after the model-answer series.
