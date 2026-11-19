@@ -63,6 +63,14 @@ def final_results():
     return out
 
 
+def draft_has_answers(f):
+    try:
+        state = json.loads(f.read_text(encoding="utf-8")).get("state") or {}
+    except (OSError, ValueError):
+        return False
+    return any(v not in (None, "", [], {}) for v in (state.get("answers") or {}).values()) or bool(state.get("uploads"))
+
+
 def lesson_files():
     """Public lessons + private ones built from licensed material (materials/lessons/, gitignored)."""
     return sorted([*LESSONS.glob("*.json"), *PRIVATE_LESSONS.glob("*.json")], key=lambda f: f.name)
@@ -91,7 +99,7 @@ def lesson_summaries():
             "lastScore": score,
             "skills": skills,
             "hasFeedback": any(FEEDBACK.glob(f"{data['id']}__*.md")),
-            "inProgress": any(DRAFTS.glob(f"{data['id']}__*.json")),
+            "inProgress": any(draft_has_answers(f) for f in DRAFTS.glob(f"{data['id']}__*.json")),
             "teacherGraded": any(it.get("type") in ("write", "speak", "draw") for it in lesson_items(data)),
             "lastDate": max([(r.get("finishedAt") or r.get("savedAt") or "")[:10] for r in runs] or [""]),
             "mode": data.get("mode"),
