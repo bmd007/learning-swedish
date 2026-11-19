@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="system-ui, sans-serif"><rect width="600" height="300" fill="#fff"/>
+<text x="300" y="28" font-size="20" font-weight="bold" text-anchor="middle" fill="#222">Resor: berätta och tycka</text>
+<rect x="20" y="46" width="270" height="236" rx="10" fill="#fef9c3" stroke="#ca8a04"/>
+<text x="155" y="74" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">Berätta = preteritum</text>
+<g font-size="16" fill="#222"><text x="36" y="106">I fjol <tspan font-weight="bold">åkte</tspan> vi till Spanien.</text><text x="36" y="136">I somras <tspan font-weight="bold">hyrde</tspan> vi en stuga.</text><text x="36" y="166">Vi <tspan font-weight="bold">bodde</tspan> nära stranden.</text><text x="36" y="196">Vi <tspan font-weight="bold">badade</tspan> varje dag.</text><text x="36" y="236" font-weight="bold">Tidsord först → verb direkt:</text><text x="36" y="260">I fjol åkte vi (inte: i fjol vi åkte)</text></g>
+<rect x="310" y="46" width="270" height="236" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+<text x="445" y="74" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">Tycka = presens</text>
+<g font-size="16" fill="#222"><text x="326" y="106">Jag <tspan font-weight="bold">tycker</tspan> att det är roligast</text><text x="326" y="128">att resa utomlands.</text><text x="326" y="164">Det <tspan font-weight="bold">är</tspan> dyrare än att stanna</text><text x="326" y="186">hemma, men det <tspan font-weight="bold">beror</tspan> på</text><text x="326" y="208">pengarna.</text><text x="326" y="250" font-weight="bold">Fråga tillbaka: Har du rest mycket?</text></g>
+</svg>

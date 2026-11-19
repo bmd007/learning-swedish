@@ -1,0 +1,222 @@
+{
+ "id": "030-modellsvar-vardag",
+ "title": "Modellsvar: Din vardag",
+ "titleEn": "Model answers: your everyday life",
+ "mode": "practice",
+ "minutes": 5,
+ "intro": "Det här är också Del 1 i Swedex muntligt. Testledaren frågar om din vardag: en vanlig dag, helgen, jobb eller studier och planer. Du lyssnar på två modellsvar. Lägg märke till tidsord, tempus (förra helgen = preteritum, planer = ska/tänker) och hur kandidaten frågar tillbaka. Sedan svarar du själv. Det tar cirka fem minuter.",
+ "introEn": "This is also part 1 of the Swedex oral. The examiner asks about your everyday life: a normal day, the weekend, work or studies, plans. You hear two model answers. Notice time words, tenses (last weekend = past, plans = ska/tänker) and how the candidate asks back. Then you answer yourself. About five minutes.",
+ "sections": [
+  {
+   "id": "lyssna",
+   "title": "Lyssna på modellsvar",
+   "titleEn": "Listen to model answers",
+   "instructions": "Lyssna på frågan och svaret. Lyssna på HUR kandidaten svarar, inte bara på vad hon eller han säger.",
+   "instructionsEn": "Listen to the question and the answer. Notice HOW the candidate answers, not only what they say.",
+   "parts": [
+    {
+     "heading": "Modellsvar 1: Leila – en vanlig dag",
+     "headingEn": "Model answer 1: Leila – a normal day",
+     "audio": {
+      "id": "a1",
+      "title": "Leila om en vanlig dag",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f",
+       "Leila": "f"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Hej Leila. Hur ser en vanlig dag ut för dig?"
+       },
+       {
+        "speaker": "Leila",
+        "text": "Ja, vad ska jag säga … Jag går upp klockan sex, eftersom jag börjar jobba tidigt. Först äter jag frukost med barnen, och sedan åker jag buss till jobbet. Jag jobbar på ett apotek i centrum. Klockan fyra slutar jag, och då hämtar jag barnen på förskolan. På kvällen lagar jag middag, och efter maten pluggar jag svenska i en timme. Det är ibland svårt, men jag vill lära mig bra. Hur ser din dag ut? Jobbar du också mycket?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Ja, ganska mycket. Varför pluggar du svenska på kvällarna?"
+       },
+       {
+        "speaker": "Leila",
+        "text": "Därför att jag vill bli svensk medborgare, och då måste jag klara ett prov. Eller nej, förlåt, jag menar att jag måste visa att jag kan svenska. Dessutom vill jag prata med grannarna!"
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "m1",
+       "type": "mcq",
+       "tags": [
+        "tal.berätta",
+        "tal.fraser"
+       ],
+       "q": "Vilka ord använder Leila för att visa i vilken ordning hon gör saker?",
+       "qEn": "Which words show the order of her day?",
+       "options": [
+        "igår, förra veckan, i morse",
+        "men, eller, fast",
+        "först, sedan, på kvällen, efter maten",
+        "för, därför, dessutom"
+       ],
+       "answer": 2,
+       "explain": "Först, sedan, på kvällen, efter maten: tidsord som ordnar dagen. Efter dem kommer verbet: Först äter jag, ...",
+       "explainEn": "First, then, in the evening, after the meal: time words that order the day. The verb follows: Först äter jag ..."
+      },
+      {
+       "id": "g1",
+       "type": "gap",
+       "tags": [
+        "ordföljd.inversion",
+        "verb.presens"
+       ],
+       "q": "Efter maten ___ jag svenska i en timme.",
+       "qEn": "Time word first, so the verb comes before 'jag'.",
+       "answers": [
+        "pluggar",
+        "läser",
+        "studerar"
+       ],
+       "explain": "Efter maten + pluggar + jag: tidsord först, sedan verb, sedan subjekt.",
+       "explainEn": "Time word first, then verb, then subject.",
+       "base": "plugga"
+      }
+     ]
+    },
+    {
+     "heading": "Modellsvar 2: Carlos – helgen och planer",
+     "headingEn": "Model answer 2: Carlos – the weekend and plans",
+     "audio": {
+      "id": "a2",
+      "title": "Carlos om helgen",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f",
+       "Carlos": "m"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Hej Carlos. Vad gjorde du i helgen?"
+       },
+       {
+        "speaker": "Carlos",
+        "text": "I lördags var jag hos en kompis, och vi grillade på balkongen, fast det var kallt! På söndagen sov jag länge, och sedan tog jag en lång promenad vid sjön. Hmm, vad mer … Jag ringde också min mamma i Chile. Det var kul, men jag saknar henne mycket. Hur var din helg?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Lugn, tack. Och nästa helg, vad ska du göra då?"
+       },
+       {
+        "speaker": "Carlos",
+        "text": "Menar du helgen som kommer, alltså om en vecka? Okej! Då ska jag flytta. Vi har hittat en ny lägenhet, så på fredag tänker jag packa, och på lördag kommer några kompisar och hjälper mig. På söndagen ska jag bara vila. Har du flyttat någon gång? Det är jobbigt!"
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "g2",
+       "type": "gap",
+       "tags": [
+        "verb.preteritum",
+        "tal.berätta"
+       ],
+       "q": "Jag ___ också min mamma i Chile.",
+       "qEn": "Past tense: last weekend.",
+       "answers": [
+        "ringde"
+       ],
+       "explain": "Förra helgen = preteritum: ringde. 'Också' står efter verbet.",
+       "explainEn": "Last weekend = past tense: ringde. 'Också' comes after the verb.",
+       "base": "ringa"
+      },
+      {
+       "id": "m2",
+       "type": "mcq",
+       "tags": [
+        "verb.futurum",
+        "tal.fraser"
+       ],
+       "q": "Vilka två verb använder Carlos när han pratar om planer?",
+       "qEn": "Which two verbs does Carlos use for plans?",
+       "options": [
+        "ska och tänker",
+        "har och hade",
+        "kan och vill",
+        "blev och gick"
+       ],
+       "answer": 0,
+       "explain": "Jag ska flytta. Jag tänker packa. Planer = ska/tänker + infinitiv (utan 'att').",
+       "explainEn": "Plans = ska/tänker + infinitive (no 'att')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fraser",
+   "title": "Fraser att låna",
+   "titleEn": "Phrases to borrow",
+   "instructions": "Läs fraserna. Använd minst tre av dem i din egen presentation.",
+   "instructionsEn": "Read the phrases. Use at least three of them in your own answer.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Fraser att låna** (från Leila och Carlos)\n\n| Svenska | English / فارسی |\n|---|---|\n| Ja, vad ska jag säga ... | Well, what shall I say ... (tänketid) |\n| Först ..., sedan ..., på kvällen ... | First ..., then ..., in the evening ... |\n| Eller nej, förlåt, jag menar ... | Or no, sorry, I mean ... (rätta dig själv) |\n| I lördags var jag ... / På söndagen sov jag ... | Last Saturday I was ... / On Sunday I slept ... |\n| Menar du helgen som kommer? | Do you mean the coming weekend? (یعنی ... ؟) |\n| Då ska jag ... / På fredag tänker jag ... | Then I'm going to ... / On Friday I plan to ... |\n| Hur var din helg? / Har du flyttat någon gång? | How was your weekend? / Have you ever moved? |\n\nTre tider: **förra helgen = preteritum**, **vanligt = presens**, **plan = ska/tänker + infinitiv**.",
+     "mdEn": "**Phrases to borrow** (from Leila and Carlos)\n\nThree times, three forms: past (grillade, sov, ringde), habit (går upp, äter, hämtar), plan (ska flytta, tänker packa). After a time word the verb comes second: *Först äter jag.* *På söndagen sov jag.*\n\nPersian: «Menar du ...؟» = یعنی ... ؟  /  «Eller nej, förlåt, jag menar ...» = یعنی نه، ببخشید، منظورم ... بود",
+     "image": {
+      "src": "tider.svg",
+      "alt": "Tre rutor: förra helgen, vanligt, nästa helg med verbformer",
+      "caption": "Tre tider, tre verbformer"
+     }
+    }
+   ]
+  },
+  {
+   "id": "nudu",
+   "title": "Nu du",
+   "titleEn": "Your turn",
+   "instructions": "Lyssna på testledaren. Svara som i modellsvaren: svara, lägg till en detalj, fråga tillbaka.",
+   "instructionsEn": "Listen to the examiner. Answer like the models: answer, add a detail, ask back.",
+   "items": [
+    {
+     "id": "s1",
+     "type": "speak",
+     "tags": [
+      "tal.berätta",
+      "verb.preteritum",
+      "verb.futurum"
+     ],
+     "q": "Berätta om din vardag.",
+     "maxSeconds": 150,
+     "bullets": [
+      "En vanlig dag: först, sedan, på kvällen",
+      "Arbete eller studier och varför du läser svenska",
+      "Vad du gjorde förra helgen (preteritum)",
+      "Vad du ska göra nästa helg (ska/tänker)",
+      "Fråga tillbaka minst en gång"
+     ],
+     "audio": {
+      "id": "e1",
+      "title": "Testledaren frågar",
+      "maxPlays": 2,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Nu ska vi prata om din vardag. Hur ser en vanlig dag ut för dig? Vad gjorde du förra helgen? Och vad ska du göra nästa helg?"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

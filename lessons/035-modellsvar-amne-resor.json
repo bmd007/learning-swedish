@@ -1,0 +1,208 @@
+{
+  "id": "035-modellsvar-amne-resor",
+  "title": "Modellsvar: Resor och semester",
+  "titleEn": "Model answers: Travel and holidays",
+  "mode": "practice",
+  "minutes": 5,
+  "intro": "Swedex muntligt, Del 3: du får ett ämne och pratar om det med testledaren. En bra person säger sin åsikt, ger ett skäl, berättar något från sitt eget liv, nämner den andra sidan och frågar tillbaka. Här hör du två modellsvar. Lyssna efter fraserna – och svara sedan själv. Ämne: resor. Berätta om en resa i preteritum och säg sedan vad du tycker.",
+  "introEn": "Swedex oral, part 3: you get a topic and talk about it with the examiner. A good answer gives an opinion, a reason, an example from your own life, the other side, and asks back. You hear two model answers. Listen for the phrases, then answer yourself. Topic: travel. Tell about a trip in past tense, then give your opinion.",
+  "sections": [
+    {
+      "id": "lyssna",
+      "title": "Lyssna på två modellsvar",
+      "titleEn": "Listen to two model answers",
+      "instructions": "Lyssna på testledaren och kandidaten. Svara på frågorna om tekniken. Du får höra varje samtal tre gånger.",
+      "instructionsEn": "Listen to the examiner and the candidate. Answer the technique questions. Each conversation plays three times.",
+      "parts": [
+        {
+          "heading": "Samtal 1: Carlos",
+          "headingEn": "Conversation 1",
+          "audio": {
+            "id": "res1",
+            "title": "Carlos – resa utomlands",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f",
+              "Carlos": "m"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Nu pratar vi om semester. Reser du hellre utomlands eller stannar du i Sverige, Carlos?"
+              },
+              {
+                "speaker": "Carlos",
+                "text": "Jag tycker att det är roligast att resa utomlands. I fjol åkte vi till Spanien i två veckor. Vi bodde på ett litet hotell nära stranden, och vädret var mycket varmare än här. Jag träffade också många nya människor. Därför vill jag resa varje år."
+              },
+              {
+                "speaker": "Testledare",
+                "text": "Men är det inte väldigt dyrt?"
+              },
+              {
+                "speaker": "Carlos",
+                "text": "Jo, det kostade ungefär femton, nej tjugotusen kronor för hela familjen. Det är dyrare än att stanna hemma, det håller jag med om. Men det var värt det. Har du rest mycket själv?"
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "res-q1",
+              "type": "mcq",
+              "tags": [
+                "tal.berätta",
+                "hör.detalj"
+              ],
+              "q": "Vilket exempel från sitt eget liv ger Carlos?",
+              "qEn": "Which example from his own life does Carlos give?",
+              "options": [
+                "Han arbetade på ett hotell i Spanien",
+                "Han åkte till Spanien förra året med familjen",
+                "Han flyttade till Spanien för tio år sedan"
+              ],
+              "answer": 1,
+              "explain": "'I fjol åkte vi till Spanien i två veckor' = förra året, med familjen.",
+              "explainEn": "'I fjol' = last year."
+            },
+            {
+              "id": "res-q2",
+              "type": "gap",
+              "tags": [
+                "adjektiv.komparation",
+                "tal.berätta"
+              ],
+              "q": "Vädret var mycket ___ än här.",
+              "qEn": "Comparative of 'varm'.",
+              "base": "varm",
+              "answers": [
+                "varmare"
+              ],
+              "explain": "varm – varmare – varmast. Jämförelse med 'än'.",
+              "explainEn": "varm – varmare – varmast; compare with 'än'."
+            }
+          ],
+          "image": {
+            "src": "resa-svar.svg",
+            "alt": "Berätta i preteritum, tycka i presens",
+            "caption": "Resa: berätta och tycka"
+          }
+        },
+        {
+          "heading": "Samtal 2: Jelena",
+          "headingEn": "Conversation 2",
+          "audio": {
+            "id": "res2",
+            "title": "Jelena – semester i Sverige",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f",
+              "Jelena": "f"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Och du, Jelena? Vart åker du helst på semester?"
+              },
+              {
+                "speaker": "Jelena",
+                "text": "Jag stannar helst i Sverige. Eftersom jag har fyra barn blir en utlandsresa alldeles för dyr. I somras hyrde vi en stuga vid en sjö i Dalarna. Vi badade, plockade blåbär och grillade varje kväll. Det var den bästa semestern på många år."
+              },
+              {
+                "speaker": "Testledare",
+                "text": "Men vill du inte se andra länder också?"
+              },
+              {
+                "speaker": "Jelena",
+                "text": "Jo, absolut, någon gång. Å ena sidan vill jag se andra länder, men å andra sidan är det skönt att slippa flyga. Det beror lite på pengarna. Var brukar du åka själv?"
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "res-q3",
+              "type": "mcq",
+              "tags": [
+                "tal.argumentera",
+                "hör.detalj"
+              ],
+              "q": "Varför stannar Jelena helst i Sverige?",
+              "qEn": "Why does Jelena prefer to stay in Sweden?",
+              "options": [
+                "En utlandsresa blir för dyr med fyra barn",
+                "Hon är rädd för att flyga",
+                "Hon har ingen semester på sommaren"
+              ],
+              "answer": 0,
+              "explain": "Skälet kommer med 'eftersom': fyra barn → för dyrt.",
+              "explainEn": "Reason with 'eftersom'."
+            },
+            {
+              "id": "res-q4",
+              "type": "gap",
+              "tags": [
+                "verb.preteritum",
+                "tal.berätta"
+              ],
+              "q": "I somras ___ vi en stuga vid en sjö.",
+              "qEn": "Past tense of hyra (to rent).",
+              "base": "hyra",
+              "answers": [
+                "hyrde"
+              ],
+              "explain": "I somras = förfluten tid: hyrde.",
+              "explainEn": "'I somras' = past → hyrde."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nu-du",
+      "title": "Fraser och Nu du",
+      "titleEn": "Phrases and Your turn",
+      "instructions": "Läs fraserna. Lyssna på testledarens fråga och svara i högst tre och en halv minut.",
+      "instructionsEn": "Read the phrases. Listen to the examiner's question and answer (max 3.5 minutes).",
+      "items": [
+        {
+          "id": "fraser",
+          "type": "info",
+          "md": "**Fraser att låna** – säg dem högt, med din egen mening efter.\n\n| Svenska | English / فارسی |\n|---|---|\n| Jag tycker att … | I think that … / به نظر من … |\n| Enligt mig … | In my opinion … / از نظر من … |\n| Å ena sidan … å andra sidan … | On one hand … on the other … / از یک طرف … از طرف دیگر … |\n| Det beror på … | It depends on … / بستگی دارد به … |\n| Jag håller med. / Jag håller inte med. | I agree. / I disagree. / موافقم. / موافق نیستم. |\n| I fjol / I somras / Förra året + preteritum | Last year / last summer + past tense / سال گذشته + گذشته |\n| Vad tycker du själv? | And what do you think? / خودت چی فکر می‌کنی؟ |\n\n**Tips:** efter *Därför* kommer verbet direkt: *Därför behöver jag ingen bil.* Efter ett skäl med *eftersom* kommer verbet på plats 2 i nästa del: *Eftersom jag är snickare, har jag …*"
+        },
+        {
+          "id": "res-s",
+          "type": "speak",
+          "tags": [
+            "tal.argumentera",
+            "tal.interaktion",
+            "tal.fraser"
+          ],
+          "q": "Nu du: flyga eller inte",
+          "maxSeconds": 210,
+          "bullets": [
+            "din åsikt",
+            "två skäl",
+            "ett exempel från ditt liv",
+            "den andra sidan",
+            "fråga tillbaka"
+          ],
+          "audio": {
+            "id": "res-s-a",
+            "title": "Testledarens fråga",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Nu ett annat ämne. Många reser mycket med flyg. Vissa säger att vi borde resa mindre på grund av miljön. Vad tycker du? Berätta också om en resa du har gjort."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

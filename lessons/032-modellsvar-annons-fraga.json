@@ -1,0 +1,302 @@
+{
+ "id": "032-modellsvar-annons-fraga",
+ "title": "Modellsvar: Fråga om en annons",
+ "titleEn": "Model answers: asking about an ad",
+ "mode": "practice",
+ "minutes": 5,
+ "intro": "Swedex muntligt, del 2, andra delen: du får en annons med stödord i en ruta (till exempel pris? när? barn?). Nu ska du fråga testledaren. Gör en riktig fråga av varje stödord. Frågeord + verb + subjekt, eller ja/nej-fråga med verbet först. Du kan också vara artig: Jag undrar om ... Reagera på svaret (Jaha, vad bra!) och ställ en följdfråga. Det ger mest poäng.",
+ "introEn": "Swedex oral, part 2, second half: you get an ad with keywords in a box (price? when? children?). Now you ask the examiner. Turn each keyword into a real question: question word + verb + subject, or a yes/no question with the verb first. Be polite: Jag undrar om ... React to the answer and ask a follow-up. This earns the most points.",
+ "sections": [
+  {
+   "id": "lyssna",
+   "title": "Lyssna på modellfrågor",
+   "titleEn": "Listen to model questions",
+   "instructions": "Lyssna på två kandidater som frågar testledaren. Titta på stödorden i rutan. Hur gör de en fråga av ett ord?",
+   "instructionsEn": "Listen to two candidates asking the examiner. Look at the keywords in the box. How do they turn a word into a question?",
+   "parts": [
+    {
+     "heading": "Annons 1: Spanskakurs",
+     "headingEn": "Ad 1: Spanish course",
+     "image": {
+      "src": "spanska.svg",
+      "alt": "Annons för en spanskakurs med stödord i en ruta"
+     },
+     "audio": {
+      "id": "b1",
+      "title": "Piotr frågar om spanskakursen",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f",
+       "Piotr": "m"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Nu får du fråga mig om annonsen. Varsågod."
+       },
+       {
+        "speaker": "Piotr",
+        "text": "Tack. Vad är det för kurs?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Det är en kurs i spanska för resenärer. Man lär sig prata på restaurang och på hotell."
+       },
+       {
+        "speaker": "Piotr",
+        "text": "Jaha, vad bra! När börjar kursen?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Den börjar andra mars."
+       },
+       {
+        "speaker": "Piotr",
+        "text": "Och var ligger skolan?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Mitt i stan, vid Stortorget."
+       },
+       {
+        "speaker": "Piotr",
+        "text": "Okej. Hur mycket kostar kursen?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Den kostar tusen åttahundra kronor."
+       },
+       {
+        "speaker": "Piotr",
+        "text": "Oj, det är ganska mycket. Finns det någon rabatt?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Ja, studenter får tjugo procent rabatt."
+       },
+       {
+        "speaker": "Piotr",
+        "text": "Aha. Jag undrar om man måste köpa en bok."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Nej, boken ingår i priset."
+       },
+       {
+        "speaker": "Piotr",
+        "text": "Vad bra! Är läraren från Spanien?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Ja, hon kommer från Sevilla."
+       },
+       {
+        "speaker": "Piotr",
+        "text": "Vad roligt! Tack för informationen."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "q1",
+       "type": "order",
+       "tags": [
+        "ordföljd.fråga"
+       ],
+       "q": "Bygg Piotrs fråga om rabatt.",
+       "qEn": "Build Piotr's question about a discount.",
+       "words": [
+        "det",
+        "Finns",
+        "rabatt",
+        "någon"
+       ],
+       "answers": [
+        "Finns det någon rabatt"
+       ],
+       "explain": "Ja/nej-fråga: verbet står först. Finns det någon rabatt?",
+       "explainEn": "Yes/no question: verb first."
+      },
+      {
+       "id": "q2",
+       "type": "mcq",
+       "tags": [
+        "ordföljd.bisats",
+        "tal.fråga"
+       ],
+       "q": "Vilken artig fråga är rätt?",
+       "qEn": "Which polite question is correct?",
+       "options": [
+        "Jag undrar om måste man köpa en bok.",
+        "Jag undrar om man måste köpa en bok.",
+        "Jag undrar måste man om köpa en bok."
+       ],
+       "answer": 1,
+       "explain": "Efter 'om' kommer en bisats: subjekt före verb (man måste).",
+       "explainEn": "After 'om': subject before verb."
+      }
+     ]
+    },
+    {
+     "heading": "Annons 2: Spaweekend",
+     "headingEn": "Ad 2: Spa weekend",
+     "image": {
+      "src": "spaweekend.svg",
+      "alt": "Annons för en spaweekend med stödord i en ruta"
+     },
+     "audio": {
+      "id": "b2",
+      "title": "Nadia frågar om spaweekenden",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f",
+       "Nadia": "f"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Varsågod, nu får du fråga mig om hotellet."
+       },
+       {
+        "speaker": "Nadia",
+        "text": "Hej! Hur mycket kostar weekenden?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Det kostar tvåtusen fyrahundra kronor för två personer."
+       },
+       {
+        "speaker": "Nadia",
+        "text": "Jaha. Ingår frukosten?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Ja, frukost ingår varje morgon. Du får också använda spa-avdelningen."
+       },
+       {
+        "speaker": "Nadia",
+        "text": "Vad bra! Får man ta med barn?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Ja, barn under tolv år bor gratis i föräldrarnas rum."
+       },
+       {
+        "speaker": "Nadia",
+        "text": "Vad trevligt. Jag undrar om man kan avboka resan om man blir sjuk."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Ja, man kan avboka utan kostnad fram till två dagar före."
+       },
+       {
+        "speaker": "Nadia",
+        "text": "Okej, då förstår jag. Hur långt är det till stranden?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Bara tvåhundra meter."
+       },
+       {
+        "speaker": "Nadia",
+        "text": "Perfekt! Tack så mycket."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "q3",
+       "type": "gap",
+       "tags": [
+        "ordföljd.fråga",
+        "tal.fråga"
+       ],
+       "q": "___ frukosten?",
+       "base": "ingå",
+       "qEn": "Does breakfast come with it? (verb first)",
+       "answers": [
+        "Ingår"
+       ],
+       "explain": "Ja/nej-fråga: verbet först. Ingår frukosten?",
+       "explainEn": "Verb first."
+      },
+      {
+       "id": "q4",
+       "type": "mcq",
+       "tags": [
+        "tal.interaktion"
+       ],
+       "q": "Vilken fras är en reaktion på svaret (inte en ny fråga)?",
+       "qEn": "Which phrase reacts to the answer?",
+       "options": [
+        "Hur långt är det till stranden?",
+        "Får man ta med barn?",
+        "Vad bra!"
+       ],
+       "answer": 2,
+       "explain": "'Vad bra!' visar att du lyssnar. Efter reaktionen ställer du nästa fråga.",
+       "explainEn": "'Vad bra!' shows you listen. Then ask the next question."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nu-du",
+   "title": "Fraser och nu du",
+   "titleEn": "Phrases and your turn",
+   "instructions": "Läs mönstren. Titta sedan på annonsen med stödord och fråga testledaren. Max 90 sekunder.",
+   "instructionsEn": "Read the patterns. Then look at the ad with keywords and ask the examiner. Max 90 seconds.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Fraser att låna** (bygg frågor av stödorden)\n\n| Stödord | Fråga (mönster) | فارسی |\n|---|---|---|\n| pris? | **Hur mycket** kostar den? | قیمتش چقدر است؟ |\n| när? | **När** börjar kursen? | کی شروع می‌شود؟ |\n| var? | **Var** ligger hotellet? | کجاست؟ |\n| frukost? | **Ingår** frukosten? (ja/nej: verbet först) | صبحانه شامل است؟ |\n| barn? | **Får** man ta med barn? | می‌شود بچه آورد؟ |\n| artigt | **Jag undrar om** man kan avboka. (efter *om*: subjekt + verb) | می‌خواستم بپرسم که ... |\n| reaktion | **Jaha, vad bra!** / Vad roligt! / Oj, det var dyrt. | عجب، چه خوب! |\n| följdfråga | Är läraren från Spanien? / Hur långt är det till ...? | سؤال دنباله‌دار |\n\n**Mönster:** frågeord + **verb** + subjekt (*Hur mycket kostar kursen?*). Ja/nej: **verb** + subjekt (*Finns det rabatt?*). Efter *Jag undrar om*: subjekt + verb.\n\n**Tips:** Lyssna på svaret, reagera (*Jaha, vad bra!*), ställ sedan en ny fråga. Det ger interaktionspoäng.",
+     "image": {
+      "src": "spaweekend.svg",
+      "alt": "Annons med stödord",
+      "caption": "Stödord blir frågor"
+     }
+    },
+    {
+     "id": "s1",
+     "type": "speak",
+     "tags": [
+      "tal.interaktion",
+      "tal.fråga"
+     ],
+     "q": "Nu du: fråga testledaren om annonsen. Använd stödorden. Reagera på svaren och ställ en följdfråga.",
+     "qEn": "Now you: ask the examiner about the ad. Use the keywords, react to the answers, ask a follow-up.",
+     "maxSeconds": 120,
+     "bullets": [
+      "öppettider?",
+      "pris?",
+      "hjälm?",
+      "hur länge?"
+     ],
+     "image": {
+      "src": "cykel.svg",
+      "alt": "Annons för cykeluthyrning med stödord i en ruta"
+     },
+     "audio": {
+      "id": "e2",
+      "title": "Testledaren inleder",
+      "maxPlays": 2,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Nu får du fråga mig om den här annonsen. Du kan använda orden i rutan, men du får också fråga om något annat. Varsågod, du kan börja när du vill."
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

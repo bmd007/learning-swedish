@@ -1,0 +1,208 @@
+{
+  "id": "033-modellsvar-amne-bo",
+  "title": "Modellsvar: Bo i stad eller på landet?",
+  "titleEn": "Model answers: City or countryside?",
+  "mode": "practice",
+  "minutes": 5,
+  "intro": "Swedex muntligt, Del 3: du får ett ämne och pratar om det med testledaren. En bra person säger sin åsikt, ger ett skäl, berättar något från sitt eget liv, nämner den andra sidan och frågar tillbaka. Här hör du två modellsvar. Lyssna efter fraserna – och svara sedan själv. Ämne: boende.",
+  "introEn": "Swedex oral, part 3: you get a topic and talk about it with the examiner. A good answer gives an opinion, a reason, an example from your own life, the other side, and asks back. You hear two model answers. Listen for the phrases, then answer yourself. Topic: housing.",
+  "sections": [
+    {
+      "id": "lyssna",
+      "title": "Lyssna på två modellsvar",
+      "titleEn": "Listen to two model answers",
+      "instructions": "Lyssna på testledaren och kandidaten. Svara på frågorna om tekniken. Du får höra varje samtal tre gånger.",
+      "instructionsEn": "Listen to the examiner and the candidate. Answer the technique questions. Each conversation plays three times.",
+      "parts": [
+        {
+          "heading": "Samtal 1: Leila",
+          "headingEn": "Conversation 1",
+          "audio": {
+            "id": "bo1",
+            "title": "Leila – bo i stan",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f",
+              "Leila": "f"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Nu pratar vi om boende. Vill du helst bo i en stad eller på landet, Leila?"
+              },
+              {
+                "speaker": "Leila",
+                "text": "Ja, alltså, jag tycker att det är bättre att bo i stan. Det är nära till allt, eller ja, nästan allt. Därför behöver jag ingen bil. Förra året bodde jag hos min moster på landet. Hon var tvungen att åka tio kilometer till affären. Det var jobbigt!"
+              },
+              {
+                "speaker": "Testledare",
+                "text": "Men finns det inga nackdelar med att bo i en stad?"
+              },
+              {
+                "speaker": "Leila",
+                "text": "Jo, det gör det. Å ena sidan är det dyrare och stressigare i stan. Å andra sidan är det lättare att hitta jobb. Det beror väl på vem man är. Vad tycker du själv?"
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "bo-q1",
+              "type": "mcq",
+              "tags": [
+                "tal.argumentera",
+                "hör.detalj"
+              ],
+              "q": "Vilket skäl ger Leila för att bo i stan?",
+              "qEn": "Which reason does Leila give for living in the city?",
+              "options": [
+                "Det är billigare än på landet",
+                "Hon har många vänner i stan",
+                "Det är nära till allt, så hon behöver ingen bil"
+              ],
+              "answer": 2,
+              "explain": "Skälet kommer med 'därför': nära till allt → ingen bil.",
+              "explainEn": "The reason comes with 'därför': close to everything → no car."
+            },
+            {
+              "id": "bo-q2",
+              "type": "gap",
+              "tags": [
+                "ordföljd.inversion",
+                "tal.argumentera"
+              ],
+              "q": "Det är nära till allt. Därför ___ jag ingen bil.",
+              "qEn": "After 'Därför' the verb comes straight away.",
+              "base": "behöva",
+              "answers": [
+                "behöver"
+              ],
+              "explain": "Därför + verb + subjekt: 'Därför behöver jag'. Verbet står på plats 2.",
+              "explainEn": "Därför + verb + subject."
+            }
+          ],
+          "image": {
+            "src": "svar-stege.svg",
+            "alt": "En stege med fem steg: åsikt, skäl, exempel, andra sidan, fråga tillbaka",
+            "caption": "Svarsstegen"
+          }
+        },
+        {
+          "heading": "Samtal 2: Marek",
+          "headingEn": "Conversation 2",
+          "audio": {
+            "id": "bo2",
+            "title": "Marek – bo på landet",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f",
+              "Marek": "m"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Nu till dig, Marek. Var vill du helst bo?"
+              },
+              {
+                "speaker": "Marek",
+                "text": "Jag tycker faktiskt att landet är bäst. Eftersom jag är snickare har jag nytta av verkstaden vid huset. Förut bodde jag i Lund, nej förlåt, i Malmö, i en liten lägenhet. Grannarna spelade hög musik varje kväll, så jag sov dåligt. Nu sover jag mycket bättre."
+              },
+              {
+                "speaker": "Testledare",
+                "text": "Men är det inte ensamt på landet?"
+              },
+              {
+                "speaker": "Marek",
+                "text": "Jo, ibland, särskilt på vintern. Jag håller med om att det kan vara tråkigt. Men vi har trevliga grannar, och det är viktigast för mig. Hur bor du själv?"
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "bo-q3",
+              "type": "mcq",
+              "tags": [
+                "tal.berätta",
+                "hör.detalj"
+              ],
+              "q": "Vilket exempel från sitt eget liv ger Marek?",
+              "qEn": "Which example from his own life does Marek give?",
+              "options": [
+                "Han jobbade på en bondgård som barn",
+                "Han flyttade för barnens skola",
+                "Grannarna i Malmö spelade hög musik"
+              ],
+              "answer": 2,
+              "explain": "Exemplet är i preteritum: 'Förut bodde jag i Malmö … grannarna spelade hög musik'.",
+              "explainEn": "The example is in past tense."
+            },
+            {
+              "id": "bo-q4",
+              "type": "gap",
+              "tags": [
+                "adjektiv.komparation",
+                "tal.berätta"
+              ],
+              "q": "Förut sov jag dåligt. Nu sover jag mycket ___.",
+              "qEn": "Comparative of 'bra'.",
+              "base": "bra",
+              "answers": [
+                "bättre"
+              ],
+              "explain": "bra – bättre – bäst (oregelbundet).",
+              "explainEn": "bra – bättre – bäst (irregular)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nu-du",
+      "title": "Fraser och Nu du",
+      "titleEn": "Phrases and Your turn",
+      "instructions": "Läs fraserna. Lyssna på testledarens fråga och svara i högst tre och en halv minut.",
+      "instructionsEn": "Read the phrases. Listen to the examiner's question and answer (max 3.5 minutes).",
+      "items": [
+        {
+          "id": "fraser",
+          "type": "info",
+          "md": "**Fraser att låna** – säg dem högt, med din egen mening efter.\n\n| Svenska | English / فارسی |\n|---|---|\n| Jag tycker att … | I think that … / به نظر من … |\n| Enligt mig … | In my opinion … / از نظر من … |\n| Å ena sidan … å andra sidan … | On one hand … on the other … / از یک طرف … از طرف دیگر … |\n| Det beror på … | It depends on … / بستگی دارد به … |\n| Jag håller med. / Jag håller inte med. | I agree. / I disagree. / موافقم. / موافق نیستم. |\n| Jag har bott / Förut bodde jag … | I used to live … / قبلاً … زندگی می‌کردم |\n| Vad tycker du själv? | And what do you think? / خودت چی فکر می‌کنی؟ |\n\n**Tips:** efter *Därför* kommer verbet direkt: *Därför behöver jag ingen bil.* Efter ett skäl med *eftersom* kommer verbet på plats 2 i nästa del: *Eftersom jag är snickare, har jag …*"
+        },
+        {
+          "id": "bo-s",
+          "type": "speak",
+          "tags": [
+            "tal.argumentera",
+            "tal.interaktion",
+            "tal.fraser"
+          ],
+          "q": "Nu du: unga och storstäder",
+          "maxSeconds": 210,
+          "bullets": [
+            "din åsikt",
+            "två skäl",
+            "ett exempel från ditt liv",
+            "den andra sidan",
+            "fråga tillbaka"
+          ],
+          "audio": {
+            "id": "bo-s-a",
+            "title": "Testledarens fråga",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Nu ett annat ämne. Många unga flyttar från små orter till stora städer. Tycker du att det är bra eller dåligt? Varför?"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

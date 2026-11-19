@@ -1,0 +1,208 @@
+{
+  "id": "034-modellsvar-amne-mobilen",
+  "title": "Modellsvar: Mobilen och sociala medier",
+  "titleEn": "Model answers: Mobile phones and social media",
+  "mode": "practice",
+  "minutes": 5,
+  "intro": "Swedex muntligt, Del 3: du får ett ämne och pratar om det med testledaren. En bra person säger sin åsikt, ger ett skäl, berättar något från sitt eget liv, nämner den andra sidan och frågar tillbaka. Här hör du två modellsvar. Lyssna efter fraserna – och svara sedan själv. Ämne: mobilen.",
+  "introEn": "Swedex oral, part 3: you get a topic and talk about it with the examiner. A good answer gives an opinion, a reason, an example from your own life, the other side, and asks back. You hear two model answers. Listen for the phrases, then answer yourself. Topic: the mobile phone.",
+  "sections": [
+    {
+      "id": "lyssna",
+      "title": "Lyssna på två modellsvar",
+      "titleEn": "Listen to two model answers",
+      "instructions": "Lyssna på testledaren och kandidaten. Svara på frågorna om tekniken. Du får höra varje samtal tre gånger.",
+      "instructionsEn": "Listen to the examiner and the candidate. Answer the technique questions. Each conversation plays three times.",
+      "parts": [
+        {
+          "heading": "Samtal 1: Nadia",
+          "headingEn": "Conversation 1",
+          "audio": {
+            "id": "mob1",
+            "title": "Nadia – mobilen är bra",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f",
+              "Nadia": "f"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Nu ska vi prata om mobilen. Är den mest bra eller mest dålig, Nadia?"
+              },
+              {
+                "speaker": "Nadia",
+                "text": "Enligt mig är den mest bra. Jag kan ringa videosamtal till min familj i Syrien, eftersom dom bor så långt borta. Förra veckan pratade jag med min mamma i en timme. Dessutom tränar jag svenska i en app varje dag. Det är billigare än en kurs."
+              },
+              {
+                "speaker": "Testledare",
+                "text": "Men sitter vi inte för mycket med mobilen?"
+              },
+              {
+                "speaker": "Nadia",
+                "text": "Jo, det stämmer. I måndags, nej förlåt, i tisdags tittade jag på videor till klockan två på natten, och sen var jag jättetrött på jobbet. Så man får inte överdriva. Men fördelarna är ändå fler, tycker jag. Vad tycker du själv?"
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "mob-q1",
+              "type": "mcq",
+              "tags": [
+                "tal.argumentera",
+                "hör.detalj"
+              ],
+              "q": "Vilket skäl ger Nadia för att mobilen är bra?",
+              "qEn": "Which reason does Nadia give?",
+              "options": [
+                "Hon kan spela spel på jobbet",
+                "Hon sparar pengar på resor",
+                "Hon kan prata med sin familj som bor långt borta"
+              ],
+              "answer": 2,
+              "explain": "Skälet kommer med 'eftersom': familjen bor långt borta, så hon ringer video.",
+              "explainEn": "The reason comes with 'eftersom'."
+            },
+            {
+              "id": "mob-q2",
+              "type": "gap",
+              "tags": [
+                "verb.preteritum",
+                "tal.berätta"
+              ],
+              "q": "I tisdags ___ jag på videor till klockan två på natten.",
+              "qEn": "tisdags = last Tuesday → past tense.",
+              "base": "titta",
+              "answers": [
+                "tittade"
+              ],
+              "explain": "I tisdags är förfluten tid: tittade. Observera -s: i tisdags.",
+              "explainEn": "'I tisdags' = past → tittade. Note the -s."
+            }
+          ],
+          "image": {
+            "src": "for-emot.svg",
+            "alt": "En våg med fördelar och nackdelar med mobilen",
+            "caption": "För och emot"
+          }
+        },
+        {
+          "heading": "Samtal 2: Dimitri",
+          "headingEn": "Conversation 2",
+          "audio": {
+            "id": "mob2",
+            "title": "Dimitri – för mycket mobil",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f",
+              "Dimitri": "m"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Vad tycker du, Dimitri? Använder vi mobilen för mycket?"
+              },
+              {
+                "speaker": "Dimitri",
+                "text": "Ja, det tycker jag absolut. Å ena sidan är mobilen praktisk, men å andra sidan sitter alla med den hela tiden. Hemma var det likadant. Mina barn tittade på sina telefoner vid middagen, och ingen pratade. Därför bestämde vi en regel: ingen mobil vid bordet."
+              },
+              {
+                "speaker": "Testledare",
+                "text": "Men många tycker att mobilen är nödvändig för ungdomar. Vad säger du om det?"
+              },
+              {
+                "speaker": "Dimitri",
+                "text": "Jo, det är den, det håller jag med om. Men det beror på hur mycket man använder den. Nu pratar vi mycket mer vid maten, och det är bättre. Vad tycker du själv?"
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "mob-q3",
+              "type": "mcq",
+              "tags": [
+                "tal.argumentera",
+                "tal.fraser"
+              ],
+              "q": "Vilken mening visar att Dimitri ser två sidor?",
+              "qEn": "Which sentence shows that Dimitri sees two sides?",
+              "options": [
+                "Ja, det tycker jag absolut.",
+                "Å ena sidan är mobilen praktisk, men å andra sidan sitter alla med den hela tiden.",
+                "Ingen mobil vid bordet."
+              ],
+              "answer": 1,
+              "explain": "'Å ena sidan … å andra sidan …' visar båda sidorna.",
+              "explainEn": "'Å ena sidan … å andra sidan …' shows both sides."
+            },
+            {
+              "id": "mob-q4",
+              "type": "gap",
+              "tags": [
+                "ordföljd.inversion",
+                "verb.preteritum"
+              ],
+              "q": "Barnen pratade inte vid middagen. Därför ___ vi en regel.",
+              "qEn": "Past tense; verb right after 'Därför'.",
+              "base": "bestämma",
+              "answers": [
+                "bestämde"
+              ],
+              "explain": "Därför + verb + subjekt: 'Därför bestämde vi'.",
+              "explainEn": "Därför + verb + subject."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nu-du",
+      "title": "Fraser och Nu du",
+      "titleEn": "Phrases and Your turn",
+      "instructions": "Läs fraserna. Lyssna på testledarens fråga och svara i högst tre och en halv minut.",
+      "instructionsEn": "Read the phrases. Listen to the examiner's question and answer (max 3.5 minutes).",
+      "items": [
+        {
+          "id": "fraser",
+          "type": "info",
+          "md": "**Fraser att låna** – säg dem högt, med din egen mening efter.\n\n| Svenska | English / فارسی |\n|---|---|\n| Jag tycker att … | I think that … / به نظر من … |\n| Enligt mig … | In my opinion … / از نظر من … |\n| Å ena sidan … å andra sidan … | On one hand … on the other … / از یک طرف … از طرف دیگر … |\n| Det beror på … | It depends on … / بستگی دارد به … |\n| Jag håller med. / Jag håller inte med. | I agree. / I disagree. / موافقم. / موافق نیستم. |\n| Det stämmer. / Det är sant. | That's true. / درست است. |\n| Vad tycker du själv? | And what do you think? / خودت چی فکر می‌کنی؟ |\n\n**Tips:** efter *Därför* kommer verbet direkt: *Därför behöver jag ingen bil.* Efter ett skäl med *eftersom* kommer verbet på plats 2 i nästa del: *Eftersom jag är snickare, har jag …*"
+        },
+        {
+          "id": "mob-s",
+          "type": "speak",
+          "tags": [
+            "tal.argumentera",
+            "tal.interaktion",
+            "tal.fraser"
+          ],
+          "q": "Nu du: mobilen i skolan",
+          "maxSeconds": 210,
+          "bullets": [
+            "din åsikt",
+            "två skäl",
+            "ett exempel från ditt liv",
+            "den andra sidan",
+            "fråga tillbaka"
+          ],
+          "audio": {
+            "id": "mob-s-a",
+            "title": "Testledarens fråga",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Nu ett annat ämne. I vissa skolor är mobilen förbjuden under lektionerna. Tycker du att det är en bra regel? Varför, eller varför inte?"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+ "id": "029-modellsvar-presentation",
+ "title": "Modellsvar: Presentera dig",
+ "titleEn": "Model answers: introduce yourself",
+ "mode": "practice",
+ "minutes": 5,
+ "intro": "Det här är Del 1 i Swedex muntligt. Testledaren ber dig presentera dig och ställer några frågor om dig. Du lyssnar på två bra modellsvar och lånar fraser. Ett bra svar är kort och tydligt, har en detalj och ett skäl, och du frågar tillbaka. Sedan svarar du själv. Det tar cirka fem minuter.",
+ "introEn": "This is part 1 of the Swedex oral. The examiner asks you to introduce yourself and asks a few follow-ups. You hear two good model answers and borrow phrases. A good answer is short and clear, has a detail and a reason, and you ask back. Then you answer yourself. About five minutes.",
+ "sections": [
+  {
+   "id": "lyssna",
+   "title": "Lyssna på modellsvar",
+   "titleEn": "Listen to model answers",
+   "instructions": "Lyssna på frågan och svaret. Lyssna på HUR kandidaten svarar, inte bara på vad hon eller han säger.",
+   "instructionsEn": "Listen to the question and the answer. Notice HOW the candidate answers, not only what they say.",
+   "parts": [
+    {
+     "heading": "Modellsvar 1: Amira",
+     "headingEn": "Model answer 1: Amira",
+     "audio": {
+      "id": "a1",
+      "title": "Amira presenterar sig",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f",
+       "Amira": "f"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Hej och välkommen! Vill du presentera dig? Berätta vem du är och var du kommer ifrån."
+       },
+       {
+        "speaker": "Amira",
+        "text": "Hej! Jag heter Amira och jag är trettiotvå år. Jag kommer från Syrien, från Aleppo, men jag har bott i Sverige i fyra år. Nu bor jag i Göteborg med min man och våra två barn. Hmm, vad ska jag säga mer? Jag jobbar på ett äldreboende, eftersom jag är undersköterska. Det gillar jag, men det är tungt ibland. Har du någon gång varit i Syrien?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Nej, tyvärr inte. Hur länge har du jobbat på äldreboendet?"
+       },
+       {
+        "speaker": "Amira",
+        "text": "Förlåt, kan du upprepa? … Aha, hur länge. Jag har jobbat där i tre år – nej, förlåt, i två år. Först studerade jag svenska varje dag, och sedan fick jag praktik där. På eftermiddagen är jag ofta trött, men jag tycker om mina kollegor."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "m1",
+       "type": "mcq",
+       "tags": [
+        "tal.interaktion"
+       ],
+       "q": "Hur håller Amira samtalet igång?",
+       "qEn": "How does Amira keep the conversation going?",
+       "options": [
+        "Hon pratar utan paus och tystnar sedan",
+        "Hon byter ämne hela tiden",
+        "Hon ställer en fråga till testledaren",
+        "Hon väntar på nästa fråga"
+       ],
+       "answer": 2,
+       "explain": "Hon frågar tillbaka: 'Har du någon gång varit i Syrien?' Då blir det ett samtal, inte ett förhör.",
+       "explainEn": "She asks back: 'Have you ever been to Syria?' It becomes a conversation, not an interrogation."
+      },
+      {
+       "id": "g1",
+       "type": "gap",
+       "tags": [
+        "konjunktion",
+        "tal.fraser"
+       ],
+       "q": "Jag jobbar på ett äldreboende, ___ jag är undersköterska.",
+       "qEn": "Which word gives a reason?",
+       "answers": [
+        "eftersom",
+        "för att"
+       ],
+       "explain": "'Eftersom' ger ett skäl. Efter 'eftersom' kommer subjekt + verb: eftersom jag är ...",
+       "explainEn": "'Eftersom' gives a reason. After it: subject + verb."
+      }
+     ]
+    },
+    {
+     "heading": "Modellsvar 2: Tomas",
+     "headingEn": "Model answer 2: Tomas",
+     "audio": {
+      "id": "a2",
+      "title": "Tomas presenterar sig",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f",
+       "Tomas": "m"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Välkommen, Tomas. Presentera dig kort, och berätta vad du gör på fritiden."
+       },
+       {
+        "speaker": "Tomas",
+        "text": "Hej! Alltså, jag heter Tomas och jag är trettiofem år. Jag kommer från Polen, men jag flyttade till Sverige för sex år sedan, eftersom min fru är svensk. Nu bor vi i Uppsala. På fritiden spelar jag fotboll. Förra helgen vann vi faktiskt matchen! Förut tränade jag också barnlaget, men nu har jag tyvärr inte tid. Jag gillar att fiska också. Spelar du själv något?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Jag springer ibland. Är det svårt att hitta vänner i Sverige?"
+       },
+       {
+        "speaker": "Tomas",
+        "text": "Hmm, ja och nej. Menar du svenska vänner? Okej. Först var det svårt, men fotbollen hjälpte mig mycket. Nu har jag nog tre eller fyra – nej, fem riktigt bra vänner här."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "g2",
+       "type": "gap",
+       "tags": [
+        "verb.preteritum",
+        "ordföljd.inversion",
+        "tal.berätta"
+       ],
+       "q": "Förra helgen ___ vi faktiskt matchen!",
+       "qEn": "Past tense of 'vinna'. The time word comes first, so the verb comes before 'vi'.",
+       "answers": [
+        "vann"
+       ],
+       "explain": "Förra helgen + vann + vi: tidsord först, sedan verbet (inversion). Förra helgen = preteritum.",
+       "explainEn": "Time word first, then the verb (inversion). Past time = preteritum.",
+       "base": "vinna"
+      },
+      {
+       "id": "m2",
+       "type": "mcq",
+       "tags": [
+        "tal.interaktion"
+       ],
+       "q": "Tomas är inte säker på frågan. Vad gör han?",
+       "qEn": "Tomas is not sure about the question. What does he do?",
+       "options": [
+        "Han tiger",
+        "Han frågar: 'Menar du svenska vänner?'",
+        "Han svarar på något annat",
+        "Han ber om en ny fråga"
+       ],
+       "answer": 1,
+       "explain": "'Menar du ...?' är ett bra sätt att kolla frågan och få tänka en sekund.",
+       "explainEn": "'Menar du ...?' checks the question and buys you a second to think."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fraser",
+   "title": "Fraser att låna",
+   "titleEn": "Phrases to borrow",
+   "instructions": "Läs fraserna. Använd minst tre av dem i din egen presentation.",
+   "instructionsEn": "Read the phrases. Use at least three of them in your own answer.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Fraser att låna** (från Amira och Tomas)\n\n| Svenska | English / فارسی |\n|---|---|\n| Alltså, ... / Hmm, vad ska jag säga mer? | Well ... / Hmm, what else should I say? (tänketid) |\n| Jag kommer från ..., men jag har bott här i ... år. | I come from ..., but I have lived here for ... years. |\n| Jag jobbar som ..., eftersom ... | I work as ..., because ... |\n| Förlåt, kan du upprepa? | Sorry, can you repeat? (ببخشید، می‌شود تکرار کنید؟) |\n| Menar du ...? | Do you mean ...? (یعنی ... ؟) |\n| Tre år – nej, förlåt, två år. | Three years – no, sorry, two years. (rätta dig själv) |\n| Och du? / Har du varit i ...? / Spelar du något? | And you? Have you been to ...? Do you play anything? |\n| Förra helgen vann vi ... | Last weekend we won ... (tidsord först, sedan verb) |\n\nMönster: **svara – lägg till en detalj – fråga tillbaka.**",
+     "mdEn": "**Phrases to borrow** (from Amira and Tomas)\n\nPattern: **answer – add a detail – ask back.** Interaction is the biggest part of the Swedex oral score (18 of 40 points). A short, correct answer plus a question back beats a long monologue.\n\nPersian: «Förlåt, kan du upprepa؟» = ببخشید، می‌شود تکرار کنید؟  /  «Menar du ...؟» = یعنی ... ؟",
+     "image": {
+      "src": "steg.svg",
+      "alt": "Tre rutor: svara, lägg till en detalj, fråga tillbaka",
+      "caption": "Svara – detalj – fråga tillbaka"
+     }
+    }
+   ]
+  },
+  {
+   "id": "nudu",
+   "title": "Nu du",
+   "titleEn": "Your turn",
+   "instructions": "Lyssna på testledaren. Svara som i modellsvaren: svara, lägg till en detalj, fråga tillbaka.",
+   "instructionsEn": "Listen to the examiner. Answer like the models: answer, add a detail, ask back.",
+   "items": [
+    {
+     "id": "s1",
+     "type": "speak",
+     "tags": [
+      "tal.berätta",
+      "tal.interaktion"
+     ],
+     "q": "Presentera dig för testledaren.",
+     "maxSeconds": 150,
+     "bullets": [
+      "Namn, ålder och var du kommer ifrån",
+      "Hur länge du har bott i Sverige och var du bor nu",
+      "Arbete eller studier (använd 'eftersom')",
+      "Vad du gjorde förra helgen (preteritum)",
+      "Fråga tillbaka minst en gång"
+     ],
+     "audio": {
+      "id": "e1",
+      "title": "Testledaren frågar",
+      "maxPlays": 2,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Hej och välkommen! Jag heter Anna. Vill du presentera dig? Berätta vem du är, var du kommer ifrån och var du bor. Berätta också lite om ditt arbete eller dina studier, och vad du gör på fritiden."
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

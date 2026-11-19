@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="system-ui, sans-serif"><rect width="600" height="300" fill="#fff"/>
+<text x="300" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#222">Bra svar = tre steg</text>
+<rect x="15" y="60" width="180" height="200" rx="12" fill="#dff1e3" stroke="#555" stroke-width="2"/>
+<text x="105" y="92" font-size="20" font-weight="bold" text-anchor="middle" fill="#222">1. Svara</text>
+<text x="105" y="132" font-size="17" text-anchor="middle" fill="#222">Jag heter Amira.</text>
+<text x="105" y="170" font-size="17" text-anchor="middle" fill="#222">Jag kommer från</text>
+<text x="105" y="208" font-size="17" text-anchor="middle" fill="#222">Syrien.</text>
+<text x="202" y="168" font-size="30" text-anchor="middle" fill="#555">&#8594;</text>
+<rect x="210" y="60" width="180" height="200" rx="12" fill="#fdf0cf" stroke="#555" stroke-width="2"/>
+<text x="300" y="92" font-size="20" font-weight="bold" text-anchor="middle" fill="#222">2. Detalj</text>
+<text x="300" y="132" font-size="17" text-anchor="middle" fill="#222">eftersom jag är</text>
+<text x="300" y="170" font-size="17" text-anchor="middle" fill="#222">undersköterska,</text>
+<text x="300" y="208" font-size="17" text-anchor="middle" fill="#222">men det är tungt</text>
+<text x="397" y="168" font-size="30" text-anchor="middle" fill="#555">&#8594;</text>
+<rect x="405" y="60" width="180" height="200" rx="12" fill="#dde9fb" stroke="#555" stroke-width="2"/>
+<text x="495" y="92" font-size="20" font-weight="bold" text-anchor="middle" fill="#222">3. Fråga tillbaka</text>
+<text x="495" y="132" font-size="17" text-anchor="middle" fill="#222">Och du?</text>
+<text x="495" y="170" font-size="17" text-anchor="middle" fill="#222">Har du varit</text>
+<text x="495" y="208" font-size="17" text-anchor="middle" fill="#222">i Syrien?</text>
+</svg>

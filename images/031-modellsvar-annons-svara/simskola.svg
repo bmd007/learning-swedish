@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="system-ui, Arial, sans-serif">
+<rect width="600" height="400" fill="#fff"/>
+<rect x="10" y="10" width="580" height="380" rx="12" fill="#fff" stroke="#1a7a4c" stroke-width="4"/>
+<rect x="10" y="10" width="580" height="78" rx="12" fill="#1a7a4c"/>
+<rect x="10" y="60" width="580" height="28" fill="#1a7a4c"/>
+<text x="300" y="52" text-anchor="middle" font-size="30" font-weight="bold" fill="#fff">Simskola för vuxna</text>
+<text x="300" y="80" text-anchor="middle" font-size="17" fill="#fff">Simhallen Delfinen, Uppsala</text>
+<text x="40" y="124" font-size="19" fill="#222">Lär dig simma – det är aldrig för sent!</text>
+<text x="40" y="153" font-size="19" fill="#222">8 gånger, måndagar 19.00–20.00</text>
+<text x="40" y="182" font-size="19" fill="#222">Första kursdagen: 8 februari</text>
+<text x="40" y="211" font-size="19" fill="#222">Pris: 1 200 kr</text>
+<text x="40" y="240" font-size="19" fill="#222">I priset: simlärare och entré</text>
+<text x="40" y="269" font-size="19" fill="#222">Pensionärer får 200 kr rabatt</text>
+<text x="40" y="298" font-size="19" fill="#222">Max 8 personer i gruppen</text>
+<rect x="10" y="330" width="580" height="60" rx="12" fill="#f1f1f1"/>
+<text x="300" y="368" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a7a4c">018-555 02 11  |  www.simhallendelfinen.se</text>
+</svg>

@@ -1,0 +1,279 @@
+{
+ "id": "031-modellsvar-annons-svara",
+ "title": "Modellsvar: Svara på frågor om en annons",
+ "titleEn": "Model answers: answering questions about an ad",
+ "mode": "practice",
+ "minutes": 5,
+ "intro": "Swedex muntligt, del 2: du får en annons och 30 sekunder att läsa. Testledaren ställer frågor om annonsen. Du svarar med fakta från annonsen: pris, datum, vad som ingår, rabatt. Ett bra svar är kort men har en detalj. Du läser siffror högt, och du får fråga om du inte förstår. Mest poäng ger interaktionen. Först lyssnar du på två kandidater, sedan gör du det själv.",
+ "introEn": "Swedex oral, part 2: you get an ad and 30 seconds to read it. The examiner asks about it. Answer with facts from the ad (price, dates, what is included, discount). A good answer is short plus one detail. Say numbers aloud and ask if you do not understand. Interaction gives the most points. First listen to two candidates, then do it yourself.",
+ "sections": [
+  {
+   "id": "lyssna",
+   "title": "Lyssna på modellsvar",
+   "titleEn": "Listen to model answers",
+   "instructions": "Lyssna på två kandidater. Läs annonsen medan du lyssnar. Notera: hur svarar de, och vilka fraser använder de?",
+   "instructionsEn": "Listen to two candidates. Read the ad while you listen. Notice how they answer and which phrases they use.",
+   "parts": [
+    {
+     "heading": "Annons 1: Matlagningskurs",
+     "headingEn": "Ad 1: Cooking course",
+     "image": {
+      "src": "matlagning.svg",
+      "alt": "Annons för en matlagningskurs i italienskt kök"
+     },
+     "audio": {
+      "id": "a1",
+      "title": "Marcos svarar om matlagningskursen",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f",
+       "Marcos": "m"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Nu har du läst annonsen. Vad är det för kurs?"
+       },
+       {
+        "speaker": "Marcos",
+        "text": "Det är en matlagningskurs. Man lagar italiensk mat tillsammans med en kock."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Aha. Vad kostar den?"
+       },
+       {
+        "speaker": "Marcos",
+        "text": "Den kostar tusen fyrahundranittiofem kronor."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Och om jag går med min man?"
+       },
+       {
+        "speaker": "Marcos",
+        "text": "Menar du att ni båda går kursen? Då blir det tvåtusen niohundranittio kronor, för priset är per person."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Ja, precis. När börjar kursen?"
+       },
+       {
+        "speaker": "Marcos",
+        "text": "Den börjar torsdagen den fjortonde januari, klockan arton. Och den slutar klockan tjugoett. Det är fyra torsdagar."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Ingår maten?"
+       },
+       {
+        "speaker": "Marcos",
+        "text": "Ja, alla råvaror ingår, och man äter middag tillsammans. Sen får studenter och pensionärer tio procent rabatt."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Skulle du vilja gå kursen?"
+       },
+       {
+        "speaker": "Marcos",
+        "text": "Ja, gärna. Jag tycker om att laga mat, och jag vill träffa nya människor. Men jag jobbar ibland på torsdagar, så det kanske blir svårt."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "q1",
+       "type": "mcq",
+       "tags": [
+        "tal.interaktion"
+       ],
+       "q": "Testledaren säger: 'Och om jag går med min man?' Vad gör Marcos först?",
+       "qEn": "What does Marcos do first?",
+       "options": [
+        "Han svarar med ett pris direkt.",
+        "Han frågar för att förstå frågan.",
+        "Han säger att han inte vet."
+       ],
+       "answer": 1,
+       "explain": "Marcos frågar 'Menar du att ni båda går kursen?'. Det är bra interaktion. Fråga hellre än att gissa.",
+       "explainEn": "He asks 'Do you mean that you both go?'. Good interaction: ask instead of guessing."
+      },
+      {
+       "id": "q2",
+       "type": "gap",
+       "tags": [
+        "ordföljd.bisats",
+        "tal.fraser"
+       ],
+       "q": "Menar du ___ ni båda går kursen?",
+       "qEn": "Do you mean THAT you both go on the course?",
+       "answers": [
+        "att"
+       ],
+       "explain": "'Menar du att + bisats'. I bisatsen står subjektet före verbet: att ni båda går.",
+       "explainEn": "'Menar du att ...' + subject before verb."
+      }
+     ]
+    },
+    {
+     "heading": "Annons 2: Båtresa",
+     "headingEn": "Ad 2: Boat trip",
+     "image": {
+      "src": "batresa.svg",
+      "alt": "Annons för en dagskryssning i Stockholms skärgård"
+     },
+     "audio": {
+      "id": "a2",
+      "title": "Leila svarar om båtresan",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f",
+       "Leila": "f"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Vad är det för resa i annonsen?"
+       },
+       {
+        "speaker": "Leila",
+        "text": "Det är en båtresa i skärgården. Man åker en dag med båten Vega."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Vilken dag går båten, och när kommer den tillbaka?"
+       },
+       {
+        "speaker": "Leila",
+        "text": "Den går på lördagar, från juni till augusti. Den åker klockan tio. Eh … får jag titta en gång till? Jaha, den är tillbaka klockan sjutton."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Vad kostar det?"
+       },
+       {
+        "speaker": "Leila",
+        "text": "Menar du för en person eller för hela familjen?"
+       },
+       {
+        "speaker": "Testledare",
+        "text": "För en familj. Två vuxna och ett barn på sex år."
+       },
+       {
+        "speaker": "Leila",
+        "text": "Okej. En vuxen betalar sexhundranittiofem kronor, och barnet kostar trehundrafemtio. Då blir det tusen sjuhundrafyrtio kronor tillsammans."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Ingår lunch?"
+       },
+       {
+        "speaker": "Leila",
+        "text": "Ja, lunchen ingår, men kaffe och dricka måste man köpa på båten. Och grupper på tio personer eller fler får femton procent rabatt."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Hur bokar jag?"
+       },
+       {
+        "speaker": "Leila",
+        "text": "Man kan ringa noll åtta, femhundrafemtiofem, noll ett, fyrtio. Eller så går man in på hemsidan."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "q3",
+       "type": "gap",
+       "tags": [
+        "tal.fraser"
+       ],
+       "q": "Eh … får jag ___ en gång till?",
+       "base": "titta",
+       "qEn": "May I look once more?",
+       "answers": [
+        "titta",
+        "kolla"
+       ],
+       "explain": "'Får jag titta en gång till?' Du får be om tid. Det är bra B1-språk.",
+       "explainEn": "You may ask for time. That is fine in the exam."
+      },
+      {
+       "id": "q4",
+       "type": "mcq",
+       "tags": [
+        "hör.siffror"
+       ],
+       "q": "Hur mycket betalar familjen tillsammans (2 vuxna + 1 barn)?",
+       "qEn": "How much does the family pay in total?",
+       "options": [
+        "Tusen trehundranittio kronor",
+        "Tvåtusen femtio kronor",
+        "Tusen sjuhundrafyrtio kronor"
+       ],
+       "answer": 2,
+       "explain": "695 + 695 + 350 = 1 740 kr. Läs priset högt: tusen sjuhundrafyrtio.",
+       "explainEn": "695 + 695 + 350 = 1,740."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nu-du",
+   "title": "Fraser och nu du",
+   "titleEn": "Phrases and your turn",
+   "instructions": "Läs fraserna. Titta sedan på den nya annonsen och svara på testledarens frågor. Max 90 sekunder.",
+   "instructionsEn": "Read the phrases. Then look at the new ad and answer the examiner's questions. Max 90 seconds.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Fraser att låna** (använd dem i dina svar)\n\n| Svenska | English | فارسی |\n|---|---|---|\n| Det är en kurs / en resa / ett ... | It is a course / a trip | این یک دوره / سفر است |\n| Den kostar ... kronor per person. | It costs ... per person. | قیمتش ... کرون برای هر نفر است |\n| Den börjar ... och slutar ... | It starts ... and ends ... | شروع می‌شود ... و تمام می‌شود ... |\n| ... ingår i priset. | ... is included. | ... در قیمت شامل است |\n| Man får rabatt om man är ... | You get a discount if ... | تخفیف می‌گیرید اگر ... |\n| Menar du att ...? | Do you mean that ...? | منظورت اینه که ...؟ |\n| Får jag titta en gång till? | May I look once more? | می‌تونم یک بار دیگه نگاه کنم؟ |\n| Ja, gärna, för att jag tycker om ... | Yes, gladly, because I like ... | بله، با کمال میل، چون ... را دوست دارم |\n\n**Tips:** Svara kort + lägg till en detalj. Läs priser och klockslag högt, tydligt. Fråga om du inte förstår.",
+     "image": {
+      "src": "matlagning.svg",
+      "alt": "Annons för en matlagningskurs",
+      "caption": "Svar = kort svar + en detalj"
+     }
+    },
+    {
+     "id": "s1",
+     "type": "speak",
+     "tags": [
+      "tal.interaktion",
+      "tal.annons"
+     ],
+     "q": "Nu du: läs annonsen i 30 sekunder. Lyssna på testledaren och svara på de tre frågorna.",
+     "qEn": "Now you: read the ad for 30 seconds, then answer the three questions.",
+     "maxSeconds": 120,
+     "bullets": [
+      "Vad är det för kurs? När börjar den?",
+      "Vad kostar den? Finns det rabatt?",
+      "Skulle du vilja gå kursen? Varför / varför inte?"
+     ],
+     "image": {
+      "src": "simskola.svg",
+      "alt": "Annons för simskola för vuxna"
+     },
+     "audio": {
+      "id": "e1",
+      "title": "Testledaren ställer tre frågor",
+      "maxPlays": 2,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Nu får du en ny annons. Jag har tre frågor. Först: vad är det för kurs, och när börjar den? Sedan: vad kostar den, och finns det någon rabatt? Och till sist: skulle du vilja gå den här kursen? Varför, eller varför inte?"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
