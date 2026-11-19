@@ -64,13 +64,15 @@ async function home() {
     fetch("/api/progress").then(r => r.ok ? r.json() : {}).catch(() => ({})),
   ]);
   const isExam = l => l.mode !== "practice";
-  const todo = lessons.filter(l => !isExam(l) && !l.attempts);
-  const exams = lessons.filter(isExam);
-  const done = lessons.filter(l => !isExam(l) && l.attempts).reverse();
-  const next = todo[0];
+  const busy = lessons.filter(l => l.inProgress);
+  const todo = lessons.filter(l => !l.attempts && !l.inProgress);
+  const done = lessons.filter(l => l.attempts && !l.inProgress).sort((a, b) => (b.lastDate ?? "").localeCompare(a.lastDate ?? ""));
+  const next = todo.find(l => !isExam(l));
   const days = prog.examDate ? Math.ceil((new Date(prog.examDate) - new Date()) / 86400000) : null;
   let tab = store.get("homeTab", "todo");
+  if (!["todo", "busy", "done"].includes(tab)) tab = "todo";
   let filter = store.get("homeFilter", "all");
+  let kind = store.get("homeKind", "all");
 
   const meter = key => {
     const s = prog.skills?.[key];
@@ -92,12 +94,14 @@ async function home() {
         <h3>${esc(l.title)}</h3>${en(l.titleEn)}
         <div class="muted small">${isExam(l) ? `⏱ ${l.timeLimit ?? l.minutes ?? "?"} min · prov` : `ca ${l.minutes ?? "?"} min`}${l.attempts ? ` · ${l.attempts} försök · ${l.lastScore?.date ?? ""}` : ""}</div>
         ${l.generated && !l.reviewed ? `<span class="badge gen-badge">Lokal modell · inte granskad av Claude</span>` : ""}
+        ${l.inProgress ? `<span class="badge busy-badge">Påbörjad – fortsätt där du slutade</span>` : ""}
+        ${l.attempts && l.teacherGraded && !l.hasFeedback ? `<span class="badge wait-badge">Väntar på lärarens bedömning</span>` : ""}
       </div>
       <div class="lcard-side">
         ${sc != null ? `<div class="score-pill ${scCls}">${l.lastScore.correct}/${l.lastScore.total}</div>` : ""}
         <div class="lcard-btns">
           ${l.hasFeedback ? `<a class="btn secondary sm" href="#/feedback/${l.id}">Feedback</a>` : ""}
-          <a class="btn sm" href="#/lesson/${l.id}">${l.attempts ? "Gör igen" : isExam(l) ? "Starta provet" : "Starta"}</a>
+          <a class="btn sm" href="#/lesson/${l.id}">${l.inProgress ? "Fortsätt" : l.attempts ? "Gör igen" : isExam(l) ? "Starta provet" : "Starta"}</a>
         </div>
       </div>
     </div>`;
@@ -123,10 +127,11 @@ async function home() {
     </section>
     <div class="tabs">
       <button data-tab="todo">Att göra <span class="count">${todo.length}</span></button>
-      <button data-tab="exam">Prov <span class="count">${exams.length}</span></button>
+      <button data-tab="busy">Påbörjade <span class="count">${busy.length}</span></button>
       <button data-tab="done">Klara <span class="count">${done.length}</span></button>
     </div>
-    <div class="filters">${["all", ...Object.keys(SKILLS)].map(k => `<button data-f="${k}">${k === "all" ? "Alla" : SKILLS[k].icon + " " + SKILLS[k].label}</button>`).join("")}</div>
+    <div class="filters kinds">${[["all", "Allt"], ["practice", "📘 Lektioner"], ["exam", "⏱ Prov"]].map(([k, t]) => `<button data-k="${k}">${t}</button>`).join("")}</div>
+    <div class="filters skills">${["all", ...Object.keys(SKILLS)].map(k => `<button data-f="${k}">${k === "all" ? "Alla färdigheter" : SKILLS[k].icon + " " + SKILLS[k].label}</button>`).join("")}</div>
     <div id="list"></div>
     <details class="card gen">
       <summary><b>Skapa en egen lektion</b> <span class="en">Create your own lesson with the local AI model</span></summary>
@@ -142,12 +147,17 @@ async function home() {
   const list = app.querySelector("#list");
   const draw = () => {
     app.querySelectorAll(".tabs button").forEach(b => b.classList.toggle("on", b.dataset.tab === tab));
-    app.querySelectorAll(".filters button").forEach(b => b.classList.toggle("on", b.dataset.f === filter));
-    const src = { todo, exam: exams, done }[tab].filter(l => filter === "all" || l.skills.includes(filter));
-    list.innerHTML = src.length ? src.map(card).join("") : `<p class="muted empty">Inget här just nu.</p>`;
+    app.querySelectorAll(".filters.skills button").forEach(b => b.classList.toggle("on", b.dataset.f === filter));
+    app.querySelectorAll(".filters.kinds button").forEach(b => b.classList.toggle("on", b.dataset.k === kind));
+    const src = { todo, busy, done }[tab]
+      .filter(l => kind === "all" || (kind === "exam") === isExam(l))
+      .filter(l => filter === "all" || l.skills.includes(filter));
+    const hint = { todo: "Inget kvar att göra här.", busy: "Inget påbörjat. Allt du startar sparas och syns här tills du lämnar in.", done: "Inget klart än." }[tab];
+    list.innerHTML = src.length ? src.map(card).join("") : `<p class="muted empty">${hint}</p>`;
   };
   app.querySelectorAll(".tabs button").forEach(b => b.onclick = () => { tab = b.dataset.tab; store.set("homeTab", tab); draw(); });
-  app.querySelectorAll(".filters button").forEach(b => b.onclick = () => { filter = b.dataset.f; store.set("homeFilter", filter); draw(); });
+  app.querySelectorAll(".filters.skills button").forEach(b => b.onclick = () => { filter = b.dataset.f; store.set("homeFilter", filter); draw(); });
+  app.querySelectorAll(".filters.kinds button").forEach(b => b.onclick = () => { kind = b.dataset.k; store.set("homeKind", kind); draw(); });
   draw();
   generatorPanel();
 }
