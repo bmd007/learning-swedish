@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" font-family="system-ui, sans-serif">
+<rect width="600" height="320" fill="#ffffff"/>
+<rect x="20" y="15" width="360" height="290" rx="10" fill="#f7f9fc" stroke="#345" stroke-width="2"/>
+<text x="40" y="50" font-size="20" fill="#123">Hej Maria!</text>
+<text x="40" y="95" font-size="17" fill="#123">Kul att höra av dig. Min lägenhet</text>
+<text x="40" y="120" font-size="17" fill="#123">har tre rum. Du kan sova hos mig.</text>
+<text x="40" y="145" font-size="17" fill="#123">Vi kan äta på Citron på lördag.</text>
+<text x="40" y="170" font-size="17" fill="#123">Kan du komma på fredag?</text>
+<text x="40" y="250" font-size="20" fill="#123">Kram,</text>
+<text x="40" y="280" font-size="20" fill="#123">Mahdi</text>
+<g font-size="18" font-weight="bold" fill="#fff">
+<rect x="410" y="25" width="170" height="40" rx="8" fill="#2a7de1"/><text x="420" y="51">1 Hej + namn</text>
+<rect x="410" y="95" width="170" height="40" rx="8" fill="#2e9e5b"/><text x="420" y="121">2 Alla punkter</text>
+<rect x="410" y="185" width="170" height="40" rx="8" fill="#d9822b"/><text x="420" y="211">3 Kram + namn</text>
+<rect x="410" y="255" width="170" height="40" rx="8" fill="#8e44ad"/><text x="420" y="281">4 Räkna orden</text>
+</g>
+<g stroke-width="3" fill="none"><path d="M380 45H408" stroke="#2a7de1"/><path d="M380 115H408" stroke="#2e9e5b"/><path d="M380 205H408" stroke="#d9822b"/><path d="M380 275H408" stroke="#8e44ad"/></g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="system-ui, sans-serif">
+<rect width="600" height="300" fill="#ffffff"/>
+<text x="300" y="38" font-size="22" font-weight="bold" text-anchor="middle" fill="#123">Kolla verben efteråt</text>
+<rect x="20" y="60" width="270" height="95" rx="10" fill="#eef6ff" stroke="#2a7de1" stroke-width="2"/>
+<text x="35" y="90" font-size="18" font-weight="bold" fill="#123">ska / kan / behöver inte</text>
+<text x="35" y="120" font-size="18" fill="#123">+ verb i grundform</text>
+<text x="35" y="144" font-size="18" fill="#b00">inte att åka</text>
+<rect x="310" y="60" width="270" height="95" rx="10" fill="#eefaf2" stroke="#2e9e5b" stroke-width="2"/>
+<text x="325" y="90" font-size="18" font-weight="bold" fill="#123">min / din + substantiv</text>
+<text x="325" y="120" font-size="18" fill="#123">min lägenhet</text>
+<text x="325" y="144" font-size="18" fill="#b00">min lägenheten</text>
+<rect x="20" y="175" width="270" height="105" rx="10" fill="#fff6ea" stroke="#d9822b" stroke-width="2"/>
+<text x="35" y="205" font-size="18" font-weight="bold" fill="#123">Tid först, verb tvåa</text>
+<text x="35" y="235" font-size="18" fill="#123">I tisdags hade jag möte.</text>
+<text x="35" y="262" font-size="18" fill="#b00">I tisdag jag hade ...</text>
+<rect x="310" y="175" width="270" height="105" rx="10" fill="#f6eefa" stroke="#8e44ad" stroke-width="2"/>
+<text x="325" y="205" font-size="18" font-weight="bold" fill="#123">att + inte + verb</text>
+<text x="325" y="235" font-size="18" fill="#123">att det inte ska bli</text>
+<text x="325" y="262" font-size="18" fill="#b00">att det ska inte bli</text>
+</svg>

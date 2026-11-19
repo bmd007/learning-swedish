@@ -1,0 +1,505 @@
+{
+ "id": "037-skriv-ram-och-former",
+ "title": "Skriv: ram, längd och dina vanliga fel",
+ "titleEn": "Writing: frame, length and your usual errors",
+ "mode": "practice",
+ "minutes": 14,
+ "intro": "Du skriver bra innehåll men glömmer ramen och längden. Här övar du hälsning, avslutning, ordantal och dina vanligaste fel. Sist skriver du ett eget mejl.",
+ "introEn": "Your content is good, but you forget the frame and the length. Here you practise greeting, closing, word count and your usual errors. Last: write your own email.",
+ "sections": [
+  {
+   "id": "ram",
+   "title": "Ramen",
+   "titleEn": "The frame",
+   "instructions": "Välj rätt hälsning och avslutning.",
+   "instructionsEn": "Choose the right greeting and closing.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "image": {
+      "src": "mejl-ram.svg",
+      "alt": "Ett mejl med fyra delar: hälsning, alla punkter, avslutning och antal ord",
+      "caption": "Fyra steg. Gör ramen först."
+     },
+     "md": "**Checklista för varje mejl (4 steg):**\n\n1. **Hej + namn** (kopiera namnet från uppgiften)\n2. **Svara på ALLA punkter**\n3. **Avslutning + ditt namn** (*Kram, Mahdi*)\n4. **Räkna orden** (stanna under gränsen)\n\n*Persian:* بدون «سلام» و «پایان»، متن ناقص است. در Swedex یک صفر در یک معیار = رد شدن در کل تمرین.\n\nIn Swedex, a 0 in any criterion fails the task. Greeting + closing is the cheapest point you can win."
+    },
+    {
+     "id": "r1",
+     "type": "mcq",
+     "tags": [
+      "skriv.ram"
+     ],
+     "q": "Du skriver till en vän. Vilken avslutning passar bäst?",
+     "qEn": "You write to a friend. Which closing fits best?",
+     "options": [
+      "Med vänliga hälsningar, Mahdi Xx",
+      "Högaktningsfullt, Mahdi",
+      "Kram, Mahdi",
+      "Mvh"
+     ],
+     "answer": 2,
+     "explain": "Till en vän: Kram, Hälsningar eller Vi ses snart.",
+     "explainEn": "To a friend: Kram, Hälsningar or Vi ses snart."
+    },
+    {
+     "id": "r2",
+     "type": "mcq",
+     "tags": [
+      "skriv.ram"
+     ],
+     "q": "Uppgiften: \"Svara på mejlet från Maria.\" Vilken hälsning är rätt?",
+     "qEn": "Task: 'Reply to the email from Maria.' Which greeting is right?",
+     "options": [
+      "Hej Maja!",
+      "Hej Marie!",
+      "Hej Maria!",
+      "Hej kära vän!"
+     ],
+     "answer": 2,
+     "explain": "Kopiera namnet exakt från uppgiften.",
+     "explainEn": "Copy the name exactly from the task."
+    },
+    {
+     "id": "r3",
+     "type": "mcq",
+     "tags": [
+      "skriv.ram"
+     ],
+     "q": "Du mejlar tandläkarmottagningen för att boka om en tid. Vilken avslutning passar?",
+     "qEn": "You email the dental clinic to rebook. Which closing fits?",
+     "options": [
+      "Kram, Mahdi",
+      "Med vänliga hälsningar, Mahdi",
+      "Hörs, ba!",
+      "Puss och kram, Mahdi"
+     ],
+     "answer": 1,
+     "explain": "Till jobb och myndigheter: Med vänliga hälsningar (MVH).",
+     "explainEn": "To work and authorities: Med vänliga hälsningar (MVH)."
+    },
+    {
+     "id": "r4",
+     "type": "mcq",
+     "tags": [
+      "skriv.ram"
+     ],
+     "q": "Här är ett mejl: \"Hej Sara! I måndags hade jag ett möte hos tandläkaren. I tisdags hade jag en jobbintervju. På torsdag ska jag gå på bio.\" Vad saknas?",
+     "qEn": "What is missing?",
+     "options": [
+      "En hälsning i början",
+      "Avslutning och ditt namn",
+      "Ett datum",
+      "Ingenting"
+     ],
+     "answer": 1,
+     "explain": "Mejlet har hälsning men slutar utan avslutning och namn.",
+     "explainEn": "The email has a greeting but no closing and no name."
+    },
+    {
+     "id": "r5",
+     "type": "mcq",
+     "tags": [
+      "skriv.ram"
+     ],
+     "q": "När använder du MVH (Med vänliga hälsningar)?",
+     "qEn": "When do you use MVH?",
+     "options": [
+      "Mejl till en vän",
+      "Mejl till ett företag eller en myndighet",
+      "Sms till din syster"
+     ],
+     "answer": 1,
+     "explain": "MVH är formellt. Till vänner: Kram.",
+     "explainEn": "MVH is formal. To friends: Kram."
+    }
+   ]
+  },
+  {
+   "id": "langd",
+   "title": "Längden",
+   "titleEn": "Length",
+   "instructions": "Håll dig till frågorna.",
+   "instructionsEn": "Stick to the questions.",
+   "items": [
+    {
+     "id": "i2",
+     "type": "info",
+     "md": "**Längd:** Swedex del 1 ≈ 50 ord, del 2 ≈ 100 ord. Skriv för mycket och du kan tappa poäng. Klipp bort detaljer som ingen frågar efter (t.ex. vad du köpte, var du köpte det).\n\n*Persian:* به تعداد کلمات توجه کن؛ جزئیات اضافه را حذف کن."
+    },
+    {
+     "id": "l1",
+     "type": "mcq",
+     "tags": [
+      "skriv.längd"
+     ],
+     "q": "Uppgiften frågar: Hur ser ditt område ut? Vilken dag passar? Vilken mat gillar du? Vilken mening kan du ta bort?",
+     "qEn": "Which sentence can you delete?",
+     "options": [
+      "Jag bor nära centrum.",
+      "Fredag passar bäst för mig.",
+      "Jag tycker om pasta och fisk.",
+      "Min soffa köpte jag förra sommaren på IKEA i Kungens kurva."
+     ],
+     "answer": 3,
+     "explain": "Soffan svarar inte på någon fråga. Bort med den!",
+     "explainEn": "The sofa answers no question. Cut it."
+    },
+    {
+     "id": "l2",
+     "type": "mcq",
+     "tags": [
+      "skriv.längd"
+     ],
+     "q": "Hur många ord är det? \"Jag bor i en lägenhet nära centrum.\"",
+     "qEn": "How many words?",
+     "options": [
+      "6",
+      "7",
+      "8"
+     ],
+     "answer": 1,
+     "explain": "Jag(1) bor(2) i(3) en(4) lägenhet(5) nära(6) centrum(7).",
+     "explainEn": "Count each word."
+    },
+    {
+     "id": "l3",
+     "type": "mcq",
+     "tags": [
+      "skriv.längd"
+     ],
+     "q": "Vilken version säger samma sak, men kortare? \"Jag tycker att det är jättebra att du kommer och jag längtar väldigt mycket efter att få träffa dig.\"",
+     "qEn": "Which version says the same, shorter?",
+     "options": [
+      "Kul att du kommer! Jag längtar.",
+      "Jag tycker att det är bra att du kommer.",
+      "Jag längtar efter att få träffa dig väldigt mycket och jättemycket."
+     ],
+     "answer": 0,
+     "explain": "Korta, tydliga meningar är bra. Max: en idé per mening.",
+     "explainEn": "Short, clear sentences are good."
+    }
+   ]
+  },
+  {
+   "id": "substantiv",
+   "title": "Substantiv",
+   "titleEn": "Nouns",
+   "instructions": "Fyll i rätt form.",
+   "instructionsEn": "Fill in the right form.",
+   "items": [
+    {
+     "id": "i3",
+     "type": "info",
+     "md": "**Hook:** *min / din / mitt + substantiv* utan -en/-et: **min lägenhet**, **mitt möte**. *Många / två* + **plural**: *affärer, nätter, filmer*.\n\n*Persian:* مثل «خانهٔ من» – «the» در min هست، دو بار نگذار.\n\n**Plural:** en affär → affärer, en natt → nätter, en film → filmer. Ett möte → möten."
+    },
+    {
+     "id": "n1",
+     "type": "gap",
+     "tags": [
+      "substantiv.form"
+     ],
+     "q": "Jag har just flyttat. Min ___ ligger nära centrum.",
+     "qEn": "My ___ is near the centre.",
+     "base": "lägenhet",
+     "answers": [
+      "lägenhet"
+     ],
+     "explain": "min + substantiv utan -en.",
+     "explainEn": "min + noun without -en."
+    },
+    {
+     "id": "n2",
+     "type": "gap",
+     "tags": [
+      "substantiv.en-ett"
+     ],
+     "q": "Igår hade jag ___ möte med min chef.",
+     "qEn": "I had ___ meeting with my boss.",
+     "base": "en/ett",
+     "answers": [
+      "ett"
+     ],
+     "explain": "Ett möte (ett-ord).",
+     "explainEn": "Ett möte (ett-word)."
+    },
+    {
+     "id": "n3",
+     "type": "gap",
+     "tags": [
+      "substantiv.plural"
+     ],
+     "q": "Man kan gå till många olika ___ varje dag.",
+     "qEn": "",
+     "base": "affär",
+     "answers": [
+      "affärer"
+     ],
+     "explain": "En affär → affärer.",
+     "explainEn": "En affär → affärer."
+    },
+    {
+     "id": "n4",
+     "type": "gap",
+     "tags": [
+      "substantiv.plural"
+     ],
+     "q": "Du kan sova hos mig hur många ___ du vill.",
+     "qEn": "",
+     "base": "natt",
+     "answers": [
+      "nätter"
+     ],
+     "explain": "En natt → nätter (a → ä).",
+     "explainEn": "En natt → nätter (a → ä)."
+    },
+    {
+     "id": "n5",
+     "type": "gap",
+     "tags": [
+      "substantiv.plural"
+     ],
+     "q": "Vi ska titta på två ___ på bio.",
+     "qEn": "",
+     "base": "film",
+     "answers": [
+      "filmer"
+     ],
+     "explain": "En film → filmer.",
+     "explainEn": "En film → filmer."
+    },
+    {
+     "id": "n6",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens"
+     ],
+     "q": "Jag hoppas att båda filmerna är ___.",
+     "qEn": "",
+     "base": "intressant",
+     "answers": [
+      "intressanta"
+     ],
+     "explain": "Plural → -a.",
+     "explainEn": "Plural → -a."
+    },
+    {
+     "id": "n7",
+     "type": "gap",
+     "tags": [
+      "ord.förväxling"
+     ],
+     "q": "Sara lagar jättegod mat. Hon är en bra ___.",
+     "qEn": "",
+     "base": "person som lagar mat",
+     "answers": [
+      "kock"
+     ],
+     "explain": "En kock. Stava: k-o-c-k.",
+     "explainEn": "A cook. Spell: k-o-c-k."
+    }
+   ]
+  },
+  {
+   "id": "verb",
+   "title": "Verb och ordföljd",
+   "titleEn": "Verbs and word order",
+   "instructions": "Grundform, tid och ordföljd.",
+   "instructionsEn": "Infinitive, time words and word order.",
+   "items": [
+    {
+     "id": "i4",
+     "type": "info",
+     "image": {
+      "src": "tre-kontroller.svg",
+      "alt": "Fyra kontroller: grundform efter ska, min + substantiv, tid först, inte före verbet i bisats",
+      "caption": "Kolla dessa efteråt."
+     },
+     "md": "**Verb:** ska / kan / behöver inte / hinner inte + **grundform** (utan *att*). **Tid först → verbet på plats 2.** I **bisats** står *inte* före verbet.\n\n*Persian:* مثل انگلیسی can go, must go – «to» نمی‌آید."
+    },
+    {
+     "id": "v1",
+     "type": "gap",
+     "tags": [
+      "verb.infinitiv"
+     ],
+     "q": "Efter lunch ska jag ___ mina kläder i tvättstugan.",
+     "qEn": "After lunch I will wash my clothes.",
+     "base": "tvätta",
+     "answers": [
+      "tvätta"
+     ],
+     "explain": "ska + grundform (-a).",
+     "explainEn": "ska + infinitive (-a)."
+    },
+    {
+     "id": "v2",
+     "type": "gap",
+     "tags": [
+      "verb.infinitiv"
+     ],
+     "q": "Jag hinner inte ___ idag. Det är rörigt hemma.",
+     "qEn": "I do not have time to clean today.",
+     "base": "städa",
+     "answers": [
+      "städa"
+     ],
+     "explain": "hinner inte + grundform, utan att.",
+     "explainEn": "hinner inte + infinitive, no att."
+    },
+    {
+     "id": "v3",
+     "type": "mcq",
+     "tags": [
+      "verb.infinitiv"
+     ],
+     "q": "Vilken mening är rätt?",
+     "qEn": "Which is correct?",
+     "options": [
+      "Man behöver inte att åka bil.",
+      "Man behöver inte åkar bil.",
+      "Man behöver inte åka bil."
+     ],
+     "answer": 2,
+     "explain": "behöver inte + grundform.",
+     "explainEn": "behöver inte + infinitive."
+    },
+    {
+     "id": "v4",
+     "type": "gap",
+     "tags": [
+      "verb.infinitiv"
+     ],
+     "q": "Du behöver inte ta med något ___ sova här.",
+     "qEn": "You do not need to bring anything to sleep here.",
+     "base": "måndag",
+     "answers": [
+      "för att"
+     ],
+     "explain": "Syfte: för att + verb.",
+     "explainEn": "Purpose: för att + verb."
+    },
+    {
+     "id": "v5",
+     "type": "gap",
+     "tags": [
+      "tid.signalord"
+     ],
+     "q": "I ___ hade jag ett möte med tandläkaren. (Det var i måndags, förra veckan.)",
+     "qEn": "",
+     "base": "måndag",
+     "answers": [
+      "måndags"
+     ],
+     "explain": "Förfluten dag: i måndags (-s).",
+     "explainEn": "Past day: i måndags (-s)."
+    },
+    {
+     "id": "v6",
+     "type": "mcq",
+     "tags": [
+      "tid.signalord"
+     ],
+     "q": "Idag är det onsdag. Tisdag var igår. Jag hade en intervju ___.",
+     "qEn": "Today is Wednesday. Which time word?",
+     "options": [
+      "i morgon",
+      "på tisdag",
+      "i tisdags"
+     ],
+     "answer": 2,
+     "explain": "Förfluten tid: i tisdags. I morgon = nästa dag.",
+     "explainEn": "Past: i tisdags. i morgon = tomorrow."
+    },
+    {
+     "id": "v7",
+     "type": "order",
+     "tags": [
+      "ordföljd.inversion"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "qEn": "Time word first: verb comes second.",
+     "words": [
+      "hade",
+      "I",
+      "jobbintervju",
+      "jag",
+      "tisdags",
+      "en"
+     ],
+     "answers": [
+      "I tisdags hade jag en jobbintervju"
+     ],
+     "explain": "Tid först → hade, sedan jag.",
+     "explainEn": "Time first → verb, then subject."
+    },
+    {
+     "id": "v8",
+     "type": "order",
+     "tags": [
+      "ordföljd.bisats"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "qEn": "In a subordinate clause, inte comes before the verb.",
+     "words": [
+      "tråkigt",
+      "tycker",
+      "Jag",
+      "att",
+      "inte",
+      "bli",
+      "det",
+      "ska"
+     ],
+     "answers": [
+      "Jag tycker att det inte ska bli tråkigt"
+     ],
+     "explain": "I bisats: att det inte ska.",
+     "explainEn": "In a subordinate clause: att det inte ska."
+    }
+   ]
+  },
+  {
+   "id": "skriv",
+   "title": "Skriv ditt mejl",
+   "titleEn": "Write your email",
+   "instructions": "Läs mejlet och svara.",
+   "instructionsEn": "Read the email and reply.",
+   "items": [
+    {
+     "id": "i6",
+     "type": "info",
+     "md": "**Mejl från Elin:**\n\nHej!\n\nHur är det med dig? Berätta lite:\n1. Vad gjorde du i lördags?\n2. Hur är din vecka?\n3. Vad ska du göra i helgen?\n\nKram, Elin"
+    },
+    {
+     "id": "i5",
+     "type": "info",
+     "md": "**Checklista:** Hej + namn → svara på ALLA punkter → Kram + namn → räkna orden (40–70).\nEfter: kolla *att*, *min + substantiv*, tid först → verb 2."
+    },
+    {
+     "id": "w1",
+     "type": "write",
+     "tags": [
+      "skriv.mejl.informell",
+      "skriv.ram",
+      "skriv.längd",
+      "skriv.mejl.svar"
+     ],
+     "minWords": 40,
+     "maxWords": 70,
+     "q": "Svara på mejlet från Elin (cirka 50 ord).",
+     "qEn": "Reply to Elin's email (about 50 words).",
+     "bullets": [
+      "Börja: Hej Elin!",
+      "Berätta vad du gjorde i lördags",
+      "Berätta hur din vecka är",
+      "Berätta vad du ska göra i helgen",
+      "Avsluta: Kram + ditt namn"
+     ],
+     "explain": "Använd checklistan: hälsning, alla punkter, avslutning, räkna orden. Skriv för hand eller på dator.",
+     "explainEn": "Use the checklist: greeting, all points, closing, count words. Handwritten or typed."
+    }
+   ]
+  }
+ ]
+}

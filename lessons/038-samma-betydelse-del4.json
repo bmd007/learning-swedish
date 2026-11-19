@@ -1,0 +1,306 @@
+{
+ "id": "038-samma-betydelse-del4",
+ "title": "Läs del 4: samma sak med andra ord",
+ "titleEn": "Reading part 4: same meaning, other words",
+ "mode": "practice",
+ "minutes": 12,
+ "intro": "I Swedex läsning del 4 är svaret ofta en mening med andra ord. Du valde 0 för snabbt sex gånger av sexton. Här tränar du: ordpar, siffror och enheter, och vanan att leta efter nyckelfakta innan du väljer 0.",
+ "introEn": "In reading part 4 the answer is often a sentence in other words. You chose 0 too fast 6 times out of 16. Here you train word pairs, numbers and units, and the habit of finding key facts before choosing 0.",
+ "sections": [
+  {
+   "id": "samma",
+   "title": "1. Samma sak",
+   "titleEn": "1. Same thing",
+   "instructions": "Vilken mening betyder samma sak? Välj ur listan. Fyra meningar i listan passar inte.",
+   "instructionsEn": "Which sentence means the same? Choose from the list. Four do not fit.",
+   "parts": [
+    {
+     "heading": "Matcha",
+     "headingEn": "Match",
+     "image": {
+      "src": "nyckelord.svg",
+      "alt": "Påstående och textmening med nyckelord som lämnade och flyttade från",
+      "caption": "Samma sak, andra ord"
+     },
+     "options": [
+      "Jag vill koppla av.",
+      "Det är 80 kilometer till Gävle.",
+      "Han flyttade från staden år 2010.",
+      "Vi åker dit många gånger.",
+      "Få kom på mötet.",
+      "Filmen är 30 minuter lång.",
+      "Det är åtta kilometer till Gävle.",
+      "Filmen är en kvart lång.",
+      "Han flyttade till staden år 2010.",
+      "Jag vill arbeta."
+     ],
+     "items": [
+      {
+       "id": "w1",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "ordförråd.synonym"
+       ],
+       "q": "Jag vill vara ledig.",
+       "answer": 0,
+       "explain": "ledig ↔ koppla av. Båda betyder: inte arbeta, vila. Jobb ↔ arbete är också samma sak, men här passar \"koppla av\".",
+       "explainEn": "ledig = free from work = koppla av (relax).",
+       "qEn": "Same meaning?"
+      },
+      {
+       "id": "w2",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "ordförråd.synonym"
+       ],
+       "q": "Han lämnade staden år 2010.",
+       "answer": 2,
+       "explain": "lämnade ↔ flyttade från. \"flyttade till\" är motsatsen: fel riktning.",
+       "explainEn": "lämna = move away from. 'flyttade till' = the opposite."
+      },
+      {
+       "id": "w3",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "ordförråd.synonym"
+       ],
+       "q": "Vi åker dit ofta.",
+       "answer": 3,
+       "explain": "ofta ↔ många gånger. (sällan ↔ inte så ofta är det motsatta paret.)",
+       "explainEn": "ofta = many times."
+      },
+      {
+       "id": "w4",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.siffror"
+       ],
+       "q": "Det är åtta mil till Gävle.",
+       "answer": 1,
+       "explain": "åtta mil = 80 km. 1 mil = 10 kilometer. Obs: svensk mil är INTE engelsk mile. \"åtta kilometer\" är 10 gånger för kort.",
+       "explainEn": "1 Swedish mil = 10 km (not an English mile!). 8 mil = 80 km."
+      },
+      {
+       "id": "w5",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.siffror"
+       ],
+       "q": "Filmen är en halvtimme lång.",
+       "answer": 5,
+       "explain": "en halvtimme ↔ 30 minuter. en kvart = 15 minuter. (Ett dygn = 24 timmar.)",
+       "explainEn": "halvtimme = 30 min, kvart = 15 min, dygn = 24 h."
+      },
+      {
+       "id": "w6",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "ordförråd.synonym"
+       ],
+       "q": "Inte många kom på mötet.",
+       "answer": 4,
+       "explain": "inte många ↔ få. Negationen flyttar in i ordet: inte många = få.",
+       "explainEn": "inte många = få (few)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vana",
+   "title": "2. Innan du väljer 0",
+   "titleEn": "2. Before you choose 0",
+   "instructions": "Läs kortet. Det tar en minut.",
+   "instructionsEn": "Read the card.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Innan du väljer 0 – 3 steg**\n\n1. **Markera 2 nyckelfakta i påståendet:** vem/vad + siffra, tid eller plats.\n2. **Sök båda i texten – även med andra ord.** *lämnade = flyttade från*, *ledig = koppla av*, *mer sällan = inte så ofta*, *åtta mil = 80 km*, *en halvtimme = 30 minuter*.\n3. **Välj 0 bara om en nyckelfakta saknas eller är annorlunda** (annan siffra, annan person, motsatsen).\n\n**Läs hela påståendet till punkt.** Se upp för ord som liknar engelska: *mil* ≠ *mile* (1 mil = 10 km). Läs ordet, inte bara första bokstäverna.\n\n*English:* Mark 2 key facts (who/what + number/time/place). Find each in the text, even in other words. Choose 0 only if a key fact is missing or different. Read to the end of the statement. Careful: *mil* = 10 km.\n\n*Persiska:* دو واقعیت کلیدی را در جمله علامت بزن (چه کسی/چه چیزی + عدد/زمان/مکان). هر دو را در متن پیدا کن، حتی با کلمه‌های دیگر. فقط وقتی «۰» را انتخاب کن که یکی از آن‌ها در متن نباشد یا فرق داشته باشد. *mil* = ۱۰ کیلومتر."
+    }
+   ]
+  },
+  {
+   "id": "delA",
+   "title": "3. Del 4: biblioteket",
+   "titleEn": "3. Part 4: the library",
+   "instructions": "Läs texten. Vilken mening säger samma sak som påståendet? Välj numret. Välj 0 om ingen mening passar. Bara ett påstående ska ha 0.",
+   "instructionsEn": "Which sentence says the same? Choose the number, or 0.",
+   "parts": [
+    {
+     "heading": "Fråga 1–5",
+     "headingEn": "Questions 1–5",
+     "passageTitle": "Ett nytt bibliotek",
+     "passage": "(1) Stadsbiblioteket i Norrköping har öppnat efter en stor renovering. (2) Det ligger fortfarande mitt i centrum, bara fem minuter från tågstationen. (3) Många tror att man bara kan låna böcker på ett bibliotek, men det stämmer inte längre. (4) Här kan man också låna verktyg, spel och till och med symaskiner. (5) Det finns en ny barnavdelning där barnen får sitta på stora kuddar och lyssna när någon läser högt. (6) På måndagar och onsdagar har biblioteket öppet till klockan 20, så även de som arbetar heltid hinner komma. (7) Om du vill läsa tidningar kan du göra det gratis i caféet på nedre våningen. (8) Biblioteket ordnar också språkcafé varje torsdag, där man kan träna svenska tillsammans med andra.",
+     "options": [
+      "0 – ingen mening i texten",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+     ],
+     "items": [
+      {
+       "id": "a1",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.detalj"
+       ],
+       "q": "Biblioteket ligger nära tågstationen.",
+       "answer": 2,
+       "explain": "Mening 2: \"Det ligger fortfarande mitt i centrum, bara fem minuter från tågstationen.\" Ordpar: nära ↔ bara fem minuter från.",
+       "explainEn": "nära = only five minutes from."
+      },
+      {
+       "id": "a2",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.detalj"
+       ],
+       "q": "Vissa kvällar stänger biblioteket klockan åtta.",
+       "answer": 6,
+       "explain": "Mening 6: \"På måndagar och onsdagar har biblioteket öppet till klockan 20 …\" Ordpar: vissa kvällar ↔ måndagar och onsdagar; klockan åtta ↔ klockan 20 (kl. 20 = åtta på kvällen).",
+       "explainEn": "20:00 = 8 pm."
+      },
+      {
+       "id": "a3",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.detalj"
+       ],
+       "q": "Man måste betala för att få ett lånekort.",
+       "answer": 0,
+       "explain": "Rätt svar: 0. Texten nämner inte lånekort eller avgift. Mening 7 säger \"gratis\" om tidningar, men det är en annan sak.",
+       "explainEn": "Not in the text. Sentence 7 is about newspapers, not the card."
+      },
+      {
+       "id": "a4",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.detalj"
+       ],
+       "q": "Man kan öva sin svenska på biblioteket en gång i veckan.",
+       "answer": 8,
+       "explain": "Mening 8: \"Biblioteket ordnar också språkcafé varje torsdag, där man kan träna svenska …\" Ordpar: öva ↔ träna; en gång i veckan ↔ varje torsdag.",
+       "explainEn": "öva = träna; once a week = every Thursday."
+      },
+      {
+       "id": "a5",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.detalj"
+       ],
+       "q": "Tidningar kan man läsa gratis i caféet.",
+       "answer": 7,
+       "explain": "Mening 7: \"Om du vill läsa tidningar kan du göra det gratis i caféet på nedre våningen.\" Nästan samma ord: gratis, caféet, läsa tidningar.",
+       "explainEn": "Almost the same words."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "delB",
+   "title": "4. Del 4: den nya bussen",
+   "titleEn": "4. Part 4: the new bus",
+   "instructions": "Samma uppgift. Markera två nyckelfakta i varje påstående först.",
+   "instructionsEn": "Same task. Mark two key facts in each statement first.",
+   "parts": [
+    {
+     "heading": "Fråga 6–10",
+     "headingEn": "Questions 6–10",
+     "passageTitle": "Ny busslinje",
+     "passage": "(1) Från och med augusti går en ny busslinje mellan Hedby och Storsjö. (2) Linje 14 ersätter den gamla linjen 9, som många tyckte gick för sällan. (3) Bussen kommer nu var tjugonde minut under rusningstid, alltså på morgonen och sen eftermiddag. (4) På kvällar och helger går den en gång i timmen. (5) Hela resan tar en halvtimme, men med bil tar den cirka femton minuter. (6) Avståndet mellan orterna är ungefär två mil. (7) Biljetten kostar lika mycket som för andra bussar i kommunen, och barn under sju år åker gratis. (8) Kommunen hoppas att fler lämnar bilen hemma och att det blir mindre trafik i centrum.",
+     "options": [
+      "0 – ingen mening i texten",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+     ],
+     "items": [
+      {
+       "id": "b1",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.detalj"
+       ],
+       "q": "Resan med bussen tar trettio minuter.",
+       "answer": 5,
+       "explain": "Mening 5: \"Hela resan tar en halvtimme …\" Ordpar: trettio minuter ↔ en halvtimme; resan med bussen ↔ hela resan. (Bilen tar femton minuter – det är fällan.)",
+       "explainEn": "30 minutes = half an hour. Careful: the car takes 15 min."
+      },
+      {
+       "id": "b2",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.detalj"
+       ],
+       "q": "Orterna ligger tjugo kilometer från varandra.",
+       "answer": 6,
+       "explain": "Mening 6: \"Avståndet mellan orterna är ungefär två mil.\" Ordpar: tjugo kilometer ↔ två mil (1 mil = 10 km); ligger ... från varandra ↔ avståndet mellan orterna.",
+       "explainEn": "2 mil = 20 km."
+      },
+      {
+       "id": "b3",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.detalj"
+       ],
+       "q": "Många tyckte inte att den gamla bussen gick tillräckligt ofta.",
+       "answer": 2,
+       "explain": "Mening 2: \"… linjen 9, som många tyckte gick för sällan.\" Ordpar: inte tillräckligt ofta ↔ för sällan.",
+       "explainEn": "too rarely = not often enough."
+      },
+      {
+       "id": "b4",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.detalj"
+       ],
+       "q": "Barn som är yngre än sju år behöver inte betala.",
+       "answer": 7,
+       "explain": "Mening 7: \"… barn under sju år åker gratis.\" Ordpar: yngre än sju ↔ under sju; behöver inte betala ↔ gratis.",
+       "explainEn": "under seven = younger than seven; free = no need to pay."
+      },
+      {
+       "id": "b5",
+       "type": "select",
+       "tags": [
+        "läs.parafras",
+        "läs.detalj"
+       ],
+       "q": "Man kan ta med sin cykel på bussen.",
+       "answer": 0,
+       "explain": "Rätt svar: 0. Texten säger inget om cyklar. Mening 8 handlar om bilar, inte cyklar.",
+       "explainEn": "Bikes are not mentioned."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

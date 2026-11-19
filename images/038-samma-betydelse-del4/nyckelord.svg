@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="system-ui, sans-serif">
+<rect width="640" height="340" fill="#ffffff"/>
+<text x="20" y="32" font-size="20" font-weight="bold" fill="#222">Innan du väljer 0: hitta nyckelorden</text>
+<rect x="20" y="50" width="600" height="70" rx="10" fill="#f3f6ff" stroke="#4a6fd0" stroke-width="2"/>
+<text x="34" y="76" font-size="16" fill="#555">Påstående</text>
+<text x="34" y="104" font-size="20" fill="#222">Många <tspan font-weight="bold" fill="#c0392b">lämnade</tspan> landsbygden <tspan font-weight="bold" fill="#1e8449">på 1960-talet</tspan>.</text>
+<line x1="150" y1="120" x2="150" y2="205" stroke="#c0392b" stroke-width="3"/>
+<polygon points="150,212 143,198 157,198" fill="#c0392b"/>
+<line x1="470" y1="120" x2="470" y2="205" stroke="#1e8449" stroke-width="3"/>
+<polygon points="470,212 463,198 477,198" fill="#1e8449"/>
+<rect x="20" y="215" width="600" height="70" rx="10" fill="#fffaf0" stroke="#d68910" stroke-width="2"/>
+<text x="34" y="241" font-size="16" fill="#555">Mening (5) i texten</text>
+<text x="34" y="269" font-size="20" fill="#222">På 1960-talet <tspan font-weight="bold" fill="#1e8449">växte städerna</tspan>. Många <tspan font-weight="bold" fill="#c0392b">flyttade från</tspan> landsbygden.</text>
+<text x="20" y="318" font-size="17" fill="#222">lämnade = flyttade från  |  Tid och plats stämmer  →  välj meningen, inte 0</text>
+</svg>

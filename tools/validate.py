@@ -123,6 +123,8 @@ def check(path):
                             err(f"{where}: answer '{a}' does not use exactly the given words")
                 if t == "draw" and not (it.get("map") or {}).get("src"):
                     err(f"{where}: draw item needs map: {{src, alt}}")
+                if t == "order" and " ".join(it.get("words", [])).lower() in [a.lower() for a in it.get("answers", [])]:
+                    err(f"{where}: order words are already in the answer order – shuffle them")
                 if t in ("write", "speak", "draw") and not it.get("q"):
                     err(f"{where}: needs q")
                 if it.get("audio"):
