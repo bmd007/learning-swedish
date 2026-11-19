@@ -1,0 +1,81 @@
+{
+  "lessonId": "002-skriva-tala",
+  "attemptId": "2026-11-19T16-15-33-650Z",
+  "final": true,
+  "mode": "exam",
+  "startedAt": "2026-11-19T16:16:01.884Z",
+  "finishedAt": "2026-11-19T17:54:49",
+  "durationMin": 39,
+  "currentSection": "tala-1",
+  "sectionMinutes": {
+    "skriva-1": 18,
+    "skriva-2": 20.6
+  },
+  "audioPlays": {},
+  "firstTry": {},
+  "flags": [],
+  "score": {},
+  "items": [
+    {
+      "id": "s1",
+      "section": "skriva-1",
+      "type": "write",
+      "tags": [
+        "skriv.mejl.svar"
+      ],
+      "prompt": "Skriv ditt svar till Maria.",
+      "given": null,
+      "expected": null,
+      "correct": null,
+      "images": [
+        "002-skriva-tala__s1__20261119-173401-392057.jpg"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "skriva-2",
+      "type": "write",
+      "tags": [
+        "skriv.kalender",
+        "verb.preteritum",
+        "verb.futurum"
+      ],
+      "prompt": "Skriv till din vän om veckan.",
+      "given": null,
+      "expected": null,
+      "correct": null,
+      "images": [
+        "002-skriva-tala__s2__20261119-175433-927451.jpg"
+      ]
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "state": {
+    "step": 2,
+    "answers": {},
+    "plays": {},
+    "sectionTime": {
+      "skriva-1": 1082.9950000000001,
+      "skriva-2": 1233.5240000000001,
+      "tala-1": 6.974,
+      "tala-3": 2.121,
+      "tala-2": 1.9929999999999999
+    },
+    "startedAt": 1795104961884,
+    "attemptId": "2026-11-19T16-15-33-650Z",
+    "flags": {},
+    "marks": {},
+    "updatedAt": 1795107288890,
+    "lastStep": 2,
+    "uploads": {
+      "s1": [
+        "002-skriva-tala__s1__20261119-173401-392057.jpg"
+      ],
+      "s2": [
+        "002-skriva-tala__s2__20261119-175433-927451.jpg"
+      ]
+    }
+  },
+  "savedAt": "2026-11-19T17:54:49",
+  "note": "Writing only. Speaking parts moved to lesson 036-tala-swedex (learner skipped them for now)."
+}
