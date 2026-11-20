@@ -144,3 +144,9 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 
 ## 2026-11-19 – Exam booked
 - Learner has booked Swedex A2B1, Göteborg, **2026-12-04** (confirmed booking, not waiting list). 15 days left.
+
+## 2026-11-20 – Rivstart word list = vocabulary target
+
+- Learner added the Rivstart B1/B2 Ordlista PDF ("the words we are supposed to learn"). Learner: "half of the book is B1".
+- Decision: chapters 1–9 (≈2800 unique words) are the B1 target vocabulary; ch. 10 borderline; 11–18 = B2, not a goal.
+  Parsed to `materials/ordlista/rivstart-b1b2.json` (private). Lessons should prefer these words.

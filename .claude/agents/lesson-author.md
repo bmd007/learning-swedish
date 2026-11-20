@@ -22,6 +22,9 @@ Then:
   or a Rivstart ch. 7–10 track, transcribe it, and ask questions only about what the transcript clearly says.
   For TTS dialogues follow the "sound like B1 speech" rules (length, spoken words, distractors, paraphrase).
 - If the lesson has TTS audio: `.venv/bin/python tools/build_audio.py lessons/<file>`.
+- Vocabulary: the target words are the Rivstart B1/B2 word list, `materials/ordlista/rivstart-b1b2.json`
+  (`[{chapter, page, sv, forms, en}]`). B1 = chapters 1–9 (10 at most). Prefer these words in lessons; avoid
+  ch. 11–18 words unless the topic needs them. Private: never copy the list into a committed file wholesale.
 - Do not edit `server.py`, `web/`, or `tools/`. If the format can't express something, say so in your report.
 - Do not commit; the lead teacher reviews and commits.
 
