@@ -243,3 +243,11 @@
 - Top 3: letter frame + word limit; noun forms (min + noun, plural, en/ett); verb after modal-like verbs (no *att*, infinitive) + time-word errors.
 - Feedback: feedback/002-skriva-tala__20261119-175433.md
 - Next step: short writing practice (exam 50/100 words) with a frame checklist (Hej name ... Kram), word count, noun endings + "ska/behöver inte + infinitive" gap drill; then another handwritten email under time (exam 2026-12-04).
+
+## 2026-11-20 – Collocation lessons 039–042
+
+- Learner asked for small lessons on which adjectives go with which nouns (daily talk + speaking test).
+- 039 människor, 040 väder/mat, 041 hem/jobb/stan, 042 åsikter (del 3 words). Each: 10 choose-the-word (English-trap
+  distractors), 6 gap forms, TTS dialogue + 3 listening items, table sv/en/fa, Swedex-style speak item.
+- Audio: edge + Chatterbox, Whisper check 0–2 %. Tags: ordförråd.kollokation, adjektiv.kongruens.
+- Next: grade whatever the learner does (026, 028, 036, 037, 039–042 speak items).

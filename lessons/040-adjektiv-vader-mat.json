@@ -1,0 +1,462 @@
+{
+ "id": "040-adjektiv-vader-mat",
+ "title": "Ord som hör ihop: väder, mat och dryck",
+ "titleEn": "Words that go together: weather, food and drink",
+ "mode": "practice",
+ "minutes": 9,
+ "intro": "Vi säger *kraftigt regn*, inte *tungt regn*, och *starkt kaffe*, inte *hårt kaffe*. Rätt adjektiv med rätt substantiv gör att du låter naturlig i samtal och på Swedex muntliga del.",
+ "introEn": "We say 'kraftigt regn' (not 'tungt'), 'starkt kaffe' (not 'hårt'). Right adjective + noun sounds natural in conversation and in the Swedex speaking test.",
+ "sections": [
+  {
+   "id": "ord",
+   "title": "Del 1: Vilket ord passar?",
+   "titleEn": "Part 1: Which word fits?",
+   "instructions": "Välj det adjektiv som en svensk skulle säga.",
+   "instructionsEn": "Choose the adjective a Swede would say.",
+   "items": [
+    {
+     "id": "s0",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "I november är vädret ofta ___ och grått, men sällan riktigt kallt.",
+     "qEn": "In November the weather is often mild and grey.",
+     "options": [
+      "mjukt",
+      "milt",
+      "svagt"
+     ],
+     "answer": 1,
+     "explain": "Milt väder = inte kallt, inte varmt.",
+     "explainEn": "milt väder = mild weather, not 'soft'.",
+     "image": {
+      "src": "vader.svg",
+      "alt": "Kraftigt regn, hård vind, klar himmel och halt väglag"
+     }
+    },
+    {
+     "id": "s1",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "I natt var det ___ regn och många källare blev översvämmade.",
+     "qEn": "Last night there was heavy rain.",
+     "options": [
+      "tungt",
+      "starkt",
+      "kraftigt"
+     ],
+     "answer": 2,
+     "explain": "Kraftigt regn. English 'heavy rain' ≠ tungt regn.",
+     "explainEn": "heavy rain = kraftigt regn."
+    },
+    {
+     "id": "s2",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Det blåser mycket i dag. Det är en ___ vind.",
+     "qEn": "It is a strong wind today.",
+     "options": [
+      "hård",
+      "hög",
+      "tung"
+     ],
+     "answer": 0,
+     "explain": "Hård vind (eller stark vind). Inte 'tung vind'.",
+     "explainEn": "hård/stark vind."
+    },
+    {
+     "id": "s3",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Det var ___ väglag i morse, så kör försiktigt.",
+     "qEn": "Slippery road conditions.",
+     "options": [
+      "hal",
+      "halt",
+      "slätt"
+     ],
+     "answer": 1,
+     "explain": "Väglag är ett ett-ord → halt väglag. (En hal väg.)",
+     "explainEn": "väglag = ett-word → halt."
+    },
+    {
+     "id": "s4",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Det var en ___ himmel utan ett enda moln.",
+     "qEn": "A clear sky without a single cloud.",
+     "options": [
+      "klar",
+      "ren",
+      "tydlig"
+     ],
+     "answer": 0,
+     "explain": "En klar himmel = inga moln.",
+     "explainEn": "klar himmel = clear sky."
+    },
+    {
+     "id": "s5",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Jag köpte ___ frukt på torget i morse.",
+     "qEn": "I bought fresh fruit.",
+     "options": [
+      "frisk",
+      "ny",
+      "färsk"
+     ],
+     "answer": 2,
+     "explain": "Färsk frukt/fisk/bröd. Frisk = inte sjuk.",
+     "explainEn": "färsk = fresh; frisk = healthy."
+    },
+    {
+     "id": "s6",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Jag dricker bara ___ kaffe. Det ska smaka riktigt mycket.",
+     "qEn": "I only drink strong coffee.",
+     "options": [
+      "starkt",
+      "hårt",
+      "tungt"
+     ],
+     "answer": 0,
+     "explain": "Starkt kaffe. Kaffe är ett ett-ord → starkt.",
+     "explainEn": "strong coffee = starkt kaffe."
+    },
+    {
+     "id": "s7",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Jag är inte så hungrig. Jag tar bara en ___ lunch, kanske en sallad.",
+     "qEn": "A light lunch.",
+     "options": [
+      "svag",
+      "lätt",
+      "tunn"
+     ],
+     "answer": 1,
+     "explain": "En lätt lunch / en lätt måltid = inte så mycket mat.",
+     "explainEn": "light meal = lätt lunch/måltid."
+    },
+    {
+     "id": "s8",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Jag tål inte stark mat. Kan jag få en ___ sås i stället?",
+     "qEn": "Spicy food vs mild food.",
+     "options": [
+      "svag",
+      "lätt",
+      "mild"
+     ],
+     "answer": 2,
+     "explain": "Stark mat ↔ mild mat.",
+     "explainEn": "stark ↔ mild."
+    },
+    {
+     "id": "s9",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Den här frågan är mycket ___. Jag vet inte svaret.",
+     "qEn": "This question is very hard.",
+     "options": [
+      "hård",
+      "svår",
+      "tung"
+     ],
+     "answer": 1,
+     "explain": "En svår fråga. Hård = hard som sten.",
+     "explainEn": "hard question = svår fråga."
+    }
+   ]
+  },
+  {
+   "id": "form",
+   "title": "Del 2: Rätt form",
+   "titleEn": "Part 2: The right form",
+   "instructions": "Skriv adjektivet i rätt form. Titta först på en / ett / plural.",
+   "instructionsEn": "Write the adjective in the right form. Look at en / ett / plural first.",
+   "items": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "Vi fick ett ___ regn i går.",
+     "qEn": "We had heavy rain yesterday.",
+     "base": "kraftig",
+     "answers": [
+      "kraftigt"
+     ],
+     "explain": "regn = ett-ord → kraftigt."
+    },
+    {
+     "id": "g2",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "I morse var det ___ väglag.",
+     "qEn": "This morning the roads were slippery.",
+     "base": "hal",
+     "answers": [
+      "halt"
+     ],
+     "explain": "väglag = ett-ord → halt."
+    },
+    {
+     "id": "g3",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "De ___ jordgubbarna smakar underbart.",
+     "qEn": "The fresh strawberries taste wonderful.",
+     "base": "färsk",
+     "answers": [
+      "färska"
+     ],
+     "explain": "De + plural → +a."
+    },
+    {
+     "id": "g4",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "Efter middagen var vi alla ___.",
+     "qEn": "After dinner we were all full.",
+     "base": "mätt",
+     "answers": [
+      "mätta"
+     ],
+     "explain": "Plural → mätta."
+    },
+    {
+     "id": "g5",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "Jag älskar ___ kaffe på morgonen.",
+     "qEn": "I love strong coffee in the morning.",
+     "base": "stark",
+     "answers": [
+      "starkt"
+     ],
+     "explain": "kaffe = ett-ord → starkt."
+    },
+    {
+     "id": "g6",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "Det är ___ väder i december i år.",
+     "qEn": "The weather is mild this December.",
+     "base": "mild",
+     "answers": [
+      "milt"
+     ],
+     "explain": "väder = ett-ord → milt."
+    }
+   ]
+  },
+  {
+   "id": "lyssna",
+   "title": "Del 3: Lyssna",
+   "titleEn": "Part 3: Listen",
+   "instructions": "Lyssna på samtalet. Svara på frågorna.",
+   "instructionsEn": "Listen to the conversation and answer.",
+   "parts": [
+    {
+     "heading": "Samtal",
+     "headingEn": "Conversation",
+     "audio": {
+      "id": "d1",
+      "title": "Lunch på jobbet",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Sara": "f",
+       "Johan": "m"
+      },
+      "script": [
+       {
+        "speaker": "Sara",
+        "text": "Oj, vilket väder! Det var kraftigt regn hela natten."
+       },
+       {
+        "speaker": "Johan",
+        "text": "Ja, och nu är det hård vind också. Vägarna är säkert hala."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Jag tog bussen. Det var halt väglag, så jag vågade inte cykla."
+       },
+       {
+        "speaker": "Johan",
+        "text": "Klokt. Ska vi äta lunch? Jag är jättehungrig."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Gärna! Jag tar bara en lätt lunch, kanske en sallad. Och du?"
+       },
+       {
+        "speaker": "Johan",
+        "text": "Jag vill ha något varmt, men inte för starkt. Jag tål inte stark mat."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Då tar vi soppan. Den är god och mild."
+       },
+       {
+        "speaker": "Johan",
+        "text": "Perfekt! Och sen en kopp starkt kaffe."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "l1",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+       ],
+       "q": "Vilket ord använde Sara om regnet?",
+       "options": [
+        "tungt",
+        "starkt",
+        "kraftigt"
+       ],
+       "answer": 2,
+       "explain": "'Det var kraftigt regn hela natten.'"
+      },
+      {
+       "id": "l2",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+       ],
+       "q": "Vilket ord använde Johan om vinden?",
+       "options": [
+        "hård",
+        "hög",
+        "tung"
+       ],
+       "answer": 0,
+       "explain": "'Nu är det hård vind också.'"
+      },
+      {
+       "id": "l3",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+       ],
+       "q": "Vilket ord använde Sara om sin lunch?",
+       "options": [
+        "färsk",
+        "lätt",
+        "mild"
+       ],
+       "answer": 1,
+       "explain": "'Jag tar bara en lätt lunch.'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lista",
+   "title": "Del 4: Ord som hör ihop",
+   "titleEn": "Part 4: Words that go together",
+   "instructions": "Läs listan. Läs den högt en gång.",
+   "instructionsEn": "Read the list. Read it aloud once.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Ord som hör ihop – väder, mat och dryck**\n\n| Svenska | English | فارسی |\n|---|---|---|\n| kallt / milt / blåsigt väder | cold / mild / windy weather | هوای سرد / ملایم / بادی |\n| kraftigt regn | heavy rain | باران شدید |\n| hård vind | strong wind | باد شدید |\n| halt väglag | slippery roads | جاده لغزنده |\n| en klar himmel | a clear sky | آسمان صاف |\n| färsk frukt | fresh fruit | میوه تازه |\n| starkt kaffe | strong coffee | قهوه پررنگ |\n| stark / mild mat | spicy / mild food | غذای تند / ملایم |\n| en lätt lunch | a light lunch | ناهار سبک |\n| en god middag | a tasty dinner | شام خوشمزه |\n| varm choklad | hot chocolate | شکلات داغ |\n| mätt / hungrig | full / hungry | سیر / گرسنه |\n\n**Engelska fällor:** *heavy rain* = **kraftigt** regn (inte *tungt*). *Strong wind* = **hård** eller stark vind. *A light meal* = en **lätt** måltid. *A hard question* = en **svår** fråga (hård = som sten).\n\n**Persiska:** «باران سنگین» وجود ندارد: سوئدی‌ها می‌گویند *kraftigt regn*.",
+     "image": {
+      "src": "mat.svg",
+      "alt": "Starkt kaffe, en lätt lunch, stark mat och färsk frukt"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tala",
+   "title": "Del 5: Tala",
+   "titleEn": "Part 5: Speak",
+   "instructions": "Lyssna på frågan och svara. Använd ord från lektionen.",
+   "instructionsEn": "Listen to the question and answer. Use words from the lesson.",
+   "items": [
+    {
+     "id": "t1",
+     "type": "speak",
+     "tags": [
+      "tal.beskriva",
+      "ordförråd.kollokation"
+     ],
+     "q": "Väder och mat – Sverige och ditt hemland",
+     "qEn": "Weather and food – Sweden and your home country",
+     "maxSeconds": 180,
+     "bullets": [
+      "Hur är vädret där du kommer ifrån? Och i Sverige?",
+      "Hur är maten? Stark eller mild? Vad äter ni ofta?",
+      "Vad är bäst, tycker du, och varför?",
+      "Använd minst tre ord från lektionen (till exempel kraftigt regn, starkt kaffe, färsk frukt)."
+     ],
+     "audio": {
+      "id": "t1a",
+      "maxPlays": 2,
+      "strict": false,
+      "speakers": {
+       "Testledare": "m"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Hur är vädret och maten där du kommer ifrån jämfört med Sverige? Berätta vad som är lika och vad som är olika."
+       }
+      ]
+     },
+     "image": {
+      "src": "vader.svg",
+      "alt": "Väder"
+     }
+    }
+   ]
+  }
+ ]
+}

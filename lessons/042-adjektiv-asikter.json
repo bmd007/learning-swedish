@@ -1,0 +1,440 @@
+{
+  "id": "042-adjektiv-asikter",
+  "title": "Ord som hör ihop: att säga vad man tycker",
+  "titleEn": "Words that go together: giving your opinion",
+  "mode": "practice",
+  "minutes": 9,
+  "intro": "När du säger vad du tycker behöver du ord som hör ihop: en stor fördel, ett svårt beslut, en rimlig lösning. De låter naturliga i Swedex muntligt del 3 och i en insändare. Ofta är de inte en direkt översättning från engelska.",
+  "introEn": "When you give an opinion you need word pairs: en stor fördel, ett svårt beslut, en rimlig lösning. They sound natural in Swedex oral part 3 and in a letter to the editor. They are often not direct translations from English.",
+  "sections": [
+    {
+      "id": "ord",
+      "title": "Del 1: Vilket ord passar?",
+      "titleEn": "Part 1: Which word fits?",
+      "instructions": "Välj det adjektiv som en svensk skulle säga.",
+      "instructionsEn": "Choose the adjective a Swede would say.",
+      "image": {
+        "src": "for-och-emot.svg",
+        "alt": "En våg: en stor fördel mot en stor nackdel"
+      },
+      "items": [
+        {
+          "id": "v1",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Det finns en ___ skillnad mellan att bo i stan och på landet.",
+          "qEn": "There is a big difference between living in the city and in the countryside.",
+          "options": [
+            "stark",
+            "stor",
+            "hög"
+          ],
+          "answer": 1,
+          "explain": "en stor skillnad.",
+          "explainEn": "A difference is stor (big)."
+        },
+        {
+          "id": "v2",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Att flytta till ett nytt land är ett ___ beslut.",
+          "qEn": "Moving to a new country is a hard decision.",
+          "options": [
+            "svårt",
+            "hårt",
+            "djupt"
+          ],
+          "answer": 0,
+          "explain": "ett svårt beslut. Hård = som sten. Svår = difficult.",
+          "explainEn": "svår = difficult. hård = hard like stone."
+        },
+        {
+          "id": "v3",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Vad ska vi göra med skolmaten? Det är en ___ fråga.",
+          "qEn": "It is an important question.",
+          "options": [
+            "tung",
+            "hög",
+            "viktig"
+          ],
+          "answer": 2,
+          "explain": "en viktig fråga.",
+          "explainEn": "viktig = important."
+        },
+        {
+          "id": "v4",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Vi kan åka tåg i stället för flyg. Det är en ___ idé!",
+          "qEn": "That is a good idea.",
+          "options": [
+            "bra",
+            "stark",
+            "snygg"
+          ],
+          "answer": 0,
+          "explain": "en bra idé.",
+          "explainEn": "en bra idé = a good idea."
+        },
+        {
+          "id": "v5",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Han skickade mejlet till fel person. Det var ett ___ misstag.",
+          "qEn": "That was a big mistake.",
+          "options": [
+            "högt",
+            "tungt",
+            "stort"
+          ],
+          "answer": 2,
+          "explain": "ett stort misstag. Engelska big mistake → stort misstag (rätt!).",
+          "explainEn": "stort misstag = big mistake. A mistake is not 'högt'."
+        },
+        {
+          "id": "v6",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Biljetten kostar 900 kronor. Det är ett för ___ pris.",
+          "qEn": "That is too high a price.",
+          "options": [
+            "stort",
+            "högt",
+            "tungt"
+          ],
+          "answer": 1,
+          "explain": "ett högt pris / ett lågt pris.",
+          "explainEn": "Prices are hög/låg, not big."
+        },
+        {
+          "id": "v7",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Skolan har en ___ regel: inga mobiler på lektionerna.",
+          "qEn": "The school has a clear rule.",
+          "options": [
+            "ljus",
+            "skarp",
+            "tydlig"
+          ],
+          "answer": 2,
+          "explain": "en tydlig regel = lätt att förstå.",
+          "explainEn": "tydlig = clear, easy to understand."
+        },
+        {
+          "id": "v8",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Alla får lite, ingen blir arg. Det är en ___ lösning.",
+          "qEn": "Everyone gets a little. A reasonable solution.",
+          "options": [
+            "rimlig",
+            "lustig",
+            "öppen"
+          ],
+          "answer": 0,
+          "explain": "en rimlig lösning.",
+          "explainEn": "rimlig = reasonable."
+        },
+        {
+          "id": "v9",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Att äta chips varje kväll är en ___ vana.",
+          "qEn": "Eating crisps every evening is a bad habit.",
+          "options": [
+            "ond",
+            "dålig",
+            "ful"
+          ],
+          "answer": 1,
+          "explain": "en dålig vana. (En bra vana = en bra vana.)",
+          "explainEn": "dålig = bad (not ond = evil)."
+        },
+        {
+          "id": "v10",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Jag försöker leva en ___ livsstil med motion och bra mat.",
+          "qEn": "I try to live a healthy lifestyle.",
+          "options": [
+            "frisk",
+            "stark",
+            "sund"
+          ],
+          "answer": 2,
+          "explain": "en sund livsstil. (Man är frisk, men livsstilen är sund.)",
+          "explainEn": "A person is frisk; a lifestyle is sund."
+        }
+      ]
+    },
+    {
+      "id": "form",
+      "title": "Del 2: Rätt form",
+      "titleEn": "Part 2: The right form",
+      "instructions": "Skriv adjektivet i rätt form: en/ett, plural eller bestämd.",
+      "instructionsEn": "Write the adjective in the right form.",
+      "items": [
+        {
+          "id": "f1",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Det var ett ___ beslut för hela familjen.",
+          "qEn": "It was a hard decision for the whole family.",
+          "base": "svår",
+          "answers": [
+            "svårt"
+          ],
+          "explain": "beslut = ett-ord → svårt."
+        },
+        {
+          "id": "f2",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Att jobba hemma har många ___ fördelar.",
+          "qEn": "Working from home has many big advantages.",
+          "base": "stor",
+          "answers": [
+            "stora"
+          ],
+          "explain": "Plural → stora fördelar."
+        },
+        {
+          "id": "f3",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Det här är ett ___ problem för många familjer.",
+          "qEn": "This is a big problem for many families.",
+          "base": "stor",
+          "answers": [
+            "stort"
+          ],
+          "explain": "problem = ett-ord → stort."
+        },
+        {
+          "id": "f4",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Jag vill bryta mina ___ vanor.",
+          "qEn": "I want to break my bad habits.",
+          "base": "dålig",
+          "answers": [
+            "dåliga"
+          ],
+          "explain": "Efter mina → -a: mina dåliga vanor."
+        },
+        {
+          "id": "f5",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Femtio kronor för en kaffe är ett ___ pris.",
+          "qEn": "Fifty crowns for a coffee is a high price.",
+          "base": "hög",
+          "answers": [
+            "högt"
+          ],
+          "explain": "pris = ett-ord → högt."
+        },
+        {
+          "id": "f6",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Vi valde den ___ lösningen.",
+          "qEn": "We chose the reasonable solution.",
+          "base": "rimlig",
+          "answers": [
+            "rimliga"
+          ],
+          "explain": "Efter den (bestämd form) → -a: den rimliga lösningen."
+        }
+      ]
+    },
+    {
+      "id": "lyssna",
+      "title": "Del 3: Lyssna",
+      "titleEn": "Part 3: Listen",
+      "instructions": "Lyssna på ett samtal som i Swedex del 3. Svara med ett ord.",
+      "instructionsEn": "Listen to a conversation like Swedex part 3. Answer with one word.",
+      "parts": [
+        {
+          "heading": "Jobba hemma?",
+          "headingEn": "Work from home?",
+          "audio": {
+            "id": "a1",
+            "title": "Är det bättre att jobba hemma?",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f",
+              "Amir": "m"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Nu pratar vi om arbete. Är det bättre att jobba hemma än på kontoret, Amir?"
+              },
+              {
+                "speaker": "Amir",
+                "text": "Alltså, jag tycker att det är en stor fördel att jobba hemma. Man slipper resan och sparar mycket tid."
+              },
+              {
+                "speaker": "Testledare",
+                "text": "Finns det inga nackdelar?"
+              },
+              {
+                "speaker": "Amir",
+                "text": "Jo. Det är ett stort problem att man blir ensam. Och man får dåliga vanor, till exempel att man äter hela dagen."
+              },
+              {
+                "speaker": "Testledare",
+                "text": "Vad är en bra lösning?"
+              },
+              {
+                "speaker": "Amir",
+                "text": "Jag tror att en rimlig lösning är två dagar hemma och tre dagar på kontoret. Det är en viktig fråga för många företag."
+              },
+              {
+                "speaker": "Testledare",
+                "text": "Tack, Amir. Det var ett tydligt svar."
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "h1",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.kollokation"
+              ],
+              "q": "Vilket ord använde Amir om fördelen med att jobba hemma?",
+              "qEn": "Which word did Amir use about the advantage of working from home?",
+              "answers": [
+                "stor"
+              ],
+              "explain": "Amir: en stor fördel."
+            },
+            {
+              "id": "h2",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.kollokation"
+              ],
+              "q": "Vilket ord använde Amir om problemet att man blir ensam?",
+              "qEn": "Which word did Amir use about the problem of being lonely?",
+              "answers": [
+                "stort"
+              ],
+              "explain": "Amir: ett stort problem."
+            },
+            {
+              "id": "h3",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.kollokation"
+              ],
+              "q": "Vilket ord använde Amir om lösningen med två dagar hemma?",
+              "qEn": "Which word did Amir use about the solution?",
+              "answers": [
+                "rimlig"
+              ],
+              "explain": "Amir: en rimlig lösning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Del 4: Ord som hör ihop och Nu du",
+      "titleEn": "Part 4: Collocations and Your turn",
+      "instructions": "Läs tabellen. Svara sedan på testledarens fråga.",
+      "instructionsEn": "Read the table. Then answer the examiner's question.",
+      "image": {
+        "src": "barn-mobil.svg",
+        "alt": "Ett barn med mobiltelefon och två pratbubblor"
+      },
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "md": "**Ord som hör ihop när du säger vad du tycker.** Använd dem i Swedex del 3 och i skrivuppgifter.\n\n| Svenska | English | فارسی |\n|---|---|---|\n| en stor fördel / nackdel | a big advantage / disadvantage | مزیت / عیب بزرگ |\n| en stor skillnad | a big difference | تفاوت بزرگ |\n| ett svårt beslut (**fatta** ett beslut) | a hard decision (make a decision) | تصمیم سخت (تصمیم گرفتن) |\n| en viktig fråga, en svår fråga (inte hård) | an important / a hard question | سؤال مهم / سخت |\n| en bra idé | a good idea | ایدهٔ خوب |\n| ett stort problem, ett stort misstag | a big problem, a big mistake | مشکل بزرگ، اشتباه بزرگ |\n| en ny möjlighet | a new opportunity | فرصت تازه |\n| en tydlig regel | a clear rule | قانون روشن |\n| en rimlig lösning | a reasonable solution | راه‌حل معقول |\n| ett högt / lågt pris | a high / low price | قیمت بالا / پایین |\n| en dålig vana | a bad habit | عادت بد |\n| en sund livsstil | a healthy lifestyle | سبک زندگی سالم |\n\n**Fällor:** *make a decision* → **fatta** ett beslut (inte göra). *A hard question* → en **svår** fråga (hård = som sten). *High price* → högt pris, inte stort.\n\n**Mall:** *Jag tycker att det är en stor fördel att … Men det är också ett stort problem att … En rimlig lösning är att …*"
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "tags": [
+            "tal.argumentera",
+            "ordförråd.kollokation"
+          ],
+          "q": "Är det bra eller dåligt att barn har mobiltelefon? Säg vad du tycker.",
+          "qEn": "Is it good or bad for children to have a mobile phone? Say what you think.",
+          "maxSeconds": 180,
+          "bullets": [
+            "din åsikt",
+            "en fördel och en nackdel",
+            "en regel eller lösning",
+            "använd minst 3 ord som hör ihop från lektionen (t.ex. en stor fördel, en dålig vana, en rimlig lösning)"
+          ],
+          "audio": {
+            "id": "s1a",
+            "title": "Testledarens fråga",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Är det bra eller dåligt att barn har mobiltelefon? Säg vad du tycker."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

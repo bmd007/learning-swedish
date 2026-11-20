@@ -1,0 +1,462 @@
+{
+ "id": "039-adjektiv-personer",
+ "title": "Ord som hör ihop: människor",
+ "titleEn": "Words that go together: people",
+ "mode": "practice",
+ "minutes": 9,
+ "intro": "Svenskar säger *en sträng chef*, inte *en hård chef*. När du väljer rätt adjektiv låter du naturlig och får bättre poäng på ordförråd i Swedex. Här tränar du ord för människor du möter varje dag.",
+ "introEn": "Swedes say 'en sträng chef', not 'en hård chef'. The right adjective sounds natural and scores on vocabulary in Swedex. Words for people you meet every day.",
+ "sections": [
+  {
+   "id": "ord",
+   "title": "Del 1: Vilket ord passar?",
+   "titleEn": "Part 1: Which word fits?",
+   "instructions": "Välj det adjektiv som en svensk skulle säga.",
+   "instructionsEn": "Choose the adjective a Swede would say.",
+   "items": [
+    {
+     "id": "s0",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Det är en stor fördel att ha ___ grannar. De tar in posten när vi är bortresta.",
+     "qEn": "It is a big advantage to have ___ neighbours. They bring in our post.",
+     "options": [
+      "hjälpta",
+      "hjälpande",
+      "hjälpsamma"
+     ],
+     "answer": 2,
+     "explain": "Hjälpsam = gärna hjälper andra: hjälpsamma grannar.",
+     "explainEn": "hjälpsam = likes to help others.",
+     "image": {
+      "src": "personer.svg",
+      "alt": "Fyra personer med adjektiv: trevlig kollega, sträng chef, blygt barn, hjälpsamma grannar"
+     }
+    },
+    {
+     "id": "s1",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Min chef är väldigt ___. Hon lyssnar och hjälper oss när vi har problem.",
+     "qEn": "My boss is very understanding.",
+     "options": [
+      "förståndig",
+      "förstående",
+      "förståelig"
+     ],
+     "answer": 1,
+     "explain": "En förstående chef = hon visar förståelse. Förståndig = klok; förståelig = lätt att förstå.",
+     "explainEn": "förstående = understanding; förståndig = sensible; förståelig = understandable."
+    },
+    {
+     "id": "s2",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Det är roligt att jobba med Ali. Han är en riktigt ___ kollega.",
+     "qEn": "He is a really nice colleague.",
+     "options": [
+      "vacker",
+      "god",
+      "trevlig"
+     ],
+     "answer": 2,
+     "explain": "En trevlig kollega. Vacker handlar om utseende.",
+     "explainEn": "trevlig = pleasant to be with."
+    },
+    {
+     "id": "s3",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Jag och min kompis skrattar hela tiden. Hon är så ___!",
+     "qEn": "She is so funny!",
+     "options": [
+      "skrattande",
+      "rolig",
+      "komisk"
+     ],
+     "answer": 1,
+     "explain": "En rolig kompis = får oss att skratta.",
+     "explainEn": "rolig = funny, fun."
+    },
+    {
+     "id": "s4",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Vår dotter är lite ___. Hon säger inte så mycket när hon träffar nya människor.",
+     "qEn": "Our daughter is a bit shy.",
+     "options": [
+      "blyg",
+      "skamsen",
+      "stängd"
+     ],
+     "answer": 0,
+     "explain": "Blyg = shy. Skamsen = ashamed (efter något dåligt).",
+     "explainEn": "blyg = shy; skamsen = ashamed."
+    },
+    {
+     "id": "s5",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Vår lärare är ___ men rättvis. Man får inte komma försent eller glömma läxan.",
+     "qEn": "Our teacher is strict but fair.",
+     "options": [
+      "stark",
+      "sträng",
+      "sur"
+     ],
+     "answer": 1,
+     "explain": "En sträng lärare/chef = kräver mycket, tillåter lite. English 'strict' = sträng.",
+     "explainEn": "sträng = strict. stark = strong; sur = sour/grumpy."
+    },
+    {
+     "id": "s6",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Min handläggare är mycket ___. Hon kollar alla papper två gånger och gör nästan aldrig fel.",
+     "qEn": "She checks everything twice.",
+     "options": [
+      "försiktig",
+      "exakt",
+      "noggrann"
+     ],
+     "answer": 2,
+     "explain": "Noggrann = gör saker ordentligt, med detaljer.",
+     "explainEn": "noggrann = careful, thorough."
+    },
+    {
+     "id": "s7",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Kunden var ___. Hon sa att hon hade fått för mycket växel tillbaka.",
+     "qEn": "The customer was honest. (not 'true')",
+     "options": [
+      "sann",
+      "ärlig",
+      "rak"
+     ],
+     "answer": 1,
+     "explain": "En ärlig person = säger sanningen. 'Sann' kan inte beskriva en person.",
+     "explainEn": "ärlig = honest; sann = true (about facts)."
+    },
+    {
+     "id": "s8",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Min kollega mår inte bra. Hon är ___ eftersom hon har för mycket att göra.",
+     "qEn": "She is stressed.",
+     "options": [
+      "stressad",
+      "stressig",
+      "stressande"
+     ],
+     "answer": 0,
+     "explain": "Person = stressad. Sak = stressig (ett stressigt jobb).",
+     "explainEn": "Person: stressad. Thing: stressig."
+    },
+    {
+     "id": "s9",
+     "type": "select",
+     "tags": [
+      "ordförråd.kollokation"
+     ],
+     "q": "Lisa pratar med alla, även på bussen. Hon är mycket ___.",
+     "qEn": "Lisa talks to everyone. She is very talkative.",
+     "options": [
+      "talande",
+      "muntlig",
+      "pratsam"
+     ],
+     "answer": 2,
+     "explain": "Pratsam = tycker om att prata.",
+     "explainEn": "pratsam = talkative."
+    }
+   ]
+  },
+  {
+   "id": "form",
+   "title": "Del 2: Rätt form",
+   "titleEn": "Part 2: The right form",
+   "instructions": "Skriv adjektivet i rätt form. Titta först på en / ett / plural.",
+   "instructionsEn": "Write the adjective in the right form. Look at en / ett / plural first.",
+   "items": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "Jag har ett ___ barn. Hon pratar hela dagen.",
+     "qEn": "I have a talkative child.",
+     "base": "pratsam",
+     "answers": [
+      "pratsamt"
+     ],
+     "explain": "barn = ett-ord → +t."
+    },
+    {
+     "id": "g2",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "Våra grannar är mycket ___.",
+     "qEn": "Our neighbours are very helpful.",
+     "base": "hjälpsam",
+     "answers": [
+      "hjälpsamma"
+     ],
+     "explain": "Plural → +a."
+    },
+    {
+     "id": "g3",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "Min son är ett ___ barn. Han säger inte mycket till främlingar.",
+     "qEn": "My son is a shy child.",
+     "base": "blyg",
+     "answers": [
+      "blygt"
+     ],
+     "explain": "ett barn → blygt. (Bestämd form: det blyga barnet.)"
+    },
+    {
+     "id": "g4",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "Alla mina kollegor är ___. Ingen kommer försent.",
+     "qEn": "All my colleagues are punctual.",
+     "base": "punktlig",
+     "answers": [
+      "punktliga"
+     ],
+     "explain": "Plural → punktliga."
+    },
+    {
+     "id": "g5",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "Den ___ handläggaren ringde mig igår.",
+     "qEn": "The careful case officer called me yesterday.",
+     "base": "noggrann",
+     "answers": [
+      "noggranna"
+     ],
+     "explain": "Den + bestämd form → +a."
+    },
+    {
+     "id": "g6",
+     "type": "gap",
+     "tags": [
+      "adjektiv.kongruens",
+      "ordförråd.kollokation"
+     ],
+     "q": "Vi fick ett ___ bemötande från handläggaren.",
+     "qEn": "We got a friendly treatment.",
+     "base": "vänlig",
+     "answers": [
+      "vänligt"
+     ],
+     "explain": "bemötande = ett-ord → vänligt."
+    }
+   ]
+  },
+  {
+   "id": "lyssna",
+   "title": "Del 3: Lyssna",
+   "titleEn": "Part 3: Listen",
+   "instructions": "Lyssna på samtalet. Svara på frågorna.",
+   "instructionsEn": "Listen to the conversation and answer.",
+   "parts": [
+    {
+     "heading": "Samtal",
+     "headingEn": "Conversation",
+     "audio": {
+      "id": "d1",
+      "title": "Nytt jobb",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Karin": "f",
+       "Peter": "m"
+      },
+      "script": [
+       {
+        "speaker": "Peter",
+        "text": "Hej Karin! Hur går det på nya jobbet?"
+       },
+       {
+        "speaker": "Karin",
+        "text": "Jättebra, tack! Jag har en riktigt trevlig kollega, han heter Ali. Han är väldigt hjälpsam."
+       },
+       {
+        "speaker": "Peter",
+        "text": "Vad bra. Och chefen då?"
+       },
+       {
+        "speaker": "Karin",
+        "text": "Hon är ganska sträng, men hon är ärlig. Det gillar jag."
+       },
+       {
+        "speaker": "Peter",
+        "text": "Och hur är det med Lisa? Började hon på förskolan?"
+       },
+       {
+        "speaker": "Karin",
+        "text": "Ja, men hon är lite blyg, så hon sa nästan ingenting första veckan."
+       },
+       {
+        "speaker": "Peter",
+        "text": "Det ordnar sig. Kom och hälsa på oss! Det bor många barn i vårt hus."
+       },
+       {
+        "speaker": "Karin",
+        "text": "Tack, gärna! Ni är verkligen snälla grannar."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "l1",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+       ],
+       "q": "Vilket ord använde Karin om chefen?",
+       "options": [
+        "hård",
+        "stressad",
+        "sträng"
+       ],
+       "answer": 2,
+       "explain": "'Hon är ganska sträng, men hon är ärlig.'"
+      },
+      {
+       "id": "l2",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+       ],
+       "q": "Vilket ord använde Karin om Lisa?",
+       "options": [
+        "rädd",
+        "blyg",
+        "tyst"
+       ],
+       "answer": 1,
+       "explain": "'Hon är lite blyg.'"
+      },
+      {
+       "id": "l3",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+       ],
+       "q": "Vilka ord använde Karin om Ali?",
+       "options": [
+        "trevlig och hjälpsam",
+        "sträng och ärlig",
+        "blyg och tyst"
+       ],
+       "answer": 0,
+       "explain": "'En riktigt trevlig kollega … väldigt hjälpsam.'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lista",
+   "title": "Del 4: Ord som hör ihop",
+   "titleEn": "Part 4: Words that go together",
+   "instructions": "Läs listan. Läs den högt en gång.",
+   "instructionsEn": "Read the list. Read it aloud once.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Ord som hör ihop – människor**\n\n| Svenska | English | فارسی |\n|---|---|---|\n| en trevlig kollega | a nice colleague | همکار خوب و دوست‌داشتنی |\n| en sträng chef | a strict boss | رئیس سخت‌گیر |\n| ett blygt barn | a shy child | بچه خجالتی |\n| hjälpsamma grannar | helpful neighbours | همسایه‌های کمک‌کننده |\n| en noggrann handläggare | a careful case officer | کارمند دقیق |\n| en punktlig kollega | a punctual colleague | همکار وقت‌شناس |\n| en ärlig kund | an honest customer | مشتری صادق |\n| en pratsam granne | a talkative neighbour | همسایه پرحرف |\n| en rolig kompis | a funny friend | دوست بامزه |\n| en förstående chef | an understanding boss | رئیس با درک |\n| en stressad kollega | a stressed colleague | همکار پراسترس |\n| en snäll lärare | a kind teacher | معلم مهربان |\n\n**Fällor:** stressad = person, stressig = sak (*ett stressigt jobb*). *Sann* kan inte beskriva en person: säg *ärlig*. *Strict* = **sträng**, inte *strikt*.\n\n**Persiska:** på persiska passar ofta ett adjektiv till många ord. På svenska väljer man ett vanligt par: *en sträng chef*, inte *en hård chef*.",
+     "image": {
+      "src": "stressad.svg",
+      "alt": "Stressad är en person, stressig är en sak"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tala",
+   "title": "Del 5: Tala",
+   "titleEn": "Part 5: Speak",
+   "instructions": "Lyssna på frågan och svara. Använd ord från lektionen.",
+   "instructionsEn": "Listen to the question and answer. Use words from the lesson.",
+   "items": [
+    {
+     "id": "t1",
+     "type": "speak",
+     "tags": [
+      "tal.beskriva",
+      "ordförråd.kollokation"
+     ],
+     "q": "Beskriv en person du tycker om",
+     "qEn": "Describe a person you like",
+     "maxSeconds": 180,
+     "bullets": [
+      "Vem är personen? Granne, kollega eller vän.",
+      "Hur är personen? Använd minst tre ord från lektionen (till exempel trevlig, hjälpsam, ärlig).",
+      "Vad gör ni tillsammans?",
+      "Varför tycker du om personen?"
+     ],
+     "audio": {
+      "id": "t1a",
+      "maxPlays": 2,
+      "strict": false,
+      "speakers": {
+       "Testledare": "m"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Beskriv en person du tycker om. Det kan vara en granne, en kollega eller en vän. Hur är personen, och varför tycker du om den?"
+       }
+      ]
+     },
+     "image": {
+      "src": "personer.svg",
+      "alt": "Personer med adjektiv"
+     }
+    }
+   ]
+  }
+ ]
+}

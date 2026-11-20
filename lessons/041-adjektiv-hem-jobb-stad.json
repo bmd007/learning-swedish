@@ -1,0 +1,440 @@
+{
+  "id": "041-adjektiv-hem-jobb-stad",
+  "title": "Ord som hör ihop: hem, jobb och stan",
+  "titleEn": "Words that go together: home, work and the city",
+  "mode": "practice",
+  "minutes": 9,
+  "intro": "Svenskan väljer ofta ett visst adjektiv till ett visst substantiv: hög hyra, tät trafik, en lång kö. Om du lär dig paren låter du naturlig – och du får poäng för ordförråd i Swedex. Här tränar du ord om boende, jobb och stan.",
+  "introEn": "Swedish often picks one particular adjective for one noun: hög hyra, tät trafik, en lång kö. Learn the pairs and you sound natural and score on vocabulary in Swedex. Here: housing, work and the city.",
+  "sections": [
+    {
+      "id": "ord",
+      "title": "Del 1: Vilket ord passar?",
+      "titleEn": "Part 1: Which word fits?",
+      "instructions": "Välj det adjektiv som en svensk skulle säga. Två alternativ låter fel.",
+      "instructionsEn": "Choose the adjective a Swede would say. Two options sound wrong.",
+      "image": {
+        "src": "lagenhet.svg",
+        "alt": "En lägenhet med ljus, mörk, trång hall, hög hyra och lugn gata"
+      },
+      "items": [
+        {
+          "id": "v1",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Hyran i innerstan är mycket ___.",
+          "qEn": "The rent in the city centre is very high.",
+          "options": [
+            "stor",
+            "hög",
+            "tung"
+          ],
+          "answer": 1,
+          "explain": "hög/låg hyra. Svenska: priser, hyror och löner är höga eller låga – inte stora.",
+          "explainEn": "In Swedish, rent, prices and salaries are hög/låg (high/low), not big."
+        },
+        {
+          "id": "v2",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "På morgonen är det ___ trafik på E4.",
+          "qEn": "In the morning there is heavy traffic on the E4.",
+          "options": [
+            "tät",
+            "hård",
+            "stor"
+          ],
+          "answer": 0,
+          "explain": "tät trafik (eller mycket trafik). Engelska heavy traffic ≠ tung trafik. Tung trafik betyder lastbilar.",
+          "explainEn": "tät = dense. 'Tung trafik' means lorries, not a traffic jam."
+        },
+        {
+          "id": "v3",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Jag fick stå i en ___ kö på Ica.",
+          "qEn": "I had to stand in a long queue at Ica.",
+          "options": [
+            "hög",
+            "lång",
+            "stor"
+          ],
+          "answer": 1,
+          "explain": "en lång kö.",
+          "explainEn": "A queue is lång (long)."
+        },
+        {
+          "id": "v4",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Bussen var så ___ att jag inte fick någon plats.",
+          "qEn": "The bus was so crowded that I got no seat.",
+          "options": [
+            "stor",
+            "fylld",
+            "full"
+          ],
+          "answer": 2,
+          "explain": "en full buss = många människor, inga lediga platser.",
+          "explainEn": "full = crowded (about a bus, train, room)."
+        },
+        {
+          "id": "v5",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Min väska är så ___. Jag har både dator och böcker i den.",
+          "qEn": "My bag is so heavy.",
+          "options": [
+            "svår",
+            "tung",
+            "hård"
+          ],
+          "answer": 1,
+          "explain": "en tung väska. Svår = difficult, hård = hard (som sten).",
+          "explainEn": "tung = heavy. svår = difficult."
+        },
+        {
+          "id": "v6",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Hon har en ___ lön, så hon har råd med nästan allt.",
+          "qEn": "She has a high salary.",
+          "options": [
+            "stor",
+            "tung",
+            "hög"
+          ],
+          "answer": 2,
+          "explain": "en hög lön. Engelska big salary ≠ stor lön.",
+          "explainEn": "'A big salary' = en hög lön."
+        },
+        {
+          "id": "v7",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Jag började klockan sex och slutade klockan sju på kvällen. Det var en ___ arbetsdag.",
+          "qEn": "It was a long working day.",
+          "options": [
+            "lång",
+            "hög",
+            "djup"
+          ],
+          "answer": 0,
+          "explain": "en lång arbetsdag.",
+          "explainEn": "A working day is lång."
+        },
+        {
+          "id": "v8",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Vi hade tre möten, två deadlines och en sjuk kollega. Det blev en ___ vecka.",
+          "qEn": "It became a hectic week.",
+          "options": [
+            "snabb",
+            "stark",
+            "hektisk"
+          ],
+          "answer": 2,
+          "explain": "en hektisk vecka = mycket att göra.",
+          "explainEn": "hektisk = hectic, a lot going on."
+        },
+        {
+          "id": "v9",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "På helgen vill jag bara vila. Jag vill ha en ___ helg.",
+          "qEn": "I want a quiet weekend.",
+          "options": [
+            "lugn",
+            "långsam",
+            "mild"
+          ],
+          "answer": 0,
+          "explain": "en lugn helg.",
+          "explainEn": "lugn = calm, quiet (not långsam = slow)."
+        },
+        {
+          "id": "v10",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.kollokation"
+          ],
+          "q": "Lägenheten har stora fönster mot söder. Den är väldigt ___.",
+          "qEn": "The flat has big windows facing south. It is very bright.",
+          "options": [
+            "klar",
+            "lätt",
+            "ljus"
+          ],
+          "answer": 2,
+          "explain": "en ljus lägenhet ≠ mörk lägenhet.",
+          "explainEn": "ljus = bright (light); the opposite is mörk."
+        }
+      ]
+    },
+    {
+      "id": "form",
+      "title": "Del 2: Rätt form",
+      "titleEn": "Part 2: The right form",
+      "instructions": "Skriv adjektivet i rätt form: en/ett, plural eller bestämd.",
+      "instructionsEn": "Write the adjective in the right form: en/ett, plural or definite.",
+      "items": [
+        {
+          "id": "f1",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Vi bor i en ___ lägenhet med stora fönster.",
+          "qEn": "We live in a bright flat with big windows.",
+          "base": "ljus",
+          "answers": [
+            "ljus"
+          ],
+          "explain": "lägenhet = en-ord → ljus."
+        },
+        {
+          "id": "f2",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Det är ett ___ rum. Vi ser ingenting utan lampa.",
+          "qEn": "It is a dark room.",
+          "base": "mörk",
+          "answers": [
+            "mörkt"
+          ],
+          "explain": "rum = ett-ord → mörkt."
+        },
+        {
+          "id": "f3",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Hyrorna i Stockholm är mycket ___.",
+          "qEn": "The rents in Stockholm are very high.",
+          "base": "hög",
+          "answers": [
+            "höga"
+          ],
+          "explain": "Plural → -a: höga hyror. (Efter är: Hyrorna är höga.)"
+        },
+        {
+          "id": "f4",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Jag längtar efter ett ___ liv på landet.",
+          "qEn": "I long for a calm life in the countryside.",
+          "base": "lugn",
+          "answers": [
+            "lugnt"
+          ],
+          "explain": "liv = ett-ord → lugnt."
+        },
+        {
+          "id": "f5",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Bussarna är alltid ___ klockan åtta.",
+          "qEn": "The buses are always crowded at eight.",
+          "base": "full",
+          "answers": [
+            "fulla"
+          ],
+          "explain": "Plural → fulla."
+        },
+        {
+          "id": "f6",
+          "type": "gap",
+          "tags": [
+            "ordförråd.kollokation",
+            "adjektiv.kongruens"
+          ],
+          "q": "Den ___ väskan är min. Kan du hjälpa mig bära den?",
+          "qEn": "The heavy bag is mine.",
+          "base": "tung",
+          "answers": [
+            "tunga"
+          ],
+          "explain": "Efter den (bestämd form) → -a: den tunga väskan."
+        }
+      ]
+    },
+    {
+      "id": "lyssna",
+      "title": "Del 3: Lyssna",
+      "titleEn": "Part 3: Listen",
+      "instructions": "Lyssna på två kollegor. Svara med ett ord.",
+      "instructionsEn": "Listen to two colleagues. Answer with one word.",
+      "parts": [
+        {
+          "heading": "Två kollegor",
+          "headingEn": "Two colleagues",
+          "audio": {
+            "id": "a1",
+            "title": "Två kollegor jämför",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Sara": "f",
+              "Johan": "m"
+            },
+            "script": [
+              {
+                "speaker": "Sara",
+                "text": "Hej Johan! Hur är den nya lägenheten?"
+              },
+              {
+                "speaker": "Johan",
+                "text": "Jättefin och väldigt ljus! Men hyran är hög, nästan tolv tusen i månaden."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Oj! Min hyra är låg, men lägenheten är mörk och hallen är trång."
+              },
+              {
+                "speaker": "Johan",
+                "text": "Jaha. Hur tar du dig till jobbet?"
+              },
+              {
+                "speaker": "Sara",
+                "text": "Med buss. Den är alltid full, och det är en lång kö vid hållplatsen."
+              },
+              {
+                "speaker": "Johan",
+                "text": "Jag tar bilen. Gatan där jag bor är lugn, men på morgonen är trafiken tät vid bron."
+              },
+              {
+                "speaker": "Sara",
+                "text": "Då tar jag hellre bussen!"
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "h1",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.kollokation"
+              ],
+              "q": "Vilket ord använde Johan om hyran?",
+              "qEn": "Which word did Johan use about the rent?",
+              "answers": [
+                "hög"
+              ],
+              "explain": "Johan: hyran är hög."
+            },
+            {
+              "id": "h2",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.kollokation"
+              ],
+              "q": "Vilket ord använde Johan om trafiken vid bron?",
+              "qEn": "Which word did Johan use about the traffic?",
+              "answers": [
+                "tät"
+              ],
+              "explain": "Johan: trafiken är tät."
+            },
+            {
+              "id": "h3",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.kollokation"
+              ],
+              "q": "Vilket ord använde Sara om bussen?",
+              "qEn": "Which word did Sara use about the bus?",
+              "answers": [
+                "full"
+              ],
+              "explain": "Sara: den är alltid full."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Del 4: Ord som hör ihop och Nu du",
+      "titleEn": "Part 4: Collocations and Your turn",
+      "instructions": "Läs tabellen. Svara sedan på testledarens fråga.",
+      "instructionsEn": "Read the table. Then answer the examiner's question.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "image": {
+            "src": "vag-till-jobbet.svg",
+            "alt": "Sex rutor: full buss, tät trafik, lång kö, lång arbetsdag, hektisk vecka, lugn helg"
+          },
+          "md": "**Ord som hör ihop.** Svenskan väljer ofta ett visst adjektiv till ett visst substantiv. Lär dig paret, inte bara ordet.\n\n| Svenska | English | فارسی |\n|---|---|---|\n| hög / låg hyra | high / low rent | اجاره بالا / پایین |\n| en ljus / mörk lägenhet | a bright / dark flat | آپارتمان روشن / تاریک |\n| en trång hall | a narrow, cramped hall | راهروی تنگ |\n| en lugn gata | a quiet street | خیابان آرام |\n| **tät** trafik (inte tung) | heavy traffic | ترافیک سنگین |\n| en lång kö | a long queue | صف طولانی |\n| en full buss | a crowded bus | اتوبوس شلوغ / پر |\n| en tung väska | a heavy bag | کیف سنگین |\n| ett heltidsjobb / deltidsjobb | a full-time / part-time job | کار تمام‌وقت / پاره‌وقت |\n| en **hög** / låg lön (inte stor) | a high / low salary | حقوق بالا / پایین |\n| en lång arbetsdag | a long working day | روز کاری طولانی |\n| en hektisk vecka, en lugn helg | a hectic week, a quiet weekend | هفتهٔ پرمشغله، آخر هفتهٔ آرام |\n| trevliga arbetskamrater | nice colleagues | همکاران خوب |\n\n**Fällor från engelska och persiska:** *heavy traffic* och ترافیک سنگین → **tät trafik**. *A big salary* → **en hög lön**. *High rent* → hög hyra (rätt!).\n\n**Minneskrok:** priser, hyror, löner = **hög/låg**. Tid och köer = **lång**."
+        },
+        {
+          "id": "s1",
+          "type": "speak",
+          "tags": [
+            "tal.beskriva",
+            "ordförråd.kollokation"
+          ],
+          "q": "Berätta om där du bor och hur du tar dig till jobbet eller skolan.",
+          "qEn": "Tell about where you live and how you get to work or school.",
+          "maxSeconds": 150,
+          "bullets": [
+            "hur ditt boende är (använd ett adjektiv som passar: ljus, trång, lugn …)",
+            "hur du reser (buss, tåg, cykel, bil)",
+            "vad som är bra eller jobbigt på vägen",
+            "använd minst 3 ord som hör ihop från lektionen"
+          ],
+          "audio": {
+            "id": "s1a",
+            "title": "Testledarens fråga",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Berätta om där du bor och hur du tar dig till jobbet eller skolan."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
