@@ -263,3 +263,9 @@
 - 18/19 auto in 8 min, 2 first-try misses (039: 5). *mätt* for *mätta*. Dialogue never played.
 - Speak 92 s, A2/B1: used stark/mild mat, hård vind, klar himmel; *i Uppsala man kan*, *kraftig regn*; didn't compare countries.
 - Watch: inversion in free speech, answer the exact speaking task, plural predicative -a.
+
+## 2026-11-20 – Graded 029 (model answers: presentation)
+
+- 2/4 auto (m1 missed "ask back"; *vinnade*). Speak 132 s, A2/B1: all bullets + asked back. Errors: för…sedan vs i,
+  *en små lägenheten*, *lärade mig*, inversion without subject, *mor tung* (modersmål).
+- Next idea: a short lesson on time phrases (i / för … sedan / på / om) + strong verbs in speech.

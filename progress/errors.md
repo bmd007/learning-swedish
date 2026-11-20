@@ -28,3 +28,7 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `ordföljd.inversion` (040 speak) – *i Uppsala man kan* (kan man); right in *i vinter har vi*. Comes back in free speech.
 - `tal.uppgift` (040 speak) – compare task (home country vs Sweden) answered only about Uppsala.
 - `hör.strategi` (040) – answered 3 listening items without playing the dialogue (0 plays).
+- `tid.prep` (029 speak) – *har bott i Uppsala för åtta år sedan* (i åtta år). för…sedan vs i.
+- `substantiv.form` (029 speak) – *en små lägenheten* (en liten lägenhet), *en svensk test och prov*, *nästa veckan*.
+- `verb.preteritum` (029) – *vinnade* (vann), *lärade mig* (lärde mig); `ordföljd.inversion` – *Förra helgen lärade mig* (subject missing after verb).
+- `tal.interaktion` (029) – asked back in speech (good), but m1 missed that asking back = interaction.

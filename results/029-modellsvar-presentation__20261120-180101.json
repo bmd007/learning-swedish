@@ -1,0 +1,104 @@
+{
+  "lessonId": "029-modellsvar-presentation",
+  "attemptId": "2026-11-20T16-51-29-872Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-20T16:51:30.785Z",
+  "finishedAt": "2026-11-20T17:01:01.564Z",
+  "durationMin": 10,
+  "currentSection": null,
+  "sectionMinutes": {
+    "lyssna": 5.6,
+    "fraser": 0.6,
+    "nudu": 3.2
+  },
+  "audioPlays": {
+    "a1": 1,
+    "a2": 2,
+    "e1": 1
+  },
+  "firstTry": {
+    "m1": false,
+    "g1": true,
+    "m2": false
+  },
+  "flags": [],
+  "score": {
+    "lyssna": {
+      "correct": 2,
+      "total": 4
+    }
+  },
+  "items": [
+    {
+      "id": "m1",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "tal.interaktion"
+      ],
+      "prompt": "Hur håller Amira samtalet igång?",
+      "given": "Hon pratar utan paus och tystnar sedan",
+      "expected": "Hon ställer en fråga till testledaren",
+      "correct": false
+    },
+    {
+      "id": "g1",
+      "section": "lyssna",
+      "type": "gap",
+      "tags": [
+        "konjunktion",
+        "tal.fraser"
+      ],
+      "prompt": "Jag jobbar på ett äldreboende, ___ jag är undersköterska.",
+      "given": "eftersom",
+      "expected": "eftersom",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "lyssna",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum",
+        "ordföljd.inversion",
+        "tal.berätta"
+      ],
+      "prompt": "Förra helgen ___ vi faktiskt matchen!",
+      "given": "vinnade",
+      "expected": "vann",
+      "correct": false
+    },
+    {
+      "id": "m2",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "tal.interaktion"
+      ],
+      "prompt": "Tomas är inte säker på frågan. Vad gör han?",
+      "given": "Han frågar: 'Menar du svenska vänner?'",
+      "expected": "Han frågar: 'Menar du svenska vänner?'",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "nudu",
+      "type": "speak",
+      "tags": [
+        "tal.berätta",
+        "tal.interaktion"
+      ],
+      "prompt": "Presentera dig för testledaren.",
+      "given": {
+        "recording": "029-modellsvar-presentation__s1__20261120-180059.webm",
+        "transcript": "Hej Anna Jag heter Matti ja är 31 år gammal Jag kommer ifrån Iran men jag har bott i Uppsala för åtta år sedan  jag bor i en smal legenheten i Uppsala centrum nu är beta jag som är softer ingenjör i Nordnet men  i början  S2  studerar jag  i Uppsala på Software Engineering Masters  for a helien  lärare mig svenska eftersom  jag ska ha en  svensk test och prov  nästa vecka  måste du lära  dig svenska  eller du aldrig klara  något extra om svenska eftersom du pratar svenska som är din  mor tung",
+        "seconds": 132
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-20T18:01:01"
+}
