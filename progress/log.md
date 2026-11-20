@@ -251,3 +251,9 @@
   distractors), 6 gap forms, TTS dialogue + 3 listening items, table sv/en/fa, Swedex-style speak item.
 - Audio: edge + Chatterbox, Whisper check 0–2 %. Tags: ordförråd.kollokation, adjektiv.kongruens.
 - Next: grade whatever the learner does (026, 028, 036, 037, 039–042 speak items).
+
+## 2026-11-20 – Graded 039 (collocations: people)
+
+- 18/19 auto, listening 3/3 first play, forms 5/6 (*hjälpsama*). Del 1 slow (10 min), 5 first-try misses on -sam/-ig vs -ande/English-built words.
+- Speak 112 s, A2/B1: good adjectives (ärlig, trevlig, pigg och glad); *Vi ofta spelar*, *riktig ärlig*. Whisper used (browser transcript broken).
+- Next: 040–042 and 043 (vocab check). Keep an eye on V2 + adverb (ofta/alltid/inte) in speech.

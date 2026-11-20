@@ -11,7 +11,7 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `hör.detalj` (025) – answered the wrong kind of thing: q9 'Var ligger barnavdelningen nu?' → 'stadsbiblioteket' (key: andra våningen); q11 'Var går de in i buren?' → 'Musikhjälpen' (key: Linköping). Read the question word before the audio starts.
 - `hör.siffror` (025) – q2 took 14 (the time 14.20) for the platform (9).
 - `hör.tid` / ord (025) – q27 'när jag gick i pension' read as before retiring (när vs innan).
-- `stavning` (025) – psykisk → 'sikiksgs', onsdag → 'önsdag', kniv → 'knive'. Writes what he hears phonetically.
+- `stavning` (025) – psykisk → 'sikiksgs', onsdag → 'önsdag', kniv → 'knive'. Writes what they hear phonetically.
 - `läs.synonym` – 021: 3/8 wrong again (l24 ledig=koppla av, l25 lämnade landsbygden=flyttade från, l28 sedlar/mynt mer sällan). All three: chose '0'. Pattern across 017 + 021: 6/16 wrong, always '0'.
 - `läs.detalj` – 021 l10: 'åtta mil' vs '80 kilometer' → Nej (mil = 10 km).
 - `skriv.mejl.svar` (002 s1, handwritten) – all 4 content points covered, ~128 words (max 120). Greeting used wrong name (*Maja* for Maria); closing *MVH* too formal for a friend. Level A2.
@@ -21,3 +21,6 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `ordföljd.bisats` (002 s2) – *att det ska inte byte* (inte before verb in bisats); `ordföljd.inversion` – *Nesta dagen, i tisdag, jag hade jag*. Rare slips (was solid before).
 - `verb.preteritum` (002 s2) – tense sections right (past/present/future) = improved. Time word wrong: tisdag + *i morgon* (igår); *i måndag* (måndags).
 - `stavning` (002) – phonetic: bill, äffaren, favorite, villade, decorera, faktist, sqmt; å/ä/ö dots missing in handwriting (*ga*, *hora*).
+- `ordförråd.kollokation` (039) – 10/10 in the end, 5 wrong first try: chose *-ande*/English-built forms (hjälpande, komisk, stark=strict, exakt, talande) over hjälpsam, rolig, sträng, noggrann, pratsam.
+- `adjektiv.kongruens` (039) – 5/6; *hjälpsama* (double m missing). ett/plural/bestämd form otherwise right.
+- `ordföljd.adverb` (039 speak) – *Vi ofta spelar* (V2: verb before ofta); *riktig ärlig* (adverb -t form: riktigt).

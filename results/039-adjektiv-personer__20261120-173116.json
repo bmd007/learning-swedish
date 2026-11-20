@@ -1,0 +1,311 @@
+{
+  "lessonId": "039-adjektiv-personer",
+  "attemptId": "2026-11-20T16-13-03-203Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-20T16:13:05.573Z",
+  "finishedAt": "2026-11-20T16:31:16.335Z",
+  "durationMin": 18,
+  "currentSection": null,
+  "sectionMinutes": {
+    "ord": 10.3,
+    "form": 2.1,
+    "lyssna": 1,
+    "lista": 1.4,
+    "tala": 3.3
+  },
+  "audioPlays": {
+    "d1": 1,
+    "t1a": 2
+  },
+  "firstTry": {
+    "s0": false,
+    "s1": true,
+    "s2": true,
+    "s3": false,
+    "s4": true,
+    "s5": false,
+    "s6": false,
+    "s7": true,
+    "s8": true,
+    "s9": false,
+    "g1": true,
+    "g2": false,
+    "l3": true,
+    "l1": true,
+    "l2": true
+  },
+  "flags": [],
+  "score": {
+    "ord": {
+      "correct": 10,
+      "total": 10
+    },
+    "form": {
+      "correct": 5,
+      "total": 6
+    },
+    "lyssna": {
+      "correct": 3,
+      "total": 3
+    }
+  },
+  "items": [
+    {
+      "id": "s0",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Det är en stor fördel att ha ___ grannar. De tar in posten när vi är bortresta.",
+      "given": "hjälpsamma",
+      "expected": "hjälpsamma",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Min chef är väldigt ___. Hon lyssnar och hjälper oss när vi har problem.",
+      "given": "förstående",
+      "expected": "förstående",
+      "correct": true
+    },
+    {
+      "id": "s2",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Det är roligt att jobba med Ali. Han är en riktigt ___ kollega.",
+      "given": "trevlig",
+      "expected": "trevlig",
+      "correct": true
+    },
+    {
+      "id": "s3",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Jag och min kompis skrattar hela tiden. Hon är så ___!",
+      "given": "rolig",
+      "expected": "rolig",
+      "correct": true
+    },
+    {
+      "id": "s4",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vår dotter är lite ___. Hon säger inte så mycket när hon träffar nya människor.",
+      "given": "blyg",
+      "expected": "blyg",
+      "correct": true
+    },
+    {
+      "id": "s5",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vår lärare är ___ men rättvis. Man får inte komma försent eller glömma läxan.",
+      "given": "sträng",
+      "expected": "sträng",
+      "correct": true
+    },
+    {
+      "id": "s6",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Min handläggare är mycket ___. Hon kollar alla papper två gånger och gör nästan aldrig fel.",
+      "given": "noggrann",
+      "expected": "noggrann",
+      "correct": true
+    },
+    {
+      "id": "s7",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Kunden var ___. Hon sa att hon hade fått för mycket växel tillbaka.",
+      "given": "ärlig",
+      "expected": "ärlig",
+      "correct": true
+    },
+    {
+      "id": "s8",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Min kollega mår inte bra. Hon är ___ eftersom hon har för mycket att göra.",
+      "given": "stressad",
+      "expected": "stressad",
+      "correct": true
+    },
+    {
+      "id": "s9",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Lisa pratar med alla, även på bussen. Hon är mycket ___.",
+      "given": "pratsam",
+      "expected": "pratsam",
+      "correct": true
+    },
+    {
+      "id": "g1",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Jag har ett ___ barn. Hon pratar hela dagen.",
+      "given": "pratsamt",
+      "expected": "pratsamt",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Våra grannar är mycket ___.",
+      "given": "hjälpsama",
+      "expected": "hjälpsamma",
+      "correct": false
+    },
+    {
+      "id": "g3",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Min son är ett ___ barn. Han säger inte mycket till främlingar.",
+      "given": "blygt",
+      "expected": "blygt",
+      "correct": true
+    },
+    {
+      "id": "g4",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Alla mina kollegor är ___. Ingen kommer försent.",
+      "given": "punktliga",
+      "expected": "punktliga",
+      "correct": true
+    },
+    {
+      "id": "g5",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Den ___ handläggaren ringde mig igår.",
+      "given": "noggranna",
+      "expected": "noggranna",
+      "correct": true
+    },
+    {
+      "id": "g6",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vi fick ett ___ bemötande från handläggaren.",
+      "given": "vänligt",
+      "expected": "vänligt",
+      "correct": true
+    },
+    {
+      "id": "l1",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilket ord använde Karin om chefen?",
+      "given": "sträng",
+      "expected": "sträng",
+      "correct": true
+    },
+    {
+      "id": "l2",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilket ord använde Karin om Lisa?",
+      "given": "blyg",
+      "expected": "blyg",
+      "correct": true
+    },
+    {
+      "id": "l3",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilka ord använde Karin om Ali?",
+      "given": "trevlig och hjälpsam",
+      "expected": "trevlig och hjälpsam",
+      "correct": true
+    },
+    {
+      "id": "t1",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.beskriva",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Beskriv en person du tycker om",
+      "given": {
+        "recording": "039-adjektiv-personer__t1__20261120-173037.webm",
+        "transcript": "Jag har en vän heter Alice Alice är en Michael Jackson  vän För mig Hon är också riktig e ofta  spelar volleyboll tillsammans  på Helena  när jag är  gör jag  något  orolig  han är  prata med mig om det  samma dag  så jag kan  göra  bättre nästa gång  vad jag tycker  om  om Alice är  hon är  trevlig att  göra olika saker tillsammans  Hon är pigg och glad ofta",
+        "seconds": 112
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-20T17:31:16"
+}
