@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300"><rect width="600" height="300" fill="#fff"/>
+<g font-family="system-ui, sans-serif" font-size="20" text-anchor="middle">
+<rect x="40" y="60" width="150" height="150" rx="10" fill="#e8f1fb" stroke="#2a6fb0" stroke-width="3"/>
+<text x="115" y="120" fill="#2a6fb0" font-size="26" font-weight="bold">Jag kan</text><text x="115" y="155" fill="#2a6fb0">det här ordet</text>
+<rect x="225" y="60" width="150" height="150" rx="10" fill="#fff6e0" stroke="#d99a00" stroke-width="3"/>
+<text x="300" y="120" fill="#a06f00" font-size="26" font-weight="bold">Jag gissar</text><text x="300" y="155" fill="#a06f00">kanske rätt</text>
+<rect x="410" y="60" width="150" height="150" rx="10" fill="#fdeaea" stroke="#c0392b" stroke-width="3"/>
+<text x="485" y="120" fill="#c0392b" font-size="26" font-weight="bold">Nytt ord</text><text x="485" y="155" fill="#c0392b">lär mig det</text>
+<text x="300" y="270" fill="#333">Ordkoll: svara ärligt, så vet vi vilka ord vi ska träna.</text></g></svg>

@@ -1,0 +1,734 @@
+{
+  "id": "043-ordkoll-b1",
+  "title": "Ordkoll: Rivstart kapitel 1–9",
+  "titleEn": "Word check: Rivstart chapters 1–9",
+  "mode": "practice",
+  "minutes": 12,
+  "intro": "36 vanliga ord från Rivstart kapitel 1–9. Det är inget prov. Vi vill veta vilka ord du inte kan än, så att nästa lektioner kan träna just dem.",
+  "introEn": "36 common words from Rivstart chapters 1–9. This is not an exam. We want to find which words you do not know yet, so the next lessons can train exactly those.",
+  "sections": [
+    {
+      "id": "del1",
+      "title": "Del 1: Kapitel 1–3",
+      "titleEn": "Part 1: chapters 1–3",
+      "instructions": "Välj vad ordet betyder i meningen. Gissa inte om du verkligen inte vet: det är bra att veta vilka ord som är nya.",
+      "instructionsEn": "Choose what the word means in the sentence. It is fine to not know: we want to find the new words.",
+      "image": {
+        "src": "ordkoll.svg",
+        "alt": "Tre rutor: jag kan ordet, jag gissar, nytt ord"
+      },
+      "items": [
+        {
+          "id": "k1-1",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k1"
+          ],
+          "q": "Tack vare distansarbetet slipper jag åka buss varje morgon.\n\nVad betyder \"slippa\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "inte behöva göra något",
+            "inte vilja göra något",
+            "inte kunna göra något",
+            "få göra något"
+          ],
+          "answer": 0,
+          "explain": "Kapitel 1. Ord: slippa, slipper, slapp, sluppit. Slippa = inte behöva göra något jobbigt.",
+          "explainEn": "Chapter 1. Meaning: to be spared from, not have to."
+        },
+        {
+          "id": "k1-2",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k1"
+          ],
+          "q": "Efter jobbet orkar jag inte med att träna också.\n\nVad betyder \"orka med\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "ha tid för",
+            "ha lust att prova",
+            "ha tillräckligt med energi för",
+            "ha råd med"
+          ],
+          "answer": 2,
+          "explain": "Kapitel 1. Ord: orka med, orkar, orkade, orkat. Orka = ha tillräckligt med kraft eller energi.",
+          "explainEn": "Chapter 1. Meaning: to have the energy for, to cope with."
+        },
+        {
+          "id": "k1-3",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k1"
+          ],
+          "q": "Vi hade knappt kommit hem när det började regna.\n\nVad betyder \"knappt\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "för länge sedan",
+            "just precis, bara nyss",
+            "precis i tid",
+            "mycket tidigare"
+          ],
+          "answer": 1,
+          "explain": "Kapitel 1. Ord: knappt (adverb). Knappt = nästan inte / precis nyss.",
+          "explainEn": "Chapter 1. Meaning: hardly, barely, only just."
+        },
+        {
+          "id": "k2-4",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k2"
+          ],
+          "q": "Han bryr sig inte om vad andra tycker om hans kläder.\n\nVad betyder \"bry sig\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "förstå något",
+            "komma ihåg något",
+            "vara arg på något",
+            "tycka att något är viktigt"
+          ],
+          "answer": 3,
+          "explain": "Kapitel 2. Ord: bry sig, bryr sig, brydde sig, brytt sig. Bry sig om = tycka att något är viktigt eller bry sig.",
+          "explainEn": "Chapter 2. Meaning: to care (about)."
+        },
+        {
+          "id": "k2-5",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k2"
+          ],
+          "q": "Efter fem år tröttnade hon på sitt jobb och sökte något nytt.\n\nVad betyder \"tröttna\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "bli sjuk av något",
+            "bli rädd för något",
+            "inte längre tycka att något är roligt",
+            "bli sen till något"
+          ],
+          "answer": 2,
+          "explain": "Kapitel 2. Ord: tröttna, tröttnar, tröttnade, tröttnat. Tröttna på = inte längre vilja ha eller göra något.",
+          "explainEn": "Chapter 2. Meaning: to get tired of, to get fed up with."
+        },
+        {
+          "id": "k2-6",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k2"
+          ],
+          "q": "Min granne ställde upp och hjälpte mig att flytta på lördagen.\n\nVad betyder \"ställa upp\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "hjälpa till när någon behöver det",
+            "vara med i en tävling",
+            "komma för sent",
+            "säga nej"
+          ],
+          "answer": 0,
+          "explain": "Kapitel 2. Ord: ställa upp, ställer upp, ställde upp, ställt upp. Ställa upp = hjälpa någon, vara där när det behövs.",
+          "explainEn": "Chapter 2. Meaning: to help out, to be there for someone."
+        },
+        {
+          "id": "k3-7",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k3"
+          ],
+          "q": "Den som kör för fort riskerar att få böter.\n\nVad betyder \"riskera\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "hoppas få något bra",
+            "bestämma sig för något",
+            "bli tvungen att betala",
+            "kunna råka ut för något dåligt"
+          ],
+          "answer": 3,
+          "explain": "Kapitel 3. Ord: riskera, riskerar, riskerade, riskerat. Riskera = kunna råka ut för något dåligt.",
+          "explainEn": "Chapter 3. Meaning: to risk."
+        },
+        {
+          "id": "k3-8",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k3"
+          ],
+          "q": "Soppan var varken för het eller för kall, den var lagom.\n\nVad betyder \"lagom\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "för lite",
+            "precis så mycket som behövs",
+            "alldeles för mycket",
+            "ganska dålig"
+          ],
+          "answer": 1,
+          "explain": "Kapitel 3. Ord: lagom (adverb/adjektiv). Lagom = inte för mycket och inte för lite.",
+          "explainEn": "Chapter 3. Meaning: just right, moderate."
+        },
+        {
+          "id": "k3-9",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k3"
+          ],
+          "q": "Nuförtiden betalar nästan alla med kort eller telefon.\n\nVad betyder \"nuförtiden\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "förr i tiden",
+            "någon gång i framtiden",
+            "i dag, i våra dagar",
+            "i går"
+          ],
+          "answer": 2,
+          "explain": "Kapitel 3. Ord: nuförtiden (adverb). Nuförtiden = i dag, till skillnad från förr.",
+          "explainEn": "Chapter 3. Meaning: nowadays."
+        }
+      ]
+    },
+    {
+      "id": "del2",
+      "title": "Del 2: Kapitel 4–6",
+      "titleEn": "Part 2: chapters 4–6",
+      "instructions": "Välj vad ordet betyder i meningen. Gissa inte om du verkligen inte vet: det är bra att veta vilka ord som är nya.",
+      "instructionsEn": "Choose what the word means in the sentence. It is fine to not know: we want to find the new words.",
+      "image": {
+        "src": "ordkoll.svg",
+        "alt": "Tre rutor: jag kan ordet, jag gissar, nytt ord"
+      },
+      "items": [
+        {
+          "id": "k4-10",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k4"
+          ],
+          "q": "Jag försökte övertala min dotter att ta jackan med sig.\n\nVad betyder \"övertala\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "fråga någon om lov",
+            "varna någon",
+            "skälla på någon",
+            "få någon att göra som man vill"
+          ],
+          "answer": 3,
+          "explain": "Kapitel 4. Ord: övertala, övertalar, övertalade, övertalat. Övertala = med ord få någon att göra något.",
+          "explainEn": "Chapter 4. Meaning: to persuade."
+        },
+        {
+          "id": "k4-11",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k4"
+          ],
+          "q": "Barnen tjatar om glass varje gång vi går förbi kiosken.\n\nVad betyder \"tjata\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "fråga om samma sak om och om igen",
+            "berätta en rolig historia",
+            "viska hemligt",
+            "skratta högt"
+          ],
+          "answer": 0,
+          "explain": "Kapitel 4. Ord: tjata, tjatar, tjatade, tjatat. Tjata = säga eller be om samma sak många gånger.",
+          "explainEn": "Chapter 4. Meaning: to nag, to keep on at someone."
+        },
+        {
+          "id": "k4-12",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k4"
+          ],
+          "q": "Hon kramade sin lilla bror för att trösta honom.\n\nVad betyder \"trösta\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "få någon att skratta",
+            "få någon att må bättre när han är ledsen",
+            "berömma någon",
+            "skydda någon från regn"
+          ],
+          "answer": 1,
+          "explain": "Kapitel 4. Ord: trösta, tröstar, tröstade, tröstat. Trösta = hjälpa någon som är ledsen.",
+          "explainEn": "Chapter 4. Meaning: to comfort."
+        },
+        {
+          "id": "k5-13",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k5"
+          ],
+          "q": "Alla i gruppen bidrog med något till festen.\n\nVad betyder \"bidra\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "ge sin del, hjälpa till",
+            "ta bort något",
+            "ta emot något",
+            "vara sen"
+          ],
+          "answer": 0,
+          "explain": "Kapitel 5. Ord: bidra, bidrar, bidrog, bidragit. Bidra (med) = ge sin del så att något blir bra.",
+          "explainEn": "Chapter 5. Meaning: to contribute."
+        },
+        {
+          "id": "k5-14",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k5"
+          ],
+          "q": "Klockan är tio, men barnen sover fortfarande.\n\nVad betyder \"fortfarande\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "aldrig mer",
+            "inte längre",
+            "ännu, som tidigare",
+            "redan"
+          ],
+          "answer": 2,
+          "explain": "Kapitel 5. Ord: fortfarande (adverb). Fortfarande = det är som förut, det har inte ändrats.",
+          "explainEn": "Chapter 5. Meaning: still."
+        },
+        {
+          "id": "k5-15",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k5"
+          ],
+          "q": "Jag undrar om bussen går på söndagar.\n\nVad betyder \"undra\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "vara säker på",
+            "vilja veta, fundera på",
+            "bestämma",
+            "lova"
+          ],
+          "answer": 1,
+          "explain": "Kapitel 5. Ord: undra, undrar, undrade, undrat. Undra = vilja veta något, fundera och fråga sig.",
+          "explainEn": "Chapter 5. Meaning: to wonder."
+        },
+        {
+          "id": "k6-16",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k6"
+          ],
+          "q": "Jag var tvungen att stanna hemma eftersom barnet var sjukt.\n\nVad betyder \"tvungen\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "få lov att välja",
+            "vilja mycket",
+            "ha tid",
+            "inte ha något val, måste"
+          ],
+          "answer": 3,
+          "explain": "Kapitel 6. Ord: tvungen (-et, -na). Vara tvungen att = måste, man har inget val.",
+          "explainEn": "Chapter 6. Meaning: forced, obliged."
+        },
+        {
+          "id": "k6-17",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k6"
+          ],
+          "q": "Biljetten gäller oavsett vilken dag du reser.\n\nVad betyder \"oavsett\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "bara om",
+            "tack vare",
+            "utan att det spelar någon roll",
+            "på grund av"
+          ],
+          "answer": 2,
+          "explain": "Kapitel 6. Ord: oavsett (preposition/adverb). Oavsett = det spelar ingen roll vad eller vilken.",
+          "explainEn": "Chapter 6. Meaning: regardless of."
+        },
+        {
+          "id": "k6-18",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k6"
+          ],
+          "q": "Läraren fick elevernas uppmärksamhet genom att höja handen.\n\nVad betyder \"uppmärksamhet\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "när man lyssnar och tittar noga",
+            "en liten present",
+            "ett starkt ljud",
+            "en lång paus"
+          ],
+          "answer": 0,
+          "explain": "Kapitel 6. Ord: uppmärksamhet, uppmärksamheten. Uppmärksamhet = när man tittar och lyssnar på något.",
+          "explainEn": "Chapter 6. Meaning: attention."
+        }
+      ]
+    },
+    {
+      "id": "del3",
+      "title": "Del 3: Kapitel 7–9",
+      "titleEn": "Part 3: chapters 7–9",
+      "instructions": "Välj vad ordet betyder i meningen. Gissa inte om du verkligen inte vet: det är bra att veta vilka ord som är nya.",
+      "instructionsEn": "Choose what the word means in the sentence. It is fine to not know: we want to find the new words.",
+      "image": {
+        "src": "ordkoll.svg",
+        "alt": "Tre rutor: jag kan ordet, jag gissar, nytt ord"
+      },
+      "items": [
+        {
+          "id": "k7-19",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Han skämdes när han kom för sent till sitt eget bröllop.\n\nVad betyder \"skämmas\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "vara glad och stolt",
+            "vara trött",
+            "bli arg på någon annan",
+            "känna att man gjort något pinsamt"
+          ],
+          "answer": 3,
+          "explain": "Kapitel 7. Ord: skämmas, skäms, skämdes, skämts. Skämmas = känna att något är pinsamt eller fel.",
+          "explainEn": "Chapter 7. Meaning: to be ashamed/embarrassed."
+        },
+        {
+          "id": "k7-20",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Hans kommentar provocerade alla i rummet.\n\nVad betyder \"provocera\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "få någon att skratta",
+            "göra någon arg eller upprörd",
+            "förklara något",
+            "glädja någon"
+          ],
+          "answer": 1,
+          "explain": "Kapitel 7. Ord: provocera, provocerar, provocerade, provocerat. Provocera = göra någon arg eller upprörd med flit.",
+          "explainEn": "Chapter 7. Meaning: to provoke."
+        },
+        {
+          "id": "k7-21",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Vi söker en erfaren lärare som har jobbat många år.\n\nVad betyder \"erfaren\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "som är ung och ny",
+            "som är snäll",
+            "som har lång vana och kan mycket",
+            "som är dyr"
+          ],
+          "answer": 2,
+          "explain": "Kapitel 7. Ord: erfaren, erfaret, erfarna. Erfaren = som har gjort något många gånger.",
+          "explainEn": "Chapter 7. Meaning: experienced."
+        },
+        {
+          "id": "k7-22",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Vi tog fel tåg och hamnade i en liten stad som vi aldrig hört talas om.\n\nVad betyder \"hamna\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "åka med flit",
+            "bo länge",
+            "köpa något",
+            "komma till en plats, ofta av en slump"
+          ],
+          "answer": 3,
+          "explain": "Kapitel 7. Ord: hamna, hamnar, hamnade, hamnat. Hamna = komma till en plats eller situation, ofta oplanerat.",
+          "explainEn": "Chapter 7. Meaning: to end up."
+        },
+        {
+          "id": "k7-23",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Vem är ansvarig för att dörren stod öppen hela natten?\n\nVad betyder \"ansvarig\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "den som ska se till att något blir rätt gjort",
+            "den som bor närmast",
+            "den som är äldst",
+            "den som är gäst"
+          ],
+          "answer": 0,
+          "explain": "Kapitel 7. Ord: ansvarig, ansvarigt, ansvariga. Ansvarig = den som ska ta hand om något och svara för det.",
+          "explainEn": "Chapter 7. Meaning: responsible."
+        },
+        {
+          "id": "k7-24",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Reglerna för bidraget är så komplicerade att få förstår dem.\n\nVad betyder \"komplicerad\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "enkel och tydlig",
+            "svår att förstå eftersom den har många delar",
+            "gammal",
+            "rolig"
+          ],
+          "answer": 1,
+          "explain": "Kapitel 7. Ord: komplicerad, komplicerat, komplicerade. Komplicerad = inte enkel, svår att förstå.",
+          "explainEn": "Chapter 7. Meaning: complicated."
+        },
+        {
+          "id": "k8-25",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Det är förbjudet att röka på perrongen.\n\nVad betyder \"förbjuda\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "säga att man inte får göra något",
+            "tillåta något",
+            "rekommendera något",
+            "glömma något"
+          ],
+          "answer": 0,
+          "explain": "Kapitel 8. Ord: förbjuda, förbjuder, förbjöd, förbjudit. Förbjuda = säga att något inte är tillåtet.",
+          "explainEn": "Chapter 8. Meaning: to forbid, to ban."
+        },
+        {
+          "id": "k8-26",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Renoveringen pågår hela våren, så det är mycket oväsen.\n\nVad betyder \"pågå\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "börja i morgon",
+            "vara slut",
+            "hålla på, inte vara klar än",
+            "bli inställd"
+          ],
+          "answer": 2,
+          "explain": "Kapitel 8. Ord: pågå, pågår, pågick, pågått. Pågå = hålla på just nu, inte vara slut.",
+          "explainEn": "Chapter 8. Meaning: to be going on."
+        },
+        {
+          "id": "k8-27",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Hans förklaring var mycket tydlig, så alla förstod direkt.\n\nVad betyder \"tydlig\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "för lång",
+            "lätt att förstå eller se",
+            "svår att höra",
+            "helt ny"
+          ],
+          "answer": 1,
+          "explain": "Kapitel 8. Ord: tydlig, tydligt, tydliga. Tydlig = lätt att förstå, se eller höra.",
+          "explainEn": "Chapter 8. Meaning: clear."
+        },
+        {
+          "id": "k8-28",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Hur ser det aktuella läget ut på bostadsmarknaden?\n\nVad betyder \"aktuell\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "som är gammalt",
+            "som kommer snart",
+            "som inte stämmer",
+            "som gäller just nu"
+          ],
+          "answer": 3,
+          "explain": "Kapitel 8. Ord: aktuell, aktuellt, aktuella. Aktuell = viktig eller gällande just nu.",
+          "explainEn": "Chapter 8. Meaning: current, topical."
+        },
+        {
+          "id": "k8-29",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Det var oerhört kallt, minus tjugofem grader.\n\nVad betyder \"oerhört\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "lite grann",
+            "ganska",
+            "mycket, väldigt",
+            "nästan inte"
+          ],
+          "answer": 2,
+          "explain": "Kapitel 8. Ord: oerhört (adverb). Oerhört = väldigt, mycket mer än vanligt.",
+          "explainEn": "Chapter 8. Meaning: extremely, enormously."
+        },
+        {
+          "id": "k8-30",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Chefen godkände min ansökan om semester.\n\nVad betyder \"godkänna\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "säga ja till, tycka att det är okej",
+            "säga nej till",
+            "glömma bort",
+            "läsa högt"
+          ],
+          "answer": 0,
+          "explain": "Kapitel 8. Ord: godkänna, godkänner, godkände, godkänt. Godkänna = säga att något är bra nog eller tillåtet.",
+          "explainEn": "Chapter 8. Meaning: to approve."
+        },
+        {
+          "id": "k9-31",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Reportern avslöjade att politikern hade ljugit om sina utgifter.\n\nVad betyder \"avslöja\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "glömma något",
+            "skriva om något",
+            "förbjuda något",
+            "visa något som var hemligt"
+          ],
+          "answer": 3,
+          "explain": "Kapitel 9. Ord: avslöja, avslöjar, avslöjade, avslöjat. Avslöja = berätta eller visa något som var hemligt.",
+          "explainEn": "Chapter 9. Meaning: to reveal, to expose."
+        },
+        {
+          "id": "k9-32",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Hennes argument övertygade mig, så jag ändrade mig.\n\nVad betyder \"övertyga\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "få någon att glömma",
+            "få någon att tro eller hålla med",
+            "få någon att skratta",
+            "få någon att vänta"
+          ],
+          "answer": 1,
+          "explain": "Kapitel 9. Ord: övertyga, övertygar, övertygade, övertygat. Övertyga = med bra skäl få någon att tro på något.",
+          "explainEn": "Chapter 9. Meaning: to convince."
+        },
+        {
+          "id": "k9-33",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Man ska alltid ifrågasätta nyheter som verkar för bra för att vara sanna.\n\nVad betyder \"ifrågasätta\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "tro på allt direkt",
+            "skriva ner",
+            "inte bara tro på något, utan tvivla och fråga",
+            "glömma bort"
+          ],
+          "answer": 2,
+          "explain": "Kapitel 9. Ord: ifrågasätta, ifrågasätter, ifrågasatte, ifrågasatt. Ifrågasätta = visa att man tvivlar och vill ha svar.",
+          "explainEn": "Chapter 9. Meaning: to question, to challenge."
+        },
+        {
+          "id": "k9-34",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Polisen höll en misstänkt man kvar för förhör.\n\nVad betyder \"misstänkt\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "som är mycket gammal",
+            "som är farlig för alla",
+            "som är känd",
+            "som man tror kan ha gjort ett brott"
+          ],
+          "answer": 3,
+          "explain": "Kapitel 9. Ord: misstänkt, misstänkta. Misstänkt = någon som man tror kan ha gjort något olagligt.",
+          "explainEn": "Chapter 9. Meaning: suspected, suspicious."
+        },
+        {
+          "id": "k9-35",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Du har inte tillräckligt med pengar på kontot för att köpa soffan.\n\nVad betyder \"tillräcklig\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "så mycket som behövs",
+            "alldeles för mycket",
+            "mycket lite",
+            "exakt hundra"
+          ],
+          "answer": 0,
+          "explain": "Kapitel 9. Ord: tillräcklig, tillräckligt, tillräckliga. Tillräcklig = så mycket som behövs, nog.",
+          "explainEn": "Chapter 9. Meaning: sufficient, enough."
+        },
+        {
+          "id": "k9-36",
+          "type": "mcq",
+          "tags": [
+            "ordförråd",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Jag är inte arg. Tvärtom, jag är mycket glad!\n\nVad betyder \"tvärtom\" här?",
+          "qEn": "What does the word mean here?",
+          "options": [
+            "likadant",
+            "precis det motsatta",
+            "kanske",
+            "på samma sätt"
+          ],
+          "answer": 1,
+          "explain": "Kapitel 9. Ord: tvärtom (adverb). Tvärtom = precis tvärtom, det motsatta.",
+          "explainEn": "Chapter 9. Meaning: on the contrary, the other way round."
+        }
+      ]
+    }
+  ]
+}
