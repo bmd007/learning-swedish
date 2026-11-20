@@ -257,3 +257,9 @@
 - 18/19 auto, listening 3/3 first play, forms 5/6 (*hjälpsama*). Del 1 slow (10 min), 5 first-try misses on -sam/-ig vs -ande/English-built words.
 - Speak 112 s, A2/B1: good adjectives (ärlig, trevlig, pigg och glad); *Vi ofta spelar*, *riktig ärlig*. Whisper used (browser transcript broken).
 - Next: 040–042 and 043 (vocab check). Keep an eye on V2 + adverb (ofta/alltid/inte) in speech.
+
+## 2026-11-20 – Graded 040 (collocations: weather/food)
+
+- 18/19 auto in 8 min, 2 first-try misses (039: 5). *mätt* for *mätta*. Dialogue never played.
+- Speak 92 s, A2/B1: used stark/mild mat, hård vind, klar himmel; *i Uppsala man kan*, *kraftig regn*; didn't compare countries.
+- Watch: inversion in free speech, answer the exact speaking task, plural predicative -a.

@@ -24,3 +24,7 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `ordförråd.kollokation` (039) – 10/10 in the end, 5 wrong first try: chose *-ande*/English-built forms (hjälpande, komisk, stark=strict, exakt, talande) over hjälpsam, rolig, sträng, noggrann, pratsam.
 - `adjektiv.kongruens` (039) – 5/6; *hjälpsama* (double m missing). ett/plural/bestämd form otherwise right.
 - `ordföljd.adverb` (039 speak) – *Vi ofta spelar* (V2: verb before ofta); *riktig ärlig* (adverb -t form: riktigt).
+- `adjektiv.kongruens` (040) – predicative plural: *vi var alla mätt* (mätta). Speak: *kraftig regn* (ett regn → kraftigt).
+- `ordföljd.inversion` (040 speak) – *i Uppsala man kan* (kan man); right in *i vinter har vi*. Comes back in free speech.
+- `tal.uppgift` (040 speak) – compare task (home country vs Sweden) answered only about Uppsala.
+- `hör.strategi` (040) – answered 3 listening items without playing the dialogue (0 plays).

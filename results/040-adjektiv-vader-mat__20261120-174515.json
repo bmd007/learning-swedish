@@ -1,0 +1,309 @@
+{
+  "lessonId": "040-adjektiv-vader-mat",
+  "attemptId": "2026-11-20T16-37-27-451Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-20T16:37:29.246Z",
+  "finishedAt": "2026-11-20T16:45:15.012Z",
+  "durationMin": 8,
+  "currentSection": null,
+  "sectionMinutes": {
+    "ord": 2.9,
+    "form": 1.7,
+    "lyssna": 0.5,
+    "lista": 0.4,
+    "tala": 2.3
+  },
+  "audioPlays": {
+    "t1a": 2
+  },
+  "firstTry": {
+    "s0": false,
+    "s1": false,
+    "s2": true,
+    "s3": true,
+    "s4": true,
+    "s5": true,
+    "s6": true,
+    "s7": true,
+    "s8": true,
+    "s9": true,
+    "g6": false,
+    "l1": false,
+    "l2": true,
+    "l3": true
+  },
+  "flags": [],
+  "score": {
+    "ord": {
+      "correct": 10,
+      "total": 10
+    },
+    "form": {
+      "correct": 5,
+      "total": 6
+    },
+    "lyssna": {
+      "correct": 3,
+      "total": 3
+    }
+  },
+  "items": [
+    {
+      "id": "s0",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "I november är vädret ofta ___ och grått, men sällan riktigt kallt.",
+      "given": "milt",
+      "expected": "milt",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "I natt var det ___ regn och många källare blev översvämmade.",
+      "given": "kraftigt",
+      "expected": "kraftigt",
+      "correct": true
+    },
+    {
+      "id": "s2",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Det blåser mycket i dag. Det är en ___ vind.",
+      "given": "hård",
+      "expected": "hård",
+      "correct": true
+    },
+    {
+      "id": "s3",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Det var ___ väglag i morse, så kör försiktigt.",
+      "given": "halt",
+      "expected": "halt",
+      "correct": true
+    },
+    {
+      "id": "s4",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Det var en ___ himmel utan ett enda moln.",
+      "given": "klar",
+      "expected": "klar",
+      "correct": true
+    },
+    {
+      "id": "s5",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Jag köpte ___ frukt på torget i morse.",
+      "given": "färsk",
+      "expected": "färsk",
+      "correct": true
+    },
+    {
+      "id": "s6",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Jag dricker bara ___ kaffe. Det ska smaka riktigt mycket.",
+      "given": "starkt",
+      "expected": "starkt",
+      "correct": true
+    },
+    {
+      "id": "s7",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Jag är inte så hungrig. Jag tar bara en ___ lunch, kanske en sallad.",
+      "given": "lätt",
+      "expected": "lätt",
+      "correct": true
+    },
+    {
+      "id": "s8",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Jag tål inte stark mat. Kan jag få en ___ sås i stället?",
+      "given": "mild",
+      "expected": "mild",
+      "correct": true
+    },
+    {
+      "id": "s9",
+      "section": "ord",
+      "type": "select",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Den här frågan är mycket ___. Jag vet inte svaret.",
+      "given": "svår",
+      "expected": "svår",
+      "correct": true
+    },
+    {
+      "id": "g1",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vi fick ett ___ regn i går.",
+      "given": "kraftigt",
+      "expected": "kraftigt",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "I morse var det ___ väglag.",
+      "given": "halt",
+      "expected": "halt",
+      "correct": true
+    },
+    {
+      "id": "g3",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "De ___ jordgubbarna smakar underbart.",
+      "given": "färska",
+      "expected": "färska",
+      "correct": true
+    },
+    {
+      "id": "g4",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Efter middagen var vi alla ___.",
+      "given": "mätt",
+      "expected": "mätta",
+      "correct": false
+    },
+    {
+      "id": "g5",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Jag älskar ___ kaffe på morgonen.",
+      "given": "starkt",
+      "expected": "starkt",
+      "correct": true
+    },
+    {
+      "id": "g6",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "adjektiv.kongruens",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Det är ___ väder i december i år.",
+      "given": "milt",
+      "expected": "milt",
+      "correct": true
+    },
+    {
+      "id": "l1",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilket ord använde Sara om regnet?",
+      "given": "kraftigt",
+      "expected": "kraftigt",
+      "correct": true
+    },
+    {
+      "id": "l2",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilket ord använde Johan om vinden?",
+      "given": "hård",
+      "expected": "hård",
+      "correct": true
+    },
+    {
+      "id": "l3",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilket ord använde Sara om sin lunch?",
+      "given": "lätt",
+      "expected": "lätt",
+      "correct": true
+    },
+    {
+      "id": "t1",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.beskriva",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Väder och mat – Sverige och ditt hemland",
+      "given": {
+        "recording": "040-adjektiv-vader-mat__t1__20261120-174510.webm",
+        "transcript": "Vart kommer jag från  är Uppsala Uppsala här många restauranger men i Uppsala  Men kan hitta olika mat man kan hitta  stark  indisk mat eller mild mexikansk  Jag gillar  italiensk  farsk   pizza pizzor  Det är mycket bra på sommar men i  vinter  har vi hård vind  lite klar himmel  men  eller också kraftig rea in",
+        "seconds": 92
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-20T17:45:15"
+}
