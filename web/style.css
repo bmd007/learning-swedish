@@ -272,3 +272,12 @@ mark.hl { background: #ffe066; color: #1f2328; border-radius: 2px; padding: 0 1p
 .filters.kinds { margin-bottom: 0; }
 .busy-badge { background: var(--yellow-soft); color: var(--mid); }
 .wait-badge { background: var(--mid-soft); color: var(--mid); }
+
+.nav-link { color: var(--text); text-decoration: none; font-weight: 600; padding: 4px 10px; border-radius: 8px; }
+.nav-link:hover { background: var(--accent-soft); color: var(--accent); }
+.exam-mode .nav-link { display: none; }
+.guide table { border-collapse: collapse; width: 100%; margin: 10px 0 16px; font-size: 15px; display: block; overflow-x: auto; }
+.guide th, .guide td { border: 1px solid var(--line); padding: 6px 9px; text-align: left; vertical-align: top; }
+.guide th { background: var(--accent-soft); }
+.guide h2 { margin-top: 28px; border-bottom: 2px solid var(--yellow); padding-bottom: 4px; }
+.guide hr { border: 0; border-top: 1px solid var(--line); margin: 24px 0; }

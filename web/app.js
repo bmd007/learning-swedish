@@ -55,6 +55,7 @@ function route() {
   const [, view, id] = location.hash.split("/");
   if (view === "lesson" && id) return openLesson(id);
   if (view === "feedback" && id) return openFeedback(id);
+  if (view === "swedex") return openGuide();
   return home();
 }
 
@@ -203,6 +204,13 @@ async function openFeedback(id) {
   const text = res.ok ? await res.text() : "Ingen feedback än.";
   app.innerHTML = `<a class="back" href="#/">← Startsidan</a><div class="card md feedback">${md(text)}</div>
     <a class="btn secondary" href="#/">← Tillbaka</a>`;
+}
+
+async function openGuide() {
+  const text = await fetch("/web/swedex.md").then(r => r.text());
+  app.innerHTML = `<a class="back" href="#/">← Startsidan</a><div class="card md guide">${md(text)}</div>
+    <a class="btn secondary" href="#/">← Tillbaka</a>`;
+  window.scrollTo(0, 0);
 }
 
 async function openLesson(id) {
