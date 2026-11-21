@@ -32,3 +32,4 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `substantiv.form` (029 speak) – *en små lägenheten* (en liten lägenhet), *en svensk test och prov*, *nästa veckan*.
 - `verb.preteritum` (029) – *vinnade* (vann), *lärade mig* (lärde mig); `ordföljd.inversion` – *Förra helgen lärade mig* (subject missing after verb).
 - `tal.interaktion` (029) – asked back in speech (good), but m1 missed that asking back = interaction.
+- `hör.siffror` (014) – diktat 2/5: second half of years wrong: fyrtioåtta→80 (1480), åttiofyra→04 (1804), sjuttio→29 (1829). First half always right. In context (morfar) 4/4. -tio vs -ton, tens-then-ones.

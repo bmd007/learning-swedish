@@ -269,3 +269,9 @@
 - 2/4 auto (m1 missed "ask back"; *vinnade*). Speak 132 s, A2/B1: all bullets + asked back. Errors: för…sedan vs i,
   *en små lägenheten*, *lärade mig*, inversion without subject, *mor tung* (modersmål).
 - Next idea: a short lesson on time phrases (i / för … sedan / på / om) + strong verbs in speech.
+
+## 2026-11-21 – Fixed 014 sound, graded 014 (years)
+
+- App bug: item-level audio only had a player for speak items → 014 drills were silent. Fixed in renderItem.
+- 014: 10/13. Diktat 2/5 – last two digits of years (-tio/-ton, tens first). Interview 4/4.
+- 043 (vocab check) has a draft in progress – grade when handed in. Next: number warm-ups in listening lessons.

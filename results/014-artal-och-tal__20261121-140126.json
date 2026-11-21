@@ -1,0 +1,225 @@
+{
+  "lessonId": "014-artal-och-tal",
+  "attemptId": "2026-11-21T12-51-07-858Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-21T12:51:08.960Z",
+  "finishedAt": "2026-11-21T13:01:26.294Z",
+  "durationMin": 10,
+  "currentSection": null,
+  "sectionMinutes": {
+    "regel": 2.4,
+    "par": 1,
+    "diktat": 1.6,
+    "morfar": 3.4
+  },
+  "audioPlays": {
+    "a_p1": 2,
+    "a_p2": 2,
+    "a_p4": 2,
+    "a_p5": 2,
+    "a_d1": 2,
+    "a_d2": 2,
+    "a_d3": 2,
+    "a_d7": 2,
+    "a_d8": 2,
+    "a_morfar": 2
+  },
+  "firstTry": {
+    "p1": true,
+    "p2": false,
+    "p4": true,
+    "p5": true,
+    "d8": true,
+    "m5": true,
+    "m3": true,
+    "m2": true,
+    "m1": true
+  },
+  "flags": [],
+  "score": {
+    "par": {
+      "correct": 4,
+      "total": 4
+    },
+    "diktat": {
+      "correct": 2,
+      "total": 5
+    },
+    "morfar": {
+      "correct": 4,
+      "total": 4
+    }
+  },
+  "items": [
+    {
+      "id": "p1",
+      "section": "par",
+      "type": "mcq",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Vilket tal hör du?",
+      "given": "70",
+      "expected": "70",
+      "correct": true
+    },
+    {
+      "id": "p2",
+      "section": "par",
+      "type": "mcq",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Vilket tal hör du?",
+      "given": "14",
+      "expected": "14",
+      "correct": true
+    },
+    {
+      "id": "p4",
+      "section": "par",
+      "type": "mcq",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Vilket tal hör du?",
+      "given": "1860",
+      "expected": "1860",
+      "correct": true
+    },
+    {
+      "id": "p5",
+      "section": "par",
+      "type": "mcq",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Vilket tal hör du?",
+      "given": "1990",
+      "expected": "1990",
+      "correct": true
+    },
+    {
+      "id": "d1",
+      "section": "diktat",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Skriv årtalet med siffror.",
+      "given": "1947",
+      "expected": "1947",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "d2",
+      "section": "diktat",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Skriv årtalet med siffror.",
+      "given": "1480",
+      "expected": "1448",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "d3",
+      "section": "diktat",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Skriv årtalet med siffror.",
+      "given": "1804",
+      "expected": "1884",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "d7",
+      "section": "diktat",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Skriv årtalet med siffror.",
+      "given": "skollan stänge 1829",
+      "expected": "1870",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "d8",
+      "section": "diktat",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Skriv årtalet med siffror.",
+      "given": "bjornan opnade 1914",
+      "expected": "1914",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "m1",
+      "section": "morfar",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Vilket år flyttade morfar till Stockholm?",
+      "given": "1968",
+      "expected": "1968",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "m2",
+      "section": "morfar",
+      "type": "short",
+      "tags": [
+        "hör.siffror",
+        "hör.detalj"
+      ],
+      "prompt": "Vilket år gifte sig morfar och mormor?",
+      "given": "1972",
+      "expected": "1972",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "m3",
+      "section": "morfar",
+      "type": "short",
+      "tags": [
+        "hör.siffror"
+      ],
+      "prompt": "Vilket år föddes Saras mamma?",
+      "given": "1974",
+      "expected": "1974",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "m5",
+      "section": "morfar",
+      "type": "short",
+      "tags": [
+        "hör.siffror",
+        "hör.detalj"
+      ],
+      "prompt": "Hur många år jobbade morfar på samma ställe?",
+      "given": "44",
+      "expected": "44",
+      "correct": true,
+      "teacherCheck": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-21T14:01:26"
+}
