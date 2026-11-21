@@ -728,6 +728,12 @@ async function openLesson(id) {
       if (item.audio) wrap.append(renderPlayer(item.audio));
       wrap.append(renderRecorder(item, set));
     }
+    if (item.audio && item.type !== "speak") {
+      const qEl = wrap.querySelector(".q");
+      const anchor = qEl?.nextElementSibling?.classList.contains("en") ? qEl.nextElementSibling : qEl;
+      const player = renderPlayer(item.audio);
+      anchor ? anchor.after(player) : wrap.prepend(player);
+    }
     return wrap;
   }
 
