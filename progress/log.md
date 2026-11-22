@@ -281,3 +281,8 @@
 - 4/4 listening/phrases. Speak 137 s, A2: good day structure + asked back, but only 2/5 bullets (no past/future weekend).
   min/mitt/mina, *sedan jag börjar*, *brukar äta jag*. Whisper hallucinated – graded from browser transcript.
 - Pattern: speaking tasks not fully covered (040, 030) → next speaking lesson: a "past–now–future" frame drill.
+
+## 2026-11-22 – Graded 041
+
+- 17/19 auto; plural predicative *full* (2nd time). Speak 150 s A2/B1: en/ett (område, fönster), missing subject after därför.
+- 043 draft: 33/36 answered, not handed in – asked the learner to finish it.

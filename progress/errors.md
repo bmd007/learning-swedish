@@ -36,3 +36,6 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `tal.uppgift` (030 speak) – covered 2/5 bullets: no förra helgen, no nästa helg, no why Swedish. Second time (040) task not fully answered.
 - `pronomen.possessiv` (030 speak) – *min jobb* (mitt), *min kollegor/vänner* (mina).
 - `ordföljd.inversion` (030 speak) – *sedan jag börjar* (sedan börjar jag), *brukar äta jag* (brukar jag äta); right: *på kvällen går jag*, *brukar jag*.
+- `adjektiv.kongruens` (041) – predicative plural again: *bussarna är full* (fulla) – 2nd time after 040 *mätt*. Spelling *lungt*.
+- `substantiv.genus` (041 speak) – *en lugn område*, *en fönster*, *många vägen* (vägar), *mycket små* for one flat.
+- `ordföljd.subjekt` (041 speak) – *därför är inte så ljus* (subject den missing). Self-corrected *när behöver jag* → *när jag behöver*.

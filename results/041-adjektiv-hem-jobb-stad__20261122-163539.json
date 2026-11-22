@@ -1,0 +1,311 @@
+{
+  "lessonId": "041-adjektiv-hem-jobb-stad",
+  "attemptId": "2026-11-22T15-18-04-062Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-22T15:18:05.317Z",
+  "finishedAt": "2026-11-22T15:35:39.878Z",
+  "durationMin": 18,
+  "currentSection": null,
+  "sectionMinutes": {
+    "ord": 8.8,
+    "form": 1.1,
+    "lyssna": 2.5,
+    "tala": 5
+  },
+  "audioPlays": {
+    "a1": 2,
+    "s1a": 1
+  },
+  "firstTry": {
+    "v1": true,
+    "v2": false,
+    "v3": true,
+    "v4": false,
+    "v5": true,
+    "v6": false,
+    "v7": true,
+    "v8": false,
+    "v9": true,
+    "v10": true,
+    "h1": true,
+    "h2": false,
+    "h3": false
+  },
+  "flags": [],
+  "score": {
+    "ord": {
+      "correct": 10,
+      "total": 10
+    },
+    "form": {
+      "correct": 4,
+      "total": 6
+    },
+    "lyssna": {
+      "correct": 3,
+      "total": 3
+    }
+  },
+  "items": [
+    {
+      "id": "v1",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Hyran i innerstan är mycket ___.",
+      "given": "hög",
+      "expected": "hög",
+      "correct": true
+    },
+    {
+      "id": "v2",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "På morgonen är det ___ trafik på E4.",
+      "given": "tät",
+      "expected": "tät",
+      "correct": true
+    },
+    {
+      "id": "v3",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Jag fick stå i en ___ kö på Ica.",
+      "given": "lång",
+      "expected": "lång",
+      "correct": true
+    },
+    {
+      "id": "v4",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Bussen var så ___ att jag inte fick någon plats.",
+      "given": "full",
+      "expected": "full",
+      "correct": true
+    },
+    {
+      "id": "v5",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Min väska är så ___. Jag har både dator och böcker i den.",
+      "given": "tung",
+      "expected": "tung",
+      "correct": true
+    },
+    {
+      "id": "v6",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Hon har en ___ lön, så hon har råd med nästan allt.",
+      "given": "hög",
+      "expected": "hög",
+      "correct": true
+    },
+    {
+      "id": "v7",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Jag började klockan sex och slutade klockan sju på kvällen. Det var en ___ arbetsdag.",
+      "given": "lång",
+      "expected": "lång",
+      "correct": true
+    },
+    {
+      "id": "v8",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vi hade tre möten, två deadlines och en sjuk kollega. Det blev en ___ vecka.",
+      "given": "hektisk",
+      "expected": "hektisk",
+      "correct": true
+    },
+    {
+      "id": "v9",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "På helgen vill jag bara vila. Jag vill ha en ___ helg.",
+      "given": "lugn",
+      "expected": "lugn",
+      "correct": true
+    },
+    {
+      "id": "v10",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Lägenheten har stora fönster mot söder. Den är väldigt ___.",
+      "given": "ljus",
+      "expected": "ljus",
+      "correct": true
+    },
+    {
+      "id": "f1",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Vi bor i en ___ lägenhet med stora fönster.",
+      "given": "ljus",
+      "expected": "ljus",
+      "correct": true
+    },
+    {
+      "id": "f2",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Det är ett ___ rum. Vi ser ingenting utan lampa.",
+      "given": "mörkt",
+      "expected": "mörkt",
+      "correct": true
+    },
+    {
+      "id": "f3",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Hyrorna i Stockholm är mycket ___.",
+      "given": "höga",
+      "expected": "höga",
+      "correct": true
+    },
+    {
+      "id": "f4",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Jag längtar efter ett ___ liv på landet.",
+      "given": "lungt",
+      "expected": "lugnt",
+      "correct": false
+    },
+    {
+      "id": "f5",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Bussarna är alltid ___ klockan åtta.",
+      "given": "full",
+      "expected": "fulla",
+      "correct": false
+    },
+    {
+      "id": "f6",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Den ___ väskan är min. Kan du hjälpa mig bära den?",
+      "given": "tunga",
+      "expected": "tunga",
+      "correct": true
+    },
+    {
+      "id": "h1",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilket ord använde Johan om hyran?",
+      "given": "jattefin and veldigtljus men hög hyra",
+      "expected": "hög",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "h2",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilket ord använde Johan om trafiken vid bron?",
+      "given": "tät",
+      "expected": "tät",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "h3",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilket ord använde Sara om bussen?",
+      "given": "alltid full",
+      "expected": "full",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "s1",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.beskriva",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Berätta om där du bor och hur du tar dig till jobbet eller skolan.",
+      "given": {
+        "recording": "041-adjektiv-hem-jobb-stad__s1__20261122-163509.webm",
+        "transcript": "min lägenhet  är  mycket  små  eller lite det är bara  35  Quattro meter  den har en Foster  mot  norr  därför är inte så livs och är  Work ofta  Jag tycker att min  lägenhet  ligger på en lugn  områ det i Uppsala  och finns många  vägen runt min lägenhet  som är inte som inte är trångt trånga  ofta och och cykla  en ook ibland Ta bil ja hyra bil när jag när behöver jag behöver jag en bil   Wagon runt och Nara min lägenhet vagina Rundt og Nora min lägenhet  är  bra men staden ofta",
+        "seconds": 150
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-22T16:35:39"
+}
