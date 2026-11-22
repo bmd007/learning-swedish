@@ -150,3 +150,11 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 - Learner added the Rivstart B1/B2 Ordlista PDF ("the words we are supposed to learn"). Learner: "half of the book is B1".
 - Decision: chapters 1–9 (≈2800 unique words) are the B1 target vocabulary; ch. 10 borderline; 11–18 = B2, not a goal.
   Parsed to `materials/ordlista/rivstart-b1b2.json` (private). Lessons should prefer these words.
+
+## 2026-11-22 – Vocabulary: range, not precision
+
+- Learner: "I don't really care about high load vs long queue … I'm more interested in range of useful adjectives."
+  → Adjective lessons from now on teach many useful words (meaning, opposite, use in speech), not collocation traps.
+  039–042 stay as they are.
+- Video word cues: agreed to a trial after 043 is handed in (stock clips for concrete words, Persian/English sound
+  hints for abstract words; YouGlish suggested for real usage).
