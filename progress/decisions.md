@@ -164,3 +164,14 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 - Learner after 043 (34/36 mcq): "I kinda guessed some words correct, it's not like now I can spell or remember or use all of them."
   → MCQ recognition ≠ knowing a word. Vocabulary checks use typed recall (gap + Swedish hint + first letter), and the
   "known" list only counts words the learner can produce. 043 = "seen before" only.
+
+## 2026-11-23 – Vocabulary level: concrete daily words first
+
+- Learner (during 047): words like tröttna/bry sig/oavsett feel early; "I need more common and daily useful and
+  tangible vocabulary. maybe that would A1/A2 level".
+  → Next vocab lessons: concrete, everyday nouns + action verbs by theme (home, laundry room, shopping, transport,
+  health, city services, clothes, small things). These also fill Swedex listening del 1–3 (phone messages).
+  Abstract Rivstart words (043/047) later.
+- Level check source: Kelly list (Språkbanken, CC BY 4.0) → `materials/kelly/kelly-sv.json` (8425 words, CEFR A1–C2,
+  web-frequency based, so mixed with news words – use as a level filter, not as the curriculum).
+- Format: a photo per word (Pixabay, private), hear the word, then TYPE it (production), then a Swedex-style message.

@@ -36,6 +36,12 @@ Checked and not usable (2026-11-18): Gemini TTS via the work gateway (404), Wiki
 (single words only), Mozilla Common Voice sv-SE (good: CC0, age-tagged, but needs a login on Mozilla Data Collective).
 No free Swedish child speakers found.
 
+## Word lists
+
+| What | Source | Licence | Local path | How |
+|---|---|---|---|---|
+| Kelly list Swedish (8425 lemmas, CEFR A1–C2 from web-corpus frequency, word class) | spraakbanken.gu.se/en/resources/kelly → `svn.spraakbanken.gu.se/sb-arkiv/pub/lexikon/kelly/Swedish-Kelly_M3_CEFR.xls` | CC BY 4.0 | `materials/kelly/` (`kelly-sv.json`) | curl the xls; convert with xlrd (`.venv`) |
+
 ## Video / photo memory cues
 
 | What | Source | Licence | Local path | How |
