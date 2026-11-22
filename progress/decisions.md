@@ -158,3 +158,9 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   039–042 stay as they are.
 - Video word cues: agreed to a trial after 043 is handed in (stock clips for concrete words, Persian/English sound
   hints for abstract words; YouGlish suggested for real usage).
+
+## 2026-11-22 – Vocabulary checks: production, not recognition
+
+- Learner after 043 (34/36 mcq): "I kinda guessed some words correct, it's not like now I can spell or remember or use all of them."
+  → MCQ recognition ≠ knowing a word. Vocabulary checks use typed recall (gap + Swedish hint + first letter), and the
+  "known" list only counts words the learner can produce. 043 = "seen before" only.
