@@ -1,0 +1,664 @@
+{
+  "id": "047-ordkoll-skriv-ordet",
+  "title": "Ordkoll 2: skriv ordet",
+  "titleEn": "Word check 2: write the word",
+  "mode": "practice",
+  "minutes": 12,
+  "intro": "Inga svarsalternativ den här gången: skriv ordet själv. Stavningen räknas. Om du inte kan ordet, skriv det du tror. Slå inte upp något.",
+  "introEn": "No choices this time: write the word. Spelling counts. If you don't know it, write what you think – don't look it up.",
+  "sections": [
+    {
+      "id": "del1",
+      "title": "Del 1: Kapitel 1–3",
+      "titleEn": "Part 1: chapters 1–3",
+      "instructions": "Skriv ordet som saknas, i rätt form. Bokstaven och förklaringen hjälper dig. Stavningen räknas. Gissa om du är osäker.",
+      "instructionsEn": "Write the missing word in the right form. The first letter and the explanation help you. Spelling counts. Guess if unsure.",
+      "image": {
+        "src": "ordkoll.svg",
+        "alt": "Tre rutor: jag kan ordet, jag gissar, nytt ord"
+      },
+      "items": [
+        {
+          "id": "p1",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k1"
+          ],
+          "q": "Nu när vi har bil ___ vi stå i kö vid busshållplatsen.",
+          "qEn": "Missing word: (don't have to)",
+          "base": "s… (inte behöva)",
+          "answers": [
+            "slipper"
+          ],
+          "explain": "Kapitel 1. Ord: slippa, slipper, slapp, sluppit.",
+          "explainEn": "Chapter 1. Meaning: to be spared from."
+        },
+        {
+          "id": "p2",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k3"
+          ],
+          "q": "___ har nästan alla en smartphone.",
+          "qEn": "Missing word: (nowadays)",
+          "base": "n… (i dag, i våra dagar)",
+          "answers": [
+            "nuförtiden",
+            "numera"
+          ],
+          "explain": "Kapitel 3. Ord: nuförtiden. Numera betyder samma sak och godtas också.",
+          "explainEn": "Chapter 3. Meaning: nowadays."
+        },
+        {
+          "id": "p3",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k3"
+          ],
+          "q": "Kaffet är varken för starkt eller för svagt. Det är ___.",
+          "qEn": "Missing word: (just right)",
+          "base": "l… (precis så mycket som behövs)",
+          "answers": [
+            "lagom"
+          ],
+          "explain": "Kapitel 3. Ord: lagom.",
+          "explainEn": "Chapter 3. Meaning: just right."
+        },
+        {
+          "id": "p4",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k1"
+          ],
+          "q": "Jag hade ___ somnat när telefonen ringde.",
+          "qEn": "Missing word: (hardly / only just)",
+          "base": "k… (nästan inte, precis nyss)",
+          "answers": [
+            "knappt"
+          ],
+          "explain": "Kapitel 1. Ord: knappt.",
+          "explainEn": "Chapter 1. Meaning: hardly, only just."
+        },
+        {
+          "id": "p5",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k3"
+          ],
+          "q": "Den som glömmer lösenordet ___ att bli utelåst.",
+          "qEn": "Missing word: (risks)",
+          "base": "r… (kunna råka ut för något dåligt)",
+          "answers": [
+            "riskerar"
+          ],
+          "explain": "Kapitel 3. Ord: riskera, riskerar, riskerade, riskerat.",
+          "explainEn": "Chapter 3. Meaning: to risk."
+        },
+        {
+          "id": "p6",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k2"
+          ],
+          "q": "Barnen ___ snabbt på spelet och började rita i stället.",
+          "qEn": "Missing word: (got tired of)",
+          "base": "t… (inte längre tycka att det är roligt)",
+          "answers": [
+            "tröttnade"
+          ],
+          "explain": "Kapitel 2. Ord: tröttna, tröttnar, tröttnade, tröttnat.",
+          "explainEn": "Chapter 2. Meaning: to get tired of."
+        },
+        {
+          "id": "p7",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k2"
+          ],
+          "q": "Hon ___ sig inte om vad grannarna tycker.",
+          "qEn": "Missing word: (cares)",
+          "base": "b… (tycka att något är viktigt)",
+          "answers": [
+            "bryr"
+          ],
+          "explain": "Kapitel 2. Ord: bry sig, bryr sig, brydde sig, brytt sig. Reflexivt: sig står kvar i meningen.",
+          "explainEn": "Chapter 2. Meaning: to care (about)."
+        },
+        {
+          "id": "p8",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k1"
+          ],
+          "q": "Jag ___ inte med att städa i dag, jag är för trött.",
+          "qEn": "Missing word: (have the energy)",
+          "base": "o… (ha tillräckligt med energi)",
+          "answers": [
+            "orkar"
+          ],
+          "explain": "Kapitel 1. Ord: orka med, orkar, orkade, orkat.",
+          "explainEn": "Chapter 1. Meaning: to have the energy for."
+        },
+        {
+          "id": "p9",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k2"
+          ],
+          "q": "Mina vänner ___ alltid upp när jag behöver hjälp.",
+          "qEn": "Missing word: (help out)",
+          "base": "s… (hjälpa när någon behöver det)",
+          "answers": [
+            "ställer"
+          ],
+          "explain": "Kapitel 2. Ord: ställa upp, ställer upp, ställde upp, ställt upp. Partikeln upp står kvar i meningen.",
+          "explainEn": "Chapter 2. Meaning: to help out."
+        }
+      ]
+    },
+    {
+      "id": "del2",
+      "title": "Del 2: Kapitel 4–6",
+      "titleEn": "Part 2: chapters 4–6",
+      "instructions": "Skriv ordet som saknas, i rätt form. Bokstaven och förklaringen hjälper dig. Stavningen räknas. Gissa om du är osäker.",
+      "instructionsEn": "Write the missing word in the right form. The first letter and the explanation help you. Spelling counts. Guess if unsure.",
+      "image": {
+        "src": "ordkoll.svg",
+        "alt": "Tre rutor: jag kan ordet, jag gissar, nytt ord"
+      },
+      "items": [
+        {
+          "id": "p10",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k4"
+          ],
+          "q": "Han satte sig bredvid henne för att ___ henne.",
+          "qEn": "Missing word: (comfort)",
+          "base": "t… (hjälpa någon som är ledsen)",
+          "answers": [
+            "trösta"
+          ],
+          "explain": "Kapitel 4. Ord: trösta, tröstar, tröstade, tröstat. Efter 'för att' kommer infinitiv.",
+          "explainEn": "Chapter 4. Meaning: to comfort."
+        },
+        {
+          "id": "p11",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k4"
+          ],
+          "q": "Min mamma ___ alltid om att jag ska äta mer grönsaker.",
+          "qEn": "Missing word: (nags)",
+          "base": "t… (säga samma sak om och om igen)",
+          "answers": [
+            "tjatar"
+          ],
+          "explain": "Kapitel 4. Ord: tjata, tjatar, tjatade, tjatat.",
+          "explainEn": "Chapter 4. Meaning: to nag."
+        },
+        {
+          "id": "p12",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k5"
+          ],
+          "q": "Jag ___ var min nyckel är. Har du sett den?",
+          "qEn": "Missing word: (wonder)",
+          "base": "u… (vilja veta, fundera)",
+          "answers": [
+            "undrar"
+          ],
+          "explain": "Kapitel 5. Ord: undra, undrar, undrade, undrat.",
+          "explainEn": "Chapter 5. Meaning: to wonder."
+        },
+        {
+          "id": "p13",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k5"
+          ],
+          "q": "Han är ___ sjuk, så han kan inte jobba.",
+          "qEn": "Missing word: (still)",
+          "base": "f… (som förut, inte ändrat)",
+          "answers": [
+            "fortfarande"
+          ],
+          "explain": "Kapitel 5. Ord: fortfarande.",
+          "explainEn": "Chapter 5. Meaning: still."
+        },
+        {
+          "id": "p14",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k6"
+          ],
+          "q": "Du är välkommen ___ hur gammal du är.",
+          "qEn": "Missing word: (regardless of)",
+          "base": "o… (det spelar ingen roll)",
+          "answers": [
+            "oavsett"
+          ],
+          "explain": "Kapitel 6. Ord: oavsett.",
+          "explainEn": "Chapter 6. Meaning: regardless of."
+        },
+        {
+          "id": "p15",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k5"
+          ],
+          "q": "Alla i klassen ville ___ med pengar till resan.",
+          "qEn": "Missing word: (contribute)",
+          "base": "b… (ge sin del)",
+          "answers": [
+            "bidra"
+          ],
+          "explain": "Kapitel 5. Ord: bidra, bidrar, bidrog, bidragit. Efter 'ville' kommer infinitiv.",
+          "explainEn": "Chapter 5. Meaning: to contribute."
+        },
+        {
+          "id": "p16",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k6"
+          ],
+          "q": "Barnen fick mycket ___ när de sjöng på scenen.",
+          "qEn": "Missing word: (attention)",
+          "base": "u… (när man tittar och lyssnar på något)",
+          "answers": [
+            "uppmärksamhet"
+          ],
+          "explain": "Kapitel 6. Ord: uppmärksamhet, uppmärksamheten. Slutar på -het, alltid en-ord.",
+          "explainEn": "Chapter 6. Meaning: attention."
+        },
+        {
+          "id": "p17",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k4"
+          ],
+          "q": "Efter mycket tjat ___ hon mig att köpa den dyra jackan.",
+          "qEn": "Missing word: (persuaded)",
+          "base": "ö… (med ord få någon att göra något)",
+          "answers": [
+            "övertalade"
+          ],
+          "explain": "Kapitel 4. Ord: övertala, övertalar, övertalade, övertalat. Övertala = få någon att göra något. Övertyga = få någon att tro något.",
+          "explainEn": "Chapter 4. Meaning: to persuade."
+        },
+        {
+          "id": "p18",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k6"
+          ],
+          "q": "Jag blev ___ att ta taxi eftersom bussen inte kom.",
+          "qEn": "Missing word: (forced)",
+          "base": "t… (måste, inget val)",
+          "answers": [
+            "tvungen"
+          ],
+          "explain": "Kapitel 6. Ord: tvungen, tvunget, tvungna. Blev tvungen att + infinitiv.",
+          "explainEn": "Chapter 6. Meaning: forced, obliged."
+        }
+      ]
+    },
+    {
+      "id": "del3",
+      "title": "Del 3: Kapitel 7–9",
+      "titleEn": "Part 3: chapters 7–9",
+      "instructions": "Skriv ordet som saknas, i rätt form. Bokstaven och förklaringen hjälper dig. Stavningen räknas. Gissa om du är osäker.",
+      "instructionsEn": "Write the missing word in the right form. The first letter and the explanation help you. Spelling counts. Guess if unsure.",
+      "image": {
+        "src": "ordkoll.svg",
+        "alt": "Tre rutor: jag kan ordet, jag gissar, nytt ord"
+      },
+      "items": [
+        {
+          "id": "p19",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Barn ___ ofta allt som vuxna säger.",
+          "qEn": "Missing word: (question / challenge)",
+          "base": "i… (tvivla och fråga)",
+          "answers": [
+            "ifrågasätter"
+          ],
+          "explain": "Kapitel 9. Ord: ifrågasätta, ifrågasätter, ifrågasatte, ifrågasatt.",
+          "explainEn": "Chapter 9. Meaning: to question."
+        },
+        {
+          "id": "p20",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Han ___ domaren om att han var oskyldig.",
+          "qEn": "Missing word: (convinced)",
+          "base": "ö… (med bra skäl få någon att tro)",
+          "answers": [
+            "övertygade"
+          ],
+          "explain": "Kapitel 9. Ord: övertyga, övertygar, övertygade, övertygat. Övertyga någon om något = få någon att tro det.",
+          "explainEn": "Chapter 9. Meaning: to convince."
+        },
+        {
+          "id": "p21",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Kommunen ___ min ansökan i förrgår.",
+          "qEn": "Missing word: (approved)",
+          "base": "g… (säga ja till)",
+          "answers": [
+            "godkände"
+          ],
+          "explain": "Kapitel 8. Ord: godkänna, godkänner, godkände, godkänt.",
+          "explainEn": "Chapter 8. Meaning: to approve."
+        },
+        {
+          "id": "p22",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Vi behöver två ___ sjuksköterskor till natten.",
+          "qEn": "Missing word: (experienced)",
+          "base": "e… (som har gjort något många gånger)",
+          "answers": [
+            "erfarna"
+          ],
+          "explain": "Kapitel 7. Ord: erfaren, erfaret, erfarna. Plural: -a.",
+          "explainEn": "Chapter 7. Meaning: experienced."
+        },
+        {
+          "id": "p23",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Föräldrarna är ___ för att barnen kommer till skolan.",
+          "qEn": "Missing word: (responsible)",
+          "base": "a… (som ska se till att något blir gjort)",
+          "answers": [
+            "ansvariga"
+          ],
+          "explain": "Kapitel 7. Ord: ansvarig, ansvarigt, ansvariga. Plural: -a.",
+          "explainEn": "Chapter 7. Meaning: responsible."
+        },
+        {
+          "id": "p24",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Det finns inte ___ med mat till alla.",
+          "qEn": "Missing word: (enough)",
+          "base": "t… (så mycket som behövs)",
+          "answers": [
+            "tillräckligt"
+          ],
+          "explain": "Kapitel 9. Ord: tillräcklig, tillräckligt, tillräckliga. 'tillräckligt med' + substantiv.",
+          "explainEn": "Chapter 9. Meaning: sufficient, enough."
+        },
+        {
+          "id": "p25",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Hans kommentarer ___ ofta kollegorna.",
+          "qEn": "Missing word: (provoke)",
+          "base": "p… (göra någon arg med flit)",
+          "answers": [
+            "provocerar"
+          ],
+          "explain": "Kapitel 7. Ord: provocera, provocerar, provocerade, provocerat.",
+          "explainEn": "Chapter 7. Meaning: to provoke."
+        },
+        {
+          "id": "p26",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Konserten ___ i två timmar.",
+          "qEn": "Missing word: (went on)",
+          "base": "p… (hålla på, inte vara slut)",
+          "answers": [
+            "pågick"
+          ],
+          "explain": "Kapitel 8. Ord: pågå, pågår, pågick, pågått. Stark böjning: pågå – pågick.",
+          "explainEn": "Chapter 8. Meaning: to be going on."
+        },
+        {
+          "id": "p27",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Jag förstår inte reglerna. Det är för ___.",
+          "qEn": "Missing word: (complicated)",
+          "base": "k… (inte enkelt, svårt att förstå)",
+          "answers": [
+            "komplicerat"
+          ],
+          "explain": "Kapitel 7. Ord: komplicerad, komplicerat, komplicerade. Det är + adjektiv i ett-form: -t.",
+          "explainEn": "Chapter 7. Meaning: complicated."
+        },
+        {
+          "id": "p28",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Jag har inte tråkigt. ___, jag har jättekul!",
+          "qEn": "Missing word: (on the contrary)",
+          "base": "t… (precis det motsatta)",
+          "answers": [
+            "tvärtom"
+          ],
+          "explain": "Kapitel 9. Ord: tvärtom.",
+          "explainEn": "Chapter 9. Meaning: on the contrary."
+        },
+        {
+          "id": "p29",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Skylten är stor och ___, så alla kan läsa den.",
+          "qEn": "Missing word: (clear)",
+          "base": "t… (lätt att se eller förstå)",
+          "answers": [
+            "tydlig"
+          ],
+          "explain": "Kapitel 8. Ord: tydlig, tydligt, tydliga. Skylten = en-ord, så ingen -t.",
+          "explainEn": "Chapter 8. Meaning: clear."
+        },
+        {
+          "id": "p30",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Tidningen ___ hemligheten i går.",
+          "qEn": "Missing word: (revealed)",
+          "base": "a… (visa något som var hemligt)",
+          "answers": [
+            "avslöjade"
+          ],
+          "explain": "Kapitel 9. Ord: avslöja, avslöjar, avslöjade, avslöjat.",
+          "explainEn": "Chapter 9. Meaning: to reveal."
+        },
+        {
+          "id": "p31",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Om du tar fel väg kan du ___ i skogen.",
+          "qEn": "Missing word: (end up)",
+          "base": "h… (komma till en plats av en slump)",
+          "answers": [
+            "hamna"
+          ],
+          "explain": "Kapitel 7. Ord: hamna, hamnar, hamnade, hamnat. Efter 'kan' kommer infinitiv.",
+          "explainEn": "Chapter 7. Meaning: to end up."
+        },
+        {
+          "id": "p32",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Man har ___ rökning på alla restauranger.",
+          "qEn": "Missing word: (banned)",
+          "base": "f… (säga att något inte är tillåtet)",
+          "answers": [
+            "förbjudit"
+          ],
+          "explain": "Kapitel 8. Ord: förbjuda, förbjuder, förbjöd, förbjudit. Har + supinum: förbjudit.",
+          "explainEn": "Chapter 8. Meaning: to forbid, to ban."
+        },
+        {
+          "id": "p33",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Klimatet är ett mycket ___ ämne just nu.",
+          "qEn": "Missing word: (topical)",
+          "base": "a… (som gäller just nu)",
+          "answers": [
+            "aktuellt"
+          ],
+          "explain": "Kapitel 8. Ord: aktuell, aktuellt, aktuella. Ett ämne = ett-ord, så -t.",
+          "explainEn": "Chapter 8. Meaning: current, topical."
+        },
+        {
+          "id": "p34",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k8"
+          ],
+          "q": "Maten var ___ god, jag åt tre portioner.",
+          "qEn": "Missing word: (extremely)",
+          "base": "o… (väldigt, mer än vanligt)",
+          "answers": [
+            "oerhört",
+            "otroligt"
+          ],
+          "explain": "Kapitel 8. Ord: oerhört. Otroligt betyder samma sak och godtas också.",
+          "explainEn": "Chapter 8. Meaning: extremely."
+        },
+        {
+          "id": "p35",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k7"
+          ],
+          "q": "Jag ___ när jag insåg att jag hade glömt hennes namn.",
+          "qEn": "Missing word: (felt ashamed)",
+          "base": "s… (känna att något är pinsamt)",
+          "answers": [
+            "skämdes"
+          ],
+          "explain": "Kapitel 7. Ord: skämmas, skäms, skämdes, skämts. Deponens: slutar på -s i alla former (skäms, skämdes).",
+          "explainEn": "Chapter 7. Meaning: to be ashamed."
+        },
+        {
+          "id": "p36",
+          "type": "gap",
+          "tags": [
+            "ordförråd",
+            "ordförråd.produktion",
+            "ordförråd.rivstart.k9"
+          ],
+          "q": "Polisen letar efter tre ___ personer.",
+          "qEn": "Missing word: (suspected)",
+          "base": "m… (som man tror har gjort ett brott)",
+          "answers": [
+            "misstänkta"
+          ],
+          "explain": "Kapitel 9. Ord: misstänkt, misstänkta. Plural: -a.",
+          "explainEn": "Chapter 9. Meaning: suspected, suspicious."
+        }
+      ]
+    }
+  ]
+}
