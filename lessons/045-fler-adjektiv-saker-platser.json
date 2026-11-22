@@ -1,0 +1,410 @@
+{
+ "id": "045-fler-adjektiv-saker-platser",
+ "title": "Fler adjektiv: saker, platser och upplevelser",
+ "titleEn": "More adjectives: things, places and experiences",
+ "mode": "practice",
+ "minutes": 10,
+ "intro": "Målet är bredd. Du lär dig 16 nya ord för att beskriva ställen, saker, mat och upplevelser. Du kan använda dem direkt när du berättar om en helg, ett hotell eller en middag.",
+ "introEn": "The aim is range. 16 new words for describing places, things, food and experiences. Use them straight away when you tell about a weekend, a hotel or a dinner.",
+ "sections": [
+  {
+   "id": "ord",
+   "title": "Del 1: Nya ord",
+   "titleEn": "Part 1: New words",
+   "instructions": "Läs tabellen. Välj tre eller fyra ord du vill använda själv.",
+   "instructionsEn": "Read the table. Pick three or four words you want to use yourself.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "image": {
+      "src": "platser.svg",
+      "alt": "Tre ställen: en mysig stuga, ett lyxigt hotell och ett smutsigt kök"
+     },
+     "md": "**Hemma och på resa**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **bekväm** | obekväm | comfortable | راحت | Soffan är bekväm. |\n| **mysig** | olustig | cozy | دنج | Vi satt i det mysiga köket. |\n| **lyxig** | enkel | luxurious | لوکس | Hotellet var jättelyxigt. |\n| **smutsig** | ren | dirty | کثیف | Golvet är smutsigt. |\n| **trist** | spännande | dull, boring | کسل‌کننده | Det är trist att vara hemma när det regnar. |\n\n**Saker och dagar**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **praktisk** | opraktisk | practical | کاربردی | Ryggsäcken är mycket praktisk. |\n| **jobbig** | lätt | tough, annoying | سخت و خسته‌کننده | Det var en jobbig dag. |\n| **nyttig** | onyttig | healthy, useful | مفید، سالم | Fisk är nyttigt. |\n| **farlig** | säker | dangerous | خطرناک | Trafiken är farlig här. |\n| **vilsam** | stressig | restful | آرامش‌بخش | Helgen på landet var vilsam. |\n\n**Upplevelser**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **läskig** | trygg | scary | ترسناک | Skogen är läskig på natten. |\n| **konstig** | normal | strange | عجیب | Det luktar konstigt här. |\n| **underbar** | hemsk | wonderful | فوق‌العاده | Vilken underbar kväll! |\n\n**Mat**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **äcklig** | god | disgusting | نفرت‌انگیز | Maten var äcklig. |\n| **saftig** | torr | juicy | آبدار | Päronet var saftigt. |\n| **torr** | saftig | dry | خشک | Kakan blev för torr. |\n"
+    }
+   ]
+  },
+  {
+   "id": "betyder",
+   "title": "Del 2: Vad betyder det?",
+   "titleEn": "Part 2: What does it mean?",
+   "instructions": "Välj det ord som passar bäst.",
+   "instructionsEn": "Choose the word that fits best.",
+   "items": [
+    {
+     "id": "m1",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Soffan är mjuk och jag kan sitta där i flera timmar utan att få ont i ryggen. Den är mycket ___.",
+     "options": [
+      "bekväm",
+      "farlig",
+      "torr"
+     ],
+     "answer": 0,
+     "explain": "Bekväm = skön att sitta eller ligga i.",
+     "explainEn": "bekväm = comfortable"
+    },
+    {
+     "id": "m2",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Vi tände ljus, drack te och satt under en filt. Det var så ___ hemma hos oss.",
+     "options": [
+      "trist",
+      "mysigt",
+      "smutsigt"
+     ],
+     "answer": 1,
+     "explain": "Mysig = varm, skön stämning.",
+     "explainEn": "mysig = cozy"
+    },
+    {
+     "id": "m3",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Hotellet hade pool, spa och frukost på sängen. Det var riktigt ___.",
+     "options": [
+      "praktiskt",
+      "vilsamt",
+      "lyxigt"
+     ],
+     "answer": 2,
+     "explain": "Lyxig = mycket fin och dyr.",
+     "explainEn": "lyxig = luxurious"
+    },
+    {
+     "id": "m4",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Kniven kan öppna både burkar och flaskor. Den är mycket ___.",
+     "options": [
+      "nyttig",
+      "praktisk",
+      "konstig"
+     ],
+     "answer": 1,
+     "explain": "Praktisk = lätt att använda, ger nytta.",
+     "explainEn": "praktisk = practical"
+    },
+    {
+     "id": "m5",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Jag jobbade tolv timmar och bussen var sen. Vilken ___ dag!",
+     "options": [
+      "jobbig",
+      "underbar",
+      "saftig"
+     ],
+     "answer": 0,
+     "explain": "Jobbig = trött, svår, för mycket.",
+     "explainEn": "jobbig = tough"
+    },
+    {
+     "id": "m6",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Efter en vecka på landet utan telefon kände jag mig utvilad. Det var en ___ semester.",
+     "options": [
+      "smutsig",
+      "äcklig",
+      "vilsam"
+     ],
+     "answer": 2,
+     "explain": "Vilsam = ger vila.",
+     "explainEn": "vilsam = restful"
+    },
+    {
+     "id": "m7",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Maten luktade så illa att jag inte kunde äta den. Den var ___.",
+     "options": [
+      "saftig",
+      "äcklig",
+      "bekväm"
+     ],
+     "answer": 1,
+     "explain": "Äcklig = man vill inte äta eller röra den.",
+     "explainEn": "äcklig = disgusting"
+    },
+    {
+     "id": "m8",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Filmen var så ___ att jag inte vågade titta på slutet.",
+     "options": [
+      "läskig",
+      "trist",
+      "lyxig"
+     ],
+     "answer": 0,
+     "explain": "Läskig = man blir rädd.",
+     "explainEn": "läskig = scary"
+    }
+   ]
+  },
+  {
+   "id": "motsatser",
+   "title": "Del 3: Motsatser",
+   "titleEn": "Part 3: Opposites",
+   "instructions": "Vilket ord är motsatsen?",
+   "instructionsEn": "Which word is the opposite?",
+   "parts": [
+    {
+     "heading": "Välj motsatsen",
+     "headingEn": "Choose the opposite",
+     "options": [
+      "spännande",
+      "ren",
+      "lätt",
+      "säker",
+      "hemsk",
+      "torr"
+     ],
+     "items": [
+      {
+       "id": "o1",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "trist",
+       "answer": 0,
+       "explain": "trist ≠ spännande",
+       "explainEn": "trist ≠ spännande"
+      },
+      {
+       "id": "o2",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "smutsig",
+       "answer": 1,
+       "explain": "smutsig ≠ ren",
+       "explainEn": "smutsig ≠ ren"
+      },
+      {
+       "id": "o3",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "jobbig",
+       "answer": 2,
+       "explain": "jobbig ≠ lätt",
+       "explainEn": "jobbig ≠ lätt"
+      },
+      {
+       "id": "o4",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "farlig",
+       "answer": 3,
+       "explain": "farlig ≠ säker",
+       "explainEn": "farlig ≠ säker"
+      },
+      {
+       "id": "o5",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "underbar",
+       "answer": 4,
+       "explain": "underbar ≠ hemsk",
+       "explainEn": "underbar ≠ hemsk"
+      },
+      {
+       "id": "o6",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "saftig",
+       "answer": 5,
+       "explain": "saftig ≠ torr",
+       "explainEn": "saftig ≠ torr"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lyssna",
+   "title": "Del 4: Lyssna",
+   "titleEn": "Part 4: Listen",
+   "instructions": "Lyssna på samtalet. Svara sedan på frågorna.",
+   "instructionsEn": "Listen to the conversation, then answer.",
+   "parts": [
+    {
+     "heading": "Sofia och Jonas",
+     "headingEn": "Sofia and Jonas",
+     "audio": {
+      "id": "a1",
+      "title": "Sofia och Jonas",
+      "titleEn": "Sofia and Jonas",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Sofia": "f",
+       "Jonas": "m"
+      },
+      "script": [
+       {
+        "speaker": "Sofia",
+        "text": "Hej Jonas! Hur var stugan ni hyrde i helgen?"
+       },
+       {
+        "speaker": "Jonas",
+        "text": "Den var jättemysig, men väldigt enkel. Sängarna var tyvärr inte bekväma."
+       },
+       {
+        "speaker": "Sofia",
+        "text": "Åh, vad trist. Var det rent?"
+       },
+       {
+        "speaker": "Jonas",
+        "text": "Nästan. Köket var lite smutsigt, men resten var fint. Och det var så vilsamt, ingen mobil!"
+       },
+       {
+        "speaker": "Sofia",
+        "text": "Underbart! Åt ni något gott?"
+       },
+       {
+        "speaker": "Jonas",
+        "text": "Ja, vi lagade fisk. Den var saftig och nyttig. Men grannens ost var äcklig, vi åt inte upp den. Och på natten var det läskigt, för det var så mörkt."
+       },
+       {
+        "speaker": "Sofia",
+        "text": "Jag förstår. Det låter som en konstig men bra helg."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "h1",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.adjektiv"
+       ],
+       "q": "Hur beskriver Jonas köket?",
+       "options": [
+        "Smutsigt",
+        "Lyxigt",
+        "Torrt"
+       ],
+       "answer": 0
+      },
+      {
+       "id": "h2",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.adjektiv"
+       ],
+       "q": "Hur beskriver Jonas fisken?",
+       "options": [
+        "Äcklig och torr",
+        "Saftig och nyttig",
+        "Konstig och farlig"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "h3",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.adjektiv"
+       ],
+       "q": "Hur var det på natten i stugan?",
+       "options": [
+        "Trist",
+        "Praktiskt",
+        "Läskigt"
+       ],
+       "answer": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tala",
+   "title": "Del 5: Tala",
+   "titleEn": "Part 5: Speak",
+   "instructions": "Lyssna på testledaren och svara. Använd nya ord.",
+   "instructionsEn": "Listen to the examiner and answer. Use new words.",
+   "items": [
+    {
+     "id": "t1",
+     "type": "speak",
+     "tags": [
+      "tal.beskriva",
+      "ordförråd.adjektiv"
+     ],
+     "q": "Berätta om ett ställe du tycker om och ett du inte tycker om",
+     "qEn": "Tell about a place you like and a place you do not like",
+     "maxSeconds": 150,
+     "bullets": [
+      "Vilka ställen? Var ligger de?",
+      "Hur är de? Använd minst fyra nya adjektiv (till exempel mysig, bekväm, trist, jobbig, läskig).",
+      "Förklara varför med eftersom: Jag tycker om ... eftersom det är ..."
+     ],
+     "audio": {
+      "id": "t1a",
+      "title": "Testledaren frågar",
+      "maxPlays": 2,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Berätta om ett ställe du tycker om, till exempel ett café, en park eller en stad. Berätta också om ett ställe du inte tycker om. Hur är de, och varför?"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

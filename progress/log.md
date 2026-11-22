@@ -286,3 +286,8 @@
 
 - 17/19 auto; plural predicative *full* (2nd time). Speak 150 s A2/B1: en/ett (område, fönster), missing subject after därför.
 - 043 draft: 33/36 answered, not handed in – asked the learner to finish it.
+
+## 2026-11-22 – Lessons 044–046: adjective range
+
+- Per learner wish (range, not precision): 16 new adjectives each – 044 personality/feelings, 045 things/places, 046 opinions.
+  Word table (opposite/en/fa/example), 8 mcq, 6 opposites, TTS dialogue + 3 mcq, speak task. Audio ok (Whisper 0–2 %).

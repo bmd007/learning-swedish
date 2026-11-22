@@ -1,0 +1,410 @@
+{
+ "id": "046-fler-adjektiv-asikter",
+ "title": "Fler adjektiv: säga vad man tycker",
+ "titleEn": "More adjectives: saying what you think",
+ "mode": "practice",
+ "minutes": 10,
+ "intro": "Målet är bredd. Du lär dig 16 adjektiv för att säga vad du tycker, i samtal (Swedex tal del 3) och i skrift. Med fyra av dem och ett eftersom låter din åsikt tydlig och B1.",
+ "introEn": "The aim is range. 16 adjectives for giving opinions in Swedex speaking part 3 and in writing. Four of them plus one 'eftersom' make your opinion clear.",
+ "sections": [
+  {
+   "id": "ord",
+   "title": "Del 1: Nya ord",
+   "titleEn": "Part 1: New words",
+   "instructions": "Läs tabellen. Välj tre eller fyra ord du vill använda själv.",
+   "instructionsEn": "Read the table. Pick three or four words you want to use yourself.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "image": {
+      "src": "for-mot.svg",
+      "alt": "En våg med för och mot: viktig, effektiv, värdefull mot onödig, skadlig, orättvis"
+     },
+     "md": "**Viktigt eller onödigt?**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **viktig** | oviktig | important | مهم | Hälsan är viktig för alla. |\n| **onödig** | nödvändig | unnecessary | غیرضروری | Den där tröjan var en onödig present. |\n| **självklar** | inte självklar | obvious, a given | بدیهی | Det är en självklar regel. |\n| **värdefull** | värdelös | valuable | ارزشمند | Tid med familjen är värdefull. |\n| **meningsfull** | meningslös | meaningful | معنادار | Jag har ett meningsfullt jobb. |\n\n**Går det? Fungerar det?**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **möjlig** | omöjlig | possible | ممکن | Är det möjligt att boka om? |\n| **omöjlig** | möjlig | impossible | غیرممکن | Det är omöjligt att hinna före tio. |\n| **effektiv** | ineffektiv | efficient | کارآمد | Den nya appen är effektiv. |\n| **vettig** | dum | sensible | معقول | Det var ett vettigt förslag. |\n| **naturlig** | onaturlig | natural | طبیعی | Det är naturligt att vara nervös. |\n\n**Bra eller dåligt?**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **positiv** | negativ | positive | مثبت | Jag är positiv till förslaget. |\n| **negativ** | positiv | negative | منفی | Hon är negativ till idén. |\n| **skadlig** | nyttig | harmful | مضر | Rökning är skadligt. |\n| **rättvis** | orättvis | fair | عادلانه | Betygen är rättvisa. |\n| **orättvis** | rättvis | unfair | ناعادلانه | Systemet är orättvist. |\n| **allvarlig** | lindrig | serious | جدی | Det är ett allvarligt problem. |\n"
+    }
+   ]
+  },
+  {
+   "id": "betyder",
+   "title": "Del 2: Vad betyder det?",
+   "titleEn": "Part 2: What does it mean?",
+   "instructions": "Välj det ord som passar bäst.",
+   "instructionsEn": "Choose the word that fits best.",
+   "items": [
+    {
+     "id": "m1",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Alla vet att man ska stanna vid rött ljus. Det är en helt ___ regel.",
+     "options": [
+      "värdefull",
+      "självklar",
+      "onödig"
+     ],
+     "answer": 1,
+     "explain": "Självklar = alla förstår det.",
+     "explainEn": "självklar = obvious"
+    },
+    {
+     "id": "m2",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Det är ___ att köpa en ny telefon varje år. Den gamla fungerar ju bra.",
+     "options": [
+      "onödigt",
+      "viktigt",
+      "naturligt"
+     ],
+     "answer": 0,
+     "explain": "Onödig = man behöver den inte.",
+     "explainEn": "onödig = unnecessary"
+    },
+    {
+     "id": "m3",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Läraren ger bara bra betyg till sina favoriter. Hon är ___.",
+     "options": [
+      "effektiv",
+      "rättvis",
+      "orättvis"
+     ],
+     "answer": 2,
+     "explain": "Orättvis = behandlar inte alla lika.",
+     "explainEn": "orättvis = unfair"
+    },
+    {
+     "id": "m4",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Rökning är ___ för hälsan. Man kan få cancer.",
+     "options": [
+      "vettig",
+      "skadlig",
+      "möjlig"
+     ],
+     "answer": 1,
+     "explain": "Skadlig = ger skada.",
+     "explainEn": "skadlig = harmful"
+    },
+    {
+     "id": "m5",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Den nya appen är mycket ___. Jag gör på fem minuter det som tog en timme förut.",
+     "options": [
+      "effektiv",
+      "meningsfull",
+      "negativ"
+     ],
+     "answer": 0,
+     "explain": "Effektiv = gör mycket på kort tid.",
+     "explainEn": "effektiv = efficient"
+    },
+    {
+     "id": "m6",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Jag tycker att det är ___ att hjälpa andra. Man känner att man gör nytta.",
+     "options": [
+      "onödigt",
+      "omöjligt",
+      "meningsfullt"
+     ],
+     "answer": 2,
+     "explain": "Meningsfull = känns viktig och rätt.",
+     "explainEn": "meningsfull = meaningful"
+    },
+    {
+     "id": "m7",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Det är ___ att lära sig svenska på en dag. Det tar flera år.",
+     "options": [
+      "möjligt",
+      "omöjligt",
+      "vettigt"
+     ],
+     "answer": 1,
+     "explain": "Omöjlig = går inte.",
+     "explainEn": "omöjlig = impossible"
+    },
+    {
+     "id": "m8",
+     "type": "mcq",
+     "tags": [
+      "ordförråd.adjektiv",
+      "ordförråd.rivstart"
+     ],
+     "q": "Det här är ett ___ problem. Vi måste lösa det nu.",
+     "options": [
+      "allvarligt",
+      "naturligt",
+      "positivt"
+     ],
+     "answer": 0,
+     "explain": "Allvarlig = stor och farlig, inte liten.",
+     "explainEn": "allvarlig = serious"
+    }
+   ]
+  },
+  {
+   "id": "motsatser",
+   "title": "Del 3: Motsatser",
+   "titleEn": "Part 3: Opposites",
+   "instructions": "Vilket ord är motsatsen?",
+   "instructionsEn": "Which word is the opposite?",
+   "parts": [
+    {
+     "heading": "Välj motsatsen",
+     "headingEn": "Choose the opposite",
+     "options": [
+      "omöjlig",
+      "negativ",
+      "orättvis",
+      "nödvändig",
+      "nyttig",
+      "dum"
+     ],
+     "items": [
+      {
+       "id": "o1",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "möjlig",
+       "answer": 0,
+       "explain": "möjlig ≠ omöjlig",
+       "explainEn": "möjlig ≠ omöjlig"
+      },
+      {
+       "id": "o2",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "positiv",
+       "answer": 1,
+       "explain": "positiv ≠ negativ",
+       "explainEn": "positiv ≠ negativ"
+      },
+      {
+       "id": "o3",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "rättvis",
+       "answer": 2,
+       "explain": "rättvis ≠ orättvis",
+       "explainEn": "rättvis ≠ orättvis"
+      },
+      {
+       "id": "o4",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "onödig",
+       "answer": 3,
+       "explain": "onödig ≠ nödvändig",
+       "explainEn": "onödig ≠ nödvändig"
+      },
+      {
+       "id": "o5",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "skadlig",
+       "answer": 4,
+       "explain": "skadlig ≠ nyttig",
+       "explainEn": "skadlig ≠ nyttig"
+      },
+      {
+       "id": "o6",
+       "type": "select",
+       "tags": [
+        "ordförråd.adjektiv",
+        "ordförråd.rivstart"
+       ],
+       "q": "vettig",
+       "answer": 5,
+       "explain": "vettig ≠ dum",
+       "explainEn": "vettig ≠ dum"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lyssna",
+   "title": "Del 4: Lyssna",
+   "titleEn": "Part 4: Listen",
+   "instructions": "Lyssna på samtalet. Svara sedan på frågorna.",
+   "instructionsEn": "Listen to the conversation, then answer.",
+   "parts": [
+    {
+     "heading": "Testledare och Amir",
+     "headingEn": "Examiner and Amir",
+     "audio": {
+      "id": "a1",
+      "title": "Testledare och Amir",
+      "titleEn": "Examiner and Amir",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f",
+       "Amir": "m"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Nu ska vi prata om läxor. Många tycker att barn får för mycket läxor. Vad tycker du, Amir?"
+       },
+       {
+        "speaker": "Amir",
+        "text": "Jag tycker att läxor är viktiga, men inte alla. Vissa är helt onödiga, till exempel när man bara skriver av en text."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Vad är en bra läxa, då?"
+       },
+       {
+        "speaker": "Amir",
+        "text": "Att läsa en bok, tänker jag. Det är värdefullt för språket, och ganska effektivt. Man lär sig nya ord."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Men är det rättvist? Alla barn har inte lugn och ro hemma."
+       },
+       {
+        "speaker": "Amir",
+        "text": "Nej, det är ett allvarligt problem. Då blir det orättvist. Skolan borde ha läxhjälp. Det vore en vettig lösning."
+       },
+       {
+        "speaker": "Testledare",
+        "text": "Tack, Amir. Du är alltså positiv till läxor, men med vissa villkor."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "h1",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.adjektiv"
+       ],
+       "q": "Hur beskriver Amir läxor där man bara skriver av en text?",
+       "options": [
+        "Meningsfulla",
+        "Onödiga",
+        "Allvarliga"
+       ],
+       "answer": 1
+      },
+      {
+       "id": "h2",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.adjektiv"
+       ],
+       "q": "Hur beskriver Amir att läsa en bok som läxa?",
+       "options": [
+        "Orättvist och onödigt",
+        "Omöjligt men positivt",
+        "Värdefullt och effektivt"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "h3",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "ordförråd.adjektiv"
+       ],
+       "q": "Hur beskriver Amir läxhjälp i skolan?",
+       "options": [
+        "En vettig lösning",
+        "Ett allvarligt problem",
+        "En omöjlig idé"
+       ],
+       "answer": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tala",
+   "title": "Del 5: Tala",
+   "titleEn": "Part 5: Speak",
+   "instructions": "Lyssna på testledaren och svara. Använd nya ord.",
+   "instructionsEn": "Listen to the examiner and answer. Use new words.",
+   "items": [
+    {
+     "id": "t1",
+     "type": "speak",
+     "tags": [
+      "tal.argumentera",
+      "ordförråd.adjektiv"
+     ],
+     "q": "Ska det vara förbjudet att använda mobilen i skolan?",
+     "qEn": "Should it be forbidden to use the phone at school?",
+     "maxSeconds": 150,
+     "bullets": [
+      "Säg vad du tycker: Jag tycker att det är ... att ...",
+      "Använd minst fyra nya adjektiv (till exempel viktig, onödig, effektiv, skadlig, rättvis).",
+      "Ge minst ett skäl med eftersom och säg vad den andra sidan kan tycka."
+     ],
+     "audio": {
+      "id": "t1a",
+      "title": "Testledaren frågar",
+      "maxPlays": 2,
+      "strict": false,
+      "speakers": {
+       "Testledare": "f"
+      },
+      "script": [
+       {
+        "speaker": "Testledare",
+        "text": "Nu ett annat ämne. Ska det vara förbjudet att använda mobilen i skolan? Säg vad du tycker och förklara varför."
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
