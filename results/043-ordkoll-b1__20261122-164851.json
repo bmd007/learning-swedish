@@ -1,0 +1,540 @@
+{
+  "lessonId": "043-ordkoll-b1",
+  "attemptId": "2026-11-20T23-49-46-789Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-20T23:49:48.588Z",
+  "finishedAt": "2026-11-22T15:48:51.599Z",
+  "durationMin": 2399,
+  "currentSection": null,
+  "sectionMinutes": {
+    "del1": 6.3,
+    "del2": 6.8,
+    "del3": 46.8
+  },
+  "audioPlays": {},
+  "firstTry": {
+    "k1-1": true,
+    "k1-2": true,
+    "k1-3": false,
+    "k2-4": true,
+    "k2-5": false,
+    "k2-6": true,
+    "k3-7": true,
+    "k3-8": true,
+    "k3-9": true,
+    "k4-10": true,
+    "k4-11": true,
+    "k4-12": true,
+    "k5-13": true,
+    "k5-14": false,
+    "k5-15": true,
+    "k6-17": false,
+    "k6-18": true,
+    "k7-19": false,
+    "k7-20": true,
+    "k7-21": true,
+    "k7-22": false,
+    "k7-23": true,
+    "k7-24": true,
+    "k8-25": true,
+    "k8-26": true,
+    "k8-27": true,
+    "k8-28": true,
+    "k8-29": true,
+    "k8-30": true,
+    "k9-31": false,
+    "k9-32": false,
+    "k9-33": true,
+    "k9-34": false,
+    "k9-35": true,
+    "k9-36": true
+  },
+  "flags": [],
+  "score": {
+    "del1": {
+      "correct": 9,
+      "total": 9
+    },
+    "del2": {
+      "correct": 8,
+      "total": 9
+    },
+    "del3": {
+      "correct": 17,
+      "total": 18
+    }
+  },
+  "items": [
+    {
+      "id": "k1-1",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k1"
+      ],
+      "prompt": "Tack vare distansarbetet slipper jag åka buss varje morgon.\n\nVad betyder \"slippa\" här?",
+      "given": "inte behöva göra något",
+      "expected": "inte behöva göra något",
+      "correct": true
+    },
+    {
+      "id": "k1-2",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k1"
+      ],
+      "prompt": "Efter jobbet orkar jag inte med att träna också.\n\nVad betyder \"orka med\" här?",
+      "given": "ha tillräckligt med energi för",
+      "expected": "ha tillräckligt med energi för",
+      "correct": true
+    },
+    {
+      "id": "k1-3",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k1"
+      ],
+      "prompt": "Vi hade knappt kommit hem när det började regna.\n\nVad betyder \"knappt\" här?",
+      "given": "just precis, bara nyss",
+      "expected": "just precis, bara nyss",
+      "correct": true
+    },
+    {
+      "id": "k2-4",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k2"
+      ],
+      "prompt": "Han bryr sig inte om vad andra tycker om hans kläder.\n\nVad betyder \"bry sig\" här?",
+      "given": "tycka att något är viktigt",
+      "expected": "tycka att något är viktigt",
+      "correct": true
+    },
+    {
+      "id": "k2-5",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k2"
+      ],
+      "prompt": "Efter fem år tröttnade hon på sitt jobb och sökte något nytt.\n\nVad betyder \"tröttna\" här?",
+      "given": "inte längre tycka att något är roligt",
+      "expected": "inte längre tycka att något är roligt",
+      "correct": true
+    },
+    {
+      "id": "k2-6",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k2"
+      ],
+      "prompt": "Min granne ställde upp och hjälpte mig att flytta på lördagen.\n\nVad betyder \"ställa upp\" här?",
+      "given": "hjälpa till när någon behöver det",
+      "expected": "hjälpa till när någon behöver det",
+      "correct": true
+    },
+    {
+      "id": "k3-7",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k3"
+      ],
+      "prompt": "Den som kör för fort riskerar att få böter.\n\nVad betyder \"riskera\" här?",
+      "given": "kunna råka ut för något dåligt",
+      "expected": "kunna råka ut för något dåligt",
+      "correct": true
+    },
+    {
+      "id": "k3-8",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k3"
+      ],
+      "prompt": "Soppan var varken för het eller för kall, den var lagom.\n\nVad betyder \"lagom\" här?",
+      "given": "precis så mycket som behövs",
+      "expected": "precis så mycket som behövs",
+      "correct": true
+    },
+    {
+      "id": "k3-9",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k3"
+      ],
+      "prompt": "Nuförtiden betalar nästan alla med kort eller telefon.\n\nVad betyder \"nuförtiden\" här?",
+      "given": "i dag, i våra dagar",
+      "expected": "i dag, i våra dagar",
+      "correct": true
+    },
+    {
+      "id": "k4-10",
+      "section": "del2",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k4"
+      ],
+      "prompt": "Jag försökte övertala min dotter att ta jackan med sig.\n\nVad betyder \"övertala\" här?",
+      "given": "få någon att göra som man vill",
+      "expected": "få någon att göra som man vill",
+      "correct": true
+    },
+    {
+      "id": "k4-11",
+      "section": "del2",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k4"
+      ],
+      "prompt": "Barnen tjatar om glass varje gång vi går förbi kiosken.\n\nVad betyder \"tjata\" här?",
+      "given": "fråga om samma sak om och om igen",
+      "expected": "fråga om samma sak om och om igen",
+      "correct": true
+    },
+    {
+      "id": "k4-12",
+      "section": "del2",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k4"
+      ],
+      "prompt": "Hon kramade sin lilla bror för att trösta honom.\n\nVad betyder \"trösta\" här?",
+      "given": "få någon att må bättre när han är ledsen",
+      "expected": "få någon att må bättre när han är ledsen",
+      "correct": true
+    },
+    {
+      "id": "k5-13",
+      "section": "del2",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k5"
+      ],
+      "prompt": "Alla i gruppen bidrog med något till festen.\n\nVad betyder \"bidra\" här?",
+      "given": "ge sin del, hjälpa till",
+      "expected": "ge sin del, hjälpa till",
+      "correct": true
+    },
+    {
+      "id": "k5-14",
+      "section": "del2",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k5"
+      ],
+      "prompt": "Klockan är tio, men barnen sover fortfarande.\n\nVad betyder \"fortfarande\" här?",
+      "given": "ännu, som tidigare",
+      "expected": "ännu, som tidigare",
+      "correct": true
+    },
+    {
+      "id": "k5-15",
+      "section": "del2",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k5"
+      ],
+      "prompt": "Jag undrar om bussen går på söndagar.\n\nVad betyder \"undra\" här?",
+      "given": "vilja veta, fundera på",
+      "expected": "vilja veta, fundera på",
+      "correct": true
+    },
+    {
+      "id": "k6-16",
+      "section": "del2",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k6"
+      ],
+      "prompt": "Jag var tvungen att stanna hemma eftersom barnet var sjukt.\n\nVad betyder \"tvungen\" här?",
+      "given": null,
+      "expected": "inte ha något val, måste",
+      "correct": false
+    },
+    {
+      "id": "k6-17",
+      "section": "del2",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k6"
+      ],
+      "prompt": "Biljetten gäller oavsett vilken dag du reser.\n\nVad betyder \"oavsett\" här?",
+      "given": "utan att det spelar någon roll",
+      "expected": "utan att det spelar någon roll",
+      "correct": true
+    },
+    {
+      "id": "k6-18",
+      "section": "del2",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k6"
+      ],
+      "prompt": "Läraren fick elevernas uppmärksamhet genom att höja handen.\n\nVad betyder \"uppmärksamhet\" här?",
+      "given": "när man lyssnar och tittar noga",
+      "expected": "när man lyssnar och tittar noga",
+      "correct": true
+    },
+    {
+      "id": "k7-19",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k7"
+      ],
+      "prompt": "Han skämdes när han kom för sent till sitt eget bröllop.\n\nVad betyder \"skämmas\" här?",
+      "given": "känna att man gjort något pinsamt",
+      "expected": "känna att man gjort något pinsamt",
+      "correct": true
+    },
+    {
+      "id": "k7-20",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k7"
+      ],
+      "prompt": "Hans kommentar provocerade alla i rummet.\n\nVad betyder \"provocera\" här?",
+      "given": "göra någon arg eller upprörd",
+      "expected": "göra någon arg eller upprörd",
+      "correct": true
+    },
+    {
+      "id": "k7-21",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k7"
+      ],
+      "prompt": "Vi söker en erfaren lärare som har jobbat många år.\n\nVad betyder \"erfaren\" här?",
+      "given": "som har lång vana och kan mycket",
+      "expected": "som har lång vana och kan mycket",
+      "correct": true
+    },
+    {
+      "id": "k7-22",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k7"
+      ],
+      "prompt": "Vi tog fel tåg och hamnade i en liten stad som vi aldrig hört talas om.\n\nVad betyder \"hamna\" här?",
+      "given": "komma till en plats, ofta av en slump",
+      "expected": "komma till en plats, ofta av en slump",
+      "correct": true
+    },
+    {
+      "id": "k7-23",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k7"
+      ],
+      "prompt": "Vem är ansvarig för att dörren stod öppen hela natten?\n\nVad betyder \"ansvarig\" här?",
+      "given": "den som ska se till att något blir rätt gjort",
+      "expected": "den som ska se till att något blir rätt gjort",
+      "correct": true
+    },
+    {
+      "id": "k7-24",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k7"
+      ],
+      "prompt": "Reglerna för bidraget är så komplicerade att få förstår dem.\n\nVad betyder \"komplicerad\" här?",
+      "given": "svår att förstå eftersom den har många delar",
+      "expected": "svår att förstå eftersom den har många delar",
+      "correct": true
+    },
+    {
+      "id": "k8-25",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k8"
+      ],
+      "prompt": "Det är förbjudet att röka på perrongen.\n\nVad betyder \"förbjuda\" här?",
+      "given": "säga att man inte får göra något",
+      "expected": "säga att man inte får göra något",
+      "correct": true
+    },
+    {
+      "id": "k8-26",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k8"
+      ],
+      "prompt": "Renoveringen pågår hela våren, så det är mycket oväsen.\n\nVad betyder \"pågå\" här?",
+      "given": "hålla på, inte vara klar än",
+      "expected": "hålla på, inte vara klar än",
+      "correct": true
+    },
+    {
+      "id": "k8-27",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k8"
+      ],
+      "prompt": "Hans förklaring var mycket tydlig, så alla förstod direkt.\n\nVad betyder \"tydlig\" här?",
+      "given": "lätt att förstå eller se",
+      "expected": "lätt att förstå eller se",
+      "correct": true
+    },
+    {
+      "id": "k8-28",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k8"
+      ],
+      "prompt": "Hur ser det aktuella läget ut på bostadsmarknaden?\n\nVad betyder \"aktuell\" här?",
+      "given": "som gäller just nu",
+      "expected": "som gäller just nu",
+      "correct": true
+    },
+    {
+      "id": "k8-29",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k8"
+      ],
+      "prompt": "Det var oerhört kallt, minus tjugofem grader.\n\nVad betyder \"oerhört\" här?",
+      "given": "mycket, väldigt",
+      "expected": "mycket, väldigt",
+      "correct": true
+    },
+    {
+      "id": "k8-30",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k8"
+      ],
+      "prompt": "Chefen godkände min ansökan om semester.\n\nVad betyder \"godkänna\" här?",
+      "given": "säga ja till, tycka att det är okej",
+      "expected": "säga ja till, tycka att det är okej",
+      "correct": true
+    },
+    {
+      "id": "k9-31",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k9"
+      ],
+      "prompt": "Reportern avslöjade att politikern hade ljugit om sina utgifter.\n\nVad betyder \"avslöja\" här?",
+      "given": "visa något som var hemligt",
+      "expected": "visa något som var hemligt",
+      "correct": true
+    },
+    {
+      "id": "k9-32",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k9"
+      ],
+      "prompt": "Hennes argument övertygade mig, så jag ändrade mig.\n\nVad betyder \"övertyga\" här?",
+      "given": "få någon att vänta",
+      "expected": "få någon att tro eller hålla med",
+      "correct": false
+    },
+    {
+      "id": "k9-33",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k9"
+      ],
+      "prompt": "Man ska alltid ifrågasätta nyheter som verkar för bra för att vara sanna.\n\nVad betyder \"ifrågasätta\" här?",
+      "given": "inte bara tro på något, utan tvivla och fråga",
+      "expected": "inte bara tro på något, utan tvivla och fråga",
+      "correct": true
+    },
+    {
+      "id": "k9-34",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k9"
+      ],
+      "prompt": "Polisen höll en misstänkt man kvar för förhör.\n\nVad betyder \"misstänkt\" här?",
+      "given": "som man tror kan ha gjort ett brott",
+      "expected": "som man tror kan ha gjort ett brott",
+      "correct": true
+    },
+    {
+      "id": "k9-35",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k9"
+      ],
+      "prompt": "Du har inte tillräckligt med pengar på kontot för att köpa soffan.\n\nVad betyder \"tillräcklig\" här?",
+      "given": "så mycket som behövs",
+      "expected": "så mycket som behövs",
+      "correct": true
+    },
+    {
+      "id": "k9-36",
+      "section": "del3",
+      "type": "mcq",
+      "tags": [
+        "ordförråd",
+        "ordförråd.rivstart.k9"
+      ],
+      "prompt": "Jag är inte arg. Tvärtom, jag är mycket glad!\n\nVad betyder \"tvärtom\" här?",
+      "given": "precis det motsatta",
+      "expected": "precis det motsatta",
+      "correct": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-22T16:48:51"
+}

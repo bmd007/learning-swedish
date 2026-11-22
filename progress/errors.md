@@ -39,3 +39,4 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `adjektiv.kongruens` (041) – predicative plural again: *bussarna är full* (fulla) – 2nd time after 040 *mätt*. Spelling *lungt*.
 - `substantiv.genus` (041 speak) – *en lugn område*, *en fönster*, *många vägen* (vägar), *mycket små* for one flat.
 - `ordföljd.subjekt` (041 speak) – *därför är inte så ljus* (subject den missing). Self-corrected *när behöver jag* → *när jag behöver*.
+- `ordförråd.rivstart` (043) – 34/36, 26/36 first try. Unknown: knappt, tröttna, fortfarande, tvungen, oavsett, skämmas, hamna, avslöja, övertyga, misstänkt. Ch. 7–9 almost as good as 1–6.

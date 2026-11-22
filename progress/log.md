@@ -291,3 +291,7 @@
 
 - Per learner wish (range, not precision): 16 new adjectives each – 044 personality/feelings, 045 things/places, 046 opinions.
   Word table (opposite/en/fa/example), 8 mcq, 6 opposites, TTS dialogue + 3 mcq, speak task. Audio ok (Whisper 0–2 %).
+
+## 2026-11-22 – Graded 043 (vocab check)
+
+- 34/36 (first try 26/36). 10 unknown words → trial lesson with video/memory cues (needs Pexels key or Commons).
