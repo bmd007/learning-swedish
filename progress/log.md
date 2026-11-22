@@ -275,3 +275,9 @@
 - App bug: item-level audio only had a player for speak items → 014 drills were silent. Fixed in renderItem.
 - 014: 10/13. Diktat 2/5 – last two digits of years (-tio/-ton, tens first). Interview 4/4.
 - 043 (vocab check) has a draft in progress – grade when handed in. Next: number warm-ups in listening lessons.
+
+## 2026-11-22 – Graded 030 (model answers: vardag)
+
+- 4/4 listening/phrases. Speak 137 s, A2: good day structure + asked back, but only 2/5 bullets (no past/future weekend).
+  min/mitt/mina, *sedan jag börjar*, *brukar äta jag*. Whisper hallucinated – graded from browser transcript.
+- Pattern: speaking tasks not fully covered (040, 030) → next speaking lesson: a "past–now–future" frame drill.

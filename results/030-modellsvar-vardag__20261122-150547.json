@@ -1,0 +1,106 @@
+{
+  "lessonId": "030-modellsvar-vardag",
+  "attemptId": "2026-11-21T13-07-52-921Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-21T13:07:53.914Z",
+  "finishedAt": "2026-11-22T14:05:47.265Z",
+  "durationMin": 1498,
+  "currentSection": null,
+  "sectionMinutes": {
+    "lyssna": 3.7,
+    "fraser": 30,
+    "nudu": 3.7
+  },
+  "audioPlays": {
+    "a1": 2,
+    "a2": 1,
+    "e1": 1
+  },
+  "firstTry": {
+    "m1": true,
+    "g1": false,
+    "m2": true
+  },
+  "flags": [],
+  "score": {
+    "lyssna": {
+      "correct": 4,
+      "total": 4
+    }
+  },
+  "items": [
+    {
+      "id": "m1",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "tal.berätta",
+        "tal.fraser"
+      ],
+      "prompt": "Vilka ord använder Leila för att visa i vilken ordning hon gör saker?",
+      "given": "först, sedan, på kvällen, efter maten",
+      "expected": "först, sedan, på kvällen, efter maten",
+      "correct": true
+    },
+    {
+      "id": "g1",
+      "section": "lyssna",
+      "type": "gap",
+      "tags": [
+        "ordföljd.inversion",
+        "verb.presens"
+      ],
+      "prompt": "Efter maten ___ jag svenska i en timme.",
+      "given": "pluggar",
+      "expected": "pluggar",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "lyssna",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum",
+        "tal.berätta"
+      ],
+      "prompt": "Jag ___ också min mamma i Chile.",
+      "given": "ringde",
+      "expected": "ringde",
+      "correct": true
+    },
+    {
+      "id": "m2",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "verb.futurum",
+        "tal.fraser"
+      ],
+      "prompt": "Vilka två verb använder Carlos när han pratar om planer?",
+      "given": "ska och tänker",
+      "expected": "ska och tänker",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "nudu",
+      "type": "speak",
+      "tags": [
+        "tal.berätta",
+        "verb.preteritum",
+        "verb.futurum"
+      ],
+      "prompt": "Berätta om din vardag.",
+      "given": {
+        "recording": "030-modellsvar-vardag__s1__20261122-150455.webm",
+        "transcript": "i en vanlig vardag börjar  jag min dag  klockan åtta på morgonen  sedan jag  börjar min jobb jag  jobbar hemifrån  jag  måste min kollegor  på Zoom  vi pratar om  Vad ska vi göra  idag än  varje morgon  på  kanalen jag  på kanalen går jag ofta till gym  och eller spela volleyboll  med min vänner  ja  Bare  etter min  ja ofta äta min middag  långsam i min lägenhet  brukar jag  brukar äta jag kött eller lax  och äter du lax",
+        "seconds": 137
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-22T15:05:47"
+}

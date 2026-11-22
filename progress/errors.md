@@ -33,3 +33,6 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `verb.preteritum` (029) – *vinnade* (vann), *lärade mig* (lärde mig); `ordföljd.inversion` – *Förra helgen lärade mig* (subject missing after verb).
 - `tal.interaktion` (029) – asked back in speech (good), but m1 missed that asking back = interaction.
 - `hör.siffror` (014) – diktat 2/5: second half of years wrong: fyrtioåtta→80 (1480), åttiofyra→04 (1804), sjuttio→29 (1829). First half always right. In context (morfar) 4/4. -tio vs -ton, tens-then-ones.
+- `tal.uppgift` (030 speak) – covered 2/5 bullets: no förra helgen, no nästa helg, no why Swedish. Second time (040) task not fully answered.
+- `pronomen.possessiv` (030 speak) – *min jobb* (mitt), *min kollegor/vänner* (mina).
+- `ordföljd.inversion` (030 speak) – *sedan jag börjar* (sedan börjar jag), *brukar äta jag* (brukar jag äta); right: *på kvällen går jag*, *brukar jag*.
