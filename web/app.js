@@ -589,7 +589,10 @@ async function openLesson(id) {
   function renderImage(img) {
     const src = /^(https?:)?\//.test(img.src) ? img.src : `/images/${lesson.id}/${img.src}`;
     const cap = [img.caption ? esc(img.caption) : "", img.credit ? `<span class="credit">${esc(img.credit)}</span>` : ""].filter(Boolean).join(" ");
-    return h(`<figure class="lesson-img${img.size ? " " + esc(img.size) : ""}"><img src="${esc(src)}" alt="${esc(img.alt)}" loading="lazy">${cap ? `<figcaption>${cap}</figcaption>` : ""}</figure>`);
+    const media = /\.(mp4|webm)$/i.test(src)
+      ? `<video src="${esc(src)}" autoplay loop muted playsinline aria-label="${esc(img.alt)}"></video>`
+      : `<img src="${esc(src)}" alt="${esc(img.alt)}" loading="lazy">`;
+    return h(`<figure class="lesson-img${img.size ? " " + esc(img.size) : ""}">${media}${cap ? `<figcaption>${cap}</figcaption>` : ""}</figure>`);
   }
 
   function renderItem(item, num) {

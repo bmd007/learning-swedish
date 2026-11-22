@@ -36,6 +36,12 @@ Checked and not usable (2026-11-18): Gemini TTS via the work gateway (404), Wiki
 (single words only), Mozilla Common Voice sv-SE (good: CC0, age-tagged, but needs a login on Mozilla Data Collective).
 No free Swedish child speakers found.
 
+## Video / photo memory cues
+
+| What | Source | Licence | Local path | How |
+|---|---|---|---|---|
+| Short stock videos/photos as word cues (2026-11-22 →) | pixabay.com API (key in `materials/.pixabay_key`; Pexels key issuance was paused) | Pixabay Content License: free use, no redistribution of raw files → private | `materials/video/<lessonId>/` | `python3 -I tools/pixabay.py search "<query>"` → look at thumbs → `get <id> <lessonId> <name>` |
+
 ## Real audio for listening
 
 | What | Source | Licence | Local path | How |

@@ -38,7 +38,10 @@ def check(path):
             err(f"{where}: image needs src and alt")
             return
         src = img["src"]
-        if not re.match(r"^(https?:)?/", src) and not (ROOT / "images" / lesson.get("id", "") / src).is_file():
+        if src.startswith("/materials/"):
+            if not (ROOT / src.lstrip("/")).is_file():
+                print(f"warning: {where}: {src} not on this machine (private material)")
+        elif not re.match(r"^(https?:)?/", src) and not (ROOT / "images" / lesson.get("id", "") / src).is_file():
             err(f"{where}: image file images/{lesson.get('id')}/{src} not found")
 
     def check_audio(a, where):

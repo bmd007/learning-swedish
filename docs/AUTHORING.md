@@ -97,6 +97,10 @@ with zero). Put `image` on a part, on any item, or on an `info` item (shown abov
   "credit": "Foto: X, CC BY-SA 4.0, Wikimedia Commons",  // required for downloaded photos
   "size": "small" }                      // optional: small | wide
 ```
+Video: an `image.src` ending in `.mp4`/`.webm` plays as a silent looping clip (same box). Stock clips from Pixabay
+live privately in `materials/video/<lessonId>/` → `"src": "/materials/video/<lessonId>/<name>.mp4"`, credit
+`"Video: <user>, Pixabay"` (`tools/pixabay.py`). Use them as memory cues for concrete words (actions, feelings).
+
 Two sources:
 1. **Hand-drawn SVG** (preferred for rules and scenes): simple flat illustrations that *teach* –
    a timeline for verb tenses, a battery for svag–svagare–svagast, a scene for a dialogue, labels in
