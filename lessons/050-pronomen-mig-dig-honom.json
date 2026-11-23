@@ -1,0 +1,366 @@
+{
+ "id": "050-pronomen-mig-dig-honom",
+ "title": "Mig, dig, honom … – vem gör vad med vem?",
+ "titleEn": "Me, you, him … – who does what to whom?",
+ "mode": "practice",
+ "minutes": 8,
+ "intro": "Mig, dig, honom, henne, oss … De ser ut som slumpmässiga ljud. Men det finns bara tre mönster, och du kan redan många av orden som fraser. Vi tar det lugnt.",
+ "introEn": "Mig, dig, honom, henne, oss … They look like random sounds. But there are only three patterns, and you already know many of these words as phrases.",
+ "sections": [
+  {
+   "id": "monster",
+   "title": "Mönstret",
+   "titleEn": "The pattern",
+   "instructions": "Läs. Det finns bara tre mönster. Du behöver inte lära dig någon tabell.",
+   "instructionsEn": "Read. There are only three patterns. No table to memorise.",
+   "items": [
+    {
+     "id": "p1",
+     "type": "info",
+     "md": "**Mönster 1: samma idé som på engelska: I → me.**\n\nNär någon *får* handlingen, byter ordet form:\n\n- jag (I) → **mig** (me): Kan du hjälpa **mig**? (Can you help me?)\n- du (you) → **dig** (you): Jag ringer **dig** sen. (I'll call you later.)\n- Jag älskar **dig**. (I love you.)\n\nOrden på *-ig* (mig, dig, sig) sägs “mej, dej, sej”, men du kan läsa dem och det räcker.\n\n**فارسی:** مثل «من ← مرا / منو»: jag ← **mig**.",
+     "image": {
+      "src": "ig.svg",
+      "alt": "Jag blir mig, du blir dig, han eller hon blir sig, med engelska ord"
+     }
+    },
+    {
+     "id": "p2",
+     "type": "info",
+     "md": "**Mönster 2: fem ord till, och alla har en engelsk tvilling.**\n\n- han (he) → **honom** (him): Jag känner **honom**. (I know him.)\n- hon (she) → **henne** (her): Hälsa **henne** från mig. (Say hi to her.)\n- vi (we) → **oss** (us): Kom med **oss**! (Come with us!)\n- ni (you, plural) → **er** (you): Tack för att ni hjälpte **oss**.\n- de (they) → **dem** (them): Jag ser **dem**. (I see them.)\n\n**فارسی:** او ← **honom / henne** (او را). ما ← **oss** (ما را). شما ← **er** (شما را).",
+     "image": {
+      "src": "former.svg",
+      "alt": "Pilar från han, hon, vi, ni, de till honom, henne, oss, er, dem med engelska ord"
+     }
+    },
+    {
+     "id": "p3",
+     "type": "info",
+     "md": "**Mönster 3: efter ett verb eller en preposition kommer den nya formen** – precis som på engelska.\n\n- Han ringer **mig**. (He calls me.)\n- Vänta på **mig**! (Wait for me!)\n- Kom med **oss**! (Come with us!)\n\nDen som gör handlingen behåller sin vanliga form: *Jag ringer honom* (I call him) – *Han ringer mig* (He calls me).\n\n**فارسی:** مثل «را»: کسی که کار را انجام می‌دهد عوض نمی‌شود، کسی که کار روی او انجام می‌شود شکل جدید می‌گیرد.",
+     "image": {
+      "src": "regel.svg",
+      "alt": "Han ringer mig och Kom med oss, med verb och preposition markerade"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fraser",
+   "title": "Fraser",
+   "titleEn": "Everyday phrases",
+   "instructions": "Lyssna på fraserna och säg dem högt. Skriv sedan rätt ord. Tänk på vem som gör vad.",
+   "instructionsEn": "Listen to the phrases and say them aloud. Then type the right word.",
+   "parts": [
+    {
+     "heading": "Vardagsfraser",
+     "headingEn": "Everyday phrases",
+     "audio": {
+      "id": "f1",
+      "title": "Vardagsfraser",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Lärare": "f"
+      },
+      "script": [
+       {
+        "speaker": "Lärare",
+        "text": "Kan du hjälpa mig?",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Jag ringer dig sen.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Jag älskar dig.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Vi ses!",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Hälsa henne från mig.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Ge mig en kopp kaffe, tack.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Vänta på mig!",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Jag känner honom.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Kom med oss!",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Tack för att ni hjälpte oss.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Jag ser dem.",
+        "pause": 0.8
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "g1",
+       "type": "gap",
+       "tags": [
+        "pronomen.objekt"
+       ],
+       "q": "Kan du hjälpa ___?",
+       "base": "(jag)",
+       "answers": [
+        "mig"
+       ],
+       "qEn": "Can you help me?",
+       "explain": "Efter verbet kommer mig: hjälpa mig. Sägs “mej”.",
+       "explainEn": "After the verb: mig."
+      },
+      {
+       "id": "g2",
+       "type": "gap",
+       "tags": [
+        "pronomen.objekt"
+       ],
+       "q": "Jag ringer ___ sen.",
+       "base": "(du)",
+       "answers": [
+        "dig"
+       ],
+       "qEn": "I'll call you later.",
+       "explain": "ringa dig. Sägs “dej”.",
+       "explainEn": "ringa + dig."
+      },
+      {
+       "id": "g3",
+       "type": "gap",
+       "tags": [
+        "pronomen.objekt"
+       ],
+       "q": "Hälsa ___ från mig!",
+       "base": "(hon)",
+       "answers": [
+        "henne"
+       ],
+       "qEn": "Say hi to her from me.",
+       "explain": "hon → henne.",
+       "explainEn": "hon → henne."
+      },
+      {
+       "id": "g4",
+       "type": "gap",
+       "tags": [
+        "pronomen.objekt"
+       ],
+       "q": "Kom med ___!",
+       "base": "(vi)",
+       "answers": [
+        "oss"
+       ],
+       "qEn": "Come with us!",
+       "explain": "Efter prepositionen med: oss.",
+       "explainEn": "After the preposition med: oss."
+      },
+      {
+       "id": "g5",
+       "type": "gap",
+       "tags": [
+        "pronomen.objekt"
+       ],
+       "q": "Jag känner ___ inte.",
+       "base": "(han)",
+       "answers": [
+        "honom"
+       ],
+       "qEn": "I don't know him.",
+       "explain": "han → honom.",
+       "explainEn": "han → honom."
+      },
+      {
+       "id": "g6",
+       "type": "gap",
+       "tags": [
+        "pronomen.objekt"
+       ],
+       "q": "Jag ser ___ där borta.",
+       "base": "(de)",
+       "answers": [
+        "dem"
+       ],
+       "qEn": "I see them over there.",
+       "explain": "de → dem (sägs “dom”).",
+       "explainEn": "de → dem."
+      },
+      {
+       "id": "g7",
+       "type": "gap",
+       "tags": [
+        "pronomen.objekt"
+       ],
+       "q": "Vi har en present till ___.",
+       "base": "(ni)",
+       "answers": [
+        "er"
+       ],
+       "qEn": "We have a present for you.",
+       "explain": "Efter prepositionen till: er.",
+       "explainEn": "After till: er."
+      },
+      {
+       "id": "g8",
+       "type": "gap",
+       "tags": [
+        "pronomen.objekt"
+       ],
+       "q": "Vänta på ___! Jag kommer snart.",
+       "base": "(jag)",
+       "answers": [
+        "mig"
+       ],
+       "qEn": "Wait for me!",
+       "explain": "Vänta på mig. Efter på: mig.",
+       "explainEn": "På + mig."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lyssna",
+   "title": "Lyssna",
+   "titleEn": "Listen",
+   "instructions": "Lyssna på samtalet och svara med 1–3 ord.",
+   "instructionsEn": "Listen to the conversation and answer with 1–3 words.",
+   "parts": [
+    {
+     "heading": "Samtal",
+     "headingEn": "Conversation",
+     "image": {
+      "src": "scen.svg",
+      "alt": "Karin och Omar pratar i telefon"
+     },
+     "audio": {
+      "id": "d1",
+      "title": "Ett telefonsamtal",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Karin": "f",
+       "Omar": "m"
+      },
+      "script": [
+       {
+        "speaker": "Karin",
+        "text": "Hej Omar, det är Karin. Kan du hjälpa mig på lördag? Jag ska flytta."
+       },
+       {
+        "speaker": "Omar",
+        "text": "Ja, klart. Jag ringer Peter också, han har en bil. Jag känner honom bra."
+       },
+       {
+        "speaker": "Karin",
+        "text": "Vad bra! Ska du ringa honom i kväll?"
+       },
+       {
+        "speaker": "Omar",
+        "text": "Nej, jag ringer honom i morgon. Vi ses vid din lägenhet klockan nio, eller hur?"
+       },
+       {
+        "speaker": "Karin",
+        "text": "Ja, perfekt. Jag väntar på er där. Tack för att du hjälper mig!"
+       },
+       {
+        "speaker": "Omar",
+        "text": "Det är ingen fara. Vi ses!"
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "l1",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "pronomen.objekt"
+       ],
+       "q": "Vem ska Omar ringa?",
+       "answers": [
+        "peter"
+       ],
+       "qEn": "Who will Omar call?",
+       "explain": "Omar: “Jag ringer Peter också.”"
+      },
+      {
+       "id": "l2",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "pronomen.objekt"
+       ],
+       "q": "När ska Omar ringa honom?",
+       "answers": [
+        "i morgon",
+        "imorgon",
+        "morgon"
+       ],
+       "qEn": "When will Omar call him?",
+       "explain": "“Jag ringer honom i morgon.”"
+      },
+      {
+       "id": "l3",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "pronomen.objekt"
+       ],
+       "q": "Hur dags ska de träffas på lördag?",
+       "answers": [
+        "nio",
+        "9"
+       ],
+       "qEn": "What time will they meet on Saturday?",
+       "explain": "“klockan nio”"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sammanfattning",
+   "title": "Sammanfattning",
+   "titleEn": "Summary",
+   "instructions": "Bara som hjälp efteråt.",
+   "instructionsEn": "Reference only, afterwards.",
+   "items": [
+    {
+     "id": "s1",
+     "type": "info",
+     "md": "**Du har redan lärt dig de vanligaste.** Här är hela listan på ett ställe, bara som hjälp:\n\n| Subjekt | jag | du | han | hon | vi | ni | de |\n|---|---|---|---|---|---|---|---|\n| Efter verb/preposition | **mig** | **dig** | **honom** | **henne** | **oss** | **er** | **dem** |\n| Engelska | me | you | him | her | us | you | them |\n\nHåll fast vid fraserna: *Kan du hjälpa mig? Jag ringer dig. Kom med oss!*",
+     "image": {
+      "src": "former.svg",
+      "alt": "Pilar från subjekt till objektsformer"
+     }
+    }
+   ]
+  }
+ ]
+}

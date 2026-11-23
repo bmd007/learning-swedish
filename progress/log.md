@@ -302,3 +302,9 @@
   Words table + teacher voice, typed recall, Swedex-style phone message, speak task. Audio ok 0–5 %.
 - materials.7z built (AES-256, hidden names, 901 MB), not committed: LFS quota + old materials.zip removal pending.
   Password is in docs/research.md comment (public!) – recommended a new password kept outside the repo.
+
+## 2026-11-23 – Lessons 050–052: pronouns (short)
+
+- Learner: pronoun tables feel like "random sounds"; "I can read them so I don't care about how they sound".
+  → 050 objekt (mig/dig/honom…), 051 sig, 052 min/mitt/mina + er/ert/era. Anchored 1:1 to English (me/him/my…),
+  pattern + chunks first, table only at the end. Typed gaps (8) + short dialogue. Audio ok 0–1 %.

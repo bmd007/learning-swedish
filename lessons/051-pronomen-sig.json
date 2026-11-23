@@ -1,0 +1,356 @@
+{
+ "id": "051-pronomen-sig",
+ "title": "Sig – när man gör något med sig själv",
+ "titleEn": "Sig – when you do something to yourself",
+ "mode": "practice",
+ "minutes": 8,
+ "intro": "Ordet sig är litet men väldigt vanligt i svenska. Du behöver bara tre idéer: vilket ord, vem det gäller och några vardagsverb som alltid har sig.",
+ "introEn": "The word sig is small but very common. You only need three ideas: which word, who it is about, and a few everyday verbs that always have sig.",
+ "sections": [
+  {
+   "id": "monster",
+   "title": "Mönstret",
+   "titleEn": "The pattern",
+   "instructions": "Läs. Det finns bara tre mönster. Du behöver inte lära dig någon tabell.",
+   "instructionsEn": "Read. There are only three patterns. No table to memorise.",
+   "items": [
+    {
+     "id": "p1",
+     "type": "info",
+     "md": "**Mönster 1: du kan nästan allt redan.**\n\nEfter *jag, du, vi, ni* använder du samma ord som i förra lektionen: **mig, dig, oss, er**. Det enda nya ordet är **sig**, och det används bara för **han, hon, den, det, man, de**.\n\n- Jag tvättar **mig**. Du tvättar **dig**. Vi tvättar **oss**. Ni tvättar **er**.\n- Han tvättar **sig**. Hon tvättar **sig**. De tvättar **sig**.\n\nPå engelska: me → *myself*, you → *yourself*, he/she → *himself/herself*, we → *ourselves*, they → *themselves*.",
+     "image": {
+      "src": "former.svg",
+      "alt": "Jag mig, du dig, vi oss, ni er och han hon den det man de sig"
+     }
+    },
+    {
+     "id": "p2",
+     "type": "info",
+     "md": "**Mönster 2: sig = samma person. honom/henne = en annan person.**\n\n- Han tvättar **sig**. = han tvättar sin egen kropp (himself).\n- Han tvättar **honom**. = han tvättar en annan man.\n- Hon ser **sig** i spegeln. (sig själv)\n- Hon ser **henne**. (en annan kvinna)\n\n**فارسی:** sig = «خودش» (خودش را می‌شوید). honom = «او را» (یک نفر دیگر).",
+     "image": {
+      "src": "tvatta.svg",
+      "alt": "Till vänster tvättar en man sig själv, till höger tvättar han en annan man"
+     }
+    },
+    {
+     "id": "p3",
+     "type": "info",
+     "md": "**Mönster 3: många vardagsverb har alltid sig.** Lär dig dem som en bit:\n\n- **sätta sig** – Sätt dig här!\n- **lägga sig** – Jag lägger mig klockan elva.\n- **lära sig** – Jag lär mig svenska.\n- **känna sig** – Hon känner sig trött.\n- **skynda sig** – Skynda dig!\n- **gifta sig** – De ska gifta sig i sommar.\n- **klä på sig** – Jag klär på mig.\n- **bry sig om** – Bry dig inte om det!\n- **ångra sig** – Jag ångrar mig inte.\n- **koncentrera sig** – Koncentrera dig!\n\nOrdet följer subjektet: jag … mig, du … dig, hon … sig.",
+     "image": {
+      "src": "verb.svg",
+      "alt": "En kvinna sätter sig på en stol och en man lägger sig i sängen"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fraser",
+   "title": "Fraser",
+   "titleEn": "Everyday phrases",
+   "instructions": "Lyssna på fraserna och säg dem högt. Skriv sedan rätt ord. Tänk på vem som gör vad.",
+   "instructionsEn": "Listen to the phrases and say them aloud. Then type the right word.",
+   "parts": [
+    {
+     "heading": "Vardagsfraser med sig",
+     "headingEn": "Everyday phrases",
+     "audio": {
+      "id": "f1",
+      "title": "Vardagsfraser med sig",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Lärare": "f"
+      },
+      "script": [
+       {
+        "speaker": "Lärare",
+        "text": "Sätt dig här, tack.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Jag lägger mig tidigt i kväll.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Jag lär mig svenska varje dag.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Hur känner du dig?",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Skynda dig, bussen går snart!",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "De ska gifta sig i sommar.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Jag klär på mig och går ut.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Bry dig inte om det!",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Hon känner sig trött idag.",
+        "pause": 0.8
+       },
+       {
+        "speaker": "Lärare",
+        "text": "Koncentrera dig nu!",
+        "pause": 0.8
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "g1",
+       "type": "gap",
+       "tags": [
+        "pronomen.reflexiv"
+       ],
+       "q": "Han tvättar ___ varje morgon.",
+       "base": "(han)",
+       "answers": [
+        "sig"
+       ],
+       "qEn": "He washes (himself) every morning.",
+       "explain": "Han gör det med sig själv: sig. (honom = en annan man.)",
+       "explainEn": "Same person: sig."
+      },
+      {
+       "id": "g2",
+       "type": "gap",
+       "tags": [
+        "pronomen.reflexiv"
+       ],
+       "q": "Jag känner ___ trött idag.",
+       "base": "(jag)",
+       "answers": [
+        "mig"
+       ],
+       "qEn": "I feel tired today.",
+       "explain": "känna sig: jag känner mig.",
+       "explainEn": "känna sig → mig."
+      },
+      {
+       "id": "g3",
+       "type": "gap",
+       "tags": [
+        "pronomen.reflexiv"
+       ],
+       "q": "Vi måste skynda ___!",
+       "base": "(vi)",
+       "answers": [
+        "oss"
+       ],
+       "qEn": "We must hurry!",
+       "explain": "skynda sig: vi skyndar oss.",
+       "explainEn": "skynda sig → oss."
+      },
+      {
+       "id": "g4",
+       "type": "gap",
+       "tags": [
+        "pronomen.reflexiv"
+       ],
+       "q": "Hon har lärt ___ svenska på två år.",
+       "base": "(hon)",
+       "answers": [
+        "sig"
+       ],
+       "qEn": "She learned Swedish in two years.",
+       "explain": "lära sig: hon har lärt sig.",
+       "explainEn": "lära sig → sig."
+      },
+      {
+       "id": "g5",
+       "type": "gap",
+       "tags": [
+        "pronomen.reflexiv"
+       ],
+       "q": "Ska du klä på ___? Det är kallt ute.",
+       "base": "(du)",
+       "answers": [
+        "dig"
+       ],
+       "qEn": "Are you going to get dressed?",
+       "explain": "klä på sig: du klär på dig.",
+       "explainEn": "klä på sig → dig."
+      },
+      {
+       "id": "g6",
+       "type": "gap",
+       "tags": [
+        "pronomen.reflexiv"
+       ],
+       "q": "Sätt ___ här, snälla!",
+       "base": "(du)",
+       "answers": [
+        "dig"
+       ],
+       "qEn": "Sit down here, please!",
+       "explain": "sätta sig: Sätt dig!",
+       "explainEn": "sätta sig → dig."
+      },
+      {
+       "id": "g7",
+       "type": "gap",
+       "tags": [
+        "pronomen.reflexiv"
+       ],
+       "q": "Barnen lägger ___ klockan åtta.",
+       "base": "(de)",
+       "answers": [
+        "sig"
+       ],
+       "qEn": "The children go to bed at eight.",
+       "explain": "De → sig.",
+       "explainEn": "de → sig."
+      },
+      {
+       "id": "g8",
+       "type": "gap",
+       "tags": [
+        "pronomen.reflexiv"
+       ],
+       "q": "Ni bryr ___ inte om det.",
+       "base": "(ni)",
+       "answers": [
+        "er"
+       ],
+       "qEn": "You don't care about it.",
+       "explain": "bry sig om: ni bryr er.",
+       "explainEn": "bry sig om → er."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lyssna",
+   "title": "Lyssna",
+   "titleEn": "Listen",
+   "instructions": "Lyssna på samtalet och svara med 1–3 ord.",
+   "instructionsEn": "Listen to the conversation and answer with 1–3 words.",
+   "parts": [
+    {
+     "heading": "Samtal",
+     "headingEn": "Conversation",
+     "image": {
+      "src": "scen.svg",
+      "alt": "Mats och Lisa har bråttom på morgonen"
+     },
+     "audio": {
+      "id": "d1",
+      "title": "På morgonen",
+      "maxPlays": 3,
+      "strict": false,
+      "speakers": {
+       "Mats": "m",
+       "Lisa": "f"
+      },
+      "script": [
+       {
+        "speaker": "Mats",
+        "text": "Kom igen, barn! Ni måste skynda er. Vi åker om tio minuter."
+       },
+       {
+        "speaker": "Lisa",
+        "text": "Elsa har inte klätt på sig än. Hon sitter bara och tittar på tv."
+       },
+       {
+        "speaker": "Mats",
+        "text": "Elsa, klä på dig nu! Och Olle, har du tvättat dig?"
+       },
+       {
+        "speaker": "Lisa",
+        "text": "Ja, han har tvättat sig och borstat tänderna. Jag känner mig så trött idag."
+       },
+       {
+        "speaker": "Mats",
+        "text": "Vila lite i kväll då. Nu måste vi skynda oss. Elsa, sätt dig i bilen!"
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "l1",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "pronomen.reflexiv"
+       ],
+       "q": "Vad gör Elsa istället för att klä på sig?",
+       "answers": [
+        "tv",
+        "tittar på tv"
+       ],
+       "qEn": "What is Elsa doing instead of getting dressed?",
+       "explain": "“Hon sitter bara och tittar på tv.”"
+      },
+      {
+       "id": "l2",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "pronomen.reflexiv"
+       ],
+       "q": "Hur känner sig Lisa?",
+       "answers": [
+        "trött"
+       ],
+       "qEn": "How does Lisa feel?",
+       "explain": "“Jag känner mig så trött idag.”"
+      },
+      {
+       "id": "l3",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "pronomen.reflexiv"
+       ],
+       "q": "Vad ska Elsa sätta sig i?",
+       "answers": [
+        "bilen",
+        "bil"
+       ],
+       "qEn": "What should Elsa sit down in?",
+       "explain": "“Elsa, sätt dig i bilen!”"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sammanfattning",
+   "title": "Sammanfattning",
+   "titleEn": "Summary",
+   "instructions": "Bara som hjälp efteråt.",
+   "instructionsEn": "Reference only, afterwards.",
+   "items": [
+    {
+     "id": "s1",
+     "type": "info",
+     "md": "**Du har redan lärt dig de vanligaste.** Kort sammanfattning:\n\n| Subjekt | jag | du | han/hon/den/det/man | vi | ni | de |\n|---|---|---|---|---|---|---|\n| Reflexiv | **mig** | **dig** | **sig** | **oss** | **er** | **sig** |\n\n10 verb att kunna: *sätta sig, lägga sig, lära sig, känna sig, skynda sig, gifta sig, klä på sig, bry sig om, ångra sig, koncentrera sig.*",
+     "image": {
+      "src": "former.svg",
+      "alt": "Reflexiva pronomen"
+     }
+    }
+   ]
+  }
+ ]
+}
