@@ -134,5 +134,6 @@ Whichever AI you use, check that it:
 ## Private material
 
 - `materials/` (gitignored) holds course material licensed to the learner, for example the Rivstart
-  B1/B2 extra material. A password-protected copy is in `materials.zip` (Git LFS). Never publish it.
+  B1/B2 extra material. An encrypted copy (7z, AES-256, file names hidden) is made with `tools/pack_materials.sh` → `materials.7z` (Git LFS).
+  Unpack with `7zz x materials.7z`. The old `materials.zip` (weak ZipCrypto, file names visible) is being replaced. Never publish the plain files.
 - `recordings/` and `uploads/` (voice recordings, photos of handwriting) are gitignored.
