@@ -1,0 +1,824 @@
+{
+  "id": "048-vardagsord-hemma",
+  "title": "Vardagsord: hemma och i tvättstugan",
+  "titleEn": "Everyday words: at home and in the laundry room",
+  "mode": "practice",
+  "minutes": 13,
+  "intro": "Det här är ord du behöver varje dag hemma, i tvättstugan och i telefonmeddelanden på Swedex. Du ser en bild, hör ordet och skriver det själv. Sedan lyssnar du på ett meddelande från en vaktmästare och pratar om ditt eget hem.",
+  "introEn": "Words you need every day at home, in the laundry room and in Swedex phone messages. You see a picture, hear the word and type it yourself. Then you listen to a message from a caretaker and talk about your own home.",
+  "sections": [
+    {
+      "id": "nya-ord",
+      "title": "Nya ord",
+      "titleEn": "New words",
+      "instructions": "Lyssna på orden och läs tabellen. Säg varje ord högt. Titta på exemplet.",
+      "instructionsEn": "Listen to the words and read the table. Say each word out loud. Look at the example.",
+      "parts": [
+        {
+          "heading": "Grupp 1: i hallen och i rummet",
+          "headingEn": "Group 1: hall and room",
+          "audio": {
+            "id": "ord1",
+            "title": "Grupp 1: i hallen och i rummet",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Lärare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Lärare",
+                "text": "en nyckel. Jag har tappat nyckeln till dörren.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en dörr. Stäng dörren, det drar!",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "ett fönster. Öppna fönstret, det är varmt här.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "ett golv. Golvet är kallt på vintern.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en lampa. Lampan i köket funkar inte.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en kudde. Jag sover med två kuddar.",
+                "pause": 0.6
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "i1",
+              "type": "info",
+              "md": "**Mönster:** de flesta ord på **-a** är en-ord: en lampa, en kudde. Ord som **fönster** och **golv** är ett-ord: ett fönster, ett golv. Lyssna och säg orden högt.\n\n| Ord | English | فارسی | Exempel |\n|---|---|---|---|\n| **en nyckel** | key | کلید | Jag har tappat nyckeln till dörren. |\n| **en dörr** | door | در | Stäng dörren, det drar! |\n| **ett fönster** | window | پنجره | Öppna fönstret, det är varmt här. |\n| **ett golv** | floor | کف اتاق | Golvet är kallt på vintern. |\n| **en lampa** | lamp | چراغ، لامپ | Lampan i köket funkar inte. |\n| **en kudde** | pillow | بالش | Jag sover med två kuddar. |\n"
+            }
+          ]
+        },
+        {
+          "heading": "Grupp 2: sovrum och kök",
+          "headingEn": "Group 2: bedroom and kitchen",
+          "audio": {
+            "id": "ord2",
+            "title": "Grupp 2: sovrum och kök",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Lärare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Lärare",
+                "text": "ett täcke. Det här täcket är för varmt.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en handduk. Kan jag låna en handduk?",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en diskmaskin. Glasen står i diskmaskinen.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "ett kylskåp, eller kylen. Mjölken står i kylen.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en spis. Spisen är varm, var försiktig.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en soptunna. Soptunnan står på gården.",
+                "pause": 0.6
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "i2",
+              "type": "info",
+              "md": "**Mönster:** **-maskin** = en maskin som gör jobbet: en disk**maskin**, en tvätt**maskin**. Kylskåp = kyl + skåp, men man säger ofta bara **kylen**.\n\n| Ord | English | فارسی | Exempel |\n|---|---|---|---|\n| **ett täcke** | duvet | لحاف | Det här täcket är för varmt. |\n| **en handduk** | towel | حوله | Kan jag låna en handduk? |\n| **en diskmaskin** | dishwasher | ماشین ظرفشویی | Glasen står i diskmaskinen. |\n| **ett kylskåp (kylen)** | fridge | یخچال | Mjölken står i kylen. |\n| **en spis** | stove, cooker | اجاق گاز / برقی | Spisen är varm, var försiktig. |\n| **en soptunna** | rubbish bin (outside) | سطل زباله | Soptunnan står på gården. |\n"
+            }
+          ]
+        },
+        {
+          "heading": "Grupp 3: tvättstugan",
+          "headingEn": "Group 3: the laundry room",
+          "audio": {
+            "id": "ord3",
+            "title": "Grupp 3: tvättstugan",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Lärare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Lärare",
+                "text": "en tvättstuga. Vi har tvättstuga i källaren.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en tvättmaskin. Tvättmaskinen är ledig nu.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en torktumlare. Jag lägger kläderna i torktumlaren.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "ett tvättmedel. Vi har inget tvättmedel hemma.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en galge. Jag hänger jackan på en galge.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en dammsugare. Dammsugaren står i garderoben.",
+                "pause": 0.6
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "i3",
+              "type": "info",
+              "md": "**Tvätt- = laundry:** tvättstuga, tvättmaskin, tvättmedel, tvättid. I många hyreshus delar man en **tvättstuga** i källaren. Man bokar en **tvättid** (med en bricka, en nyckel eller i en app). Orden för maskiner och verktyg på **-are** har samma form i plural: en dammsugare – två dammsugare.\n\n| Ord | English | فارسی | Exempel |\n|---|---|---|---|\n| **en tvättstuga** | shared laundry room | رختشویخانهٔ مشترک ساختمان | Vi har tvättstuga i källaren. |\n| **en tvättmaskin** | washing machine | ماشین لباسشویی | Tvättmaskinen är ledig nu. |\n| **en torktumlare** | tumble dryer | خشک‌کن لباس | Jag lägger kläderna i torktumlaren. |\n| **ett tvättmedel** | detergent | پودر لباسشویی | Vi har inget tvättmedel hemma. |\n| **en galge** | coat hanger | چوب‌لباسی | Jag hänger jackan på en galge. |\n| **en dammsugare** | vacuum cleaner | جاروبرقی | Dammsugaren står i garderoben. |\n"
+            }
+          ]
+        },
+        {
+          "heading": "Grupp 4: vad man gör hemma",
+          "headingEn": "Group 4: what you do at home",
+          "audio": {
+            "id": "ord4",
+            "title": "Grupp 4: vad man gör hemma",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Lärare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Lärare",
+                "text": "diska. Jag diskar efter middagen.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "dammsuga. Hon dammsuger varje lördag.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "tvätta. Jag tvättar på söndag.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "hänga upp. Jag hänger upp tvätten på tork.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "slänga. Jag slänger soporna i soptunnan.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "boka tvättid. Jag har bokat tvättid på tisdag.",
+                "pause": 0.6
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "i4",
+              "type": "info",
+              "md": "**Verben** (presens slutar på -r): diska – diskar, dammsuga – dammsuger, tvätta – tvättar, slänga – slänger. **Hänga upp** har en partikel: jag hänger upp tvätten. I tvättstugan: **boka tvättid**.\n\n| Ord | English | فارسی | Exempel |\n|---|---|---|---|\n| **diska** | wash the dishes | ظرف شستن | Jag diskar efter middagen. |\n| **dammsuga** | vacuum | جاروبرقی کشیدن | Hon dammsuger varje lördag. |\n| **tvätta** | wash (clothes) | لباس شستن | Jag tvättar på söndag. |\n| **hänga upp** | hang up | آویزان کردن | Jag hänger upp tvätten på tork. |\n| **slänga** | throw away | دور انداختن | Jag slänger soporna i soptunnan. |\n| **boka tvättid** | book a laundry slot | وقت رختشویخانه رزرو کردن | Jag har bokat tvättid på tisdag. |\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vad-heter-det",
+      "title": "Vad heter det?",
+      "titleEn": "What is it called?",
+      "instructions": "Skriv ordet på svenska. Skriv gärna med en eller ett. Titta på bilden.",
+      "instructionsEn": "Type the word in Swedish. Add en or ett if you can. Look at the picture.",
+      "items": [
+        {
+          "id": "v20",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad gör man med våt tvätt på en tvättlina? Skriv verbet (två ord).",
+          "qEn": "What do you do with wet laundry on a clothesline? Write the verb (two words).",
+          "answers": [
+            "hänga upp",
+            "hänger upp",
+            "hänga"
+          ],
+          "explain": "hänga upp – hänger upp – hängde upp – hängt upp. Jag hänger upp tvätten.",
+          "explainEn": "to hang up.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/hanga-upp.jpg",
+            "alt": "Tvätt på en tvättlina",
+            "credit": "Foto: mpkino, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v1",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "nyckel"
+          ],
+          "explain": "en nyckel – nycklar. Jag har tappat nyckeln.",
+          "explainEn": "a key – keys.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/nyckel.jpg",
+            "alt": "Många nycklar",
+            "credit": "Foto: stevepb, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v9",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "diskmaskin"
+          ],
+          "explain": "en diskmaskin – diskmaskiner. Jag tömmer diskmaskinen.",
+          "explainEn": "a dishwasher.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/diskmaskin.jpg",
+            "alt": "En öppen diskmaskin med disk",
+            "credit": "Foto: onlynoodle, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v14",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Efter tvätten kommer kläderna i den här maskinen och blir torra. Vad heter den?",
+          "qEn": "After washing, the clothes go in this machine to get dry. What is it called?",
+          "answers": [
+            "torktumlare"
+          ],
+          "explain": "en torktumlare – torktumlare. Efter tvätten kommer torktumlaren.",
+          "explainEn": "a tumble dryer.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/torktumlare.jpg",
+            "alt": "Torktumlare",
+            "credit": "Foto: RVarney, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v6",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "kudde"
+          ],
+          "explain": "en kudde – kuddar. Jag vill ha en mjuk kudde.",
+          "explainEn": "a pillow – pillows.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/kudde.jpg",
+            "alt": "Vita kuddar i en säng",
+            "credit": "Foto: JayMantri, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v19",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad gör man med en dammsugare? Skriv verbet (infinitiv: att ___).",
+          "qEn": "What do you do with a vacuum cleaner? Write the verb.",
+          "answers": [
+            "dammsuga",
+            "dammsuger",
+            "dammsugar"
+          ],
+          "explain": "dammsuga – dammsuger – dammsugade – dammsugit. Jag dammsuger i vardagsrummet.",
+          "explainEn": "to vacuum.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/dammsuga.jpg",
+            "alt": "Dammsugarens munstycke på en matta",
+            "credit": "Foto: jarmoluk, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v17",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "dammsugare"
+          ],
+          "explain": "en dammsugare – dammsugare. Verbet: dammsuga.",
+          "explainEn": "a vacuum cleaner.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/dammsugare.jpg",
+            "alt": "En röd dammsugare",
+            "credit": "Foto: stevepb, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v4",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "golv"
+          ],
+          "explain": "ett golv – golv. Golvet är av trä.",
+          "explainEn": "a floor – floors.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/golv.jpg",
+            "alt": "Ett golv av trä",
+            "credit": "Foto: messomx, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v8",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "handduk"
+          ],
+          "explain": "en handduk – handdukar. Jag glömde min handduk i tvättstugan.",
+          "explainEn": "a towel – towels.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/handduk.jpg",
+            "alt": "Blåa handdukar",
+            "credit": "Foto: Alexas_Fotos, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v2",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "dörr"
+          ],
+          "explain": "en dörr – dörrar. Dörren är öppen.",
+          "explainEn": "a door – doors.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/dorr.jpg",
+            "alt": "En vit dörr med blommor",
+            "credit": "Foto: StockSnap, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v15",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Du lägger det i tvättmaskinen så att kläderna blir rena. Vad heter det? (en/ett)",
+          "qEn": "You put it in the washing machine so the clothes get clean.",
+          "answers": [
+            "tvättmedel"
+          ],
+          "explain": "ett tvättmedel – tvättmedel. Du lägger tvättmedel i maskinen.",
+          "explainEn": "detergent.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/tvattmedel.jpg",
+            "alt": "Ett vitt tvättmedel med en sked",
+            "credit": "Foto: habelfrank, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v3",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "fönster"
+          ],
+          "explain": "ett fönster – fönster (samma form i plural).",
+          "explainEn": "a window – windows (same form).",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/fonster.jpg",
+            "alt": "Två gamla fönster",
+            "credit": "Foto: cocoparisienne, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v16",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "galge"
+          ],
+          "explain": "en galge – galgar. Skjortan hänger på en galge.",
+          "explainEn": "a hanger – hangers.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/galge.jpg",
+            "alt": "En vit skjorta på en galge",
+            "credit": "Foto: congerdesign, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v13",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Maskinen tvättar kläderna. Vad heter den? (skriv med en/ett)",
+          "qEn": "The machine washes the clothes. What is it called?",
+          "answers": [
+            "tvättmaskin"
+          ],
+          "explain": "en tvättmaskin – tvättmaskiner. Tvättmaskinen tvättar kläderna.",
+          "explainEn": "a washing machine.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/tvattmaskin.jpg",
+            "alt": "En kvinna lägger kläder i tvättmaskinen",
+            "credit": "Foto: flutie8211, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v12",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "soptunna",
+            "sopkärl"
+          ],
+          "explain": "en soptunna – soptunnor. Soporna kastar du i soptunnan.",
+          "explainEn": "a bin – bins.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/soptunna.jpg",
+            "alt": "Soptunnor på en gräsmatta",
+            "credit": "Foto: Hans, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v7",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "täcke"
+          ],
+          "explain": "ett täcke – täcken. På vintern behöver jag ett varmt täcke.",
+          "explainEn": "a duvet – duvets.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/tacke.jpg",
+            "alt": "Ett vitt täcke på en säng",
+            "credit": "Foto: LUM3N, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v10",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "kylskåp",
+            "kyl"
+          ],
+          "explain": "ett kylskåp (ofta: kylen) – kylskåp. Osten ligger i kylen.",
+          "explainEn": "a fridge – fridges.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/kyl.jpg",
+            "alt": "Ett kylskåp med mat",
+            "credit": "Foto: Hellio42, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v21",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad gör hon? Skriv verbet (infinitiv: att ___).",
+          "qEn": "What is she doing? Write the verb.",
+          "answers": [
+            "diska",
+            "diskar"
+          ],
+          "explain": "diska – diskar – diskade – diskat. Jag diskar efter maten.",
+          "explainEn": "to wash the dishes.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/diska.mp4",
+            "alt": "En kvinna diskar",
+            "credit": "Video: chayka1270, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v5",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "lampa"
+          ],
+          "explain": "en lampa – lampor. Tänd lampan, det är mörkt.",
+          "explainEn": "a lamp – lamps.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/lampa.jpg",
+            "alt": "En lampa bredvid en bok",
+            "credit": "Foto: stevepb, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v11",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "spis"
+          ],
+          "explain": "en spis – spisar. Ugnen sitter i spisen.",
+          "explainEn": "a stove.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/spis.jpg",
+            "alt": "En vit spis",
+            "credit": "Foto: Clker-Free-Vector-Images, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v18",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "I ett hyreshus delar grannarna på det här rummet med många maskiner. Vad heter rummet? (en/ett)",
+          "qEn": "In an apartment building the neighbours share this room with many machines.",
+          "answers": [
+            "tvättstuga"
+          ],
+          "explain": "en tvättstuga – tvättstugor. Man bokar tvättid i tvättstugan.",
+          "explainEn": "a laundry room.",
+          "image": {
+            "src": "/materials/video/048-vardagsord-hemma/tvattstuga.jpg",
+            "alt": "Många tvättmaskiner i en tvättstuga",
+            "credit": "Foto: RyanMcGuire, Pixabay",
+            "size": "small"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lyssna",
+      "title": "Lyssna",
+      "titleEn": "Listen",
+      "instructions": "Du hör ett telefonmeddelande två gånger. Svara på frågorna med 1–5 ord.",
+      "instructionsEn": "You hear a phone message twice. Answer with 1-5 words.",
+      "parts": [
+        {
+          "heading": "Meddelande från vaktmästaren",
+          "headingEn": "Message from the caretaker",
+          "audio": {
+            "id": "msg1",
+            "title": "Meddelande från vaktmästaren",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Bengt": "m"
+            },
+            "noise": {
+              "sound": "vacuum",
+              "level": 0.2
+            },
+            "rate": "+5%",
+            "script": [
+              {
+                "speaker": "Bengt",
+                "text": "Hej, det här är Bengt, vaktmästare i huset på Björkgatan. Jag ringer om tvättstugan. Den är stängd på torsdag, för då byter vi ut torktumlaren. Du kan boka tvättid igen från och med fredag. Och en sak till: den gamla nyckeln till tvättstugan funkar inte längre. Alltså, du måste hämta en ny bricka hos mig. Jag sitter på kontoret på måndag, mellan åtta och tio. Nej förresten, mellan nio och elva, det blev en ändring. Ja, och det ligger en blå handduk kvar i tvättstugan. Om den är din, kan du hämta den hos mig. Hej då!"
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "l1",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.vardag"
+              ],
+              "q": "Varför är tvättstugan stängd på torsdag?",
+              "qEn": "Why is the laundry room closed on Thursday?",
+              "answers": [
+                "torktumlar",
+                "byter",
+                "ny torktumlare"
+              ],
+              "explain": "'Då byter vi ut torktumlaren.' = de sätter in en ny.",
+              "explainEn": "They are replacing the tumble dryer."
+            },
+            {
+              "id": "l2",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.vardag"
+              ],
+              "q": "Vad måste du hämta hos Bengt?",
+              "qEn": "What must you pick up from Bengt?",
+              "answers": [
+                "bricka"
+              ],
+              "explain": "Du måste hämta en ny bricka, för den gamla nyckeln funkar inte.",
+              "explainEn": "A new tag, because the old key no longer works."
+            },
+            {
+              "id": "l3",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "hör.tid"
+              ],
+              "q": "Vilken tid är Bengt på kontoret på måndag?",
+              "qEn": "What time is Bengt at the office on Monday?",
+              "answers": [
+                "nio",
+                "9"
+              ],
+              "explain": "Först 'åtta och tio', men Bengt rättar sig: mellan nio och elva.",
+              "explainEn": "He corrects himself: between nine and eleven."
+            },
+            {
+              "id": "l4",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.vardag"
+              ],
+              "q": "Vad har någon glömt i tvättstugan?",
+              "qEn": "What has someone forgotten in the laundry room?",
+              "answers": [
+                "handduk"
+              ],
+              "explain": "Det ligger en blå handduk kvar.",
+              "explainEn": "A blue towel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Tala",
+      "titleEn": "Speak",
+      "instructions": "Lyssna på frågan. Svara med egna ord. Försök använda fem nya ord.",
+      "instructionsEn": "Listen to the question. Answer in your own words. Try to use five new words.",
+      "items": [
+        {
+          "id": "t1",
+          "type": "speak",
+          "tags": [
+            "tal.beskriva",
+            "ordförråd.produktion"
+          ],
+          "maxSeconds": 210,
+          "q": "Beskriv ditt hem. Vilka saker finns i köket och badrummet? Vem gör vad hemma?",
+          "qEn": "Describe your home. What things are in the kitchen and the bathroom? Who does what at home?",
+          "bullets": [
+            "Säg var du bor och vilka rum du har.",
+            "Berätta vad som finns i köket och i badrummet.",
+            "Berätta vem som diskar, dammsuger och tvättar hos dig.",
+            "Använd minst fem nya ord (t.ex. diskmaskin, handduk, tvättmaskin, dammsugare, soptunna).",
+            "Säg en sak du gör varje vecka hemma."
+          ],
+          "audio": {
+            "id": "s1",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Beskriv ditt hem. Vilka saker finns i köket och i badrummet? Och vem gör vad hemma? Du får berätta i några minuter."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

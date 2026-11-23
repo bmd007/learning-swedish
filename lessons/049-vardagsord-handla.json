@@ -1,0 +1,719 @@
+{
+  "id": "049-vardagsord-handla",
+  "title": "Vardagsord: handla och betala",
+  "titleEn": "Everyday words: shopping and paying",
+  "mode": "practice",
+  "minutes": 13,
+  "intro": "Det här är ord du behöver i butiken: vid kassan, med kvittot och när du betalar. Du ser en bild, hör ordet och skriver det själv. Sedan lyssnar du på ett telefonmeddelande från en butik och berättar hur du handlar.",
+  "introEn": "Words you need in the shop: at the checkout, with the receipt and when you pay. You see a picture, hear the word and type it yourself. Then you listen to a phone message from a shop and tell how you shop.",
+  "sections": [
+    {
+      "id": "nya-ord",
+      "title": "Nya ord",
+      "titleEn": "New words",
+      "instructions": "Lyssna på orden och läs tabellen. Säg varje ord högt. Titta på exemplet.",
+      "instructionsEn": "Listen to the words and read the table. Say each word out loud. Look at the example.",
+      "parts": [
+        {
+          "heading": "Grupp 1: i butiken",
+          "headingEn": "Group 1: in the shop",
+          "audio": {
+            "id": "ord1",
+            "title": "Grupp 1: i butiken",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Lärare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Lärare",
+                "text": "en kassa. Det är lång kö vid kassan.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en kassörska. Kassörskan frågar om jag vill ha kvitto.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en kö. Jag står i kö till kassan.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en kundvagn. Jag tar en kundvagn vid ingången.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en korg. Jag köper bara lite, så jag tar en korg.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en hylla. Mjölken står på översta hyllan.",
+                "pause": 0.6
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "i1",
+              "type": "info",
+              "md": "**Mönster:** de flesta ord på **-a** är en-ord (en kassa, en hylla). Sammansättning: **kund** + **vagn** = kundvagn. Kassan är där man betalar, och **kassörskan** (eller kassören) jobbar där.\n\n| Ord | English | فارسی | Exempel |\n|---|---|---|---|\n| **en kassa** | checkout, till | صندوق فروشگاه | Det är lång kö vid kassan. |\n| **en kassörska** | female cashier | صندوقدار (خانم) | Kassörskan frågar om jag vill ha kvitto. |\n| **en kö** | queue | صف | Jag står i kö till kassan. |\n| **en kundvagn** | shopping trolley | چرخ خرید | Jag tar en kundvagn vid ingången. |\n| **en korg** | basket | سبد | Jag köper bara lite, så jag tar en korg. |\n| **en hylla** | shelf | قفسه | Mjölken står på översta hyllan. |\n"
+            }
+          ]
+        },
+        {
+          "heading": "Grupp 2: pris och pengar",
+          "headingEn": "Group 2: price and money",
+          "audio": {
+            "id": "ord2",
+            "title": "Grupp 2: pris och pengar",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Lärare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Lärare",
+                "text": "ett pris. Vad är priset på den här jackan?",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en rea. Det är rea på skor just nu.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "ett extrapris. Kaffet har extrapris den här veckan.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en plånbok. Jag har glömt min plånbok hemma.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "kontanter. Tyvärr, vi tar inte kontanter.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "ett kort. Kan jag betala med kort?",
+                "pause": 0.6
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "i2",
+              "type": "info",
+              "md": "**Pris-ord:** ett **pris** (priser), en **rea** (sale), ett **extrapris** (a special offer, ofta på en skylt). **Betala** kan du göra med **kontanter** eller med **kort**. En **plånbok** är där du har korten.\n\n| Ord | English | فارسی | Exempel |\n|---|---|---|---|\n| **ett pris** | price | قیمت | Vad är priset på den här jackan? |\n| **en rea** | sale | حراج | Det är rea på skor just nu. |\n| **ett extrapris** | special offer | قیمت ویژه | Kaffet har extrapris den här veckan. |\n| **en plånbok** | wallet | کیف پول | Jag har glömt min plånbok hemma. |\n| **kontanter (plural)** | cash | پول نقد | Tyvärr, vi tar inte kontanter. |\n| **ett kort** | card (bank card) | کارت (بانکی) | Kan jag betala med kort? |\n"
+            }
+          ]
+        },
+        {
+          "heading": "Grupp 3: kvitto, påse och verben",
+          "headingEn": "Group 3: receipt, bag and verbs",
+          "audio": {
+            "id": "ord3",
+            "title": "Grupp 3: kvitto, påse och verben",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Lärare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Lärare",
+                "text": "ett kvitto. Behöver du kvittot?",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "en påse. Vill du ha en påse?",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "öppettider. Butikens öppettider är nio till sex.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "betala. Jag betalar med kort.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "väga. Kassörskan väger frukten.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "byta. Jag vill byta de här skorna mot en större storlek.",
+                "pause": 0.6
+              },
+              {
+                "speaker": "Lärare",
+                "text": "lämna tillbaka. Jag vill lämna tillbaka jackan.",
+                "pause": 0.6
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "i3",
+              "type": "info",
+              "md": "**Verb i butiken:** betala – betalar, väga – väger, byta – byter, lämna tillbaka – lämnar tillbaka (partikel: **tillbaka** står sist). Spara **kvittot**: utan kvitto kan du ofta inte lämna tillbaka varan. **Öppettider** finns bara i plural.\n\n| Ord | English | فارسی | Exempel |\n|---|---|---|---|\n| **ett kvitto** | receipt | رسید | Behöver du kvittot? |\n| **en påse** | bag | کیسه | Vill du ha en påse? |\n| **öppettider (plural)** | opening hours | ساعات کار | Butikens öppettider är nio till sex. |\n| **betala** | pay | پرداخت کردن | Jag betalar med kort. |\n| **väga** | weigh | وزن کردن | Kassörskan väger frukten. |\n| **byta** | change, exchange | عوض کردن | Jag vill byta de här skorna mot en större storlek. |\n| **lämna tillbaka** | return, give back | پس دادن | Jag vill lämna tillbaka jackan. |\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vad-heter-det",
+      "title": "Vad heter det?",
+      "titleEn": "What is it called?",
+      "instructions": "Skriv ordet på svenska. Skriv gärna med en eller ett. Titta på bilden.",
+      "instructionsEn": "Type the word in Swedish. Add en or ett if you can. Look at the picture.",
+      "items": [
+        {
+          "id": "v8",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Alla varor är femtio procent billigare under en period. Vad kallas det? (en/ett)",
+          "qEn": "Everything is 50 percent cheaper for a period. What is it called?",
+          "answers": [
+            "rea"
+          ],
+          "explain": "en rea – reor. På rean är allt billigare.",
+          "explainEn": "a sale.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/rea.jpg",
+            "alt": "Skyltar med femtio procent i ett skyltfönster",
+            "credit": "Foto: wal_172619, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v13",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "påse"
+          ],
+          "explain": "en påse – påsar. En påse kostar två kronor.",
+          "explainEn": "a bag – bags.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/pase.jpg",
+            "alt": "Bruna papperspåsar",
+            "credit": "Foto: matthiasboeckel, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v18",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad gör kvinnan? Skriv verbet (infinitiv: att ___).",
+          "qEn": "What is the woman doing? Write the verb.",
+          "answers": [
+            "betala",
+            "betalar"
+          ],
+          "explain": "betala – betalar – betalade – betalat. Jag betalar med kort.",
+          "explainEn": "to pay.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/betala.mp4",
+            "alt": "En kvinna betalar med kort vid ett blomsterstånd",
+            "credit": "Video: adria_moreno, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v7",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Det som står på lappen: hur mycket något kostar. Vad heter det? (en/ett)",
+          "qEn": "What is on the tag: how much something costs.",
+          "answers": [
+            "pris",
+            "prislapp"
+          ],
+          "explain": "ett pris – priser. Vad är priset? (Vad kostar det?)",
+          "explainEn": "a price – prices.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/pris.jpg",
+            "alt": "Prislappar",
+            "credit": "Foto: DavidRockDesign, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v11",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Du håller det mot kortläsaren när du betalar. Vad heter det? (en/ett)",
+          "qEn": "You hold it to the card reader when you pay.",
+          "answers": [
+            "kort"
+          ],
+          "explain": "ett kort – kort. Jag betalar med kort.",
+          "explainEn": "a card.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/kort.jpg",
+            "alt": "Ett blått betalkort",
+            "credit": "Foto: JJuni, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v4",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "kundvagn"
+          ],
+          "explain": "en kundvagn – kundvagnar. Jag lägger varorna i kundvagnen.",
+          "explainEn": "a shopping trolley.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/kundvagn.jpg",
+            "alt": "En kundvagn med varor",
+            "credit": "Foto: Alexas_Fotos, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v16",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Skorna är för små. Jag vill ___ dem mot ett större par. Vilket verb?",
+          "qEn": "The shoes are too small. I want to ___ them for a larger pair. Which verb?",
+          "answers": [
+            "byta",
+            "byter"
+          ],
+          "explain": "byta – byter – bytte – bytt. Jag vill byta storlek.",
+          "explainEn": "to change, exchange.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/byta.jpg",
+            "alt": "En skoaffär",
+            "credit": "Foto: Pexels, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v5",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "korg"
+          ],
+          "explain": "en korg – korgar. Jag tar en korg när jag handlar lite.",
+          "explainEn": "a basket – baskets.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/korg.jpg",
+            "alt": "En flätad korg",
+            "credit": "Foto: garten-gg, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v10",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Mynt och sedlar: vad heter det när man betalar med pengar i handen? (ett ord)",
+          "qEn": "Coins and notes: what is it called when you pay with money in your hand?",
+          "answers": [
+            "kontanter",
+            "kontant"
+          ],
+          "explain": "kontanter (bara plural). Jag betalar med kontanter.",
+          "explainEn": "cash (plural only).",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/kontanter.jpg",
+            "alt": "Mynt och sedlar",
+            "credit": "Foto: stevepb, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v1",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Här skannar man varorna och betalar. Vad heter platsen? (en/ett)",
+          "qEn": "Here you scan the goods and pay. What is the place called?",
+          "answers": [
+            "kassa"
+          ],
+          "explain": "en kassa – kassor. Du betalar i kassan.",
+          "explainEn": "a checkout – checkouts.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/kassa.jpg",
+            "alt": "Två kvinnor vid en kassa i en butik",
+            "credit": "Foto: Feygrace, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v17",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Jag vill inte ha varan. Jag ska ___ den i butiken och få pengarna tillbaka. Skriv verbet (två ord).",
+          "qEn": "I do not want the item. I will ___ it to the shop and get my money back. Write the verb (two words).",
+          "answers": [
+            "lämna tillbaka",
+            "lämnar tillbaka",
+            "lämna"
+          ],
+          "explain": "lämna tillbaka – lämnar tillbaka – lämnade tillbaka. Jag lämnar tillbaka klänningen och får pengarna tillbaka.",
+          "explainEn": "to return.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/lamna-tillbaka.jpg",
+            "alt": "En presentask",
+            "credit": "Foto: image4you, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v9",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "plånbok"
+          ],
+          "explain": "en plånbok – plånböcker. Plånboken ligger i väskan.",
+          "explainEn": "a wallet.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/planbok.jpg",
+            "alt": "En plånbok i en ficka",
+            "credit": "Foto: stevepb, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v6",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "hylla"
+          ],
+          "explain": "en hylla – hyllor. Flaskorna står på hyllan.",
+          "explainEn": "a shelf – shelves.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/hylla.jpg",
+            "alt": "En hylla med flaskor i en butik",
+            "credit": "Foto: igorovsyannykov, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v2",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vem jobbar i kassan och tar emot din betalning? (en/ett)",
+          "qEn": "Who works at the checkout and takes your payment?",
+          "answers": [
+            "kassörska",
+            "kassör"
+          ],
+          "explain": "en kassörska – kassörskor (man: en kassör). Kassörskan skannar varorna.",
+          "explainEn": "a cashier.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/kassorska.jpg",
+            "alt": "En kassörska och en kund",
+            "credit": "Foto: RichardsDrawings, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v15",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad gör man med en våg? Skriv verbet (infinitiv: att ___).",
+          "qEn": "What do you do with a scale? Write the verb.",
+          "answers": [
+            "väga",
+            "väger",
+            "vägar"
+          ],
+          "explain": "väga – väger – vägde – vägt. Hon väger tomaterna.",
+          "explainEn": "to weigh.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/vaga.jpg",
+            "alt": "Tomater på en våg",
+            "credit": "Foto: RitaE, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v14",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Skylten visar när butiken är öppen. Vad heter det? (ett ord, plural)",
+          "qEn": "The sign shows when the shop is open. What is it called?",
+          "answers": [
+            "öppettider"
+          ],
+          "explain": "öppettider (plural). Kolla butikens öppettider på dörren.",
+          "explainEn": "opening hours.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/oppettider.jpg",
+            "alt": "Öppettider: måndag till fredag, lördag",
+            "credit": "Foto: OpenClipart-Vectors, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v12",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Vad heter det på svenska? (skriv med en/ett)",
+          "qEn": "What is it called in Swedish? (write with en/ett)",
+          "answers": [
+            "kvitto"
+          ],
+          "explain": "ett kvitto – kvitton. Spara kvittot om du vill byta varan.",
+          "explainEn": "a receipt – receipts.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/kvitto.jpg",
+            "alt": "Ett kvitto kommer ut ur kassan",
+            "credit": "Foto: AS_Photography, Pixabay",
+            "size": "small"
+          }
+        },
+        {
+          "id": "v3",
+          "type": "short",
+          "tags": [
+            "ordförråd.vardag",
+            "ordförråd.produktion"
+          ],
+          "q": "Många människor väntar på sin tur, en efter en. Vad heter det? (en/ett)",
+          "qEn": "Many people wait for their turn, one after another.",
+          "answers": [
+            "kö"
+          ],
+          "explain": "en kö – köer. Jag står i kö.",
+          "explainEn": "a queue – queues.",
+          "image": {
+            "src": "/materials/video/049-vardagsord-handla/ko.jpg",
+            "alt": "Människor står i kö",
+            "credit": "Foto: aykapog, Pixabay",
+            "size": "small"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lyssna",
+      "title": "Lyssna",
+      "titleEn": "Listen",
+      "instructions": "Du hör ett telefonmeddelande två gånger. Svara på frågorna med 1–5 ord.",
+      "instructionsEn": "You hear a phone message twice. Answer with 1-5 words.",
+      "parts": [
+        {
+          "heading": "Meddelande från skobutiken",
+          "headingEn": "Message from the shoe shop",
+          "audio": {
+            "id": "msg1",
+            "title": "Meddelande från skobutiken",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Lena": "f"
+            },
+            "noise": {
+              "sound": "cafe",
+              "level": 0.2
+            },
+            "rate": "+5%",
+            "script": [
+              {
+                "speaker": "Lena",
+                "text": "Hej, det här är Lena på skobutiken Steg för Steg. Du var här i lördags och ville lämna tillbaka dina vinterskor. Jag har tyvärr ett litet problem. Du hade inget kvitto, och då kan vi inte ge tillbaka pengarna. Men vi kan byta skorna mot ett annat par, eller ge dig ett presentkort. Skorna kostade sexhundranittionio kronor, och dom är på rea nu, så … nej förresten, rean tog slut i fredags. Det går bra att komma förbi när som helst. Vi har öppet till sju på vardagar. Ta med ditt bankkort, så hittar jag köpet i systemet. Hej då!"
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "l1",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.vardag"
+              ],
+              "q": "Vad saknar kunden?",
+              "qEn": "What is the customer missing?",
+              "answers": [
+                "kvitto"
+              ],
+              "explain": "'Du hade inget kvitto' – därför kan butiken inte ge tillbaka pengarna.",
+              "explainEn": "No receipt, so no refund."
+            },
+            {
+              "id": "l2",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.vardag"
+              ],
+              "q": "Vad kan kunden få i stället för pengar? (en sak)",
+              "qEn": "What can the customer get instead of money? (one thing)",
+              "answers": [
+                "byta",
+                "presentkort",
+                "annat par",
+                "andra skor"
+              ],
+              "explain": "Hon kan byta skorna mot ett annat par eller få ett presentkort.",
+              "explainEn": "Exchange the shoes or get a gift card."
+            },
+            {
+              "id": "l3",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "hör.tid"
+              ],
+              "q": "Hur länge har butiken öppet på vardagar?",
+              "qEn": "Until when is the shop open on weekdays?",
+              "answers": [
+                "sju",
+                "7",
+                "19"
+              ],
+              "explain": "'Vi har öppet till sju på vardagar.'",
+              "explainEn": "Until seven."
+            },
+            {
+              "id": "l4",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.vardag"
+              ],
+              "q": "Vad ska kunden ta med sig?",
+              "qEn": "What should the customer bring?",
+              "answers": [
+                "bankkort",
+                "kort"
+              ],
+              "explain": "Rean är slut (distraktion). Kunden ska ta med sitt bankkort.",
+              "explainEn": "The sale is over (distractor). Bring the bank card."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Tala",
+      "titleEn": "Speak",
+      "instructions": "Lyssna på frågan. Svara med egna ord. Försök använda fem nya ord.",
+      "instructionsEn": "Listen to the question. Answer in your own words. Try to use five new words.",
+      "items": [
+        {
+          "id": "t1",
+          "type": "speak",
+          "tags": [
+            "tal.beskriva",
+            "ordförråd.produktion"
+          ],
+          "maxSeconds": 210,
+          "q": "Berätta om när du handlar mat. Var handlar du, hur ofta och hur betalar du?",
+          "qEn": "Tell us about when you buy food. Where do you shop, how often and how do you pay?",
+          "bullets": [
+            "Säg var du handlar och hur ofta.",
+            "Berätta vad du tar: korg, kundvagn eller påse.",
+            "Berätta hur du betalar (kort, kontanter) och om du sparar kvittot.",
+            "Använd minst fem nya ord (t.ex. kassa, kö, hylla, pris, rea).",
+            "Berätta om en gång du bytte eller lämnade tillbaka något."
+          ],
+          "audio": {
+            "id": "s1",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Testledare": "f"
+            },
+            "script": [
+              {
+                "speaker": "Testledare",
+                "text": "Berätta om när du handlar mat. Var handlar du, hur ofta, och hur betalar du? Du får berätta i några minuter."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

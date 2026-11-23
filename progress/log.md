@@ -295,3 +295,10 @@
 ## 2026-11-22 – Graded 043 (vocab check)
 
 - 34/36 (first try 26/36). 10 unknown words → trial lesson with video/memory cues (needs Pexels key or Commons).
+
+## 2026-11-23 – Lessons 048–049: concrete daily words with photos
+
+- 048 hemma/tvättstuga (21 typed items), 049 handla/betala (18). Pixabay photos (private), 2 videos (diska, betala).
+  Words table + teacher voice, typed recall, Swedex-style phone message, speak task. Audio ok 0–5 %.
+- materials.7z built (AES-256, hidden names, 901 MB), not committed: LFS quota + old materials.zip removal pending.
+  Password is in docs/research.md comment (public!) – recommended a new password kept outside the repo.
