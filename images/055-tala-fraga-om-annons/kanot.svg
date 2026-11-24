@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300"><rect width="600" height="300" fill="#ffffff"/>
+<rect y="150" width="600" height="150" fill="#cfe6f7"/>
+<text x="300" y="35" font-size="22" font-weight="bold" fill="#222" text-anchor="middle" font-family="system-ui, sans-serif">Kanotuthyrning vid Lillsjön</text>
+<circle cx="520" cy="70" r="28" fill="#ffd54a"/>
+<path d="M150 190 Q300 240 450 190 L420 185 Q300 215 180 185 Z" fill="#b5651d"/>
+<circle cx="260" cy="170" r="10" fill="#fde9c9" stroke="#1a5fb4" stroke-width="3"/><circle cx="330" cy="170" r="10" fill="#fde9c9" stroke="#1a5fb4" stroke-width="3"/>
+<rect x="30" y="95" width="120" height="55" fill="#8b5a2b"/><polygon points="20,95 90,60 160,95" fill="#a33"/>
+<text x="90" y="128" font-size="14" fill="#fff" text-anchor="middle" font-family="system-ui, sans-serif">Camping</text>
+</svg>

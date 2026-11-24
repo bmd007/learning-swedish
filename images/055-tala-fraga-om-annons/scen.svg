@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300"><rect width="600" height="300" fill="#ffffff"/>
+<text x="300" y="30" font-size="22" font-weight="bold" fill="#222" text-anchor="middle" font-family="system-ui, sans-serif">Del 2 B: du ser inte annonsen</text>
+<rect x="30" y="60" width="200" height="170" rx="10" fill="#fff6d6" stroke="#b8860b" stroke-width="3"/>
+<text x="130" y="95" font-size="18" font-weight="bold" fill="#8a6500" text-anchor="middle" font-family="system-ui, sans-serif">ANNONS B</text>
+<text x="130" y="130" font-size="40" text-anchor="middle" font-family="system-ui, sans-serif">?????</text>
+<text x="130" y="165" font-size="16" fill="#555" text-anchor="middle" font-family="system-ui, sans-serif">Examinatorn har den</text>
+<text x="130" y="255" font-size="18" font-weight="bold" fill="#8a6500" text-anchor="middle" font-family="system-ui, sans-serif">Examinator</text>
+<path d="M240 145 L360 145" stroke="#1a5fb4" stroke-width="4" marker-end="url(#a)"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1a5fb4"/></marker></defs>
+<text x="300" y="130" font-size="16" fill="#1a5fb4" text-anchor="middle" font-family="system-ui, sans-serif">Du frågar</text>
+<rect x="370" y="60" width="200" height="170" rx="10" fill="#e8f0fb" stroke="#1a5fb4" stroke-width="3"/>
+<text x="470" y="90" font-size="18" font-weight="bold" fill="#1a5fb4" text-anchor="middle" font-family="system-ui, sans-serif">TIPS</text>
+<text x="470" y="122" font-size="17" fill="#222" text-anchor="middle" font-family="system-ui, sans-serif">var?</text>
+<text x="470" y="147" font-size="17" fill="#222" text-anchor="middle" font-family="system-ui, sans-serif">hur många sängar?</text>
+<text x="470" y="172" font-size="17" fill="#222" text-anchor="middle" font-family="system-ui, sans-serif">pris per vecka?</text>
+<text x="470" y="197" font-size="17" fill="#222" text-anchor="middle" font-family="system-ui, sans-serif">husdjur? hur boka?</text>
+<text x="470" y="255" font-size="18" font-weight="bold" fill="#1a5fb4" text-anchor="middle" font-family="system-ui, sans-serif">Du</text>
+</svg>

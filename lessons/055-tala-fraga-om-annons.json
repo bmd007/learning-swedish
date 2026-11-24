@@ -1,0 +1,643 @@
+{
+ "id": "055-tala-fraga-om-annons",
+ "title": "Muntligt: fråga om en annons (Del 2 B)",
+ "titleEn": "Speaking: ask about an ad (part 2 B)",
+ "mode": "practice",
+ "minutes": 15,
+ "intro": "I Swedex muntligt Del 2 B ser du inte annonsen. Examinatorn har den. Du får bara en ruta med tips och ska fråga. Här lär du dig att göra varje tips till en riktig fråga, med rätt ordföljd. Sist pratar du själv.",
+ "introEn": "In Swedex oral part 2 B you cannot see the ad. The examiner has it. You only get a box of tips and must ask. Here you learn to turn each tip into a real question with the right word order. At the end you speak.",
+ "sections": [
+  {
+   "id": "regler",
+   "title": "Så fungerar det",
+   "titleEn": "How it works",
+   "instructions": "Läs. Det tar två minuter.",
+   "instructionsEn": "Read. It takes two minutes.",
+   "items": [
+    {
+     "id": "p1",
+     "type": "info",
+     "md": "**Del 2 B – du frågar.**\n\n1. Examinatorn säger: *Nu har jag en annons. Du ska fråga mig om den.* Du **ser inte** annonsen.\n2. Du får en ruta med **tips**: *var? hur många sängar? pris per vecka? husdjur? hur boka?*\n3. Du ställer **en fråga per tips**. Ta alla tips, ett i taget.\n4. Sedan **1–2 egna frågor** (till exempel *Finns det wifi?*).\n5. Avsluta: **Tack, då vet jag allt.**\n\nDet är en **ny annons**, inte den du just svarade på. Tipsen är ord, inte meningar. Du gör dem till frågor.\n\n**فارسی:** آگهی را نمی‌بینید. فقط کلمه‌های راهنما دارید. از هر کلمه یک سؤال کامل بسازید.",
+     "image": {
+      "src": "scen.svg",
+      "alt": "Examinatorn håller annonsen med frågetecken, du har en ruta med tips"
+     }
+    },
+    {
+     "id": "p2",
+     "type": "info",
+     "md": "**Mönster: tips → fråga.**\n\n| Tips | Fråga |\n|---|---|\n| var? | **Var ligger** stugan? |\n| hur många sängar? | **Hur många sängar finns** det? |\n| pris per vecka? | **Vad kostar** den per vecka? |\n| husdjur? | **Får man** ta med husdjur? |\n| hur boka? | **Hur bokar** man? |\n\n**Regel:** frågeord + **verb** + subjekt. Verbet står på plats 2, direkt efter frågeordet. Ja/nej-fråga: verbet **först** (*Finns det wifi? Får man …?*).\n\n**Fällan:** *Hur man kan boka?* är fel som fråga. Den ordföljden finns efter *Jag undrar …*: *Jag undrar **hur man bokar**.* I Del 2 B ställer du frågor direkt: **Hur bokar man?**\n\n**فارسی:** در فارسی فعل آخر می‌آید (چطور رزرو می‌کنیم؟). در سوئدی فعل بلافاصله بعد از کلمهٔ پرسشی می‌آید: *Hur bokar man?*",
+     "image": {
+      "src": "monster.svg",
+      "alt": "Hur bokar man? frågeord, verb, subjekt"
+     }
+    },
+    {
+     "id": "p3",
+     "type": "info",
+     "md": "**Färdiga bitar att lära sig hela:**\n\n- *Finns det …?* – Finns det wifi? Finns det parkering?\n- *Ingår … i priset?* – Ingår frukost i priset?\n- *Måste man …?* – Måste man boka i förväg?\n- *Får man …?* – Får man ta med husdjur?\n- *Hur länge …?* – Hur länge är det öppet? Hur länge kan man stanna?\n- *Från när …?* – Från när kan man flytta in?\n- *Hur många … finns det?* – Hur många rum finns det?\n- *Vad kostar … ?* – Vad kostar det per dag?"
+    }
+   ]
+  },
+  {
+   "id": "tips",
+   "title": "Tips till fråga",
+   "titleEn": "Tip to question",
+   "instructions": "Du ser bara tipset. Skriv en hel fråga. Kom ihåg: verbet på plats 2.",
+   "instructionsEn": "You see only the tip. Type a full question. Verb in place 2.",
+   "items": [
+    {
+     "id": "s1",
+     "type": "short",
+     "tags": [
+      "tal.annons.fråga",
+      "ordföljd.fråga"
+     ],
+     "q": "Annons: en begagnad cykel. Tips: färg?",
+     "qEn": "Ad: second-hand bike. Tip: colour?",
+     "answers": [
+      "vilken färg",
+      "vad har den för färg",
+      "vad är det för färg",
+      "vad är den för färg"
+     ],
+     "explain": "Vilken färg har cykeln? (frågeord + verb + subjekt)",
+     "explainEn": "Which colour does the bike have?"
+    },
+    {
+     "id": "s2",
+     "type": "short",
+     "tags": [
+      "tal.annons.fråga",
+      "ordföljd.fråga"
+     ],
+     "q": "Annons: en begagnad cykel. Tips: hämta när?",
+     "qEn": "Tip: pick up when?",
+     "answers": [
+      "när kan jag hämta",
+      "när kan man hämta",
+      "när får jag hämta",
+      "när kan jag komma",
+      "när kan jag komma och hämta"
+     ],
+     "explain": "När kan jag hämta cykeln? Efter När kommer verbet (kan), sen subjektet (jag).",
+     "explainEn": "När + verb + subject."
+    },
+    {
+     "id": "s3",
+     "type": "short",
+     "tags": [
+      "tal.annons.fråga",
+      "ordföljd.fråga"
+     ],
+     "q": "Annons: språkcafé. Tips: var?",
+     "qEn": "Ad: language café. Tip: where?",
+     "answers": [
+      "var ligger",
+      "var finns",
+      "var är",
+      "var träffas",
+      "var håller ni till",
+      "var hålls"
+     ],
+     "explain": "Var ligger caféet?",
+     "explainEn": "Where is the café?"
+    },
+    {
+     "id": "s4",
+     "type": "short",
+     "tags": [
+      "tal.annons.fråga",
+      "ordföljd.fråga"
+     ],
+     "q": "Annons: språkcafé. Tips: kostar?",
+     "qEn": "Tip: costs?",
+     "answers": [
+      "kostar det",
+      "hur mycket kostar",
+      "vad kostar",
+      "är det gratis",
+      "är det kostnadsfritt"
+     ],
+     "explain": "Kostar det något? / Vad kostar det? Ja/nej-fråga: verbet först.",
+     "explainEn": "Yes/no question: verb first."
+    },
+    {
+     "id": "s5",
+     "type": "short",
+     "tags": [
+      "tal.annons.fråga",
+      "ordföljd.fråga"
+     ],
+     "q": "Annons: språkcafé. Tips: måste anmäla sig?",
+     "qEn": "Tip: must sign up?",
+     "answers": [
+      "måste man anmäla sig",
+      "måste jag anmäla mig",
+      "behöver man anmäla sig",
+      "behöver jag anmäla mig",
+      "måste man boka",
+      "måste man anmäla"
+     ],
+     "explain": "Måste man anmäla sig? Verbet (måste) först.",
+     "explainEn": "Verb first: Måste man ...?"
+    },
+    {
+     "id": "s6",
+     "type": "short",
+     "tags": [
+      "tal.annons.fråga",
+      "ordföljd.fråga"
+     ],
+     "q": "Annons: lägenhetsbyte i sommar. Tips: hur många rum?",
+     "qEn": "Ad: apartment swap for the summer. Tip: how many rooms?",
+     "answers": [
+      "hur många rum finns",
+      "hur många rum har",
+      "hur många rum är",
+      "hur många rum ingår"
+     ],
+     "explain": "Hur många rum finns det? / Hur många rum har lägenheten?",
+     "explainEn": "Verb after the whole question phrase 'hur många rum'."
+    },
+    {
+     "id": "s7",
+     "type": "short",
+     "tags": [
+      "tal.annons.fråga",
+      "ordföljd.fråga"
+     ],
+     "q": "Annons: lägenhetsbyte i sommar. Tips: husdjur?",
+     "qEn": "Tip: pets?",
+     "answers": [
+      "får man ta med",
+      "får man ha",
+      "får jag ta med",
+      "får jag ha",
+      "är husdjur tillåtna",
+      "är husdjur tillåtet",
+      "finns det husdjur"
+     ],
+     "explain": "Får man ta med husdjur? Verbet (får) först.",
+     "explainEn": "Verb first."
+    },
+    {
+     "id": "s8",
+     "type": "short",
+     "tags": [
+      "tal.annons.fråga",
+      "ordföljd.fråga"
+     ],
+     "q": "Annons: hundvakt. Tips: pris per dag?",
+     "qEn": "Ad: dog sitter. Tip: price per day?",
+     "answers": [
+      "vad kostar det per dag",
+      "hur mycket kostar det per dag",
+      "vad kostar det om dagen",
+      "vad är priset per dag",
+      "vad tar du per dag",
+      "vad tar ni per dag",
+      "hur mycket tar du per dag",
+      "vad kostar en dag",
+      "vad kostar det för en dag"
+     ],
+     "explain": "Vad kostar det per dag? Inte: Vad det kostar per dag?",
+     "explainEn": "Not: Vad det kostar ..."
+    }
+   ]
+  },
+  {
+   "id": "ordning",
+   "title": "Rätt ordföljd",
+   "titleEn": "Right word order",
+   "instructions": "Välj eller sätt orden i ordning. Direkt fråga = verb på plats 2 (eller först).",
+   "instructionsEn": "Choose or order. Direct question = verb in place 2 (or first).",
+   "items": [
+    {
+     "id": "m1",
+     "type": "mcq",
+     "tags": [
+      "tal.annons.fråga",
+      "ordföljd.fråga"
+     ],
+     "q": "Vilken fråga är rätt?",
+     "qEn": "Which question is right?",
+     "options": [
+      "Hur man bokar?",
+      "Hur man kan boka det?",
+      "Hur bokar man?"
+     ],
+     "answer": 2,
+     "explain": "Direkt fråga: frågeord + verb + subjekt → Hur bokar man?",
+     "explainEn": "Question word + verb + subject."
+    },
+    {
+     "id": "m2",
+     "type": "mcq",
+     "tags": [
+      "tal.annons.fråga",
+      "ordföljd.fråga"
+     ],
+     "q": "Vilken fråga är rätt?",
+     "qEn": "Which question is right?",
+     "options": [
+      "Var ligger stugan?",
+      "Var stugan ligger?",
+      "Var det ligger stugan?"
+     ],
+     "answer": 0,
+     "explain": "Var ligger stugan? Verbet efter frågeordet.",
+     "explainEn": "Verb right after the question word."
+    },
+    {
+     "id": "m3",
+     "type": "mcq",
+     "tags": [
+      "ordföljd.bisats",
+      "ordföljd.fråga"
+     ],
+     "q": "Vilken mening är rätt?",
+     "qEn": "Which sentence is right?",
+     "options": [
+      "Jag undrar hur bokar man.",
+      "Jag undrar hur man bokar.",
+      "Hur man bokar jag undrar."
+     ],
+     "answer": 1,
+     "explain": "Efter 'Jag undrar' är det bisats: hur + subjekt + verb. Men i Del 2 B frågar du direkt: Hur bokar man?",
+     "explainEn": "After 'Jag undrar' it is a subordinate clause: how + subject + verb."
+    },
+    {
+     "id": "o1",
+     "type": "order",
+     "tags": [
+      "ordföljd.fråga"
+     ],
+     "q": "Sätt orden i rätt ordning. Det är en fråga.",
+     "qEn": "How many beds are there?",
+     "words": [
+      "många",
+      "Hur",
+      "finns",
+      "sängar",
+      "det"
+     ],
+     "answers": [
+      "Hur många sängar finns det"
+     ],
+     "explain": "Hur många sängar + verb (finns) + det.",
+     "explainEn": "Question phrase, verb, subject."
+    },
+    {
+     "id": "o2",
+     "type": "order",
+     "tags": [
+      "ordföljd.fråga"
+     ],
+     "q": "Sätt orden i rätt ordning. Det är en fråga.",
+     "qEn": "May one bring pets?",
+     "words": [
+      "man",
+      "Får",
+      "med",
+      "husdjur",
+      "ta"
+     ],
+     "answers": [
+      "Får man ta med husdjur"
+     ],
+     "explain": "Ja/nej-fråga: verbet Får först.",
+     "explainEn": "Yes/no: Får first."
+    },
+    {
+     "id": "o3",
+     "type": "order",
+     "tags": [
+      "ordföljd.fråga"
+     ],
+     "q": "Sätt orden i rätt ordning. Det är en fråga.",
+     "qEn": "When can one move in?",
+     "words": [
+      "kan",
+      "När",
+      "flytta",
+      "in",
+      "man"
+     ],
+     "answers": [
+      "När kan man flytta in"
+     ],
+     "explain": "När + kan + man + flytta in.",
+     "explainEn": "När + verb + subject."
+    },
+    {
+     "id": "o4",
+     "type": "order",
+     "tags": [
+      "ordföljd.fråga"
+     ],
+     "q": "Sätt orden i rätt ordning. Det är en fråga.",
+     "qEn": "Is breakfast included in the price?",
+     "words": [
+      "i",
+      "Ingår",
+      "priset",
+      "frukost"
+     ],
+     "answers": [
+      "Ingår frukost i priset"
+     ],
+     "explain": "Ingår först, sedan frukost i priset.",
+     "explainEn": "Verb first."
+    }
+   ]
+  },
+  {
+   "id": "lyssna",
+   "title": "Lyssna: så kan det låta",
+   "titleEn": "Listen: a model",
+   "instructions": "Sara frågar om en annons. Hör hur hon ställer frågorna. Svara på frågorna.",
+   "instructionsEn": "Sara asks about an ad. Hear how she asks. Answer the questions.",
+   "parts": [
+    {
+     "heading": "Kanotuthyrning",
+     "headingEn": "Canoe rental",
+     "image": {
+      "src": "kanot.svg",
+      "alt": "En sjö med en kanot och en camping"
+     },
+     "audio": {
+      "id": "d1",
+      "title": "Sara frågar om kanotuthyrning",
+      "maxPlays": 2,
+      "speakers": {
+       "Sara": "f",
+       "Examinator": "m"
+      },
+      "script": [
+       {
+        "speaker": "Examinator",
+        "text": "Nu har jag en annons. Du ska fråga mig om den."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Okej! Var ligger uthyrningen?"
+       },
+       {
+        "speaker": "Examinator",
+        "text": "Den ligger vid Lillsjön, alldeles bredvid campingen. Det är ungefär tio minuter från centrum med bil."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Jaha. Och vad kostar det att hyra en kanot?"
+       },
+       {
+        "speaker": "Examinator",
+        "text": "Fyrahundra kronor per dag. Nä, vänta, det var förra året. I år är det trehundrafemtio."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Okej. Hur många personer får plats i en kanot?"
+       },
+       {
+        "speaker": "Examinator",
+        "text": "Två vuxna och ett barn. Alltså tre, men inte fyra."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Bra, vi är tre. Får man ta med hund?"
+       },
+       {
+        "speaker": "Examinator",
+        "text": "Ja, det går bra, men hunden måste ha flytväst. Dom kostar femtio kronor extra."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Aha. Och ingår västar till oss i priset?"
+       },
+       {
+        "speaker": "Examinator",
+        "text": "Ja, västar till alla människor ingår."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Perfekt. Hur bokar man?"
+       },
+       {
+        "speaker": "Examinator",
+        "text": "Du ringer eller mejlar. Det går inte att boka på hemsidan än. Vi har öppet varje dag utom måndagar."
+       },
+       {
+        "speaker": "Sara",
+        "text": "Då vet jag. Tack, då vet jag allt!"
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "l1",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Var ligger kanotuthyrningen?",
+       "qEn": "Where is the canoe rental?",
+       "options": [
+        "Vid en sjö bredvid en camping",
+        "I centrum",
+        "Vid havet"
+       ],
+       "answer": 0,
+       "explain": "\"Vid Lillsjön, alldeles bredvid campingen.\"",
+       "explainEn": "By the lake, next to the campsite."
+      },
+      {
+       "id": "l2",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "hör.siffror"
+       ],
+       "q": "Vad kostar en kanot per dag i år?",
+       "qEn": "What does a canoe cost per day this year?",
+       "answers": [
+        "350",
+        "trehundrafemtio",
+        "tre hundra femtio",
+        "trehundra femtio"
+       ],
+       "explain": "400 var förra året. I år 350.",
+       "explainEn": "400 was last year."
+      },
+      {
+       "id": "l3",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Vad gäller om man tar med hund?",
+       "qEn": "What applies if you bring a dog?",
+       "options": [
+        "Hundar är inte tillåtna.",
+        "Hunden måste sitta i en bur.",
+        "Hunden måste ha flytväst."
+       ],
+       "answer": 2,
+       "explain": "\"Hunden måste ha flytväst.\"",
+       "explainEn": "The dog must wear a life jacket."
+      },
+      {
+       "id": "l4",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Hur bokar man?",
+       "qEn": "How do you book?",
+       "options": [
+        "På hemsidan",
+        "Man behöver inte boka",
+        "Per telefon eller mejl"
+       ],
+       "answer": 2,
+       "explain": "\"Du ringer eller mejlar. Det går inte att boka på hemsidan än.\"",
+       "explainEn": "Call or email; not on the website yet."
+      },
+      {
+       "id": "l5",
+       "type": "info",
+       "md": "**Lägg märke till:** Sara frågar alltid direkt: *Var ligger …? Vad kostar …? Hur många … får plats? Får man …? Ingår …? Hur bokar man?* Aldrig *hur man bokar?*"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prata",
+   "title": "Nu pratar du",
+   "titleEn": "Now you speak",
+   "instructions": "Tre annonser. Du ser bara tipsen. Tryck på inspelning och ställ en hel fråga per tips. Sedan en egen fråga. Avsluta med Tack, då vet jag allt.",
+   "instructionsEn": "Three ads. You see only the tips. Record and ask one full question per tip, then your own question. End with: Tack, då vet jag allt.",
+   "items": [
+    {
+     "id": "t1",
+     "type": "speak",
+     "tags": [
+      "tal.annons.fråga",
+      "tal.interaktion",
+      "ordföljd.fråga"
+     ],
+     "maxSeconds": 210,
+     "q": "Annons: hundvakt. Du ser inte annonsen. Fråga examinatorn om varje tips. Ställ sedan en egen fråga. Avsluta med: Tack, då vet jag allt.",
+     "qEn": "You cannot see the ad. Ask one full question for each tip, then one question of your own. End with: Tack, då vet jag allt.",
+     "bullets": [
+      "hur många hundar?",
+      "pris per dag?",
+      "ingår mat?",
+      "hur boka?",
+      "Din egen fråga",
+      "Tack, då vet jag allt."
+     ],
+     "audio": {
+      "id": "e1",
+      "maxPlays": 2,
+      "strict": false,
+      "speakers": {
+       "Examinator": "m"
+      },
+      "script": [
+       {
+        "speaker": "Examinator",
+        "text": "Nu har jag en annons om hundvakt. Du ska fråga mig om den. Titta på tipsen och sätt igång."
+       }
+      ]
+     },
+     "image": {
+      "src": "tips.svg",
+      "alt": "En ruta med tips: hundvakt",
+      "caption": "Tips: hur många hundar? pris per dag? ingår mat? hur boka?"
+     }
+    },
+    {
+     "id": "t2",
+     "type": "speak",
+     "tags": [
+      "tal.annons.fråga",
+      "tal.interaktion",
+      "ordföljd.fråga"
+     ],
+     "maxSeconds": 210,
+     "q": "Annons: sommarjobb på en camping. Du ser inte annonsen. Fråga examinatorn om varje tips. Ställ sedan en egen fråga. Avsluta med: Tack, då vet jag allt.",
+     "qEn": "You cannot see the ad. Ask one full question for each tip, then one question of your own. End with: Tack, då vet jag allt.",
+     "bullets": [
+      "vilket arbete?",
+      "timmar per vecka?",
+      "lön?",
+      "bo på plats?",
+      "hur ansöka?",
+      "Din egen fråga",
+      "Tack, då vet jag allt."
+     ],
+     "audio": {
+      "id": "e2",
+      "maxPlays": 2,
+      "strict": false,
+      "speakers": {
+       "Examinator": "m"
+      },
+      "script": [
+       {
+        "speaker": "Examinator",
+        "text": "Nu har jag en annons om sommarjobb på en camping. Du ska fråga mig om den. Titta på tipsen och sätt igång."
+       }
+      ]
+     },
+     "image": {
+      "src": "tips.svg",
+      "alt": "En ruta med tips: sommarjobb",
+      "caption": "Tips: vilket arbete? timmar per vecka? lön? bo på plats? hur ansöka?"
+     }
+    },
+    {
+     "id": "t3",
+     "type": "speak",
+     "tags": [
+      "tal.annons.fråga",
+      "tal.interaktion",
+      "ordföljd.fråga"
+     ],
+     "maxSeconds": 210,
+     "q": "Annons: en loppis i skolan. Du ser inte annonsen. Fråga examinatorn om varje tips. Ställ sedan en egen fråga. Avsluta med: Tack, då vet jag allt.",
+     "qEn": "You cannot see the ad. Ask one full question for each tip, then one question of your own. End with: Tack, då vet jag allt.",
+     "bullets": [
+      "när?",
+      "var?",
+      "pris för bord?",
+      "hur anmäla sig?",
+      "Din egen fråga",
+      "Tack, då vet jag allt."
+     ],
+     "audio": {
+      "id": "e3",
+      "maxPlays": 2,
+      "strict": false,
+      "speakers": {
+       "Examinator": "m"
+      },
+      "script": [
+       {
+        "speaker": "Examinator",
+        "text": "Nu har jag en annons om en loppis i skolan. Du ska fråga mig om den. Titta på tipsen och sätt igång."
+       }
+      ]
+     },
+     "image": {
+      "src": "tips.svg",
+      "alt": "En ruta med tips: loppis",
+      "caption": "Tips: när? var? pris för bord? hur anmäla sig?"
+     }
+    }
+   ]
+  }
+ ]
+}

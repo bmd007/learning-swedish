@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300"><rect width="600" height="300" fill="#ffffff"/>
+<text x="300" y="30" font-size="22" font-weight="bold" fill="#222" text-anchor="middle" font-family="system-ui, sans-serif">Direkt fråga: verbet på plats 2</text>
+<rect x="40" y="60" width="150" height="50" rx="8" fill="#e8f0fb" stroke="#1a5fb4" stroke-width="2"/><text x="115" y="92" font-size="20" text-anchor="middle" fill="#1a5fb4" font-weight="bold" font-family="system-ui, sans-serif">Hur</text>
+<rect x="225" y="60" width="150" height="50" rx="8" fill="#fde9c9" stroke="#b8860b" stroke-width="2"/><text x="300" y="92" font-size="20" text-anchor="middle" fill="#8a6500" font-weight="bold" font-family="system-ui, sans-serif">bokar</text>
+<rect x="410" y="60" width="150" height="50" rx="8" fill="#e8f0fb" stroke="#1a5fb4" stroke-width="2"/><text x="485" y="92" font-size="20" text-anchor="middle" fill="#1a5fb4" font-weight="bold" font-family="system-ui, sans-serif">man?</text>
+<text x="115" y="135" font-size="15" fill="#555" text-anchor="middle" font-family="system-ui, sans-serif">frågeord</text><text x="300" y="135" font-size="15" fill="#555" text-anchor="middle" font-family="system-ui, sans-serif">VERB</text><text x="485" y="135" font-size="15" fill="#555" text-anchor="middle" font-family="system-ui, sans-serif">subjekt</text>
+<text x="300" y="185" font-size="20" fill="#2a7d2a" text-anchor="middle" font-weight="bold" font-family="system-ui, sans-serif">Hur bokar man?  ✔</text>
+<text x="300" y="220" font-size="20" fill="#c01c28" text-anchor="middle" font-weight="bold" font-family="system-ui, sans-serif">Hur man bokar?  ✘  (bara efter "Jag undrar ...")</text>
+<text x="300" y="265" font-size="16" fill="#555" text-anchor="middle" font-family="system-ui, sans-serif">Ja/nej-fråga: verbet först. Får man ta med husdjur?</text>
+</svg>
