@@ -76,6 +76,66 @@ def lesson_files():
     return sorted([*LESSONS.glob("*.json"), *PRIVATE_LESSONS.glob("*.json")], key=lambda f: f.name)
 
 
+SAVED = ROOT / "progress" / "saved.json"
+
+
+def img_src(lesson_id, img):
+    if not img or not img.get("src"):
+        return None
+    src = img["src"]
+    return {**img, "src": src if re.match(r"^(https?:)?/", src) else f"/images/{lesson_id}/{src}"}
+
+
+def walk_items(data):
+    for sec in data.get("sections", []):
+        for part in sec.get("parts", [sec]):
+            for item in part.get("items", []):
+                yield sec, part, item
+
+
+def all_cards():
+    out = []
+    for f in lesson_files():
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except ValueError:
+            continue
+        for sec, part, item in walk_items(data):
+            if item.get("type") == "info":
+                out.append({"lessonId": data["id"], "lessonTitle": data.get("title"), "section": sec.get("title"),
+                            "itemId": item["id"], "md": item.get("md"), "mdEn": item.get("mdEn"),
+                            "image": img_src(data["id"], item.get("image"))})
+    return out
+
+
+def read_saved():
+    try:
+        return json.loads(SAVED.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+
+
+def saved_expanded():
+    lessons = {}
+    for f in lesson_files():
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            lessons[data["id"]] = data
+        except ValueError:
+            continue
+    out = []
+    for s in read_saved():
+        data = lessons.get(s["lessonId"])
+        if not data:
+            continue
+        for sec, part, item in walk_items(data):
+            if item.get("id") == s["itemId"]:
+                full = {**item, "options": item.get("options") or part.get("options"), "image": img_src(data["id"], item.get("image"))}
+                out.append({**s, "lessonTitle": data.get("title"), "section": sec.get("title"), "item": full})
+                break
+    return out
+
+
 def lesson_summaries():
     results = final_results()
     out = []
@@ -183,6 +243,10 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_json(lesson_summaries())
         if p == "/api/progress":
             return self.send_json(progress_summary())
+        if p == "/api/cards":
+            return self.send_json(all_cards())
+        if p == "/api/saved":
+            return self.send_json(saved_expanded())
         m = re.fullmatch(r"/api/lessons/([A-Za-z0-9_.-]+)", p)
         if m:
             f = LESSONS / f"{m.group(1)}.json"
@@ -233,6 +297,17 @@ class Handler(SimpleHTTPRequestHandler):
             f.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
             draft.unlink(missing_ok=True)
             return self.send_json({"saved": f.name})
+        if url.path == "/api/saved":
+            data = json.loads(body or b"{}")
+            lesson_id, item_id = str(data.get("lessonId", "")), str(data.get("itemId", ""))
+            if not SAFE.match(lesson_id) or not SAFE.match(item_id):
+                return self.send_json({"error": "bad id"}, 400)
+            saved = [s for s in read_saved() if (s["lessonId"], s["itemId"]) != (lesson_id, item_id)]
+            if data.get("on"):
+                saved.append({"lessonId": lesson_id, "itemId": item_id, "kind": "card" if data.get("kind") == "card" else "question",
+                              "savedAt": datetime.now().isoformat(timespec="seconds")})
+            SAVED.write_text(json.dumps(saved, ensure_ascii=False, indent=2), encoding="utf-8")
+            return self.send_json({"count": len(saved)})
         if url.path == "/api/generate":
             data = json.loads(body or b"{}")
             topic = str(data.get("topic", "")).strip()[:500]

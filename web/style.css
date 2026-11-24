@@ -282,3 +282,13 @@ mark.hl { background: #ffe066; color: #1f2328; border-radius: 2px; padding: 0 1p
 .guide h2 { margin-top: 28px; border-bottom: 2px solid var(--yellow); padding-bottom: 4px; }
 .guide hr { border: 0; border-top: 1px solid var(--line); margin: 24px 0; }
 .md p, .md li { unicode-bidi: plaintext; }
+.star { float: right; border: 1px solid var(--line); background: var(--bg); color: var(--muted); font: inherit; font-size: 13px; padding: 3px 10px; border-radius: 999px; cursor: pointer; margin-left: 8px; }
+.star:hover { color: var(--text); }
+.star.on { color: var(--yellow); border-color: var(--yellow); }
+.search { width: 100%; box-sizing: border-box; padding: 10px 12px; margin: 10px 0 16px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--text); font: inherit; }
+.card-src { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+.card-src a { color: var(--accent); }
+.q-note { background: var(--card, transparent); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin: 10px 0 16px; }
+.note-opts { margin: 8px 0; }
+.cards-lesson { font-size: 17px; margin: 26px 0 6px; }
+.reveal { margin-top: 10px; }

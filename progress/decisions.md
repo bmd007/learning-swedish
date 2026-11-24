@@ -190,3 +190,8 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 ## 2026-11-24 – Persian names in TTS
 - Learner: TTS pronounces Persian names/places badly (052: Shiraz → heard, wrote "skyras"). In audio, use Swedish or
   common international names/places, or names the voices handle; don't ask the learner to spell foreign names.
+
+## 2026-11-24 – "Mina kort" page
+- Learner wanted to come back to rule cards (e.g. the därför table) without opening the lesson. App: ☆ Spara on every
+  info card and every auto-graded question (practice mode only); page "Mina kort" (Sparade / Alla kort, search).
+  Saved list in progress/saved.json → Claude reads it to build review lessons from what the learner chose.

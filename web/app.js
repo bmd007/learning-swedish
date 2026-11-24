@@ -56,6 +56,7 @@ function route() {
   if (view === "lesson" && id) return openLesson(id);
   if (view === "feedback" && id) return openFeedback(id);
   if (view === "swedex") return openGuide();
+  if (view === "kort") return openCards();
   return home();
 }
 
@@ -199,6 +200,108 @@ function generatorPanel() {
   }
 }
 
+let savedKeys = null;
+async function loadSaved() {
+  const list = await fetch("/api/saved").then(r => r.ok ? r.json() : []).catch(() => []);
+  savedKeys = new Set(list.map(s => `${s.lessonId}/${s.itemId}`));
+  return list;
+}
+
+function starBtn(lessonId, itemId, kind) {
+  const key = `${lessonId}/${itemId}`;
+  const b = h(`<button type="button" class="star" title="Spara i Mina kort"></button>`);
+  const paint = () => {
+    const on = savedKeys?.has(key);
+    b.classList.toggle("on", !!on);
+    b.textContent = on ? "★ Sparad" : "☆ Spara";
+  };
+  b.onclick = async e => {
+    e.stopPropagation();
+    const on = !savedKeys.has(key);
+    on ? savedKeys.add(key) : savedKeys.delete(key);
+    paint();
+    await fetch("/api/saved", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ lessonId, itemId, kind, on }) });
+  };
+  paint();
+  return b;
+}
+
+function answerText(item) {
+  if (item.type === "mcq" || item.type === "select") return item.options?.[item.answer] ?? "";
+  if (item.answers?.length) return item.answers[0];
+  return "";
+}
+
+function cardImage(img) {
+  if (!img?.src) return "";
+  return /\.(mp4|webm)$/i.test(img.src)
+    ? `<figure class="lesson-img"><video src="${esc(img.src)}" autoplay loop muted playsinline></video></figure>`
+    : `<figure class="lesson-img"><img src="${esc(img.src)}" alt="${esc(img.alt)}" loading="lazy"></figure>`;
+}
+
+async function openCards() {
+  const [saved, cards] = await Promise.all([loadSaved(), fetch("/api/cards").then(r => r.json())]);
+  let tab = store.get("cardsTab", "saved");
+  let query = "";
+  app.innerHTML = `<a class="back" href="#/">← Startsidan</a>
+    <h1>Mina kort</h1>
+    <p class="muted">Regler och frågor att repetera. Spara med ☆ i en lektion.</p>${en("Rules and questions to review. Save with ☆ in a lesson.")}
+    <div class="tabs">
+      <button data-tab="saved">Sparade <span class="count">${saved.length}</span></button>
+      <button data-tab="all">Alla kort <span class="count">${cards.length}</span></button>
+    </div>
+    <input id="cardSearch" class="search" type="search" placeholder="Sök (t.ex. därför, sin, klockan)">
+    <div id="cardList"></div>`;
+  const list = app.querySelector("#cardList");
+  const match = s => !query || norm(s).includes(norm(query));
+  const head = (lessonId, lessonTitle, section) =>
+    `<div class="card-src"><a href="#/lesson/${esc(lessonId)}">${esc(lessonTitle)}</a>${section ? ` · ${esc(section)}` : ""}</div>`;
+  const cardEl = c => {
+    const el = h(`<div class="teach note">${head(c.lessonId, c.lessonTitle, c.section)}${cardImage(c.image)}<div class="md">${md(c.md)}${en(c.mdEn)}</div></div>`);
+    el.prepend(starBtn(c.lessonId, c.itemId, "card"));
+    return el;
+  };
+  const questionEl = s => {
+    const it = s.item;
+    const opts = (it.type === "mcq" || it.type === "select") && it.options ? `<ol class="note-opts" type="A">${it.options.map(o => `<li>${esc(o)}</li>`).join("")}</ol>` : "";
+    const words = it.type === "order" && it.words ? `<div class="muted">${it.words.map(esc).join(" · ")}</div>` : "";
+    const base = it.base ? ` <span class="base">${esc(it.base)}</span>` : "";
+    const ans = answerText(it);
+    const el = h(`<div class="item note q-note">${head(s.lessonId, s.lessonTitle, s.section)}${cardImage(it.image)}
+      <div class="q">${esc(it.q ?? "")}${base}</div>${en(it.qEn)}${opts}${words}
+      <button type="button" class="btn secondary sm reveal">Visa svar</button>
+      <div class="fb review ok" hidden>${ans ? `Svar: <b>${esc(ans)}</b>` : ""}${it.explain ? `<div class="muted">${esc(it.explain)}</div>` : ""}${en(it.explainEn)}</div></div>`);
+    el.querySelector(".reveal").onclick = e => { e.target.hidden = true; el.querySelector(".fb").hidden = false; };
+    el.prepend(starBtn(s.lessonId, s.itemId, "question"));
+    return el;
+  };
+  const draw = () => {
+    app.querySelectorAll(".tabs button").forEach(b => b.classList.toggle("on", b.dataset.tab === tab));
+    list.replaceChildren();
+    if (tab === "saved") {
+      const rows = saved.filter(s => match(JSON.stringify(s.item)) || match(s.lessonTitle)).reverse();
+      if (!rows.length) list.append(h(`<p class="muted">${query ? "Inget hittades." : "Inga sparade än. Tryck ☆ Spara på ett kort eller en fråga i en lektion."}</p>`));
+      for (const s of rows) {
+        const c = cards.find(c => c.lessonId === s.lessonId && c.itemId === s.itemId);
+        list.append(c ? cardEl(c) : questionEl(s));
+      }
+    } else {
+      const rows = cards.filter(c => match(c.md) || match(c.lessonTitle));
+      if (!rows.length) list.append(h(`<p class="muted">Inget hittades.</p>`));
+      let last = null;
+      for (const c of [...rows].reverse()) {
+        if (c.lessonId !== last) list.append(h(`<h2 class="cards-lesson">${esc(c.lessonTitle)}</h2>`));
+        last = c.lessonId;
+        list.append(cardEl(c));
+      }
+    }
+  };
+  app.querySelectorAll(".tabs button").forEach(b => b.onclick = () => { tab = b.dataset.tab; store.set("cardsTab", tab); draw(); });
+  app.querySelector("#cardSearch").oninput = e => { query = e.target.value; draw(); };
+  draw();
+  window.scrollTo(0, 0);
+}
+
 async function openFeedback(id) {
   const res = await fetch(`/api/feedback/${id}`);
   const text = res.ok ? await res.text() : "Ingen feedback än.";
@@ -216,6 +319,7 @@ async function openGuide() {
 async function openLesson(id) {
   const lesson = await fetch(`/api/lessons/${id}`).then(r => r.json());
   const exam = lesson.mode !== "practice";
+  if (!exam) await loadSaved();
   const draftKey = `draft:${id}`;
   const local = store.get(draftKey, null);
   const remote = await fetch(`/api/draft/${id}`).then(r => r.ok ? r.json() : null).catch(() => null);
@@ -429,6 +533,7 @@ async function openLesson(id) {
         const item = { ...raw, options: raw.options ?? part.options };
         if (item.type === "info") {
           const box = h(`<div class="teach"><div class="teach-label">💡 Så funkar det</div></div>`);
+          if (!exam) box.prepend(starBtn(lesson.id, item.id, "card"));
           if (item.image) box.append(renderImage(item.image));
           box.append(h(`<div class="md">${md(item.md)}${exam ? "" : en(item.mdEn)}</div>`));
           right.append(box);
@@ -437,6 +542,7 @@ async function openLesson(id) {
         n++;
         const itemEl = renderItem(item, offset + n);
         if (item.image) itemEl.prepend(renderImage(item.image));
+        if (!exam && item.type !== "write" && item.type !== "speak" && item.type !== "draw") itemEl.prepend(starBtn(lesson.id, item.id, "question"));
         if (exam) itemEl.append(flagButton(item));
         else if (AUTO.has(item.type)) attachCheck(itemEl, item);
         right.append(itemEl);

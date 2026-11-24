@@ -41,6 +41,9 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
   - `GET /api/draft/<lessonId>` → latest draft; the app resumes from it if newer than localStorage
   - `POST /api/results` → `results/<lessonId>__<stamp>.json` (final; removes the draft)
   - `POST /api/recording?name=..&ext=..` → `recordings/` (gitignored, private)
+  - `GET /api/cards` (all `info` cards of all lessons), `GET /api/saved` + `POST /api/saved {lessonId,itemId,kind,on}` →
+    `progress/saved.json`: cards/questions the learner starred (☆) for review. Page `#/kort` "Mina kort". Use the saved
+    questions when building review lessons.
   - `POST /api/upload?name=..&ext=..` → `uploads/` (photos of handwritten writing, gitignored; served at /uploads/)
 - `tools/generate.py` – lesson/test generator using a local Ollama model (default `gemma3:12b`, env
   `OLLAMA_MODEL`). Steps: plan → items per section (JSON schema) → language review (drop/fix) → blind
