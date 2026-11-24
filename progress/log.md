@@ -323,3 +323,10 @@
 - Gaps 8/8. Listening 2/3 auto, 3/3 after check (l2 *skyras* = Shiraz, accepted). 7 min.
 - Learner: TTS pronounces Persian names badly. Possessive agreement is solid in gaps.
 - **Next step:** do lesson 054 (sin/sitt/sina vs hans/hennes/deras), then date/time listening review from the 028 grade.
+
+## 2026-11-24 – Graded mock oral with Claude mobile (Prompt 1, docs/superfluent-tala-swedex.md)
+
+- Learner did the speaking mock by voice with Claude mobile (Superfluent prompt too long). Transcript in results/speaking-with-claude-mobile/.
+- Overall A2 (not yet B1): interaction good (asks back, self-corrects), Del 2 A ok (time wrong), Del 2 B weak (task unclear, needed help), Del 3 reason unclear.
+- Errors: question word order (*hur man kan boka*), inversion after nu/ibland, bisats adverb, word forms (vaknar, kvällar, anmäla sig, henne, dit).
+- **Next step:** lesson for Del 2 B (tips → questions, verb second, new ads, speak + model), then mock Prompt 2. Still pending: 054, 053.

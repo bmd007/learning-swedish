@@ -47,3 +47,8 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `stavning` (028) – *bottur* for båttur (accepted), *klokan* for klockan.
 - `instruktion` (läsa uppgiften) – 028 q2: *Rita vägen på kartan* → only circled the destination (thought: point to it). Same family as 025 q9/q11 (answered the wrong kind of thing). Learner: "another case of me not reading the question properly". Habit: read question word + task verb before the audio.
 - `hör.detalj` (052 l2) – wrote *skyras* for Shiraz (heard the city right, spelled by ear; accepted). Learner: TTS says Persian names badly. `pronomen.possessiv` 8/8 gaps, no errors.
+- `tal.annons.fråga` (mock oral, Claude mobile, 2026-11-24) – Del 2 B: needed help twice to start; thought ad B was the same course / should be visible ("jag ser inte det"). 5 questions, missed beds + pets. → tips → questions drill.
+- `ordföljd.fråga` (mock oral) – direct question in bisats order: *hur man kan boka den stugan?* (Hur kan man boka …?), twice.
+- `ordföljd.inversion` (mock oral) – *Nu jag jobbar*, *Ibland jag tittar* (ok after *på en vanlig vardag*, *ofta*).
+- `ordföljd.bisats` (mock oral) – *att kanske jag skulle inte gå* → att jag kanske inte skulle gå.
+- `ord.form` (mock oral) – väcknar (vaknar), kvaler (kvällar), anlan (anmäla sig), en möte, ringa hennes (henne), gå där (åka dit), bo på en stad, har flyttat … i åtta år (har bott / flyttade för … sedan).
