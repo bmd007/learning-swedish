@@ -20,6 +20,7 @@
 | Ordförråd | improving | 003: 7/8 first try (was 0/6 in 001) |
 
 ## Known weaknesses
+- Date/time words (weekdays, months, i övermorgon/i förrgår, vecka forms) are slow to stick – also in English/Persian as a child. Needs spaced repetition in context.
 - (002 writing) Letter frame: greeting/closing missing in task 2, wrong name in task 1, MVH to a friend; word limit exceeded (128, 164 of max 120). Noun forms (min + noun without -en; plural -er/-ar; en/ett), *att* wrongly after modal-like verbs (hinner inte att, behöver inte att), infinitive after ska (tvätt→tvätta), phonetic spelling, clear å/ä/ö dots in handwriting.
 - (021) Reading del 4 synonyms: chooses '0 – ingen mening' too fast (2 tests in a row, 6 of 16 wrong). Svensk mil = 10 km (answered Nej to 'åtta mil' = 80 km).
 - (013) Not improved vs 009: adjective after mitt/min/den/det must be -a (mitt nytt hem, gammlat), mitt/min by noun; irregular comparison (sämre, större, äldre, sämsta) right only after hint. Listening: förra/nu trap again; spelled kroner.

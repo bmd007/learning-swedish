@@ -175,3 +175,9 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 - Level check source: Kelly list (Språkbanken, CC BY 4.0) → `materials/kelly/kelly-sv.json` (8425 words, CEFR A1–C2,
   web-frequency based, so mixed with news words – use as a level filter, not as the curriculum).
 - Format: a photo per word (Pixabay, private), hear the word, then TYPE it (production), then a Swedex-style message.
+
+## 2026-11-24 – Date/time words are slow for the learner in every language
+- Learner: weekdays, month names, date words took long to feel natural even in English and Persian as a child.
+  Not a Swedish problem. 028 showed it: "35 på torsdag" → wrote "1935"; missed "i övermorgon" (trap: "i morgon" first).
+- → Teach date/time words with many short spaced repetitions in context (phone messages, appointments, "när?"
+  questions), not one list. Recycle them in later listening lessons. Learner's own note: mahdi-s-thoughs.md.
