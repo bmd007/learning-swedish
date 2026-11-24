@@ -35,7 +35,7 @@
 | `läs.åsikt` | 1/3 | 33% | 017-las-prov-b/i3: 'Det är helt fel.' → 'Det stämmer bara vid vissa tider på dagen.' |
 | `tal.berätta` | 1/3 | 33% | 029-modellsvar-presentation/g2: 'vinnade' → 'vann' |
 | `ordförråd.rivstart.k5` | 1/3 | 33% | 043-ordkoll-b1/k5-14: 'ännu, som tidigare' → 'ännu, som tidigare' |
-| `hör.detalj` | 20/61 | 33% | 040-adjektiv-vader-mat/l1: 'kraftigt' → 'kraftigt'; 041-adjektiv-hem-jobb-stad/h2: 'tät' → 'tät'; 041-adjektiv-hem-jobb-stad/h3: 'alltid full' → 'full' |
+| `hör.detalj` | 21/64 | 33% | 041-adjektiv-hem-jobb-stad/h2: 'tät' → 'tät'; 041-adjektiv-hem-jobb-stad/h3: 'alltid full' → 'full'; 052-pronomen-min-din-er/l2: 'skyras (the sounds was so bad here, don't use Persian names that are tough for the machine to generate a voice for)' → 'shiraz' |
 | `adjektiv.kongruens` | 5/18 | 28% | 040-adjektiv-vader-mat/g6: 'milt' → 'milt'; 041-adjektiv-hem-jobb-stad/f4: 'lungt' → 'lugnt'; 041-adjektiv-hem-jobb-stad/f5: 'full' → 'fulla' |
 | `hör.siffror` | 5/20 | 25% | 014-artal-och-tal/d2: '1480' → '1448'; 014-artal-och-tal/d3: '1804' → '1884'; 014-artal-och-tal/d7: 'skollan stänge 1829' → '1870' |
 | `hör.matcha` | 2/10 | 20% | 028-swedex-b1-gammalt-horprov/q8: 'G. Svenskarna har blivit tjockare' → 'F. Ljusare när man är ung'; 028-swedex-b1-gammalt-horprov/q9: 'H. Svenskarna motionerar mer' → 'G. Svenskarna har blivit tjockare' |
@@ -43,6 +43,7 @@
 | `läs.detalj` | 3/24 | 12% | 016-las-prov-a/j5: 'Ja' → 'Nej'; 017-las-prov-b/i4: 'Eleverna får använda mobilen bara på rasterna.' → 'Mobilerna läggs undan under lektionerna.'; 021-lasprov-helt-rivstart/l10: 'Nej' → 'Ja' |
 | `läs.janej` | 1/10 | 10% | 021-lasprov-helt-rivstart/l10: 'Nej' → 'Ja' |
 | `läs.slutsats` | 1/11 | 9% | 001-diagnos/l6: 'Hon blev uppsagd.' → 'Hennes arbete var för tungt för kroppen.' |
+| `pronomen.possessiv` | 1/11 | 9% | 052-pronomen-min-din-er/l2: 'skyras (the sounds was so bad here, don't use Persian names that are tough for the machine to generate a voice for)' → 'shiraz' |
 | `läs.matcha` | 0/12 | 0% |  |
 | `ordförråd.rivstart.k8` | 0/6 | 0% |  |
 | `läs.huvudtanke` | 0/4 | 0% |  |
