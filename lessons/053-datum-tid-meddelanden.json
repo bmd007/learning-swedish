@@ -1,0 +1,613 @@
+{
+ "id": "053-datum-tid-meddelanden",
+ "title": "Datum och tid i telefonmeddelanden",
+ "titleEn": "Dates and times in phone messages",
+ "mode": "practice",
+ "minutes": 15,
+ "intro": "Veckodagar, i morgon och i övermorgon, vecka och datum. Först tre korta mönsterkort, sedan skriver du själv, och till sist hör du fyra telefonmeddelanden där planen ändras. Svara på ”när?”.",
+ "introEn": "Weekdays, i morgon vs i övermorgon, forms of vecka, dates and clock times. First three short pattern cards, then you type, and finally four phone messages where the plan changes. Answer 'when?'.",
+ "sections": [
+  {
+   "id": "monster",
+   "title": "Mönster: när?",
+   "titleEn": "Patterns: when?",
+   "instructions": "Läs de tre korten. Titta på bilderna. Säg exemplen högt.",
+   "instructionsEn": "Read the three cards. Look at the pictures. Say the examples out loud.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Mönster:** tre små ord säger *när*: **på** (kommande), **i … -s** (förra), **på … -ar** (varje).\n\n| Svenska | English | فارسی |\n|---|---|---|\n| **förrgår** | the day before yesterday | پریروز |\n| **i går** (igår) | yesterday | دیروز |\n| **i dag** (idag) | today | امروز |\n| **i morgon** (imorgon) | tomorrow | فردا |\n| **i övermorgon** | the day after tomorrow | پس‌فردا |\n\n- **på fredag** = nästa fredag. *Vi ses på fredag.*\n- **i fredags** = förra fredagen. *Jag var på bio i fredags.*\n- **på fredagar** = varje fredag. *På fredagar stänger vi klockan tre.*\n\n**Fälla:** *i morgon* är bara **en** dag framåt. *I övermorgon* är två. Räkna alltid från dagen som talaren säger: \"Idag är det tisdag.\"\n",
+     "image": {
+      "src": "vecka-dagar.svg",
+      "alt": "Veckans dagar med idag på onsdag: förrgår, i går, i dag, i morgon, i övermorgon"
+     }
+    },
+    {
+     "id": "i2",
+     "type": "info",
+     "md": "**Mönster:** *vecka* är ett en-ord. Fyra former, och de är alla användbara.\n\n| Form | Exempel |\n|---|---|\n| **en vecka** | Jag har semester **en vecka**. |\n| **veckan** | Jag tränar tre gånger **i veckan**. / Vad gör du **den här veckan**? |\n| **veckor** | Kursen är **tre veckor** lång. |\n| **veckorna** | **De första veckorna** var svåra. |\n\nTidsuttryck som du hör i meddelanden:\n- **nästa vecka** (next week) · **förra veckan** (last week) · **i veckan** (this week / during the week)\n- **om en vecka** (in a week) · **för en vecka sedan** (a week ago) · **varje vecka** (every week)\n- **vecka 50** (week number 50) – man säger *vecka femtio*.\n\n**Hook:** *om* = framåt (om två dagar), *sedan* = bakåt (för två dagar sedan).\n",
+     "image": {
+      "src": "vecka-former.svg",
+      "alt": "Förra veckan, den här veckan och nästa vecka som tre rutor"
+     }
+    },
+    {
+     "id": "i3",
+     "type": "info",
+     "md": "**Datum:** skriv *den 16 maj*, säg *den sextonde maj*. Ordningstal: första, andra, tredje, fjärde, femte … tolfte, trettonde … tjugonde, tjugoförsta, tjugoandra … trettionde.\n\n**Ålder eller år?** Det är en vanlig fälla.\n- **Erik fyller trettiofem på torsdag** = han blir 35 år. Det är inte år 1935!\n- **Han är född nittonhundrafemtiotre** = år 1953. År säger man som två siffror: *tjugotjugosex* (2026).\n\n**Klockan:** *halv fyra* = 3.30 (halvvägs **till** fyra). *Kvart över tre* = 3.15. *Kvart i fyra* = 3.45.\nPersiska: *halv fyra* låter som \"چهار و نیم\" men betyder سه و نیم!\n",
+     "image": {
+      "src": "datum-klocka.svg",
+      "alt": "En kalenderblad med 16 maj och tre klockslag"
+     }
+    }
+   ]
+  },
+  {
+   "id": "skriv",
+   "title": "Skriv själv",
+   "titleEn": "Type it yourself",
+   "instructions": "Skriv ordet eller orden. Tänk på mönstret: på / i -s / på -ar.",
+   "instructionsEn": "Type the word(s). Think of the pattern: på / i -s / på -ar.",
+   "items": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "tags": [
+      "ord.tema.tid"
+     ],
+     "q": "Idag är det onsdag. ___ är det torsdag.",
+     "qEn": "Tomorrow",
+     "answers": [
+      "i morgon",
+      "imorgon",
+      "i morron",
+      "imorron"
+     ],
+     "explain": "Torsdag är en dag efter onsdag: i morgon.",
+     "explainEn": "Thursday is one day after Wednesday: i morgon.",
+     "image": {
+      "src": "vecka-dagar.svg",
+      "alt": "Veckostrip med onsdag markerad som idag"
+     }
+    },
+    {
+     "id": "g2",
+     "type": "gap",
+     "tags": [
+      "ord.tema.tid"
+     ],
+     "q": "Idag är det onsdag. Förrgår var det ___.",
+     "qEn": "The day before yesterday",
+     "answers": [
+      "måndag"
+     ],
+     "explain": "I går = tisdag, förrgår = måndag.",
+     "explainEn": "Yesterday = Tuesday, the day before yesterday = Monday."
+    },
+    {
+     "id": "g3",
+     "type": "gap",
+     "tags": [
+      "ord.tema.tid"
+     ],
+     "q": "Idag är det onsdag. Vi ses i övermorgon, alltså på ___.",
+     "qEn": "Day after tomorrow",
+     "answers": [
+      "fredag"
+     ],
+     "explain": "I morgon = torsdag, i övermorgon = fredag.",
+     "explainEn": "Tomorrow = Thursday, i övermorgon = Friday."
+    },
+    {
+     "id": "g4",
+     "type": "gap",
+     "tags": [
+      "preposition.tid"
+     ],
+     "q": "Jag träffade Anna ___ måndags.",
+     "qEn": "Last Monday",
+     "answers": [
+      "i"
+     ],
+     "explain": "Förra måndagen = i måndags (med -s).",
+     "explainEn": "Last Monday = i måndags (with -s).",
+     "base": "på/i/om"
+    },
+    {
+     "id": "g5",
+     "type": "gap",
+     "tags": [
+      "preposition.tid"
+     ],
+     "q": "Vi ses ___ måndag.",
+     "qEn": "Next Monday",
+     "answers": [
+      "på"
+     ],
+     "explain": "Kommande måndag = på måndag.",
+     "explainEn": "Coming Monday = på måndag.",
+     "base": "på/i/om"
+    },
+    {
+     "id": "g6",
+     "type": "gap",
+     "tags": [
+      "preposition.tid"
+     ],
+     "q": "Jag går till gymmet ___ tisdagar.",
+     "qEn": "Every Tuesday",
+     "answers": [
+      "på"
+     ],
+     "explain": "Varje tisdag = på tisdagar (plural).",
+     "explainEn": "Every Tuesday = på tisdagar (plural).",
+     "base": "på/i/om"
+    },
+    {
+     "id": "q1",
+     "type": "mcq",
+     "tags": [
+      "preposition.tid",
+      "ord.tema.tid"
+     ],
+     "q": "”Jag var på bio i fredags.” När var det?",
+     "qEn": "When was it?",
+     "options": [
+      "Nästa fredag",
+      "Varje fredag",
+      "Förra fredagen"
+     ],
+     "answer": 2,
+     "explain": "I fredags (med -s) = förra fredagen, dvs. redan.",
+     "explainEn": "i fredags = last Friday, already past."
+    },
+    {
+     "id": "g7",
+     "type": "gap",
+     "tags": [
+      "preposition.tid"
+     ],
+     "q": "Hon kommer hem ___ en vecka.",
+     "qEn": "In one week",
+     "answers": [
+      "om"
+     ],
+     "explain": "Framåt = om. Bakåt = för … sedan.",
+     "explainEn": "Forward = om. Backward = för … sedan.",
+     "base": "om/sedan"
+    },
+    {
+     "id": "g8",
+     "type": "gap",
+     "tags": [
+      "preposition.tid"
+     ],
+     "q": "Vi flyttade hit för två veckor ___.",
+     "qEn": "Two weeks ago",
+     "answers": [
+      "sedan"
+     ],
+     "explain": "Bakåt: för två veckor sedan.",
+     "explainEn": "Backward: för två veckor sedan.",
+     "base": "om/sedan"
+    },
+    {
+     "id": "g9",
+     "type": "gap",
+     "tags": [
+      "substantiv.bestämd"
+     ],
+     "q": "Under de första ___ på kursen var allt nytt.",
+     "qEn": "The first weeks (definite plural)",
+     "answers": [
+      "veckorna"
+     ],
+     "explain": "De första veckorna = bestämd plural: vecka, veckor, veckorna.",
+     "explainEn": "definite plural: veckorna.",
+     "base": "vecka"
+    },
+    {
+     "id": "g10",
+     "type": "gap",
+     "tags": [
+      "substantiv.bestämd"
+     ],
+     "q": "Förra ___ var jag sjuk.",
+     "qEn": "Last week (definite)",
+     "answers": [
+      "veckan"
+     ],
+     "explain": "Förra veckan: bestämd form.",
+     "explainEn": "Definite form: veckan.",
+     "base": "vecka"
+    },
+    {
+     "id": "q2",
+     "type": "mcq",
+     "tags": [
+      "hör.siffror",
+      "ord.tema.tid"
+     ],
+     "q": "”Erik fyller trettiofem på torsdag.” Vad betyder det?",
+     "qEn": "What does it mean?",
+     "options": [
+      "Erik är född 1935",
+      "Erik blir 35 år på torsdag",
+      "Erik har trettiofem dagar kvar"
+     ],
+     "answer": 1,
+     "explain": "Fyller + siffra = ålder. År säger man som nittonhundratrettiofem.",
+     "explainEn": "fyller + number = age. A year is said nittonhundra…"
+    },
+    {
+     "id": "g11",
+     "type": "gap",
+     "tags": [
+      "hör.siffror"
+     ],
+     "q": "Min födelsedag är den ___ maj. (den 20 maj)",
+     "qEn": "20th, in words",
+     "answers": [
+      "tjugonde",
+      "tjugonde"
+     ],
+     "explain": "Ordningstal: tjugonde.",
+     "explainEn": "Ordinal: tjugonde.",
+     "base": "20"
+    },
+    {
+     "id": "g12",
+     "type": "gap",
+     "tags": [
+      "hör.tid"
+     ],
+     "q": "Klockan är 8.30. Det är halv ___.",
+     "qEn": "Half to…",
+     "answers": [
+      "nio"
+     ],
+     "explain": "Halv nio = 8.30 (halvvägs till nio).",
+     "explainEn": "halv nio = 8.30."
+    },
+    {
+     "id": "q3",
+     "type": "short",
+     "tags": [
+      "hör.tid"
+     ],
+     "q": "Skriv med siffror: kvart i fyra.",
+     "qEn": "Digits",
+     "answers": [
+      "3.45",
+      "3:45",
+      "15.45",
+      "15:45",
+      "3,45",
+      "03.45",
+      "15,45"
+     ],
+     "explain": "Kvart i fyra = 3.45 (femton minuter före fyra).",
+     "explainEn": "kvart i fyra = 3.45."
+    }
+   ]
+  },
+  {
+   "id": "meddelanden",
+   "title": "Telefonmeddelanden",
+   "titleEn": "Phone messages",
+   "instructions": "Du hör varje meddelande två gånger i rad. Svara med 1–5 ord. Lyssna efter ändringar: ”nej, vänta”.",
+   "instructionsEn": "You hear each message twice in a row. Answer with 1–5 words. Listen for changes: 'nej, vänta'.",
+   "parts": [
+    {
+     "heading": "Meddelande 1: tandvården",
+     "headingEn": "Message 1: the dentist",
+     "audio": {
+      "id": "m1",
+      "title": "Meddelande 1",
+      "maxPlays": 2,
+      "speakers": {
+       "Lena": "f"
+      },
+      "script": [
+       {
+        "speaker": "Lena",
+        "text": "Hej, det är Lena från tandvården på Storgatan. Jag ringer angående din tid. Alltså, du har ju en tid i morgon, tisdag, klockan tio, men tyvärr är doktorn sjuk, så vi måste flytta den. Jag har en ny tid åt dig i övermorgon, alltså på torsdag … nej, vänta, förlåt, det är onsdag. Onsdag, ja. Klockan halv tolv. Om det inte passar kan du ringa oss tillbaka. Vi har öppet till klockan fyra varje dag, men på fredagar stänger vi redan klockan tre. Okej, hej då!"
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "h1",
+       "type": "short",
+       "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+       ],
+       "q": "Vilken dag är den nya tiden?",
+       "qEn": "Which day is the new appointment?",
+       "answers": [
+        "onsdag"
+       ],
+       "explain": "Hon säger torsdag, men rättar sig: onsdag. I övermorgon från måndag = onsdag.",
+       "explainEn": "She says torsdag but corrects herself: onsdag."
+      },
+      {
+       "id": "h2",
+       "type": "short",
+       "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+       ],
+       "q": "Vilken tid är den nya tiden?",
+       "qEn": "What time?",
+       "answers": [
+        "halv tolv",
+        "11.30",
+        "11:30",
+        "11,30"
+       ],
+       "explain": "Klockan halv tolv = 11.30. Den gamla tiden var klockan tio.",
+       "explainEn": "halv tolv = 11.30. The old time was ten."
+      },
+      {
+       "id": "h3",
+       "type": "short",
+       "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+       ],
+       "q": "När stänger de på fredagar?",
+       "qEn": "When do they close on Fridays?",
+       "answers": [
+        "tre",
+        "15"
+       ],
+       "explain": "Vanliga dagar fyra, på fredagar klockan tre.",
+       "explainEn": "Normal days four, Fridays three."
+      }
+     ],
+     "image": {
+      "src": "vecka-dagar.svg",
+      "alt": "Veckostrip med dagar"
+     }
+    },
+    {
+     "heading": "Meddelande 2: Eriks fest",
+     "headingEn": "Message 2: Erik's party",
+     "audio": {
+      "id": "m2",
+      "title": "Meddelande 2",
+      "maxPlays": 2,
+      "speakers": {
+       "Johan": "m"
+      },
+      "script": [
+       {
+        "speaker": "Johan",
+        "text": "Hej, det är Johan. Du, det gäller Eriks fest. Han fyller trettiofem på torsdag, men han firar inte då. Festen är på lördag, den tjugosjunde … nej, förlåt, tjugoåttonde november. Jag har kollat kalendern. Vi hinner handla före, ja. Festen börjar klockan sju, men vi kommer lite tidigare och hjälper till. Jag tänkte att vi ses utanför hans port kvart i sju. Eller vänta, vill du åka tillsammans? Skicka ett sms i så fall. Ja, ha det bra!"
+       }
+      ],
+      "noise": {
+       "sound": "kitchen",
+       "level": 0.3
+      }
+     },
+     "items": [
+      {
+       "id": "h4",
+       "type": "short",
+       "tags": [
+        "hör.siffror",
+        "hör.kortsvar"
+       ],
+       "q": "Hur gammal blir Erik?",
+       "qEn": "How old is Erik turning?",
+       "answers": [
+        "35",
+        "trettiofem",
+        "trettiofem"
+       ],
+       "explain": "Fyller trettiofem = blir 35 år, inte född 1935.",
+       "explainEn": "fyller 35 = turns 35."
+      },
+      {
+       "id": "h5",
+       "type": "short",
+       "tags": [
+        "hör.tid",
+        "hör.siffror",
+        "hör.kortsvar"
+       ],
+       "q": "Vilket datum är festen?",
+       "qEn": "Which date?",
+       "answers": [
+        "28",
+        "tjugoåttonde",
+        "tjugoåtta"
+       ],
+       "explain": "Han säger tjugosjunde, men rättar: tjugoåttonde november.",
+       "explainEn": "He corrects: 28 November."
+      },
+      {
+       "id": "h6",
+       "type": "short",
+       "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+       ],
+       "q": "När ska de ses utanför porten?",
+       "qEn": "When do they meet?",
+       "answers": [
+        "kvart i sju",
+        "18.45",
+        "6.45",
+        "18:45",
+        "6:45",
+        "18,45"
+       ],
+       "explain": "Festen börjar sju, men de ses kvart i sju (6.45).",
+       "explainEn": "Party at seven, they meet at 6.45."
+      }
+     ],
+     "image": {
+      "src": "datum-klocka.svg",
+      "alt": "Kalenderblad och klockslag"
+     }
+    },
+    {
+     "heading": "Meddelande 3: kursen",
+     "headingEn": "Message 3: the course",
+     "audio": {
+      "id": "m3",
+      "title": "Meddelande 3",
+      "maxPlays": 2,
+      "speakers": {
+       "Sara": "f"
+      },
+      "script": [
+       {
+        "speaker": "Sara",
+        "text": "Hej, det är Sara på kursen. Jag ringer om schemat. Vi har ingen lektion den här veckan, för läraren är sjuk. Det är lite tråkigt, vi började ju bara för tre veckor sedan. Men nästa vecka kör vi igen, på tisdag och på torsdag som vanligt. Fast på torsdag börjar vi en timme senare, alltså klockan tio i stället för nio. Sen blir det uppehåll i två veckor, över jul. Efter det ses vi igen i början av januari. Tack, hej!"
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "h7",
+       "type": "short",
+       "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+       ],
+       "q": "När är nästa lektion?",
+       "qEn": "Next lesson?",
+       "answers": [
+        "tisdag",
+        "nästa vecka"
+       ],
+       "explain": "Ingen lektion den här veckan. Nästa vecka på tisdag och torsdag.",
+       "explainEn": "No lesson this week."
+      },
+      {
+       "id": "h8",
+       "type": "short",
+       "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+       ],
+       "q": "Vilken tid börjar lektionen på torsdag?",
+       "qEn": "What time on Thursday?",
+       "answers": [
+        "tio",
+        "10"
+       ],
+       "explain": "En timme senare: klockan tio, inte nio.",
+       "explainEn": "One hour later: ten, not nine."
+      },
+      {
+       "id": "h9",
+       "type": "short",
+       "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+       ],
+       "q": "Hur länge är uppehållet?",
+       "qEn": "How long is the break?",
+       "answers": [
+        "två veckor",
+        "2 veckor",
+        "två"
+       ],
+       "explain": "Uppehåll i två veckor, över jul.",
+       "explainEn": "A break of two weeks over Christmas."
+      }
+     ],
+     "image": {
+      "src": "vecka-former.svg",
+      "alt": "Tre veckor i rader"
+     }
+    },
+    {
+     "heading": "Meddelande 4: hyresvärden",
+     "headingEn": "Message 4: the landlord",
+     "audio": {
+      "id": "m4",
+      "title": "Meddelande 4",
+      "maxPlays": 2,
+      "speakers": {
+       "Mikael": "m"
+      },
+      "script": [
+       {
+        "speaker": "Mikael",
+        "text": "Hej, det är Mikael från hyresvärden. Du ville att jag skulle titta på fönstret i köket. Alltså, i dag är det tisdag, och jag har inte tid. I morgon är jag i Göteborg hela dagen. Men i övermorgon fungerar det bra. Jag tänkte komma efter lunch, kanske runt kvart över ett. Eller nej, jag har ett möte till klockan två, så säg halv tre. Ja, halv tre. Ring mig om det är ett problem, annars ses vi då. Hej så länge!"
+       }
+      ],
+      "noise": {
+       "sound": "car",
+       "level": 0.3
+      }
+     },
+     "items": [
+      {
+       "id": "h10",
+       "type": "short",
+       "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+       ],
+       "q": "Vilken dag kommer Mikael?",
+       "qEn": "Which day?",
+       "answers": [
+        "torsdag"
+       ],
+       "explain": "I dag är tisdag. I morgon = onsdag, i övermorgon = torsdag.",
+       "explainEn": "Today Tuesday, tomorrow Wednesday, i övermorgon Thursday."
+      },
+      {
+       "id": "h11",
+       "type": "short",
+       "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+       ],
+       "q": "Vilken tid kommer han?",
+       "qEn": "What time?",
+       "answers": [
+        "halv tre",
+        "14.30",
+        "2.30",
+        "14:30",
+        "2:30",
+        "14,30"
+       ],
+       "explain": "Han ändrar kvart över ett till halv tre (2.30).",
+       "explainEn": "He changes quarter past one to half past two."
+      },
+      {
+       "id": "h12",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "hör.kortsvar"
+       ],
+       "q": "Varför kan han inte komma i morgon?",
+       "qEn": "Why not tomorrow?",
+       "answers": [
+        "göteborg",
+        "goteborg"
+       ],
+       "explain": "Han är i Göteborg hela dagen.",
+       "explainEn": "He is in Gothenburg all day."
+      }
+     ],
+     "image": {
+      "src": "vecka-dagar.svg",
+      "alt": "Veckostrip med dagar"
+     }
+    }
+   ]
+  }
+ ]
+}
