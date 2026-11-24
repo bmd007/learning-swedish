@@ -330,3 +330,10 @@
 - Overall A2 (not yet B1): interaction good (asks back, self-corrects), Del 2 A ok (time wrong), Del 2 B weak (task unclear, needed help), Del 3 reason unclear.
 - Errors: question word order (*hur man kan boka*), inversion after nu/ibland, bisats adverb, word forms (vaknar, kvällar, anmäla sig, henne, dit).
 - **Next step:** lesson for Del 2 B (tips → questions, verb second, new ads, speak + model), then mock Prompt 2. Still pending: 054, 053.
+
+## 2026-11-24 – Lesson 055: fråga om en annons (Muntligt Del 2 B)
+
+- Built from the mock oral: hidden ad + tips box → questions. Info (how Del 2 B works, verb second, chunks), 8 typed
+  tip→question, 3 mcq + 4 order (direct question vs "Jag undrar hur man bokar"), canoe-rental dialogue (4 items),
+  3 speak items with hidden ads. Audio ok 0–3 %.
+- **Next step:** learner does 054 → 055 → 053; grade; then mock Prompt 2 (voice, Claude mobile).
