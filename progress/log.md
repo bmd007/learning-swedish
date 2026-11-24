@@ -343,3 +343,9 @@
 - Del 1 A2+/B1-, Del 2 B1-. Overall clear A2 pass, near B1. Big gain since 002: letter frame right, tense switching good, pluperfect used.
 - Problems: klockan + 14.00 read as 4; inversion after därför; -de past (titta), för att, ett tåg; word choice (hämta/lämna, ta hand om). Too long again.
 - **Next step:** 054 → 055 → 053 (053 covers klockan/times). Writing: next time aim at the word count and spend 5 min re-reading for en/ett, -de, verb 2nd.
+
+## 2026-11-24 – Lesson 056: bindeord och ordföljd
+
+- Learner asked for the connector table as a card + typed sentences. Evidence: därför + wrong order (009, 041, 026), "för hälsa på" (026).
+- 2 info cards with SVG (4 groups; därför vs därför att), 4 mcq, 12 typed (gap + order; inversion with inte, bisats with inte, så, för att + infinitive). No audio.
+- **Next step:** unchanged (054 → 055 → 053, then 056 as a reference/review).

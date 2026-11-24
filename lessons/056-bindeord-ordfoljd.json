@@ -1,0 +1,382 @@
+{
+ "id": "056-bindeord-ordfoljd",
+ "title": "Bindeord: vad kommer efter?",
+ "titleEn": "Connectors: what comes next?",
+ "mode": "practice",
+ "minutes": 10,
+ "intro": "Du skriver ofta *därför jag gick* eller *för hälsa på*. Orsaken: bindeord hör till olika grupper. Här är tabellen som ett kort, sedan skriver du tio meningar.",
+ "introEn": "You often write 'därför jag gick' or 'för hälsa på'. The cause: connectors belong to different groups. Here is the table as a card, then you type ten sentences.",
+ "sections": [
+  {
+   "id": "kort",
+   "title": "Tabellen",
+   "titleEn": "The table",
+   "instructions": "Läs kortet. Kom tillbaka hit när du är osäker.",
+   "instructionsEn": "Read the card. Come back when unsure.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "image": {
+      "src": "tabell.svg",
+      "alt": "Fyra grupper av bindeord och vad som kommer efter"
+     },
+     "md": "**1. Verbet direkt efter** (ordet står på plats 1, sedan verb, sedan subjekt)\n\n*därför, sedan / sen, då, nu, dessutom, ändå, tyvärr, alltså, i dag, i morgon*\n\n*Jag hade ont, **därför gick jag** till tandläkaren. – Vi åt, **sedan gick vi** hem.*\n\n**2. Vanlig ordning** (de är bara lim, de tar ingen plats)\n\n*och, men, eller, så, för* (för = eftersom)\n\n*Jag hade ont, **så jag gick** till tandläkaren. – Jag vill, **men jag har** inte tid.*\n\n**3. Bisats** (subjekt, sedan inte / alltid / kanske, sedan verb)\n\n*att, eftersom, därför att, för att (orsak), när, om, innan, efter att, medan, fast, även om, som, så att*\n\n*Jag stannar hemma, **eftersom jag inte har** tid.*\n\n**4. Syfte: för att + infinitiv** (inget subjekt)\n\n*Jag åker till Malmö **för att hälsa** på mormor.*"
+    },
+    {
+     "id": "i2",
+     "type": "info",
+     "image": {
+      "src": "vaxel.svg",
+      "alt": "därför: verb direkt efter. därför att: bisats."
+     },
+     "md": "**Nyckeln: *därför* eller *därför att*. Ordet *att* är växeln.**\n\n- *Jag hade ont, **därför gick jag** …* (grupp 1: verbet kommer direkt)\n- *Jag gick, **därför att jag hade** ont.* (grupp 3: bisats)\n\n**Snabbtest:** Står ordet först i meningen och drar verbet efter sig (*Därför gick jag …*)? Då grupp 1.\n\n**Säkra val i prov:** *eftersom* (orsak) och *så* (resultat). Jag stannade hemma **eftersom** jag var sjuk. Jag var sjuk, **så** jag stannade hemma.\n\n**Ankare:** *därför* = به همین دلیل / that's why. *eftersom* = چون / because. *för att* + infinitiv = برای اینکه / in order to. *så* = پس / so.\n\nDin egen mening är rätt: *Jag åkte till Iran **för att jag hade** ett möte.* Här är *för att* = orsak (eftersom), så det blir en bisats. I tal säger många *för att* = because. Skriv hellre *eftersom*."
+    }
+   ]
+  },
+  {
+   "id": "grupp",
+   "title": "Vilken grupp?",
+   "titleEn": "Which group?",
+   "instructions": "Välj rätt.",
+   "instructionsEn": "Choose.",
+   "items": [
+    {
+     "id": "m1",
+     "type": "mcq",
+     "tags": [
+      "ordföljd.inversion",
+      "bindeord"
+     ],
+     "q": "Efter *därför* i början av en mening kommer …",
+     "options": [
+      "subjekt + verb: *därför jag gick*",
+      "verb + subjekt: *därför gick jag*",
+      "bara infinitiv: *därför gå*"
+     ],
+     "answer": 1,
+     "qEn": "After därför at the start of a clause, what comes?",
+     "explain": "Därför är grupp 1: verbet direkt efter.",
+     "explainEn": "Därför = group 1: verb right after."
+    },
+    {
+     "id": "m2",
+     "type": "mcq",
+     "tags": [
+      "ordföljd.inversion",
+      "bindeord"
+     ],
+     "q": "Vilken mening är rätt?",
+     "options": [
+      "Jag var trött, därför gick jag hem.",
+      "Jag var trött, därför jag gick hem.",
+      "Jag var trött, därför att gick jag hem."
+     ],
+     "answer": 0,
+     "qEn": "Which sentence is correct?",
+     "explain": "Därför + verb + subjekt. *Därför att* kräver bisats.",
+     "explainEn": "därför + verb + subject. därför att needs a subordinate clause."
+    },
+    {
+     "id": "m3",
+     "type": "mcq",
+     "tags": [
+      "bindeord"
+     ],
+     "q": "Vilket ord startar en bisats?",
+     "options": [
+      "så",
+      "men",
+      "eftersom",
+      "sedan"
+     ],
+     "answer": 2,
+     "qEn": "Which word starts a subordinate clause?",
+     "explain": "Eftersom är grupp 3. Så och men är lim, sedan är grupp 1.",
+     "explainEn": "eftersom = group 3. så/men = glue, sedan = group 1."
+    },
+    {
+     "id": "m4",
+     "type": "mcq",
+     "tags": [
+      "bindeord"
+     ],
+     "q": "*Jag åkte till Iran för att jag hade ett möte.* Vad betyder *för att* här?",
+     "options": [
+      "syfte (för att göra något)",
+      "orsak (eftersom)",
+      "resultat (så)"
+     ],
+     "answer": 1,
+     "qEn": "What does för att mean here?",
+     "explain": "Efter *för att* kommer subjekt + verb (*jag hade*). Då är det orsak. Syfte har infinitiv: *för att träffa*.",
+     "explainEn": "After för att comes a subject + verb, so reason. Purpose takes an infinitive."
+    }
+   ]
+  },
+  {
+   "id": "skriv",
+   "title": "Skriv meningen",
+   "titleEn": "Write the sentence",
+   "instructions": "Skriv ordet eller sätt orden i ordning. Tänk: vilken grupp?",
+   "instructionsEn": "Type the word or order the words. Which group?",
+   "items": [
+    {
+     "id": "o1",
+     "type": "order",
+     "tags": [
+      "ordföljd.inversion",
+      "bindeord"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "till",
+      "tandläkaren",
+      "ont",
+      "gick",
+      "Jag",
+      "därför",
+      "hade",
+      "jag"
+     ],
+     "answers": [
+      "Jag hade ont därför gick jag till tandläkaren"
+     ],
+     "qEn": "I had pain, that's why I went to the dentist.",
+     "explain": "Därför + verb (gick) + subjekt (jag).",
+     "explainEn": "därför + verb + subject."
+    },
+    {
+     "id": "g1",
+     "type": "gap",
+     "tags": [
+      "ordföljd.bisats",
+      "bindeord"
+     ],
+     "q": "Jag kan inte komma, ___ jag inte har tid.",
+     "base": "orsak, bisats",
+     "answers": [
+      "eftersom"
+     ],
+     "qEn": "I can't come because I have no time.",
+     "explain": "Eftersom är en bisats: jag + inte + har.",
+     "explainEn": "eftersom: subordinate clause."
+    },
+    {
+     "id": "o2",
+     "type": "order",
+     "tags": [
+      "ordföljd.inversion",
+      "bindeord"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "är",
+      "tar",
+      "jag",
+      "rummet",
+      "Det",
+      "det",
+      "bästa",
+      "det",
+      "därför"
+     ],
+     "answers": [
+      "Det är det bästa rummet därför tar jag det"
+     ],
+     "qEn": "It is the best room, so I take it.",
+     "explain": "Därför + tar + jag. Verbet kommer före subjektet.",
+     "explainEn": "därför + verb + subject."
+    },
+    {
+     "id": "o3",
+     "type": "order",
+     "tags": [
+      "ordföljd.bisats",
+      "bindeord"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "har",
+      "tid",
+      "hemma",
+      "jag",
+      "Jag",
+      "eftersom",
+      "är",
+      "inte"
+     ],
+     "answers": [
+      "Jag är hemma eftersom jag inte har tid"
+     ],
+     "qEn": "I'm home because I have no time.",
+     "explain": "I bisatsen: subjekt, inte, verb.",
+     "explainEn": "In the clause: subject, inte, verb."
+    },
+    {
+     "id": "g2",
+     "type": "gap",
+     "tags": [
+      "bindeord"
+     ],
+     "q": "Jag hade ont, ___ jag gick till tandläkaren.",
+     "base": "resultat",
+     "answers": [
+      "så"
+     ],
+     "qEn": "I had pain, so I went to the dentist.",
+     "explain": "Så är lim: jag gick (vanlig ordning).",
+     "explainEn": "så = glue, normal order."
+    },
+    {
+     "id": "o4",
+     "type": "order",
+     "tags": [
+      "ordföljd.inversion",
+      "bindeord"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "har",
+      "ljust",
+      "litet",
+      "så",
+      "inte",
+      "fönster",
+      "det",
+      "Rummet",
+      "är",
+      "ett",
+      "därför"
+     ],
+     "answers": [
+      "Rummet har ett litet fönster därför är det inte så ljust"
+     ],
+     "qEn": "The room has a small window, so it is not so bright.",
+     "explain": "Därför + är + det + inte. Subjektet *det* får inte saknas.",
+     "explainEn": "därför + verb + subject (det) + inte."
+    },
+    {
+     "id": "g3",
+     "type": "gap",
+     "tags": [
+      "bindeord"
+     ],
+     "q": "Jag åker till Malmö ___ hälsa på mormor.",
+     "base": "syfte",
+     "answers": [
+      "för att"
+     ],
+     "qEn": "I'm going to Malmö to visit grandmother.",
+     "explain": "Syfte: *för att* + infinitiv. Inget subjekt.",
+     "explainEn": "Purpose: för att + infinitive."
+    },
+    {
+     "id": "o5",
+     "type": "order",
+     "tags": [
+      "ordföljd.inversion",
+      "bindeord"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "har",
+      "inte",
+      "på",
+      "kommer",
+      "Jag",
+      "festen",
+      "därför",
+      "ont",
+      "jag"
+     ],
+     "answers": [
+      "Jag har ont därför kommer jag inte på festen"
+     ],
+     "qEn": "I'm in pain, so I'm not coming to the party.",
+     "explain": "Därför + kommer + jag + inte. Inte kommer efter subjektet.",
+     "explainEn": "därför + verb + subject + inte."
+    },
+    {
+     "id": "g4",
+     "type": "gap",
+     "tags": [
+      "bindeord"
+     ],
+     "q": "Han ringer för att ___ en tid.",
+     "base": "boka",
+     "answers": [
+      "boka"
+     ],
+     "qEn": "He calls to book an appointment.",
+     "explain": "Efter *för att* (syfte) kommer infinitiv: boka.",
+     "explainEn": "After för att (purpose): infinitive."
+    },
+    {
+     "id": "o6",
+     "type": "order",
+     "tags": [
+      "ordföljd.inversion",
+      "bindeord"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "vi",
+      "hem",
+      "gick",
+      "Vi",
+      "sedan",
+      "åt",
+      "middag"
+     ],
+     "answers": [
+      "Vi åt middag sedan gick vi hem"
+     ],
+     "qEn": "We had dinner, then we went home.",
+     "explain": "Sedan hör till grupp 1: gick vi.",
+     "explainEn": "sedan = group 1: gick vi."
+    },
+    {
+     "id": "o7",
+     "type": "order",
+     "tags": [
+      "bindeord"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "inte",
+      "tid",
+      "komma",
+      "jag",
+      "Jag",
+      "men",
+      "vill",
+      "har"
+     ],
+     "answers": [
+      "Jag vill komma men jag har inte tid"
+     ],
+     "qEn": "I want to come but I have no time.",
+     "explain": "Men är lim: jag har inte (vanlig ordning).",
+     "explainEn": "men = glue: normal order."
+    },
+    {
+     "id": "g5",
+     "type": "gap",
+     "tags": [
+      "ordföljd.inversion",
+      "bindeord"
+     ],
+     "q": "Jag var trött. ___ gick jag hem tidigt.",
+     "base": "that's why",
+     "answers": [
+      "därför"
+     ],
+     "qEn": "I was tired. That's why I went home early.",
+     "explain": "Därför + gick + jag. Verbet direkt efter.",
+     "explainEn": "därför + verb + subject."
+    }
+   ]
+  }
+ ]
+}
