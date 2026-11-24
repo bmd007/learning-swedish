@@ -44,7 +44,8 @@ Note: Del 3 has the same topic as Del 5 in the new A2B1 sample test. So your res
 
 ## q2: the map (draw)
 - What I see: one small red loop at the bottom, near the middle. No line from Stockholm, no bridge, no café, no cows. The route is not drawn.
-- Score: 0. Maybe the drawing tool did not work, or you ran out of time (Del 1 took 11 min). Tell me which.
+- Score: 0. Cause (learner, 2026-11-24): you thought you should only mark the destination. The task said *Rita vägen* = draw the route. The loop is next to the house below the cows, so you probably understood the audio; the task form was missed.
+- Rule: before the audio starts, read the question word and the task verb: *rita vägen* (draw the way), *svara med 1–5 ord*, *två rubriker för mycket*.
 - The route was: from **Stockholm** past the **school** (on the right) → **right** over the bridge (not past the church) → **left** past the **café** → **first road right** (not to the badplats) → farms on both sides, **cows on the left** → after the cows **left** → the **first house on the right**.
 - Hook for directions: write only arrows while you listen: → ← → ← ← . Words to catch: *höger, vänster, förbi, första vägen, efter*.
 
