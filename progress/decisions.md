@@ -181,3 +181,8 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   Not a Swedish problem. 028 showed it: "35 på torsdag" → wrote "1935"; missed "i övermorgon" (trap: "i morgon" first).
 - → Teach date/time words with many short spaced repetitions in context (phone messages, appointments, "när?"
   questions), not one list. Recycle them in later listening lessons. Learner's own note: mahdi-s-thoughs.md.
+
+## 2026-11-24 – Superfluent as speaking examiner
+- Learner uses the Superfluent app (speaking AI tutor, Swedish supported; custom scenario / free chat per user
+  reviews) as a Swedex A2B1 oral examiner. Prompts: docs/superfluent-tala-swedex.md (3 full mocks, own ads).
+  App mishears numbers/web addresses. Learner sends back the app's feedback → add to errors.md.
