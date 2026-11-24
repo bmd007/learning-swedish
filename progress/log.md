@@ -317,3 +317,9 @@
 - Note: del 3 has the same topic as new sample del 5 → the learner's del 5 result is inflated.
 - q14b key unverifiable (transcript page missing in PDF); q12b key debatable.
 - **Next step:** short spaced date/time listening in context (weekdays, i morgon/i övermorgon, vecka forms, "efter klockan fyra", answer the *när* question with a day), plus Rätt/Fel with close wording and route listening with arrows; check why q2 map failed (tool or time).
+
+## 2026-11-24 – Graded 052 (min/mitt/mina, er/ert/era)
+
+- Gaps 8/8. Listening 2/3 auto, 3/3 after check (l2 *skyras* = Shiraz, accepted). 7 min.
+- Learner: TTS pronounces Persian names badly. Possessive agreement is solid in gaps.
+- **Next step:** do lesson 054 (sin/sitt/sina vs hans/hennes/deras), then date/time listening review from the 028 grade.

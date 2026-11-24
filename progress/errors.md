@@ -46,3 +46,4 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `hör.vägbeskrivning` (028 q2 draw) – only a small red scribble, no route drawn (0). Cause unknown (tool or time; del 1 took 11 min).
 - `stavning` (028) – *bottur* for båttur (accepted), *klokan* for klockan.
 - `instruktion` (läsa uppgiften) – 028 q2: *Rita vägen på kartan* → only circled the destination (thought: point to it). Same family as 025 q9/q11 (answered the wrong kind of thing). Learner: "another case of me not reading the question properly". Habit: read question word + task verb before the audio.
+- `hör.detalj` (052 l2) – wrote *skyras* for Shiraz (heard the city right, spelled by ear; accepted). Learner: TTS says Persian names badly. `pronomen.possessiv` 8/8 gaps, no errors.

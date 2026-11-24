@@ -1,0 +1,177 @@
+{
+  "lessonId": "052-pronomen-min-din-er",
+  "attemptId": "2026-11-24T13-32-07-647Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-24T13:32:08.623Z",
+  "finishedAt": "2026-11-24T13:39:31.950Z",
+  "durationMin": 7,
+  "currentSection": null,
+  "sectionMinutes": {
+    "monster": 4.2,
+    "fraser": 1.3,
+    "lyssna": 1.8,
+    "sammanfattning": 0
+  },
+  "audioPlays": {
+    "d1": 2
+  },
+  "firstTry": {
+    "g7": true,
+    "l3": true,
+    "l2": false
+  },
+  "flags": [],
+  "score": {
+    "fraser": {
+      "correct": 8,
+      "total": 8
+    },
+    "lyssna": {
+      "correct": 2,
+      "total": 3
+    }
+  },
+  "items": [
+    {
+      "id": "g1",
+      "section": "fraser",
+      "type": "gap",
+      "tags": [
+        "pronomen.possessiv"
+      ],
+      "prompt": "___ namn är Ali.",
+      "given": "Mitt",
+      "expected": "mitt",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "fraser",
+      "type": "gap",
+      "tags": [
+        "pronomen.possessiv"
+      ],
+      "prompt": "Det här är ___ familj.",
+      "given": "min",
+      "expected": "min",
+      "correct": true
+    },
+    {
+      "id": "g3",
+      "section": "fraser",
+      "type": "gap",
+      "tags": [
+        "pronomen.possessiv"
+      ],
+      "prompt": "Jag har två barn. ___ barn heter Mia och Noa.",
+      "given": "mina",
+      "expected": "mina",
+      "correct": true
+    },
+    {
+      "id": "g4",
+      "section": "fraser",
+      "type": "gap",
+      "tags": [
+        "pronomen.possessiv"
+      ],
+      "prompt": "Vi har trevliga grannar. ___ grannar heter Eriksson.",
+      "given": "våra",
+      "expected": "våra",
+      "correct": true
+    },
+    {
+      "id": "g5",
+      "section": "fraser",
+      "type": "gap",
+      "tags": [
+        "pronomen.possessiv"
+      ],
+      "prompt": "Är det ___ hus, Lisa och Per?",
+      "given": "ert",
+      "expected": "ert",
+      "correct": true
+    },
+    {
+      "id": "g6",
+      "section": "fraser",
+      "type": "gap",
+      "tags": [
+        "pronomen.possessiv"
+      ],
+      "prompt": "Peter har en ny bil. ___ bil är röd.",
+      "given": "hans",
+      "expected": "hans",
+      "correct": true
+    },
+    {
+      "id": "g7",
+      "section": "fraser",
+      "type": "gap",
+      "tags": [
+        "pronomen.possessiv"
+      ],
+      "prompt": "Det här är Maria. ___ mamma bor i Umeå.",
+      "given": "hennes",
+      "expected": "hennes",
+      "correct": true
+    },
+    {
+      "id": "g8",
+      "section": "fraser",
+      "type": "gap",
+      "tags": [
+        "pronomen.possessiv"
+      ],
+      "prompt": "Har du ___ pass med dig?",
+      "given": "ditt",
+      "expected": "ditt",
+      "correct": true
+    },
+    {
+      "id": "l1",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "pronomen.possessiv"
+      ],
+      "prompt": "Hur gammal är Amirs dotter?",
+      "given": "8",
+      "expected": "åtta",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "l2",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "pronomen.possessiv"
+      ],
+      "prompt": "Var bor Amirs mamma?",
+      "given": "skyras (the sounds was so bad here, don't use Persian names that are tough for the machine to generate a voice for)",
+      "expected": "shiraz",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "l3",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "pronomen.possessiv"
+      ],
+      "prompt": "Vem hälsar på Lenas föräldrar varje helg?",
+      "given": "dotter",
+      "expected": "dotter",
+      "correct": true,
+      "teacherCheck": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-24T14:39:31"
+}

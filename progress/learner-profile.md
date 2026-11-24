@@ -43,3 +43,5 @@
 ## Attention (2026-11-18, self-reported)
 - Lower attention span lately: skips the end of questions; reads a Swedish word as a look-alike English word.
 - Train: full-question reading + key words, false-friends drill, short focus sprints, final check pass.
+
+- (052, 2026-11-24) min/mitt/mina + er/ert/era: gaps 8/8, listening 3/3 after teacher check (l2 Shiraz spelled *skyras*, accepted). Possessive agreement with the noun is now solid in gaps; still check in free speech. 7 min.
