@@ -308,3 +308,12 @@
 - Learner: pronoun tables feel like "random sounds"; "I can read them so I don't care about how they sound".
   → 050 objekt (mig/dig/honom…), 051 sig, 052 min/mitt/mina + er/ert/era. Anchored 1:1 to English (me/him/my…),
   pattern + chunks first, table only at the end. Typed gaps (8) + short dialogue. Audio ok 0–1 %.
+
+## 2026-11-24 – Graded 028 (old Swedex B1 hörprov, exam mode, 39 min)
+
+- 18/26 (~low B1; B1 ≈ 17/26, no official limit, key by Claude). Del1 2/3, del2 4/6, del3 9/12, del4 3/5 (q20 båttur accepted).
+- Problems: (1) date/time answers (q16 torsdag→1935, q18 i övermorgon missing; known slow area); (2) Rätt/Fel with close wording
+  (flytta/resa, stor fest/ofta fest); (3) q8/q9 matching shifted one letter; q2 map: only a scribble, no route (0).
+- Note: del 3 has the same topic as new sample del 5 → the learner's del 5 result is inflated.
+- q14b key unverifiable (transcript page missing in PDF); q12b key debatable.
+- **Next step:** short spaced date/time listening in context (weekdays, i morgon/i övermorgon, vecka forms, "efter klockan fyra", answer the *när* question with a day), plus Rätt/Fel with close wording and route listening with arrows; check why q2 map failed (tool or time).

@@ -2,44 +2,61 @@
 
 | tag | wrong/seen | error rate | latest wrong examples |
 |---|---|---|---|
-| `substantiv.plural` | 4/4 | 100% | 003-former-och-ord/f5: 'fötter' → 'fötter'; 013-adjektiv-kongruens/g10: 'kroner' → 'kronor'; 001-diagnos/g11: 'bokar' → 'böcker' |
+| `substantiv.plural` | 4/4 | 100% | 003-former-och-ord/f4: 'böcker' → 'böcker'; 003-former-och-ord/f5: 'fötter' → 'fötter'; 013-adjektiv-kongruens/g10: 'kroner' → 'kronor' |
 | `verb.reflexiv` | 1/1 | 100% | 001-diagnos/g17: 'tvätta sig om händerna' → 'tvätta sig' |
+| `ordförråd.produktion` | 7/8 | 88% | 047-ordkoll-skriv-ordet/p6: 't?' → 'tröttnade'; 047-ordkoll-skriv-ordet/p8: 'orka' → 'orkar'; 047-ordkoll-skriv-ordet/p9: 's' → 'ställer' |
 | `adjektiv.bestämd` | 3/4 | 75% | 009-vardagsadjektiv/g3: 'gamla' → 'gamla'; 013-adjektiv-kongruens/g7: 'gammlat' → 'gamla'; 013-adjektiv-kongruens/c5: 'sämsta' → 'sämsta' |
-| `preposition` | 2/3 | 67% | 003-former-och-ord/p1: 'av' → 'av'; 001-diagnos/g13: 'på' → 'av' |
-| `verb.preteritum` | 10/17 | 59% | 011-signalord-verbform/g5: 'sa' → 'sa'; 001-diagnos/g8: 'skrave' → 'skrev'; 001-diagnos/g10: 'bode' → 'bodde' |
-| `adjektiv.komparation` | 10/18 | 56% | 013-adjektiv-kongruens/c5: 'sämsta' → 'sämsta'; 013-adjektiv-kongruens/h3: 'Badrummet' → 'Köket'; 001-diagnos/g7: 'stortare' → 'större' |
-| `ord.synonym` | 5/9 | 56% | 001-diagnos/o2: 'Hon fick högre lön.' → 'Hon förlorade sitt jobb.'; 001-diagnos/o3: 'ofta' → 'troligen'; 001-diagnos/o4: 'Jag måste boka en ny tid.' → 'Jag måste säga att jag inte kommer.' |
-| `verb.supinum` | 8/16 | 50% | 008-vardagsverb/g8: 'förstår' → 'förstått'; 011-signalord-verbform/g1: 'sett' → 'sett'; 001-diagnos/g9: 'ät' → 'ätit' |
+| `ordförråd.rivstart.k1` | 4/6 | 67% | 047-ordkoll-skriv-ordet/p1: 'behöver inte' → 'slipper'; 047-ordkoll-skriv-ordet/p4: 'tyvig' → 'knappt'; 047-ordkoll-skriv-ordet/p8: 'orka' → 'orkar' |
+| `preposition` | 2/3 | 67% | 001-diagnos/g13: 'på' → 'av'; 003-former-och-ord/p1: 'av' → 'av' |
+| `tal.interaktion` | 2/3 | 67% | 029-modellsvar-presentation/m1: 'Hon pratar utan paus och tystnar sedan' → 'Hon ställer en fråga till testledaren'; 029-modellsvar-presentation/m2: 'Han frågar: 'Menar du svenska vänner?'' → 'Han frågar: 'Menar du svenska vänner?'' |
+| `ordförråd.rivstart.k2` | 3/5 | 60% | 043-ordkoll-b1/k2-5: 'inte längre tycka att något är roligt' → 'inte längre tycka att något är roligt'; 047-ordkoll-skriv-ordet/p6: 't?' → 'tröttnade'; 047-ordkoll-skriv-ordet/p9: 's' → 'ställer' |
+| `verb.preteritum` | 11/19 | 58% | 011-signalord-verbform/g2: 'förstod' → 'förstod'; 011-signalord-verbform/g5: 'sa' → 'sa'; 029-modellsvar-presentation/g2: 'vinnade' → 'vann' |
+| `adjektiv.komparation` | 10/18 | 56% | 013-adjektiv-kongruens/c4: 'äldre' → 'äldre'; 013-adjektiv-kongruens/c5: 'sämsta' → 'sämsta'; 013-adjektiv-kongruens/h3: 'Badrummet' → 'Köket' |
+| `ord.synonym` | 5/9 | 56% | 001-diagnos/o3: 'ofta' → 'troligen'; 001-diagnos/o4: 'Jag måste boka en ny tid.' → 'Jag måste säga att jag inte kommer.'; 003-former-och-ord/w1: 'tvungen' → 'tvungen' |
+| `verb.supinum` | 8/16 | 50% | 008-vardagsverb/g6: 'set' → 'sett'; 008-vardagsverb/g8: 'förstår' → 'förstått'; 011-signalord-verbform/g1: 'sett' → 'sett' |
+| `ordförråd.rivstart.k9` | 3/6 | 50% | 043-ordkoll-b1/k9-31: 'visa något som var hemligt' → 'visa något som var hemligt'; 043-ordkoll-b1/k9-32: 'få någon att vänta' → 'få någon att tro eller hålla med'; 043-ordkoll-b1/k9-34: 'som man tror kan ha gjort ett brott' → 'som man tror kan ha gjort ett brott' |
 | `pronomen.sin` | 2/4 | 50% | 013-adjektiv-kongruens/g6: 'min' → 'mitt'; 013-adjektiv-kongruens/g9: 'Men det' → 'det' |
-| `hör.detalj` | 13/33 | 39% | 025-horprov-swedex/q25: 'Falskt' → 'Sant'; 025-horprov-swedex/q27: 'Sant' → 'Falskt'; 001-diagnos/h8: 'Personal på trafikbolaget.' → 'Ungdomar och pensionärer.' |
+| `ordförråd.rivstart.k6` | 1/2 | 50% | 043-ordkoll-b1/k6-17: 'utan att det spelar någon roll' → 'utan att det spelar någon roll' |
+| `hör.tid` | 4/9 | 44% | 025-horprov-swedex/q18: 'önsdag' → 'onsdag'; 028-swedex-b1-gammalt-horprov/q16: '1935' → 'torsdag'; 028-swedex-b1-gammalt-horprov/q18: 'efter klokan 4' → 'övermorgon' |
+| `verb.presens` | 3/7 | 43% | 008-vardagsverb/g3: 'försökar' → 'försöker'; 011-signalord-verbform/g3: 'försöker' → 'försöker'; 030-modellsvar-vardag/g1: 'pluggar' → 'pluggar' |
+| `ordföljd.inversion` | 4/10 | 40% | 011-signalord-verbform/o3: 'Igår åt också jag pizza' → 'Igår åt jag också pizza'; 029-modellsvar-presentation/g2: 'vinnade' → 'vann'; 030-modellsvar-vardag/g1: 'pluggar' → 'pluggar' |
 | `läs.synonym` | 6/16 | 38% | 021-lasprov-helt-rivstart/l24: '0 – ingen mening i texten' → '30'; 021-lasprov-helt-rivstart/l25: '0 – ingen mening i texten' → '5'; 021-lasprov-helt-rivstart/l28: '0 – ingen mening i texten' → '27' |
+| `ordförråd` | 16/43 | 37% | 047-ordkoll-skriv-ordet/p6: 't?' → 'tröttnade'; 047-ordkoll-skriv-ordet/p8: 'orka' → 'orkar'; 047-ordkoll-skriv-ordet/p9: 's' → 'ställer' |
 | `verb.signalord` | 4/11 | 36% | 011-signalord-verbform/g2: 'förstod' → 'förstod'; 011-signalord-verbform/g3: 'försöker' → 'försöker'; 011-signalord-verbform/g5: 'sa' → 'sa' |
+| `ordförråd.kollokation` | 19/57 | 33% | 041-adjektiv-hem-jobb-stad/f5: 'full' → 'fulla'; 041-adjektiv-hem-jobb-stad/h2: 'tät' → 'tät'; 041-adjektiv-hem-jobb-stad/h3: 'alltid full' → 'full' |
 | `adjektiv.ett-ord` | 4/12 | 33% | 009-vardagsadjektiv/g5: 'kallt' → 'kallt'; 013-adjektiv-kongruens/g2: 'nytt' → 'nya'; 013-adjektiv-kongruens/g6: 'min' → 'mitt' |
-| `verb.presens` | 2/6 | 33% | 008-vardagsverb/g3: 'försökar' → 'försöker'; 011-signalord-verbform/g3: 'försöker' → 'försöker' |
-| `ord.kollokation` | 1/3 | 33% | 001-diagnos/o5: 'letat' → 'sökt' |
+| `ordförråd.rivstart.k3` | 2/6 | 33% | 047-ordkoll-skriv-ordet/p2: 'nu' → 'nuförtiden'; 047-ordkoll-skriv-ordet/p5: 'r?' → 'riskerar' |
+| `ordförråd.rivstart.k7` | 2/6 | 33% | 043-ordkoll-b1/k7-19: 'känna att man gjort något pinsamt' → 'känna att man gjort något pinsamt'; 043-ordkoll-b1/k7-22: 'komma till en plats, ofta av en slump' → 'komma till en plats, ofta av en slump' |
 | `preposition.tid` | 1/3 | 33% | 001-diagnos/g14: 'sedan' → 'i' |
+| `ord.kollokation` | 1/3 | 33% | 001-diagnos/o5: 'letat' → 'sökt' |
 | `ord.tema.adjektiv` | 1/3 | 33% | 009-vardagsadjektiv/m2: 'C. upptagen' → 'C. upptagen' |
 | `ordföljd.också` | 1/3 | 33% | 011-signalord-verbform/o3: 'Igår åt också jag pizza' → 'Igår åt jag också pizza' |
 | `substantiv.en-ett` | 1/3 | 33% | 013-adjektiv-kongruens/g2: 'nytt' → 'nya' |
 | `läs.åsikt` | 1/3 | 33% | 017-las-prov-b/i3: 'Det är helt fel.' → 'Det stämmer bara vid vissa tider på dagen.' |
-| `hör.tid` | 2/7 | 29% | 008-vardagsverb/h3: 'pa lårdag' → 'lördag'; 025-horprov-swedex/q18: 'önsdag' → 'onsdag' |
-| `ordföljd.inversion` | 2/8 | 25% | 009-vardagsadjektiv/c5: 'Den här soffan är bättre än den gamla' → 'Den här soffan är bättre än den gamla'; 011-signalord-verbform/o3: 'Igår åt också jag pizza' → 'Igår åt jag också pizza' |
+| `tal.berätta` | 1/3 | 33% | 029-modellsvar-presentation/g2: 'vinnade' → 'vann' |
+| `ordförråd.rivstart.k5` | 1/3 | 33% | 043-ordkoll-b1/k5-14: 'ännu, som tidigare' → 'ännu, som tidigare' |
+| `hör.detalj` | 20/61 | 33% | 040-adjektiv-vader-mat/l1: 'kraftigt' → 'kraftigt'; 041-adjektiv-hem-jobb-stad/h2: 'tät' → 'tät'; 041-adjektiv-hem-jobb-stad/h3: 'alltid full' → 'full' |
+| `adjektiv.kongruens` | 5/18 | 28% | 040-adjektiv-vader-mat/g6: 'milt' → 'milt'; 041-adjektiv-hem-jobb-stad/f4: 'lungt' → 'lugnt'; 041-adjektiv-hem-jobb-stad/f5: 'full' → 'fulla' |
+| `hör.siffror` | 5/20 | 25% | 014-artal-och-tal/d2: '1480' → '1448'; 014-artal-och-tal/d3: '1804' → '1884'; 014-artal-och-tal/d7: 'skollan stänge 1829' → '1870' |
+| `hör.matcha` | 2/10 | 20% | 028-swedex-b1-gammalt-horprov/q8: 'G. Svenskarna har blivit tjockare' → 'F. Ljusare när man är ung'; 028-swedex-b1-gammalt-horprov/q9: 'H. Svenskarna motionerar mer' → 'G. Svenskarna har blivit tjockare' |
 | `ord.förväxling` | 1/5 | 20% | 001-diagnos/o6: 'komma ihåg' → 'påminna' |
-| `hör.siffror` | 1/7 | 14% | 013-adjektiv-kongruens/h2: '9000 kroner' → '8500' |
 | `läs.detalj` | 3/24 | 12% | 016-las-prov-a/j5: 'Ja' → 'Nej'; 017-las-prov-b/i4: 'Eleverna får använda mobilen bara på rasterna.' → 'Mobilerna läggs undan under lektionerna.'; 021-lasprov-helt-rivstart/l10: 'Nej' → 'Ja' |
 | `läs.janej` | 1/10 | 10% | 021-lasprov-helt-rivstart/l10: 'Nej' → 'Ja' |
 | `läs.slutsats` | 1/11 | 9% | 001-diagnos/l6: 'Hon blev uppsagd.' → 'Hennes arbete var för tungt för kroppen.' |
 | `läs.matcha` | 0/12 | 0% |  |
-| `ordföljd.bisats` | 0/4 | 0% |  |
+| `ordförråd.rivstart.k8` | 0/6 | 0% |  |
 | `läs.huvudtanke` | 0/4 | 0% |  |
-| `hör.matcha` | 0/4 | 0% |  |
+| `ordföljd.bisats` | 0/4 | 0% |  |
 | `hör.huvudtanke` | 0/3 | 0% |  |
+| `tal.fraser` | 0/3 | 0% |  |
+| `ordförråd.rivstart.k4` | 0/3 | 0% |  |
+| `hör.åsikt` | 0/2 | 0% |  |
 | `ordföljd.fråga` | 0/2 | 0% |  |
 | `adjektiv.plural` | 0/2 | 0% |  |
-| `hör.åsikt` | 0/2 | 0% |  |
-| `verb.modal` | 0/1 | 0% |  |
-| `tal.interaktion` | 0/1 | 0% |  |
-| `hör.slutsats` | 0/1 | 0% |  |
 | `bisats.om-att` | 0/1 | 0% |  |
 | `verb.passiv` | 0/1 | 0% |  |
 | `verb.partikel` | 0/1 | 0% |  |
+| `verb.modal` | 0/1 | 0% |  |
+| `hör.slutsats` | 0/1 | 0% |  |
+| `konjunktion` | 0/1 | 0% |  |
+| `verb.futurum` | 0/1 | 0% |  |

@@ -40,3 +40,8 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `substantiv.genus` (041 speak) – *en lugn område*, *en fönster*, *många vägen* (vägar), *mycket små* for one flat.
 - `ordföljd.subjekt` (041 speak) – *därför är inte så ljus* (subject den missing). Self-corrected *när behöver jag* → *när jag behöver*.
 - `ordförråd.rivstart` (043) – 34/36, 26/36 first try. Unknown: knappt, tröttna, fortfarande, tvungen, oavsett, skämmas, hamna, avslöja, övertyga, misstänkt. Ch. 7–9 almost as good as 1–6.
+- `hör.tid` (028, old Swedex hörprov) – q16 'fyller 35 på torsdag' → wrote 1935 (answered age, not day, question *när*); q18 'i övermorgon efter kl. 4' → 'efter klokan 4' (no day; trap 'i morgon' said first; spelling klockan). Learner: date/time words are slow in every language.
+- `hör.detalj` (028 del 3) – Rätt/Fel close-wording: q10a R for 'flytta till ett varmt land' (said resa), q12b R for 'en stor fest' (said fest ofta), q14b R for 'mycket saker' (key Fel, not verifiable: transcript page missing). 9/12.
+- `hör.matcha` (028 del 2) – q8 (voice, answer F) and q9 (weight, answer G) both wrong, shifted one letter (chose G, H). Possible mix-up of clip order. q4–q7 all right.
+- `hör.vägbeskrivning` (028 q2 draw) – only a small red scribble, no route drawn (0). Cause unknown (tool or time; del 1 took 11 min).
+- `stavning` (028) – *bottur* for båttur (accepted), *klokan* for klockan.
