@@ -281,3 +281,4 @@ mark.hl { background: #ffe066; color: #1f2328; border-radius: 2px; padding: 0 1p
 .guide th { background: var(--accent-soft); }
 .guide h2 { margin-top: 28px; border-bottom: 2px solid var(--yellow); padding-bottom: 4px; }
 .guide hr { border: 0; border-top: 1px solid var(--line); margin: 24px 0; }
+.md p, .md li { unicode-bidi: plaintext; }

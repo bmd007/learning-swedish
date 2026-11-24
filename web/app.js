@@ -626,7 +626,7 @@ async function openLesson(id) {
       wrap.querySelector("input").oninput = e => set(e.target.value);
     } else if (item.type === "gap") {
       const [before, after] = item.q.split("___");
-      wrap.innerHTML = `<div class="q"><span class="qnum">${num}</span>${esc(before)}<input class="gap" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(cur ?? "")}">${esc(after ?? "")}${item.base ? ` <span class="base">(${esc(item.base)})</span>` : ""}</div>${qEn}`;
+      wrap.innerHTML = `<div class="q"><span class="qnum">${num}</span>${esc(before)}<input class="gap" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(cur ?? "")}">${esc(after ?? "")}${item.base ? ` <span class="base">${item.base.startsWith("(") ? esc(item.base) : `(${esc(item.base)})`}</span>` : ""}</div>${qEn}`;
       wrap.querySelector("input").oninput = e => set(e.target.value);
     } else if (item.type === "order") {
       wrap.innerHTML = `${q}<div class="chips built"></div><div class="chips pool"></div>
