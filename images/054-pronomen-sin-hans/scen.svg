@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300"><rect width="600" height="300" fill="#ffffff"/>
+<text x="300" y="30" font-size="22" fill="#222" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">Två män, två bilar</text>
+<circle cx="60" cy="60" r="14" fill="#fde9c9" stroke="#1a5fb4" stroke-width="2"/><line x1="60" y1="74" x2="60" y2="115" stroke="#1a5fb4" stroke-width="4"/><line x1="60" y1="115" x2="46" y2="145" stroke="#1a5fb4" stroke-width="4"/><line x1="60" y1="115" x2="74" y2="145" stroke="#1a5fb4" stroke-width="4"/><line x1="38" y1="92" x2="82" y2="92" stroke="#1a5fb4" stroke-width="4"/>
+<text x="60" y="168" font-size="18" fill="#1a5fb4" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">Erik</text>
+<rect x="120" y="114" width="90" height="26" rx="6" fill="#1a5fb4"/><rect x="140" y="100" width="50" height="20" rx="6" fill="#1a5fb4"/><circle cx="142" cy="142" r="9" fill="#333"/><circle cx="188" cy="142" r="9" fill="#333"/>
+<text x="165" y="90" font-size="14" fill="#1a5fb4" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">Eriks bil</text>
+<text x="350" y="98" font-size="24" fill="#1a5fb4" text-anchor="start" font-family="system-ui, sans-serif" font-weight="bold">Erik tar sin bil.</text>
+<text x="350" y="124" font-size="16" fill="#555" text-anchor="start" font-family="system-ui, sans-serif" font-weight="bold">= sin: Eriks egen bil</text>
+<line x1="20" y1="180" x2="580" y2="180" stroke="#ddd" stroke-width="2"/>
+<circle cx="60" cy="185" r="14" fill="#fde9c9" stroke="#1a5fb4" stroke-width="2"/><line x1="60" y1="199" x2="60" y2="240" stroke="#1a5fb4" stroke-width="4"/><line x1="60" y1="240" x2="46" y2="270" stroke="#1a5fb4" stroke-width="4"/><line x1="60" y1="240" x2="74" y2="270" stroke="#1a5fb4" stroke-width="4"/><line x1="38" y1="217" x2="82" y2="217" stroke="#1a5fb4" stroke-width="4"/>
+<text x="60" y="293" font-size="18" fill="#1a5fb4" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">Erik</text>
+<circle cx="230" cy="185" r="14" fill="#fde9c9" stroke="#c64600" stroke-width="2"/><line x1="230" y1="199" x2="230" y2="240" stroke="#c64600" stroke-width="4"/><line x1="230" y1="240" x2="216" y2="270" stroke="#c64600" stroke-width="4"/><line x1="230" y1="240" x2="244" y2="270" stroke="#c64600" stroke-width="4"/><line x1="208" y1="217" x2="252" y2="217" stroke="#c64600" stroke-width="4"/>
+<text x="230" y="293" font-size="18" fill="#c64600" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">Per</text>
+<rect x="290" y="244" width="90" height="26" rx="6" fill="#c64600"/><rect x="310" y="230" width="50" height="20" rx="6" fill="#c64600"/><circle cx="312" cy="272" r="9" fill="#333"/><circle cx="358" cy="272" r="9" fill="#333"/>
+<text x="335" y="222" font-size="14" fill="#c64600" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">Pers bil</text>
+<text x="410" y="250" font-size="24" fill="#c64600" text-anchor="start" font-family="system-ui, sans-serif" font-weight="bold">Erik tar hans bil.</text>
+<text x="410" y="276" font-size="16" fill="#555" text-anchor="start" font-family="system-ui, sans-serif" font-weight="bold">= hans: Pers bil</text>
+</svg>

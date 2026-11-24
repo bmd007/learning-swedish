@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300"><rect width="600" height="300" fill="#ffffff"/>
+<text x="300" y="34" font-size="22" fill="#222" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">sin finns aldrig i subjektet</text>
+<rect x="30" y="70" width="260" height="120" rx="12" fill="#fdeaea" stroke="#c01c28" stroke-width="3"/><rect x="310" y="70" width="260" height="120" rx="12" fill="#e6f6e9" stroke="#26a269" stroke-width="3"/>
+<text x="160" y="125" font-size="26" fill="#c01c28" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">Sin bil är röd.</text>
+<text x="160" y="160" font-size="20" fill="#c01c28" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">FEL</text>
+<text x="440" y="125" font-size="26" fill="#26a269" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">Hans bil är röd.</text>
+<text x="440" y="160" font-size="20" fill="#26a269" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">RÄTT</text>
+<text x="300" y="235" font-size="18" fill="#444" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">Är hela "sin bil" subjektet (den som gör något)?</text>
+<text x="300" y="262" font-size="18" fill="#444" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="bold">Då är sin omöjligt. Använd hans / hennes / deras.</text>
+</svg>

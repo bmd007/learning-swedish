@@ -1,0 +1,507 @@
+{
+ "id": "054-pronomen-sin-hans",
+ "title": "Sin, sitt, sina – eller hans, hennes, deras?",
+ "titleEn": "Sin, sitt, sina – or hans, hennes, deras?",
+ "mode": "practice",
+ "minutes": 12,
+ "intro": "Engelska har ett ord: his. Svenska har två: sin och hans. Skillnaden är liten men viktig: är det hans egen bil eller någon annans? Här lär du dig mönstret med bilder och fraser.",
+ "introEn": "English has one word: his. Swedish has two: sin and hans. Is it his own car, or someone else's? You learn the pattern with pictures and phrases.",
+ "sections": [
+  {
+   "id": "ide",
+   "title": "Idén",
+   "titleEn": "The idea",
+   "instructions": "Läs. Det är bara en fråga: vems är det?",
+   "instructionsEn": "Read. There is only one question: whose is it?",
+   "items": [
+    {
+     "id": "p1",
+     "type": "info",
+     "md": "**Engelska: \"Erik took his car.\"** – Eriks bil eller någon annans? Man vet inte.\n\nSvenska väljer:\n\n- **Erik tar sin bil.** → Eriks **egen** bil. (*sin* = hans egen)\n- **Erik tar hans bil.** → **Pers** bil, en annan man.\n\n**sin** pekar tillbaka på den som gör något i meningen (subjektet). **hans / hennes / deras** pekar på någon annan.\n\n**فارسی:** *sin* ≈ «ماشینِ خودش» (ماشینِ خودِ اریک). *hans* ≈ «ماشینِ او» (ماشینِ یک نفر دیگر).",
+     "image": {
+      "src": "scen.svg",
+      "alt": "Erik tar sin bil, och Erik tar Pers bil"
+     }
+    },
+    {
+     "id": "p2",
+     "type": "info",
+     "md": "**Tre former – precis som min / mitt / mina.**\n\n- **en**-ord: **sin** bil, **sin** fru\n- **ett**-ord: **sitt** hus, **sitt** jobb\n- flera: **sina** barn, **sina** vänner\n\nFormen följer **ordet efter** (bil, hus, barn), inte ägaren.\n\nBra fraser att lära sig hela:\n\n*Han tar sin bil. – Hon älskar sitt jobb. – De bjuder sina grannar. – Erik träffar sin syster.*\n\nSom förut: inget *-en* efter ägarordet (*sin bil*, inte *sin bilen*).",
+     "image": {
+      "src": "regel.svg",
+      "alt": "sin bil, sitt hus, sina barn"
+     }
+    },
+    {
+     "id": "p3",
+     "type": "info",
+     "md": "**Gränserna – fyra korta regler.**\n\n1. **sin finns aldrig i subjektet.** *Hans bil är röd.* (inte *Sin bil är röd*) – Samma i *Erik och **hans** fru bor här.*\n2. **Bara han / hon / de.** Jag tar **min** bil. Du tar **din** bil. (inte *sin*)\n3. **Varje sats har sitt eget subjekt.** *Erik säger att han älskar **sin** fru.* (han = subjektet i bisatsen, sin = hans egen fru) – Men: *Erik säger att **hans** fru är sjuk.* (hans fru = subjektet i bisatsen, då kan det inte vara sin) – Och: *Erik säger att Per älskar **sin** fru.* (Pers fru)\n4. **Flera:** *De tar **sina** cyklar.* (sina egna) – *De tar **deras** cyklar.* (andras cyklar)\n\n**Minnesregel:** Är ägaren samma person som den som gör något, och det inte är med i subjektet? Då **sin / sitt / sina**. Annars **hans / hennes / deras**.",
+     "image": {
+      "src": "subjekt.svg",
+      "alt": "Sin bil är röd är fel, hans bil är röd är rätt"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fraser",
+   "title": "Skriv ordet",
+   "titleEn": "Type the word",
+   "instructions": "Skriv sin, sitt, sina, hans, hennes, deras, min eller mitt. Tänk: vem gör något, och vems är det?",
+   "instructionsEn": "Type sin, sitt, sina, hans, hennes, deras, min or mitt. Who does something, and whose is it?",
+   "items": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Erik tar ___ bil till jobbet varje dag.",
+     "base": "(Erik, hans egen) – en bil",
+     "answers": [
+      "sin"
+     ],
+     "qEn": "Erik takes his (own) car to work every day.",
+     "explain": "Erik gör något, och det är hans egen bil. en bil → sin.",
+     "explainEn": "Erik is the subject, own car, en-word → sin."
+    },
+    {
+     "id": "g2",
+     "type": "gap",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Anna älskar ___ jobb.",
+     "base": "(Anna, hennes eget) – ett jobb",
+     "answers": [
+      "sitt"
+     ],
+     "qEn": "Anna loves her (own) job.",
+     "explain": "Annas eget jobb. ett jobb → sitt.",
+     "explainEn": "Her own job, ett-word → sitt."
+    },
+    {
+     "id": "g3",
+     "type": "gap",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Barnen leker med ___ kompisar.",
+     "base": "(barnen, deras egna) – flera",
+     "answers": [
+      "sina"
+     ],
+     "qEn": "The children play with their (own) friends.",
+     "explain": "Barnens egna kompisar. Flera → sina.",
+     "explainEn": "Their own friends, plural → sina."
+    },
+    {
+     "id": "g4",
+     "type": "gap",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Jag tar ___ cykel till skolan.",
+     "base": "(jag) – en cykel",
+     "answers": [
+      "min"
+     ],
+     "qEn": "I take my bike to school.",
+     "explain": "Sin finns bara för han / hon / de. Jag → min.",
+     "explainEn": "sin is only for he / she / they. I → min."
+    },
+    {
+     "id": "g5",
+     "type": "gap",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Erik hälsar på Lisa. Han träffar också ___ syster.",
+     "base": "(Lisa) – en syster",
+     "answers": [
+      "hennes"
+     ],
+     "qEn": "Erik visits Lisa. He also meets her sister.",
+     "explain": "Systern är Lisas, inte Eriks. Någon annans → hennes.",
+     "explainEn": "The sister is Lisa's, not Erik's → hennes."
+    },
+    {
+     "id": "g6",
+     "type": "gap",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Ali och ___ fru bor i Göteborg.",
+     "base": "(Ali) – en fru",
+     "answers": [
+      "hans"
+     ],
+     "qEn": "Ali and his wife live in Gothenburg.",
+     "explain": "\"Ali och hans fru\" är subjektet. I subjektet använder vi aldrig sin → hans.",
+     "explainEn": "The wife is part of the subject → hans, never sin."
+    },
+    {
+     "id": "g7",
+     "type": "gap",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Erik säger att han älskar ___ fru.",
+     "base": "(Erik) – en fru",
+     "answers": [
+      "sin"
+     ],
+     "qEn": "Erik says that he loves his (own) wife.",
+     "explain": "I bisatsen är han subjektet, och det är hans egen fru → sin.",
+     "explainEn": "In the subordinate clause, han is the subject and it is his own wife → sin."
+    },
+    {
+     "id": "g8",
+     "type": "gap",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Erik säger att ___ fru är sjuk.",
+     "base": "(Erik) – en fru",
+     "answers": [
+      "hans"
+     ],
+     "qEn": "Erik says that his wife is ill.",
+     "explain": "Här är hans fru själv subjektet i bisatsen → hans.",
+     "explainEn": "Here the wife is the subject of the clause → hans."
+    },
+    {
+     "id": "g9",
+     "type": "gap",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Mina grannar älskar ___ nya hus.",
+     "base": "(grannarna) – ett hus",
+     "answers": [
+      "sitt"
+     ],
+     "qEn": "My neighbours love their (own) new house.",
+     "explain": "Grannarnas eget hus. Ett hus, och de älskar det själva → sitt.",
+     "explainEn": "Their own house, ett-word → sitt."
+    },
+    {
+     "id": "g10",
+     "type": "gap",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Vi hälsar på grannarna. Vi tycker mycket om ___ hund.",
+     "base": "(grannarna) – en hund",
+     "answers": [
+      "deras"
+     ],
+     "qEn": "We visit the neighbours. We like their dog a lot.",
+     "explain": "Hunden är grannarnas, inte våra. Någon annans → deras.",
+     "explainEn": "The dog belongs to the neighbours → deras."
+    }
+   ]
+  },
+  {
+   "id": "vems",
+   "title": "Vems är det?",
+   "titleEn": "Whose is it?",
+   "instructions": "Välj rätt svar. Fråga dig: samma person eller någon annan?",
+   "instructionsEn": "Pick the right answer: same person or someone else?",
+   "items": [
+    {
+     "id": "m1",
+     "type": "mcq",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Anna ringer hennes mamma. Vems mamma ringer hon?",
+     "options": [
+      "Annas egen mamma",
+      "En annan kvinnas mamma"
+     ],
+     "answer": 1,
+     "qEn": "Whose mother does Anna call?",
+     "explain": "Om det vore Annas egen mamma skulle det stå: Anna ringer sin mamma. Hennes → någon annan.",
+     "explainEn": "If it were Anna's own mother: sin mamma. Hennes → someone else."
+    },
+    {
+     "id": "m2",
+     "type": "mcq",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Erik tvättar sin bil. Vems bil är det?",
+     "options": [
+      "Eriks bil",
+      "En annan mans bil"
+     ],
+     "answer": 0,
+     "qEn": "Whose car is it?",
+     "explain": "Sin = Eriks egen.",
+     "explainEn": "sin = Erik's own."
+    },
+    {
+     "id": "m3",
+     "type": "mcq",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Kalle och Eva bjuder deras vänner på middag. Vems vänner?",
+     "options": [
+      "Andras vänner, inte Kalles och Evas egna",
+      "Kalles och Evas egna vänner"
+     ],
+     "answer": 0,
+     "qEn": "Whose friends do Kalle and Eva invite?",
+     "explain": "Egna vänner = sina vänner. Deras → andra personer.",
+     "explainEn": "Their own friends = sina vänner. Deras → other people."
+    },
+    {
+     "id": "m4",
+     "type": "mcq",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Vilken mening är fel?",
+     "options": [
+      "Hans bil är röd.",
+      "Erik älskar sin bil.",
+      "Sin bil är röd."
+     ],
+     "answer": 2,
+     "qEn": "Which sentence is wrong?",
+     "explain": "Sin finns aldrig i subjektet. Rätt: Hans bil är röd.",
+     "explainEn": "sin is never in the subject."
+    }
+   ]
+  },
+  {
+   "id": "ordning",
+   "title": "Ordningen",
+   "titleEn": "Word order",
+   "instructions": "Sätt orden i rätt ordning.",
+   "instructionsEn": "Put the words in order.",
+   "items": [
+    {
+     "id": "o1",
+     "type": "order",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "sin",
+      "Erik",
+      "cykel",
+      "tar",
+      "till",
+      "jobbet"
+     ],
+     "answers": [
+      "Erik tar sin cykel till jobbet"
+     ],
+     "qEn": "Erik takes his bike to work.",
+     "explain": "Erik (subjekt) tar sin cykel.",
+     "explainEn": "Erik takes his own bike."
+    },
+    {
+     "id": "o2",
+     "type": "order",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "Anna",
+      "att",
+      "hennes",
+      "säger",
+      "man",
+      "är",
+      "sjuk"
+     ],
+     "answers": [
+      "Anna säger att hennes man är sjuk"
+     ],
+     "qEn": "Anna says that her husband is ill.",
+     "explain": "Hennes man = subjektet i bisatsen → hennes, inte sin.",
+     "explainEn": "her husband is the subject of the clause → hennes."
+    },
+    {
+     "id": "o3",
+     "type": "order",
+     "tags": [
+      "pronomen.sin",
+      "pronomen.possessiv"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "De",
+      "sina",
+      "bjuder",
+      "på",
+      "grannar",
+      "middag"
+     ],
+     "answers": [
+      "De bjuder sina grannar på middag"
+     ],
+     "qEn": "They invite their neighbours to dinner.",
+     "explain": "De bjuder sina egna grannar.",
+     "explainEn": "They invite their own neighbours."
+    }
+   ]
+  },
+  {
+   "id": "lyssna",
+   "title": "Lyssna",
+   "titleEn": "Listen",
+   "instructions": "Lyssna på Sara och Erik. Vem äger vad?",
+   "instructionsEn": "Listen to Sara and Erik. Who owns what?",
+   "parts": [
+    {
+     "heading": "En lördag med Ali och Johan",
+     "headingEn": "A Saturday with Ali and Johan",
+     "image": {
+      "src": "scen.svg",
+      "alt": "Två män med varsin bil, bild om vem som äger vad"
+     },
+     "audio": {
+      "id": "d1",
+      "title": "Ali och Johan",
+      "maxPlays": 2,
+      "speakers": {
+       "Sara": "f",
+       "Erik": "m"
+      },
+      "script": [
+       {
+        "speaker": "Sara",
+        "text": "Hej Erik! Du, jag måste berätta vad som hände i lördags med Ali och Johan."
+       },
+       {
+        "speaker": "Erik",
+        "text": "Jaha? Vad hände?"
+       },
+       {
+        "speaker": "Sara",
+        "text": "Alltså, Johan skulle åka till jobbet, men hans cykel var trasig. Så han lånade Alis cykel. Ali var ju ledig, så det gick bra."
+       },
+       {
+        "speaker": "Erik",
+        "text": "Okej. Och sen då?"
+       },
+       {
+        "speaker": "Sara",
+        "text": "Sen på kvällen tappade Johan sina nycklar. Han tror att dom låg i jackfickan, men när han kom hem var dom borta. Nycklarna till lägenheten, till cykellåset, till allt."
+       },
+       {
+        "speaker": "Erik",
+        "text": "Oj, då. Hur kom han in?"
+       },
+       {
+        "speaker": "Sara",
+        "text": "Det var tur, för Ali hade ju en extranyckel hemma hos sig. Så Ali tog bussen till Johan och gav honom nyckeln. Johan blev jätteglad, och han bjöd Ali på middag. De åt i Johans lägenhet och pratade till sent."
+       },
+       {
+        "speaker": "Erik",
+        "text": "Vad snällt av Ali! Ja, så ska en granne vara."
+       }
+      ]
+     },
+     "items": [
+      {
+       "id": "l1",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "pronomen.sin"
+       ],
+       "q": "Varför lånade Johan Alis cykel?",
+       "options": [
+        "Alis cykel var snabbare.",
+        "Johan hade ingen cykel.",
+        "Johans egen cykel var trasig."
+       ],
+       "answer": 2,
+       "qEn": "Why did Johan borrow Ali's bike?",
+       "explain": "\"Hans cykel var trasig\" – hans = Johans.",
+       "explainEn": "\"his bike was broken\" – hans = Johan's."
+      },
+      {
+       "id": "l2",
+       "type": "mcq",
+       "tags": [
+        "pronomen.sin",
+        "pronomen.possessiv"
+       ],
+       "q": "Vilka nycklar tappade Johan?",
+       "options": [
+        "Sina egna nycklar",
+        "Alis nycklar",
+        "Saras nycklar"
+       ],
+       "answer": 0,
+       "qEn": "Which keys did Johan lose?",
+       "explain": "\"Johan tappade sina nycklar.\" Han tappade sina egna.",
+       "explainEn": "\"sina nycklar\" = his own."
+      },
+      {
+       "id": "l3",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "pronomen.sin"
+       ],
+       "q": "Var åt Ali och Johan middag?",
+       "options": [
+        "Hos Ali",
+        "Hos Johan",
+        "På en restaurang"
+       ],
+       "answer": 1,
+       "qEn": "Where did Ali and Johan eat dinner?",
+       "explain": "\"De åt i Johans lägenhet.\"",
+       "explainEn": "They ate in Johan's flat."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sammanfattning",
+   "title": "Sammanfattning",
+   "titleEn": "Summary",
+   "instructions": "Bara som hjälp efteråt.",
+   "instructionsEn": "Reference only, afterwards.",
+   "items": [
+    {
+     "id": "s1",
+     "type": "info",
+     "md": "**sin / sitt / sina** = samma person som subjektet (han, hon, de) – men aldrig inne i subjektet.\n\n| | en-ord | ett-ord | flera |\n|---|---|---|---|\n| egen (han / hon / de) | **sin** | **sitt** | **sina** |\n| någon annan | **hans / hennes / deras** (ändras aldrig) | | |\n\n- Erik tar **sin** bil. – Erik tar **hans** bil (Pers).\n- **Hans** bil är röd. (subjekt)\n- Jag tar **min** bil. (aldrig *sin*)",
+     "image": {
+      "src": "regel.svg",
+      "alt": "sin, sitt, sina"
+     }
+    }
+   ]
+  }
+ ]
+}
