@@ -186,3 +186,7 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 - Learner uses the Superfluent app (speaking AI tutor, Swedish supported; custom scenario / free chat per user
   reviews) as a Swedex A2B1 oral examiner. Prompts: docs/superfluent-tala-swedex.md (3 full mocks, own ads).
   App mishears numbers/web addresses. Learner sends back the app's feedback → add to errors.md.
+
+## 2026-11-24 – Persian names in TTS
+- Learner: TTS pronounces Persian names/places badly (052: Shiraz → heard, wrote "skyras"). In audio, use Swedish or
+  common international names/places, or names the voices handle; don't ask the learner to spell foreign names.
