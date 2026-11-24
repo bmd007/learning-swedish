@@ -1,0 +1,60 @@
+{
+  "lessonId": "026-skriv-swedex",
+  "attemptId": "2026-11-24T18-25-35-813Z",
+  "final": true,
+  "mode": "exam",
+  "startedAt": "2026-11-24T18:25:38.206Z",
+  "finishedAt": "2026-11-24T19:00:14.633Z",
+  "durationMin": 35,
+  "timeLimitMin": 60,
+  "overtime": false,
+  "currentSection": null,
+  "sectionMinutes": {
+    "del1": 13.4,
+    "del2": 21.2
+  },
+  "audioPlays": {},
+  "firstTry": {},
+  "flags": [],
+  "score": {},
+  "items": [
+    {
+      "id": "w1",
+      "section": "del1",
+      "type": "write",
+      "tags": [
+        "skriv.mejl.svar",
+        "skriv.beskriva",
+        "skriv.fråga"
+      ],
+      "prompt": "Skriv ditt svar till Nina (cirka 50 ord).",
+      "given": null,
+      "expected": null,
+      "correct": null,
+      "images": [
+        "026-skriv-swedex__w1__20261124-193856-427204.jpg"
+      ]
+    },
+    {
+      "id": "w2",
+      "section": "del2",
+      "type": "write",
+      "tags": [
+        "skriv.kalender",
+        "skriv.berätta",
+        "verb.preteritum",
+        "verb.futurum",
+        "verb.presens"
+      ],
+      "prompt": "Skriv ditt mejl till moster Lena (cirka 100 ord).",
+      "given": null,
+      "expected": null,
+      "correct": null,
+      "images": [
+        "026-skriv-swedex__w2__20261124-200011-541890.jpg"
+      ]
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-24T20:00:14"
+}

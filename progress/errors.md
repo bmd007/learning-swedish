@@ -52,3 +52,9 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `ordföljd.inversion` (mock oral) – *Nu jag jobbar*, *Ibland jag tittar* (ok after *på en vanlig vardag*, *ofta*).
 - `ordföljd.bisats` (mock oral) – *att kanske jag skulle inte gå* → att jag kanske inte skulle gå.
 - `ord.form` (mock oral) – väcknar (vaknar), kvaler (kvällar), anlan (anmäla sig), en möte, ringa hennes (henne), gå där (åka dit), bo på en stad, har flyttat … i åtta år (har bott / flyttade för … sedan).
+- `skriv.mejl` (026, handwritten, 2026-11-24) – frame now right (greeting, own question, closing); both texts too long again (85/~50, 150/~100); Del 2 no question back; *Hälsa Lena* for Hälsningar.
+- `hör.tid`/`skriv.tid` (026) – calendar 14.00 → *klokan 4* (should be klockan två/14); *klokan* spelling again (028).
+- `ordföljd.inversion` (026) – *därför jag gick* (därför gick jag).
+- `verb.preteritum` (026) – *I onsdags titta vi* (tittade); `verb.infinitiv` *för hälsa på* (för att); *som det började* (som började).
+- `substantiv.form` (026) – *Vilken tåg / Min tåg* (ett tåg), *affaren* (affärer), *min grann* (granne).
+- `ord.val` (026) – lämna dig från stationen (hämta dig på), stark ont (väldigt ont), tog om mig (tog hand om), på centrum (i), i kväll for past (på kvällen), Sara ska fylla (fyller).

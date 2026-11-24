@@ -337,3 +337,9 @@
   tip→question, 3 mcq + 4 order (direct question vs "Jag undrar hur man bokar"), canoe-rental dialogue (4 items),
   3 speak items with hidden ads. Audio ok 0–3 %.
 - **Next step:** learner does 054 → 055 → 053; grade; then mock Prompt 2 (voice, Claude mobile).
+
+## 2026-11-24 – Graded 026 (Swedex writing, handwritten, exam mode, 35/60 min)
+
+- Del 1 A2+/B1-, Del 2 B1-. Overall clear A2 pass, near B1. Big gain since 002: letter frame right, tense switching good, pluperfect used.
+- Problems: klockan + 14.00 read as 4; inversion after därför; -de past (titta), för att, ett tåg; word choice (hämta/lämna, ta hand om). Too long again.
+- **Next step:** 054 → 055 → 053 (053 covers klockan/times). Writing: next time aim at the word count and spend 5 min re-reading for en/ett, -de, verb 2nd.
