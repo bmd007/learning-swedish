@@ -349,3 +349,8 @@
 - Learner asked for the connector table as a card + typed sentences. Evidence: därför + wrong order (009, 041, 026), "för hälsa på" (026).
 - 2 info cards with SVG (4 groups; därför vs därför att), 4 mcq, 12 typed (gap + order; inversion with inte, bisats with inte, så, för att + infinitive). No audio.
 - **Next step:** unchanged (054 → 055 → 053, then 056 as a reference/review).
+
+## 2026-11-25 – Lesson 057: som som subjekt eller objekt
+
+- From 026: "en jobbintervju som det började 8.30". 2 info cards (test: gör substantivet verbet? + Persian pronoun-repeat contrast; inte before verb, som can't be dropped as subject), 3 mcq, 3 order, 2 gap, 5 short (1 correction, 4 combine two sentences). No audio.
+- **Next step:** unchanged (054 → 055 → 053, 056, 057 as reference/practice).

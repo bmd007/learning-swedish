@@ -1,0 +1,293 @@
+{
+ "id": "057-som-subjekt-objekt",
+ "title": "Som: verb direkt eller subjekt först?",
+ "titleEn": "Som: verb right away or subject first?",
+ "mode": "practice",
+ "minutes": 9,
+ "intro": "Du skrev *en jobbintervju som det började 8.30*. Det ska vara *som började klockan 8.30*. Här är regeln på två kort, sedan övar du.",
+ "introEn": "You wrote 'en jobbintervju som det började 8.30'. It should be 'som började klockan 8.30'. Here is the rule on two cards, then practice.",
+ "sections": [
+  {
+   "id": "kort",
+   "title": "Reglerna",
+   "titleEn": "The rules",
+   "instructions": "Läs korten.",
+   "instructionsEn": "Read the cards.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "image": {
+      "src": "test.svg",
+      "alt": "Gör substantivet verbet? Ja: som + verb. Nej: som + subjekt + verb."
+     },
+     "md": "**Testet: gör substantivet verbet?**\n\n- **Ja** → *som* + verb. Inget extra subjekt.\n  *en intervju **som började** klockan 8.30 · en man **som bor** här · ett tåg **som går** 10.15*\n- **Nej**, någon annan gör verbet → *som* + subjekt + verb.\n  *en film **som jag såg** · en bok **som Sara gav** mig*\n\n**Ankare:** *the interview that started* (inte \"that it started\") · *the film (that) I saw*.\n\n**Persiska:** på persiska säger man ofta substantivet en gång till som pronomen: فیلمی که دیدمش · مصاحبه‌ای که آن ساعت ۸ شروع شد. På svenska aldrig.\n\n- ✗ *en intervju som **det** började 8.30* → ✓ *en intervju som började 8.30*\n- ✗ *en film som jag såg **den*** → ✓ *en film som jag såg*\n\n**Din mening:** *Jag hade en jobbintervju som började klockan 8.30.*"
+    },
+    {
+     "id": "i2",
+     "type": "info",
+     "image": {
+      "src": "inte.svg",
+      "alt": "inte och alltid står före verbet i en bisats"
+     },
+     "md": "**Bisats: *inte, ofta, alltid, aldrig* står före verbet.**\n\n- *en man som **inte** röker* · *en granne som **alltid** hjälper mig*\n- *en film som jag **inte** gillade* · *en bok som Sara **aldrig** läste*\n\n**Kan man ta bort *som*?**\n\n- Som subjekt: **nej**. *en man som bor här* (inte: en man bor här).\n- Som objekt: ja, i tal. *filmen jag såg* = *filmen som jag såg*.\n\n**Tips:** skriv alltid *som*. Då gör du inget fel i provet.\n\n**Ankare:** *som* = که (relativ).  *en man **som** bor här* = مردی که اینجا زندگی می‌کند."
+    }
+   ]
+  },
+  {
+   "id": "val",
+   "title": "Välj rätt",
+   "titleEn": "Choose",
+   "instructions": "Välj rätt.",
+   "instructionsEn": "Choose.",
+   "items": [
+    {
+     "id": "m1",
+     "type": "mcq",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Vilken mening är rätt?",
+     "options": [
+      "Jag hade en intervju som det började klockan åtta.",
+      "Jag hade en intervju som började klockan åtta.",
+      "Jag hade en intervju började klockan åtta."
+     ],
+     "answer": 1,
+     "qEn": "Which sentence is correct?",
+     "explain": "Intervjun gör verbet (började). Då: som + verb, inget *det*.",
+     "explainEn": "The interview does the verb: som + verb, no 'det'."
+    },
+    {
+     "id": "m2",
+     "type": "mcq",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "I *en film som jag såg* – vem gör verbet *såg*?",
+     "options": [
+      "filmen (som)",
+      "jag"
+     ],
+     "answer": 1,
+     "qEn": "In 'en film som jag såg', who does 'såg'?",
+     "explain": "Jag såg filmen. Någon annan gör verbet, så *jag* måste stå efter *som*.",
+     "explainEn": "I saw the film. Someone else does the verb, so 'jag' follows som."
+    },
+    {
+     "id": "m3",
+     "type": "mcq",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Vilken mening är rätt?",
+     "options": [
+      "Filmen som jag såg den var bra.",
+      "Filmen som jag såg var bra.",
+      "Filmen som såg jag var bra."
+     ],
+     "answer": 1,
+     "qEn": "Which sentence is correct?",
+     "explain": "Ingen *den* i slutet. Substantivet *filmen* räcker.",
+     "explainEn": "No 'den' at the end. The noun is enough."
+    }
+   ]
+  },
+  {
+   "id": "skriv",
+   "title": "Skriv meningen",
+   "titleEn": "Write the sentence",
+   "instructions": "Sätt i ordning, fyll i, rätta eller slå ihop.",
+   "instructionsEn": "Order, fill in, correct or combine.",
+   "items": [
+    {
+     "id": "o1",
+     "type": "order",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "började",
+      "en",
+      "Jag",
+      "klockan",
+      "som",
+      "hade",
+      "jobbintervju",
+      "åtta"
+     ],
+     "answers": [
+      "Jag hade en jobbintervju som började klockan åtta"
+     ],
+     "qEn": "I had a job interview that started at eight.",
+     "explain": "Intervjun gör verbet: som + började.",
+     "explainEn": "som + verb."
+    },
+    {
+     "id": "o2",
+     "type": "order",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "bor",
+      "lägenhet",
+      "Jag",
+      "centrum",
+      "i",
+      "som",
+      "nära",
+      "en",
+      "ligger"
+     ],
+     "answers": [
+      "Jag bor i en lägenhet som ligger nära centrum"
+     ],
+     "qEn": "I live in an apartment that is near the centre.",
+     "explain": "Lägenheten ligger: som + ligger.",
+     "explainEn": "som + verb."
+    },
+    {
+     "id": "o3",
+     "type": "order",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Sätt orden i rätt ordning.",
+     "words": [
+      "en",
+      "som",
+      "Det",
+      "jag",
+      "film",
+      "gillade",
+      "inte",
+      "är"
+     ],
+     "answers": [
+      "Det är en film som jag inte gillade"
+     ],
+     "qEn": "It is a film that I did not like.",
+     "explain": "Jag gillade filmen: som + jag + inte + gillade.",
+     "explainEn": "som + subject + inte + verb."
+    },
+    {
+     "id": "g1",
+     "type": "gap",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Det är en bok som Sara ___ mig i present.",
+     "base": "ge, preteritum",
+     "answers": [
+      "gav"
+     ],
+     "qEn": "It is a book that Sara gave me as a present.",
+     "explain": "Sara är subjekt, verbet kommer efter: *som Sara gav*.",
+     "explainEn": "Sara = subject, verb after."
+    },
+    {
+     "id": "g2",
+     "type": "gap",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Jag har en granne som alltid ___ mig.",
+     "base": "hjälpa, presens",
+     "answers": [
+      "hjälper"
+     ],
+     "qEn": "I have a neighbour who always helps me.",
+     "explain": "Grannen gör verbet: som + alltid + hjälper.",
+     "explainEn": "som + always + verb."
+    },
+    {
+     "id": "s1",
+     "type": "short",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Rätta meningen: *Jag såg en film som den var bra.*",
+     "answers": [
+      "film som var bra"
+     ],
+     "qEn": "Correct: I saw a film that was good.",
+     "explain": "Filmen var bra. Ta bort *den*: *en film som var bra*.",
+     "explainEn": "Remove 'den'."
+    },
+    {
+     "id": "s2",
+     "type": "short",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Slå ihop: *Jag har en granne. Grannen hjälper mig alltid.*",
+     "answers": [
+      "granne som alltid hjälper mig"
+     ],
+     "qEn": "Combine: I have a neighbour who always helps me.",
+     "explain": "Grannen gör verbet: *som alltid hjälper mig*.",
+     "explainEn": "som + always + verb."
+    },
+    {
+     "id": "s3",
+     "type": "short",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Slå ihop: *Jag söker en lägenhet. Lägenheten har två rum.*",
+     "answers": [
+      "lägenhet som har två rum"
+     ],
+     "qEn": "Combine: I am looking for an apartment that has two rooms.",
+     "explain": "Lägenheten gör verbet: *som har två rum*.",
+     "explainEn": "som + verb."
+    },
+    {
+     "id": "s4",
+     "type": "short",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Slå ihop: *Det är en kurs. Jag gillar kursen mycket.*",
+     "answers": [
+      "kurs som jag gillar",
+      "kurs som jag tycker om"
+     ],
+     "qEn": "Combine: It is a course that I like a lot.",
+     "explain": "Jag gör verbet, inte kursen: *som jag gillar*.",
+     "explainEn": "som + subject + verb."
+    },
+    {
+     "id": "s5",
+     "type": "short",
+     "tags": [
+      "ordföljd.bisats",
+      "bisats.som"
+     ],
+     "q": "Slå ihop: *Det är ett tåg. Tåget går inte på söndagar.*",
+     "answers": [
+      "tåg som inte går"
+     ],
+     "qEn": "Combine: It is a train that does not run on Sundays.",
+     "explain": "Tåget gör verbet: *som inte går*. Inte före verbet.",
+     "explainEn": "som + inte + verb."
+    }
+   ]
+  }
+ ]
+}
