@@ -1,0 +1,340 @@
+{
+  "lessonId": "027-riktiga-roster",
+  "attemptId": "2026-11-25T11-52-20-035Z",
+  "final": false,
+  "mode": "practice",
+  "startedAt": "2026-11-25T11:52:21.451Z",
+  "finishedAt": null,
+  "durationMin": 15,
+  "currentSection": "klipp",
+  "sectionMinutes": {
+    "klipp": 15
+  },
+  "audioPlays": {
+    "c1": 2,
+    "c2": 2,
+    "c3": 2,
+    "c4": 2,
+    "c5": 2,
+    "c6": 2,
+    "c7": 2,
+    "c8": 2
+  },
+  "firstTry": {
+    "q1": false,
+    "q2": false,
+    "q3": true,
+    "q4": false,
+    "q5": true,
+    "q6": false,
+    "q8": true,
+    "q9": true,
+    "q7": true,
+    "q10": true,
+    "q11": false,
+    "q13": true,
+    "q12": false,
+    "q15": true,
+    "q14": true,
+    "q17": true
+  },
+  "flags": [],
+  "score": {
+    "klipp": {
+      "correct": 14,
+      "total": 17
+    }
+  },
+  "items": [
+    {
+      "id": "q1",
+      "section": "klipp",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad har Marie på sig inomhus?",
+      "given": "dush",
+      "expected": "mössa",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q2",
+      "section": "klipp",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Hur ofta använder hon diskmaskinen?",
+      "given": "en gång vecka",
+      "expected": "en gång i veckan",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q3",
+      "section": "klipp",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Varför blev Ida kär i Timmy?",
+      "given": "Han är snäll, trevlig och omtänksam.",
+      "expected": "Han är snäll, trevlig och omtänksam.",
+      "correct": true
+    },
+    {
+      "id": "q4",
+      "section": "klipp",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "hör.fälla"
+      ],
+      "prompt": "Bor Ida och Timmy tillsammans nu?",
+      "given": "Ja, i en servicelägenhet.",
+      "expected": "Nej, de bor i var sin lägenhet.",
+      "correct": false
+    },
+    {
+      "id": "q5",
+      "section": "klipp",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Hur många kronor får Lepty per dag?",
+      "given": "70",
+      "expected": "70",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q6",
+      "section": "klipp",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "hör.siffror"
+      ],
+      "prompt": "Ungefär hur mycket får hon i månaden?",
+      "given": "1400",
+      "expected": "1400",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q7",
+      "section": "klipp",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Kristinehamn betalar mycket mindre än andra kommuner.",
+      "given": "Falskt",
+      "expected": "Falskt",
+      "correct": true
+    },
+    {
+      "id": "q8",
+      "section": "klipp",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "hör.parafras"
+      ],
+      "prompt": "Kommunerna bestämmer själva om de betalar habersättning.",
+      "given": "Sant",
+      "expected": "Sant",
+      "correct": true
+    },
+    {
+      "id": "q9",
+      "section": "klipp",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Enligt chefen är habersättningen en lön.",
+      "given": "Falskt",
+      "expected": "Falskt",
+      "correct": true
+    },
+    {
+      "id": "q10",
+      "section": "klipp",
+      "type": "mcq",
+      "tags": [
+        "hör.huvudtanke"
+      ],
+      "prompt": "Vad tycker Johan om sina nya arbetskamrater?",
+      "given": "De gör arbetsplatsen bättre, och brandmännen hinner med andra saker.",
+      "expected": "De gör arbetsplatsen bättre, och brandmännen hinner med andra saker.",
+      "correct": true
+    },
+    {
+      "id": "q11",
+      "section": "klipp",
+      "type": "mcq",
+      "tags": [
+        "hör.talspråk"
+      ],
+      "prompt": "'… hade personalen behövt göra annars.' Vad betyder det?",
+      "given": "Utan hjälpen hade brandmännen fått göra jobbet själva.",
+      "expected": "Utan hjälpen hade brandmännen fått göra jobbet själva.",
+      "correct": true
+    },
+    {
+      "id": "q12",
+      "section": "klipp",
+      "type": "short",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vilken arbetsuppgift gillar Susanne mest?",
+      "given": "tvätta bilar",
+      "expected": "tvätta bil",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q13",
+      "section": "klipp",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Har Susanne pratat mycket med brandmännen?",
+      "given": "Bara lite – hon är lite blyg.",
+      "expected": "Bara lite – hon är lite blyg.",
+      "correct": true
+    },
+    {
+      "id": "q14",
+      "section": "klipp",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "hör.förr-nu"
+      ],
+      "prompt": "Hur mår Rosies dotter nu?",
+      "given": "Mycket bättre.",
+      "expected": "Mycket bättre.",
+      "correct": true
+    },
+    {
+      "id": "q15",
+      "section": "klipp",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "tid.signalord"
+      ],
+      "prompt": "Dottern sa det 'i vintras'. När var det?",
+      "given": "Förra vintern.",
+      "expected": "Förra vintern.",
+      "correct": true
+    },
+    {
+      "id": "q16",
+      "section": "klipp",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "hör.siffror"
+      ],
+      "prompt": "Hur många spelare finns i gruppen?",
+      "given": "25",
+      "expected": "25",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q17",
+      "section": "klipp",
+      "type": "mcq",
+      "tags": [
+        "hör.huvudtanke"
+      ],
+      "prompt": "Varför passar projektet Malmö FF?",
+      "given": "Det handlar om fotboll – det klubben gör.",
+      "expected": "Det handlar om fotboll – det klubben gör.",
+      "correct": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "state": {
+    "step": 0,
+    "answers": {
+      "q2": "en gång vecka",
+      "q1": "dush",
+      "q3": 0,
+      "q4": 0,
+      "q5": "70",
+      "q6": "1400",
+      "q8": 0,
+      "q9": 1,
+      "q7": 1,
+      "q10": 2,
+      "q11": 1,
+      "q12": "tvätta bilar",
+      "q13": 0,
+      "q15": 1,
+      "q14": 2,
+      "q16": "25",
+      "q17": 0
+    },
+    "plays": {
+      "c1": 2,
+      "c2": 2,
+      "c3": 2,
+      "c4": 2,
+      "c5": 2,
+      "c6": 2,
+      "c7": 2,
+      "c8": 2
+    },
+    "sectionTime": {
+      "klipp": 898.5489999999999
+    },
+    "startedAt": 1795607541451,
+    "attemptId": "2026-11-25T11-52-20-035Z",
+    "flags": {},
+    "marks": {
+      "q:q3": [
+        [
+          16,
+          19
+        ]
+      ],
+      "q:q9": [
+        [
+          22,
+          36
+        ]
+      ]
+    },
+    "updatedAt": 1795608440820,
+    "lastStep": 0,
+    "firstTry": {
+      "q1": false,
+      "q2": false,
+      "q3": true,
+      "q4": false,
+      "q5": true,
+      "q6": false,
+      "q8": true,
+      "q9": true,
+      "q7": true,
+      "q10": true,
+      "q11": false,
+      "q13": true,
+      "q12": false,
+      "q15": true,
+      "q14": true,
+      "q17": true
+    }
+  },
+  "savedAt": "2026-11-25T13:07:21"
+}

@@ -359,3 +359,9 @@
 
 - Full listening mock (30 items, exam mode, same shape as 025): del 1 six messages (4 options), del 2 three messages + three radio bits (short), del 3 neighbours plan a courtyard flea market (6 short), del 4 four TTS news items + 6 headlines (2 extra), del 5 four interviews, same question ("50-årsdag"), 2 Rätt/Fel each. Real-test rate of traps (a few per part, not every item). Listening weak spots only: day/time corrections, number, close-wording Rätt/Fel, var vs vad. 21 clips, NST voices from 7 regions, noise on ~9 clips.
 - **Next step:** unchanged; take 058 and 059 as the final listening practice before 2026-12-04.
+
+## 2026-11-25 – Graded 027 (riktiga röster, Klartext) from draft (not submitted)
+
+- Final 15/17, first try 10/16 (~65 %). Misses: q1 answered a heard word (*dusch*) not the asked thing (*ha på sig* → mössa); q4 *varsin* (apart). Numbers right only on 2nd try (q6).
+- Note: a 054 draft in results/drafts/ (step 3, 0 answers, 2026-11-24 20:15) was created by Claude's headless UI test, not the learner. Delete it.
+- **Next step:** 054 → 055 → 056 → 057 → 053; mock 058 when built.

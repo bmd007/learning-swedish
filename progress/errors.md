@@ -58,3 +58,4 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `verb.preteritum` (026) – *I onsdags titta vi* (tittade); `verb.infinitiv` *för hälsa på* (för att); *som det började* (som började).
 - `substantiv.form` (026) – *Vilken tåg / Min tåg* (ett tåg), *affaren* (affärer), *min grann* (granne).
 - `ord.val` (026) – lämna dig från stationen (hämta dig på), stark ont (väldigt ont), tog om mig (tog hand om), på centrum (i), i kväll for past (på kvällen), Sara ska fylla (fyller).
+- `hör.detalj` (027, real radio) – q1 *Vad har hon på sig?* → answered *dusch* (a clear later word) instead of **mössa**; same family as 025 q9/q11 + `instruktion`. q4 missed **varsin** (bor i varsin lägenhet = apart) → chose the option with the heard word *servicelägenhet*.
