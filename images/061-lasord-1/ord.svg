@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="system-ui, sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<text x="300" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#222">Orden i frågan: säg det med enklare ord</text>
+<rect x="30" y="70" width="230" height="38" rx="8" fill="#e8f0fe"/><text x="145" y="96" font-size="19" text-anchor="middle" fill="#222">förmögenhet</text>
+<text x="285" y="97" font-size="24" text-anchor="middle" fill="#222">=</text>
+<rect x="310" y="70" width="260" height="38" rx="8" fill="#e6f6e6"/><text x="440" y="96" font-size="17" text-anchor="middle" fill="#222">mycket pengar</text>
+<rect x="30" y="118" width="230" height="38" rx="8" fill="#e8f0fe"/><text x="145" y="144" font-size="19" text-anchor="middle" fill="#222">erbjuda</text>
+<text x="285" y="145" font-size="24" text-anchor="middle" fill="#222">=</text>
+<rect x="310" y="118" width="260" height="38" rx="8" fill="#e6f6e6"/><text x="440" y="144" font-size="17" text-anchor="middle" fill="#222">ge chansen att få</text>
+<rect x="30" y="166" width="230" height="38" rx="8" fill="#e8f0fe"/><text x="145" y="192" font-size="19" text-anchor="middle" fill="#222">försvinna</text>
+<text x="285" y="193" font-size="24" text-anchor="middle" fill="#222">=</text>
+<rect x="310" y="166" width="260" height="38" rx="8" fill="#e6f6e6"/><text x="440" y="192" font-size="17" text-anchor="middle" fill="#222">inte finnas kvar</text>
+<rect x="30" y="214" width="230" height="38" rx="8" fill="#e8f0fe"/><text x="145" y="240" font-size="19" text-anchor="middle" fill="#222">ansvara för</text>
+<text x="285" y="241" font-size="24" text-anchor="middle" fill="#222">=</text>
+<rect x="310" y="214" width="260" height="38" rx="8" fill="#e6f6e6"/><text x="440" y="240" font-size="17" text-anchor="middle" fill="#222">ha ansvaret</text>
+<rect x="30" y="262" width="230" height="38" rx="8" fill="#e8f0fe"/><text x="145" y="288" font-size="19" text-anchor="middle" fill="#222">tillräcklig</text>
+<text x="285" y="289" font-size="24" text-anchor="middle" fill="#222">=</text>
+<rect x="310" y="262" width="260" height="38" rx="8" fill="#e6f6e6"/><text x="440" y="288" font-size="17" text-anchor="middle" fill="#222">så mycket som behövs</text>
+</svg>

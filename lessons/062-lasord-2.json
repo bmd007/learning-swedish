@@ -1,0 +1,242 @@
+{
+ "id": "062-lasord-2",
+ "title": "Läsord 2: fler ord i frågan",
+ "titleEn": "Reading words 2: more words in the question",
+ "mode": "practice",
+ "minutes": 5,
+ "intro": "Tio nya ord som ofta byts ut mellan text och fråga. Ca 5 minuter.",
+ "introEn": "Ten more words that are swapped between text and question. About 5 minutes.",
+ "sections": [
+  {
+   "id": "kort",
+   "title": "Del 1: Orden",
+   "titleEn": "Part 1: The words",
+   "instructions": "Läs kortet.",
+   "instructionsEn": "Read the card.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Fler ord som frågan ofta byter ut.** Här är 10 nya ord.\n\n| ord | enkelt sagt | English | فارسی |\n|---|---|---|---|\n| **förbjuda** (förbjöd) | säga att man inte får | forbid, ban | ممنوع کردن |\n| **kräva** | säga att man måste | demand, require | الزام کردن، خواستن |\n| **skillnad** | det som är olika | difference | تفاوت |\n| **ersätta** | sätta något nytt på samma plats | replace | جایگزین کردن |\n| **delta i** (deltog) | vara med | participate | شرکت کردن |\n| **innebära** | betyda, få som följd | mean, imply | به معنای ... بودن |\n| **bidra till** (bidrog) | hjälpa till så att något händer | contribute | کمک کردن به |\n| **undersökning** | man frågar många och tar reda på något | survey, study | تحقیق، نظرسنجی |\n| **tidigare** | före, förut | earlier, previously | قبلاً |\n| **vanligtvis** | oftast | usually | معمولاً |\n\n**Tips:** Ord som *vanligtvis, oftast, vanligen* betyder nästan samma sak. I en fråga kan texten ha ett av dem och frågan ett annat.",
+     "image": {
+      "src": "ord.svg",
+      "alt": "Fem ord och deras enkla förklaring: förbjuda, kräva, skillnad, ersätta, delta i",
+      "caption": "ord = enklare ord"
+     }
+    }
+   ]
+  },
+  {
+   "id": "para",
+   "title": "Del 2: Ord ↔ enkla ord",
+   "titleEn": "Part 2: Word ↔ simple words",
+   "instructions": "Välj den enkla förklaringen. Ett alternativ blir över.",
+   "instructionsEn": "Choose the simple explanation. One option is extra.",
+   "parts": [
+    {
+     "heading": "Vad betyder ordet?",
+     "headingEn": "What does the word mean?",
+     "options": [
+      "säga att man måste göra något",
+      "vara med",
+      "oftast",
+      "det som är olika",
+      "säga att man inte får göra något",
+      "sätta något nytt på samma plats",
+      "betyda, få som följd"
+     ],
+     "items": [
+      {
+       "id": "s1",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "förbjuda",
+       "answer": 4,
+       "explain": "förbjuda = säga att man inte får.",
+       "explainEn": "förbjuda = forbid."
+      },
+      {
+       "id": "s2",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "delta i",
+       "answer": 1,
+       "explain": "delta i = vara med.",
+       "explainEn": "delta i = take part."
+      },
+      {
+       "id": "s3",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "innebära",
+       "answer": 6,
+       "explain": "innebära = betyda. 'Det innebär att vi stänger' = det betyder att vi stänger.",
+       "explainEn": "innebära = mean."
+      },
+      {
+       "id": "s4",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "kräva",
+       "answer": 0,
+       "explain": "kräva = säga att man måste.",
+       "explainEn": "kräva = demand."
+      },
+      {
+       "id": "s5",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "ersätta",
+       "answer": 5,
+       "explain": "ersätta = sätta något nytt istället.",
+       "explainEn": "ersätta = replace."
+      },
+      {
+       "id": "s6",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "skillnad",
+       "answer": 3,
+       "explain": "skillnad = det som är olika. (Extra alternativ: oftast = vanligtvis.)",
+       "explainEn": "skillnad = difference. (Extra option: oftast = vanligtvis.)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "janej",
+   "title": "Del 3: Ja eller Nej?",
+   "titleEn": "Part 3: Yes or No?",
+   "instructions": "Läs texten. Stämmer meningen med texten?",
+   "instructionsEn": "Read the text. Does the sentence match?",
+   "items": [
+    {
+     "id": "j1",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "läs.synonym"
+     ],
+     "q": "Text: \"Enligt en ny undersökning tränar hälften av svenskarna minst en gång i veckan. Man har frågat 2 000 personer.\"\nStämmer det? \"Undersökningen bygger på frågor till många människor.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 0,
+     "explain": "undersökning = man frågar många och tar reda på något.",
+     "explainEn": "undersökning = survey."
+    },
+    {
+     "id": "j2",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "läs.synonym"
+     ],
+     "q": "Text: \"Tidigare kostade biljetten 30 kronor. Nu kostar den 40.\"\nStämmer det? \"Biljetten är billigare nu.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 1,
+     "explain": "tidigare = förut. Då 30, nu 40 → dyrare nu.",
+     "explainEn": "tidigare = before. 30 then, 40 now → more expensive."
+    },
+    {
+     "id": "j3",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "läs.synonym"
+     ],
+     "q": "Text: \"Frivilliga bidrog till att festen blev av. Utan dem hade det inte gått.\"\nStämmer det? \"Festen hade blivit av utan de frivilliga.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 1,
+     "explain": "bidra till = hjälpa. 'Utan dem hade det inte gått' = det behövdes dem.",
+     "explainEn": "bidra till = help make it happen; it would not have worked without them."
+    }
+   ]
+  },
+  {
+   "id": "skriv",
+   "title": "Del 4: Skriv ordet",
+   "titleEn": "Part 4: Write the word",
+   "instructions": "Skriv rätt ord.",
+   "instructionsEn": "Write the right word.",
+   "items": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "tags": [
+      "läs.ord"
+     ],
+     "q": "Arbetsgivaren ___ att man har ett giltigt körkort.",
+     "qEn": "The employer requires a valid driving licence.",
+     "answers": [
+      "kräver"
+     ],
+     "explain": "Presens: kräver.",
+     "explainEn": "Present: kräver.",
+     "base": "kräva"
+    },
+    {
+     "id": "g2",
+     "type": "gap",
+     "tags": [
+      "läs.ord"
+     ],
+     "q": "Hon ___ i tävlingen i fjol och kom på tredje plats.",
+     "qEn": "She took part in the competition last year.",
+     "answers": [
+      "deltog"
+     ],
+     "explain": "Preteritum: deltog (delta – deltog – deltagit).",
+     "explainEn": "Past: deltog.",
+     "base": "delta"
+    },
+    {
+     "id": "g3",
+     "type": "gap",
+     "tags": [
+      "läs.ord"
+     ],
+     "q": "___ äter jag lunch klockan tolv, men idag blev det senare.",
+     "qEn": "Usually I eat lunch at twelve.",
+     "answers": [
+      "vanligtvis",
+      "vanligen",
+      "oftast",
+      "normalt"
+     ],
+     "explain": "vanligtvis = oftast.",
+     "explainEn": "vanligtvis = usually."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "id": "061-lasord-1",
+ "title": "Läsord 1: orden i frågan",
+ "titleEn": "Reading words 1: the words in the question",
+ "mode": "practice",
+ "minutes": 5,
+ "intro": "Du missar frågor när ett ord i frågan är nytt. Här lär du dig tio ord som ofta kommer i läsprov. Ca 5 minuter.",
+ "introEn": "You miss questions when a word in the question is new. Learn ten words that often appear in reading tests. About 5 minutes.",
+ "sections": [
+  {
+   "id": "kort",
+   "title": "Del 1: Orden",
+   "titleEn": "Part 1: The words",
+   "instructions": "Läs kortet.",
+   "instructionsEn": "Read the card.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Orden i frågan är ofta andra än orden i texten.** Kan du ordet, hittar du svaret. Här är 10 ord som ofta kommer i läsprov.\n\n| ord | enkelt sagt | English | فارسی |\n|---|---|---|---|\n| **förmögenhet** | mycket pengar och saker man äger | fortune, wealth | ثروت |\n| **erbjuda** | ge någon chansen att få eller köpa något | offer | پیشنهاد دادن |\n| **försvinna** (försvann) | inte finnas kvar | disappear | ناپدید شدن |\n| **uppgift** | 1. information 2. en sak man ska göra | piece of information; task | اطلاعات / وظیفه |\n| **ansvara för** | ha ansvaret för något | be responsible for | مسئول بودن |\n| **påverka** | göra att något blir annorlunda | affect, influence | تأثیر گذاشتن |\n| **minska** | bli mindre | decrease | کم شدن |\n| **öka** | bli mer, större | increase | زیاد شدن |\n| **tillräcklig** | så mycket som man behöver | sufficient | کافی |\n| **möjlighet** | en chans att göra något | opportunity | امکان، فرصت |\n\n**Tips:** Känner du inte ett ord i frågan? Hitta stället i texten som handlar om samma sak. Där finns svaret.",
+     "image": {
+      "src": "ord.svg",
+      "alt": "Fem ord och deras enkla förklaring: förmögenhet, erbjuda, försvinna, ansvara för, tillräcklig",
+      "caption": "ord = enklare ord"
+     }
+    }
+   ]
+  },
+  {
+   "id": "para",
+   "title": "Del 2: Ord ↔ enkla ord",
+   "titleEn": "Part 2: Word ↔ simple words",
+   "instructions": "Välj den enkla förklaringen.",
+   "instructionsEn": "Choose the simple explanation.",
+   "parts": [
+    {
+     "heading": "Vad betyder ordet?",
+     "headingEn": "What does the word mean?",
+     "options": [
+      "bli större eller mer",
+      "mycket pengar och saker som man äger",
+      "ha ansvaret för något",
+      "så mycket som man behöver",
+      "ge någon chansen att få eller köpa något",
+      "bli mindre",
+      "en chans att göra något"
+     ],
+     "items": [
+      {
+       "id": "s1",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "erbjuda",
+       "answer": 4,
+       "explain": "erbjuda = ge någon chansen att få något.",
+       "explainEn": "erbjuda = offer."
+      },
+      {
+       "id": "s2",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "förmögenhet",
+       "answer": 1,
+       "explain": "förmögenhet = mycket pengar och saker.",
+       "explainEn": "förmögenhet = wealth."
+      },
+      {
+       "id": "s3",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "minska",
+       "answer": 5,
+       "explain": "minska = bli mindre. Motsatsen är öka (extra alternativ A).",
+       "explainEn": "minska = decrease; the opposite is öka (option A, the extra one)."
+      },
+      {
+       "id": "s4",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "tillräcklig",
+       "answer": 3,
+       "explain": "tillräcklig = så mycket som man behöver.",
+       "explainEn": "tillräcklig = enough."
+      },
+      {
+       "id": "s5",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "möjlighet",
+       "answer": 6,
+       "explain": "möjlighet = en chans.",
+       "explainEn": "möjlighet = chance."
+      },
+      {
+       "id": "s6",
+       "type": "select",
+       "tags": [
+        "läs.ord",
+        "läs.synonym"
+       ],
+       "q": "ansvara för",
+       "answer": 2,
+       "explain": "ansvara för = ha ansvaret.",
+       "explainEn": "ansvara för = be responsible for."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "janej",
+   "title": "Del 3: Ja eller Nej?",
+   "titleEn": "Part 3: Yes or No?",
+   "instructions": "Läs texten. Stämmer meningen med texten?",
+   "instructionsEn": "Read the text. Does the sentence match?",
+   "items": [
+    {
+     "id": "j1",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "läs.synonym"
+     ],
+     "q": "Text: \"Familjen Lind har en stor förmögenhet. De äger flera hus och många aktier.\"\nStämmer det? \"Familjen Lind har mycket pengar.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 0,
+     "explain": "förmögenhet = mycket pengar och saker.",
+     "explainEn": "förmögenhet = wealth."
+    },
+    {
+     "id": "j2",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "läs.synonym"
+     ],
+     "q": "Text: \"Biblioteket erbjuder gratis kurser i svenska för alla som bor i området.\"\nStämmer det? \"Man måste betala för kurserna.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 1,
+     "explain": "erbjuder gratis kurser = man får gå utan att betala.",
+     "explainEn": "erbjuder gratis = offers for free."
+    },
+    {
+     "id": "j3",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "läs.synonym"
+     ],
+     "q": "Text: \"Enligt uppgifter från kommunen bor 5 000 personer i staden.\"\nStämmer det? \"Kommunen har information om hur många som bor i staden.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 0,
+     "explain": "uppgift = information.",
+     "explainEn": "uppgift = information."
+    }
+   ]
+  },
+  {
+   "id": "skriv",
+   "title": "Del 4: Skriv ordet",
+   "titleEn": "Part 4: Write the word",
+   "instructions": "Skriv rätt form av ordet i parentesen.",
+   "instructionsEn": "Write the right form of the word in brackets.",
+   "items": [
+    {
+     "id": "g1",
+     "type": "gap",
+     "tags": [
+      "läs.ord"
+     ],
+     "q": "Hotellet ___ gratis frukost till alla gäster.",
+     "qEn": "The hotel offers free breakfast.",
+     "answers": [
+      "erbjuder"
+     ],
+     "explain": "Presens: erbjuder.",
+     "explainEn": "Present tense.",
+     "base": "erbjuda"
+    },
+    {
+     "id": "g2",
+     "type": "gap",
+     "tags": [
+      "läs.ord"
+     ],
+     "q": "Det snöade så mycket att bilen helt ___ under snön.",
+     "qEn": "The car disappeared under the snow.",
+     "answers": [
+      "försvann"
+     ],
+     "explain": "Preteritum: försvann.",
+     "explainEn": "Past: försvann.",
+     "base": "försvinna"
+    },
+    {
+     "id": "g3",
+     "type": "gap",
+     "tags": [
+      "läs.ord"
+     ],
+     "q": "Bensinpriset har ___ de senaste åren. Nu betalar vi mer.",
+     "qEn": "The petrol price has increased.",
+     "answers": [
+      "ökat"
+     ],
+     "explain": "har + supinum: ökat.",
+     "explainEn": "har + supine: ökat.",
+     "base": "öka"
+    }
+   ]
+  }
+ ]
+}

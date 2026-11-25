@@ -389,3 +389,8 @@
 
 - Short vocab/form lesson (~10 min): pattern cards (noun + -ig/-lig, forms -igt/-iga, silent g), 14 new words (riktig, nödvändig, lycklig, färdig, ledig, hungrig, försiktig, vänlig, hemlig, offentlig, osynlig, otrolig, ovanlig, giltig), 4 meaning mcq, 8 gaps (form + o- prefix), listening (Karin/Martin, silent-g words, Whisper 2%), 1 speak.
 - **Next step:** unchanged.
+
+## 2026-11-25 – Lessons 061, 062, 063 (very short word lessons)
+
+- 061 Läsord 1 (förmögenhet, erbjuda, försvinna, uppgift, ansvara för, påverka, minska, öka, tillräcklig, möjlighet), 062 Läsord 2 (förbjuda, kräva, skillnad, ersätta, delta i, innebära, bidra till, undersökning, tidigare, vanligtvis), 063 Små ord (några/inga, först=inte förrän, ordningstal, var femte, knappt, minst, varken…eller). ~5 min each: card, match, Ja/Nej, gaps.
+- **Next step:** unchanged; check results for läs.ord / ord.småord.

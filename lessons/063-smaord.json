@@ -1,0 +1,243 @@
+{
+ "id": "063-smaord",
+ "title": "Små ord som vänder svaret",
+ "titleEn": "Small words that flip the answer",
+ "mode": "practice",
+ "minutes": 5,
+ "intro": "Några eller inga? Först eller förrän? Ett litet ord ändrar svaret i Ja/Nej-frågor. Ca 5 minuter.",
+ "introEn": "Några or inga? Först or förrän? One small word changes the answer. About 5 minutes.",
+ "sections": [
+  {
+   "id": "kort",
+   "title": "Del 1: Orden",
+   "titleEn": "Part 1: The words",
+   "instructions": "Läs kortet.",
+   "instructionsEn": "Read the card.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Små ord vänder svaret.** I Ja/Nej-uppgifter är det ofta ett litet ord som avgör.\n\n| ord | betyder | fel tänkt |\n|---|---|---|\n| **några** (+ flera) | some, a few: det finns **några** | INTE \"none\" |\n| **inga / ingen / inget** | none, no | = noll |\n| **inte några** | = inga | |\n| **först** | 1. first 2. *inte förrän*: \"Banken öppnar **först** kl. 10\" = inte före 10 | |\n| **första, andra, tredje, fjärde, femte, sjätte, sjunde, åttonde, nionde, tionde** | ordningstal (1st, 2nd ...) | femte = **5th**, inte 5 |\n| **var femte / vart fjärde år** | en av fem / vart fjärde år = every 4th year | |\n| **en femtedel** | 1/5 (en tredjedel, en fjärdedel ...) | |\n| **bara** | only | |\n| **nästan** | almost (inte riktigt) | |\n| **knappt** | barely, a little less than | knappt hälften = mindre än hälften |\n| **minst / högst** | at least / at most | minst 200 = 200 eller mer |\n| **redan / ännu inte** | already / not yet | |\n| **varken … eller** | neither … nor | båda saknas |\n\n**فارسی:** *några* = چند تا (هست!) ، *inga* = هیچ (نیست!). *var femte* = از هر پنج تا یکی.",
+     "image": {
+      "src": "sma.svg",
+      "alt": "Små ord: några, inga, först, knappt, nästan",
+      "caption": "ett litet ord = ett annat svar"
+     }
+    }
+   ]
+  },
+  {
+   "id": "janej",
+   "title": "Del 2: Ja eller Nej?",
+   "titleEn": "Part 2: Yes or No?",
+   "instructions": "Läs texten. Stämmer meningen med texten? Titta på det lilla ordet.",
+   "instructionsEn": "Read the text. Does the sentence match? Watch the small word.",
+   "items": [
+    {
+     "id": "j1",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"I klassen finns några elever från Iran.\"\nStämmer det? \"Det finns inga elever från Iran i klassen.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 1,
+     "explain": "några = det finns några. inga = noll.",
+     "explainEn": "några = some, inga = none."
+    },
+    {
+     "id": "j2",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"Jag har inga syskon.\"\nStämmer det? \"Jag är enda barnet.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 0,
+     "explain": "inga syskon = noll syskon.",
+     "explainEn": "inga = none."
+    },
+    {
+     "id": "j3",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"Banken öppnar först klockan tio.\"\nStämmer det? \"Banken är stängd före klockan tio.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 0,
+     "explain": "först = inte före.",
+     "explainEn": "först = not before."
+    },
+    {
+     "id": "j4",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"Filmen börjar inte förrän klockan åtta.\"\nStämmer det? \"Filmen börjar klockan sju.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 1,
+     "explain": "inte förrän åtta = tidigast åtta.",
+     "explainEn": "not until eight."
+    },
+    {
+     "id": "j5",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"Kursen hålls vart tredje år. Den senaste var 2022.\"\nStämmer det? \"Nästa kurs är 2025.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 0,
+     "explain": "vart tredje år: 2022 + 3 = 2025.",
+     "explainEn": "every third year."
+    },
+    {
+     "id": "j6",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"I vår förening är var tredje medlem pensionär.\"\nStämmer det? \"En tredjedel av medlemmarna är pensionärer.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 0,
+     "explain": "var tredje = en av tre = en tredjedel.",
+     "explainEn": "every third = one third."
+    },
+    {
+     "id": "j7",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"Knappt hälften av eleverna klarade provet.\"\nStämmer det? \"Mer än hälften klarade provet.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 1,
+     "explain": "knappt hälften = lite mindre än hälften.",
+     "explainEn": "knappt = just under."
+    },
+    {
+     "id": "j8",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"Biljetten kostar minst 200 kronor.\"\nStämmer det? \"Biljetten kan kosta 150 kronor.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 1,
+     "explain": "minst 200 = 200 eller mer.",
+     "explainEn": "at least 200."
+    },
+    {
+     "id": "j9",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"Jag har varken bil eller cykel.\"\nStämmer det? \"Jag har cykel men inte bil.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 1,
+     "explain": "varken … eller = ingen av dem.",
+     "explainEn": "neither … nor."
+    },
+    {
+     "id": "j10",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"Jag har inte ätit ännu.\"\nStämmer det? \"Jag ska äta senare.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 0,
+     "explain": "ännu inte = inte än, men snart.",
+     "explainEn": "not yet."
+    },
+    {
+     "id": "j11",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"Det finns inte några lediga rum.\"\nStämmer det? \"Alla rum är upptagna.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 0,
+     "explain": "inte några = inga.",
+     "explainEn": "inte några = none."
+    },
+    {
+     "id": "j12",
+     "type": "mcq",
+     "tags": [
+      "läs.ord",
+      "ord.småord"
+     ],
+     "q": "Text: \"Klockan är nästan tolv.\"\nStämmer det? \"Klockan är över tolv.\"",
+     "qEn": "",
+     "options": [
+      "Ja",
+      "Nej"
+     ],
+     "answer": 1,
+     "explain": "nästan tolv = strax före tolv.",
+     "explainEn": "almost twelve = just before."
+    }
+   ]
+  }
+ ]
+}
