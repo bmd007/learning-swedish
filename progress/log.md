@@ -371,3 +371,10 @@
 - Full mock listening test (30 items, 35 min, A2 14 / B1 22), same shape as 025 and the official sample: Del 1 six phone messages (mcq, 4 options), Del 2 three messages + three radio bits (short), Del 3 dialogue Maja/Henrik (six short), Del 4 four real Klartext clips (maraton, lunch Vaggeryd, bombhot Italien, parahandboll) with 6 headlines, Del 5 four interviews with the same question (Vad gör du för att må bra på vintern?), 8 Rätt/Fel.
 - Listening traps only at exam rate: weekday correction (måndag → torsdag), number corrections (jackor, hyra), i övermorgon, kvart i sju, close-wording Rätt/Fel. 17 audios with pinned NST voices from different regions/ages, noise on about half; Whisper check all ≤ 4%.
 - **Next step:** unchanged; give 058 when the learner wants another full mock.
+
+## 2026-11-25 – Graded 042 (adjektiv för åsikter)
+
+- 17/19 auto (frisk→sund, h1 flera→stor). Speak A2+: all bullets, 4 word pairs. Learner noticed English structure in speech.
+  Main: "är att" + inte before verb (English drops "that"); jag tycker in the middle; prepositions med/på; när vs om.
+- → Fixed opinion frame (Jag tycker att / En fördel är att / En nackdel är att / En rimlig lösning är att) + Persian این است که.
+- **Next step:** 058 mock; practice 054 → 057 (056/057 cover att/bisats inte placement). Consider a short speaking drill with the frame.

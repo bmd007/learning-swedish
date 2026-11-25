@@ -1,0 +1,310 @@
+{
+  "lessonId": "042-adjektiv-asikter",
+  "attemptId": "2026-11-25T12-10-53-246Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-25T12:10:54.427Z",
+  "finishedAt": "2026-11-25T12:22:27.151Z",
+  "durationMin": 12,
+  "currentSection": null,
+  "sectionMinutes": {
+    "ord": 3.8,
+    "form": 1.8,
+    "lyssna": 2.4,
+    "tala": 3.5
+  },
+  "audioPlays": {
+    "a1": 3
+  },
+  "firstTry": {
+    "v1": true,
+    "v2": true,
+    "v3": true,
+    "v4": true,
+    "v5": true,
+    "v6": true,
+    "v7": true,
+    "v8": true,
+    "v9": true,
+    "v10": false,
+    "h1": false,
+    "h2": true,
+    "h3": true
+  },
+  "flags": [],
+  "score": {
+    "ord": {
+      "correct": 9,
+      "total": 10
+    },
+    "form": {
+      "correct": 6,
+      "total": 6
+    },
+    "lyssna": {
+      "correct": 2,
+      "total": 3
+    }
+  },
+  "items": [
+    {
+      "id": "v1",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Det finns en ___ skillnad mellan att bo i stan och på landet.",
+      "given": "stor",
+      "expected": "stor",
+      "correct": true
+    },
+    {
+      "id": "v2",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Att flytta till ett nytt land är ett ___ beslut.",
+      "given": "svårt",
+      "expected": "svårt",
+      "correct": true
+    },
+    {
+      "id": "v3",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vad ska vi göra med skolmaten? Det är en ___ fråga.",
+      "given": "viktig",
+      "expected": "viktig",
+      "correct": true
+    },
+    {
+      "id": "v4",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vi kan åka tåg i stället för flyg. Det är en ___ idé!",
+      "given": "bra",
+      "expected": "bra",
+      "correct": true
+    },
+    {
+      "id": "v5",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Han skickade mejlet till fel person. Det var ett ___ misstag.",
+      "given": "stort",
+      "expected": "stort",
+      "correct": true
+    },
+    {
+      "id": "v6",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Biljetten kostar 900 kronor. Det är ett för ___ pris.",
+      "given": "högt",
+      "expected": "högt",
+      "correct": true
+    },
+    {
+      "id": "v7",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Skolan har en ___ regel: inga mobiler på lektionerna.",
+      "given": "tydlig",
+      "expected": "tydlig",
+      "correct": true
+    },
+    {
+      "id": "v8",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Alla får lite, ingen blir arg. Det är en ___ lösning.",
+      "given": "rimlig",
+      "expected": "rimlig",
+      "correct": true
+    },
+    {
+      "id": "v9",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Att äta chips varje kväll är en ___ vana.",
+      "given": "dålig",
+      "expected": "dålig",
+      "correct": true
+    },
+    {
+      "id": "v10",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Jag försöker leva en ___ livsstil med motion och bra mat.",
+      "given": "frisk",
+      "expected": "sund",
+      "correct": false
+    },
+    {
+      "id": "f1",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Det var ett ___ beslut för hela familjen.",
+      "given": "svårt",
+      "expected": "svårt",
+      "correct": true
+    },
+    {
+      "id": "f2",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Att jobba hemma har många ___ fördelar.",
+      "given": "stora",
+      "expected": "stora",
+      "correct": true
+    },
+    {
+      "id": "f3",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Det här är ett ___ problem för många familjer.",
+      "given": "stort",
+      "expected": "stort",
+      "correct": true
+    },
+    {
+      "id": "f4",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Jag vill bryta mina ___ vanor.",
+      "given": "dåliga",
+      "expected": "dåliga",
+      "correct": true
+    },
+    {
+      "id": "f5",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Femtio kronor för en kaffe är ett ___ pris.",
+      "given": "högt",
+      "expected": "högt",
+      "correct": true
+    },
+    {
+      "id": "f6",
+      "section": "form",
+      "type": "gap",
+      "tags": [
+        "ordförråd.kollokation",
+        "adjektiv.kongruens"
+      ],
+      "prompt": "Vi valde den ___ lösningen.",
+      "given": "rimliga",
+      "expected": "rimliga",
+      "correct": true
+    },
+    {
+      "id": "h1",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilket ord använde Amir om fördelen med att jobba hemma?",
+      "given": "flera",
+      "expected": "stor",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "h2",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilket ord använde Amir om problemet att man blir ensam?",
+      "given": "stort",
+      "expected": "stort",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "h3",
+      "section": "lyssna",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Vilket ord använde Amir om lösningen med två dagar hemma?",
+      "given": "rimlig",
+      "expected": "rimlig",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "s1",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.argumentera",
+        "ordförråd.kollokation"
+      ],
+      "prompt": "Är det bra eller dåligt att barn har mobiltelefon? Säg vad du tycker.",
+      "given": {
+        "recording": "042-adjektiv-asikter__s1__20261125-132224.webm",
+        "transcript": "Jag tycker att det är en  det är en svår fråga om barn kan ha mobiltelefon eller inte  barn kan använda mobiltelefon når  jeg var her i  Vårby Hoover  andra personer  men barn kan  också  spela för mycket med mobiltelefoner  en stor  fordel av mobiltelefon  är  kommunikation med barn  en stor knackdel er  barn can she kan inte  fokusera  på  på  lektionen om våren är i  om barn är i skolan  Jag tycker att  er  barn kan ha Bare  Gammel  mobiltelefon  så  som har  game på det",
+        "seconds": 150
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-25T13:22:27"
+}

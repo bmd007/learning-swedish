@@ -59,3 +59,5 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `substantiv.form` (026) – *Vilken tåg / Min tåg* (ett tåg), *affaren* (affärer), *min grann* (granne).
 - `ord.val` (026) – lämna dig från stationen (hämta dig på), stark ont (väldigt ont), tog om mig (tog hand om), på centrum (i), i kväll for past (på kvällen), Sara ska fylla (fyller).
 - `hör.detalj` (027, real radio) – q1 *Vad har hon på sig?* → answered *dusch* (a clear later word) instead of **mössa**; same family as 025 q9/q11 + `instruktion`. q4 missed **varsin** (bor i varsin lägenhet = apart) → chose the option with the heard word *servicelägenhet*.
+- `tal.engelsk-struktur` (042 speak) – learner: "I end up speaking English with Swedish words". *En nackdel är barn kan inte* (är att + inte before verb), *En rimlig lösning jag tycker att är …*, *fördel av* (med), *spela med mobilen* (på), *om* for time (när), *game* (spel). Fix: fixed frame "X är att + subject + inte + verb"; Persian این است که = är att.
+- `ord.kollokation` (042) – *frisk livsstil* (sund).
