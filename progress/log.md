@@ -365,3 +365,9 @@
 - Final 15/17, first try 10/16 (~65 %). Misses: q1 answered a heard word (*dusch*) not the asked thing (*ha på sig* → mössa); q4 *varsin* (apart). Numbers right only on 2nd try (q6).
 - Note: a 054 draft in results/drafts/ (step 3, 0 answers, 2026-11-24 20:15) was created by Claude's headless UI test, not the learner. Delete it.
 - **Next step:** 054 → 055 → 056 → 057 → 053; mock 058 when built.
+
+## 2026-11-25 – Lesson 058: Hörprov Swedex A2B1, provtest 2
+
+- Full mock listening test (30 items, 35 min, A2 14 / B1 22), same shape as 025 and the official sample: Del 1 six phone messages (mcq, 4 options), Del 2 three messages + three radio bits (short), Del 3 dialogue Maja/Henrik (six short), Del 4 four real Klartext clips (maraton, lunch Vaggeryd, bombhot Italien, parahandboll) with 6 headlines, Del 5 four interviews with the same question (Vad gör du för att må bra på vintern?), 8 Rätt/Fel.
+- Listening traps only at exam rate: weekday correction (måndag → torsdag), number corrections (jackor, hyra), i övermorgon, kvart i sju, close-wording Rätt/Fel. 17 audios with pinned NST voices from different regions/ages, noise on about half; Whisper check all ≤ 4%.
+- **Next step:** unchanged; give 058 when the learner wants another full mock.

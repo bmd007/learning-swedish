@@ -1,0 +1,1277 @@
+{
+  "id": "058-horprov-swedex-2",
+  "title": "Hörprov: Swedex A2B1 – provtest 2",
+  "titleEn": "Listening test: Swedex A2B1 – mock test 2",
+  "mode": "exam",
+  "timeLimit": 35,
+  "minutes": 35,
+  "scoring": {
+    "max": 30,
+    "A2": 14,
+    "B1": 22
+  },
+  "intro": "Det här är ett helt hörprov som på riktiga Swedex, provtest 2. 30 poäng, fem delar. Varje inspelning spelas två gånger i rad, utan paus. Du skriver medan du lyssnar. Några inspelningar har bakgrundsljud, och några personer pratar snabbt. Läs frågorna först: titta på frågeordet (när, hur mycket, var, varför). Lyssna i lugn och ro. Om någon rättar sig själv gäller det sista. Gränser: A2 = 14 poäng, B1 = 22 poäng. Använd hörlurar.",
+  "introEn": "A full listening test like the real Swedex, mock test 2. 30 points, five parts. Every recording plays twice back to back with no pause. You write while listening. Some recordings have background noise. Read the questions first and look at the question word (when, how much, where, why). If a speaker corrects themselves, the last version counts. Limits: A2 = 14, B1 = 22. Use headphones.",
+  "sections": [
+    {
+      "id": "del1",
+      "title": "Hör del 1: Telefonmeddelanden",
+      "titleEn": "Listening part 1: Phone messages",
+      "instructions": "Du hör sex korta meddelanden. Varje meddelande har en fråga. Välj rätt svar (A, B, C eller D). Varje meddelande spelas två gånger.",
+      "instructionsEn": "Six short messages, one question each. Choose A, B, C or D. Each plays twice.",
+      "parts": [
+        {
+          "heading": "Meddelande 1",
+          "headingEn": "Message 1",
+          "audio": {
+            "id": "m1",
+            "title": "Meddelande 1 – frisören",
+            "maxPlays": 2,
+            "speakers": {
+              "Röst": {
+                "voice": "f",
+                "cast": "nst-f29-stockholm-302"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Hej, det här är Anna Berglund. Jag har en tid hos er i morgon klockan tre, men jag kan tyvärr inte komma, för jag måste jobba över. Skulle jag kunna få en annan tid, kanske på fredag? Jag ska bara klippa toppen, så det tar inte så lång tid. Ring mig gärna på noll sju sex, fyra två nio, sju ett noll. Tack så mycket, hej då."
+              }
+            ],
+            "context": "Telefonmeddelande (Anna ringer utomhus)",
+            "noise": {
+              "sound": "rain",
+              "level": 0.3
+            }
+          },
+          "items": [
+            {
+              "id": "q1",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Vad vill Anna göra?",
+              "qEn": "What does Anna want to do?",
+              "options": [
+                "Boka en ny frisör",
+                "Flytta sin tid",
+                "Fråga vad det kostar",
+                "Köpa ett presentkort"
+              ],
+              "answer": 1,
+              "explain": "Hon har tid i morgon men kan inte komma och vill ha en annan tid = flytta tiden.",
+              "explainEn": "She wants another time = move the appointment."
+            }
+          ],
+          "image": {
+            "src": "hor-del-1.svg",
+            "alt": "En telefon med sex meddelanden",
+            "caption": "Del 1: sex korta meddelanden"
+          }
+        },
+        {
+          "heading": "Meddelande 2",
+          "headingEn": "Message 2",
+          "audio": {
+            "id": "m2",
+            "title": "Meddelande 2 – vårdcentralen",
+            "maxPlays": 2,
+            "speakers": {
+              "Röst": {
+                "voice": "f",
+                "cast": "nst-f47-mellansverige-080"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Hej och välkommen till Vårdcentralen Björkgården. Doktor Persson är sjuk den här veckan. Hon skulle ha varit tillbaka på måndag, men det blir tyvärr inte förrän på torsdag. Om du har en tid hos henne före det, kommer vi att ringa dig. Vid akuta problem kan du ringa elva sjuttiosju, dygnet runt. Vill du boka en ny tid kan du ringa oss efter klockan åtta."
+              }
+            ],
+            "context": "Inspelat meddelande från en vårdcentral"
+          },
+          "items": [
+            {
+              "id": "q2",
+              "type": "mcq",
+              "tags": [
+                "hör.tid"
+              ],
+              "q": "När är doktor Persson tillbaka?",
+              "qEn": "When is Dr Persson back?",
+              "options": [
+                "På måndag",
+                "På tisdag",
+                "På torsdag",
+                "På fredag"
+              ],
+              "answer": 2,
+              "explain": "'skulle ha varit tillbaka på måndag, men … först på torsdag'. Det som ändrats gäller.",
+              "explainEn": "Monday was the plan; it is now Thursday."
+            }
+          ]
+        },
+        {
+          "heading": "Meddelande 3",
+          "headingEn": "Message 3",
+          "audio": {
+            "id": "m3",
+            "title": "Meddelande 3 – Lisa",
+            "maxPlays": 2,
+            "speakers": {
+              "Röst": {
+                "voice": "f",
+                "cast": "nst-f53-vastra-sydsverige-449"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Hej Anders, det är Lisa. Du, jag ringer om lördagen hos mamma. Hon fyller ju sjuttio, så vi ska ha lite kalas. Maria tar med tårtan och jag har bakat kakor. Då behöver vi bara kaffe, för mamma har slut hemma. Kan du köpa det? Blommor har jag redan, så dem behöver du inte tänka på. Hör av dig om du har frågor. Hej då!"
+              }
+            ],
+            "context": "Telefonmeddelande (Lisa ringer hemifrån)",
+            "noise": {
+              "sound": "kitchen",
+              "level": 0.3
+            }
+          },
+          "items": [
+            {
+              "id": "q3",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Vad vill Lisa att Anders tar med?",
+              "qEn": "What does Lisa want Anders to bring?",
+              "options": [
+                "Kaffe",
+                "Kakor",
+                "En tårta",
+                "Blommor"
+              ],
+              "answer": 0,
+              "explain": "Tårta = Maria, kakor och blommor = Lisa. Anders ska köpa kaffe.",
+              "explainEn": "Cake = Maria; biscuits and flowers = Lisa; Anders = coffee."
+            }
+          ]
+        },
+        {
+          "heading": "Meddelande 4",
+          "headingEn": "Message 4",
+          "audio": {
+            "id": "m4",
+            "title": "Meddelande 4 – Peter",
+            "maxPlays": 2,
+            "speakers": {
+              "Röst": {
+                "voice": "m",
+                "cast": "nst-m35-goteborg-282"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Hej, det är Peter. Du, jag har ett litet problem. Jag är på jobbet och skulle gå ut och äta lunch, men jag har glömt plånboken hemma. Nyckelkortet har jag, det ligger i jackan. Plånboken ligger på köksbordet. Kan du ta med den när du kommer in till stan i eftermiddag? Tack, du är bäst. Hej!"
+              }
+            ],
+            "context": "Telefonmeddelande",
+            "noise": {
+              "sound": "vacuum",
+              "level": 0.25
+            }
+          },
+          "items": [
+            {
+              "id": "q4",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Vad har Peter glömt?",
+              "qEn": "What has Peter forgotten?",
+              "options": [
+                "Nyckelkortet",
+                "Telefonen",
+                "Jackan",
+                "Plånboken"
+              ],
+              "answer": 3,
+              "explain": "Nyckelkortet har han med sig i jackan. Plånboken ligger hemma.",
+              "explainEn": "The key card is in his jacket. The wallet is at home."
+            }
+          ]
+        },
+        {
+          "heading": "Meddelande 5",
+          "headingEn": "Message 5",
+          "audio": {
+            "id": "m5",
+            "title": "Meddelande 5 – Jonas",
+            "maxPlays": 2,
+            "speakers": {
+              "Röst": {
+                "voice": "m",
+                "cast": "nst-m57-norrland-602"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Hej Sofia, det är Jonas. Du, angående stugan på fredag. Jag skulle ju köra, men Per behöver bilen på jobbet, så vi åker tåg i stället. Det går klockan åtta och femton från Centralen. Det finns en buss också, men den tar nästan två timmar, så tåget är bättre. Du behöver inte köpa någon biljett, jag fixar det. Vi ses vid spårtavlan. Hej!"
+              }
+            ],
+            "context": "Telefonmeddelande (Jonas ringer från ett kafé)",
+            "noise": {
+              "sound": "cafe",
+              "level": 0.3
+            }
+          },
+          "items": [
+            {
+              "id": "q5",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Hur ska Jonas och Sofia åka till stugan?",
+              "qEn": "How will they go to the cottage?",
+              "options": [
+                "Med bil",
+                "Med tåg",
+                "Med buss",
+                "Med cykel"
+              ],
+              "answer": 1,
+              "explain": "Bilen går inte (Per behöver den). Bussen tar för lång tid. De tar tåget.",
+              "explainEn": "Not the car, not the bus: the train."
+            }
+          ]
+        },
+        {
+          "heading": "Meddelande 6",
+          "headingEn": "Message 6",
+          "audio": {
+            "id": "m6",
+            "title": "Meddelande 6 – grannen",
+            "maxPlays": 2,
+            "speakers": {
+              "Röst": {
+                "voice": "m",
+                "cast": "nst-m19-mellansverige-745"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Hej, det här är Mats, din granne på tredje våningen. Jag ringer för att det kom ett paket till dig i morse. Brevbäraren ringde på hos mig, eftersom du inte var hemma. Jag är hemma hela kvällen, så du kan hämta det när du vill. Det är ganska stort, det väger nog tio kilo. Ja, hör av dig. Hej då."
+              }
+            ],
+            "context": "Telefonmeddelande (Mats ringer hemifrån)",
+            "noise": {
+              "sound": "kids",
+              "level": 0.3
+            }
+          },
+          "items": [
+            {
+              "id": "q6",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Varför ringer Mats?",
+              "qEn": "Why is Mats calling?",
+              "options": [
+                "Han vill låna något",
+                "Han klagar på oljud",
+                "Han har ett paket till henne",
+                "Han vill bjuda henne på fest"
+              ],
+              "answer": 2,
+              "explain": "Paketet kom till honom när hon inte var hemma.",
+              "explainEn": "The parcel came to him while she was out."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "del2",
+      "title": "Hör del 2: Meddelanden och radio",
+      "titleEn": "Listening part 2: Messages and radio",
+      "instructions": "Du hör tre meddelanden och tre radioinslag. Svara på frågorna med 1–5 ord. Skriv kort.",
+      "instructionsEn": "Three messages and three radio bits. Answer with 1–5 words.",
+      "parts": [
+        {
+          "heading": "Meddelande 7",
+          "headingEn": "Message 7",
+          "audio": {
+            "id": "a1",
+            "title": "Meddelande – Café Kardemumman",
+            "maxPlays": 2,
+            "speakers": {
+              "Röst": {
+                "voice": "f",
+                "cast": "nst-f19-ostergotland-063"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Hej och välkommen till Café Kardemumman! Du har ringt utanför våra öppettider. Vi har öppet alla dagar till klockan sex på kvällen, men på söndagar stänger vi redan klockan fyra. Idag har vi nybakade kanelbullar och en ny tårta med jordgubbar. Välkommen!"
+              }
+            ],
+            "context": "Inspelat meddelande från ett kafé"
+          },
+          "items": [
+            {
+              "id": "q7",
+              "type": "short",
+              "tags": [
+                "hör.tid",
+                "hör.kortsvar"
+              ],
+              "q": "Hur dags stänger kaféet på söndagar?",
+              "qEn": "What time does the café close on Sundays?",
+              "answers": [
+                "fyra",
+                "4",
+                "16",
+                "kl 4",
+                "klockan 4",
+                "klockan fyra",
+                "fjra"
+              ],
+              "explain": "Alla dagar sex, men söndagar redan fyra.",
+              "explainEn": "Sundays: four, not six."
+            }
+          ],
+          "image": {
+            "src": "hor-del-2.svg",
+            "alt": "En radio, en kopp kaffe och en snöflinga",
+            "caption": "Del 2: svara med 1–5 ord"
+          }
+        },
+        {
+          "heading": "Meddelande 8",
+          "headingEn": "Message 8",
+          "audio": {
+            "id": "a2",
+            "title": "Utrop – klädbutiken",
+            "maxPlays": 2,
+            "speakers": {
+              "Röst": {
+                "voice": "f",
+                "cast": "nst-f63-ostra-sydsverige-451"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Hej alla kunder! Nu har vi stor rea på vinterjackor. Alla jackor kostar vanligtvis åttahundranittio kronor, men nu får du dem för femhundra … nej förlåt, fyrahundra kronor. Det gäller bara i dag och i morgon, så passa på!"
+              }
+            ],
+            "context": "Utrop i en klädbutik",
+            "noise": {
+              "sound": "cafe",
+              "level": 0.25
+            }
+          },
+          "items": [
+            {
+              "id": "q8",
+              "type": "short",
+              "tags": [
+                "hör.siffror",
+                "hör.kortsvar"
+              ],
+              "q": "Hur mycket kostar jackorna på rean?",
+              "qEn": "How much do the jackets cost in the sale?",
+              "answers": [
+                "400",
+                "fyrahundra",
+                "fyra hundra",
+                "400 kr",
+                "400 kronor",
+                "fyrahundra kronor",
+                "fyrhundra"
+              ],
+              "explain": "'femhundra … nej förlåt, fyrahundra'. Rättelsen gäller.",
+              "explainEn": "Corrected: 400."
+            }
+          ]
+        },
+        {
+          "heading": "Meddelande 9",
+          "headingEn": "Message 9",
+          "audio": {
+            "id": "a3",
+            "title": "Meddelande – Gunnar",
+            "maxPlays": 2,
+            "speakers": {
+              "Röst": {
+                "voice": "m",
+                "cast": "nst-m67-dalarna-048"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Hej Elin, det är Gunnar. Jag tänkte att vi går på bio i kväll, på den nya filmen. Den börjar halv åtta, men jag tycker att vi ses lite tidigare, så vi hinner köpa popcorn. Kan vi ses kvart i sju utanför ingången? Skicka ett sms om det inte funkar. Jag sitter i bilen nu, så jag kan inte svara. Hej!"
+              }
+            ],
+            "context": "Telefonmeddelande (Gunnar ringer från bilen)",
+            "noise": {
+              "sound": "car",
+              "level": 0.3
+            }
+          },
+          "items": [
+            {
+              "id": "q9",
+              "type": "short",
+              "tags": [
+                "hör.tid",
+                "hör.kortsvar"
+              ],
+              "q": "Hur dags ska Gunnar och Elin träffas?",
+              "qEn": "What time will Gunnar and Elin meet?",
+              "answers": [
+                "kvart i sju",
+                "18.45",
+                "6.45",
+                "18:45",
+                "18.45",
+                "kvart i 7",
+                "kl 18.45",
+                "sju minus kvart",
+                "femton minuter i sju"
+              ],
+              "explain": "Filmen börjar halv åtta, men de ses kvart i sju (= 18.45).",
+              "explainEn": "Film 19.30; they meet at 18.45."
+            }
+          ]
+        },
+        {
+          "heading": "Radioprogram 10",
+          "headingEn": "Radio 10",
+          "audio": {
+            "id": "a4",
+            "title": "Radio – vädret",
+            "maxPlays": 2,
+            "speakers": {
+              "Röst": {
+                "voice": "f",
+                "cast": "nst-f41-ostra-sydsverige-424"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Hej och välkommen tillbaka till Morgonradion. Det är tisdag och nu är det dags för vädret. I dag blir det mulet med lite regn i södra Sverige, och i morgon är det samma sak. Men i övermorgon vänder det. Då kommer den första snön i norra Sverige, och den ligger troligen kvar under hela helgen. Så ta fram vinterjackan, ni som bor i norr!"
+              }
+            ],
+            "context": "Radio, morgonprogram"
+          },
+          "items": [
+            {
+              "id": "q10",
+              "type": "short",
+              "tags": [
+                "hör.tid",
+                "hör.kortsvar"
+              ],
+              "q": "Vilken dag kommer snön i norra Sverige?",
+              "qEn": "Which day will the snow come in northern Sweden?",
+              "answers": [
+                "torsdag",
+                "på torsdag",
+                "i torsdag",
+                "torsdagen",
+                "tordag"
+              ],
+              "explain": "Det är tisdag nu. I morgon = onsdag, i övermorgon = torsdag.",
+              "explainEn": "Today Tuesday; the day after tomorrow = Thursday."
+            }
+          ]
+        },
+        {
+          "heading": "Radioprogram 11",
+          "headingEn": "Radio 11",
+          "audio": {
+            "id": "a5",
+            "title": "Radio – kulturnytt",
+            "maxPlays": 2,
+            "speakers": {
+              "Nyheter": {
+                "voice": "m",
+                "cast": "nst-m60-mellansverige-078"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Nyheter",
+                "text": "Och nu lite kultur. På fredag klockan sju är det gratis julkonsert med kören Vinterklang. Konserten är i Stadsparken, men om det regnar eller snöar flyttas den till Kulturhuset. Ingen biljett behövs, men kom i tid, för det brukar bli fullt. Efter konserten säljer kören glögg."
+              }
+            ],
+            "context": "Radio, kulturnytt"
+          },
+          "items": [
+            {
+              "id": "q11",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "hör.kortsvar"
+              ],
+              "q": "Var är konserten om vädret är dåligt?",
+              "qEn": "Where is the concert if the weather is bad?",
+              "answers": [
+                "kulturhuset",
+                "på kulturhuset",
+                "i kulturhuset",
+                "kulturhus",
+                "kulturhuset."
+              ],
+              "explain": "Stadsparken vid bra väder, Kulturhuset vid regn eller snö.",
+              "explainEn": "Kulturhuset if it rains or snows."
+            }
+          ]
+        },
+        {
+          "heading": "Radioprogram 12",
+          "headingEn": "Radio 12",
+          "audio": {
+            "id": "a6",
+            "title": "Radio – badhuset",
+            "maxPlays": 2,
+            "speakers": {
+              "Röst": {
+                "voice": "f",
+                "cast": "nst-f32-dalarna-289"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Röst",
+                "text": "Badhuset i Örebro är stängt hela den här veckan. Det är fel på ventilationen, och det är för varmt och fuktigt för att man ska kunna simma. Simskolan för barn flyttas till Vasaskolan och börjar som vanligt på måndag. Badhuset öppnar igen först nästa fredag, hoppas man."
+              }
+            ],
+            "context": "Radio, lokalnyheter"
+          },
+          "items": [
+            {
+              "id": "q12",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "hör.kortsvar"
+              ],
+              "q": "Varför är badhuset stängt?",
+              "qEn": "Why is the swimming pool closed?",
+              "answers": [
+                "ventilation",
+                "ventilationen",
+                "fel på ventilationen",
+                "fel på ventilation",
+                "ventilationen är trasig",
+                "ventilationen är fel"
+              ],
+              "explain": "'fel på ventilationen'.",
+              "explainEn": "The ventilation is broken."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "del3",
+      "title": "Hör del 3: Dialog",
+      "titleEn": "Listening part 3: Dialogue",
+      "instructions": "Du hör en dialog. Svara på frågorna med 1–5 ord. Frågorna kommer i samma ordning som i samtalet.",
+      "instructionsEn": "One dialogue. Answer with 1–5 words. The questions follow the order of the conversation.",
+      "parts": [
+        {
+          "heading": "Dialog: Maja och Henrik pratar i telefon",
+          "headingEn": "Dialogue: Maja and Henrik on the phone",
+          "image": {
+            "src": "hor-del-3.svg",
+            "alt": "Maja på en station med en telefon",
+            "caption": "Del 3: en dialog"
+          },
+          "audio": {
+            "id": "d1",
+            "title": "Dialog – Maja på stationen",
+            "maxPlays": 2,
+            "speakers": {
+              "Maja": {
+                "voice": "f",
+                "cast": "nst-f28-goteborg-329"
+              },
+              "Henrik": {
+                "voice": "m",
+                "cast": "nst-m29-ostra-sydsverige-x94"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Henrik",
+                "text": "Hej Maja! Var är du? Det låter som en station."
+              },
+              {
+                "speaker": "Maja",
+                "text": "Ja, precis. Jag står på centralen i Västerås. Jag ska med tåget till Uppsala och titta på en lägenhet."
+              },
+              {
+                "speaker": "Henrik",
+                "text": "Va? Ska du flytta? Det har du inte sagt nåt om!"
+              },
+              {
+                "speaker": "Maja",
+                "text": "Nä, jag har inte vågat säga det förrän nu. Den ligger nära jobbet, så jag skulle slippa pendla. Mäklaren ringde nyss, förresten. Visningen skulle vara klockan fem, men den är flyttad till klockan sex."
+              },
+              {
+                "speaker": "Henrik",
+                "text": "Jaha, då hinner du äta först. Vad kostar den, då?"
+              },
+              {
+                "speaker": "Maja",
+                "text": "Hyran är nio tusen … nej, nu minns jag fel. Åtta tusen femhundra i månaden. Det är ganska dyrt, men den har balkong."
+              },
+              {
+                "speaker": "Henrik",
+                "text": "Balkong är bra. Och din gamla soffa då? Skulle du inte sälja den?"
+              },
+              {
+                "speaker": "Maja",
+                "text": "Jo, den sålde jag i lördags. Jag tänkte först ta tusen kronor för den, men jag fick bara fyrahundra."
+              },
+              {
+                "speaker": "Henrik",
+                "text": "Aj. Men bra att den är borta. Hur ska du få dit alla dina saker? Har du bil?"
+              },
+              {
+                "speaker": "Maja",
+                "text": "Nej, men min bror har en skåpbil, så den får jag låna. Han hjälper mig också."
+              },
+              {
+                "speaker": "Henrik",
+                "text": "Perfekt. Behöver du kartonger? Jag har massor i källaren."
+              },
+              {
+                "speaker": "Maja",
+                "text": "Ja, tack, det vore jättebra. Då behöver jag bara köpa tejp."
+              },
+              {
+                "speaker": "Henrik",
+                "text": "Okej. Vi hörs sen. Lycka till med visningen!"
+              }
+            ],
+            "context": "Telefonsamtal (Maja är på en station)",
+            "noise": {
+              "sound": "train",
+              "level": 0.3
+            }
+          },
+          "items": [
+            {
+              "id": "q13",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "hör.kortsvar"
+              ],
+              "q": "Vart är Maja på väg och varför?",
+              "qEn": "Where is Maja going, and why?",
+              "answers": [
+                "uppsala",
+                "lägenhet",
+                "titta på en lägenhet",
+                "en lägenhet",
+                "flytta"
+              ],
+              "explain": "Hon åker till Uppsala för att titta på en lägenhet.",
+              "explainEn": "To Uppsala to see a flat."
+            },
+            {
+              "id": "q14",
+              "type": "short",
+              "tags": [
+                "hör.tid",
+                "hör.kortsvar"
+              ],
+              "q": "Vilken tid är visningen?",
+              "qEn": "What time is the viewing?",
+              "answers": [
+                "sex",
+                "6",
+                "18",
+                "kl 6",
+                "klockan sex",
+                "18.00",
+                "6.00"
+              ],
+              "explain": "Först klockan fem, men flyttad till klockan sex.",
+              "explainEn": "First five, moved to six."
+            },
+            {
+              "id": "q15",
+              "type": "short",
+              "tags": [
+                "hör.siffror",
+                "hör.kortsvar"
+              ],
+              "q": "Hur mycket kostar hyran i månaden?",
+              "qEn": "What is the rent per month?",
+              "answers": [
+                "8500",
+                "8 500",
+                "8.500",
+                "åttatusenfemhundra",
+                "åtta tusen femhundra",
+                "åtta tusen fem hundra",
+                "åttatusen femhundra",
+                "8500 kr",
+                "8 500 kr"
+              ],
+              "explain": "'nio tusen … nej … åtta tusen femhundra'.",
+              "explainEn": "Corrected: 8,500."
+            },
+            {
+              "id": "q16",
+              "type": "short",
+              "tags": [
+                "hör.siffror",
+                "hör.kortsvar"
+              ],
+              "q": "Hur mycket fick Maja för soffan?",
+              "qEn": "How much did Maja get for the sofa?",
+              "answers": [
+                "400",
+                "fyrahundra",
+                "fyra hundra",
+                "400 kr",
+                "400 kronor",
+                "fyrhundra"
+              ],
+              "explain": "Hon ville ha tusen men fick fyrahundra.",
+              "explainEn": "She wanted 1,000 but got 400."
+            },
+            {
+              "id": "q17",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "hör.kortsvar"
+              ],
+              "q": "Hur ska hon flytta sina saker?",
+              "qEn": "How will she move her things?",
+              "answers": [
+                "skåpbil",
+                "skåpbilen",
+                "en skåpbil",
+                "lånar en bil",
+                "bil",
+                "lånar broderns bil",
+                "med en skåpbil",
+                "hennes bror",
+                "med bil"
+              ],
+              "explain": "Hennes bror har en skåpbil som hon får låna.",
+              "explainEn": "Her brother's van."
+            },
+            {
+              "id": "q18",
+              "type": "short",
+              "tags": [
+                "hör.detalj",
+                "hör.kortsvar"
+              ],
+              "q": "Vad behöver Maja köpa?",
+              "qEn": "What does Maja need to buy?",
+              "answers": [
+                "tejp",
+                "packtejp",
+                "tejp."
+              ],
+              "explain": "Kartonger får hon av Henrik. Hon köper bara tejp.",
+              "explainEn": "Henrik gives boxes; she buys tape."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "del4",
+      "title": "Hör del 4: Radioinslag och rubriker",
+      "titleEn": "Listening part 4: Radio items and headlines",
+      "instructions": "Du hör fyra radioinslag. Välj rätt rubrik till varje inslag. Två rubriker passar inte.",
+      "instructionsEn": "Four radio items. Choose the headline for each. Two headlines are extra.",
+      "parts": [
+        {
+          "heading": "Radioinslag 1",
+          "headingEn": "Radio item 1",
+          "options": [
+            "A. Mejlhot mot skolor – hundratals stängde",
+            "B. Kommunen väntar med att ändra lunchen",
+            "C. Dyrare lunch för deltagare i daglig verksamhet",
+            "D. Första maratonloppet blev en seger för svensk löpare",
+            "E. Polisen har gripit mannen bakom hoten",
+            "F. Tjejer samlades på läger för parahandboll"
+          ],
+          "audio": {
+            "id": "r1",
+            "title": "Inslag 1 – maraton (Klartext)",
+            "maxPlays": 2,
+            "source": "materials/sr/klartext/andreas-almgren-vann-new-york-maraton.m4a",
+            "credit": "Klartext, Sveriges Radio. Automatisk transkription – kan ha små fel.",
+            "transcript": "Sveriges stora löparstjärna Andreas Almgren vann i helgen New York Marathon. Ett lopp som är lite längre än fyra komma två mil. Andreas tävlar bara i långa lopp. Han har tidigare vunnit EM-guld på 10 000 meter och VM-guld i halvmarathon. Det här var första gången han tävlade i ett marathon. (Andreas: Det är väldigt känslosamt … jag har blivit Europamästare, jag har vunnit VM, men det här är nog en av de största segrarna i karriären.) Radiosporten pratade med Andreas. Malin Hag, Klartext.",
+            "context": "Radioinslag 1 av 4 (Klartext)"
+          },
+          "items": [
+            {
+              "id": "q19",
+              "type": "select",
+              "tags": [
+                "hör.matcha"
+              ],
+              "q": "Vilken rubrik passar inslag 1?",
+              "qEn": "Which headline fits?",
+              "answer": 3,
+              "explain": "Löpare + första maraton + vann = D.",
+              "explainEn": "Runner + first marathon + won = D."
+            }
+          ],
+          "image": {
+            "src": "hor-del-4.svg",
+            "alt": "En radio och sex rubriker, fyra pilar",
+            "caption": "Del 4: fyra inslag, sex rubriker – två blir över"
+          }
+        },
+        {
+          "heading": "Radioinslag 2",
+          "headingEn": "Radio item 2",
+          "options": [
+            "A. Mejlhot mot skolor – hundratals stängde",
+            "B. Kommunen väntar med att ändra lunchen",
+            "C. Dyrare lunch för deltagare i daglig verksamhet",
+            "D. Första maratonloppet blev en seger för svensk löpare",
+            "E. Polisen har gripit mannen bakom hoten",
+            "F. Tjejer samlades på läger för parahandboll"
+          ],
+          "audio": {
+            "id": "r2",
+            "title": "Inslag 2 – lunch (Klartext)",
+            "maxPlays": 2,
+            "source": "materials/sr/klartext/vaggeryds-kommun-andrar-sig-om-lunch-pa-daglig-verksamhet.m4a",
+            "credit": "Klartext, Sveriges Radio. Automatisk transkription – kan ha små fel.",
+            "transcript": "Vaggeryds kommun pausar förslaget om att sluta servera lunch på daglig verksamhet. Förra veckan berättade kommunen att deltagare ska ta med egen mat från och med september. Nu har kommunen ändrat sig. (Chefen Jessica Holmqvist: Vi vill ha en bra start på en sån förändring, så därför pausar vi.) Kommunen har lyssnat på personer som reagerat negativt. Bland annat har anhöriga berättat om sin oro i tv, tidningar och radio. Efter sommaren ska kommunen prata mer om hur lunchen ska fungera. De vet inte när, hur eller om lunchen ska ändras. Celin Henriksson, Klartext.",
+            "context": "Radioinslag 2 av 4 (Klartext)"
+          },
+          "items": [
+            {
+              "id": "q20",
+              "type": "select",
+              "tags": [
+                "hör.matcha"
+              ],
+              "q": "Vilken rubrik passar inslag 2?",
+              "qEn": "Which headline fits?",
+              "answer": 1,
+              "explain": "Kommunen pausar förslaget och väntar. Inget sägs om dyrare lunch (C).",
+              "explainEn": "The plan is paused. Nothing about a higher price (C)."
+            }
+          ]
+        },
+        {
+          "heading": "Radioinslag 3",
+          "headingEn": "Radio item 3",
+          "options": [
+            "A. Mejlhot mot skolor – hundratals stängde",
+            "B. Kommunen väntar med att ändra lunchen",
+            "C. Dyrare lunch för deltagare i daglig verksamhet",
+            "D. Första maratonloppet blev en seger för svensk löpare",
+            "E. Polisen har gripit mannen bakom hoten",
+            "F. Tjejer samlades på läger för parahandboll"
+          ],
+          "audio": {
+            "id": "r3",
+            "title": "Inslag 3 – bombhot (Klartext)",
+            "maxPlays": 2,
+            "source": "materials/sr/klartext/300-skolor-i-italien-stangde-efter-bluffmejl-om-bombhot.m4a",
+            "credit": "Klartext, Sveriges Radio. Automatisk transkription – kan ha små fel.",
+            "transcript": "Flera tusen skolor i Italien tog emot mejl med bombhot under onsdagen. Det gjorde att hundratals skolor höll stängt, det skriver nyhetsbyrån Reuters. Under morgonen skickades ett mejl till 6300 skolor i hela Italien. I mejlen stod att någon hade lagt ut bomber i skolorna. Nästan 300 skolor stängde för att man inte var säker på om hotet var på allvar eller inte. Premiärminister Giorgia Meloni har sagt att det inte ska vara någon fara. Nu ska myndigheter och polisen ta reda på vad som hänt. Det har också kommit bombhot till skolor i Irland, Nordirland och Skottland. Amanda Måhl, Klartext.",
+            "context": "Radioinslag 3 av 4 (Klartext)"
+          },
+          "items": [
+            {
+              "id": "q21",
+              "type": "select",
+              "tags": [
+                "hör.matcha"
+              ],
+              "q": "Vilken rubrik passar inslag 3?",
+              "qEn": "Which headline fits?",
+              "answer": 0,
+              "explain": "Mejl med bombhot, nästan 300 skolor stängde = A. Polisen utreder ännu (E är fel).",
+              "explainEn": "Bomb-threat emails, ~300 schools closed = A. Police still investigating, nobody arrested (E)."
+            }
+          ]
+        },
+        {
+          "heading": "Radioinslag 4",
+          "headingEn": "Radio item 4",
+          "options": [
+            "A. Mejlhot mot skolor – hundratals stängde",
+            "B. Kommunen väntar med att ändra lunchen",
+            "C. Dyrare lunch för deltagare i daglig verksamhet",
+            "D. Första maratonloppet blev en seger för svensk löpare",
+            "E. Polisen har gripit mannen bakom hoten",
+            "F. Tjejer samlades på läger för parahandboll"
+          ],
+          "audio": {
+            "id": "r4",
+            "title": "Inslag 4 – parahandboll (Klartext)",
+            "maxPlays": 2,
+            "source": "materials/sr/klartext/allt-fler-tjejer-spelar-parahandboll.m4a",
+            "credit": "Klartext, Sveriges Radio. Automatisk transkription – kan ha små fel.",
+            "transcript": "I helgen hade Svenska handbollsförbundet läger i parahandboll för tjejer i Vara. En av deltagarna är sextonåriga Ebba Liv från Jönköping. (Ebba: Handboll betyder vänskap. Det blir som en familj när man är med. Alla kan vara med.) Frida Tänglin från Eskilstuna: Det är jättekul att det är nya tjejer, att lära känna varandra och hitta nya vänner och inte ha killarna runt omkring sig. Agneta Andersson, ledare på Svenska handbollsförbundet, upplever att parahandbollen är på frammarsch. (Agneta: Jag har varit ledare i ungefär tio år, och de senaste tre åren har det blivit otroligt mycket fler lag. Det poppar upp överallt, även på små orter.) Per Engelbreksson, P4 Skaraborg.",
+            "context": "Radioinslag 4 av 4 (Klartext)"
+          },
+          "items": [
+            {
+              "id": "q22",
+              "type": "select",
+              "tags": [
+                "hör.matcha"
+              ],
+              "q": "Vilken rubrik passar inslag 4?",
+              "qEn": "Which headline fits?",
+              "answer": 5,
+              "explain": "Läger för tjejer i parahandboll = F.",
+              "explainEn": "A camp for girls in para handball = F."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "del5",
+      "title": "Hör del 5: Intervjuer",
+      "titleEn": "Listening part 5: Interviews",
+      "instructions": "Du hör fyra personer svara på samma fråga: Vad gör du för att må bra på vintern? Är påståendena rätt eller fel?",
+      "instructionsEn": "Four people answer the same question: What do you do to feel good in winter? Are the statements right or wrong?",
+      "parts": [
+        {
+          "heading": "Intervju 1",
+          "headingEn": "Interview 1",
+          "audio": {
+            "id": "i1",
+            "title": "Intervju 1 – Karin",
+            "maxPlays": 2,
+            "speakers": {
+              "Reporter": {
+                "voice": "m",
+                "cast": "nst-m43-stockholm-236"
+              },
+              "Karin": {
+                "voice": "f",
+                "cast": "nst-f68-dalarna-241"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Reporter",
+                "text": "Hej, jag står här i centrum och frågar förbipasserande. Vad gör du för att må bra på vintern?"
+              },
+              {
+                "speaker": "Karin",
+                "text": "Ja, alltså, jag försöker gå ut en stund varje dag, även när det är kallt, för det där ljuset är så viktigt. Jag går en halvtimme efter lunch. Förr gick jag på morgonen, men då är det ju fortfarande mörkt. Sen har jag en ljuslampa hemma som jag tänder vid frukosten, men jag vet inte … jag tycker nog inte att den hjälper så mycket."
+              },
+              {
+                "speaker": "Reporter",
+                "text": "Och på kvällarna?"
+              },
+              {
+                "speaker": "Karin",
+                "text": "Då stickar jag. Och så fikar jag med mina väninnor på torsdagar, det är det bästa jag vet."
+              }
+            ],
+            "context": "Intervju utomhus i centrum",
+            "noise": {
+              "sound": "traffic",
+              "level": 0.3
+            }
+          },
+          "items": [
+            {
+              "id": "q23",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Karin går ut en stund varje dag, också när det är kallt.",
+              "qEn": "Right or wrong?",
+              "options": [
+                "Rätt",
+                "Fel"
+              ],
+              "answer": 0,
+              "explain": "'varje dag, även när det är kallt'.",
+              "explainEn": "'varje dag, även när det är kallt'."
+            },
+            {
+              "id": "q24",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Karin använder en ljuslampa och tycker att den hjälper henne.",
+              "qEn": "Right or wrong?",
+              "options": [
+                "Rätt",
+                "Fel"
+              ],
+              "answer": 1,
+              "explain": "Hon har en lampa men 'tycker nog inte att den hjälper'.",
+              "explainEn": "Hon har en lampa men 'tycker nog inte att den hjälper'."
+            }
+          ],
+          "image": {
+            "src": "hor-del-5.svg",
+            "alt": "En mikrofon och fyra personer i vinterkläder",
+            "caption": "Del 5: Rätt eller Fel?"
+          }
+        },
+        {
+          "heading": "Intervju 2",
+          "headingEn": "Interview 2",
+          "audio": {
+            "id": "i2",
+            "title": "Intervju 2 – Martin",
+            "maxPlays": 2,
+            "speakers": {
+              "Programledare": {
+                "voice": "f",
+                "cast": "nok-f-00"
+              },
+              "Martin": {
+                "voice": "m",
+                "cast": "nst-m25-mellansverige-697"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Programledare",
+                "text": "Martin, du är ute på Stora torget i dag. Vad gör du för att må bra på vintern?"
+              },
+              {
+                "speaker": "Martin",
+                "text": "Oj, bra fråga. Jag brukar åka till fjällen en gång i januari med några kompisar, men i år blir det inte av, det är för dyrt. Så i stället går jag på gym efter jobbet, tre gånger i veckan. Det är lite tråkigt, men jag sover mycket bättre. Och på helgerna lagar jag mycket mat. Jag älskar att göra soppa."
+              },
+              {
+                "speaker": "Programledare",
+                "text": "Låter gott! Tack, Martin."
+              },
+              {
+                "speaker": "Martin",
+                "text": "Tack själv."
+              }
+            ],
+            "context": "Intervju utomhus i regn",
+            "noise": {
+              "sound": "rain",
+              "level": 0.3
+            }
+          },
+          "items": [
+            {
+              "id": "q25",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Martin ska åka till fjällen i januari.",
+              "qEn": "Right or wrong?",
+              "options": [
+                "Rätt",
+                "Fel"
+              ],
+              "answer": 1,
+              "explain": "'i år blir det inte av, det är för dyrt'.",
+              "explainEn": "'i år blir det inte av, det är för dyrt'."
+            },
+            {
+              "id": "q26",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Martin tränar på gym tre gånger i veckan.",
+              "qEn": "Right or wrong?",
+              "options": [
+                "Rätt",
+                "Fel"
+              ],
+              "answer": 0,
+              "explain": "'tre gånger i veckan'.",
+              "explainEn": "'tre gånger i veckan'."
+            }
+          ]
+        },
+        {
+          "heading": "Intervju 3",
+          "headingEn": "Interview 3",
+          "audio": {
+            "id": "i3",
+            "title": "Intervju 3 – Johanna",
+            "maxPlays": 2,
+            "speakers": {
+              "Reporter": {
+                "voice": "m",
+                "cast": "nst-m57-vastergotland-850"
+              },
+              "Johanna": {
+                "voice": "f",
+                "cast": "nst-f19-norrland-844"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Reporter",
+                "text": "Hej! Får jag fråga dig en sak? Vad gör du för att må bra på vintern?"
+              },
+              {
+                "speaker": "Johanna",
+                "text": "Oj, jag har två barn, så jag hinner inte så mycket. Men vi är ute varje helg och åker pulka, även när det är minusgrader. Det är faktiskt det bästa. Och så äter jag D-vitamin varje morgon, det gjorde jag inte förut, men min läkare tyckte att jag skulle. Och på kvällen kryper jag upp i soffan med te och en bok."
+              },
+              {
+                "speaker": "Reporter",
+                "text": "Låter mysigt. Tack så mycket!"
+              },
+              {
+                "speaker": "Johanna",
+                "text": "Varsågod!"
+              }
+            ],
+            "context": "Intervju på ett kafé",
+            "noise": {
+              "sound": "cafe",
+              "level": 0.35
+            }
+          },
+          "items": [
+            {
+              "id": "q27",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Johanna tar D-vitamin efter att hon pratat med sin läkare.",
+              "qEn": "Right or wrong?",
+              "options": [
+                "Rätt",
+                "Fel"
+              ],
+              "answer": 0,
+              "explain": "'min läkare tyckte att jag skulle'.",
+              "explainEn": "'min läkare tyckte att jag skulle'."
+            },
+            {
+              "id": "q28",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Johanna åker pulka med barnen varje dag.",
+              "qEn": "Right or wrong?",
+              "options": [
+                "Rätt",
+                "Fel"
+              ],
+              "answer": 1,
+              "explain": "Hon åker pulka 'varje helg', inte varje dag.",
+              "explainEn": "Hon åker pulka 'varje helg', inte varje dag."
+            }
+          ]
+        },
+        {
+          "heading": "Intervju 4",
+          "headingEn": "Interview 4",
+          "audio": {
+            "id": "i4",
+            "title": "Intervju 4 – Mikael",
+            "maxPlays": 2,
+            "speakers": {
+              "Programledare": {
+                "voice": "f",
+                "cast": "nst-f51-vastergotland-514"
+              },
+              "Mikael": {
+                "voice": "m",
+                "cast": "nst-m48-ostra-sydsverige-443"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Programledare",
+                "text": "Mikael, du är en av våra lyssnare. Vad gör du för att må bra på vintern?"
+              },
+              {
+                "speaker": "Mikael",
+                "text": "Jag badar bastu. Varje fredag, med grannen. Vi värmer upp, och sen hoppar vi i sjön, ja, i isvak när det är is. Folk tror att jag är tokig, men man blir så glad efteråt. Jag cyklar också till jobbet, fem kilometer, även i snö. Min fru tycker att det är farligt, så vi har bestämt att jag tar bussen när det är riktigt halt."
+              },
+              {
+                "speaker": "Programledare",
+                "text": "Hu, jag fryser bara av att höra det! Tack, Mikael."
+              },
+              {
+                "speaker": "Mikael",
+                "text": "Ingen fara, hej!"
+              }
+            ],
+            "context": "Radiointervju"
+          },
+          "items": [
+            {
+              "id": "q29",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Mikael hoppar i sjön efter bastun.",
+              "qEn": "Right or wrong?",
+              "options": [
+                "Rätt",
+                "Fel"
+              ],
+              "answer": 0,
+              "explain": "'sen hoppar vi i sjön'.",
+              "explainEn": "'sen hoppar vi i sjön'."
+            },
+            {
+              "id": "q30",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj"
+              ],
+              "q": "Mikael cyklar till jobbet hela vintern.",
+              "qEn": "Right or wrong?",
+              "options": [
+                "Rätt",
+                "Fel"
+              ],
+              "answer": 1,
+              "explain": "När det är riktigt halt tar han bussen.",
+              "explainEn": "När det är riktigt halt tar han bussen."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
