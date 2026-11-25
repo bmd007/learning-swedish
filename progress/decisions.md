@@ -195,3 +195,8 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 - Learner wanted to come back to rule cards (e.g. the därför table) without opening the lesson. App: ☆ Spara on every
   info card and every auto-graded question (practice mode only); page "Mina kort" (Sparade / Alla kort, search).
   Saved list in progress/saved.json → Claude reads it to build review lessons from what the learner chose.
+
+## 2026-11-25 – Mock exams: realism first
+- Learner: focusing on past issues must not change the exam style; errors from reading/writing don't apply to listening.
+  → Mock exams copy the official sample (task shapes, question mix, difficulty, audio). Targeting only from errors in the
+  same skill, at the exam's natural trap rate. Drills belong in practice lessons.
