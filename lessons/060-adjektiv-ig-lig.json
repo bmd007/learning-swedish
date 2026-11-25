@@ -1,0 +1,409 @@
+{
+ "id": "060-adjektiv-ig-lig",
+ "title": "Adjektiv på -ig och -lig",
+ "titleEn": "Adjectives ending in -ig and -lig",
+ "mode": "practice",
+ "minutes": 10,
+ "intro": "Viktig, riktig, farlig, ledig … Många adjektiv slutar på -ig eller -lig. I den här lektionen lär du dig mönstret, formerna, ett femtontal nya ord och hur de låter när g:et försvinner.",
+ "introEn": "Viktig, riktig, farlig, ledig … many adjectives end in -ig or -lig. You learn the pattern, the forms, about 15 new words, and how they sound when the g disappears.",
+ "sections": [
+  {
+   "id": "monster",
+   "title": "Del 1: Mönstret",
+   "titleEn": "Part 1: The pattern",
+   "instructions": "Läs korten. Sedan övar du.",
+   "instructionsEn": "Read the cards, then practise.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Många adjektiv slutar på -ig eller -lig.** Ofta kommer de från ett substantiv (eller verb). Då kan du gissa nya ord!\n\n| ord | + -ig / -lig | betyder |\n|---|---|---|\n| vikt (weight, importance) | **viktig** | important |\n| fara (danger) | **farlig** | dangerous |\n| lycka (happiness) | **lycklig** | happy |\n| vana (habit) | **vanlig** | usual, common |\n| ära (honour) | **ärlig** | honest |\n| hunger | **hungrig** | hungry |\n| vän (friend) | **vänlig** | friendly, kind |\n| fred (peace) | **fredlig** | peaceful |\n\n**Tips:** ser du ett nytt ord på -ig/-lig i en text? Det är nästan alltid ett adjektiv. Ta bort slutet och leta efter ordet inuti.\n\n**فارسی:** -ig / -lig مثل «-ی» یا «-انه» در فارسی است: خطر → خطرناک (fara → farlig).",
+     "image": {
+      "src": "familjen.svg",
+      "alt": "Ord som vikt, fara, lycka och hunger blir viktig, farlig, lycklig och hungrig",
+      "caption": "substantiv + -ig/-lig = adjektiv"
+     }
+    },
+    {
+     "id": "i2",
+     "type": "info",
+     "md": "**Formerna är lätta (inga undantag):**\n\n| en-ord | ett-ord | plural / bestämd |\n|---|---|---|\n| en viktig fråga | ett viktig**t** möte | viktig**a** saker / den viktig**a** frågan |\n| en farlig väg | ett farlig**t** jobb | farlig**a** hundar / den farlig**a** vägen |\n\n-ig → **-igt**, -lig → **-ligt**. Plural och bestämd form: lägg till **-a**.\n\n**Uttal – viktigt för lyssnandet:** g:et hörs oftast inte!\n- viktig ≈ \"vikti\", viktigt ≈ \"viktit\", viktiga ≈ \"viktia\"\n- roligt ≈ \"rolit\", farlig ≈ \"farli\", nödvändigt ≈ \"nödvändit\"\n\n**Stavning:** skriv g ändå! Du hör \"rolit\", men du skriver *roligt*.\n\n**Samma form som adverb:** *Det är viktigt. Han pratar tydligt.* (-igt används också som adverb.)"
+    },
+    {
+     "id": "i3",
+     "type": "info",
+     "md": "**14 nyttiga ord med en kort fras:**\n\n| adjektiv | betyder | fras |\n|---|---|---|\n| riktig | real, proper | en riktig vän |\n| nödvändig | necessary | Det är nödvändigt att boka. |\n| lycklig | happy | Hon blev lycklig av nyheten. |\n| färdig | finished, ready | Maten är färdig! |\n| ledig | free, off work | Är du ledig i morgon? |\n| hungrig | hungry | Barnen är hungriga. |\n| försiktig | careful | Var försiktig i trafiken. |\n| vänlig | friendly | Personalen var mycket vänlig. |\n| hemlig | secret | Det är ett hemligt nummer. |\n| offentlig | public | Biblioteket är en offentlig plats. |\n| osynlig | invisible | Skylten är nästan osynlig. |\n| otrolig | unbelievable | En otrolig historia! |\n| ovanlig | unusual | Det är ett ovanligt namn. |\n| giltig | valid | Biljetten är giltig i en månad. |\n\n**Prefix o- = det motsatta:** möjlig → **o**möjlig, vanlig → **o**vanlig, tydlig → **o**tydlig, synlig → **o**synlig. (Ibland finns inget ord utan o-: *otrolig*.)\n\nDu känner redan: viktig, rolig, tråkig, billig, farlig, ärlig, möjlig, tydlig."
+    }
+   ]
+  },
+  {
+   "id": "ord",
+   "title": "Del 2: Ord och former",
+   "titleEn": "Part 2: Words and forms",
+   "instructions": "Välj rätt betydelse och skriv rätt form.",
+   "instructionsEn": "Choose the meaning and write the right form.",
+   "items": [
+    {
+     "id": "m1",
+     "type": "mcq",
+     "tags": [
+      "ord.adjektiv"
+     ],
+     "q": "Jag är ledig i morgon. Vad betyder det?",
+     "qEn": "What does it mean?",
+     "options": [
+      "Jag är sjuk i morgon.",
+      "Jag behöver inte jobba i morgon.",
+      "Jag är sen i morgon.",
+      "Jag är trött i morgon."
+     ],
+     "answer": 1,
+     "explain": "ledig = man har ingen arbetsdag eller inget att göra.",
+     "explainEn": "ledig = free, not working."
+    },
+    {
+     "id": "m2",
+     "type": "mcq",
+     "tags": [
+      "ord.adjektiv"
+     ],
+     "q": "Skylten är nästan osynlig. Vad betyder det?",
+     "qEn": "",
+     "options": [
+      "Man kan knappt se den.",
+      "Den är mycket stor.",
+      "Den är ny.",
+      "Den är farlig."
+     ],
+     "answer": 0,
+     "explain": "synlig = som man ser. o- = motsatsen.",
+     "explainEn": "synlig = visible; o- = the opposite."
+    },
+    {
+     "id": "m3",
+     "type": "mcq",
+     "tags": [
+      "ord.adjektiv"
+     ],
+     "q": "Det är otroligt! Vad betyder det?",
+     "qEn": "",
+     "options": [
+      "Det är tråkigt.",
+      "Det är vanligt.",
+      "Det är lätt.",
+      "Det är svårt att tro."
+     ],
+     "answer": 3,
+     "explain": "tro = believe → otrolig = unbelievable.",
+     "explainEn": "tro = believe; otrolig = unbelievable."
+    },
+    {
+     "id": "m4",
+     "type": "mcq",
+     "tags": [
+      "ord.adjektiv"
+     ],
+     "q": "Biljetten är giltig i en månad. Vad betyder det?",
+     "qEn": "",
+     "options": [
+      "Biljetten är dyr.",
+      "Man måste köpa den i en månad.",
+      "Man kan använda den i en månad.",
+      "Biljetten är borta."
+     ],
+     "answer": 2,
+     "explain": "giltig = valid, gäller.",
+     "explainEn": "giltig = valid."
+    },
+    {
+     "id": "g1",
+     "type": "gap",
+     "tags": [
+      "adjektiv.form"
+     ],
+     "q": "Det är ___ att ha pass när man reser utomlands.",
+     "qEn": "It is necessary to have a passport.",
+     "base": "nödvändig",
+     "answers": [
+      "nödvändigt"
+     ],
+     "explain": "ett det-är-uttryck: samma form som ett-ord → -igt.",
+     "explainEn": "'Det är' + adjective takes the -t form."
+    },
+    {
+     "id": "g2",
+     "type": "gap",
+     "tags": [
+      "adjektiv.form"
+     ],
+     "q": "Barnen är ___ efter skolan. De vill ha mellanmål.",
+     "qEn": "The children are hungry.",
+     "base": "hungrig",
+     "answers": [
+      "hungriga"
+     ],
+     "explain": "Plural → -a.",
+     "explainEn": "Plural → -a."
+    },
+    {
+     "id": "g3",
+     "type": "gap",
+     "tags": [
+      "adjektiv.form"
+     ],
+     "q": "Var ___, barn! Det är mycket trafik här.",
+     "qEn": "Be careful, kids!",
+     "base": "försiktig",
+     "answers": [
+      "försiktiga"
+     ],
+     "explain": "Du pratar till flera barn → plural: försiktiga.",
+     "explainEn": "Talking to several children → plural."
+    },
+    {
+     "id": "g4",
+     "type": "gap",
+     "tags": [
+      "adjektiv.form"
+     ],
+     "q": "Kortet är ___ till och med maj.",
+     "qEn": "The card is valid until May.",
+     "base": "giltig",
+     "answers": [
+      "giltigt"
+     ],
+     "explain": "Kortet är ett ett-ord → giltigt.",
+     "explainEn": "kortet is an ett-word → -t."
+    },
+    {
+     "id": "g5",
+     "type": "gap",
+     "tags": [
+      "adjektiv.form"
+     ],
+     "q": "Det är ett ___ nummer. Bara jag vet det.",
+     "qEn": "It is a secret number.",
+     "base": "hemlig",
+     "answers": [
+      "hemligt"
+     ],
+     "explain": "ett nummer → hemligt.",
+     "explainEn": "ett nummer → -t."
+    },
+    {
+     "id": "g6",
+     "type": "gap",
+     "tags": [
+      "adjektiv.form"
+     ],
+     "q": "Hon är en ___ människa. Hon säger alltid sanningen.",
+     "qEn": "She is an honest person.",
+     "base": "ärlig",
+     "answers": [
+      "ärlig"
+     ],
+     "explain": "en människa → ärlig (ingen ändring).",
+     "explainEn": "en människa → no ending."
+    },
+    {
+     "id": "o1",
+     "type": "gap",
+     "tags": [
+      "adjektiv.form"
+     ],
+     "q": "Det är ___ att komma till Malmö på tio minuter. Det är för långt.",
+     "qEn": "It's impossible to get to Malmö in ten minutes.",
+     "base": "möjlig",
+     "answers": [
+      "omöjligt"
+     ],
+     "explain": "o- + möjligt: det är omöjligt.",
+     "explainEn": "o- + möjligt."
+    },
+    {
+     "id": "o2",
+     "type": "gap",
+     "tags": [
+      "adjektiv.form"
+     ],
+     "q": "Det här ordet är ___. Jag har aldrig hört det förut.",
+     "qEn": "This word is unusual.",
+     "base": "vanlig",
+     "answers": [
+      "ovanligt"
+     ],
+     "explain": "ett ord → ovanligt.",
+     "explainEn": "ett ord → ovanligt."
+    }
+   ]
+  },
+  {
+   "id": "hor",
+   "title": "Del 3: Lyssna",
+   "titleEn": "Part 3: Listening",
+   "instructions": "Lyssna efter -igt-orden. G:et hörs knappt. Svara på frågorna.",
+   "instructionsEn": "Listen for the -igt words. The g is hardly heard.",
+   "parts": [
+    {
+     "heading": "Karin och Martin",
+     "headingEn": "Karin and Martin",
+     "audio": {
+      "id": "a1",
+      "title": "Karin och Martin planerar en resa",
+      "maxPlays": 2,
+      "speakers": {
+       "Karin": "f",
+       "Martin": "m"
+      },
+      "rate": "+5%",
+      "script": [
+       {
+        "speaker": "Karin",
+        "text": "Hej Martin! Är du ledig på lördag? Jag och Sofia tänkte åka till Göteborg."
+       },
+       {
+        "speaker": "Martin",
+        "text": "Jaha, vad roligt! Ja, jag är ledig hela dagen. Men jag måste vara hemma vid sex. Det är viktigt, för min syster kommer på middag."
+       },
+       {
+        "speaker": "Karin",
+        "text": "Det går ju bra. Tåget går åtta och fyrtio … eller nej, vänta, kvart i nio. Biljetterna är ganska billiga om man köper dom i förväg, men dom är bara giltiga på just det tåget."
+       },
+       {
+        "speaker": "Martin",
+        "text": "Aha. Alltså är det nödvändigt att boka i dag?"
+       },
+       {
+        "speaker": "Karin",
+        "text": "Ja, typ. Det är ju möjligt att köpa på stationen, men då blir det mycket dyrare."
+       },
+       {
+        "speaker": "Martin",
+        "text": "Okej, då bokar jag direkt. Ska vi ta med nåt att äta? Jag blir alltid hungrig på tåget."
+       },
+       {
+        "speaker": "Karin",
+        "text": "Haha, jag med! Jag fixar smörgåsar, om jag blir färdig med jobbet i tid. Det är lite jobbigt just nu, men det ordnar sig."
+       },
+       {
+        "speaker": "Martin",
+        "text": "Bra. Det blir säkert jättetrevligt. Vi hörs i kväll då!"
+       }
+      ],
+      "noise": {
+       "sound": "cafe",
+       "level": 0.25
+      }
+     },
+     "image": {
+      "src": "familjen.svg",
+      "alt": "Ord på -ig och -lig",
+      "size": "small"
+     },
+     "items": [
+      {
+       "id": "h1",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Varför måste Martin vara hemma klockan sex?",
+       "qEn": "",
+       "options": [
+        "Hans syster kommer på middag.",
+        "Han ska jobba.",
+        "Han ska åka till Göteborg.",
+        "Tåget går då."
+       ],
+       "answer": 0,
+       "explain": "'Det är viktigt, för min syster kommer på middag.'",
+       "explainEn": "His sister comes for dinner."
+      },
+      {
+       "id": "h2",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj",
+        "hör.uttal"
+       ],
+       "q": "Vad gäller för biljetterna?",
+       "qEn": "",
+       "options": [
+        "De är gratis.",
+        "De kostar mer i förväg.",
+        "Man får inte boka dom.",
+        "De är bara giltiga på ett visst tåg."
+       ],
+       "answer": 3,
+       "explain": "Dom är billiga i förväg men bara giltiga på just det tåget.",
+       "explainEn": "Cheap in advance, valid only on that train."
+      },
+      {
+       "id": "h3",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Vad ska Karin göra till resan?",
+       "qEn": "",
+       "options": [
+        "Köpa biljetter på stationen.",
+        "Jobba hela lördagen.",
+        "Göra smörgåsar om hon hinner.",
+        "Bjuda Sofia på middag."
+       ],
+       "answer": 2,
+       "explain": "'Jag fixar smörgåsar, om jag blir färdig med jobbet i tid.'",
+       "explainEn": "She makes sandwiches if she finishes work."
+      },
+      {
+       "id": "h4",
+       "type": "mcq",
+       "tags": [
+        "hör.uttal"
+       ],
+       "q": "Martin säger något som låter som \"rolit\". Hur stavar man det?",
+       "qEn": "Which spelling?",
+       "options": [
+        "rolit",
+        "roligt",
+        "rolig",
+        "roliga"
+       ],
+       "answer": 1,
+       "explain": "Det är ett det-uttryck (vad roligt!) → -igt. G:et hörs inte men skrivs.",
+       "explainEn": "Silent g, still written."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tala",
+   "title": "Del 4: Tala",
+   "titleEn": "Part 4: Speaking",
+   "instructions": "Prata fritt i cirka en minut.",
+   "instructionsEn": "Speak freely for about a minute.",
+   "items": [
+    {
+     "id": "s1",
+     "type": "speak",
+     "tags": [
+      "tal.berätta",
+      "ord.adjektiv"
+     ],
+     "q": "Berätta om en person du känner. Använd minst tre av orden: vänlig, ärlig, ledig, hungrig, försiktig, ovanlig.",
+     "qEn": "Tell about a person you know. Use at least three of the words.",
+     "bullets": [
+      "Vem är personen?",
+      "Hur är han eller hon? (tre ord på -ig/-lig)",
+      "Vad gör ni tillsammans när du är ledig?"
+     ],
+     "maxSeconds": 150,
+     "explain": "Prova att säga g:et svagt: ärlig ≈ ärli.",
+     "explainEn": ""
+    }
+   ]
+  }
+ ]
+}

@@ -384,3 +384,8 @@
 - 022 paraphrase perfect → Läs del 4 synonym problem looks fixed.
 - 024 long reading 70 %: misses = unknown key words paraphrased in the question (förmögenhet, försvinna, först=inte förrän, var femte, erbjuda) + one men-fälla.
 - **Next step:** word review from reading misses (B1 abstract words); strategy "match by topic when a word is unknown". 058 mock pending.
+
+## 2026-11-25 – Lesson 060: Adjektiv på -ig och -lig
+
+- Short vocab/form lesson (~10 min): pattern cards (noun + -ig/-lig, forms -igt/-iga, silent g), 14 new words (riktig, nödvändig, lycklig, färdig, ledig, hungrig, försiktig, vänlig, hemlig, offentlig, osynlig, otrolig, ovanlig, giltig), 4 meaning mcq, 8 gaps (form + o- prefix), listening (Karin/Martin, silent-g words, Whisper 2%), 1 speak.
+- **Next step:** unchanged.

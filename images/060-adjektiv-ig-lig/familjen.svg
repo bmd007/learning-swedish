@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="system-ui, sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<text x="300" y="34" font-size="22" text-anchor="middle" font-weight="bold" fill="#222">ord + -ig / -lig = adjektiv</text>
+<g font-size="20" fill="#222">
+<rect x="40" y="60" width="150" height="40" rx="8" fill="#e8f0fe"/><text x="115" y="87" text-anchor="middle">vikt</text>
+<text x="220" y="87" text-anchor="middle" font-size="26">→</text>
+<rect x="250" y="60" width="200" height="40" rx="8" fill="#e6f6e6"/><text x="350" y="87" text-anchor="middle">viktig</text>
+<rect x="40" y="115" width="150" height="40" rx="8" fill="#e8f0fe"/><text x="115" y="142" text-anchor="middle">fara</text>
+<text x="220" y="142" text-anchor="middle" font-size="26">→</text>
+<rect x="250" y="115" width="200" height="40" rx="8" fill="#e6f6e6"/><text x="350" y="142" text-anchor="middle">farlig</text>
+<rect x="40" y="170" width="150" height="40" rx="8" fill="#e8f0fe"/><text x="115" y="197" text-anchor="middle">lycka</text>
+<text x="220" y="197" text-anchor="middle" font-size="26">→</text>
+<rect x="250" y="170" width="200" height="40" rx="8" fill="#e6f6e6"/><text x="350" y="197" text-anchor="middle">lycklig</text>
+<rect x="40" y="225" width="150" height="40" rx="8" fill="#e8f0fe"/><text x="115" y="252" text-anchor="middle">hunger</text>
+<text x="220" y="252" text-anchor="middle" font-size="26">→</text>
+<rect x="250" y="225" width="200" height="40" rx="8" fill="#e6f6e6"/><text x="350" y="252" text-anchor="middle">hungrig</text>
+</g>
+<text x="470" y="87" font-size="16" fill="#555">en viktig fråga</text>
+<text x="470" y="142" font-size="16" fill="#555">ett farligt jobb</text>
+<text x="470" y="197" font-size="16" fill="#555">lyckliga barn</text>
+<text x="470" y="252" font-size="16" fill="#555">jag är hungrig</text>
+</svg>
