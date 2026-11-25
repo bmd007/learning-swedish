@@ -61,3 +61,6 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `hör.detalj` (027, real radio) – q1 *Vad har hon på sig?* → answered *dusch* (a clear later word) instead of **mössa**; same family as 025 q9/q11 + `instruktion`. q4 missed **varsin** (bor i varsin lägenhet = apart) → chose the option with the heard word *servicelägenhet*.
 - `tal.engelsk-struktur` (042 speak) – learner: "I end up speaking English with Swedish words". *En nackdel är barn kan inte* (är att + inte before verb), *En rimlig lösning jag tycker att är …*, *fördel av* (med), *spela med mobilen* (på), *om* for time (när), *game* (spel). Fix: fixed frame "X är att + subject + inte + verb"; Persian این است که = är att.
 - `ord.kollokation` (042) – *frisk livsstil* (sund).
+- `läs.ord` (024) – missed key words that the question paraphrases: förmögenhet (=pengar), försvann (=brände brev/skisser), först (=inte förrän), var femte (=20 %), uppgift/erbjuda. 5 of 7 misses. Strategy: match by topic when the word is unknown.
+- `läs.kontrast` (024 p12) – men-fällan again (kommunerna bestämmer själva … Men vissa saker måste …).
+- `läs.synonym` – 022: 18/18 (was 6/16 wrong in 017+021). Fixed for now.

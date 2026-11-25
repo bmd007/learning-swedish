@@ -378,3 +378,9 @@
   Main: "är att" + inte before verb (English drops "that"); jag tycker in the middle; prepositions med/på; när vs om.
 - → Fixed opinion frame (Jag tycker att / En fördel är att / En nackdel är att / En rimlig lösning är att) + Persian این است که.
 - **Next step:** 058 mock; practice 054 → 057 (056/057 cover att/bisats inte placement). Consider a short speaking drill with the frame.
+
+## 2026-11-25 – Graded 022 (18/18) and 024 (16/23)
+
+- 022 paraphrase perfect → Läs del 4 synonym problem looks fixed.
+- 024 long reading 70 %: misses = unknown key words paraphrased in the question (förmögenhet, försvinna, först=inte förrän, var femte, erbjuda) + one men-fälla.
+- **Next step:** word review from reading misses (B1 abstract words); strategy "match by topic when a word is unknown". 058 mock pending.

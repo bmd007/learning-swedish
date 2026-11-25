@@ -1,0 +1,330 @@
+{
+  "lessonId": "024-langlasning-samhalle-konst",
+  "attemptId": "2026-11-25T18-50-15-686Z",
+  "final": true,
+  "mode": "exam",
+  "startedAt": "2026-11-25T18:50:18.441Z",
+  "finishedAt": "2026-11-25T19:16:55.252Z",
+  "durationMin": 27,
+  "timeLimitMin": 30,
+  "overtime": false,
+  "currentSection": null,
+  "sectionMinutes": {
+    "del1": 11.1,
+    "del2": 15.5
+  },
+  "audioPlays": {},
+  "firstTry": {},
+  "flags": [
+    "p4",
+    "p5",
+    "p10",
+    "k2",
+    "k8"
+  ],
+  "score": {
+    "del1": {
+      "correct": 8,
+      "total": 12
+    },
+    "del2": {
+      "correct": 8,
+      "total": 11
+    }
+  },
+  "items": [
+    {
+      "id": "p1",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Riksdagsval, regionval och kommunval äger rum samma dag.",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "p2",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Anna från Polen har bott i Sverige i ett år. Hon får rösta i kommunvalet.",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "p3",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Reza från Iran har bott i Sverige i två år. Han får rösta i regionvalet.",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "p4",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.siffror"
+      ],
+      "prompt": "Ungefär 20 procent av dem som har rösträtt brukar inte rösta.",
+      "given": "Nej",
+      "expected": "Ja",
+      "correct": false
+    },
+    {
+      "id": "p5",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Ett parti som får 3 procent av rösterna får några platser i riksdagen.",
+      "given": "Ja",
+      "expected": "Nej",
+      "correct": false
+    },
+    {
+      "id": "p6",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Alla förslag till nya lagar kommer från regeringen.",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "p7",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.synonym"
+      ],
+      "prompt": "Talmannen bestämmer ensam vem som blir statsminister.",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "p8",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "En minoritetsregering behöver hjälp från andra partier för att få igenom sina förslag.",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "p9",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "En minister kan bestämma hur Skatteverket ska hantera din deklaration.",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "p10",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.slutsats"
+      ],
+      "prompt": "Om du behöver träffa en läkare är det regionen som ansvarar för vården.",
+      "given": "Nej",
+      "expected": "Ja",
+      "correct": false
+    },
+    {
+      "id": "p11",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej"
+      ],
+      "prompt": "Man betalar lika mycket kommunalskatt i hela Sverige.",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "p12",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "läs.janej",
+        "läs.kontrast"
+      ],
+      "prompt": "En kommun kan själv välja att inte erbjuda sfi.",
+      "given": "Ja",
+      "expected": "Nej",
+      "correct": false
+    },
+    {
+      "id": "k1",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha",
+        "läs.synonym"
+      ],
+      "prompt": "Arbetade helst medan andra sov.",
+      "given": "B – Eugène Jansson",
+      "expected": "B – Eugène Jansson",
+      "correct": true
+    },
+    {
+      "id": "k2",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha",
+        "läs.synonym"
+      ],
+      "prompt": "Förlorade nästan hela sin förmögenhet.",
+      "given": "C – Hilma af Klint",
+      "expected": "A – Ernest och Signe Thiel",
+      "correct": false
+    },
+    {
+      "id": "k3",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha",
+        "läs.synonym"
+      ],
+      "prompt": "Menade att någon annan styrde vad som hamnade på duken.",
+      "given": "C – Hilma af Klint",
+      "expected": "C – Hilma af Klint",
+      "correct": true
+    },
+    {
+      "id": "k4",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha",
+        "läs.synonym"
+      ],
+      "prompt": "Ett kärleksförhållande fick folk att prata.",
+      "given": "A – Ernest och Signe Thiel",
+      "expected": "A – Ernest och Signe Thiel",
+      "correct": true
+    },
+    {
+      "id": "k5",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha",
+        "läs.synonym"
+      ],
+      "prompt": "Tyckte att utbildningen var omodern.",
+      "given": "B – Eugène Jansson",
+      "expected": "B – Eugène Jansson",
+      "correct": true
+    },
+    {
+      "id": "k6",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha",
+        "läs.synonym"
+      ],
+      "prompt": "En byggnad planerades men byggdes aldrig.",
+      "given": "C – Hilma af Klint",
+      "expected": "C – Hilma af Klint",
+      "correct": true
+    },
+    {
+      "id": "k7",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha",
+        "läs.synonym"
+      ],
+      "prompt": "Ett privat hem blev senare öppet för allmänheten.",
+      "given": "A – Ernest och Signe Thiel",
+      "expected": "A – Ernest och Signe Thiel",
+      "correct": true
+    },
+    {
+      "id": "k8",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha",
+        "läs.synonym"
+      ],
+      "prompt": "Mycket material försvann efter konstnärens död.",
+      "given": "A – Ernest och Signe Thiel",
+      "expected": "B – Eugène Jansson",
+      "correct": false
+    },
+    {
+      "id": "k9",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha",
+        "läs.synonym"
+      ],
+      "prompt": "Ville att verken skulle visas först långt senare.",
+      "given": "A – Ernest och Signe Thiel",
+      "expected": "C – Hilma af Klint",
+      "correct": false
+    },
+    {
+      "id": "k10",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha",
+        "läs.synonym"
+      ],
+      "prompt": "En kvinna fick sin man att bli intresserad av ny konst.",
+      "given": "A – Ernest och Signe Thiel",
+      "expected": "A – Ernest och Signe Thiel",
+      "correct": true
+    },
+    {
+      "id": "k11",
+      "section": "del2",
+      "type": "select",
+      "tags": [
+        "läs.matcha",
+        "läs.synonym"
+      ],
+      "prompt": "Fick hjälp av en rik vän i början av karriären.",
+      "given": "B – Eugène Jansson",
+      "expected": "B – Eugène Jansson",
+      "correct": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-25T20:16:55"
+}

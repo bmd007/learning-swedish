@@ -1,0 +1,272 @@
+{
+  "lessonId": "022-samma-sak-andra-ord",
+  "attemptId": "2026-11-25T18-18-50-176Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-25T18:18:51.380Z",
+  "finishedAt": "2026-11-25T18:34:55.944Z",
+  "durationMin": 16,
+  "currentSection": null,
+  "sectionMinutes": {
+    "strategi": 3.4,
+    "para": 3.6,
+    "del4": 6.1,
+    "kontrast": 3
+  },
+  "audioPlays": {},
+  "firstTry": {
+    "p1": true,
+    "p2": true,
+    "p3": true,
+    "p4": false,
+    "p5": true,
+    "p6": true,
+    "p7": true,
+    "s1": true,
+    "s2": true,
+    "s3": true,
+    "s5": true,
+    "s6": true,
+    "s4": true,
+    "c1": true,
+    "c2": true,
+    "c3": true,
+    "c4": false,
+    "c5": true
+  },
+  "flags": [],
+  "score": {
+    "para": {
+      "correct": 7,
+      "total": 7
+    },
+    "del4": {
+      "correct": 6,
+      "total": 6
+    },
+    "kontrast": {
+      "correct": 5,
+      "total": 5
+    }
+  },
+  "items": [
+    {
+      "id": "p1",
+      "section": "para",
+      "type": "mcq",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Vilken mening betyder samma sak? \"Du behöver inte ta med dig lunch till kursen.\"",
+      "given": "Det är inte nödvändigt att ha med lunch.",
+      "expected": "Det är inte nödvändigt att ha med lunch.",
+      "correct": true
+    },
+    {
+      "id": "p2",
+      "section": "para",
+      "type": "mcq",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Vilken mening betyder samma sak? \"Du måste boka tid i förväg.\"",
+      "given": "Man ska boka innan man kommer.",
+      "expected": "Man ska boka innan man kommer.",
+      "correct": true
+    },
+    {
+      "id": "p3",
+      "section": "para",
+      "type": "mcq",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Vilken mening betyder samma sak? \"Hyran är gratis de första två månaderna.\"",
+      "given": "Man betalar ingenting för hyran de första två månaderna.",
+      "expected": "Man betalar ingenting för hyran de första två månaderna.",
+      "correct": true
+    },
+    {
+      "id": "p4",
+      "section": "para",
+      "type": "mcq",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Vilken mening betyder samma sak? \"Antalet elever i klassen har ökat.\"",
+      "given": "Det är fler elever i klassen nu.",
+      "expected": "Det är fler elever i klassen nu.",
+      "correct": true
+    },
+    {
+      "id": "p5",
+      "section": "para",
+      "type": "mcq",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Vilken mening betyder samma sak? \"Det är tillräckligt att komma tio minuter före avgång.\"",
+      "given": "Tio minuter före avgång räcker.",
+      "expected": "Tio minuter före avgång räcker.",
+      "correct": true
+    },
+    {
+      "id": "p6",
+      "section": "para",
+      "type": "mcq",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Vilken mening betyder samma sak? \"En stor del av invånarna röstar inte i kommunalvalet.\"",
+      "given": "Många invånare lägger inte sin röst i kommunalvalet.",
+      "expected": "Många invånare lägger inte sin röst i kommunalvalet.",
+      "correct": true
+    },
+    {
+      "id": "p7",
+      "section": "para",
+      "type": "mcq",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Vilken mening betyder samma sak? \"Bussen går mer sällan på helgen.\"",
+      "given": "Det går inte lika många bussar på helgen.",
+      "expected": "Det går inte lika många bussar på helgen.",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Man får tillbaka pengar när man lämnar vissa flaskor.",
+      "given": "6",
+      "expected": "6",
+      "correct": true
+    },
+    {
+      "id": "s2",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Av gammal mat kan man göra bränsle till fordon.",
+      "given": "8",
+      "expected": "8",
+      "correct": true
+    },
+    {
+      "id": "s3",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Batterier ska inte kastas i soptunnan med annat avfall.",
+      "given": "9",
+      "expected": "9",
+      "correct": true
+    },
+    {
+      "id": "s4",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Man kan lämna gamla kläder i en container vid affären.",
+      "given": "0 – ingen mening i texten",
+      "expected": "0 – ingen mening i texten",
+      "correct": true
+    },
+    {
+      "id": "s5",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Privatpersoner behöver oftast inte betala där.",
+      "given": "12",
+      "expected": "12",
+      "correct": true
+    },
+    {
+      "id": "s6",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "läs.synonym"
+      ],
+      "prompt": "Hyresgäster kan få hjälp av den som äger huset om de inte vet hur man sorterar.",
+      "given": "15",
+      "expected": "15",
+      "correct": true
+    },
+    {
+      "id": "c1",
+      "section": "kontrast",
+      "type": "mcq",
+      "tags": [
+        "läs.kontrast"
+      ],
+      "prompt": "Kommer gästerna att få mat?",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "c2",
+      "section": "kontrast",
+      "type": "mcq",
+      "tags": [
+        "läs.kontrast"
+      ],
+      "prompt": "Är biblioteket tomt hela dagen?",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "c3",
+      "section": "kontrast",
+      "type": "mcq",
+      "tags": [
+        "läs.kontrast"
+      ],
+      "prompt": "Förstår skribenten det mesta på svenska?",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "c4",
+      "section": "kontrast",
+      "type": "mcq",
+      "tags": [
+        "läs.kontrast"
+      ],
+      "prompt": "Är hyran lägre än i andra områden?",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "c5",
+      "section": "kontrast",
+      "type": "mcq",
+      "tags": [
+        "läs.kontrast"
+      ],
+      "prompt": "Har familjen råd att åka långt i sommar?",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-25T19:34:55"
+}
