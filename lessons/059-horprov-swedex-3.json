@@ -1,0 +1,1285 @@
+{
+ "id": "059-horprov-swedex-3",
+ "title": "Hörprov: Swedex A2B1 – provtest 3",
+ "titleEn": "Listening test: Swedex A2B1 – mock test 3",
+ "mode": "exam",
+ "timeLimit": 35,
+ "minutes": 35,
+ "scoring": {
+  "max": 30,
+  "A2": 14,
+  "B1": 22
+ },
+ "intro": "Det här är ett helt hörprov som på riktiga Swedex. 30 poäng, fem delar. Varje inspelning spelas två gånger i rad, utan paus. Du skriver medan du lyssnar. Några inspelningar har bakgrundsljud, och några personer pratar snabbt. Läs frågorna först. Lyssna i lugn och ro, utan att pausa. Gränser: A2 = 14 poäng, B1 = 22 poäng. Använd hörlurar.",
+ "introEn": "A full listening test like the real Swedex. 30 points, five parts. Every recording plays twice back to back with no pause. You write while listening. Some recordings have background noise, and some speakers are fast. Read the questions first. Do not pause. Limits: A2 = 14, B1 = 22. Use headphones.",
+ "sections": [
+  {
+   "id": "del1",
+   "title": "Hör del 1: Meddelanden",
+   "titleEn": "Listening part 1: Messages",
+   "instructions": "Du hör sex korta meddelanden. Välj rätt svar (A, B, C eller D). Varje meddelande spelas två gånger.",
+   "instructionsEn": "Six short messages. Choose the right answer. Each plays twice.",
+   "parts": [
+    {
+     "heading": "Meddelande 1",
+     "headingEn": "Message 1",
+     "audio": {
+      "id": "m1",
+      "title": "Meddelande 1 – frisören",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": {
+        "voice": "f",
+        "cast": "nst-f28-goteborg-329"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Hej Elin, det är Camilla på Salong Klippet. Det gäller din tid i dag klockan halv tre. Jag måste tyvärr flytta den, för min kollega har blivit sjuk. Kan du komma på torsdag i stället? Jag har en tid klockan kvart i två … nej, vänta, då har jag en kund. Kvart över två går bra. Det är alltså torsdag, kvart över två. Hör av dig om det inte passar, annars ses vi då. Hej så länge!"
+       }
+      ],
+      "context": "Telefonmeddelande"
+     },
+     "items": [
+      {
+       "id": "q1",
+       "type": "mcq",
+       "tags": [
+        "hör.tid"
+       ],
+       "q": "När har Elin sin nya tid?",
+       "qEn": "When is Elin's new appointment?",
+       "options": [
+        "Torsdag klockan kvart i två",
+        "Torsdag klockan halv två",
+        "Torsdag klockan kvart över två",
+        "Fredag klockan kvart över två"
+       ],
+       "answer": 2,
+       "explain": "Kvart i två föreslås men tas tillbaka. Det blir torsdag kvart över två (14.15). Halv tre är den gamla tiden.",
+       "explainEn": "Quarter to two is withdrawn. The new time is Thursday 14.15."
+      }
+     ],
+     "image": {
+      "src": "hor-del-1.svg",
+      "alt": "En telefon med en röstbrevlåda och sex meddelanden",
+      "caption": "Del 1: sex korta meddelanden"
+     }
+    },
+    {
+     "heading": "Meddelande 2",
+     "headingEn": "Message 2",
+     "audio": {
+      "id": "m2",
+      "title": "Meddelande 2 – förskolan",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": {
+        "voice": "f",
+        "cast": "nst-f19-ostergotland-063"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Hej, det här är Mia från förskolan Björken. Det gäller Noa. I morgon åker vi på utflykt till skogen, så han behöver regnkläder, stövlar och matsäck. Frukt får han inte ta med, för det har vi redan. Och så samlas vi klockan nio, inte halv nio som vanligt, så var gärna lite i tid. Okej, det var allt. Tack, hej då!"
+       }
+      ],
+      "noise": {
+       "sound": "kids",
+       "level": 0.3
+      },
+      "context": "Telefonmeddelande"
+     },
+     "items": [
+      {
+       "id": "q2",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Vad ska Noa ha med sig?",
+       "qEn": "What should Noa bring?",
+       "options": [
+        "Regnkläder och matsäck",
+        "Frukt och gympaskor",
+        "Badkläder och handduk",
+        "Cykelhjälm och mössa"
+       ],
+       "answer": 0,
+       "explain": "Regnkläder, stövlar och matsäck. Frukt ska han inte ta med.",
+       "explainEn": "Rain clothes, boots and packed lunch. No fruit."
+      }
+     ]
+    },
+    {
+     "heading": "Meddelande 3",
+     "headingEn": "Message 3",
+     "audio": {
+      "id": "m3",
+      "title": "Meddelande 3 – mormors kalas",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": {
+        "voice": "f",
+        "cast": "nst-f41-ostra-sydsverige-424"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Hej pappa, det är Hanna. Du, jag har tänkt på mormors kalas. Hon fyller sjuttiofem på lördag, tänk att hon redan är så gammal! Jag har bokat bord på Café Linnea klockan fyra. Kan du köpa blommor på vägen? Ring mig i kväll om du vill. Hej då!"
+       }
+      ],
+      "context": "Telefonmeddelande"
+     },
+     "items": [
+      {
+       "id": "q3",
+       "type": "mcq",
+       "tags": [
+        "hör.siffror"
+       ],
+       "q": "Hur gammal blir mormor?",
+       "qEn": "How old will grandmother be?",
+       "options": [
+        "Sjuttio år",
+        "Sjuttiofem år",
+        "Åttio år",
+        "Åttiofem år"
+       ],
+       "answer": 1,
+       "explain": "Hon fyller sjuttiofem. Klockan fyra är tiden på kalaset, inte hennes ålder.",
+       "explainEn": "She turns 75. Four o'clock is the time of the party."
+      }
+     ]
+    },
+    {
+     "heading": "Meddelande 4",
+     "headingEn": "Message 4",
+     "audio": {
+      "id": "m4",
+      "title": "Meddelande 4 – vattnet",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": {
+        "voice": "m",
+        "cast": "nst-m61-vastsverige-921"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Hej, det här är Bengt Sjöberg från fastighetsägaren. Vi byter vattenrören i huset, så vattnet stängs av en dag, från klockan åtta till klockan tre. I brevet stod det nästa vecka, men det var fel. Det blir onsdag om två veckor, alltså inte nästa onsdag. Tänk på att fylla några flaskor med vatten innan. Tack för förståelsen."
+       }
+      ],
+      "context": "Telefonmeddelande"
+     },
+     "items": [
+      {
+       "id": "q4",
+       "type": "mcq",
+       "tags": [
+        "hör.tid"
+       ],
+       "q": "När stängs vattnet av?",
+       "qEn": "When is the water turned off?",
+       "options": [
+        "Onsdag nästa vecka",
+        "Torsdag nästa vecka",
+        "Torsdag om två veckor",
+        "Onsdag om två veckor"
+       ],
+       "answer": 3,
+       "explain": "Brevet sa nästa vecka, men det var fel: onsdag om två veckor.",
+       "explainEn": "The letter was wrong: Wednesday in two weeks."
+      }
+     ]
+    },
+    {
+     "heading": "Meddelande 5",
+     "headingEn": "Message 5",
+     "audio": {
+      "id": "m5",
+      "title": "Meddelande 5 – cykelverkstaden",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": {
+        "voice": "m",
+        "cast": "nst-m57-norrland-602"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Hej, det här är Peter på Cykelverkstan. Din cykel är klar. Det blev sexhundrafemtio kronor, med nya bromsar och en ny kedja. Du kan hämta den när som helst, men vi stänger klockan sex i dag. Hej då!"
+       }
+      ],
+      "noise": {
+       "sound": "car",
+       "level": 0.3
+      },
+      "context": "Telefonmeddelande"
+     },
+     "items": [
+      {
+       "id": "q5",
+       "type": "mcq",
+       "tags": [
+        "hör.siffror"
+       ],
+       "q": "Vad kostar reparationen?",
+       "qEn": "What does the repair cost?",
+       "options": [
+        "650 kronor",
+        "560 kronor",
+        "800 kronor",
+        "850 kronor"
+       ],
+       "answer": 0,
+       "explain": "650 kronor (sexhundrafemtio). Siffrorna 560, 800 och 850 sägs inte.",
+       "explainEn": "650 kr."
+      }
+     ]
+    },
+    {
+     "heading": "Meddelande 6",
+     "headingEn": "Message 6",
+     "audio": {
+      "id": "m6",
+      "title": "Meddelande 6 – Oskar",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": {
+        "voice": "m",
+        "cast": "nst-m25-mellansverige-697"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Hej, det är Oskar. Vi skulle ju ses vid Folkets hus klockan sju, men jag såg att det är stängt i kväll. Vi kan ses utanför biblioteket i stället … nej, där är det massa folk. Vi tar fontänen på torget, där brukar det vara lugnt. Jag står där från kvart i sju. Ring om du inte hittar mig."
+       }
+      ],
+      "noise": {
+       "sound": "cafe",
+       "level": 0.3
+      },
+      "context": "Telefonmeddelande"
+     },
+     "items": [
+      {
+       "id": "q6",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Var ska de träffas?",
+       "qEn": "Where will they meet?",
+       "options": [
+        "Vid Folkets hus",
+        "Utanför biblioteket",
+        "Vid fontänen på torget",
+        "På ett café"
+       ],
+       "answer": 2,
+       "explain": "Folkets hus är stängt, biblioteket tas tillbaka. De ses vid fontänen.",
+       "explainEn": "Not Folkets hus, not the library: the fountain."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "del2",
+   "title": "Hör del 2: Meddelanden och radio",
+   "titleEn": "Listening part 2: Messages and radio",
+   "instructions": "Du hör tre meddelanden och tre radioinslag. Svara på varje fråga med 1–5 ord. Skriv kort.",
+   "instructionsEn": "Three messages and three radio items. Answer with 1–5 words.",
+   "parts": [
+    {
+     "heading": "Inslag 7",
+     "headingEn": "Item 7",
+     "audio": {
+      "id": "a1",
+      "title": "Telefonmeddelande – grannen",
+      "maxPlays": 2,
+      "speakers": {
+       "Britt": {
+        "voice": "f",
+        "cast": "nst-f68-dalarna-241"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Britt",
+        "text": "Hej Gunnar, det är Britt i trean. Jag ska åka till min dotter i Malmö och blir borta i tre veckor. Kan du vattna blommorna? Jag trodde först att jag skulle åka på söndag, men jag fick en tidigare biljett, så nu åker jag redan i övermorgon, alltså på lördag. Flyget går väldigt tidigt, klockan sex, så jag lägger nyckeln i din brevlåda på fredag kväll. Tack så mycket, hej!"
+       }
+      ],
+      "noise": {
+       "sound": "kitchen",
+       "level": 0.3
+      },
+      "context": "Telefonmeddelande"
+     },
+     "items": [
+      {
+       "id": "q7",
+       "type": "short",
+       "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+       ],
+       "q": "Vilken dag åker Britt?",
+       "qEn": "Which day does Britt leave?",
+       "answers": [
+        "lördag",
+        "på lördag",
+        "i övermorgon"
+       ],
+       "explain": "'söndag' ändras. Hon åker i övermorgon, alltså på lördag.",
+       "explainEn": "Not Sunday: the day after tomorrow = Saturday."
+      }
+     ],
+     "image": {
+      "src": "hor-del-2.svg",
+      "alt": "En radio, en telefon och en buss – sex korta inslag",
+      "caption": "Del 2: svara med 1–5 ord"
+     }
+    },
+    {
+     "heading": "Inslag 8",
+     "headingEn": "Item 8",
+     "audio": {
+      "id": "a2",
+      "title": "Radio – trafik",
+      "maxPlays": 2,
+      "speakers": {
+       "Trafikreporter": {
+        "voice": "m",
+        "cast": "nst-m57-stockholm-112"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Trafikreporter",
+        "text": "Och nu en trafikuppdatering. På E fyra söderut vid Södertälje har en lastbil vält, och bara ett körfält är öppet. För en timme sedan var det tre kilometer kö, men nu har den växt och är fem kilometer lång. Räkna med att resan tar ungefär tjugo minuter längre än vanligt. Du som kan, åk tåg i stället. Nästa trafikrapport kommer klockan tolv."
+       }
+      ],
+      "context": "Radio"
+     },
+     "items": [
+      {
+       "id": "q8",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "hör.kortsvar"
+       ],
+       "q": "Varför är det kö?",
+       "qEn": "Why is there a queue?",
+       "answers": [
+        "lastbil",
+        "vält",
+        "olycka",
+        "lastbilen"
+       ],
+       "explain": "En lastbil har vält, så bara ett körfält är öppet.",
+       "explainEn": "A lorry has overturned."
+      }
+     ]
+    },
+    {
+     "heading": "Inslag 9",
+     "headingEn": "Item 9",
+     "audio": {
+      "id": "a3",
+      "title": "Telefonmeddelande – mötet",
+      "maxPlays": 2,
+      "speakers": {
+       "Linus": {
+        "voice": "m",
+        "cast": "nst-m19-dalarna-145"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Linus",
+        "text": "Hej Maria, det är Linus. Jag sitter i bilen och är försenad till mötet. Det börjar klockan nio, men jag är där halv tio, kanske tio. Jag fick ett mejl om att mötet inte är i sal Orion, utan i sal Vega, så kolla på dörren. Och kan du ta med projektorn? Den ligger i skåpet. Tack, vi ses!"
+       }
+      ],
+      "noise": {
+       "sound": "car",
+       "level": 0.3
+      },
+      "context": "Telefonmeddelande"
+     },
+     "items": [
+      {
+       "id": "q9",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "hör.kortsvar"
+       ],
+       "q": "I vilken sal är mötet?",
+       "qEn": "In which room is the meeting?",
+       "answers": [
+        "vega",
+        "sal vega"
+       ],
+       "explain": "Orion är fel. Mötet är i sal Vega.",
+       "explainEn": "Not Orion: Vega."
+      }
+     ]
+    },
+    {
+     "heading": "Inslag 10",
+     "headingEn": "Item 10",
+     "audio": {
+      "id": "a4",
+      "title": "Radio – väder",
+      "maxPlays": 2,
+      "speakers": {
+       "Programledare": {
+        "voice": "f",
+        "cast": "nst-f29-stockholm-302"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Programledare",
+        "text": "Och så till vädret. I morgon blir det mulet och regn i västra Sverige, med omkring sju grader i Göteborg. I Stockholm kommer det några duggregn på morgonen, men sedan klarnar det upp, och temperaturen blir nio grader, alltså lite varmare än i dag. I Norrland är det kallt, minus tolv grader, och vinden ökar under kvällen. På lördag kommer solen tillbaka i hela landet."
+       }
+      ],
+      "context": "Radio"
+     },
+     "items": [
+      {
+       "id": "q10",
+       "type": "short",
+       "tags": [
+        "hör.siffror",
+        "hör.kortsvar"
+       ],
+       "q": "Hur många grader blir det i Stockholm i morgon?",
+       "qEn": "How many degrees in Stockholm tomorrow?",
+       "answers": [
+        "9",
+        "nio",
+        "9 grader",
+        "nio grader"
+       ],
+       "explain": "Stockholm nio grader. Göteborg sju, Norrland minus tolv.",
+       "explainEn": "Stockholm 9. Gothenburg 7."
+      }
+     ]
+    },
+    {
+     "heading": "Inslag 11",
+     "headingEn": "Item 11",
+     "audio": {
+      "id": "a5",
+      "title": "Radio – helgtips",
+      "maxPlays": 2,
+      "speakers": {
+       "Reporter": {
+        "voice": "m",
+        "cast": "nst-m48-ostra-sydsverige-443"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Reporter",
+        "text": "Nu några tips inför helgen. Vinterfesten i Parken öppnar på lördag klockan elva och pågår till klockan fyra. Där finns hantverk, glögg och lekar för barn. Biljetten kostar femtio kronor för vuxna. Barn under tolv år kommer in gratis, och det gör även pensionärer på söndagar. Du kan inte parkera vid parken, så åk gärna buss. Välkomna!"
+       }
+      ],
+      "context": "Radio"
+     },
+     "items": [
+      {
+       "id": "q11",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "hör.kortsvar"
+       ],
+       "q": "Vilka kommer in gratis på lördag?",
+       "qEn": "Who gets in free on Saturday?",
+       "answers": [
+        "barn"
+       ],
+       "explain": "På lördag: barn under tolv. Pensionärer är gratis först på söndag.",
+       "explainEn": "Saturday: children under 12. Pensioners only on Sunday."
+      }
+     ]
+    },
+    {
+     "heading": "Inslag 12",
+     "headingEn": "Item 12",
+     "audio": {
+      "id": "a6",
+      "title": "Telefonsvarare – simhallen",
+      "maxPlays": 2,
+      "speakers": {
+       "Röst": {
+        "voice": "f",
+        "cast": "nst-f51-vastergotland-514"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Röst",
+        "text": "Du har kommit till Sundsvalls simhall. Vi har tyvärr stängt för renovering. Vi stänger på fredag klockan åtta på kvällen och öppnar igen efter tre veckor. Simskolan fortsätter som vanligt i Södra badet. Mer information finns på vår hemsida. Tack för att du ringde."
+       }
+      ],
+      "context": "Telefonsvarare"
+     },
+     "items": [
+      {
+       "id": "q12",
+       "type": "short",
+       "tags": [
+        "hör.detalj",
+        "hör.kortsvar"
+       ],
+       "q": "Hur länge är simhallen stängd?",
+       "qEn": "How long is the pool closed?",
+       "answers": [
+        "tre veckor",
+        "3 veckor",
+        "tre vecka",
+        "i tre veckor"
+       ],
+       "explain": "Den stänger på fredag och öppnar igen efter tre veckor.",
+       "explainEn": "Closed for three weeks."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "del3",
+   "title": "Hör del 3: Dialog",
+   "titleEn": "Listening part 3: Dialogue",
+   "instructions": "Du hör en dialog. Svara på frågorna med 1–5 ord. Frågorna kommer i samma ordning som i samtalet.",
+   "instructionsEn": "A dialogue. Answer with 1–5 words. The questions follow the order of the conversation.",
+   "parts": [
+    {
+     "heading": "Dialog: Gunilla och Ola planerar en gårdsloppis",
+     "headingEn": "Dialogue: Gunilla and Ola plan a courtyard flea market",
+     "image": {
+      "src": "hor-del-3.svg",
+      "alt": "Två grannar vid ett bord på en gård",
+      "caption": "Del 3: en dialog"
+     },
+     "audio": {
+      "id": "d1",
+      "title": "Dialog – gårdsloppis",
+      "maxPlays": 2,
+      "speakers": {
+       "Gunilla": {
+        "voice": "f",
+        "cast": "nst-f53-vastra-sydsverige-449"
+       },
+       "Ola": {
+        "voice": "m",
+        "cast": "nst-m29-ostra-sydsverige-x94"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Gunilla",
+        "text": "Hej Ola! Bra att jag träffade dig. Du, jag har tänkt på det där med gårdsloppisen. Vi borde bestämma nåt."
+       },
+       {
+        "speaker": "Ola",
+        "text": "Ja, alltså, det är en jättebra idé. När tänkte du? Nästa helg?"
+       },
+       {
+        "speaker": "Gunilla",
+        "text": "Jag tänkte det först, men då är jag hos min syster, så det blir tidigast helgen efter. Alltså om två veckor. Söndag eller lördag, vad tycker du?"
+       },
+       {
+        "speaker": "Ola",
+        "text": "Lördag är bättre. På söndagar vill folk mest vara hemma."
+       },
+       {
+        "speaker": "Gunilla",
+        "text": "Okej, lördag. Sen var ska vi ha borden? Jag tänkte utanför tvättstugan."
+       },
+       {
+        "speaker": "Ola",
+        "text": "Nä, där är det för trångt. Vi kan ställa dom på gräsmattan vid lekplatsen. Där är barnen ändå."
+       },
+       {
+        "speaker": "Gunilla",
+        "text": "Ja, det är smart. Hur många av grannarna vill vara med, tror du?"
+       },
+       {
+        "speaker": "Ola",
+        "text": "Jag har frågat lite. Hittills har tolv hushåll sagt ja. Det är nästan alla i huset!"
+       },
+       {
+        "speaker": "Gunilla",
+        "text": "Tolv, bra! Då behöver vi affischer, så att folk utanför huset också får veta. Jag kan skriva texten."
+       },
+       {
+        "speaker": "Ola",
+        "text": "Jag kan skriva ut dom på jobbet, vi har en bra skrivare där. Hur många vill du ha?"
+       },
+       {
+        "speaker": "Gunilla",
+        "text": "Femton räcker. Och så ska varje hushåll betala för sitt bord. Det blir tjugofem kronor per bord, så blir det inte dyrt för någon."
+       },
+       {
+        "speaker": "Ola",
+        "text": "Okej, det är rimligt. Och när ska vi börja?"
+       },
+       {
+        "speaker": "Gunilla",
+        "text": "Loppisen börjar klockan tio, men vi måste ställa upp redan klockan åtta. Nej, det blir för tidigt. Halv nio räcker."
+       },
+       {
+        "speaker": "Ola",
+        "text": "Halv nio, perfekt. Jag tar med kaffe och bullar. Det ordnar sig!"
+       },
+       {
+        "speaker": "Gunilla",
+        "text": "Tack Ola, du är bäst!"
+       }
+      ],
+      "noise": {
+       "sound": "kids",
+       "level": 0.25
+      },
+      "context": "Dialog mellan två grannar"
+     },
+     "items": [
+      {
+       "id": "q13",
+       "type": "short",
+       "tags": [
+        "hör.tid"
+       ],
+       "q": "När ska loppisen vara?",
+       "qEn": "When will the flea market be?",
+       "answers": [
+        "om två veckor",
+        "två veckor",
+        "2 veckor",
+        "veckan efter nästa",
+        "helgen efter nästa"
+       ],
+       "explain": "Nästa helg går inte. Det blir lördag om två veckor.",
+       "explainEn": "Not next weekend: Saturday in two weeks."
+      },
+      {
+       "id": "q14",
+       "type": "short",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Var ska de ställa borden?",
+       "qEn": "Where will they put the tables?",
+       "answers": [
+        "gräsmatta",
+        "gräsmattan",
+        "lekplats",
+        "lekplatsen"
+       ],
+       "explain": "Inte vid tvättstugan (trångt) utan på gräsmattan vid lekplatsen.",
+       "explainEn": "On the lawn by the playground, not by the laundry room."
+      },
+      {
+       "id": "q15",
+       "type": "short",
+       "tags": [
+        "hör.siffror"
+       ],
+       "q": "Hur många hushåll vill vara med?",
+       "qEn": "How many households want to take part?",
+       "answers": [
+        "12",
+        "tolv"
+       ],
+       "explain": "Tolv hushåll har sagt ja.",
+       "explainEn": "Twelve households."
+      },
+      {
+       "id": "q16",
+       "type": "short",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Vad ska Ola göra på sitt jobb?",
+       "qEn": "What will Ola do at his job?",
+       "answers": [
+        "skriva ut",
+        "skriver ut",
+        "affisch",
+        "printa",
+        "skrivare"
+       ],
+       "explain": "Han skriver ut affischerna där.",
+       "explainEn": "He prints the posters."
+      },
+      {
+       "id": "q17",
+       "type": "short",
+       "tags": [
+        "hör.siffror"
+       ],
+       "q": "Vad ska varje hushåll betala för sitt bord?",
+       "qEn": "What will each household pay for its table?",
+       "answers": [
+        "25",
+        "tjugofem",
+        "tjugofem kronor",
+        "25 kronor",
+        "25 kr"
+       ],
+       "explain": "Det blir tjugofem kronor per bord.",
+       "explainEn": "25 kronor per table."
+      },
+      {
+       "id": "q18",
+       "type": "short",
+       "tags": [
+        "hör.tid"
+       ],
+       "q": "Vilken tid ska de börja ställa upp?",
+       "qEn": "What time will they start setting up?",
+       "answers": [
+        "halv nio",
+        "8.30",
+        "08.30",
+        "8:30",
+        "halv 9",
+        "åtta och trettio",
+        "8,30"
+       ],
+       "explain": "Loppisen börjar klockan tio. Uppställning: klockan åtta är för tidigt, så halv nio.",
+       "explainEn": "Sale at 10; setup 8.30 (8 is too early)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "del4",
+   "title": "Hör del 4: Radioinslag och rubriker",
+   "titleEn": "Listening part 4: Radio items and headlines",
+   "instructions": "Du hör fyra radioinslag. Välj rätt rubrik till varje inslag. Två rubriker passar inte.",
+   "instructionsEn": "Four radio items. Match each to a headline. Two headlines are extra.",
+   "parts": [
+    {
+     "heading": "Radioinslag 1",
+     "headingEn": "Radio item 1",
+     "options": [
+      "A. Pensionär tog körkort vid 86 års ålder",
+      "B. Eld i lager – en person skadades",
+      "C. Mobilförbud på alla landets skolor",
+      "D. Skolan testar: eleverna lämnar in mobilen på morgonen",
+      "E. Verktyg kan lånas gratis på stadsbiblioteket",
+      "F. Natten till tisdag: brand i lager utan personskador"
+     ],
+     "audio": {
+      "id": "r1",
+      "title": "Inslag 1 – skola",
+      "maxPlays": 2,
+      "speakers": {
+       "Nyheter": {
+        "voice": "m",
+        "cast": "nok-m-01"
+       },
+       "Rektor": {
+        "voice": "f",
+        "cast": "nst-f47-mellansverige-080"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Nyheter",
+        "text": "På Västerviksskolan i Örebro har eleverna från och med den här veckan inte längre fått ha mobilen i fickan under lektionerna. Alla elever i årskurs sju till nio lämnar in telefonen i ett skåp på morgonen och får tillbaka den när skoldagen är slut. Det är ett försök som ska pågå till jul. Då bestämmer skolan om regeln ska bli permanent. Vi har pratat med rektorn, Annika Lindqvist."
+       },
+       {
+        "speaker": "Rektor",
+        "text": "Ja, alltså, vi ville se om eleverna blev mer koncentrerade. Efter en vecka kan jag redan säga att det är lugnare i korridorerna. Många elever var skeptiska först, men nu säger flera att dom faktiskt pratar mer med varandra på rasten."
+       }
+      ],
+      "context": "Radioinslag 1 av 4"
+     },
+     "items": [
+      {
+       "id": "q19",
+       "type": "select",
+       "tags": [
+        "hör.matcha"
+       ],
+       "q": "Vilken rubrik passar inslag 1?",
+       "qEn": "Which headline fits?",
+       "answer": 3,
+       "explain": "Bara en skola testar regeln till jul. Inte alla landets skolor (C).",
+       "explainEn": "Only one school, a trial until Christmas. Not all schools (C)."
+      }
+     ],
+     "image": {
+      "src": "hor-del-4.svg",
+      "alt": "En radio och sex rubriker, fyra pilar till inslagen",
+      "caption": "Del 4: fyra inslag, sex rubriker – två blir över"
+     }
+    },
+    {
+     "heading": "Radioinslag 2",
+     "headingEn": "Radio item 2",
+     "options": [
+      "A. Pensionär tog körkort vid 86 års ålder",
+      "B. Eld i lager – en person skadades",
+      "C. Mobilförbud på alla landets skolor",
+      "D. Skolan testar: eleverna lämnar in mobilen på morgonen",
+      "E. Verktyg kan lånas gratis på stadsbiblioteket",
+      "F. Natten till tisdag: brand i lager utan personskador"
+     ],
+     "audio": {
+      "id": "r2",
+      "title": "Inslag 2 – brand",
+      "maxPlays": 2,
+      "speakers": {
+       "Nyheter": {
+        "voice": "m",
+        "cast": "nok-m-01"
+       },
+       "Räddningsledare": {
+        "voice": "m",
+        "cast": "nst-m71-vastsverige-691"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Nyheter",
+        "text": "Natten till tisdag brann det i en lagerlokal i Jönköping. Räddningstjänsten fick larmet strax efter klockan två, och när brandmännen kom fram stod hela byggnaden i lågor. Ingen var inne i huset, och ingen har skadats. Lagret användes av ett företag som säljer möbler. Branden var under kontroll vid sextiden på morgonen. Polisen undersöker nu vad som orsakade branden. Vi har pratat med räddningsledare Magnus Ek."
+       },
+       {
+        "speaker": "Räddningsledare",
+        "text": "Det var kraftiga lågor när vi kom, så vi valde att inte gå in. Fokus var att skydda husen intill, och det gick bra. Grannarna fick vara kvar i sina hem, men vi bad dom stänga fönstren på grund av röken."
+       }
+      ],
+      "context": "Radioinslag 2 av 4"
+     },
+     "items": [
+      {
+       "id": "q20",
+       "type": "select",
+       "tags": [
+        "hör.matcha"
+       ],
+       "q": "Vilken rubrik passar inslag 2?",
+       "qEn": "Which headline fits?",
+       "answer": 5,
+       "explain": "Ingen skadades, så B ('en person skadades') är fel. F passar.",
+       "explainEn": "Nobody was hurt: B is wrong, F fits."
+      }
+     ]
+    },
+    {
+     "heading": "Radioinslag 3",
+     "headingEn": "Radio item 3",
+     "options": [
+      "A. Pensionär tog körkort vid 86 års ålder",
+      "B. Eld i lager – en person skadades",
+      "C. Mobilförbud på alla landets skolor",
+      "D. Skolan testar: eleverna lämnar in mobilen på morgonen",
+      "E. Verktyg kan lånas gratis på stadsbiblioteket",
+      "F. Natten till tisdag: brand i lager utan personskador"
+     ],
+     "audio": {
+      "id": "r3",
+      "title": "Inslag 3 – körkort",
+      "maxPlays": 2,
+      "speakers": {
+       "Nyheter": {
+        "voice": "m",
+        "cast": "nok-m-01"
+       },
+       "Ingrid": {
+        "voice": "f",
+        "cast": "nst-f76-stockholm-014"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Nyheter",
+        "text": "I Gävle har Ingrid Holm tagit körkort, vid åttiosex års ålder. Hon bestämde sig efter att hennes man dog förra året, eftersom han alltid hade kört bilen. Hon tog lektioner i ett halvår, klarade teoriprovet direkt och körde upp två gånger. Nu kan hon äntligen åka själv till barnbarnen i Sandviken. Vi ringde upp henne."
+       },
+       {
+        "speaker": "Ingrid",
+        "text": "Alltså, det var inte lätt. Jag sa till körskolläraren att jag var för gammal, men han sa att det inte finns nån gräns. Nu är jag så stolt. Jag har faktiskt redan åkt till affären själv, alldeles själv, och jag grät lite av glädje."
+       }
+      ],
+      "context": "Radioinslag 3 av 4"
+     },
+     "items": [
+      {
+       "id": "q21",
+       "type": "select",
+       "tags": [
+        "hör.matcha"
+       ],
+       "q": "Vilken rubrik passar inslag 3?",
+       "qEn": "Which headline fits?",
+       "answer": 0,
+       "explain": "86 år och körkort = A.",
+       "explainEn": "86 years old and a driving licence = A."
+      }
+     ]
+    },
+    {
+     "heading": "Radioinslag 4",
+     "headingEn": "Radio item 4",
+     "options": [
+      "A. Pensionär tog körkort vid 86 års ålder",
+      "B. Eld i lager – en person skadades",
+      "C. Mobilförbud på alla landets skolor",
+      "D. Skolan testar: eleverna lämnar in mobilen på morgonen",
+      "E. Verktyg kan lånas gratis på stadsbiblioteket",
+      "F. Natten till tisdag: brand i lager utan personskador"
+     ],
+     "audio": {
+      "id": "r4",
+      "title": "Inslag 4 – bibliotek",
+      "maxPlays": 2,
+      "speakers": {
+       "Nyheter": {
+        "voice": "m",
+        "cast": "nok-m-01"
+       },
+       "Bibliotekarie": {
+        "voice": "f",
+        "cast": "nst-f30-mellansverige-x97"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Nyheter",
+        "text": "Behöver du borra ett hål i väggen men har ingen borrmaskin? På stadsbiblioteket i Växjö kan du numera låna en, precis som en bok. Biblioteket har köpt in fyrtio olika verktyg, bland annat sågar, hammare och stegar, och det är gratis att låna dem i sju dagar. Intresset har varit stort. Sedan starten för tre veckor sedan har verktygen lånats ut över tvåhundra gånger. Bibliotekarien heter Sofia Berg."
+       },
+       {
+        "speaker": "Bibliotekarie",
+        "text": "Folk har kommit som aldrig satt sin fot här förut. Mest populär är borrmaskinen, den är alltid utlånad. Tanken är att man inte ska behöva köpa en dyr maskin som man bara använder en gång."
+       }
+      ],
+      "context": "Radioinslag 4 av 4"
+     },
+     "items": [
+      {
+       "id": "q22",
+       "type": "select",
+       "tags": [
+        "hör.matcha"
+       ],
+       "q": "Vilken rubrik passar inslag 4?",
+       "qEn": "Which headline fits?",
+       "answer": 4,
+       "explain": "Låna borrmaskin och verktyg gratis på biblioteket = E.",
+       "explainEn": "Borrowing tools free at the library = E."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "del5",
+   "title": "Hör del 5: Intervjuer",
+   "titleEn": "Listening part 5: Interviews",
+   "instructions": "Du hör fyra intervjuer. Alla får samma fråga. Är påståendena rätt eller fel?",
+   "instructionsEn": "Four interviews, the same question to everyone. Are the statements right or wrong?",
+   "parts": [
+    {
+     "heading": "Intervju 1: Lisbeth",
+     "headingEn": "Interview 1",
+     "audio": {
+      "id": "i1",
+      "title": "Intervju 1: Lisbeth",
+      "maxPlays": 2,
+      "speakers": {
+       "Reporter": {
+        "voice": "m",
+        "cast": "nst-m60-mellansverige-078"
+       },
+       "Lisbeth": {
+        "voice": "f",
+        "cast": "nst-f63-ostra-sydsverige-451"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Reporter",
+        "text": "Hej! Jag gör ett inslag om födelsedagar. Hur skulle du vilja fira din femtioårsdag?"
+       },
+       {
+        "speaker": "Lisbeth",
+        "text": "Oj, jag fyllde femtio för femton år sen, så det är lite sent att fundera. Då hade vi stor fest i föreningslokalen, nästan fyrtio gäster, och det blev jättedyrt. Jag var trött i en vecka efter! Om jag fick göra om det skulle jag bara ha en middag hemma, med dom närmaste, kanske åtta personer. Lugnt och fint."
+       },
+       {
+        "speaker": "Reporter",
+        "text": "Och present då?"
+       },
+       {
+        "speaker": "Lisbeth",
+        "text": "Ja, alltså, folk behöver inte ge mig nåt. Hellre en bra middag."
+       }
+      ],
+      "noise": {
+       "sound": "cafe",
+       "level": 0.3
+      },
+      "context": "Intervju"
+     },
+     "items": [
+      {
+       "id": "q23",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Lisbeths femtioårsfest blev billig.",
+       "qEn": "Rätt eller fel?",
+       "options": [
+        "Rätt",
+        "Fel"
+       ],
+       "answer": 1,
+       "explain": "Det blev jättedyrt.",
+       "explainEn": "It was very expensive."
+      },
+      {
+       "id": "q24",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Lisbeth skulle vilja ha en liten middag.",
+       "qEn": "Rätt eller fel?",
+       "options": [
+        "Rätt",
+        "Fel"
+       ],
+       "answer": 0,
+       "explain": "'bara en middag hemma, kanske åtta personer'.",
+       "explainEn": "A small dinner at home."
+      }
+     ],
+     "image": {
+      "src": "hor-del-5.svg",
+      "alt": "En mikrofon mellan två personer, två rutor med Rätt och Fel",
+      "caption": "Del 5: Rätt eller Fel?"
+     }
+    },
+    {
+     "heading": "Intervju 2: Jonas",
+     "headingEn": "Interview 2",
+     "audio": {
+      "id": "i2",
+      "title": "Intervju 2: Jonas",
+      "maxPlays": 2,
+      "speakers": {
+       "Programledare": {
+        "voice": "f",
+        "cast": "nok-f-04"
+       },
+       "Jonas": {
+        "voice": "m",
+        "cast": "nst-m35-goteborg-282",
+        "rate": "+10%"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Programledare",
+        "text": "Hej! Hur skulle du vilja fira din femtioårsdag?"
+       },
+       {
+        "speaker": "Jonas",
+        "text": "Ja, den ligger ju en bit bort, jag är bara trettiofyra. Men jag har faktiskt tänkt på det. Jag skulle vilja åka till Thailand med hela släkten, mina föräldrar, syskon och så. Jag har alltid velat se Bangkok. Min fru vill hellre ha en stor fest hemma, men jag är inte så festig av mig, så vi får se."
+       }
+      ],
+      "noise": {
+       "sound": "traffic",
+       "level": 0.3
+      },
+      "context": "Intervju"
+     },
+     "items": [
+      {
+       "id": "q25",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Jonas vill fira med sin familj utomlands.",
+       "qEn": "Rätt eller fel?",
+       "options": [
+        "Rätt",
+        "Fel"
+       ],
+       "answer": 0,
+       "explain": "Thailand med hela släkten.",
+       "explainEn": "Thailand with the whole family."
+      },
+      {
+       "id": "q26",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Jonas fru vill åka till Thailand.",
+       "qEn": "Rätt eller fel?",
+       "options": [
+        "Rätt",
+        "Fel"
+       ],
+       "answer": 1,
+       "explain": "Hon vill ha fest hemma. Det är Jonas som vill åka.",
+       "explainEn": "She wants a party at home."
+      }
+     ]
+    },
+    {
+     "heading": "Intervju 3: Elin",
+     "headingEn": "Interview 3",
+     "audio": {
+      "id": "i3",
+      "title": "Intervju 3: Elin",
+      "maxPlays": 2,
+      "speakers": {
+       "Reporter": {
+        "voice": "m",
+        "cast": "nst-m19-mellansverige-745"
+       },
+       "Elin": {
+        "voice": "f",
+        "cast": "nst-f19-norrland-844",
+        "rate": "+12%"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Reporter",
+        "text": "Hur skulle du vilja fira din femtioårsdag?"
+       },
+       {
+        "speaker": "Elin",
+        "text": "Haha, femtio, det är ju typ hundra år bort! Men okej, jag vill nog ha en överraskningsfest. Jag vill inte planera nåt själv, kompisarna får fixa allt, bara jag slipper veta. Det enda är att jag inte vill ha tårta, jag tycker inte om det. Pizza är mycket bättre, tycker jag. Så pizza och sen dans!"
+       }
+      ],
+      "noise": {
+       "sound": "kids",
+       "level": 0.3
+      },
+      "context": "Intervju"
+     },
+     "items": [
+      {
+       "id": "q27",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Elin vill planera sin fest själv.",
+       "qEn": "Rätt eller fel?",
+       "options": [
+        "Rätt",
+        "Fel"
+       ],
+       "answer": 1,
+       "explain": "Kompisarna får fixa allt.",
+       "explainEn": "Her friends arrange it."
+      },
+      {
+       "id": "q28",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Elin vill ha tårta på festen.",
+       "qEn": "Rätt eller fel?",
+       "options": [
+        "Rätt",
+        "Fel"
+       ],
+       "answer": 1,
+       "explain": "Ingen tårta, hellre pizza.",
+       "explainEn": "No cake, pizza instead."
+      }
+     ]
+    },
+    {
+     "heading": "Intervju 4: Stig",
+     "headingEn": "Interview 4",
+     "audio": {
+      "id": "i4",
+      "title": "Intervju 4: Stig",
+      "maxPlays": 2,
+      "speakers": {
+       "Programledare": {
+        "voice": "f",
+        "cast": "nst-f63-stockholm-226"
+       },
+       "Stig": {
+        "voice": "m",
+        "cast": "nst-m77-vastra-sydsverige-889"
+       }
+      },
+      "script": [
+       {
+        "speaker": "Programledare",
+        "text": "Hej! Hur skulle du vilja fira din femtioårsdag?"
+       },
+       {
+        "speaker": "Stig",
+        "text": "Jag fyller sjuttio nästa år, så femtio är länge sen. Men jag minns den dagen väl. Då åkte jag till fjällen med mina barn, vi åkte skidor hela veckan och lagade mat tillsammans på kvällarna. Det var det bästa kalaset jag haft. Sextio fyllde jag med stor fest i föreningshuset, men det var jobbigt och högljutt. Så om jag skulle göra om det skulle jag göra precis som i fjällen."
+       }
+      ],
+      "context": "Intervju"
+     },
+     "items": [
+      {
+       "id": "q29",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Stig firade sin femtioårsdag i fjällen.",
+       "qEn": "Rätt eller fel?",
+       "options": [
+        "Rätt",
+        "Fel"
+       ],
+       "answer": 0,
+       "explain": "'då åkte jag till fjällen med mina barn'.",
+       "explainEn": "In the mountains with his children."
+      },
+      {
+       "id": "q30",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Stig skulle vilja fira på samma sätt igen.",
+       "qEn": "Rätt eller fel?",
+       "options": [
+        "Rätt",
+        "Fel"
+       ],
+       "answer": 0,
+       "explain": "'göra precis som i fjällen'. Festen vid sextio var jobbig.",
+       "explainEn": "He would do the same again."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

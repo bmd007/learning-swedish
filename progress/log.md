@@ -354,3 +354,8 @@
 
 - From 026: "en jobbintervju som det började 8.30". 2 info cards (test: gör substantivet verbet? + Persian pronoun-repeat contrast; inte before verb, som can't be dropped as subject), 3 mcq, 3 order, 2 gap, 5 short (1 correction, 4 combine two sentences). No audio.
 - **Next step:** unchanged (054 → 055 → 053, 056, 057 as reference/practice).
+
+## 2026-11-25 – Lesson 059: Hörprov Swedex A2B1, provtest 3
+
+- Full listening mock (30 items, exam mode, same shape as 025): del 1 six messages (4 options), del 2 three messages + three radio bits (short), del 3 neighbours plan a courtyard flea market (6 short), del 4 four TTS news items + 6 headlines (2 extra), del 5 four interviews, same question ("50-årsdag"), 2 Rätt/Fel each. Real-test rate of traps (a few per part, not every item). Listening weak spots only: day/time corrections, number, close-wording Rätt/Fel, var vs vad. 21 clips, NST voices from 7 regions, noise on ~9 clips.
+- **Next step:** unchanged; take 058 and 059 as the final listening practice before 2026-12-04.
