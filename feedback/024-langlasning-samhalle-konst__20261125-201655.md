@@ -31,3 +31,9 @@ Two types:
 - **inte … förrän** – not until · **var femte / vart fjärde år** – every fifth / every four years
 - **erbjuda** – offer · **ansvara för** – be responsible for · **uppgift** – task
 - **komma in i riksdagen** – get seats in parliament · **rösträtt** – right to vote
+
+## Update after talking (learner)
+- p4: didn't know **femte** = fifth (ordinal). *var femte* = every fifth = 20 %. Ordinals: första, andra, tredje, fjärde, **femte**, sjätte, sjunde, åttonde … Fractions: en femtedel = 1/5.
+- p5: thought **några** = none. It's the opposite! **några** = some/a few (چند تا) · **inga / ingen / inget** = no, none (هیچ).
+  *Ett parti som får 3 % får **några** platser* = gets some seats → Nej (it gets **inga** platser).
+  So p5 was a small-word problem, not a close-reading problem.

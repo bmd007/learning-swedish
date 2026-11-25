@@ -64,3 +64,4 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `läs.ord` (024) – missed key words that the question paraphrases: förmögenhet (=pengar), försvann (=brände brev/skisser), först (=inte förrän), var femte (=20 %), uppgift/erbjuda. 5 of 7 misses. Strategy: match by topic when the word is unknown.
 - `läs.kontrast` (024 p12) – men-fällan again (kommunerna bestämmer själva … Men vissa saker måste …).
 - `läs.synonym` – 022: 18/18 (was 6/16 wrong in 017+021). Fixed for now.
+- `ord.småord` (024, learner) – thought **några** = none (it's some; none = inga/ingen/inget). Didn't know **femte** = fifth (var femte = 20 %). Small high-frequency words can flip a Ja/Nej answer.
