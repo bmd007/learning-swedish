@@ -422,3 +422,5 @@
 - 2026-11-26 late: 034 Nu du A2+/near B1 (4/5 bullets, used the other side after 033 feedback). Off-topic drift (prov vs lektioner); English calques (most of, in the same way); vill att.
 
 ## 2026-11-26 Speaking tasks converted to Swedex shape (010, 044, 048, 049 = Del 1 x3; 035, 045, 046, 012 = Del 3 with photo page). Photo pages are private composites in materials/video/<lesson>/fotosida.jpg; examiner audio built (chatterbox, check_tts ok).
+
+## 2026-11-26 Speaking tasks converted to Swedex shape (036 full oral mock Del 1/2A/2B/3, 055 ads+Frågor box, 031/032 ads as 4 photos+text, 006 Del 2 A). Ad photo grids are private composites in materials/video/<lesson>/ (script materials/scripts/ad_photos.py); examiner audio built, check_tts ok.

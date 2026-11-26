@@ -1,401 +1,453 @@
 {
-  "id": "006-jobb-hastskotare",
-  "title": "Jobbannons: hästskötare",
-  "titleEn": "Job ad: horse caretaker",
-  "mode": "practice",
-  "minutes": 13,
-  "intro": "En ridskola söker en hästskötare. Du lär dig orden i stallet, läser annonsen, lyssnar på ett telefonsamtal och ringer själv.",
-  "introEn": "A riding school is looking for a horse caretaker. Learn stable words, read the ad, listen to a phone call, and make the call yourself.",
-  "sections": [
+ "id": "006-jobb-hastskotare",
+ "title": "Jobbannons: hästskötare",
+ "titleEn": "Job ad: horse caretaker",
+ "mode": "practice",
+ "minutes": 13,
+ "intro": "En ridskola söker en hästskötare. Du lär dig orden i stallet, läser annonsen, lyssnar på ett telefonsamtal och ringer själv.",
+ "introEn": "A riding school is looking for a horse caretaker. Learn stable words, read the ad, listen to a phone call, and make the call yourself.",
+ "sections": [
+  {
+   "id": "ord",
+   "title": "Del 1: Ord i stallet",
+   "titleEn": "Part 1: Stable words",
+   "instructions": "Titta på bilden. Svara.",
+   "instructionsEn": "Look at the picture. Answer.",
+   "items": [
     {
-      "id": "ord",
-      "title": "Del 1: Ord i stallet",
-      "titleEn": "Part 1: Stable words",
-      "instructions": "Titta på bilden. Svara.",
-      "instructionsEn": "Look at the picture. Answer.",
-      "items": [
-        {
-          "id": "i1",
-          "type": "info",
-          "image": {
-            "src": "stallet.svg",
-            "alt": "Ett stall med en häst i en box, hö, en grep och en hage"
-          },
-          "md": "| verb | betyder | former |\n|---|---|---|\n| **mocka** (boxen) | ta bort gödsel och smutsigt strö | mockar – mockade – mockat |\n| **rykta** (hästen) | borsta och göra ren hästen | ryktar – ryktade – ryktat |\n| **släppa ut** (i hagen) | låta hästen gå ut | släpper – släppte – släppt ut |\n| **ta in** | ta hästen tillbaka till stallet | tar – tog – tagit in |\n| **ge foder** | ge mat (hö, havre) | ger – gav – gett |\n\n**Jobbannons-ord:**\n- **ett krav** = du *måste* ha det. *Körkort är ett krav.*\n- **meriterande** = bra om du har det, men inte nödvändigt.\n- **varannan helg** = every second weekend (*varannan* = هر دو … یک بار).\n- **erfarenhet av** = experience of. *Jag har erfarenhet **av** hästar.*\n- **lön enligt kollektivavtal** = salary by the union agreement."
-        },
-        {
-          "id": "o1",
-          "type": "gap",
-          "tags": [
-            "ord.tema.arbete"
-          ],
-          "q": "Varje morgon måste hästskötaren ___ boxarna.",
-          "qEn": "Every morning the caretaker must muck out the stalls.",
-          "base": "ta bort gödsel",
-          "answers": [
-            "mocka"
-          ],
-          "explain": "mocka boxarna = clean the stalls."
-        },
-        {
-          "id": "o2",
-          "type": "mcq",
-          "tags": [
-            "ord.tema.arbete"
-          ],
-          "q": "Vad gör man när man ryktar en häst?",
-          "image": {
-            "src": "ryktverktyg.jpg",
-            "alt": "Borstar och verktyg för att rykta hästar",
-            "credit": "Foto: BLW, CC BY-SA 3.0, Wikimedia Commons",
-            "size": "small"
-          },
-          "options": [
-            "Man rider på hästen.",
-            "Man ger hästen vatten.",
-            "Man borstar och gör ren hästen.",
-            "Man släpper ut hästen."
-          ],
-          "answer": 2
-        },
-        {
-          "id": "o3",
-          "type": "gap",
-          "tags": [
-            "ord.tema.arbete"
-          ],
-          "q": "Det är ___ om du kan köra traktor, men det är inget krav.",
-          "qEn": "It's a plus if you can drive a tractor, but it's not required.",
-          "answers": [
-            "meriterande"
-          ],
-          "explain": "meriterande = a plus. krav = must."
-        },
-        {
-          "id": "o4",
-          "type": "gap",
-          "tags": [
-            "preposition"
-          ],
-          "q": "Har du erfarenhet ___ hästar?",
-          "answers": [
-            "av"
-          ],
-          "explain": "erfarenhet av något."
-        },
-        {
-          "id": "o5",
-          "type": "mcq",
-          "tags": [
-            "ord.tema.arbete"
-          ],
-          "q": "\"Du ska arbeta varannan helg.\" Hur många helger arbetar du i en månad med fyra helger?",
-          "options": [
-            "En",
-            "Två",
-            "Tre",
-            "Fyra"
-          ],
-          "answer": 1,
-          "explain": "varannan = every second → 2 av 4."
-        }
-      ]
+     "id": "i1",
+     "type": "info",
+     "image": {
+      "src": "stallet.svg",
+      "alt": "Ett stall med en häst i en box, hö, en grep och en hage"
+     },
+     "md": "| verb | betyder | former |\n|---|---|---|\n| **mocka** (boxen) | ta bort gödsel och smutsigt strö | mockar – mockade – mockat |\n| **rykta** (hästen) | borsta och göra ren hästen | ryktar – ryktade – ryktat |\n| **släppa ut** (i hagen) | låta hästen gå ut | släpper – släppte – släppt ut |\n| **ta in** | ta hästen tillbaka till stallet | tar – tog – tagit in |\n| **ge foder** | ge mat (hö, havre) | ger – gav – gett |\n\n**Jobbannons-ord:**\n- **ett krav** = du *måste* ha det. *Körkort är ett krav.*\n- **meriterande** = bra om du har det, men inte nödvändigt.\n- **varannan helg** = every second weekend (*varannan* = هر دو … یک بار).\n- **erfarenhet av** = experience of. *Jag har erfarenhet **av** hästar.*\n- **lön enligt kollektivavtal** = salary by the union agreement."
     },
     {
-      "id": "las",
-      "title": "Del 2: Läs annonsen",
-      "titleEn": "Part 2: Read the ad",
-      "instructions": "Läs annonsen. Stämmer meningen? Svara Ja eller Nej.",
-      "instructionsEn": "Read the ad. Is the sentence true? Answer Ja or Nej.",
-      "parts": [
-        {
-          "image": {
-            "src": "hastar.jpg",
-            "alt": "Två nordsvenska brukshästar drar en vagn på en grusväg",
-            "credit": "Foto: Calle Eklund/V-wolf, CC BY-SA 4.0, Wikimedia Commons"
-          },
-          "passageTitle": "Hästskötare sökes till Solbacka Ridskola",
-          "passage": "Solbacka Ridskola utanför Uppsala har 25 hästar och cirka 300 elever. Vi söker nu en hästskötare på 75 procent från den 1 februari.\n\nArbetsuppgifter\n• mocka boxar och ge hästarna foder och vatten\n• släppa ut hästarna i hagen på morgonen och ta in dem på eftermiddagen\n• rykta hästarna och hjälpa till vid lektioner\n\nVi söker dig som\n• har erfarenhet av hästar\n• är fysiskt stark och tycker om att arbeta utomhus i alla väder\n• kan arbeta varannan helg\n\nKörkort är ett krav, eftersom ridskolan ligger åtta kilometer från närmaste busshållplats. Det är meriterande om du kan köra traktor.\n\nArbetstid: vardagar 06.30–15.00. Lön enligt kollektivavtal.\n\nSkicka CV och personligt brev till lena.berg@solbacka.se senast den 15 december. Frågor? Ring Lena Berg, stallchef, på 070-123 45 67 efter klockan 13.",
-          "items": [
-            {
-              "id": "l1",
-              "type": "mcq",
-              "tags": [
-                "läs.janej"
-              ],
-              "q": "Ridskolan söker någon som ska arbeta heltid.",
-              "options": [
-                "Ja",
-                "Nej"
-              ],
-              "answer": 1,
-              "explain": "75 procent = deltid, inte heltid."
-            },
-            {
-              "id": "l2",
-              "type": "mcq",
-              "tags": [
-                "läs.janej"
-              ],
-              "q": "Man måste ha körkort.",
-              "options": [
-                "Ja",
-                "Nej"
-              ],
-              "answer": 0,
-              "explain": "Körkort är ett krav."
-            },
-            {
-              "id": "l3",
-              "type": "mcq",
-              "tags": [
-                "läs.janej"
-              ],
-              "q": "Man måste kunna köra traktor.",
-              "options": [
-                "Ja",
-                "Nej"
-              ],
-              "answer": 1,
-              "explain": "Traktor är meriterande, inte ett krav."
-            },
-            {
-              "id": "l4",
-              "type": "mcq",
-              "tags": [
-                "läs.janej"
-              ],
-              "q": "Man arbetar några helger varje månad.",
-              "options": [
-                "Ja",
-                "Nej"
-              ],
-              "answer": 0,
-              "explain": "varannan helg."
-            },
-            {
-              "id": "l5",
-              "type": "mcq",
-              "tags": [
-                "läs.janej"
-              ],
-              "q": "Man kan ringa Lena klockan tio på förmiddagen.",
-              "options": [
-                "Ja",
-                "Nej"
-              ],
-              "answer": 1,
-              "explain": "Ring efter klockan 13."
-            },
-            {
-              "id": "l6",
-              "type": "mcq",
-              "tags": [
-                "läs.janej"
-              ],
-              "q": "Hästarna är ute i hagen under dagen.",
-              "options": [
-                "Ja",
-                "Nej"
-              ],
-              "answer": 0,
-              "explain": "Ut på morgonen, in på eftermiddagen."
-            }
-          ]
-        }
-      ]
+     "id": "o1",
+     "type": "gap",
+     "tags": [
+      "ord.tema.arbete"
+     ],
+     "q": "Varje morgon måste hästskötaren ___ boxarna.",
+     "qEn": "Every morning the caretaker must muck out the stalls.",
+     "base": "ta bort gödsel",
+     "answers": [
+      "mocka"
+     ],
+     "explain": "mocka boxarna = clean the stalls."
     },
     {
-      "id": "lyssna",
-      "title": "Del 3: Lyssna – Amir ringer",
-      "titleEn": "Part 3: Listen – Amir calls",
-      "instructions": "Du hör samtalet två gånger. Svara med 1–5 ord på de korta frågorna.",
-      "instructionsEn": "You hear the call twice. Answer the short questions in 1–5 words.",
-      "parts": [
-        {
-          "image": {
-            "src": "samtal.svg",
-            "alt": "Amir ringer till Lena, stallchef",
-            "size": "small"
-          },
-          "audio": {
-            "id": "a1",
-            "title": "Amir ringer om jobbet",
-            "maxPlays": 2,
-            "speakers": {
-              "Lena": "f",
-              "Amir": "m"
-            },
-            "script": [
-              {
-                "speaker": "Lena",
-                "text": "Solbacka ridskola, det är Lena."
-              },
-              {
-                "speaker": "Amir",
-                "text": "Hej, jag heter Amir Karimi. Jag ringer om annonsen för hästskötare. Är jobbet fortfarande ledigt?"
-              },
-              {
-                "speaker": "Lena",
-                "text": "Ja, det är det. Har du jobbat med hästar förut?"
-              },
-              {
-                "speaker": "Amir",
-                "text": "Ja. Jag växte upp på en gård med hästar i Iran. Och förra sommaren jobbade jag på ett stall i Enköping i tre månader."
-              },
-              {
-                "speaker": "Lena",
-                "text": "Vad bra. Har du körkort?"
-              },
-              {
-                "speaker": "Amir",
-                "text": "Ja, jag har körkort och egen bil. Men jag undrar en sak. I annonsen står det att man jobbar varannan helg. Hur långa är dagarna på helgen?"
-              },
-              {
-                "speaker": "Lena",
-                "text": "På helgen börjar vi klockan sju och slutar klockan tolv. Så det är fem timmar."
-              },
-              {
-                "speaker": "Amir",
-                "text": "Okej, det går bra. När kan jag komma och titta på stallet?"
-              },
-              {
-                "speaker": "Lena",
-                "text": "Kan du komma på torsdag klockan två? Då kan du träffa mig och hästarna."
-              },
-              {
-                "speaker": "Amir",
-                "text": "Torsdag klockan två passar bra. Ska jag ta med något?"
-              },
-              {
-                "speaker": "Lena",
-                "text": "Ta med stövlar och varma kläder. Vi går ut i hagen också."
-              },
-              {
-                "speaker": "Amir",
-                "text": "Toppen. Tack så mycket, vi ses på torsdag!"
-              }
-            ],
-            "noise": {
-              "sound": "car",
-              "level": 0.35
-            }
-          },
-          "items": [
-            {
-              "id": "h1",
-              "type": "mcq",
-              "tags": [
-                "hör.huvudtanke"
-              ],
-              "q": "Varför ringer Amir?",
-              "options": [
-                "Han vill boka en ridlektion.",
-                "Han vill fråga om jobbet.",
-                "Han vill köpa en häst.",
-                "Han har glömt något i stallet."
-              ],
-              "answer": 1
-            },
-            {
-              "id": "h2",
-              "type": "mcq",
-              "tags": [
-                "hör.detalj"
-              ],
-              "q": "Var har Amir jobbat med hästar i Sverige?",
-              "options": [
-                "I Uppsala",
-                "I Iran",
-                "I Enköping",
-                "Ingenstans"
-              ],
-              "answer": 2
-            },
-            {
-              "id": "h3",
-              "type": "short",
-              "tags": [
-                "hör.siffror"
-              ],
-              "q": "Hur många timmar jobbar man en dag på helgen?",
-              "answers": [
-                "fem",
-                "5"
-              ]
-            },
-            {
-              "id": "h4",
-              "type": "short",
-              "tags": [
-                "hör.tid"
-              ],
-              "q": "När ska Amir besöka stallet? (dag och tid)",
-              "answers": [
-                "torsdag"
-              ]
-            },
-            {
-              "id": "h5",
-              "type": "short",
-              "tags": [
-                "hör.kortsvar"
-              ],
-              "q": "Vad ska Amir ta med?",
-              "answers": [
-                "stövlar",
-                "varma kläder"
-              ]
-            }
-          ]
-        }
-      ]
+     "id": "o2",
+     "type": "mcq",
+     "tags": [
+      "ord.tema.arbete"
+     ],
+     "q": "Vad gör man när man ryktar en häst?",
+     "image": {
+      "src": "ryktverktyg.jpg",
+      "alt": "Borstar och verktyg för att rykta hästar",
+      "credit": "Foto: BLW, CC BY-SA 3.0, Wikimedia Commons",
+      "size": "small"
+     },
+     "options": [
+      "Man rider på hästen.",
+      "Man ger hästen vatten.",
+      "Man borstar och gör ren hästen.",
+      "Man släpper ut hästen."
+     ],
+     "answer": 2
     },
     {
-      "id": "tala",
-      "title": "Del 4: Ring själv",
-      "titleEn": "Part 4: Make the call",
-      "instructions": "Du är intresserad av jobbet. Lyssna på Lena och svara. Ställ minst tre frågor.",
-      "instructionsEn": "You want the job. Listen to Lena, answer, and ask at least three questions.",
-      "items": [
-        {
-          "id": "t1",
-          "type": "speak",
-          "tags": [
-            "tal.annons",
-            "tal.interaktion"
-          ],
-          "q": "Ring Lena om jobbet. Presentera dig och fråga om jobbet.",
-          "qEn": "Call Lena. Introduce yourself and ask about the job.",
-          "maxSeconds": 180,
-          "image": {
-            "src": "mocka.jpg",
-            "alt": "Ett stall av trä på landet",
-            "credit": "Foto: Graham Horn, CC BY-SA 2.0, Wikimedia Commons",
-            "size": "small"
-          },
-          "audio": {
-            "id": "t1a",
-            "maxPlays": 2,
-            "speakers": {
-              "Lena": "f"
-            },
-            "script": [
-              {
-                "speaker": "Lena",
-                "text": "Solbacka ridskola, det är Lena. Vad kan jag hjälpa dig med?"
-              }
-            ],
-            "strict": false
-          },
-          "bullets": [
-            "Hälsa och säg varför du ringer (Jag ringer om annonsen …)",
-            "Berätta om din erfarenhet (Jag har erfarenhet av …)",
-            "Fråga: Hur många timmar i veckan är 75 procent? / Kan jag jobba heltid senare? / Hur många hästar ska jag ta hand om?",
-            "Avsluta artigt (Tack så mycket, …)"
-          ]
-        }
-      ]
+     "id": "o3",
+     "type": "gap",
+     "tags": [
+      "ord.tema.arbete"
+     ],
+     "q": "Det är ___ om du kan köra traktor, men det är inget krav.",
+     "qEn": "It's a plus if you can drive a tractor, but it's not required.",
+     "answers": [
+      "meriterande"
+     ],
+     "explain": "meriterande = a plus. krav = must."
+    },
+    {
+     "id": "o4",
+     "type": "gap",
+     "tags": [
+      "preposition"
+     ],
+     "q": "Har du erfarenhet ___ hästar?",
+     "answers": [
+      "av"
+     ],
+     "explain": "erfarenhet av något."
+    },
+    {
+     "id": "o5",
+     "type": "mcq",
+     "tags": [
+      "ord.tema.arbete"
+     ],
+     "q": "\"Du ska arbeta varannan helg.\" Hur många helger arbetar du i en månad med fyra helger?",
+     "options": [
+      "En",
+      "Två",
+      "Tre",
+      "Fyra"
+     ],
+     "answer": 1,
+     "explain": "varannan = every second → 2 av 4."
     }
-  ]
+   ]
+  },
+  {
+   "id": "las",
+   "title": "Del 2: Läs annonsen",
+   "titleEn": "Part 2: Read the ad",
+   "instructions": "Läs annonsen. Stämmer meningen? Svara Ja eller Nej.",
+   "instructionsEn": "Read the ad. Is the sentence true? Answer Ja or Nej.",
+   "parts": [
+    {
+     "image": {
+      "src": "hastar.jpg",
+      "alt": "Två nordsvenska brukshästar drar en vagn på en grusväg",
+      "credit": "Foto: Calle Eklund/V-wolf, CC BY-SA 4.0, Wikimedia Commons"
+     },
+     "passageTitle": "Hästskötare sökes till Solbacka Ridskola",
+     "passage": "Solbacka Ridskola utanför Uppsala har 25 hästar och cirka 300 elever. Vi söker nu en hästskötare på 75 procent från den 1 februari.\n\nArbetsuppgifter\n• mocka boxar och ge hästarna foder och vatten\n• släppa ut hästarna i hagen på morgonen och ta in dem på eftermiddagen\n• rykta hästarna och hjälpa till vid lektioner\n\nVi söker dig som\n• har erfarenhet av hästar\n• är fysiskt stark och tycker om att arbeta utomhus i alla väder\n• kan arbeta varannan helg\n\nKörkort är ett krav, eftersom ridskolan ligger åtta kilometer från närmaste busshållplats. Det är meriterande om du kan köra traktor.\n\nArbetstid: vardagar 06.30–15.00. Lön enligt kollektivavtal.\n\nSkicka CV och personligt brev till lena.berg@solbacka.se senast den 15 december. Frågor? Ring Lena Berg, stallchef, på 070-123 45 67 efter klockan 13.",
+     "items": [
+      {
+       "id": "l1",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Ridskolan söker någon som ska arbeta heltid.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "75 procent = deltid, inte heltid."
+      },
+      {
+       "id": "l2",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Man måste ha körkort.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "Körkort är ett krav."
+      },
+      {
+       "id": "l3",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Man måste kunna köra traktor.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Traktor är meriterande, inte ett krav."
+      },
+      {
+       "id": "l4",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Man arbetar några helger varje månad.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "varannan helg."
+      },
+      {
+       "id": "l5",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Man kan ringa Lena klockan tio på förmiddagen.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 1,
+       "explain": "Ring efter klockan 13."
+      },
+      {
+       "id": "l6",
+       "type": "mcq",
+       "tags": [
+        "läs.janej"
+       ],
+       "q": "Hästarna är ute i hagen under dagen.",
+       "options": [
+        "Ja",
+        "Nej"
+       ],
+       "answer": 0,
+       "explain": "Ut på morgonen, in på eftermiddagen."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lyssna",
+   "title": "Del 3: Lyssna – Amir ringer",
+   "titleEn": "Part 3: Listen – Amir calls",
+   "instructions": "Du hör samtalet två gånger. Svara med 1–5 ord på de korta frågorna.",
+   "instructionsEn": "You hear the call twice. Answer the short questions in 1–5 words.",
+   "parts": [
+    {
+     "image": {
+      "src": "samtal.svg",
+      "alt": "Amir ringer till Lena, stallchef",
+      "size": "small"
+     },
+     "audio": {
+      "id": "a1",
+      "title": "Amir ringer om jobbet",
+      "maxPlays": 2,
+      "speakers": {
+       "Lena": "f",
+       "Amir": "m"
+      },
+      "script": [
+       {
+        "speaker": "Lena",
+        "text": "Solbacka ridskola, det är Lena."
+       },
+       {
+        "speaker": "Amir",
+        "text": "Hej, jag heter Amir Karimi. Jag ringer om annonsen för hästskötare. Är jobbet fortfarande ledigt?"
+       },
+       {
+        "speaker": "Lena",
+        "text": "Ja, det är det. Har du jobbat med hästar förut?"
+       },
+       {
+        "speaker": "Amir",
+        "text": "Ja. Jag växte upp på en gård med hästar i Iran. Och förra sommaren jobbade jag på ett stall i Enköping i tre månader."
+       },
+       {
+        "speaker": "Lena",
+        "text": "Vad bra. Har du körkort?"
+       },
+       {
+        "speaker": "Amir",
+        "text": "Ja, jag har körkort och egen bil. Men jag undrar en sak. I annonsen står det att man jobbar varannan helg. Hur långa är dagarna på helgen?"
+       },
+       {
+        "speaker": "Lena",
+        "text": "På helgen börjar vi klockan sju och slutar klockan tolv. Så det är fem timmar."
+       },
+       {
+        "speaker": "Amir",
+        "text": "Okej, det går bra. När kan jag komma och titta på stallet?"
+       },
+       {
+        "speaker": "Lena",
+        "text": "Kan du komma på torsdag klockan två? Då kan du träffa mig och hästarna."
+       },
+       {
+        "speaker": "Amir",
+        "text": "Torsdag klockan två passar bra. Ska jag ta med något?"
+       },
+       {
+        "speaker": "Lena",
+        "text": "Ta med stövlar och varma kläder. Vi går ut i hagen också."
+       },
+       {
+        "speaker": "Amir",
+        "text": "Toppen. Tack så mycket, vi ses på torsdag!"
+       }
+      ],
+      "noise": {
+       "sound": "car",
+       "level": 0.35
+      }
+     },
+     "items": [
+      {
+       "id": "h1",
+       "type": "mcq",
+       "tags": [
+        "hör.huvudtanke"
+       ],
+       "q": "Varför ringer Amir?",
+       "options": [
+        "Han vill boka en ridlektion.",
+        "Han vill fråga om jobbet.",
+        "Han vill köpa en häst.",
+        "Han har glömt något i stallet."
+       ],
+       "answer": 1
+      },
+      {
+       "id": "h2",
+       "type": "mcq",
+       "tags": [
+        "hör.detalj"
+       ],
+       "q": "Var har Amir jobbat med hästar i Sverige?",
+       "options": [
+        "I Uppsala",
+        "I Iran",
+        "I Enköping",
+        "Ingenstans"
+       ],
+       "answer": 2
+      },
+      {
+       "id": "h3",
+       "type": "short",
+       "tags": [
+        "hör.siffror"
+       ],
+       "q": "Hur många timmar jobbar man en dag på helgen?",
+       "answers": [
+        "fem",
+        "5"
+       ]
+      },
+      {
+       "id": "h4",
+       "type": "short",
+       "tags": [
+        "hör.tid"
+       ],
+       "q": "När ska Amir besöka stallet? (dag och tid)",
+       "answers": [
+        "torsdag"
+       ]
+      },
+      {
+       "id": "h5",
+       "type": "short",
+       "tags": [
+        "hör.kortsvar"
+       ],
+       "q": "Vad ska Amir ta med?",
+       "answers": [
+        "stövlar",
+        "varma kläder"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tala",
+   "title": "Del 4: Prata om annonsen",
+   "titleEn": "Part 4: Talk about the ad",
+   "instructions": "Som på Swedex muntligt, Del 2 A. Du ser annonsen och har 30 sekunder att läsa. Sedan ställer examinatorn frågor om den. Svara med fakta från annonsen.",
+   "instructionsEn": "Like Swedex oral part 2 A. You see the ad, 30 seconds to read, then the examiner asks about it. Answer with facts from the ad.",
+   "parts": [
+    {
+     "heading": "Annonsen",
+     "passageTitle": "Hästskötare sökes",
+     "passage": "Solbacka Ridskola utanför Uppsala har 25 hästar och cirka 300 elever. Vi söker nu en hästskötare på 75 procent från den 1 februari.\n\nArbetsuppgifter\n• mocka boxar och ge hästarna foder och vatten\n• släppa ut hästarna i hagen på morgonen och ta in dem på eftermiddagen\n• rykta hästarna och hjälpa till vid lektioner\n\nVi söker dig som\n• har erfarenhet av hästar\n• är fysiskt stark och tycker om att arbeta utomhus i alla väder\n• kan arbeta varannan helg\n\nKörkort är ett krav, eftersom ridskolan ligger åtta kilometer från närmaste busshållplats. Det är meriterande om du kan köra traktor.\n\nArbetstid: vardagar 06.30–15.00. Lön enligt kollektivavtal.\n\nSkicka CV och personligt brev till lena.berg@solbacka.se senast den 15 december. Frågor? Ring Lena Berg, stallchef, på 070-123 45 67 efter klockan 13.",
+     "image": {
+      "src": "/materials/video/006-jobb-hastskotare/stall.jpg",
+      "alt": "Fyra foton: en stall, en flicka som borstar en häst, en ryttare och en häst som äter gräs",
+      "credit": "Foton: Pixabay"
+     },
+     "items": [
+      {
+       "id": "t1",
+       "type": "speak",
+       "tags": [
+        "tal.annons",
+        "tal.interaktion"
+       ],
+       "maxSeconds": 120,
+       "q": "Del 2 A – Frågor 1 och 2",
+       "audio": {
+        "id": "t1a",
+        "maxPlays": 2,
+        "strict": false,
+        "speakers": {
+         "Examinator": "m"
+        },
+        "script": [
+         {
+          "speaker": "Examinator",
+          "text": "Nu får du en annons. Du har trettio sekunder på dig att läsa den."
+         },
+         {
+          "speaker": "Examinator",
+          "text": "Tiden är slut. Då börjar vi. Vad är det för jobb? Och var ligger ridskolan?",
+          "pause": 30
+         }
+        ]
+       }
+      },
+      {
+       "id": "t2",
+       "type": "speak",
+       "tags": [
+        "tal.annons",
+        "tal.interaktion"
+       ],
+       "maxSeconds": 120,
+       "q": "Del 2 A – Frågor 3 och 4",
+       "audio": {
+        "id": "t2a",
+        "maxPlays": 2,
+        "strict": false,
+        "speakers": {
+         "Examinator": "m"
+        },
+        "script": [
+         {
+          "speaker": "Examinator",
+          "text": "Vilka arbetsuppgifter har man? Berätta om två. … Och vad kräver ridskolan av den som söker?"
+         }
+        ]
+       }
+      },
+      {
+       "id": "t3",
+       "type": "speak",
+       "tags": [
+        "tal.annons",
+        "tal.interaktion"
+       ],
+       "maxSeconds": 120,
+       "q": "Del 2 A – Frågor 5 och 6",
+       "audio": {
+        "id": "t3a",
+        "maxPlays": 2,
+        "strict": false,
+        "speakers": {
+         "Examinator": "m"
+        },
+        "script": [
+         {
+          "speaker": "Examinator",
+          "text": "Hur ser arbetstiden ut? … Skulle du vilja ha det här jobbet? Varför, eller varför inte?"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }

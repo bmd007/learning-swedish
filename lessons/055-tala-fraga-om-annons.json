@@ -4,8 +4,8 @@
  "titleEn": "Speaking: ask about an ad (part 2 B)",
  "mode": "practice",
  "minutes": 15,
- "intro": "I Swedex muntligt Del 2 B ser du inte annonsen. Examinatorn har den. Du får bara en ruta med tips och ska fråga. Här lär du dig att göra varje tips till en riktig fråga, med rätt ordföljd. Sist pratar du själv.",
- "introEn": "In Swedex oral part 2 B you cannot see the ad. The examiner has it. You only get a box of tips and must ask. Here you learn to turn each tip into a real question with the right word order. At the end you speak.",
+ "intro": "I Swedex muntligt Del 2 B ser du annons B (4 foton och text) och en ruta med Frågor. Examinatorn har annonsen också. Du ställer frågor som i ett rollspel. Svaren står på sidan, men du måste göra varje tips till en riktig fråga, med rätt ordföljd. Först övar du, sist pratar du själv.",
+ "introEn": "In Swedex oral part 2 B you SEE ad B (4 photos + text) and a Frågor box with tips. You ask the examiner questions as a role-play. The answers are on the page, but you must turn each tip into a real question with the right word order. At the end you speak.",
  "sections": [
   {
    "id": "regler",
@@ -17,10 +17,10 @@
     {
      "id": "p1",
      "type": "info",
-     "md": "**Del 2 B – du frågar.**\n\n1. Examinatorn säger: *Nu har jag en annons. Du ska fråga mig om den.* Du **ser inte** annonsen.\n2. Du får en ruta med **tips**: *var? hur många sängar? pris per vecka? husdjur? hur boka?*\n3. Du ställer **en fråga per tips**. Ta alla tips, ett i taget.\n4. Sedan **1–2 egna frågor** (till exempel *Finns det wifi?*).\n5. Avsluta: **Tack, då vet jag allt.**\n\nDet är en **ny annons**, inte den du just svarade på. Tipsen är ord, inte meningar. Du gör dem till frågor.\n\n**فارسی:** آگهی را نمی‌بینید. فقط کلمه‌های راهنما دارید. از هر کلمه یک سؤال کامل بسازید.",
+     "md": "**Del 2 B – du frågar.**\n\n1. Examinatorn säger: *Nu byter vi annons. Du ska fråga mig om annonsen.* Du **ser annonsen** (4 foton och text) och en ruta **Frågor** med tips.\n2. Tipsen är ord: *var, hotell? pool? pris, en familj? webbadress?* Du gör **en fråga per tips**. Ta alla tips, ett i taget.\n3. Det är ett rollspel: examinatorn svarar. Svaret står oftast i annonsen, men du frågar ändå, som om du inte visste.\n4. Sedan **1–2 egna frågor** (till exempel *Finns det wifi?*).\n5. Avsluta: **Tack, då vet jag allt.**\n\nDet är en **ny annons**, inte den du just svarade på. Tipsen är ord, inte meningar.\n\n**فارسی:** آگهی را می‌بینید، همراه با جعبهٔ «Frågor». از هر کلمهٔ راهنما یک سؤال کامل بسازید و از مصاحبه‌گر بپرسید.",
      "image": {
       "src": "scen.svg",
-      "alt": "Examinatorn håller annonsen med frågetecken, du har en ruta med tips"
+      "alt": "Du har annonsen och en ruta med tips, examinatorn svarar"
      }
     },
     {
@@ -516,126 +516,147 @@
    "id": "prata",
    "title": "Nu pratar du",
    "titleEn": "Now you speak",
-   "instructions": "Tre annonser. Du ser bara tipsen. Tryck på inspelning och ställ en hel fråga per tips. Sedan en egen fråga. Avsluta med Tack, då vet jag allt.",
-   "instructionsEn": "Three ads. You see only the tips. Record and ask one full question per tip, then your own question. End with: Tack, då vet jag allt.",
-   "items": [
+   "instructions": "Tre annonser. Du ser annonsen och rutan Frågor. Tryck på inspelning och ställ en hel fråga per tips. Sedan en egen fråga. Avsluta med Tack, då vet jag allt.",
+   "instructionsEn": "Three ads. You see the ad and the Frågor box. Record and ask one full question per tip, then your own question. End with: Tack, då vet jag allt.",
+   "parts": [
     {
-     "id": "t1",
-     "type": "speak",
-     "tags": [
-      "tal.annons.fråga",
-      "tal.interaktion",
-      "ordföljd.fråga"
-     ],
-     "maxSeconds": 210,
-     "q": "Annons: hundvakt. Du ser inte annonsen. Fråga examinatorn om varje tips. Ställ sedan en egen fråga. Avsluta med: Tack, då vet jag allt.",
-     "qEn": "You cannot see the ad. Ask one full question for each tip, then one question of your own. End with: Tack, då vet jag allt.",
-     "bullets": [
-      "hur många hundar?",
-      "pris per dag?",
-      "ingår mat?",
-      "hur boka?",
-      "Din egen fråga",
-      "Tack, då vet jag allt."
-     ],
-     "audio": {
-      "id": "e1",
-      "maxPlays": 2,
-      "strict": false,
-      "speakers": {
-       "Examinator": "m"
-      },
-      "script": [
-       {
-        "speaker": "Examinator",
-        "text": "Nu har jag en annons om hundvakt. Du ska fråga mig om den. Titta på tipsen och sätt igång."
-       }
-      ]
-     },
+     "heading": "Hundvakt i Lund",
+     "passageTitle": "Hundvakt i Lund",
+     "passage": "Ska du resa? Jag passar din hund hemma hos mig!\n\n• max två hundar åt gången\n• promenad tre gånger om dagen\n• stor trädgård och eget hundrum\n\nPris: 250 kr per dag. Mat tar du med själv.\n\nBoka minst en vecka innan: ring Maja på 070-555 12 34\n\nFrågor:\nhur många hundar?\npris per dag?\ningår mat?\nhur boka?",
      "image": {
-      "src": "tips.svg",
-      "alt": "En ruta med tips: hundvakt",
-      "caption": "Tips: hur många hundar? pris per dag? ingår mat? hur boka?"
-     }
+      "src": "/materials/video/055-tala-fraga-om-annons/hund.jpg",
+      "alt": "Fyra foton: en hund med en pinne, en hund som sover, en hund med sin ägare och en matskål",
+      "credit": "Foton: Pixabay"
+     },
+     "items": [
+      {
+       "id": "t1",
+       "type": "speak",
+       "tags": [
+        "tal.annons.fråga",
+        "tal.interaktion",
+        "ordföljd.fråga"
+       ],
+       "maxSeconds": 210,
+       "q": "Del 2 B – Annons: hundvakt i lund. Du ser annonsen och rutan Frågor. Fråga examinatorn om varje tips. Ställ sedan en egen fråga. Avsluta med: Tack, då vet jag allt.",
+       "qEn": "You see the ad and the Frågor box. Ask one full question for each tip, then one question of your own. End with: Tack, då vet jag allt.",
+       "bullets": [
+        "hur många hundar?",
+        "pris per dag?",
+        "ingår mat?",
+        "hur boka?",
+        "Din egen fråga",
+        "Tack, då vet jag allt."
+       ],
+       "audio": {
+        "id": "e1",
+        "maxPlays": 2,
+        "strict": false,
+        "speakers": {
+         "Examinator": "m"
+        },
+        "script": [
+         {
+          "speaker": "Examinator",
+          "text": "Nu har jag en annons om hundvakt. Du ska fråga mig om den. Titta på rutan med frågor och sätt igång."
+         }
+        ]
+       }
+      }
+     ]
     },
     {
-     "id": "t2",
-     "type": "speak",
-     "tags": [
-      "tal.annons.fråga",
-      "tal.interaktion",
-      "ordföljd.fråga"
-     ],
-     "maxSeconds": 210,
-     "q": "Annons: sommarjobb på en camping. Du ser inte annonsen. Fråga examinatorn om varje tips. Ställ sedan en egen fråga. Avsluta med: Tack, då vet jag allt.",
-     "qEn": "You cannot see the ad. Ask one full question for each tip, then one question of your own. End with: Tack, då vet jag allt.",
-     "bullets": [
-      "vilket arbete?",
-      "timmar per vecka?",
-      "lön?",
-      "bo på plats?",
-      "hur ansöka?",
-      "Din egen fråga",
-      "Tack, då vet jag allt."
-     ],
-     "audio": {
-      "id": "e2",
-      "maxPlays": 2,
-      "strict": false,
-      "speakers": {
-       "Examinator": "m"
-      },
-      "script": [
-       {
-        "speaker": "Examinator",
-        "text": "Nu har jag en annons om sommarjobb på en camping. Du ska fråga mig om den. Titta på tipsen och sätt igång."
-       }
-      ]
-     },
+     "heading": "Sommarjobb på camping",
+     "passageTitle": "Sommarjobb på Sjöviks camping",
+     "passage": "Vi söker personal till sommaren!\n\n• arbete i receptionen och med städning\n• 30–40 timmar i veckan, juni–augusti\n• lön: 145 kr i timmen\n• enkelt boende i personalstuga ingår\n\nAnsök: mejla CV till jobb@sjovik.se senast den 1 april\n\nFrågor:\nvilket arbete?\ntimmar per vecka?\nlön?\nbo på plats?\nhur ansöka?",
      "image": {
-      "src": "tips.svg",
-      "alt": "En ruta med tips: sommarjobb",
-      "caption": "Tips: vilket arbete? timmar per vecka? lön? bo på plats? hur ansöka?"
-     }
+      "src": "/materials/video/055-tala-fraga-om-annons/camping.jpg",
+      "alt": "Fyra foton: ett tält i skogen, en lägereld, en sjö med en häst och en husbil",
+      "credit": "Foton: Pixabay"
+     },
+     "items": [
+      {
+       "id": "t2",
+       "type": "speak",
+       "tags": [
+        "tal.annons.fråga",
+        "tal.interaktion",
+        "ordföljd.fråga"
+       ],
+       "maxSeconds": 210,
+       "q": "Del 2 B – Annons: sommarjobb på camping. Du ser annonsen och rutan Frågor. Fråga examinatorn om varje tips. Ställ sedan en egen fråga. Avsluta med: Tack, då vet jag allt.",
+       "qEn": "You see the ad and the Frågor box. Ask one full question for each tip, then one question of your own. End with: Tack, då vet jag allt.",
+       "bullets": [
+        "vilket arbete?",
+        "timmar per vecka?",
+        "lön?",
+        "bo på plats?",
+        "hur ansöka?",
+        "Din egen fråga",
+        "Tack, då vet jag allt."
+       ],
+       "audio": {
+        "id": "e2",
+        "maxPlays": 2,
+        "strict": false,
+        "speakers": {
+         "Examinator": "m"
+        },
+        "script": [
+         {
+          "speaker": "Examinator",
+          "text": "Nu har jag en annons om sommarjobb på en camping. Du ska fråga mig om den. Titta på rutan med frågor och sätt igång."
+         }
+        ]
+       }
+      }
+     ]
     },
     {
-     "id": "t3",
-     "type": "speak",
-     "tags": [
-      "tal.annons.fråga",
-      "tal.interaktion",
-      "ordföljd.fråga"
-     ],
-     "maxSeconds": 210,
-     "q": "Annons: en loppis i skolan. Du ser inte annonsen. Fråga examinatorn om varje tips. Ställ sedan en egen fråga. Avsluta med: Tack, då vet jag allt.",
-     "qEn": "You cannot see the ad. Ask one full question for each tip, then one question of your own. End with: Tack, då vet jag allt.",
-     "bullets": [
-      "när?",
-      "var?",
-      "pris för bord?",
-      "hur anmäla sig?",
-      "Din egen fråga",
-      "Tack, då vet jag allt."
-     ],
-     "audio": {
-      "id": "e3",
-      "maxPlays": 2,
-      "strict": false,
-      "speakers": {
-       "Examinator": "m"
-      },
-      "script": [
-       {
-        "speaker": "Examinator",
-        "text": "Nu har jag en annons om en loppis i skolan. Du ska fråga mig om den. Titta på tipsen och sätt igång."
-       }
-      ]
-     },
+     "heading": "Loppis",
+     "passageTitle": "Stor loppis på Björkskolan!",
+     "passage": "Kom och fynda – eller sälj dina egna saker!\n\n• lördag kl. 10–15\n• skolgården, Björkvägen 3\n• bord: 50 kr\n• fika och korv säljs\n\nAnmäl dig till loppis@bjorkskolan.se senast fredag\n\nFrågor:\nnär?\nvar?\npris för bord?\nhur anmäla sig?",
      "image": {
-      "src": "tips.svg",
-      "alt": "En ruta med tips: loppis",
-      "caption": "Tips: när? var? pris för bord? hur anmäla sig?"
-     }
+      "src": "/materials/video/055-tala-fraga-om-annons/loppis.jpg",
+      "alt": "Fyra foton: porslin på ett bord, kläder på en stång, gamla böcker och en nallebjörn i gräset",
+      "credit": "Foton: Pixabay"
+     },
+     "items": [
+      {
+       "id": "t3",
+       "type": "speak",
+       "tags": [
+        "tal.annons.fråga",
+        "tal.interaktion",
+        "ordföljd.fråga"
+       ],
+       "maxSeconds": 210,
+       "q": "Del 2 B – Annons: loppis. Du ser annonsen och rutan Frågor. Fråga examinatorn om varje tips. Ställ sedan en egen fråga. Avsluta med: Tack, då vet jag allt.",
+       "qEn": "You see the ad and the Frågor box. Ask one full question for each tip, then one question of your own. End with: Tack, då vet jag allt.",
+       "bullets": [
+        "när?",
+        "var?",
+        "pris för bord?",
+        "hur anmäla sig?",
+        "Din egen fråga",
+        "Tack, då vet jag allt."
+       ],
+       "audio": {
+        "id": "e3",
+        "maxPlays": 2,
+        "strict": false,
+        "speakers": {
+         "Examinator": "m"
+        },
+        "script": [
+         {
+          "speaker": "Examinator",
+          "text": "Nu har jag en annons om en loppis i skolan. Du ska fråga mig om den. Titta på rutan med frågor och sätt igång."
+         }
+        ]
+       }
+      }
+     ]
     }
    ]
   }

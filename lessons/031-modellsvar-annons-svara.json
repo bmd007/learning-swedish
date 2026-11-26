@@ -18,8 +18,9 @@
      "heading": "Annons 1: Matlagningskurs",
      "headingEn": "Ad 1: Cooking course",
      "image": {
-      "src": "matlagning.svg",
-      "alt": "Annons för en matlagningskurs i italienskt kök"
+      "src": "/materials/video/031-modellsvar-annons-svara/matlagning.jpg",
+      "alt": "Fyra foton: pasta, en kock i ett kök, tomater och basilika samt vänner vid ett middagsbord",
+      "credit": "Foton: Pixabay"
      },
      "audio": {
       "id": "a1",
@@ -114,14 +115,17 @@
        "explain": "'Menar du att + bisats'. I bisatsen står subjektet före verbet: att ni båda går.",
        "explainEn": "'Menar du att ...' + subject before verb."
       }
-     ]
+     ],
+     "passageTitle": "Matlagningskurs: italienskt kök",
+     "passage": "Matlagningskurs: italienskt kök\nKökskompaniet, Malmö\n\nLaga mat med en riktig kock!\n\n• 4 torsdagar, start 14 januari\n• tid: 18.00–21.00\n• i priset: recept, råvaror och middag\n• plats: Kryddgatan 8 (max 12 personer)\n\nPris: 1 495 kr per person\nRabatt: 10 % för studenter och pensionärer\n\n040-555 01 23 | www.kokskompaniet.se"
     },
     {
      "heading": "Annons 2: Båtresa",
      "headingEn": "Ad 2: Boat trip",
      "image": {
-      "src": "batresa.svg",
-      "alt": "Annons för en dagskryssning i Stockholms skärgård"
+      "src": "/materials/video/031-modellsvar-annons-svara/batresa.jpg",
+      "alt": "Fyra foton: öar i havet, Stockholms skärgård, en person på ett fartygsdäck och måsar över havet",
+      "credit": "Foton: Pixabay"
      },
      "audio": {
       "id": "a2",
@@ -217,7 +221,9 @@
        "explain": "695 + 695 + 350 = 1 740 kr. Läs priset högt: tusen sjuhundrafyrtio.",
        "explainEn": "695 + 695 + 350 = 1,740."
       }
-     ]
+     ],
+     "passageTitle": "Dagskryssning i skärgården",
+     "passage": "Dagskryssning i skärgården\nSkärgårdsbåten Vega, Stockholm\n\n• lördagar i juni, juli och augusti\n• avgång 10.00 från Nybrokajen\n• tillbaka 17.00\n• lunch ingår, kaffe och dryck köper du ombord\n\nVuxen: 695 kr, barn 4–15 år: 350 kr\nBarn under 4 år åker gratis\nGrupper från 10 personer: 15 % rabatt\n\n08-555 01 40 | www.skargardsbaten.se"
     }
    ]
   },
@@ -227,51 +233,64 @@
    "titleEn": "Phrases and your turn",
    "instructions": "Läs fraserna. Titta sedan på den nya annonsen och svara på testledarens frågor. Max 90 sekunder.",
    "instructionsEn": "Read the phrases. Then look at the new ad and answer the examiner's questions. Max 90 seconds.",
-   "items": [
+   "parts": [
     {
-     "id": "i1",
-     "type": "info",
-     "md": "**Fraser att låna** (använd dem i dina svar)\n\n| Svenska | English | فارسی |\n|---|---|---|\n| Det är en kurs / en resa / ett ... | It is a course / a trip | این یک دوره / سفر است |\n| Den kostar ... kronor per person. | It costs ... per person. | قیمتش ... کرون برای هر نفر است |\n| Den börjar ... och slutar ... | It starts ... and ends ... | شروع می‌شود ... و تمام می‌شود ... |\n| ... ingår i priset. | ... is included. | ... در قیمت شامل است |\n| Man får rabatt om man är ... | You get a discount if ... | تخفیف می‌گیرید اگر ... |\n| Menar du att ...? | Do you mean that ...? | منظورت اینه که ...؟ |\n| Får jag titta en gång till? | May I look once more? | می‌تونم یک بار دیگه نگاه کنم؟ |\n| Ja, gärna, för att jag tycker om ... | Yes, gladly, because I like ... | بله، با کمال میل، چون ... را دوست دارم |\n\n**Tips:** Svara kort + lägg till en detalj. Läs priser och klockslag högt, tydligt. Fråga om du inte förstår.",
-     "image": {
-      "src": "matlagning.svg",
-      "alt": "Annons för en matlagningskurs",
-      "caption": "Svar = kort svar + en detalj"
-     }
+     "heading": "Fraser att låna",
+     "items": [
+      {
+       "id": "i1",
+       "type": "info",
+       "md": "**Fraser att låna** (använd dem i dina svar)\n\n| Svenska | English | فارسی |\n|---|---|---|\n| Det är en kurs / en resa / ett ... | It is a course / a trip | این یک دوره / سفر است |\n| Den kostar ... kronor per person. | It costs ... per person. | قیمتش ... کرون برای هر نفر است |\n| Den börjar ... och slutar ... | It starts ... and ends ... | شروع می‌شود ... و تمام می‌شود ... |\n| ... ingår i priset. | ... is included. | ... در قیمت شامل است |\n| Man får rabatt om man är ... | You get a discount if ... | تخفیف می‌گیرید اگر ... |\n| Menar du att ...? | Do you mean that ...? | منظورت اینه که ...؟ |\n| Får jag titta en gång till? | May I look once more? | می‌تونم یک بار دیگه نگاه کنم؟ |\n| Ja, gärna, för att jag tycker om ... | Yes, gladly, because I like ... | بله، با کمال میل، چون ... را دوست دارم |\n\n**Tips:** Svara kort + lägg till en detalj. Läs priser och klockslag högt, tydligt. Fråga om du inte förstår.",
+       "image": {
+        "src": "matlagning.svg",
+        "alt": "Annons för en matlagningskurs",
+        "caption": "Svar = kort svar + en detalj"
+       }
+      }
+     ]
     },
     {
-     "id": "s1",
-     "type": "speak",
-     "tags": [
-      "tal.interaktion",
-      "tal.annons"
-     ],
-     "q": "Nu du: läs annonsen i 30 sekunder. Lyssna på testledaren och svara på de tre frågorna.",
-     "qEn": "Now you: read the ad for 30 seconds, then answer the three questions.",
-     "maxSeconds": 120,
-     "bullets": [
-      "Vad är det för kurs? När börjar den?",
-      "Vad kostar den? Finns det rabatt?",
-      "Skulle du vilja gå kursen? Varför / varför inte?"
-     ],
+     "heading": "Annons: Simskola för vuxna",
+     "passageTitle": "Simskola för vuxna",
+     "passage": "Simskola för vuxna\nSimhallen Delfinen, Uppsala\n\nLär dig simma – det är aldrig för sent!\n\n• 8 gånger, måndagar 19.00–20.00\n• första kursdagen: 8 februari\n• i priset: simlärare och entré\n• max 8 personer i gruppen\n\nPris: 1 200 kr\nPensionärer får 200 kr rabatt\n\n018-555 02 11 | www.simhallendelfinen.se",
      "image": {
-      "src": "simskola.svg",
-      "alt": "Annons för simskola för vuxna"
+      "src": "/materials/video/031-modellsvar-annons-svara/simskola.jpg",
+      "alt": "Fyra foton: en simbassäng, en kvinna vid bassängkanten, en simmare med simglasögon och en simmare under vattnet",
+      "credit": "Foton: Pixabay"
      },
-     "audio": {
-      "id": "e1",
-      "title": "Testledaren ställer tre frågor",
-      "maxPlays": 2,
-      "strict": false,
-      "speakers": {
-       "Testledare": "f"
-      },
-      "script": [
-       {
-        "speaker": "Testledare",
-        "text": "Nu får du en ny annons. Jag har tre frågor. Först: vad är det för kurs, och när börjar den? Sedan: vad kostar den, och finns det någon rabatt? Och till sist: skulle du vilja gå den här kursen? Varför, eller varför inte?"
+     "items": [
+      {
+       "id": "s1",
+       "type": "speak",
+       "tags": [
+        "tal.interaktion",
+        "tal.annons"
+       ],
+       "q": "Del 2 A – Nu du: läs annonsen i 30 sekunder. Lyssna på testledaren och svara på de tre frågorna.",
+       "qEn": "Now you: read the ad for 30 seconds, then answer the three questions.",
+       "maxSeconds": 120,
+       "bullets": [
+        "Vad är det för kurs? När börjar den?",
+        "Vad kostar den? Finns det rabatt?",
+        "Skulle du vilja gå kursen? Varför / varför inte?"
+       ],
+       "audio": {
+        "id": "e1",
+        "title": "Testledaren ställer tre frågor",
+        "maxPlays": 2,
+        "strict": false,
+        "speakers": {
+         "Testledare": "f"
+        },
+        "script": [
+         {
+          "speaker": "Testledare",
+          "text": "Nu får du en ny annons. Jag har tre frågor. Först: vad är det för kurs, och när börjar den? Sedan: vad kostar den, och finns det någon rabatt? Och till sist: skulle du vilja gå den här kursen? Varför, eller varför inte?"
+         }
+        ]
        }
-      ]
-     }
+      }
+     ]
     }
    ]
   }

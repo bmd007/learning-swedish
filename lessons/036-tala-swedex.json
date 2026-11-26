@@ -3,16 +3,16 @@
   "title": "Tala – som på Swedex",
   "titleEn": "Speaking – Swedex style",
   "mode": "exam",
-  "minutes": 15,
-  "intro": "Ett muntligt prov i tre delar, som på Swedex A2B1. Examinatorn ställer frågor, du spelar in dina svar. Använd Chrome, tillåt mikrofonen och prata tydligt. Allt sparas direkt.",
-  "introEn": "A 3-part speaking test like Swedex A2B1. The examiner asks, you record your answers. Use Chrome, allow the microphone, speak clearly. Everything is saved.",
+  "minutes": 18,
+  "intro": "Ett muntligt prov i fyra delar, som på Swedex A2B1: vardagsfrågor, svara om en annons, fråga om en annons och prata om ett ämne med bilder. Du ser annonserna och bilderna. Examinatorn ställer frågor, du spelar in dina svar. Använd Chrome, tillåt mikrofonen och prata tydligt. Allt sparas direkt.",
+  "introEn": "A 4-part speaking test like Swedex A2B1: everyday questions, answer about an ad, ask about an ad, and talk about a theme with photos. You see the ads and photos. The examiner asks, you record. Use Chrome, allow the microphone, speak clearly. Everything is saved.",
   "sections": [
     {
       "id": "tala-1",
-      "title": "Tala 1: Allmänna frågor",
-      "titleEn": "Speaking 1: General questions",
-      "instructions": "Examinatorn ställer en fråga. Lyssna, klicka på ”Spela in” och svara. Prata gärna lite längre än en mening – berätta och ge exempel.",
-      "instructionsEn": "Listen to the examiner, then record your answer. Give more than one sentence: explain, give examples. Chrome shows a live transcript.",
+      "title": "Del 1: Vardagsfrågor",
+      "titleEn": "Part 1: Everyday questions",
+      "instructions": "Ingen text, inga bilder. Examinatorn ställer en fråga i taget, med följdfrågor. Lyssna, klicka på ”Spela in” och svara. Prata gärna lite längre än en mening – berätta och ge exempel.",
+      "instructionsEn": "No paper. The examiner asks one question at a time with follow-ups. Give more than one sentence: explain, give examples.",
       "items": [
         {
           "id": "t1",
@@ -21,25 +21,21 @@
             "tal.interaktion",
             "tal.berätta"
           ],
-          "maxSeconds": 120,
-          "q": "Fråga 1",
+          "maxSeconds": 90,
+          "q": "Del 1 – Fråga 1",
           "audio": {
             "id": "e1",
             "maxPlays": 2,
+            "strict": false,
             "speakers": {
               "Examinator": "m"
             },
             "script": [
               {
                 "speaker": "Examinator",
-                "text": "Hej och välkommen! Kan du berätta lite om dig själv? Var kommer du ifrån, och hur länge har du bott i Sverige?"
+                "text": "Hej och välkommen! Kan du berätta lite om dig själv? Var kommer du ifrån? … Och hur länge har du bott i Sverige?"
               }
-            ],
-            "strict": false
-          },
-          "image": {
-            "src": "samtal.svg",
-            "alt": "Examinatorn ställer en fråga och du svarar"
+            ]
           }
         },
         {
@@ -49,21 +45,21 @@
             "tal.interaktion",
             "tal.berätta"
           ],
-          "maxSeconds": 120,
-          "q": "Fråga 2",
+          "maxSeconds": 90,
+          "q": "Del 1 – Fråga 2",
           "audio": {
             "id": "e2",
             "maxPlays": 2,
+            "strict": false,
             "speakers": {
               "Examinator": "m"
             },
             "script": [
               {
                 "speaker": "Examinator",
-                "text": "Vad gör du på fritiden? Har du någon hobby?"
+                "text": "Vad gör du på fritiden? Har du någon hobby? … Varför tycker du om den? Och hur ofta håller du på med den?"
               }
-            ],
-            "strict": false
+            ]
           }
         },
         {
@@ -73,36 +69,65 @@
             "tal.interaktion",
             "tal.argumentera"
           ],
-          "maxSeconds": 120,
-          "q": "Fråga 3",
+          "maxSeconds": 90,
+          "q": "Del 1 – Fråga 3",
           "audio": {
             "id": "e3",
             "maxPlays": 2,
+            "strict": false,
             "speakers": {
               "Examinator": "m"
             },
             "script": [
               {
                 "speaker": "Examinator",
-                "text": "Varför vill du lära dig svenska? Och i vilka situationer använder du svenska i vardagen?"
+                "text": "Varför vill du lära dig svenska? … Och var använder du svenska i vardagen? Berätta om en situation."
               }
-            ],
-            "strict": false
+            ]
+          }
+        },
+        {
+          "id": "t3b",
+          "type": "speak",
+          "tags": [
+            "tal.interaktion",
+            "tal.berätta"
+          ],
+          "maxSeconds": 90,
+          "q": "Del 1 – Fråga 4",
+          "audio": {
+            "id": "e3b",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": "m"
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Hur ser en vanlig dag ut för dig? Vad gör du på morgonen, och vad gör du på kvällen? … Vad är bäst med din dag?"
+              }
+            ]
           }
         }
       ]
     },
     {
-      "id": "tala-2",
-      "title": "Tala 2: Annonser",
-      "titleEn": "Speaking 2: Ads",
-      "instructions": "Du säljer en cykel. Examinatorn ringer och frågar om den. Svara med hjälp av din annons. Sedan är det din tur att fråga om examinatorns annons.",
-      "instructionsEn": "You are selling a bike. The examiner calls and asks about it – answer from your ad. Then YOU ask questions about the examiner's ad (form correct questions: Vad…? När…? Var…? Hur mycket…? Måste man…?).",
+      "id": "tala-2a",
+      "title": "Del 2 A: Svara om en annons",
+      "titleEn": "Part 2 A: Answer about an ad",
+      "instructions": "Du ser annonsen. Examinatorn ger dig 30 sekunder att läsa och ställer sedan frågor om den. Svara med fakta från annonsen.",
+      "instructionsEn": "You see the ad. 30 seconds to read, then the examiner asks about it. Answer with facts from the ad.",
       "parts": [
         {
-          "heading": "Din annons",
-          "passageTitle": "SÄLJES: Damcykel",
-          "passage": "Blå, 7 växlar, 3 år gammal\nNya däck i våras\nPris: 1 200 kr\nHämtas i Majorna, Göteborg\nRing efter kl. 17",
+          "heading": "Annons A",
+          "passageTitle": "Annons A",
+          "passage": "Prova på klättring!\nKlättercentret Vertikal, Göteborg\n\n• nybörjarkurs, tre timmar\n• varje lördag i mars kl. 10–13\n• skor och sele ingår\n• max tio personer i gruppen\n\nPris: 250 kr (studenter 150 kr)\n\nAnmälan: www.vertikal.se eller 031-555 10 20",
+          "image": {
+            "src": "/materials/video/036-tala-swedex/ad-a.jpg",
+            "alt": "Fyra foton: en klättervägg, klätterutrustning, vänner som klättrar och en bergsklättrare",
+            "credit": "Foton: Pixabay"
+          },
           "items": [
             {
               "id": "t4",
@@ -112,24 +137,25 @@
                 "tal.interaktion"
               ],
               "maxSeconds": 120,
-              "q": "Svara på examinatorns frågor om cykeln.",
+              "q": "Del 2 A – Frågor 1 och 2",
               "audio": {
                 "id": "e4",
                 "maxPlays": 2,
+                "strict": false,
                 "speakers": {
                   "Examinator": "m"
                 },
                 "script": [
                   {
                     "speaker": "Examinator",
-                    "text": "Hej, jag ringer om cykeln som du säljer. Hur gammal är den, och är den i bra skick?"
+                    "text": "Nu får du en annons. Du har trettio sekunder på dig att läsa den."
+                  },
+                  {
+                    "speaker": "Examinator",
+                    "text": "Tiden är slut. Då börjar vi. Vad är det för annons? Och när kan man gå kursen, och hur länge håller den på?",
+                    "pause": 30
                   }
-                ],
-                "strict": false
-              },
-              "image": {
-                "src": "annons.svg",
-                "alt": "En annons för en blå damcykel"
+                ]
               }
             },
             {
@@ -140,39 +166,100 @@
                 "tal.interaktion"
               ],
               "maxSeconds": 120,
-              "q": "Svara igen.",
+              "q": "Del 2 A – Frågor 3 och 4",
               "audio": {
                 "id": "e5",
                 "maxPlays": 2,
+                "strict": false,
                 "speakers": {
                   "Examinator": "m"
                 },
                 "script": [
                   {
                     "speaker": "Examinator",
-                    "text": "Okej, låter bra. Men tolvhundra kronor är lite mycket för mig. Kan du sänka priset? Och när kan jag komma och titta på den?"
+                    "text": "Vad kostar kursen? Finns det någon rabatt? … Och vad ingår i priset?"
                   }
-                ],
-                "strict": false
+                ]
+              }
+            },
+            {
+              "id": "t5b",
+              "type": "speak",
+              "tags": [
+                "tal.annons",
+                "tal.interaktion"
+              ],
+              "maxSeconds": 90,
+              "q": "Del 2 A – Fråga 5",
+              "audio": {
+                "id": "e5b",
+                "maxPlays": 2,
+                "strict": false,
+                "speakers": {
+                  "Examinator": "m"
+                },
+                "script": [
+                  {
+                    "speaker": "Examinator",
+                    "text": "Skulle du vilja prova på klättring? Varför, eller varför inte?"
+                  }
+                ]
               }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "tala-2b",
+      "title": "Del 2 B: Fråga om en annons",
+      "titleEn": "Part 2 B: Ask about an ad",
+      "instructions": "Du ser annons B och rutan Frågor. Du ställer frågor till examinatorn. Svaren finns på sidan, men din uppgift är att ställa hela frågor. Avsluta med: Tack, då vet jag allt.",
+      "instructionsEn": "You see ad B and the Frågor box. Ask the examiner questions (the answers are on the page; the task is forming questions). End with: Tack, då vet jag allt.",
+      "parts": [
         {
-          "heading": "Examinatorns annons",
-          "passageTitle": "Språkcafé på biblioteket",
-          "passage": "dag och tid?\nplats?\npris?\nanmälan?\nvem kan komma?",
+          "heading": "Annons B",
+          "passageTitle": "Annons B",
+          "passage": "Skidhelg i Åre!\n\nWeekendpaket:\n• stuga med bastu, två nätter\n• skidpass för lördag och söndag\n• frukost varje morgon\n\nPris för hela paketet: 2 400 kr/person eller 7 900 kr/familj (2 vuxna och 2 barn)\n\nIncheckning fredag kl. 16.00, utcheckning söndag kl. 11.00\n\nwww.arestugor.se\n\nFrågor:\nvar, stugan?\nbastu?\npris, en familj?\nwebbadress?",
+          "image": {
+            "src": "/materials/video/036-tala-swedex/ad-b.jpg",
+            "alt": "Fyra foton: en skidbacke, en stuga i snön, en bastu och en person på snöskor",
+            "credit": "Foton: Pixabay"
+          },
           "items": [
             {
               "id": "t6",
               "type": "speak",
               "tags": [
-                "tal.annons",
+                "tal.annons.fråga",
+                "tal.interaktion",
                 "ordföljd.fråga"
               ],
-              "maxSeconds": 120,
-              "q": "Ställ minst fyra frågor till examinatorn om språkcaféet. Använd stödorden. Säg hela frågor.",
-              "qEn": "Ask at least four full questions about the language café, using the keywords. Remember: in questions the verb comes first or right after the question word (När börjar…? Kostar det…?)."
+              "maxSeconds": 180,
+              "q": "Del 2 B – Ställ frågor om annonsen. Använd tipsen i rutan och ställ gärna egna frågor.",
+              "qEn": "Ask one full question per tip, then one of your own.",
+              "bullets": [
+                "var ligger stugan?",
+                "bastu?",
+                "pris för en familj?",
+                "webbadress?",
+                "Din egen fråga",
+                "Tack, då vet jag allt."
+              ],
+              "audio": {
+                "id": "e6",
+                "maxPlays": 2,
+                "strict": false,
+                "speakers": {
+                  "Examinator": "m"
+                },
+                "script": [
+                  {
+                    "speaker": "Examinator",
+                    "text": "Nu byter vi annons. Du ska fråga mig om annonsen. Här är några tips i rutan. Du får också fråga om andra saker. Varsågod."
+                  }
+                ]
+              }
             }
           ]
         }
@@ -180,60 +267,103 @@
     },
     {
       "id": "tala-3",
-      "title": "Tala 3: Samtal",
-      "titleEn": "Speaking 3: Discussion",
-      "instructions": "Examinatorn tar upp ett ämne. Säg vad du tycker och förklara varför. Ge exempel.",
-      "instructionsEn": "Give your opinion with reasons and examples. Useful: Jag tycker att… eftersom… · Å ena sidan… å andra sidan… · Till exempel… · Därför…",
-      "items": [
+      "title": "Del 3: Samtal om ett ämne",
+      "titleEn": "Part 3: Discussion",
+      "instructions": "Du ser en sida med bilder om fritid och hobbyer. Examinatorn ställer frågor. Säg vad du tycker, ge två skäl och ett exempel. Du kan hålla med eller säga emot artigt.",
+      "instructionsEn": "A page of photos about free time and hobbies. Give your opinion, two reasons, an example. Agree or disagree politely. Useful: Jag tycker att… eftersom… · Å ena sidan… å andra sidan… · Till exempel… · Jag förstår, men…",
+      "parts": [
         {
-          "id": "t7",
-          "type": "speak",
-          "tags": [
-            "tal.argumentera"
-          ],
-          "maxSeconds": 120,
-          "q": "Svara examinatorn.",
-          "audio": {
-            "id": "e7",
-            "maxPlays": 2,
-            "speakers": {
-              "Examinator": "m"
-            },
-            "script": [
-              {
-                "speaker": "Examinator",
-                "text": "Nu ska vi prata om mobiltelefoner. Många säger att vi använder mobilen för mycket. Vad tycker du? Finns det fördelar och nackdelar?"
-              }
-            ],
-            "strict": false
-          },
+          "heading": "Fritid och hobbyer",
           "image": {
-            "src": "mobil.svg",
-            "alt": "Fördelar och nackdelar med mobilen"
-          }
-        },
-        {
-          "id": "t8",
-          "type": "speak",
-          "tags": [
-            "tal.argumentera"
-          ],
-          "maxSeconds": 120,
-          "q": "Svara examinatorn.",
-          "audio": {
-            "id": "e8",
-            "maxPlays": 2,
-            "speakers": {
-              "Examinator": "m"
-            },
-            "script": [
-              {
-                "speaker": "Examinator",
-                "text": "Intressant. Tycker du att barn under tolv år ska ha en egen mobil? Varför, eller varför inte?"
+            "src": "/materials/video/036-tala-swedex/ad-del3.jpg",
+            "alt": "Åtta foton: någon läser, ett barn spelar fotboll, blommor, fiske, matlagning, stickning, vandring och sällskapsspel",
+            "credit": "Foton: Pixabay"
+          },
+          "items": [
+            {
+              "id": "t7",
+              "type": "speak",
+              "tags": [
+                "tal.argumentera",
+                "tal.berätta"
+              ],
+              "maxSeconds": 210,
+              "q": "Del 3 – Fritid och hobbyer",
+              "bullets": [
+                "Din åsikt",
+                "Två skäl",
+                "Ett exempel från ditt liv",
+                "Fråga tillbaka"
+              ],
+              "audio": {
+                "id": "e7",
+                "maxPlays": 2,
+                "strict": false,
+                "speakers": {
+                  "Examinator": "m"
+                },
+                "script": [
+                  {
+                    "speaker": "Examinator",
+                    "text": "Nu ska vi prata om fritid och hobbyer. Titta på bilderna. Vad tycker du är viktigast när man är ledig: att vara aktiv eller att vila? Berätta!"
+                  }
+                ]
               }
-            ],
-            "strict": false
-          }
+            },
+            {
+              "id": "t8",
+              "type": "speak",
+              "tags": [
+                "tal.argumentera",
+                "tal.berätta"
+              ],
+              "maxSeconds": 180,
+              "q": "Del 3 – Följdfråga",
+              "audio": {
+                "id": "e8",
+                "maxPlays": 2,
+                "strict": false,
+                "speakers": {
+                  "Examinator": "m"
+                },
+                "script": [
+                  {
+                    "speaker": "Examinator",
+                    "text": "Många säger att folk inte har tid för hobbyer i dag. Varför tror du att det är så? … Och vad gjorde du på fritiden när du var barn?"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "t9",
+              "type": "speak",
+              "tags": [
+                "tal.argumentera",
+                "tal.interaktion"
+              ],
+              "maxSeconds": 150,
+              "q": "Del 3 – Säg emot artigt",
+              "bullets": [
+                "Jag förstår, men…",
+                "Ditt skäl",
+                "Ett exempel"
+              ],
+              "audio": {
+                "id": "e9",
+                "maxPlays": 2,
+                "strict": false,
+                "speakers": {
+                  "Examinator": "m"
+                },
+                "script": [
+                  {
+                    "speaker": "Examinator",
+                    "text": "Jag tycker att hobbyer är bäst när man gör dem ensam, i lugn och ro. Vad säger du om det? Håller du med?"
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
     }
