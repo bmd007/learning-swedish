@@ -211,3 +211,13 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   asking is a role-play. Earlier feedback/055/voice prompts said it was hidden – corrected 2026-11-27.
 - Learner: make every untaken speaking practice/exam follow the exam structure → AUTHORING rule + conversion of
   006, 010, 012, 031, 032, 035, 036, 044, 045, 046, 048, 049, 055.
+
+## 2026-11-27 – Audit: our exams vs the real A2B1 sample (pages + audio)
+- Learner asked to re-check all skills after the speaking miss. Real shapes now in docs/AUTHORING.md "Real exam shapes".
+- Biggest gaps: listening is self-paced in our app (real: paced by the recording, fixed reading time, del 4/5 "all once,
+  then all again", picture options in del 1, clean studio audio, number-list distractors more than corrections);
+  reading Del 4 not chronological + too easy, Del 3 4 options/no headline questions, Del 2 no inference;
+  writing Del 1 had numbered questions + own question, Del 2 5-day calendar without weather / "choose 5".
+- 028 (old B1, taken 24/11) shares the biluthyrning dialogue + 10-miljoner interviews with the A2B1 sample's Hör del 3+5
+  → that part of the official listening sample is no longer a clean mock.
+- Official reading, writing and listening (del 1, 2, 4) samples are unused → final dress rehearsal around 1–2 Dec.

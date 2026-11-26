@@ -206,6 +206,48 @@ Parts with a `passage` are shown side by side (text left, questions right) on wi
 Write `(1)`, `(2)` … in a passage to get numbered sentence markers (Läs del 4).
 `"mode": "practice"` = learning screen: instant feedback on mcq/select, Enter checks gaps, live first-try score.
 
+### Real exam shapes – reading, listening, writing (audit of the official A2B1 sample pages + audio, 2026-11-27)
+
+Build exams and exam-shaped practice from THIS, not from the format description. Pages rendered in
+materials/preview/audit/ (lf-*, hf-*, skriv-*), real-audio transcript with timings in hf-transcript.txt (private).
+
+**Läsa (60 min, 30 p, A2 17 / B1 22).** Text booklet + answer booklet side by side (= our split view), no transfer step.
+- Del 1 (1–10, Ja/Nej): 3 texts ≈ 470 words (a personal letter ≈ 200 + two brochure texts with a small photo);
+  light paraphrase (*en av mina bröder* → *släkting*); key about 5 Ja / 5 Nej.
+- Del 2 (11–16): 8 ads A–H **on one theme**, text only, in boxes; 6 persons described by **wishes and traits**
+  (needs inference: *tycker inte om att flyga, talar bara svenska* → bus trip with Swedish guide). Instruction only
+  says "Du kan inte välja samma annons flera gånger" – **no hint that two ads fit nobody**.
+- Del 3 (17–22): **3 options A–C**. Two insändare: long ≈ 330 words (4 questions) + short ≈ 125 words (2 questions);
+  **2 of 6 questions are "Vilket alternativ passar som rubrik?"** with abstract headlines.
+- Del 4 (23–30): one fact text ≈ 560 words, **≈ 32 numbered sentences**; write the sentence number or 0.
+  Instruction includes two worked examples (Mening: 3 / Mening: 0) and "**Frågorna är i kronologisk ordning**".
+  Strong paraphrase (*inte blunda* ← *ha ögonen öppna*). **The 0 items are plausible on-topic ideas** (≈ 2 of 8).
+
+**Höra (≈ 32 min, paced by the recording, 30 p, A2 14 / B1 22).** Clean studio voices, normal speed, **no background
+noise, no phone filter**. Instructions read aloud; before each clip a voice reads "Nummer två. När är doktorn tillbaka?".
+- Del 1 (1–6): voicemails 15–27 s, **4 options, pictures in 5 of 6** (objects, transport, activities, date boxes).
+  ≈ 20 s reading; each clip twice in a row (2–3 s gap); almost no answer time before the next question.
+- Del 2 (7–12): 3 announcements + 3 radio bits, 15–35 s, one question each, answer = one number/word
+  (20.00, spår 14, a phone number, 16 maj, halv nio). Twice in a row.
+- Del 3 (13–18): one dialogue ≈ 75 s, twice in a row, 6 short answers.
+- Del 4 (19–22): 4 news clips 35–55 s **on one theme**, 6 headlines (2 extra) that reuse clip words as traps.
+  45 s reading. **All four once, then all four again.**
+- Del 5 (23–30): 4 interviews 45–65 s, same question to all, 2 Rätt/Fel each + printed example. 30 s reading.
+  **All four once, then all four again.**
+- Distractors: mostly **several numbers/items named, one asked** (spår 14 vs vagn 4 vs tåg 432) and **inference**
+  (a train never named – perrong, vagn). Few "nej förresten" corrections. ≈ 8 of 30 answers are numbers/dates/times.
+- Noise: the sample has none; a friend reported noise on test day → keep noise in some practice, but one calibration
+  mock must be clean.
+
+**Skriva (60 min, handwritten, answer booklet).** Criteria: fullgörande av uppgiften/innehåll, kommunikativ utformning,
+formell korrekthet.
+- Del 1: an informal email from a friend in an email frame; **3 short questions hidden in the prose** (not numbered);
+  "svara på hennes tre frågor", start and end correctly. **No word count printed**, no "ask a question back". ≈ 14 lines.
+- Del 2: "Det är den 8 juli" (**only the date** tells you today); **7-day calendar table with a weather icon per day**
+  and short notes with feelings (*12.30-tåget, fem timmar försenat!*, *träningsvärk!*, *Kanske Tivoli?*);
+  "Beskriv **fem** dagar" (choose), what you have done + something you will do, "Berätta vad du tyckte", ca 100 ord,
+  to a relative; continues the Del 1 story.
+
 ### Speaking tasks = Swedex A2B1 muntligt shape (rule since 2026-11-27)
 
 Every `speak` task in practice lessons and exams copies one part of the real oral test (official sample:
