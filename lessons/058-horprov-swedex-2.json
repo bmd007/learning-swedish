@@ -3,6 +3,7 @@
   "title": "Hörprov: Swedex A2B1 – provtest 2",
   "titleEn": "Listening test: Swedex A2B1 – mock test 2",
   "mode": "exam",
+  "paced": true,
   "timeLimit": 35,
   "minutes": 35,
   "scoring": {
@@ -15,6 +16,7 @@
   "sections": [
     {
       "id": "del1",
+      "readSeconds": 20,
       "title": "Hör del 1: Telefonmeddelanden",
       "titleEn": "Listening part 1: Phone messages",
       "instructions": "Du hör sex korta meddelanden. Varje meddelande har en fråga. Välj rätt svar (A, B, C eller D). Varje meddelande spelas två gånger.",
@@ -301,6 +303,7 @@
     },
     {
       "id": "del2",
+      "readSeconds": 20,
       "title": "Hör del 2: Meddelanden och radio",
       "titleEn": "Listening part 2: Messages and radio",
       "instructions": "Du hör tre meddelanden och tre radioinslag. Svara på frågorna med 1–5 ord. Skriv kort.",
@@ -590,6 +593,7 @@
     },
     {
       "id": "del3",
+      "readSeconds": 20,
       "title": "Hör del 3: Dialog",
       "titleEn": "Listening part 3: Dialogue",
       "instructions": "Du hör en dialog. Svara på frågorna med 1–5 ord. Frågorna kommer i samma ordning som i samtalet.",
@@ -807,6 +811,8 @@
     },
     {
       "id": "del4",
+      "readSeconds": 45,
+      "repeat": "afterAll",
       "title": "Hör del 4: Radioinslag och rubriker",
       "titleEn": "Listening part 4: Radio items and headlines",
       "instructions": "Du hör fyra radioinslag. Välj rätt rubrik till varje inslag. Två rubriker passar inte.",
@@ -961,6 +967,8 @@
     },
     {
       "id": "del5",
+      "readSeconds": 30,
+      "repeat": "afterAll",
       "title": "Hör del 5: Intervjuer",
       "titleEn": "Listening part 5: Interviews",
       "instructions": "Du hör fyra personer svara på samma fråga: Vad gör du för att må bra på vintern? Är påståendena rätt eller fel?",
