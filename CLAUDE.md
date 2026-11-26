@@ -115,8 +115,11 @@ Tags drive the learner model (e.g. `ordföljd.inversion`, `ordföljd.bisats`, `a
 
 1. User takes a lesson in the browser → results JSON saved.
 2. Claude grades: auto items are scored already; Claude grades `write` and `speak` items
-   using the SFI D criteria (see docs/research.md: content, adaptation to reader, coherence,
-   textbindning, ordförråd, grammatik, stavning; speaking adds interaction + uttal).
+   using the **Swedex criteria** for Swedex-shaped tasks: writing = fullgörande av uppgiften/innehåll,
+   kommunikativ utformning, formell korrekthet; speaking = produktion/interaktion, kommunikativ utformning,
+   ordförråd, formell korrekthet, uttal. Give a verdict per criterion (0 / svag / OK / bra) and pass/fail
+   (any criterion 0 = fail). Only grade what the real task asks: no penalty for a missing "question back" or
+   for going over a soft word count. SFI D criteria (docs/research.md) only for SFI D-shaped tasks (e.g. 019).
    Note: the speak transcript comes from Chrome's speech recognition – it can mishear; judge
    fluency/grammar, not small transcription errors.
 3. Write `feedback/<same name as results>.md`: score, strengths, top 3 problems with simple
