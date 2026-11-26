@@ -11,8 +11,8 @@
     "A2": 14,
     "B1": 22
   },
-  "intro": "Det här är ett helt hörprov som på riktiga Swedex, provtest 2. 30 poäng, fem delar. Varje inspelning spelas två gånger i rad, utan paus. Du skriver medan du lyssnar. Några inspelningar har bakgrundsljud, och några personer pratar snabbt. Läs frågorna först: titta på frågeordet (när, hur mycket, var, varför). Lyssna i lugn och ro. Om någon rättar sig själv gäller det sista. Gränser: A2 = 14 poäng, B1 = 22 poäng. Använd hörlurar.",
-  "introEn": "A full listening test like the real Swedex, mock test 2. 30 points, five parts. Every recording plays twice back to back with no pause. You write while listening. Some recordings have background noise. Read the questions first and look at the question word (when, how much, where, why). If a speaker corrects themselves, the last version counts. Limits: A2 = 14, B1 = 22. Use headphones.",
+  "intro": "Det här är ett helt hörprov som på riktiga Swedex, provtest 2. 30 poäng, fem delar. Provet styrs av inspelningen: du trycker Starta för varje del, sedan går allt av sig självt. Först får du tid att läsa frågorna. I del 1–3 spelas varje inspelning två gånger i rad. I del 4 och 5 hör du alla inspelningar en gång, sedan alla en gång till. Du skriver medan du lyssnar. Några inspelningar har bakgrundsljud, och några personer pratar snabbt. Läs frågorna först: titta på frågeordet (när, hur mycket, var, varför). Lyssna i lugn och ro. Om någon rättar sig själv gäller det sista. Gränser: A2 = 14 poäng, B1 = 22 poäng. Använd hörlurar.",
+  "introEn": "A full listening test like the real Swedex, mock test 2. 30 points, five parts. The recording sets the pace: press Start for each part, then it runs by itself. First you get time to read the questions. In parts 1–3 each recording plays twice in a row. In parts 4 and 5 you hear all recordings once, then all again. You write while listening. Some recordings have background noise. Read the questions first and look at the question word (when, how much, where, why). If a speaker corrects themselves, the last version counts. Limits: A2 = 14, B1 = 22. Use headphones.",
   "sections": [
     {
       "id": "del1",
@@ -815,7 +815,7 @@
       "repeat": "afterAll",
       "title": "Hör del 4: Radioinslag och rubriker",
       "titleEn": "Listening part 4: Radio items and headlines",
-      "instructions": "Du hör fyra radioinslag. Välj rätt rubrik till varje inslag. Två rubriker passar inte.",
+      "instructions": "Du hör fyra radioinslag. Välj rätt rubrik till varje inslag. Två rubriker passar inte. Du hör alla fyra inslagen en gång, sedan alla en gång till.",
       "instructionsEn": "Four radio items. Choose the headline for each. Two headlines are extra.",
       "parts": [
         {
@@ -971,7 +971,7 @@
       "repeat": "afterAll",
       "title": "Hör del 5: Intervjuer",
       "titleEn": "Listening part 5: Interviews",
-      "instructions": "Du hör fyra personer svara på samma fråga: Vad gör du för att må bra på vintern? Är påståendena rätt eller fel?",
+      "instructions": "Du hör fyra personer svara på samma fråga: Vad gör du för att må bra på vintern? Är påståendena rätt eller fel? Du hör alla fyra en gång, sedan alla en gång till.",
       "instructionsEn": "Four people answer the same question: What do you do to feel good in winter? Are the statements right or wrong?",
       "parts": [
         {
