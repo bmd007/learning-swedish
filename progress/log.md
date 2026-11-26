@@ -435,3 +435,10 @@
 
 ## 2026-11-27 – Lesson 067 skriv-del2-kalender (Swedex Del 2 shape: 7-day calendar SVG, 13 mars = torsdag, write to moster; warm-up on tense from 'today', clock times, -r).
 - Reading shape lessons: 065 (Del 4, chronological, kaffe text 477 words / 31 sentences, key 4,8,10,0,16,24,0,27) and 066 (Del 3, 2 insändare 299+125 words, 3 options, 2 headline questions, key B,C,A,C,A,B). Untested by learner.
+
+## 2026-11-27 – Official Swedex A2B1 model test built as private exam lessons
+
+- materials/lessons/070-officiellt-lasprov (30 items, 60 min, A2 17 / B1 22), 071-officiellt-skrivprov (2 write items, 60 min),
+  072-officiellt-horprov (Del 1, 2, 4 = 16 items; Del 3 and 5 left out, known from 028). Real audio cut with clip; play once.
+  Images cropped from the PDFs into materials/swedex-a2b1/img/ (private). Script: materials/scripts/build_officiell.py. Not committed (copyright).
+- **Next step:** dress rehearsal on these three before 2026-12-04.
