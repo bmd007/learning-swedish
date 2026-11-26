@@ -221,3 +221,11 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 - 028 (old B1, taken 24/11) shares the biluthyrning dialogue + 10-miljoner interviews with the A2B1 sample's Hör del 3+5
   → that part of the official listening sample is no longer a clean mock.
 - Official reading, writing and listening (del 1, 2, 4) samples are unused → final dress rehearsal around 1–2 Dec.
+
+## 2026-11-27 – Noise in listening + which sources decide exam shape
+- Official A2B1 sample audio is studio-clean; the learner's friend heard background noise on the real test day.
+  → Keep scene noise on about a third of practice/mock clips (058/059 have it); 072 (official audio) stays clean.
+  Both conditions get practised.
+- Source order for exam shape: (1) official A2B1 sample pages + audio, (2) friend's test-day report, (3) the
+  format PDF text, (4) old B1 test 028 / general research. Lessons built before the 2026-11-27 audit (e.g. 016,
+  021, 026, early speaking) followed (3)/(4); the untaken ones were converted, the taken ones stay as history.

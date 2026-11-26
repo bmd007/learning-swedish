@@ -259,8 +259,8 @@ materials/preview/audit/ (lf-*, hf-*, skriv-*), real-audio transcript with timin
   Instruction includes two worked examples (Mening: 3 / Mening: 0) and "**Frågorna är i kronologisk ordning**".
   Strong paraphrase (*inte blunda* ← *ha ögonen öppna*). **The 0 items are plausible on-topic ideas** (≈ 2 of 8).
 
-**Höra (≈ 32 min, paced by the recording, 30 p, A2 14 / B1 22).** Clean studio voices, normal speed, **no background
-noise, no phone filter**. Instructions read aloud; before each clip a voice reads "Nummer två. När är doktorn tillbaka?".
+**Höra (≈ 32 min, paced by the recording, 30 p, A2 14 / B1 22).** Official sample: clean studio voices, normal speed, no background
+noise, no phone filter (but see Noise below: the real test day had noise). Instructions read aloud; before each clip a voice reads "Nummer två. När är doktorn tillbaka?".
 - Del 1 (1–6): voicemails 15–27 s, **4 options, pictures in 5 of 6** (objects, transport, activities, date boxes).
   ≈ 20 s reading; each clip twice in a row (2–3 s gap); almost no answer time before the next question.
 - Del 2 (7–12): 3 announcements + 3 radio bits, 15–35 s, one question each, answer = one number/word

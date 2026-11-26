@@ -1,11 +1,16 @@
-# Plan: SFI kurs D national test (old format)
+# Plan
+
+**Now (until 2026-12-04): Swedex A2B1, Göteborg.** Model = the official A2B1 sample pages + audio
+(docs/AUTHORING.md "Real exam shapes"), not the format text, not the old B1 test (028), not general research.
+Plan to the exam: 058 (listening, paced) → 036 (oral mock) → 059 → official dress rehearsal 070–072 on 1–2 Dec.
+After Swedex: SFI D (below).
+
+## Later: SFI kurs D national test (old format)
 
 Goal: SFI D national test (old format; the learner is enrolled in SFI D and takes the test before the
 2027 syllabus change). Pass (G) needed in all four parts: Läsa, Höra, Skriva, Tala.
 No time-based planning (learner's wish): don't ask for the test date, no schedules or countdowns.
 React to the learner's efforts: grade what they do, then build the next lesson from the results.
-**Booked: Swedex A2B1, Göteborg, 2026-12-04** (learner booked it 2026-11-19). Until then Swedex shape comes first
-(reading, listening, two emails, oral); most of it transfers to SFI D.
 
 ## SFI D format (old test, see docs/research.md)
 - Läsa: short texts + one longer article. Find info in ads, purpose of a text message, read a chart, match
@@ -18,7 +23,7 @@ React to the learner's efforts: grade what they do, then build the next lesson f
   most important factors. Criteria add interaction + uttal.
 - Pass/fail per part (G/IG). Total 4–5 h over several sessions.
 
-## Priorities (from the learner's data)
+## SFI D priorities (after Swedex)
 1. Writing + speaking in SFI D shapes (new: formal opinion text, giving advice, pair discussion).
 2. Reading: SFI D text types (charts, chat posts, sms, interview matching) + Swedex-style practice we have.
 3. Grammar from errors: adjective agreement / en-ett memory, verb forms after signal words, past-story chains.
