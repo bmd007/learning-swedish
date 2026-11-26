@@ -18,11 +18,12 @@ RATE = 24000
 def audios(lesson):
     for sec in lesson["sections"]:
         for part in sec.get("parts", [sec]):
-            if part.get("audio"):
-                yield part["audio"]
-            for item in part.get("items", []):
-                if item.get("audio"):
-                    yield item["audio"]
+            found = [part.get("audio")] + [item.get("audio") for item in part.get("items", [])]
+            for audio in filter(None, found):
+                yield audio
+                if audio.get("cue"):
+                    yield {"id": f"{audio['id']}-cue", "speakers": {"Examinator": "m"},
+                           "script": [{"speaker": "Examinator", "text": audio["cue"]}]}
 
 
 def speaker_settings(audio, name):

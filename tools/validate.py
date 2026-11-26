@@ -47,6 +47,8 @@ def check(path):
     def check_audio(a, where):
         if not ID.match(str(a.get("id", ""))):
             err(f"{where}: audio needs a safe id")
+        if "cue" in a and not (isinstance(a["cue"], str) and a["cue"].strip()):
+            err(f"{where}: audio.cue must be the text to read before the clip")
         if a.get("id") in audio_ids:
             err(f"{where}: duplicate audio id {a.get('id')}")
         audio_ids.add(a.get("id"))
@@ -75,10 +77,19 @@ def check(path):
             if voice not in ("f", "m"):
                 err(f"{where}: speaker must be 'f'/'m' or {{voice: 'f'|'m', pitch?, rate?}}")
 
+    for k in ("paced", "hardStop"):
+        if k in lesson and not isinstance(lesson[k], bool):
+            err(f"{k} must be true/false")
+    if lesson.get("hardStop") and not lesson.get("timeLimit"):
+        err("hardStop needs timeLimit")
     for s in lesson.get("sections", []):
         sid = s.get("id", "?")
         if "title" not in s:
             err(f"section {sid}: missing title")
+        if s.get("repeat") not in (None, "afterAll"):
+            err(f"section {sid}: repeat must be 'afterAll'")
+        if "readSeconds" in s and not (isinstance(s["readSeconds"], (int, float)) and 0 <= s["readSeconds"] <= 300):
+            err(f"section {sid}: readSeconds must be 0–300")
         parts = s.get("parts") or [s]
         for p in parts:
             if p.get("audio"):
@@ -105,7 +116,23 @@ def check(path):
                 item_ids.add(iid)
                 if not it.get("tags"):
                     err(f"{where}: needs at least one tag")
-                opts = it.get("options") or p.get("options")
+                opts = it.get("options") or p.get("options") or it.get("optionImages")
+                pics = it.get("optionImages") or [o for o in (opts or []) if isinstance(o, dict)]
+                for o in pics:
+                    src = o if isinstance(o, str) else (o.get("img") or o.get("src") if isinstance(o, dict) else None)
+                    if not src:
+                        err(f"{where}: picture option needs img")
+                    else:
+                        check_image({"src": src, "alt": "option"}, where)
+                if it.get("optionImages") and it.get("options") and len(it["optionImages"]) != len(it["options"]):
+                    err(f"{where}: optionImages and options must have the same length")
+                if any(not isinstance(o, (str, dict)) for o in (opts or [])):
+                    err(f"{where}: options must be strings or {{img, label?, alt?}}")
+                if it.get("input") is not None:
+                    if t != "select" or it["input"] != "number":
+                        err(f"{where}: input: 'number' is only for select items")
+                    elif not all(isinstance(o, str) and re.match(r"^\d+", o) for o in (opts or [])):
+                        err(f"{where}: input number needs options that start with a number")
                 if t in ("mcq", "select"):
                     if not opts or not isinstance(it.get("answer"), int) or not 0 <= it["answer"] < len(opts):
                         err(f"{where}: needs options and a valid answer index")

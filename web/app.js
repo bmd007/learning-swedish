@@ -227,9 +227,17 @@ function starBtn(lessonId, itemId, kind) {
 }
 
 function answerText(item) {
-  if (item.type === "mcq" || item.type === "select") return item.options?.[item.answer] ?? "";
+  if (item.type === "mcq" || item.type === "select") return optText(item, item.answer) ?? "";
   if (item.answers?.length) return item.answers[0];
   return "";
+}
+
+function optText(item, i) {
+  const o = item.options?.[i];
+  if (typeof o === "string") return o;
+  if (!o && !item.optionImages?.[i]) return undefined;
+  const alt = o?.alt ?? o?.text ?? item.optionImages?.[i]?.alt;
+  return `${o?.label ?? String.fromCharCode(65 + i)}${alt ? ` (${alt})` : " (bild)"}`;
 }
 
 function cardImage(img) {
@@ -367,6 +375,132 @@ async function openLesson(id) {
   const pendingRecordings = new Set();
   let submitted = false;
 
+  const paced = exam && !!lesson.paced;
+  const hardStop = exam && !!lesson.hardStop && !!timeLimit;
+  const myHash = location.hash;
+  const pause = sec => new Promise(r => setTimeout(r, sec * 1000 * (window.__paceScale ?? 1)));
+  let running = null;
+  let curSec = null;
+
+  function clipsOf(sec) {
+    const out = [];
+    for (const p of sec.parts ?? [sec]) {
+      const qs = (p.items ?? []).filter(i => i.type !== "info");
+      if (p.audio) out.push({ audio: p.audio, ids: qs.map(i => i.id) });
+      for (const i of qs) if (i.audio && i.type !== "speak") out.push({ audio: i.audio, ids: [i.id] });
+    }
+    return out;
+  }
+  const reps = a => a.includesRepeat ? 1 : (a.maxPlays ?? 2);
+  const clipDone = c => (state.plays[c.audio.id] ?? 0) >= reps(c.audio);
+  const secDone = sec => clipsOf(sec).every(clipDone);
+  const autoSec = sec => !!sec && (paced || sec.repeat === "afterAll") && clipsOf(sec).length > 0;
+  const allDone = () => !paced || steps.every(secDone);
+
+  function setPace(html) {
+    const s = document.getElementById("pace-status");
+    if (s) s.innerHTML = html;
+  }
+
+  async function countdown(sec, label) {
+    const scale = window.__paceScale ?? 1;
+    const end = Date.now() + sec * 1000 * scale;
+    while (Date.now() < end) {
+      if (location.hash !== myHash) return;
+      setPace(`${label} <b>${Math.ceil((end - Date.now()) / 1000 / scale)} s</b>`);
+      await new Promise(r => setTimeout(r, Math.min(200, end - Date.now())));
+    }
+  }
+
+  function updatePlayers() {
+    document.querySelectorAll(".player[data-audio]").forEach(p => {
+      const a = clipsOf(curSec).find(c => c.audio.id === p.dataset.audio)?.audio;
+      if (!a) return;
+      const used = state.plays[a.id] ?? 0;
+      p.querySelector(".plays").innerHTML = Array.from({ length: reps(a) }, (_, i) => `<span class="dot ${i < used ? "used" : ""}"></span>`).join("");
+    });
+  }
+
+  function highlight(c) {
+    document.querySelectorAll(".item.now, .part.now").forEach(e => e.classList.remove("now"));
+    if (!c) return;
+    const els = c.ids.map(id => document.getElementById(`q-${id}`)).filter(Boolean);
+    els.forEach(e => { e.classList.add("now"); e.closest(".part")?.classList.add("now"); });
+    document.querySelector(`.player[data-audio="${c.audio.id}"]`)?.closest(".part")?.classList.add("now");
+    (els[0] ?? document.querySelector(`.player[data-audio="${c.audio.id}"]`))?.scrollIntoView({ block: "center", behavior: "smooth" });
+  }
+
+  async function runSection(sec) {
+    const clips = clipsOf(sec);
+    const afterAll = sec.repeat === "afterAll";
+    running = sec.id;
+    state.pacedRun = sec.id;
+    save();
+    lockNav(true);
+    if (paced) {
+      const fresh = clips.every(c => !state.plays[c.audio.id]);
+      await countdown(fresh ? (sec.readSeconds ?? 20) : 5, fresh ? "Läs frågorna. Ljudet börjar om" : "Vi fortsätter om");
+    }
+    const rounds = Math.max(...clips.map(c => reps(c.audio)));
+    const order = afterAll
+      ? Array.from({ length: rounds }, (_, r) => clips.filter(c => reps(c.audio) > r).map(c => [c, r + 1])).flat()
+      : clips.flatMap(c => Array.from({ length: reps(c.audio) }, (_, r) => [c, r + 1]));
+    let prev = null;
+    for (const [c, n] of order) {
+      if (location.hash !== myHash) return;
+      if ((state.plays[c.audio.id] ?? 0) >= n) continue;
+      if (prev) await countdown(afterAll ? 9 : prev === c ? 2.5 : 3, prev === c ? "Snart igen" : "Nästa om");
+      if (location.hash !== myHash) return;
+      highlight(c);
+      const nums = c.ids.map(id => document.querySelector(`#q-${id} .qnum`)?.textContent).filter(Boolean);
+      const label = nums.length ? `Nummer ${nums.length > 1 ? `${nums[0]}–${nums.at(-1)}` : nums[0]}` : esc(c.audio.title ?? "");
+      if (c.audio.cue && (afterAll || n === 1)) {
+        setPace(`🔊 ${label}`);
+        await playAudio(lesson.id, { id: `${c.audio.id}-cue`, script: [{ speaker: "Examinator", text: c.audio.cue }] });
+        await pause(1);
+      }
+      state.plays[c.audio.id] = n;
+      save();
+      updatePlayers();
+      setPace(`🔊 ${label} – spelas ${n}/${reps(c.audio)}`);
+      document.querySelector(`.player[data-audio="${c.audio.id}"]`)?.classList.add("playing");
+      await playAudio(lesson.id, c.audio);
+      document.querySelector(`.player[data-audio="${c.audio.id}"]`)?.classList.remove("playing");
+      prev = c;
+    }
+    if (location.hash !== myHash) return;
+    await pause(paced ? 3 : 0);
+    running = null;
+    state.pacedRun = null;
+    save();
+    highlight(null);
+    if (location.hash !== myHash) return;
+    if (paced && state.step < steps.length - 1) go(state.step + 1);
+    else render();
+  }
+
+  function lockNav(on) {
+    document.querySelectorAll("#prev, #next, .exam-tabs button, .qnav button").forEach(b => {
+      if (b.closest(".qnav") && Number(b.dataset.step) === state.step) return;
+      b.disabled = on;
+    });
+  }
+
+  function paceBox(sec) {
+    if (!autoSec(sec)) return "";
+    const i = steps.indexOf(sec);
+    const blocked = paced && steps.slice(0, i).find(s => !secDone(s));
+    const n = i + 1;
+    let body;
+    if (running === sec.id) body = "";
+    else if (secDone(sec)) body = `<span>✓ Ljudet i den här delen är klart. Det spelas inte igen.</span>`;
+    else if (blocked) body = `<button class="btn" disabled>▶ Starta del ${n}</button><span class="muted small">Gör ${esc(blocked.title)} först.</span>`;
+    else if (paced) body = `<button class="btn" id="pace-start">▶ ${clipsOf(sec).some(c => state.plays[c.audio.id]) ? "Fortsätt" : "Starta"} del ${n}</button>
+      <span class="muted small">Du får ${sec.readSeconds ?? 20} s att läsa frågorna. Sedan spelas allt automatiskt${sec.repeat === "afterAll" ? ": alla inspelningar en gång, sedan alla igen" : ", varje inspelning två gånger i rad"}. Du kan inte pausa.</span>`;
+    else body = `<button class="btn" id="pace-start">▶ Spela alla</button><span class="muted small">Alla inspelningar en gång, sedan alla igen.</span>`;
+    return `<div class="pacebar"><div id="pace-status">${body}</div></div>`;
+  }
+
   function pushDraft() {
     if (!state.startedAt || submitted) return;
     leaveStep();
@@ -434,6 +568,19 @@ async function openLesson(id) {
       const left = timeLimit - sec;
       timerEl.textContent = left > 0 ? `⏱ ${fmt(left)} kvar` : `⏱ Tiden är slut (+${fmt(-left)})`;
       timerEl.className = `timer ${left <= 0 ? "over" : left <= 300 ? "warn" : ""}`;
+      if (hardStop) {
+        if (left <= 0 && !state.locked) {
+          state.locked = true;
+          save();
+          go(steps.length);
+          showModal(`<h2>Tiden är slut</h2><p>Dina svar är låsta. Granska och lämna in.</p>`, [["OK", null]]);
+        } else if (left > 0 && left <= 300 && !state.warn5Shown) {
+          state.warn5Shown = true;
+          save();
+          showModal(`<h2>5 minuter kvar</h2><p>När tiden är slut låses svaren automatiskt.</p>`, [["OK", null]]);
+        }
+        return;
+      }
       if (left <= 0 && !warned && !state.timeUpShown) {
         warned = true;
         state.timeUpShown = true;
@@ -485,9 +632,11 @@ async function openLesson(id) {
           <b>Provregler</b>
           <ul>
             <li>Inga ledtrådar och inga rätta svar förrän du lämnar in.</li>
-            <li>Du kan gå fram och tillbaka mellan delarna.</li>
+            ${paced ? `<li>Ljudet styr provet: du startar varje del, sedan spelas allt automatiskt. Ingen paus, ingen extra uppspelning.</li>`
+              : `<li>Du kan gå fram och tillbaka mellan delarna.</li>`}
             <li>Markera ⚑ frågor du vill titta på igen.</li>
             ${timeLimit ? `<li>Klockan räknar ner från ${lesson.timeLimit} minuter.</li>` : ""}
+            ${hardStop ? `<li>När tiden är slut låses svaren (varning 5 minuter före).</li>` : ""}
           </ul>
         </div>` : ""}
       </div>
@@ -525,14 +674,17 @@ async function openLesson(id) {
 
   function renderSection(sec) {
     state.lastStep = state.step;
+    curSec = sec;
     let n = 0;
     const offset = (lesson.numberStart ?? 1) - 1 + steps.slice(0, state.step).reduce((a, s) => a + (s.parts ?? [s]).flatMap(p => p.items ?? []).filter(i => i.type !== "info").length, 0);
     const hasPassage = (sec.parts ?? [sec]).some(p => p.passage);
     if (!exam) setMode(hasPassage ? "wide" : null);
-    const el = h(`<div class="${exam ? "exam-view" : "lesson-view"}">
+    const el = h(`<div class="${exam ? "exam-view" : "lesson-view"}${state.locked ? " locked" : ""}">
       ${sectionHeader(sec)}
       <h1 class="sec-title">${esc(sec.title)}</h1>${exam ? "" : en(sec.titleEn)}
       ${sec.instructions ? `<p class="instructions">${esc(sec.instructions)}</p>${exam ? "" : en(sec.instructionsEn)}` : ""}
+      ${state.locked ? `<p class="badge warn-badge">Tiden är slut – svaren är låsta.</p>` : ""}
+      ${paceBox(sec)}
       <div id="blocks"></div>
       <div class="nav">
         <button class="btn secondary" id="prev" ${state.step === 0 ? "disabled" : ""}>← Föregående</button>
@@ -590,6 +742,15 @@ async function openLesson(id) {
       else go(step, b.dataset.id);
     });
     if (exam) el.addEventListener("input", refreshExamNav), el.addEventListener("change", refreshExamNav), el.addEventListener("click", e => { if (e.target.closest(".chip")) setTimeout(refreshExamNav, 0); });
+    const next = el.querySelector("#next");
+    if (paced && state.step === steps.length - 1 && !allDone()) {
+      next.disabled = true;
+      next.title = "Först när allt ljud har spelats.";
+    }
+    const startBtn = el.querySelector("#pace-start");
+    if (startBtn) startBtn.onclick = () => runSection(sec);
+    if (running) lockNav(true);
+    if (state.locked) el.querySelectorAll("#blocks input, #blocks textarea, #blocks button, #blocks select").forEach(x => x.disabled = true);
     updateLive();
   }
 
@@ -681,7 +842,13 @@ async function openLesson(id) {
     return b;
   }
 
-  function renderPlayer(audio) {
+  function renderPlayer(audio, auto = autoSec(curSec)) {
+    if (auto) {
+      const el = h(`<div class="player auto" data-audio="${esc(audio.id)}"><div class="plays"></div>${audio.context ? `<span>${esc(audio.context)}</span>` : ""}</div>`);
+      const used = state.plays[audio.id] ?? 0;
+      el.querySelector(".plays").innerHTML = Array.from({ length: reps(audio) }, (_, i) => `<span class="dot ${i < used ? "used" : ""}"></span>`).join("");
+      return el;
+    }
     const max = audio.maxPlays ?? 2;
     const el = h(`<div class="player">
       <button class="btn play">▶ Spela upp</button>
@@ -730,10 +897,35 @@ async function openLesson(id) {
     const wrap = h(`<div class="item" id="q-${esc(item.id)}"></div>`);
     const qEn = exam ? "" : en(item.qEn);
     const q = item.q ? `<div class="q"><span class="qnum">${num}</span><span data-hl="q:${esc(item.id)}">${esc(item.q)}</span></div>${qEn}` : `<span class="qnum">${num}</span>`;
-    const set = v => { state.answers[item.id] = v; save(); };
+    const set = v => { if (state.locked) return; state.answers[item.id] = v; save(); };
     const cur = state.answers[item.id];
 
-    if (item.type === "mcq" || item.type === "select") {
+    const pics = item.optionImages
+      ? item.optionImages.map((p, i) => ({ ...(typeof p === "string" ? { img: p } : { img: p.src ?? p.img, alt: p.alt }), text: typeof item.options?.[i] === "string" ? item.options[i] : null }))
+      : item.options?.some(o => typeof o === "object") ? item.options.map(o => typeof o === "object" ? o : { text: o }) : null;
+    if ((item.type === "mcq" || item.type === "select") && pics) {
+      const src = s => !s ? "" : /^(https?:)?\//.test(s) ? s : `/images/${lesson.id}/${s}`;
+      wrap.innerHTML = `${q}<div class="options pics" role="radiogroup">${pics.map((p, i) => {
+        const key = p.label ?? String.fromCharCode(65 + i);
+        return `<label class="opt pic ${cur === i ? "sel" : ""}"><input type="radio" name="${item.id}" value="${i}" ${cur === i ? "checked" : ""} aria-label="${esc(key)}${p.alt ? `: ${esc(p.alt)}` : ""}">
+          <span class="key">${esc(key)}</span>${p.img ? `<img src="${esc(src(p.img))}" alt="${esc(p.alt ?? "")}" loading="lazy">` : ""}${p.text ? `<span>${esc(p.text)}</span>` : ""}</label>`;
+      }).join("")}</div>`;
+      wrap.querySelectorAll("input").forEach(inp => inp.onchange = () => {
+        set(Number(inp.value));
+        wrap.querySelectorAll(".opt").forEach(o => o.classList.toggle("sel", o.contains(inp)));
+      });
+    } else if (item.type === "select" && item.input === "number") {
+      const nr = o => parseInt(String(o), 10);
+      const nums = item.options.map(nr);
+      wrap.innerHTML = `${q}<label class="num-row">${esc(item.inputLabel ?? "Mening")}: <input type="number" class="gap num-in" inputmode="numeric" min="${Math.min(...nums)}" max="${Math.max(...nums)}" value="${cur != null ? nums[cur] : ""}"></label>`;
+      const inp = wrap.querySelector("input");
+      inp.oninput = () => {
+        const v = inp.value.trim();
+        const idx = v === "" ? -1 : nums.indexOf(Number(v));
+        set(idx >= 0 ? idx : null);
+        inp.classList.toggle("bad-in", v !== "" && idx < 0);
+      };
+    } else if (item.type === "mcq" || item.type === "select") {
       const compact = isCompact(item.options);
       const yn = !compact && item.options.length === 2 && item.options.every(o => o.length < 8);
       const parts = o => {
@@ -859,7 +1051,7 @@ async function openLesson(id) {
       count();
     } else if (item.type === "speak") {
       wrap.append(...h(`<div>${q}${item.bullets ? `<ul>${item.bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>` : ""}</div>`).childNodes);
-      if (item.audio) wrap.append(renderPlayer(item.audio));
+      if (item.audio) wrap.append(renderPlayer(item.audio, false));
       wrap.append(renderRecorder(item, set));
     }
     if (item.audio && item.type !== "speak") {
@@ -991,7 +1183,7 @@ async function openLesson(id) {
       const given = norm(a);
       return { given: a ?? null, expected: item.answers[0], correct: !!given && item.answers.some(x => given.includes(norm(x))), teacherCheck: true };
     }
-    if (item.type === "mcq" || item.type === "select") return { given: a == null ? null : item.options[a], expected: item.options[item.answer], correct: a === item.answer };
+    if (item.type === "mcq" || item.type === "select") return { given: a == null ? null : optText(item, a), expected: optText(item, item.answer), correct: a === item.answer };
     if (item.type === "gap") return { given: a ?? null, expected: item.answers[0], correct: item.answers.some(x => norm(x) === norm(a)) };
     if (item.type === "order") {
       const given = Array.isArray(a) ? a.map(i => item.words[i]).join(" ") : null;
@@ -1017,6 +1209,7 @@ async function openLesson(id) {
         </div>
         ${missing.length ? `<p>Obesvarade: ${jump(missing)}</p>` : "<p>✓ Du har svarat på alla uppgifter.</p>"}
         ${flagged.length ? `<p>Markerade ⚑: ${jump(flagged)}</p>` : ""}
+        ${state.locked ? `<p class="badge warn-badge">Tiden är slut – svaren är låsta.</p>` : ""}
         ${exam ? `<p class="muted small">Tips: på Swedex blir det inga minuspoäng. Gissa hellre än att lämna tomt.</p>` : ""}
       </div>
       <div class="nav">

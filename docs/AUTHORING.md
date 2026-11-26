@@ -66,8 +66,8 @@ Optional on all: `q`, `qEn` (English hint), `explain`, `explainEn` (shown after 
 | type | use for | required fields | auto-graded |
 |---|---|---|---|
 | `info` | teaching text, rules, tables, Persian notes (markdown) | `md` | – |
-| `mcq` | multiple choice, Ja/Nej, Sant/Falskt | `options[]`, `answer` (0-based index) | yes |
-| `select` | matching (people↔ads, headings↔radio items, synonym sentences) | `answer`; `options` on the item or the part | yes |
+| `mcq` | multiple choice, Ja/Nej, Sant/Falskt; picture options (Hör del 1), see Exam mode | `options[]`, `answer` (0-based index) | yes |
+| `select` | matching (people↔ads, headings↔radio items, synonym sentences); `"input": "number"` = number box (Läs del 4) | `answer`; `options` on the item or the part | yes |
 | `gap` | fill one word | `q` with exactly one `___`, `answers[]` (all accepted), optional `base` (shown in brackets) | yes, exact (case/punctuation ignored) |
 | `order` | word order | `words[]` (shuffled), `answers[]` (accepted sentences, same words) | yes |
 | `short` | 1–5 word written answer (Swedex listening del 2–3) | `answers[]` = key phrases; correct if the answer contains one | yes, grader re-checks wrong ones |
@@ -177,6 +177,7 @@ noise and unclear speakers: put a scene sound on about a third of TTS recordings
 **Playback:** one click plays the recording `maxPlays` times in a row (2 s gap, no pause, no stopping),
 like the real test where the teacher plays it twice back to back. Questions stay visible: answer while
 listening. `"strict": false` on an audio opts out (only for teaching dialogues, not for tasks).
+Full listening mocks: use `"paced": true` (see Exam mode) so the app runs the whole test like the recording does.
 
 **Make TTS scripts sound like B1 speech, not a textbook:**
 - **Length:** 120–250 words, 1–2.5 min. Not 6 short lines.
@@ -203,6 +204,41 @@ Lesson-level fields for exams:
 "numberStart": 17                               // first question number, to match the real test's numbering
 ```
 Parts with a `passage` are shown side by side (text left, questions right) on wide screens, in both modes.
+
+**Paced listening exam** (real Swedex hörprov: the recording runs the test, no replay):
+```json
+"paced": true,                                  // lesson level, exam mode only
+"sections": [{ "id": "del4", "readSeconds": 45, "repeat": "afterAll", … }]
+```
+- Each section gets one **"Starta del N"** button (only after the earlier delar are done). Then the app runs by
+  itself: reading countdown (`readSeconds`, default 20; use 45 for Hör del 4, 30 for del 5) with the questions
+  visible → per clip: highlight the current question (+ spoken cue, see below) → play twice in a row (2.5 s gap)
+  → 3 s → next clip. After the last clip the next section opens with its own Start button.
+- No play buttons, no replay, tabs/navigation locked while it runs; answers stay editable. "Granska och lämna in"
+  unlocks only when every clip of every section has played.
+- Reload mid-run → the button says "Fortsätt del N" and continues at the next unplayed play (`state.plays`;
+  a play counts as used when it starts). 5 s countdown instead of the reading time.
+- `"repeat": "afterAll"` on a section: every clip once (9 s between clips), then all again (Hör del 4 and 5).
+  Also works without `paced`: the section then shows one **"Spela alla"** button instead of per-clip players.
+- `audio.includesRepeat: true` = the file already contains both playings → played once.
+- `audio.cue: "Nummer två. När är doktorn tillbaka?"` (optional) = read before the clip (first play; every play
+  in afterAll sections). `build_audio.py` renders it to `<id>-cue.m4a` (speaker Examinator); without the file the
+  browser voice reads it. Without `cue` the app only highlights the question.
+- Test knob: `window.__paceScale = 0.05` (set before the app loads) shortens every wait; used by
+  `materials/preview/scripts/paced-test.mjs`.
+
+**Picture options** (Hör del 1: objects, transport, dates): an `mcq`/`select` option may be an object
+`{"img": "x.svg", "label": "A", "alt": "en buss"}` (label/alt optional), or the item has
+`"optionImages": ["a.svg", {"src": "/materials/x.jpg", "alt": "…"}, …]` next to text `options` (same length; text
+is shown under the picture). Relative paths = `images/<lessonId>/`. Shown as a 2×2 grid with A–D, radio buttons
+(keyboard: Tab + arrow keys). Grading is unchanged (`answer` = index); the result page shows "B (alt)".
+
+**Number answer** (Läs del 4, 30+ sentence numbers): `"input": "number"` on a `select` item → a small number
+box ("Mening: __", change the word with `inputLabel`) instead of chips. Every option must start with its number
+(`"0 – ingen mening i texten"`, `"1"`, …); the typed number is stored as that option's index, graded the same.
+
+**Hard stop** (full reading mocks): `"hardStop": true` (needs `timeLimit`) → modal at 5 min left; at 0 the answers
+lock and the app goes to the submit page (no overtime). Without it, overtime is allowed but recorded.
 Write `(1)`, `(2)` … in a passage to get numbered sentence markers (Läs del 4).
 `"mode": "practice"` = learning screen: instant feedback on mcq/select, Enter checks gaps, live first-try score.
 
