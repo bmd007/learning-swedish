@@ -1,0 +1,373 @@
+{
+ "id": "067-skriv-del2-kalender",
+ "title": "Skriva Del 2: kalendern",
+ "titleEn": "Writing part 2: the calendar",
+ "mode": "practice",
+ "minutes": 20,
+ "intro": "Swedex skriva Del 2: du får en kalender med väder och anteckningar och skriver till en släkting. Du väljer fem dagar och använder rätt tempus. Ca 20 minuter.",
+ "introEn": "Swedex writing part 2: a calendar with weather and notes, and a message to a relative. Choose five days and use the right tense. About 20 minutes.",
+ "sections": [
+  {
+   "id": "strategi",
+   "title": "Strategi",
+   "titleEn": "Strategy",
+   "instructions": "Läs kortet.",
+   "instructionsEn": "Read the card.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "tags": [
+      "skriv.kalender"
+     ],
+     "md": "**Skriva Del 2 – kalendern.** Du ser en vecka med väder och korta anteckningar. Raden över tabellen säger bara: *Det är den 13 mars.* Du ska **själv** hitta idag i kalendern.\n\n**1. Vad är dåtid, nutid, framtid?** Idag (13 mars = torsdag) är mitten. Dagarna före är **dåtid**, dagarna efter är **framtid**.\n\n**2. Välj fem dagar.** Ca två i dåtid, idag, ca två i framtid. Du får inte beskriva alla sju.\n\n**3. Gör varje anteckning till en mening med en åsikt.**\n- *(buss 40 min försenad!)* → *Bussen **var** 40 minuter försenad. Det **var** jobbigt!*\n- *(middag, gott!)* → *Vi **åt** middag hos Sara. Maten **var** jättegod.*\n- *(tandläkare 14.00, ont?)* → *Idag **har** jag tid hos tandläkaren **klockan två**. Jag hoppas att det inte **gör** ont.*\n- *(Ikea, trist?)* → *På lördag **ska** jag åka till Ikea. Det **kommer att** bli tråkigt, tror jag.*\n\n**4. Vädret varje dag:** *Det regnade, men det var varmt.* (dåtid) – *Idag blåser det.* – *Det blir sol på söndag.*\n\n**5. Början och slut till en släkting:** *Hej moster Lena!* / *Kära farmor!* … *Hälsningar* / *Kram, Ali*.\n\n**Tid:** *14.00 = klockan två (på eftermiddagen)*, *7.00 = klockan sju*, *19.30 = halv åtta*. Säg inte *halv sju* för 19.30.\n\n**Små fällor:** *jag **är** / **har** / **går*** (presens har **-r** eller ingen ändelse, inte *jag är att*). *Två timmar*, *fem dagar* (flera = plural). *Jag tycker att …*, inte *jag är att*.\n\n**Ordbank**\n| väder | känslor |\n|---|---|\n| det regnade / regnar | jobbigt, tråkigt |\n| det blåste / blåser | mysigt, gott |\n| soligt, molnigt, kallt, varmt | spännande, roligt |\n| det blir sol | träningsvärk, trött |\n\n**فارسی:** تاریخ «امروز» را در تقویم پیدا کن. روزهای قبل = گذشته (åkte, var). امروز = حال. روزهای بعد = آینده (ska + مصدر). برای هر روز یک نظر بنویس.",
+     "image": {
+      "src": "strategi.svg",
+      "alt": "Tre rutor: före idag preteritum, idag presens, efter idag ska plus infinitiv",
+      "caption": "Idag = mitten. Före = dåtid. Efter = framtid."
+     }
+    }
+   ]
+  },
+  {
+   "id": "uppvarmning",
+   "title": "Uppvärmning",
+   "titleEn": "Warm-up",
+   "instructions": "Idag är det torsdag.",
+   "instructionsEn": "Today is Thursday.",
+   "items": [
+    {
+     "id": "w0",
+     "type": "info",
+     "tags": [
+      "skriv.kalender"
+     ],
+     "md": "**Uppvärmning.** Idag är det **torsdag**. Gör anteckningen till en mening. Välj tempus efter dagen."
+    },
+    {
+     "id": "w1",
+     "type": "gap",
+     "tags": [
+      "M",
+      "o",
+      "n",
+      "d",
+      "a",
+      "y",
+      " ",
+      "i",
+      "s",
+      " ",
+      "b",
+      "e",
+      "f",
+      "o",
+      "r",
+      "e",
+      " ",
+      "T",
+      "h",
+      "u",
+      "r",
+      "s",
+      "d",
+      "a",
+      "y",
+      ":",
+      " ",
+      "p",
+      "r",
+      "e",
+      "t",
+      "e",
+      "r",
+      "i",
+      "t",
+      "e",
+      ",",
+      " ",
+      "s",
+      "å",
+      "g",
+      "."
+     ],
+     "q": "Måndag: bio (tråkig film). → I måndags ___ jag en film. Den var tråkig.",
+     "base": "se",
+     "answers": [
+      "såg"
+     ],
+     "explain": "Måndag är före torsdag = preteritum: såg.",
+     "explainEn": "Måndag är före torsdag = preteritum: såg."
+    },
+    {
+     "id": "w2",
+     "type": "gap",
+     "tags": [
+      "P",
+      "a",
+      "s",
+      "t",
+      ":",
+      " ",
+      "v",
+      "a",
+      "r",
+      "."
+     ],
+     "q": "Tisdag: tåget två timmar försenat! → Tåget ___ två timmar försenat. Det var jobbigt!",
+     "base": "vara",
+     "answers": [
+      "var"
+     ],
+     "explain": "I tisdags = dåtid: var. Plural efter två: timmar.",
+     "explainEn": "I tisdags = dåtid: var. Plural efter två: timmar."
+    },
+    {
+     "id": "w3",
+     "type": "gap",
+     "tags": [
+      "P",
+      "a",
+      "s",
+      "t",
+      " ",
+      "o",
+      "f",
+      " ",
+      "r",
+      "e",
+      "g",
+      "n",
+      "a",
+      ":",
+      " ",
+      "r",
+      "e",
+      "g",
+      "n",
+      "a",
+      "d",
+      "e",
+      "."
+     ],
+     "q": "Onsdag: regn, men varmt. → I onsdags ___ det, men det var varmt.",
+     "base": "regna",
+     "answers": [
+      "regnade"
+     ],
+     "explain": "Dåtid av regna: regnade.",
+     "explainEn": "Dåtid av regna: regnade."
+    },
+    {
+     "id": "w4",
+     "type": "gap",
+     "tags": [
+      "P",
+      "r",
+      "e",
+      "s",
+      "e",
+      "n",
+      "t",
+      ":",
+      " ",
+      "h",
+      "a",
+      "r",
+      "."
+     ],
+     "q": "Torsdag (idag): träningsvärk! → Idag ___ jag träningsvärk. Det är jobbigt!",
+     "base": "ha",
+     "answers": [
+      "har"
+     ],
+     "explain": "Idag = presens: har (inte 'är att').",
+     "explainEn": "Idag = presens: har (inte 'är att')."
+    },
+    {
+     "id": "w5",
+     "type": "gap",
+     "tags": [
+      "F",
+      "u",
+      "t",
+      "u",
+      "r",
+      "e",
+      ":",
+      " ",
+      "s",
+      "k",
+      "a",
+      " ",
+      "+",
+      " ",
+      "i",
+      "n",
+      "f",
+      "i",
+      "n",
+      "i",
+      "t",
+      "i",
+      "v",
+      "e",
+      "."
+     ],
+     "q": "Lördag: Tivoli, kanske? → På lördag ___ vi åka till Tivoli.",
+     "base": "skola",
+     "answers": [
+      "ska"
+     ],
+     "explain": "Efter torsdag = framtid: ska + infinitiv (åka).",
+     "explainEn": "Efter torsdag = framtid: ska + infinitiv (åka)."
+    },
+    {
+     "id": "w6",
+     "type": "gap",
+     "tags": [
+      "F",
+      "u",
+      "t",
+      "u",
+      "r",
+      "e",
+      " ",
+      "w",
+      "i",
+      "t",
+      "h",
+      " ",
+      "b",
+      "l",
+      "i",
+      "r",
+      "."
+     ],
+     "q": "Lördag: Tivoli, kanske? → Det ___ säkert roligt.",
+     "base": "bli",
+     "answers": [
+      "blir"
+     ],
+     "explain": "Framtid kan också vara blir (presens): Det blir roligt.",
+     "explainEn": "Framtid kan också vara blir (presens): Det blir roligt."
+    },
+    {
+     "id": "w7",
+     "type": "gap",
+     "tags": [
+      "1",
+      "2",
+      ".",
+      "3",
+      "0",
+      " ",
+      "=",
+      " ",
+      "h",
+      "a",
+      "l",
+      "v",
+      " ",
+      "e",
+      "t",
+      "t",
+      "."
+     ],
+     "q": "Tåget gick 12.30. → Jag åkte tåget klockan ___.",
+     "base": "12.30",
+     "answers": [
+      "halv ett",
+      "tolv och trettio",
+      "12.30",
+      "tolv trettio",
+      "tolv.30"
+     ],
+     "explain": "12.30 = halv ett (en halvtimme före ett).",
+     "explainEn": "12.30 = halv ett (en halvtimme före ett)."
+    },
+    {
+     "id": "w8",
+     "type": "mcq",
+     "tags": [
+      "verb.tempus",
+      "skriv.kalender"
+     ],
+     "q": "Idag är torsdag. Vilka dagar skriver du i dåtid?",
+     "options": [
+      "fredag och lördag",
+      "måndag och tisdag",
+      "torsdag och fredag",
+      "söndag och måndag"
+     ],
+     "answer": 1,
+     "explain": "Före torsdag: måndag, tisdag, onsdag.",
+     "explainEn": "Before Thursday: Mon, Tue, Wed."
+    },
+    {
+     "id": "w9",
+     "type": "mcq",
+     "tags": [
+      "verb.tempus",
+      "skriv.kalender"
+     ],
+     "q": "Det är den 13 mars (torsdag). Anteckning: Fre 14 mars: bio. Vilken mening är rätt?",
+     "options": [
+      "I fredags såg jag en film.",
+      "I morgon ska jag se en film.",
+      "I morgon såg jag en film.",
+      "I fredags ska jag se en film."
+     ],
+     "answer": 1,
+     "explain": "Fredag är efter torsdag: framtid, i morgon + ska.",
+     "explainEn": "Friday is after Thursday: future."
+    }
+   ]
+  },
+  {
+   "id": "skriv",
+   "title": "Skriv till moster Lena",
+   "titleEn": "Write to aunt Lena",
+   "instructions": "Skriv för hand och ladda upp ett foto.",
+   "instructionsEn": "Write by hand and upload a photo.",
+   "items": [
+    {
+     "id": "t0",
+     "type": "info",
+     "tags": [
+      "skriv.kalender"
+     ],
+     "md": "**Skriv för hand** på papper och ladda upp ett foto. Ca 20 minuter. Du har inga hjälpmedel. Räkna ca 100 ord (80–140 går bra).",
+     "image": {
+      "src": "kalender.svg",
+      "alt": "Kalender med sju dagar, väderikon och anteckningar",
+      "caption": "Det är den 13 mars."
+     }
+    },
+    {
+     "id": "t1",
+     "type": "write",
+     "tags": [
+      "skriv.kalender",
+      "verb.tempus",
+      "skriv.mejl"
+     ],
+     "minWords": 80,
+     "maxWords": 140,
+     "q": "Det är den 13 mars.\n\nDu har varit hos din moster Lena en vecka. Du skriver ett mejl till henne. Titta på kalendern. Beskriv fem dagar: vad du har gjort och vad du ska göra. Berätta vad du tyckte och hur vädret var. Skriv ca 100 ord.",
+     "qEn": "Today is 13 March (Thursday). Write an email to your aunt Lena. Describe five days from the calendar: what you did, today, and what you will do. Say what you thought and how the weather was. About 100 words.",
+     "bullets": [
+      "Rätt början och slut (Hej moster Lena! … Kram)",
+      "Fem dagar, ca två i dåtid, idag, ca två i framtid",
+      "Rätt tempus: åkte/var (dåtid), har/är (idag), ska/kommer att (framtid)",
+      "Vad du tyckte (jobbigt, mysigt, gott …)",
+      "Vädret på varje dag",
+      "Klockslag rätt (14.00 = klockan två)"
+     ],
+     "explain": "Graderas efter Swedex: innehåll, kommunikativ utformning, formell korrekthet.",
+     "explainEn": "Graded on content, communication, accuracy."
+    }
+   ]
+  }
+ ]
+}

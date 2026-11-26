@@ -432,3 +432,5 @@
   036 = full oral mock. Photos private (materials/video/<lesson>/). Edge fallback audio rebuilt (stale ids in 044–046).
 - 032 Nu du: B1 for Del 2 B (4 tips + 3 own questions + reaction). Fix: *Jag undrar hur länge man kan*; y in *cykel*.
 - **Next step:** 058 mock listening; 036 full oral mock (new) before 2/12.
+
+## 2026-11-27 – Lesson 067 skriv-del2-kalender (Swedex Del 2 shape: 7-day calendar SVG, 13 mars = torsdag, write to moster; warm-up on tense from 'today', clock times, -r).
