@@ -206,6 +206,27 @@ Parts with a `passage` are shown side by side (text left, questions right) on wi
 Write `(1)`, `(2)` … in a passage to get numbered sentence markers (Läs del 4).
 `"mode": "practice"` = learning screen: instant feedback on mcq/select, Enter checks gaps, live first-try score.
 
+### Speaking tasks = Swedex A2B1 muntligt shape (rule since 2026-11-27)
+
+Every `speak` task in practice lessons and exams copies one part of the real oral test (official sample:
+materials/swedex-a2b1/modelltest-a2b1-muntligt-deltagarmaterial.pdf). One examiner, no preparation, no notes.
+- **Del 1 – presentation / vardag (~3 min, no paper):** examiner audio asks short everyday questions, one at a time,
+  with follow-ups (*Varför? Berätta mer. Hur ofta?*). In a lesson: 2–4 `speak` items in a row, each with its own
+  examiner `audio` (1–2 lines), `maxSeconds` 45–90. No picture needed.
+- **Del 2 A – answer about an ad (~4 min):** the learner SEES ad A: **4 photos + short ad text** (title, 3–4 bullet
+  facts, price, contact). 30 s to read. Examiner audio asks 4–6 questions (one per `speak` item or one item with a
+  script that pauses), ending with "Skulle du vilja …? Varför?".
+- **Del 2 B – ask about an ad (~4 min):** the learner ALSO SEES ad B (**4 photos + text**) plus a **"Frågor:" box**
+  with short tips (*var, hotell? pool? pris, en familj? webbadress?*). The learner asks the examiner questions as a
+  role-play (answers are on the page – the skill is forming questions). Examiner intro audio: "Nu byter vi annons. Du
+  ska fråga mig om annonsen. Här är några tips."
+- **Del 3 – ämne (~4 min):** a **page of 6–8 photos** on one theme (sample: seasons) + examiner audio: the theme,
+  "Vad tycker du? Berätta!" plus follow-ups and one polite disagreement. `maxSeconds` 180–240. Bullets: din åsikt,
+  två skäl, ett exempel från ditt liv, den andra sidan, fråga tillbaka.
+Images: real photos (tools/pixabay.py `--photo`, private under materials/ like 048–049, or Wikimedia Commons with
+credit); build the ad / photo page as one `image` (an SVG or HTML-like composite is fine) or several images on the part.
+Mark each task with the part in `q`: "Del 1 – …", "Del 2 A – …", "Del 2 B – …", "Del 3 – …".
+
 ## Tags (taxonomy)
 
 Use existing tags when possible. New tags follow `area.sub`. Tags drive `progress/tag-stats.md`.
