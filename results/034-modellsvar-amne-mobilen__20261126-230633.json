@@ -1,0 +1,106 @@
+{
+  "lessonId": "034-modellsvar-amne-mobilen",
+  "attemptId": "2026-11-26T21-57-01-078Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-26T21:57:02.194Z",
+  "finishedAt": "2026-11-26T22:06:33.066Z",
+  "durationMin": 10,
+  "currentSection": null,
+  "sectionMinutes": {
+    "lyssna": 5.3,
+    "nu-du": 4.2
+  },
+  "audioPlays": {
+    "mob1": 1,
+    "mob2": 1,
+    "mob-s-a": 1
+  },
+  "firstTry": {
+    "mob-q2": false,
+    "mob-q1": true,
+    "mob-q3": false,
+    "mob-q4": true
+  },
+  "flags": [],
+  "score": {
+    "lyssna": {
+      "correct": 4,
+      "total": 4
+    }
+  },
+  "items": [
+    {
+      "id": "mob-q1",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "tal.argumentera",
+        "hör.detalj"
+      ],
+      "prompt": "Vilket skäl ger Nadia för att mobilen är bra?",
+      "given": "Hon kan prata med sin familj som bor långt borta",
+      "expected": "Hon kan prata med sin familj som bor långt borta",
+      "correct": true
+    },
+    {
+      "id": "mob-q2",
+      "section": "lyssna",
+      "type": "gap",
+      "tags": [
+        "verb.preteritum",
+        "tal.berätta"
+      ],
+      "prompt": "I tisdags ___ jag på videor till klockan två på natten.",
+      "given": "tittade",
+      "expected": "tittade",
+      "correct": true
+    },
+    {
+      "id": "mob-q3",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "tal.argumentera",
+        "tal.fraser"
+      ],
+      "prompt": "Vilken mening visar att Dimitri ser två sidor?",
+      "given": "Å ena sidan är mobilen praktisk, men å andra sidan sitter alla med den hela tiden.",
+      "expected": "Å ena sidan är mobilen praktisk, men å andra sidan sitter alla med den hela tiden.",
+      "correct": true
+    },
+    {
+      "id": "mob-q4",
+      "section": "lyssna",
+      "type": "gap",
+      "tags": [
+        "ordföljd.inversion",
+        "verb.preteritum"
+      ],
+      "prompt": "Barnen pratade inte vid middagen. Därför ___ vi en regel.",
+      "given": "bestämde",
+      "expected": "bestämde",
+      "correct": true
+    },
+    {
+      "id": "mob-s",
+      "section": "nu-du",
+      "type": "speak",
+      "tags": [
+        "tal.argumentera",
+        "tal.interaktion",
+        "tal.fraser"
+      ],
+      "prompt": "Nu du: mobilen i skolan",
+      "given": {
+        "recording": "034-modellsvar-amne-mobilen__mob-s__20261126-230626.webm",
+        "transcript": "Jag tycker att det bror på vilken prov  som vi pratade om  men jag  tror  att for est of proverna  men måste  men  måste inte  använda använda mobilen med Dan Pro medan ta pro:et med den  tar Pro with  eftersom  på provet Du måste fokusera på  frågorna  också  du  vill att testa själv  utan hjälp från internet  Men  om jag pratar om Andre siden jeg kan si at  is man kan Adventure  mobilen like  Andre   saker man at when the  lamborghin so  det Andre siden  på Andre siden man kan säga at mobile på provet På promena kan hjälpa  Samme  i Samme Vei  et mobilen kan hjelpe  men  i riktig liv  Ja at en kurs  på gymnasiet Norway kunde  War kunde vi var vi kunde  Adventure mobiltelefonen  og være å kunne  på Provence wk  we kunde  ansvare alla frågorna",
+        "seconds": 210
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-26T23:06:33"
+}

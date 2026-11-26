@@ -419,3 +419,4 @@
 
 - First try: 064 8/11, 063 12/14, 062 9/12. 033 listening 4/4; Nu du A2+ (3 reasons, missing other side + question back; fler vs mer, så + inte).
 - **Next step:** 058 mock listening. Speaking: always add "å andra sidan…" + "Vad tycker du?" (B1 interaction). Optional 5-min verb -r drill.
+- 2026-11-26 late: 034 Nu du A2+/near B1 (4/5 bullets, used the other side after 033 feedback). Off-topic drift (prov vs lektioner); English calques (most of, in the same way); vill att.

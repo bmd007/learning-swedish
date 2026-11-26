@@ -72,3 +72,4 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `ordföljd.är-att` (class mail) – *En nackdel är det blir…*, *är bilerna måste…* (är att), *svårare för ambulanserna åkar* (att komma fram). Repeats 042.
 - `substantiv.plural` (class mail) – *ny hål* (nya hål), *bilerna* (bilarna), *många konstruktionen* (många vägarbeten). `ord.val` *konstruktion* (vägarbete), *miljövän* (miljövänligt).
 - `tal.argumentera` (033 Nu du) – opinion + 3 reasons ok, but skipped example from own life, the other side, question back (interaction). *en stor städer* (stad/städer), *Jag också tycker* (tycker också), *så du inte behöver* (behöver inte), *mer vänner* (fler).
+- `tal.argumentera` (034) – better: opinion, reasons, other side, own example (4/5); no question back. Drifted from "mobil under lektionerna" to "prov". *vill att testa* (vill testa), *för mest av* (de flesta), *i samma väg* (på samma sätt), *ansvara* (svara på), *vilken prov* (vilket).
