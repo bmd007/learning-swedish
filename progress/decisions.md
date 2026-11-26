@@ -207,3 +207,7 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
   hiking, snow-clearing, skiing, beach cycling) → talk about the topic (årstider), say what you think, tell something.
   No preparation time, no notes ("inga hjälpmedel"). All three parts are speaking only.
 - → Del 3 practice must use a picture page, not only a written question. Feedback page now replays the question + own recording.
+- **Correction:** in Del 2 B the learner SEES ad B (4 photos + text) plus a "Frågor:" tips box (deltagarmaterial p. 4);
+  asking is a role-play. Earlier feedback/055/voice prompts said it was hidden – corrected 2026-11-27.
+- Learner: make every untaken speaking practice/exam follow the exam structure → AUTHORING rule + conversion of
+  006, 010, 012, 031, 032, 035, 036, 044, 045, 046, 048, 049, 055.
