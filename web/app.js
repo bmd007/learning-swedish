@@ -342,8 +342,11 @@ async function openLesson(id) {
   let stepEnter = Date.now();
   const timeLimit = exam && lesson.timeLimit ? lesson.timeLimit * 60 : null;
 
+  const pendingRecordings = new Set();
+  let submitted = false;
+
   function pushDraft() {
-    if (!state.startedAt) return;
+    if (!state.startedAt || submitted) return;
     leaveStep();
     store.set(draftKey, state);
     fetch("/api/draft", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...buildPayload(false), state }) })
@@ -877,6 +880,9 @@ async function openLesson(id) {
       const mime = ["audio/webm;codecs=opus", "audio/mp4", "audio/webm"].find(m => MediaRecorder.isTypeSupported(m)) ?? "";
       rec = new MediaRecorder(stream, mime ? { mimeType: mime } : undefined);
       chunks = [];
+      let uploaded;
+      const pending = { stop, done: new Promise(r => uploaded = r) };
+      pendingRecordings.add(pending);
       rec.ondataavailable = e => chunks.push(e.data);
       rec.onstop = async () => {
         stream.getTracks().forEach(t => t.stop());
@@ -890,6 +896,8 @@ async function openLesson(id) {
         const seconds = Math.round((Date.now() - t0) / 1000);
         set({ recording: r.saved, transcript: finalText.trim(), seconds });
         saved.textContent = "✓ Inspelning sparad";
+        pendingRecordings.delete(pending);
+        uploaded();
         if (exam) refreshExamNav();
       };
       rec.start();
@@ -1000,6 +1008,16 @@ async function openLesson(id) {
   }
 
   async function submit() {
+    const btn0 = document.getElementById("submit");
+    if (pendingRecordings.size) {
+      btn0.disabled = true;
+      btn0.textContent = "Sparar inspelningen…";
+      for (const p of pendingRecordings) p.stop();
+      await Promise.race([Promise.all([...pendingRecordings].map(p => p.done)), new Promise(r => setTimeout(r, 15000))]);
+      btn0.textContent = "Lämna in ✓";
+      btn0.disabled = false;
+    }
+    submitted = true;
     leaveStep();
     clearTimeout(pushTimer);
     const items = allItems();
@@ -1007,7 +1025,7 @@ async function openLesson(id) {
     const btn = document.getElementById("submit");
     btn.disabled = true;
     const r = await fetch("/api/results", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
-    if (!r.ok) { btn.disabled = false; alert("Kunde inte spara. Är servern igång?"); return; }
+    if (!r.ok) { submitted = false; btn.disabled = false; alert("Kunde inte spara. Är servern igång?"); return; }
     store.del(draftKey);
     stopClock();
     renderResults(items, payload);

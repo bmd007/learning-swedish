@@ -65,3 +65,6 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `läs.kontrast` (024 p12) – men-fällan again (kommunerna bestämmer själva … Men vissa saker måste …).
 - `läs.synonym` – 022: 18/18 (was 6/16 wrong in 017+021). Fixed for now.
 - `ord.småord` (024, learner) – thought **några** = none (it's some; none = inga/ingen/inget). Didn't know **femte** = fifth (var femte = 20 %). Small high-frequency words can flip a Ja/Nej answer.
+- `adjektiv.plural` (060) – after är with plural subject: *Barnen är hungrig* (hungriga), *Var försiktig, barn!* (försiktiga). Persian/English don't inflect → skipped.
+- `läs.slutsats` (060 o1) – *möjligt* where next sentence says "för långt" (omöjligt).
+- `verb.presens` (060 speak) – *när vi spela* (spelar); *ibland göra någon ovanlig* (gör han något ovanligt).

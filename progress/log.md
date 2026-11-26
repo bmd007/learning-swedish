@@ -394,3 +394,10 @@
 
 - 061 Läsord 1 (förmögenhet, erbjuda, försvinna, uppgift, ansvara för, påverka, minska, öka, tillräcklig, möjlighet), 062 Läsord 2 (förbjuda, kräva, skillnad, ersätta, delta i, innebära, bidra till, undersökning, tidigare, vanligtvis), 063 Små ord (några/inga, först=inte förrän, ordningstal, var femte, knappt, minst, varken…eller). ~5 min each: card, match, Ja/Nej, gaps.
 - **Next step:** unchanged; check results for läs.ord / ord.småord.
+
+## 2026-11-26 – Graded 060 (-ig/-lig adjektiv) + app fix
+
+- 13/16 auto (plural -a after är ×2, omöjligt). Speak A2, 4 target words; present -r missing, end lost.
+- App bug: Lämna in during an unfinished recording upload → result without recording + draft re-created. Fixed: submit waits
+  for pending recordings (max 15 s), no draft push after submit. Recording copied into the result by hand.
+- Stale drafts to delete (rm blocked for Claude): results/drafts/060-…11-23-21…json, results/drafts/054-…19-13-29…json (Claude's test).
