@@ -1,0 +1,194 @@
+{
+ "id": "065-las-del4-kronologisk",
+ "title": "Läsa Del 4: meningarna i texten",
+ "titleEn": "Reading part 4: find the sentence",
+ "mode": "practice",
+ "minutes": 15,
+ "intro": "Del 4 är din svagaste läsdel. Här övar du den som på provet: en faktatext, numrerade meningar och åtta påståenden i kronologisk ordning. Ca 15 minuter.",
+ "introEn": "Part 4 is your weakest reading part. Practise it as in the test: one fact text, numbered sentences, eight statements in chronological order. About 15 minutes.",
+ "sections": [
+  {
+   "id": "kort",
+   "title": "Strategi",
+   "titleEn": "Strategy",
+   "instructions": "Läs kortet.",
+   "instructionsEn": "Read the card.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Så gör du i Del 4 (fyra steg):**\n\n1. **Läs påståendet** och hitta nyckelidén. Vilket ord bär betydelsen?\n2. **Sök bara efter det förra svaret.** Frågorna går i kronologisk ordning, så svaret ligger längre ner i texten.\n3. **Samma betydelse, andra ord.** *inte blunda* = *ha ögonen öppna*. *har svårt att vakna* = *vill stiga upp senare*. *inte alla* = *bara några*.\n4. **0 = texten pratar om ämnet, men säger aldrig just det här.** Två av åtta svar är 0. Hittar du bara en nästan-mening som säger något annat, skriv 0.\n\n*Exempel:* Mening 3 / Mening 0 – se instruktionen till höger.",
+     "mdEn": "Four steps: key idea; search only after the previous answer; same meaning, other words; 0 = on topic but never says exactly this.",
+     "image": {
+      "src": "kaffe.svg",
+      "alt": "Tidslinje: Etiopien, kaffehus, förbud, kaffe för alla",
+      "caption": "Texten går i tidsordning – frågorna också"
+     }
+    }
+   ]
+  },
+  {
+   "id": "del4",
+   "title": "Del 4",
+   "titleEn": "Part 4",
+   "instructions": "Du ska läsa en faktatext. Texten har numrerade meningar. Under texten finns åtta påståenden. Skriv numret på meningen som har samma betydelse som påståendet. Om påståendet inte finns i texten skriver du 0. Frågorna är i kronologisk ordning. Exempel: Kaffe dricks över hela världen = Mening: 1. Exempel: Kaffe är nyttigt för hjärtat = Mening: 0 (det står inget om hjärtat).",
+   "instructionsEn": "Write the number of the sentence with the same meaning as the statement, or 0 if the text does not say it. The questions follow the text from top to bottom.",
+   "parts": [
+    {
+     "heading": "Fråga 23–30",
+     "headingEn": "Questions 23–30",
+     "passageTitle": "Kaffe – en dryck med lång historia",
+     "passage": "(1) Kaffe är en av de mest populära dryckerna i världen, och den som reser mycket hittar kaffe i nästan alla länder. (2) Varje dag dricker människor över två miljarder koppar, både hemma, på kafé och på jobbet. (3) Enligt en gammal berättelse upptäcktes kaffet för mer än tusen år sedan i Etiopien.\n\n(4) En herde såg att hans getter blev pigga och hoppade omkring efter att de hade ätit röda bär från en buske. (5) Herden provade bären själv och kände sig också full av energi, men berättelsen är förmodligen bara en saga. (6) På 1400-talet började man odla kaffe i Jemen, och därifrån spreds drycken till många länder i Mellanöstern. (7) Det första kaffehuset i Europa öppnade i Venedig på 1600-talet. (8) Där träffades människor för att prata, läsa tidningar och diskutera politik, ofta ända till sent på natten.\n\n(9) Kaffe kom till Sverige i slutet av 1600-talet, och de första kopparna drack man i Stockholm. (10) Länge var det en dryck för de rika, eftersom vanliga familjer inte hade råd att dricka det varje dag. (11) På 1700-talet förbjöd kungen kaffet flera gånger, eftersom han tyckte att det var dåligt för hälsan. (12) Människor drack det ändå, ofta i hemlighet och med stängda dörrar. (13) Först på 1800-talet blev kaffet billigt nog för alla, och då började svenskarna dricka det i stora mängder.\n\n(14) I dag dricker en svensk vanligtvis omkring tre koppar kaffe om dagen. (15) Många tar en paus med kaffe och något sött, och den pausen kallas fika, vilket är ett typiskt svenskt ord. (16) På de flesta arbetsplatser är fikat en stund då kollegorna kan sitta ner och prata om annat än jobbet.\n\n(17) Kaffebusken kräver ett varmt och fuktigt klimat och mycket regn under året. (18) Därför odlas nästan allt kaffe nära ekvatorn, till exempel i Brasilien, Vietnam och Colombia. (19) Bären plockas för hand när de är röda och mogna, och det är ett tungt och långsamt arbete. (20) Sedan torkas bönorna, och först därefter rostas de i en het ugn. (21) Rostningen ger kaffet dess smak och doft, och det finns många olika sorters rostning. (22) Ljust rostat kaffe smakar ofta syrligare än mörkt kaffe.\n\n(23) Kaffe innehåller koffein, som gör att man känner sig piggare. (24) Koffeinet påverkar kroppen i flera timmar, och därför sover många dåligt om de dricker kaffe på kvällen. (25) Forskare har studerat kaffe i många år, och de har undersökt både hjärtat och magen. (26) De flesta vuxna kan dricka tre eller fyra koppar om dagen utan problem. (27) Den som väntar barn bör dock minska mängden, eftersom koffein kan påverka barnet. (28) Barn och unga rekommenderas att inte dricka kaffe alls, eftersom kroppen fortfarande växer.\n\n(29) I dag erbjuder många kaféer även kaffe som är odlat på ett miljövänligt sätt. (30) Det brukar vara lite dyrare, men många kunder tycker att det är värt pengarna och väljer det varje gång. (31) Kaffeodlarna får då en rättvis lön för sitt arbete, och det gör att fler familjer kan bo kvar i byn.",
+     "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31"
+     ],
+     "items": [
+      {
+       "id": "s1",
+       "type": "select",
+       "input": "number",
+       "tags": [
+        "läs.synonym",
+        "läs.del4"
+       ],
+       "q": "23. Den som först märkte kaffets effekt hade sett hur djur reagerade på bären.",
+       "qEn": "Write the sentence number (or 0).",
+       "answer": 4,
+       "explain": "Mening 4: getterna blev pigga efter bären. Mening 5 handlar om herden själv.",
+       "explainEn": "Sentence 4: the goats became lively after the berries."
+      },
+      {
+       "id": "s2",
+       "type": "select",
+       "input": "number",
+       "tags": [
+        "läs.synonym",
+        "läs.del4"
+       ],
+       "q": "24. I Europa kunde människor diskutera samhället på kaffehus.",
+       "qEn": "Write the sentence number (or 0).",
+       "answer": 8,
+       "explain": "Mening 8: ’diskutera politik’ = ’diskutera samhället’.",
+       "explainEn": "Sentence 8: politics = society."
+      },
+      {
+       "id": "s3",
+       "type": "select",
+       "input": "number",
+       "tags": [
+        "läs.synonym",
+        "läs.del4"
+       ],
+       "q": "25. Under lång tid hade inte alla svenskar råd att köpa kaffe.",
+       "qEn": "Write the sentence number (or 0).",
+       "answer": 10,
+       "explain": "Mening 10: ’vanliga familjer hade inte råd’. Negation: ’inte alla’.",
+       "explainEn": "Sentence 10: ordinary families could not afford it."
+      },
+      {
+       "id": "s4",
+       "type": "select",
+       "input": "number",
+       "tags": [
+        "läs.synonym",
+        "läs.del4"
+       ],
+       "q": "26. Kungen i Sverige drack själv kaffe varje dag.",
+       "qEn": "Write the sentence number (or 0).",
+       "answer": 0,
+       "explain": "0. Texten handlar om kungen (mening 11), men säger att han FÖRBJÖD kaffe. Den säger inte att han drack det.",
+       "explainEn": "0. The text mentions the king (11) but says he BANNED coffee, not that he drank it."
+      },
+      {
+       "id": "s5",
+       "type": "select",
+       "input": "number",
+       "tags": [
+        "läs.synonym",
+        "läs.del4"
+       ],
+       "q": "27. På jobbet kan fikapausen ge kollegor tid att umgås.",
+       "qEn": "Write the sentence number (or 0).",
+       "answer": 16,
+       "explain": "Mening 16: ’sitta ner och prata om annat än jobbet’ = umgås.",
+       "explainEn": "Sentence 16: sit down and talk = socialise."
+      },
+      {
+       "id": "s6",
+       "type": "select",
+       "input": "number",
+       "tags": [
+        "läs.synonym",
+        "läs.del4"
+       ],
+       "q": "28. Den som dricker kaffe sent på dagen kan ha svårt att somna.",
+       "qEn": "Write the sentence number (or 0).",
+       "answer": 24,
+       "explain": "Mening 24: ’sover dåligt om de dricker kaffe på kvällen’.",
+       "explainEn": "Sentence 24: sleep badly if coffee in the evening."
+      },
+      {
+       "id": "s7",
+       "type": "select",
+       "input": "number",
+       "tags": [
+        "läs.synonym",
+        "läs.del4"
+       ],
+       "q": "29. Forskarna har visat att kaffe gör att man lever längre.",
+       "qEn": "Write the sentence number (or 0).",
+       "answer": 0,
+       "explain": "0. Mening 25–26 handlar om forskning, men texten säger inget om att man lever längre.",
+       "explainEn": "0. Sentences 25–26 mention research but never say people live longer."
+      },
+      {
+       "id": "s8",
+       "type": "select",
+       "input": "number",
+       "tags": [
+        "läs.synonym",
+        "läs.del4"
+       ],
+       "q": "30. Gravida bör dricka mindre kaffe än andra vuxna.",
+       "qEn": "Write the sentence number (or 0).",
+       "answer": 27,
+       "explain": "Mening 27: ’den som väntar barn’ = gravid; ’minska mängden’ = dricka mindre.",
+       "explainEn": "Sentence 27: expecting a child = pregnant; reduce the amount = drink less."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

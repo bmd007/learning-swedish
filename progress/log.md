@@ -434,3 +434,4 @@
 - **Next step:** 058 mock listening; 036 full oral mock (new) before 2/12.
 
 ## 2026-11-27 – Lesson 067 skriv-del2-kalender (Swedex Del 2 shape: 7-day calendar SVG, 13 mars = torsdag, write to moster; warm-up on tense from 'today', clock times, -r).
+- Reading shape lessons: 065 (Del 4, chronological, kaffe text 477 words / 31 sentences, key 4,8,10,0,16,24,0,27) and 066 (Del 3, 2 insändare 299+125 words, 3 options, 2 headline questions, key B,C,A,C,A,B). Untested by learner.

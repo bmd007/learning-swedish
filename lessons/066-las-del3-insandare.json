@@ -1,0 +1,158 @@
+{
+ "id": "066-las-del3-insandare",
+ "title": "Läsa Del 3: insändare och rubrik",
+ "titleEn": "Reading part 3: letters to the editor and headlines",
+ "mode": "practice",
+ "minutes": 12,
+ "intro": "Del 3 på provet: två insändare, sex frågor, tre alternativ. Två frågor är rubrikfrågor. Ca 12 minuter.",
+ "introEn": "Part 3 of the test: two letters, six questions, three options. Two are headline questions. About 12 minutes.",
+ "sections": [
+  {
+   "id": "kort",
+   "title": "Strategi",
+   "titleEn": "Strategy",
+   "instructions": "Läs kortet.",
+   "instructionsEn": "Read the card.",
+   "items": [
+    {
+     "id": "i1",
+     "type": "info",
+     "md": "**Rubrikfrågor: vad är HUVUDTANKEN?**\n\n1. Läs hela texten. Fråga dig: *Vad vill skribenten att jag ska tycka eller göra?*\n2. En rubrik är **abstrakt**: den täcker hela texten, inte bara ett stycke.\n3. **Fel alternativ** är ofta (a) en detalj från ett stycke, eller (b) något skribenten inte tycker.\n4. Testa: passar rubriken på **första och sista** stycket? Då är den rätt.\n\n**Vanliga frågor:** *Varför …?* – leta efter *eftersom/därför*. *Vad vill skribenten?* – sista stycket.",
+     "mdEn": "Headline question: find the main idea, abstract and covering the whole text; wrong options are details or opinions the writer does not hold.",
+     "image": {
+      "src": "rubrik.svg",
+      "alt": "En text med en pil till en rubrik som täcker allt",
+      "caption": "Rubrik = hela texten"
+     }
+    }
+   ]
+  },
+  {
+   "id": "del3",
+   "title": "Del 3",
+   "titleEn": "Part 3",
+   "instructions": "Du ska läsa två insändare. Välj rätt alternativ, A, B eller C, för varje fråga.",
+   "instructionsEn": "Read two letters. Choose A, B or C.",
+   "parts": [
+    {
+     "heading": "Insändare 1: fråga 17–20",
+     "headingEn": "Letter 1: questions 17–20",
+     "passageTitle": "Insändare",
+     "passage": "Jag har bott i Björkbacken i tolv år och trivs mycket bra här. Därför blev jag besviken när bostadsföretaget i förra veckan skickade ett brev till alla hyresgäster. Enligt brevet ska hälften av parkeringsplatserna tas bort i vår. Platserna ska bli en ny lekplats och en odlingsyta. Företaget kallar det för en satsning på en grönare och tryggare gård, och det låter ju fint.\n\nJag förstår att många vill ha en grönare gård, och jag är inte emot en ny lekplats. Men företaget har inte frågat oss som bor här vad vi vill ha. Det finns dessutom redan en stor lekplats vid skolan, bara tvåhundra meter bort, och där leker barnen varje eftermiddag. Samtidigt ska det bli dyrare att parkera. De platser som blir kvar ska kosta 600 kronor i månaden i stället för 350. Det innebär att en familj med bil får betala mer än tretusen kronor extra per år.\n\nFöretaget skriver att bilen är onödig, eftersom bussen går var tionde minut. Det stämmer vanligtvis på vardagar. Men jag arbetar som undersköterska på sjukhuset och börjar ibland klockan sex på morgonen. Då går ingen buss alls, och att gå i mörkret är ingen bra lösning. Min granne är sjuk och behöver bilen för att ta sig till sin läkare. Många äldre i området kan inte heller bära tunga kassar från affären utan hjälp. För dem är bilen en frihet, inte ett nöje.\n\nJag har själv sett hur mycket bättre stämningen blir när grannarna får prata med varandra och lösa problemen tillsammans. Jag tycker att företaget gärna kan ta bort några platser, men inte så många. Det vore också bra om hyresgästerna fick komma till ett möte och säga sin åsikt innan något bestäms. Ett område där alla får vara med och påverka blir ett bättre område för alla, med eller utan bil.\n\nKarin Ström, Björkbacken",
+     "items": [
+      {
+       "id": "q17",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj",
+        "läs.slutsats"
+       ],
+       "q": "17. Varför blev skribenten besviken?",
+       "options": [
+        "Hyran ska höjas för alla lägenheter.",
+        "Företaget bestämde om parkeringen utan att fråga hyresgästerna.",
+        "Lekplatsen vid skolan ska tas bort."
+       ],
+       "answer": 1,
+       "explain": "Hon skriver: ’företaget har inte frågat oss som bor här’.",
+       "explainEn": "’har inte frågat oss’ = decided without asking."
+      },
+      {
+       "id": "q18",
+       "type": "mcq",
+       "tags": [
+        "läs.slutsats",
+        "läs.huvudtanke"
+       ],
+       "q": "18. Vilket alternativ passar som rubrik till insändaren?",
+       "options": [
+        "Bilen är viktigare än miljön",
+        "Bussen går för sällan i Björkbacken",
+        "Låt de boende vara med och bestämma"
+       ],
+       "answer": 2,
+       "explain": "Huvudtanken: de som bor här ska få säga sin åsikt (sista stycket). A är en åsikt hon inte har. B är bara en detalj.",
+       "explainEn": "Main point = residents should have a say. B is only a detail."
+      },
+      {
+       "id": "q19",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj",
+        "läs.slutsats"
+       ],
+       "q": "19. Varför kan skribenten ibland inte åka buss till jobbet?",
+       "options": [
+        "Hon börjar jobba så tidigt att ingen buss går.",
+        "Bussen är dyrare än bilen.",
+        "Hon bor långt från hållplatsen."
+       ],
+       "answer": 0,
+       "explain": "’börjar klockan sex … Då går ingen buss alls, och att gå i mörkret är ingen bra lösning.’",
+       "explainEn": "She starts at six; no bus runs then."
+      },
+      {
+       "id": "q20",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj",
+        "läs.slutsats"
+       ],
+       "q": "20. Vad vill skribenten att företaget gör?",
+       "options": [
+        "Bygga fler parkeringsplatser vid skolan.",
+        "Sänka priset till 350 kronor och ta bort lekplatsen.",
+        "Ta bort färre platser och låta hyresgästerna säga sin åsikt."
+       ],
+       "answer": 2,
+       "explain": "Sista stycket: ’några platser, men inte så många’ + ett möte.",
+       "explainEn": "Last paragraph: fewer spots removed + a meeting."
+      }
+     ]
+    },
+    {
+     "heading": "Insändare 2: fråga 21–22",
+     "headingEn": "Letter 2: questions 21–22",
+     "passageTitle": "Insändare",
+     "passage": "Som tränare för pojkar födda 2012 vill jag svara på debatten om mobilförbud i ungdomsfotbollen. Vår förening införde en regel i höstas: mobilerna ligger i en låda under hela träningen. Tidigare satt flera spelare med telefonen i omklädningsrummet. Först protesterade många. Nu, tre månader senare, är de flesta nöjda. Spelarna pratar mer med varandra, och de lyssnar bättre när jag förklarar en övning.\n\nNågra föräldrar var oroliga, eftersom de vill kunna nå sina barn. Därför har jag min egen telefon med mig, och i en nödsituation kan alla ringa mig. Jag tycker att fler föreningar borde pröva samma sak. Barnen har det bra utan skärmen i en och en halv timme. Mobilen är inte farlig, men den hör inte hemma på planen.\n\nJonas Berg, tränare",
+     "items": [
+      {
+       "id": "q21",
+       "type": "mcq",
+       "tags": [
+        "läs.detalj",
+        "läs.slutsats"
+       ],
+       "q": "21. Hur kan föräldrarna nå barnen under träningen?",
+       "options": [
+        "Genom att ringa tränaren.",
+        "Barnen får hämta mobilen i lådan.",
+        "Genom att skriva till föreningen."
+       ],
+       "answer": 0,
+       "explain": "’i en nödsituation kan alla ringa mig’.",
+       "explainEn": "Anyone can call the coach."
+      },
+      {
+       "id": "q22",
+       "type": "mcq",
+       "tags": [
+        "läs.slutsats",
+        "läs.huvudtanke"
+       ],
+       "q": "22. Vilket alternativ passar som rubrik till insändaren?",
+       "options": [
+        "Mobilen ska bort från alla skolor",
+        "Träning utan mobil fungerar bra",
+        "Föräldrar oroar sig för mycket"
+       ],
+       "answer": 1,
+       "explain": "Hela texten: regeln fungerar, spelarna är nöjda. A och C är inte textens huvudpoäng.",
+       "explainEn": "Whole text: the rule works. A and C are not the main point."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
