@@ -424,3 +424,11 @@
 ## 2026-11-26 Speaking tasks converted to Swedex shape (010, 044, 048, 049 = Del 1 x3; 035, 045, 046, 012 = Del 3 with photo page). Photo pages are private composites in materials/video/<lesson>/fotosida.jpg; examiner audio built (chatterbox, check_tts ok).
 
 ## 2026-11-26 Speaking tasks converted to Swedex shape (036 full oral mock Del 1/2A/2B/3, 055 ads+Frågor box, 031/032 ads as 4 photos+text, 006 Del 2 A). Ad photo grids are private composites in materials/video/<lesson>/ (script materials/scripts/ad_photos.py); examiner audio built, check_tts ok.
+
+## 2026-11-27 – Speaking lessons converted to exam shape; graded 032
+
+- All untaken speaking tasks now follow AUTHORING "Speaking tasks = Swedex A2B1 muntligt shape": Del 1 (010, 044, 048, 049),
+  Del 2 A/B with 4-photo ads + visible ad B + Frågor box (006, 031, 032, 036, 055), Del 3 photo pages (012, 035, 045, 046, 036).
+  036 = full oral mock. Photos private (materials/video/<lesson>/). Edge fallback audio rebuilt (stale ids in 044–046).
+- 032 Nu du: B1 for Del 2 B (4 tips + 3 own questions + reaction). Fix: *Jag undrar hur länge man kan*; y in *cykel*.
+- **Next step:** 058 mock listening; 036 full oral mock (new) before 2/12.

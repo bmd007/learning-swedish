@@ -1,0 +1,102 @@
+{
+  "lessonId": "032-modellsvar-annons-fraga",
+  "attemptId": "2026-11-26T22-42-37-285Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-26T22:42:38.706Z",
+  "finishedAt": "2026-11-26T22:53:20.737Z",
+  "durationMin": 11,
+  "currentSection": null,
+  "sectionMinutes": {
+    "lyssna": 6.8,
+    "nu-du": 3.9
+  },
+  "audioPlays": {
+    "b1": 1,
+    "b2": 1,
+    "e2": 1
+  },
+  "firstTry": {
+    "q2": false,
+    "q4": true,
+    "q3": true
+  },
+  "flags": [],
+  "score": {
+    "lyssna": {
+      "correct": 4,
+      "total": 4
+    }
+  },
+  "items": [
+    {
+      "id": "q1",
+      "section": "lyssna",
+      "type": "order",
+      "tags": [
+        "ordföljd.fråga"
+      ],
+      "prompt": "Bygg Piotrs fråga om rabatt.",
+      "given": "Finns det någon rabatt",
+      "expected": "Finns det någon rabatt",
+      "correct": true
+    },
+    {
+      "id": "q2",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "ordföljd.bisats",
+        "tal.fråga"
+      ],
+      "prompt": "Vilken artig fråga är rätt?",
+      "given": "Jag undrar om man måste köpa en bok.",
+      "expected": "Jag undrar om man måste köpa en bok.",
+      "correct": true
+    },
+    {
+      "id": "q3",
+      "section": "lyssna",
+      "type": "gap",
+      "tags": [
+        "ordföljd.fråga",
+        "tal.fråga"
+      ],
+      "prompt": "___ frukosten?",
+      "given": "ingår",
+      "expected": "Ingår",
+      "correct": true
+    },
+    {
+      "id": "q4",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "tal.interaktion"
+      ],
+      "prompt": "Vilken fras är en reaktion på svaret (inte en ny fråga)?",
+      "given": "Vad bra!",
+      "expected": "Vad bra!",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "nu-du",
+      "type": "speak",
+      "tags": [
+        "tal.interaktion",
+        "tal.fråga"
+      ],
+      "prompt": "Del 2 B – Nu du: fråga testledaren om annonsen. Använd stödorden. Reagera på svaren och ställ en följdfråga.",
+      "given": {
+        "recording": "032-modellsvar-annons-fraga__s1__20261126-235318.webm",
+        "transcript": "musical.ly Visby intressant hur man kan hear cykel i Väsby  Och så var vad de har för öppettider  och hur mycket  får hyra  en cykel  Måste man ha  helg eller kan man få hem gratis där  jag undrar  hur länge kan man använda  sykkel  kan man  boka på  webbsidan eller måste man åka på plats  Kan man hyra barncyklar också eller bara  vanlig sykler  Ja behøver i en sykler for min fru kan hun få",
+        "seconds": 119
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-26T23:53:20"
+}
