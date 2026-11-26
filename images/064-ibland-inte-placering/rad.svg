@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="system-ui, sans-serif">
+<rect width="600" height="300" fill="#fff"/>
+<text x="300" y="34" font-size="22" text-anchor="middle" font-weight="bold" fill="#222">Var står ibland, alltid, inte?</text>
+<text x="30" y="80" font-size="17" font-weight="bold" fill="#222">Huvudsats</text>
+<rect x="30" y="92" width="100" height="44" rx="8" fill="#e8f0fe"/><text x="80" y="121" font-size="20" text-anchor="middle" fill="#222">Han</text>
+<rect x="140" y="92" width="100" height="44" rx="8" fill="#ffe3cc"/><text x="190" y="121" font-size="20" text-anchor="middle" fill="#222">gör</text>
+<rect x="250" y="92" width="100" height="44" rx="8" fill="#fff3b0"/><text x="300" y="121" font-size="20" text-anchor="middle" fill="#222">ibland</text>
+<rect x="360" y="92" width="210" height="44" rx="8" fill="#e8f0fe"/><text x="465" y="121" font-size="20" text-anchor="middle" fill="#222">något ovanligt</text>
+<text x="190" y="156" font-size="14" text-anchor="middle" fill="#666">verb (2)</text>
+<text x="300" y="156" font-size="14" text-anchor="middle" fill="#666">efter verbet</text>
+<text x="30" y="200" font-size="17" font-weight="bold" fill="#222">Bisats</text>
+<rect x="30" y="212" width="100" height="44" rx="8" fill="#e6f6e6"/><text x="80" y="241" font-size="20" text-anchor="middle" fill="#222">när</text>
+<rect x="140" y="212" width="100" height="44" rx="8" fill="#e8f0fe"/><text x="190" y="241" font-size="20" text-anchor="middle" fill="#222">vi</text>
+<rect x="250" y="212" width="100" height="44" rx="8" fill="#fff3b0"/><text x="300" y="241" font-size="20" text-anchor="middle" fill="#222">ibland</text>
+<rect x="360" y="212" width="100" height="44" rx="8" fill="#ffe3cc"/><text x="410" y="241" font-size="20" text-anchor="middle" fill="#222">spelar</text>
+<text x="300" y="276" font-size="14" text-anchor="middle" fill="#666">före verbet</text>
+</svg>

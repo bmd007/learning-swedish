@@ -401,3 +401,8 @@
 - App bug: Lämna in during an unfinished recording upload → result without recording + draft re-created. Fixed: submit waits
   for pending recordings (max 15 s), no draft push after submit. Recording copied into the result by hand.
 - Stale drafts to delete (rm blocked for Claude): results/drafts/060-…11-23-21…json, results/drafts/054-…19-13-29…json (Claude's test).
+
+## 2026-11-26 – Lesson 064: Var står ibland och inte?
+
+- Very short (5 min): card + SVG (huvudsats: adverb after verb; bisats: before verb; när-clause first = inversion), 4 order (learner's volleyball sentence both ways), 4 mcq, 3 short (place ibland/inte/alltid). Tags ordföljd.adverb/bisats/inversion.
+- **Next step:** unchanged.

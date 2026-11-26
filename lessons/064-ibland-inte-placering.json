@@ -1,0 +1,240 @@
+{
+  "id": "064-ibland-inte-placering",
+  "title": "Var står ibland och inte?",
+  "titleEn": "Where do ibland and inte go?",
+  "mode": "practice",
+  "minutes": 5,
+  "intro": "Han gör ibland något ovanligt. Var står ibland, alltid, inte? Och vad händer när en när-sats kommer först? Ca 5 minuter.",
+  "introEn": "Where do ibland, alltid, inte go? And what happens when a när-clause comes first? About 5 minutes.",
+  "sections": [
+    {
+      "id": "ord",
+      "title": "Ordföljd",
+      "titleEn": "Word order",
+      "instructions": "Läs kortet. Gör sedan övningarna.",
+      "instructionsEn": "Read the card, then do the exercises.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "md": "**Var står ibland, alltid, inte, ofta, aldrig, kanske?**\n\n1. **Huvudsats:** verbet står på plats 2. Ordet kommer **efter verbet**: *Han gör **ibland** något ovanligt. Han är **alltid** hungrig. Han spelar **inte** fotboll.*\n2. **Bisats** (när, att, eftersom, om, som): subjekt → **ibland/inte** → verb: *när vi **ibland** spelar, eftersom han **inte** är hemma.*\n3. **När-satsen först** = plats 1. Sedan verb, sedan subjekt: *När vi spelar volleyboll **gör han** ibland något ovanligt.* Bara i en fråga står när + verb direkt: *När spelar vi?*\n\n**Persiska / English:** In Persian and English the adverb is before the verb (*he sometimes does*). Swedish main clause: **after** the verb (*han gör ibland*). Only in a bisats it is before the verb, like English.\n\n**فارسی:** در جملهٔ اصلی، قید بعد از فعل می‌آید: *han gör ibland*. در bisats قبل از فعل: *när vi ibland spelar*.",
+          "image": {
+            "src": "rad.svg",
+            "alt": "Två rader med ordföljd: huvudsats Han gör ibland något ovanligt, bisats när vi ibland spelar",
+            "caption": "Huvudsats: efter verbet. Bisats: före verbet."
+          }
+        },
+        {
+          "id": "o1",
+          "type": "order",
+          "tags": [
+            "ordföljd.adverb",
+            "ordföljd.bisats"
+          ],
+          "q": "Ditt eget exempel. Börja med Han.",
+          "qEn": "Start with Han.",
+          "words": [
+            "vi",
+            "något",
+            "Han",
+            "när",
+            "volleyboll",
+            "ibland",
+            "ovanligt",
+            "gör",
+            "spelar"
+          ],
+          "answers": [
+            "Han gör ibland något ovanligt när vi spelar volleyboll"
+          ],
+          "explain": "Huvudsats: Han gör ibland ... Bisats: när vi spelar volleyboll.",
+          "explainEn": "Main clause: verb 2nd, ibland after it."
+        },
+        {
+          "id": "o2",
+          "type": "order",
+          "tags": [
+            "ordföljd.inversion"
+          ],
+          "q": "Samma mening. Börja med När.",
+          "qEn": "Same sentence. Start with När.",
+          "words": [
+            "han",
+            "något",
+            "När",
+            "volleyboll",
+            "ibland",
+            "ovanligt",
+            "gör",
+            "vi",
+            "spelar"
+          ],
+          "answers": [
+            "När vi spelar volleyboll gör han ibland något ovanligt"
+          ],
+          "explain": "När-satsen är plats 1, sedan verb (gör), sedan subjekt (han).",
+          "explainEn": "The när-clause is position 1, then verb, then subject."
+        },
+        {
+          "id": "o3",
+          "type": "order",
+          "tags": [
+            "ordföljd.adverb",
+            "ordföljd.bisats"
+          ],
+          "q": "Bygg meningen.",
+          "words": [
+            "går",
+            "när",
+            "det",
+            "Vi",
+            "ofta",
+            "inte",
+            "ut",
+            "regnar"
+          ],
+          "answers": [
+            "Vi går ofta ut när det inte regnar",
+            "När det inte regnar går vi ofta ut"
+          ],
+          "explain": "Huvudsats: går ofta. Bisats: det inte regnar.",
+          "explainEn": "Main clause: går ofta. Bisats: det inte regnar."
+        },
+        {
+          "id": "o4",
+          "type": "order",
+          "tags": [
+            "ordföljd.bisats",
+            "ordföljd.adverb"
+          ],
+          "q": "Bygg meningen.",
+          "words": [
+            "att",
+            "vet",
+            "hon",
+            "Jag",
+            "kött",
+            "aldrig",
+            "äter"
+          ],
+          "answers": [
+            "Jag vet att hon aldrig äter kött"
+          ],
+          "explain": "I bisatsen: subjekt → aldrig → verb.",
+          "explainEn": "In the bisats: subject, aldrig, verb."
+        },
+        {
+          "id": "m1",
+          "type": "mcq",
+          "tags": [
+            "ordföljd.adverb"
+          ],
+          "q": "Vilken mening är rätt?",
+          "qEn": "Which is right?",
+          "options": [
+            "Han ibland spelar fotboll.",
+            "Han spelar ibland fotboll.",
+            "Ibland han spelar fotboll."
+          ],
+          "answer": 1,
+          "explain": "Huvudsats: ibland efter verbet.",
+          "explainEn": "Huvudsats: ibland efter verbet."
+        },
+        {
+          "id": "m2",
+          "type": "mcq",
+          "tags": [
+            "ordföljd.adverb"
+          ],
+          "q": "Vilken mening är rätt?",
+          "qEn": "Which is right?",
+          "options": [
+            "Hon alltid är trött.",
+            "Alltid hon är trött.",
+            "Hon är alltid trött."
+          ],
+          "answer": 2,
+          "explain": "Huvudsats: verb (är) först, sedan alltid.",
+          "explainEn": "Huvudsats: verb (är) först, sedan alltid."
+        },
+        {
+          "id": "m3",
+          "type": "mcq",
+          "tags": [
+            "ordföljd.bisats"
+          ],
+          "q": "Vilken mening är rätt?",
+          "qEn": "Which is right?",
+          "options": [
+            "Jag tror att han ofta är sjuk.",
+            "Jag tror att han är ofta sjuk.",
+            "Jag tror att ofta han är sjuk."
+          ],
+          "answer": 0,
+          "explain": "Bisats: subjekt → ofta → verb.",
+          "explainEn": "Bisats: subjekt → ofta → verb."
+        },
+        {
+          "id": "m4",
+          "type": "mcq",
+          "tags": [
+            "ordföljd.inversion"
+          ],
+          "q": "Vilken mening är rätt?",
+          "qEn": "Which is right?",
+          "options": [
+            "När jag kommer hem jag äter middag.",
+            "När jag kommer hem äter jag middag.",
+            "När jag kommer hem, jag äter middag."
+          ],
+          "answer": 1,
+          "explain": "Bisatsen först = plats 1. Sedan verb, sedan subjekt.",
+          "explainEn": "Bisatsen först = plats 1. Sedan verb, sedan subjekt."
+        },
+        {
+          "id": "s1",
+          "type": "short",
+          "tags": [
+            "ordföljd.adverb"
+          ],
+          "q": "Sätt in ibland: Hon äter fisk. Skriv hela meningen.",
+          "qEn": "Put ibland into the sentence. Write all of it.",
+          "answers": [
+            "äter ibland fisk"
+          ],
+          "explain": "Hon äter ibland fisk. Efter verbet.",
+          "explainEn": "After the verb."
+        },
+        {
+          "id": "s2",
+          "type": "short",
+          "tags": [
+            "ordföljd.adverb"
+          ],
+          "q": "Sätt in inte: Vi kan komma i morgon. Skriv hela meningen.",
+          "qEn": "Put inte into the sentence.",
+          "answers": [
+            "kan inte komma"
+          ],
+          "explain": "Vi kan inte komma i morgon. Inte efter verbet (kan).",
+          "explainEn": "Inte after the verb (kan)."
+        },
+        {
+          "id": "s3",
+          "type": "short",
+          "tags": [
+            "ordföljd.bisats",
+            "ordföljd.adverb"
+          ],
+          "q": "Sätt in alltid i bisatsen: Jag blir glad när hon kommer. Skriv hela meningen.",
+          "qEn": "Put alltid into the bisats.",
+          "answers": [
+            "hon alltid kommer"
+          ],
+          "explain": "Bisats: subjekt → alltid → verb: när hon alltid kommer.",
+          "explainEn": "Bisats: subject, alltid, verb."
+        }
+      ]
+    }
+  ]
+}
