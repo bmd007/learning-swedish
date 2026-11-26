@@ -781,39 +781,124 @@
     },
     {
       "id": "tala",
-      "title": "Tala",
-      "titleEn": "Speak",
-      "instructions": "Lyssna på frågan. Svara med egna ord. Försök använda fem nya ord.",
-      "instructionsEn": "Listen to the question. Answer in your own words. Try to use five new words.",
+      "title": "Tala (som Swedex Del 1)",
+      "titleEn": "Speak (like Swedex part 1)",
+      "instructions": "Testledaren ställer tre vardagsfrågor om hemmet, en i taget. Svara med egna ord och berätta mer. Försök använda nya ord.",
+      "instructionsEn": "The examiner asks three everyday questions about home, one at a time. Answer in your own words and say more. Try to use new words.",
       "items": [
         {
           "id": "t1",
           "type": "speak",
           "tags": [
             "tal.beskriva",
+            "tal.interaktion",
             "ordförråd.produktion"
           ],
-          "maxSeconds": 210,
-          "q": "Beskriv ditt hem. Vilka saker finns i köket och badrummet? Vem gör vad hemma?",
-          "qEn": "Describe your home. What things are in the kitchen and the bathroom? Who does what at home?",
+          "q": "Del 1 – Var bor du?",
+          "qEn": "Part 1 – Where do you live?",
+          "maxSeconds": 90,
           "bullets": [
-            "Säg var du bor och vilka rum du har.",
-            "Berätta vad som finns i köket och i badrummet.",
-            "Berätta vem som diskar, dammsuger och tvättar hos dig.",
-            "Använd minst fem nya ord (t.ex. diskmaskin, handduk, tvättmaskin, dammsugare, soptunna).",
-            "Säg en sak du gör varje vecka hemma."
+            "var du bor och vilka rum du har",
+            "vad du tycker om hemma",
+            "Varför? Berätta mer."
           ],
           "audio": {
-            "id": "s1",
+            "id": "t1a",
+            "title": "Testledaren frågar",
             "maxPlays": 2,
             "strict": false,
             "speakers": {
-              "Testledare": "f"
+              "Examinator": {
+                "voice": "f",
+                "cast": "nst-f47-mellansverige-080"
+              }
             },
             "script": [
               {
-                "speaker": "Testledare",
-                "text": "Beskriv ditt hem. Vilka saker finns i köket och i badrummet? Och vem gör vad hemma? Du får berätta i några minuter."
+                "speaker": "Examinator",
+                "text": "Hej! Var bor du? Berätta om ditt hem."
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Vilket är ditt favoritrum, och varför?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "t2",
+          "type": "speak",
+          "tags": [
+            "tal.beskriva",
+            "tal.interaktion",
+            "ordförråd.produktion"
+          ],
+          "q": "Del 1 – Köket och badrummet",
+          "qEn": "Part 1 – The kitchen and the bathroom",
+          "maxSeconds": 90,
+          "bullets": [
+            "vad som finns i köket (diskmaskin, kylskåp)",
+            "vad som finns i badrummet (handduk, tvättmaskin)",
+            "Berätta mer."
+          ],
+          "audio": {
+            "id": "t2a",
+            "title": "Testledaren frågar",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": {
+                "voice": "f",
+                "cast": "nst-f47-mellansverige-080"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Vad finns det i ditt kök? Och i ditt badrum?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Saknar du något hemma? Berätta mer."
+              }
+            ]
+          }
+        },
+        {
+          "id": "t3",
+          "type": "speak",
+          "tags": [
+            "tal.beskriva",
+            "tal.interaktion",
+            "ordförråd.produktion"
+          ],
+          "q": "Del 1 – Vem gör vad hemma?",
+          "qEn": "Part 1 – Who does what at home?",
+          "maxSeconds": 90,
+          "bullets": [
+            "vem som diskar, dammsuger, tvättar",
+            "hur ofta du städar",
+            "vad du tycker är jobbigt (soptunna, dammsugare)"
+          ],
+          "audio": {
+            "id": "t3a",
+            "title": "Testledaren frågar",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": {
+                "voice": "f",
+                "cast": "nst-f47-mellansverige-080"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Vem gör vad hemma hos dig? Vem diskar och vem dammsuger?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Hur ofta städar du? Tycker du om det?"
               }
             ]
           }

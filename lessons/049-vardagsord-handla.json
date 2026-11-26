@@ -676,39 +676,124 @@
     },
     {
       "id": "tala",
-      "title": "Tala",
-      "titleEn": "Speak",
-      "instructions": "Lyssna på frågan. Svara med egna ord. Försök använda fem nya ord.",
-      "instructionsEn": "Listen to the question. Answer in your own words. Try to use five new words.",
+      "title": "Tala (som Swedex Del 1)",
+      "titleEn": "Speak (like Swedex part 1)",
+      "instructions": "Testledaren ställer tre vardagsfrågor om att handla, en i taget. Svara med egna ord och berätta mer. Försök använda nya ord.",
+      "instructionsEn": "The examiner asks three everyday questions about shopping, one at a time. Answer in your own words and say more. Try to use new words.",
       "items": [
         {
           "id": "t1",
           "type": "speak",
           "tags": [
             "tal.beskriva",
+            "tal.interaktion",
             "ordförråd.produktion"
           ],
-          "maxSeconds": 210,
-          "q": "Berätta om när du handlar mat. Var handlar du, hur ofta och hur betalar du?",
-          "qEn": "Tell us about when you buy food. Where do you shop, how often and how do you pay?",
+          "q": "Del 1 – Var handlar du?",
+          "qEn": "Part 1 – Where do you shop?",
+          "maxSeconds": 90,
           "bullets": [
-            "Säg var du handlar och hur ofta.",
-            "Berätta vad du tar: korg, kundvagn eller påse.",
-            "Berätta hur du betalar (kort, kontanter) och om du sparar kvittot.",
-            "Använd minst fem nya ord (t.ex. kassa, kö, hylla, pris, rea).",
-            "Berätta om en gång du bytte eller lämnade tillbaka något."
+            "var du handlar mat och hur ofta",
+            "vad du tar (korg, kundvagn, påse)",
+            "Varför där? Berätta mer."
           ],
           "audio": {
-            "id": "s1",
+            "id": "t1a",
+            "title": "Testledaren frågar",
             "maxPlays": 2,
             "strict": false,
             "speakers": {
-              "Testledare": "f"
+              "Examinator": {
+                "voice": "m",
+                "cast": "nst-m57-stockholm-112"
+              }
             },
             "script": [
               {
-                "speaker": "Testledare",
-                "text": "Berätta om när du handlar mat. Var handlar du, hur ofta, och hur betalar du? Du får berätta i några minuter."
+                "speaker": "Examinator",
+                "text": "Hej! Var handlar du mat, och hur ofta?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Varför handlar du just där? Berätta mer."
+              }
+            ]
+          }
+        },
+        {
+          "id": "t2",
+          "type": "speak",
+          "tags": [
+            "tal.beskriva",
+            "tal.interaktion",
+            "ordförråd.produktion"
+          ],
+          "q": "Del 1 – I affären och vid kassan",
+          "qEn": "Part 1 – In the shop and at the checkout",
+          "maxSeconds": 90,
+          "bullets": [
+            "hyllor, pris, rea, kö",
+            "hur du betalar (kort, kontanter)",
+            "sparar du kvittot?"
+          ],
+          "audio": {
+            "id": "t2a",
+            "title": "Testledaren frågar",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": {
+                "voice": "m",
+                "cast": "nst-m57-stockholm-112"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Hur gör du i affären? Vad gör du vid kassan?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Hur betalar du, och sparar du kvittot?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "t3",
+          "type": "speak",
+          "tags": [
+            "tal.beskriva",
+            "tal.interaktion",
+            "ordförråd.produktion"
+          ],
+          "q": "Del 1 – När något blir fel",
+          "qEn": "Part 1 – When something goes wrong",
+          "maxSeconds": 90,
+          "bullets": [
+            "en gång du bytte eller lämnade tillbaka något",
+            "vad som hände, och varför",
+            "Berätta mer."
+          ],
+          "audio": {
+            "id": "t3a",
+            "title": "Testledaren frågar",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": {
+                "voice": "m",
+                "cast": "nst-m57-stockholm-112"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Har du någon gång lämnat tillbaka något i en affär? Vad var det?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Vad hände då? Berätta mer."
               }
             ]
           }

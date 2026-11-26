@@ -161,8 +161,8 @@
       "id": "nu-du",
       "title": "Fraser och Nu du",
       "titleEn": "Phrases and Your turn",
-      "instructions": "Läs fraserna. Lyssna på testledarens fråga och svara i högst tre och en halv minut.",
-      "instructionsEn": "Read the phrases. Listen to the examiner's question and answer (max 3.5 minutes).",
+      "instructions": "Läs fraserna. Titta på bilderna. Lyssna på testledaren och svara i högst tre och en halv minut.",
+      "instructionsEn": "Read the phrases. Look at the pictures. Listen to the examiner and answer (max 3.5 minutes).",
       "items": [
         {
           "id": "fraser",
@@ -177,8 +177,14 @@
             "tal.interaktion",
             "tal.fraser"
           ],
-          "q": "Nu du: flyga eller inte",
+          "q": "Del 3 – Resor och semester",
+          "qEn": "Part 3 – Travel and holidays",
           "maxSeconds": 210,
+          "image": {
+            "src": "/materials/video/035-modellsvar-amne-resor/fotosida.jpg",
+            "alt": "Åtta foton om resor: strand, tåg, flygplan, hotellrum, berg och sjö, turist med kamera, resväska, tält",
+            "credit": "Foton: Pixabay (privat, materials/)"
+          },
           "bullets": [
             "din åsikt",
             "två skäl",
@@ -187,17 +193,28 @@
             "fråga tillbaka"
           ],
           "audio": {
-            "id": "res-s-a",
-            "title": "Testledarens fråga",
+            "id": "res-sa",
+            "title": "Testledaren frågar",
             "maxPlays": 2,
             "strict": false,
             "speakers": {
-              "Testledare": "f"
+              "Examinator": {
+                "voice": "f",
+                "cast": "nst-f63-stockholm-226"
+              }
             },
             "script": [
               {
-                "speaker": "Testledare",
-                "text": "Nu ett annat ämne. Många reser mycket med flyg. Vissa säger att vi borde resa mindre på grund av miljön. Vad tycker du? Berätta också om en resa du har gjort."
+                "speaker": "Examinator",
+                "text": "Nu ska vi prata om ett ämne. Här är bilder på resor och semester. Vad tycker du? Berätta!"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Många reser mycket med flyg. Hur ofta reser du, och vart? Några säger att vi borde resa mindre på grund av miljön. Vad tycker du om det?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Jag förstår, men jag tycker att semestern är viktig och att man ska få resa långt. Vad säger du om det?"
               }
             ]
           }

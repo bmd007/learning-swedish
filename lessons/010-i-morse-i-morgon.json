@@ -391,31 +391,128 @@
     },
     {
       "id": "tala",
-      "title": "Del 5: Berätta",
-      "titleEn": "Part 5: Speak",
-      "instructions": "Prata om förr och sen. Använd tidsorden.",
-      "instructionsEn": "Talk about the past and the future. Use the time words.",
+      "title": "Del 5: Prata (som Swedex Del 1)",
+      "titleEn": "Part 5: Talk (like Swedex part 1)",
+      "instructions": "Testledaren ställer tre vanliga frågor, en i taget. Svara med några meningar och berätta mer. Använd tidsorden.",
+      "instructionsEn": "The examiner asks three everyday questions, one at a time. Answer in a few sentences and say more. Use the time words.",
       "items": [
         {
-          "id": "t1",
+          "id": "tal1",
           "type": "speak",
           "tags": [
             "tal.berätta",
+            "tal.interaktion",
             "preposition.tid"
           ],
-          "q": "Berätta om din vecka: vad har hänt och vad ska hända?",
-          "qEn": "Tell about your week: what happened and what will happen?",
-          "maxSeconds": 150,
-          "image": {
-            "src": "tidslinje.svg",
-            "alt": "Tidslinje med tidsord",
-            "size": "small"
-          },
+          "q": "Del 1 – Din morgon och din helg",
+          "qEn": "Part 1 – Your morning and weekend",
+          "maxSeconds": 90,
           "bullets": [
-            "Vad gjorde du i morse? (vaknade, åt, tog …)",
-            "Vad gjorde du i fredags eller i somras?",
-            "Vad ska du göra i morgon och på fredag?"
-          ]
+            "i morse: vad gjorde du? (vaknade, åt, tog …)",
+            "i helgen / i lördags: vad gjorde du?",
+            "berätta mer: med vem och varför?"
+          ],
+          "audio": {
+            "id": "tal1a",
+            "title": "Testledaren frågar",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": {
+                "voice": "f",
+                "cast": "nst-f29-stockholm-302"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Hej! Vad gjorde du i morse, när du hade vaknat?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Och vad gjorde du i helgen? Berätta mer!"
+              }
+            ]
+          }
+        },
+        {
+          "id": "tal2",
+          "type": "speak",
+          "tags": [
+            "tal.berätta",
+            "tal.interaktion",
+            "verb.preteritum"
+          ],
+          "q": "Del 1 – En tid som har varit",
+          "qEn": "Part 1 – A time that has passed",
+          "maxSeconds": 90,
+          "bullets": [
+            "i fredags / i somras / förra året: vad gjorde du?",
+            "var du hemma eller borta?",
+            "Varför? Berätta mer."
+          ],
+          "audio": {
+            "id": "tal2a",
+            "title": "Testledaren frågar",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": {
+                "voice": "f",
+                "cast": "nst-f29-stockholm-302"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Vad gjorde du i somras? Var var du?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Varför gjorde du just det? Berätta mer."
+              }
+            ]
+          }
+        },
+        {
+          "id": "tal3",
+          "type": "speak",
+          "tags": [
+            "tal.berätta",
+            "tal.interaktion",
+            "verb.futurum",
+            "preposition.tid"
+          ],
+          "q": "Del 1 – Din vecka framåt",
+          "qEn": "Part 1 – Your coming week",
+          "maxSeconds": 90,
+          "bullets": [
+            "i morgon: vad ska du göra?",
+            "på fredag / i helgen: vad ska du göra?",
+            "nästa sommar: vad vill du göra? Varför?"
+          ],
+          "audio": {
+            "id": "tal3a",
+            "title": "Testledaren frågar",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": {
+                "voice": "f",
+                "cast": "nst-f29-stockholm-302"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Vad ska du göra i morgon?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Och vad ska du göra på fredag eller i helgen? Hur ofta gör du det?"
+              }
+            ]
+          }
         }
       ]
     }

@@ -1,410 +1,496 @@
 {
- "id": "044-fler-adjektiv-personer-kanslor",
- "title": "Fler adjektiv: personlighet och känslor",
- "titleEn": "More adjectives: personality and feelings",
- "mode": "practice",
- "minutes": 10,
- "intro": "Målet är bredd. Du lär dig 16 nya ord som du kan använda när du beskriver människor och hur man mår. Du behöver inte kunna alla perfekt: förstå dem först, använd sedan fyra i tal.",
- "introEn": "The aim is range. 16 new words for describing people and how they feel. Understand them first, then use four when you speak.",
- "sections": [
-  {
-   "id": "ord",
-   "title": "Del 1: Nya ord",
-   "titleEn": "Part 1: New words",
-   "instructions": "Läs tabellen. Välj tre eller fyra ord du vill använda själv.",
-   "instructionsEn": "Read the table. Pick three or four words you want to use yourself.",
-   "items": [
+  "id": "044-fler-adjektiv-personer-kanslor",
+  "title": "Fler adjektiv: personlighet och känslor",
+  "titleEn": "More adjectives: personality and feelings",
+  "mode": "practice",
+  "minutes": 10,
+  "intro": "Målet är bredd. Du lär dig 16 nya ord som du kan använda när du beskriver människor och hur man mår. Du behöver inte kunna alla perfekt: förstå dem först, använd sedan fyra i tal.",
+  "introEn": "The aim is range. 16 new words for describing people and how they feel. Understand them first, then use four when you speak.",
+  "sections": [
     {
-     "id": "i1",
-     "type": "info",
-     "image": {
-      "src": "kanslor.svg",
-      "alt": "Fyra ansikten: modig, rädd, nöjd och irriterad"
-     },
-     "md": "**Karaktär**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **modig** | rädd | brave | شجاع | Han var modig och hoppade i vattnet. |\n| **rädd** | modig | afraid | ترسیده | Jag är rädd för stora hundar. |\n| **generös** | snål | generous | بخشنده | Min moster är generös och bjuder alltid. |\n| **snål** | generös | stingy | خسیس | Han är snål och delar aldrig med sig. |\n| **envis** | flexibel | stubborn | لجباز | Mitt barn är envis och vill inte sova. |\n\n**I arbete och vardag**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **flitig** | lat | hardworking | سخت‌کوش | Hon är flitig och pluggar varje kväll. |\n| **slarvig** | noggrann | careless | بی‌دقت | Jag var slarvig och glömde passet. |\n| **pålitlig** | opålitlig | reliable | قابل اعتماد | Du kan lita på Sara. Hon är pålitlig. |\n| **omtänksam** | självisk | considerate | دلسوز | Hon är omtänksam och ringer när jag är sjuk. |\n| **tålmodig** | otålig | patient | صبور | Läraren är tålmodig och förklarar en gång till. |\n| **sällskaplig** | blyg | sociable | معاشرتی | Min granne är sällskaplig och älskar fika. |\n\n**Hur man mår**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **nöjd** | missnöjd | satisfied | راضی | Jag är nöjd med min lägenhet. |\n| **orolig** | lugn | worried | نگران | Jag är orolig för provet. |\n| **irriterad** | lugn | annoyed | کلافه | Jag blev irriterad när bussen var sen. |\n| **förvånad** | inte förvånad | surprised | متعجب | Jag blev förvånad när hon ringde. |\n| **ensam** | tillsammans | alone, lonely | تنها | Han känner sig ensam i Sverige. |\n"
-    }
-   ]
-  },
-  {
-   "id": "betyder",
-   "title": "Del 2: Vad betyder det?",
-   "titleEn": "Part 2: What does it mean?",
-   "instructions": "Välj det ord som passar bäst.",
-   "instructionsEn": "Choose the word that fits best.",
-   "items": [
-    {
-     "id": "m1",
-     "type": "mcq",
-     "tags": [
-      "ordförråd.adjektiv",
-      "ordförråd.rivstart"
-     ],
-     "q": "Anna hoppade i det kalla vattnet för att rädda hunden. Hon är väldigt ___.",
-     "options": [
-      "snål",
-      "modig",
-      "envis"
-     ],
-     "answer": 1,
-     "explain": "Modig = vågar göra något svårt eller farligt.",
-     "explainEn": "modig = brave"
-    },
-    {
-     "id": "m2",
-     "type": "mcq",
-     "tags": [
-      "ordförråd.adjektiv",
-      "ordförråd.rivstart"
-     ],
-     "q": "Min onkel bjuder alltid på middag och ger fina presenter. Han är så ___.",
-     "options": [
-      "generös",
-      "slarvig",
-      "orolig"
-     ],
-     "answer": 0,
-     "explain": "Generös = ger gärna.",
-     "explainEn": "generös = generous"
-    },
-    {
-     "id": "m3",
-     "type": "mcq",
-     "tags": [
-      "ordförråd.adjektiv",
-      "ordförråd.rivstart"
-     ],
-     "q": "Min son vill inte ändra sig, fast alla säger att han har fel. Han är så ___.",
-     "options": [
-      "tålmodig",
-      "nöjd",
-      "envis"
-     ],
-     "answer": 2,
-     "explain": "Envis = ändrar sig inte.",
-     "explainEn": "envis = stubborn"
-    },
-    {
-     "id": "m4",
-     "type": "mcq",
-     "tags": [
-      "ordförråd.adjektiv",
-      "ordförråd.rivstart"
-     ],
-     "q": "Hon har städat, skrivit tre mejl och lagat mat redan klockan nio. Hon är mycket ___.",
-     "options": [
-      "ensam",
-      "flitig",
-      "förvånad"
-     ],
-     "answer": 1,
-     "explain": "Flitig = arbetar mycket och hårt.",
-     "explainEn": "flitig = hardworking"
-    },
-    {
-     "id": "m5",
-     "type": "mcq",
-     "tags": [
-      "ordförråd.adjektiv",
-      "ordförråd.rivstart"
-     ],
-     "q": "Han lämnar disken i handfatet och glömmer alltid nycklarna. Han är lite ___.",
-     "options": [
-      "omtänksam",
-      "rädd",
-      "slarvig"
-     ],
-     "answer": 2,
-     "explain": "Slarvig = tänker inte på detaljerna.",
-     "explainEn": "slarvig = careless"
-    },
-    {
-     "id": "m6",
-     "type": "mcq",
-     "tags": [
-      "ordförråd.adjektiv",
-      "ordförråd.rivstart"
-     ],
-     "q": "Vilket ord betyder att du kan lita på en person?",
-     "options": [
-      "pålitlig",
-      "irriterad",
-      "snål"
-     ],
-     "answer": 0,
-     "explain": "Pålitlig = man kan lita på personen.",
-     "explainEn": "pålitlig = reliable"
-    },
-    {
-     "id": "m7",
-     "type": "mcq",
-     "tags": [
-      "ordförråd.adjektiv",
-      "ordförråd.rivstart"
-     ],
-     "q": "Barnet tar lång tid på sig att klä på sig, men pappan blir inte arg. Han väntar lugnt. Han är ___.",
-     "options": [
-      "sällskaplig",
-      "tålmodig",
-      "modig"
-     ],
-     "answer": 1,
-     "explain": "Tålmodig = kan vänta utan att bli arg.",
-     "explainEn": "tålmodig = patient"
-    },
-    {
-     "id": "m8",
-     "type": "mcq",
-     "tags": [
-      "ordförråd.adjektiv",
-      "ordförråd.rivstart"
-     ],
-     "q": "Bussen var sen för tredje gången i veckan. Jag blev riktigt ___.",
-     "options": [
-      "förvånad",
-      "nöjd",
-      "irriterad"
-     ],
-     "answer": 2,
-     "explain": "Irriterad = lite arg och trött på något.",
-     "explainEn": "irriterad = annoyed"
-    }
-   ]
-  },
-  {
-   "id": "motsatser",
-   "title": "Del 3: Motsatser",
-   "titleEn": "Part 3: Opposites",
-   "instructions": "Vilket ord är motsatsen?",
-   "instructionsEn": "Which word is the opposite?",
-   "parts": [
-    {
-     "heading": "Välj motsatsen",
-     "headingEn": "Choose the opposite",
-     "options": [
-      "rädd",
-      "snål",
-      "lat",
-      "noggrann",
-      "lugn",
-      "blyg"
-     ],
-     "items": [
-      {
-       "id": "o1",
-       "type": "select",
-       "tags": [
-        "ordförråd.adjektiv",
-        "ordförråd.rivstart"
-       ],
-       "q": "modig",
-       "answer": 0,
-       "explain": "modig ≠ rädd",
-       "explainEn": "modig ≠ rädd"
-      },
-      {
-       "id": "o2",
-       "type": "select",
-       "tags": [
-        "ordförråd.adjektiv",
-        "ordförråd.rivstart"
-       ],
-       "q": "generös",
-       "answer": 1,
-       "explain": "generös ≠ snål",
-       "explainEn": "generös ≠ snål"
-      },
-      {
-       "id": "o3",
-       "type": "select",
-       "tags": [
-        "ordförråd.adjektiv",
-        "ordförråd.rivstart"
-       ],
-       "q": "flitig",
-       "answer": 2,
-       "explain": "flitig ≠ lat",
-       "explainEn": "flitig ≠ lat"
-      },
-      {
-       "id": "o4",
-       "type": "select",
-       "tags": [
-        "ordförråd.adjektiv",
-        "ordförråd.rivstart"
-       ],
-       "q": "slarvig",
-       "answer": 3,
-       "explain": "slarvig ≠ noggrann",
-       "explainEn": "slarvig ≠ noggrann"
-      },
-      {
-       "id": "o5",
-       "type": "select",
-       "tags": [
-        "ordförråd.adjektiv",
-        "ordförråd.rivstart"
-       ],
-       "q": "orolig",
-       "answer": 4,
-       "explain": "orolig ≠ lugn",
-       "explainEn": "orolig ≠ lugn"
-      },
-      {
-       "id": "o6",
-       "type": "select",
-       "tags": [
-        "ordförråd.adjektiv",
-        "ordförråd.rivstart"
-       ],
-       "q": "sällskaplig",
-       "answer": 5,
-       "explain": "sällskaplig ≠ blyg",
-       "explainEn": "sällskaplig ≠ blyg"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "lyssna",
-   "title": "Del 4: Lyssna",
-   "titleEn": "Part 4: Listen",
-   "instructions": "Lyssna på samtalet. Svara sedan på frågorna.",
-   "instructionsEn": "Listen to the conversation, then answer.",
-   "parts": [
-    {
-     "heading": "Elin och Marcus",
-     "headingEn": "Elin and Marcus",
-     "audio": {
-      "id": "a1",
-      "title": "Elin och Marcus",
-      "titleEn": "Elin and Marcus",
-      "maxPlays": 3,
-      "strict": false,
-      "speakers": {
-       "Elin": "f",
-       "Marcus": "m"
-      },
-      "script": [
-       {
-        "speaker": "Elin",
-        "text": "Hej Marcus! Hur var helgen? Du verkade orolig i fredags."
-       },
-       {
-        "speaker": "Marcus",
-        "text": "Ja, det var jag. Min lillebror skulle resa ensam till Kiruna. Han är bara arton och lite slarvig, han glömmer ju alltid nycklarna."
-       },
-       {
-        "speaker": "Elin",
-        "text": "Men han är väldigt modig, eller hur?"
-       },
-       {
-        "speaker": "Marcus",
-        "text": "Ja, och envis också. Han ville inte ha med mamma. Men när han ringde på lördagen blev jag förvånad. Han hade planerat allt själv!"
-       },
-       {
-        "speaker": "Elin",
-        "text": "Vad bra! Han är ju både flitig och pålitlig, tycker jag."
-       },
-       {
-        "speaker": "Marcus",
-        "text": "Det stämmer. Nu är jag nöjd, och mamma är inte irriterad längre."
-       },
-       {
-        "speaker": "Elin",
-        "text": "Skönt! Hälsa honom."
-       }
+      "id": "ord",
+      "title": "Del 1: Nya ord",
+      "titleEn": "Part 1: New words",
+      "instructions": "Läs tabellen. Välj tre eller fyra ord du vill använda själv.",
+      "instructionsEn": "Read the table. Pick three or four words you want to use yourself.",
+      "items": [
+        {
+          "id": "i1",
+          "type": "info",
+          "image": {
+            "src": "kanslor.svg",
+            "alt": "Fyra ansikten: modig, rädd, nöjd och irriterad"
+          },
+          "md": "**Karaktär**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **modig** | rädd | brave | شجاع | Han var modig och hoppade i vattnet. |\n| **rädd** | modig | afraid | ترسیده | Jag är rädd för stora hundar. |\n| **generös** | snål | generous | بخشنده | Min moster är generös och bjuder alltid. |\n| **snål** | generös | stingy | خسیس | Han är snål och delar aldrig med sig. |\n| **envis** | flexibel | stubborn | لجباز | Mitt barn är envis och vill inte sova. |\n\n**I arbete och vardag**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **flitig** | lat | hardworking | سخت‌کوش | Hon är flitig och pluggar varje kväll. |\n| **slarvig** | noggrann | careless | بی‌دقت | Jag var slarvig och glömde passet. |\n| **pålitlig** | opålitlig | reliable | قابل اعتماد | Du kan lita på Sara. Hon är pålitlig. |\n| **omtänksam** | självisk | considerate | دلسوز | Hon är omtänksam och ringer när jag är sjuk. |\n| **tålmodig** | otålig | patient | صبور | Läraren är tålmodig och förklarar en gång till. |\n| **sällskaplig** | blyg | sociable | معاشرتی | Min granne är sällskaplig och älskar fika. |\n\n**Hur man mår**\n\n| adjektiv | motsats | English | فارسی | exempel |\n|---|---|---|---|---|\n| **nöjd** | missnöjd | satisfied | راضی | Jag är nöjd med min lägenhet. |\n| **orolig** | lugn | worried | نگران | Jag är orolig för provet. |\n| **irriterad** | lugn | annoyed | کلافه | Jag blev irriterad när bussen var sen. |\n| **förvånad** | inte förvånad | surprised | متعجب | Jag blev förvånad när hon ringde. |\n| **ensam** | tillsammans | alone, lonely | تنها | Han känner sig ensam i Sverige. |\n"
+        }
       ]
-     },
-     "items": [
-      {
-       "id": "h1",
-       "type": "mcq",
-       "tags": [
-        "hör.detalj",
-        "ordförråd.adjektiv"
-       ],
-       "q": "Hur beskriver Marcus sin lillebror?",
-       "options": [
-        "Snål och rädd",
-        "Slarvig och envis",
-        "Sällskaplig och tålmodig"
-       ],
-       "answer": 1
-      },
-      {
-       "id": "h2",
-       "type": "mcq",
-       "tags": [
-        "hör.detalj",
-        "ordförråd.adjektiv"
-       ],
-       "q": "Hur kände sig Marcus när brodern ringde på lördagen?",
-       "options": [
-        "Irriterad",
-        "Ensam",
-        "Förvånad"
-       ],
-       "answer": 2
-      },
-      {
-       "id": "h3",
-       "type": "mcq",
-       "tags": [
-        "hör.detalj",
-        "ordförråd.adjektiv"
-       ],
-       "q": "Hur beskriver Elin brodern?",
-       "options": [
-        "Flitig och pålitlig",
-        "Generös och snål",
-        "Sur och ensam"
-       ],
-       "answer": 0
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "tala",
-   "title": "Del 5: Tala",
-   "titleEn": "Part 5: Speak",
-   "instructions": "Lyssna på testledaren och svara. Använd nya ord.",
-   "instructionsEn": "Listen to the examiner and answer. Use new words.",
-   "items": [
+    },
     {
-     "id": "t1",
-     "type": "speak",
-     "tags": [
-      "tal.beskriva",
-      "ordförråd.adjektiv"
-     ],
-     "q": "Beskriv dig själv och en person i din familj",
-     "qEn": "Describe yourself and a person in your family",
-     "maxSeconds": 150,
-     "bullets": [
-      "Hur är du? Hur är personen? Använd minst fyra nya adjektiv (till exempel modig, envis, tålmodig, flitig).",
-      "Hur är ni lika och olika? Säg en sak ni är lika på och en sak ni är olika på.",
-      "Ge en förklaring med eftersom: Han är ... eftersom ..."
-     ],
-     "audio": {
-      "id": "t1a",
-      "title": "Testledaren frågar",
-      "maxPlays": 2,
-      "strict": false,
-      "speakers": {
-       "Testledare": "f"
-      },
-      "script": [
-       {
-        "speaker": "Testledare",
-        "text": "Beskriv dig själv och en person i din familj. Hur är du, och hur är den personen? Hur är ni lika, och hur är ni olika?"
-       }
+      "id": "betyder",
+      "title": "Del 2: Vad betyder det?",
+      "titleEn": "Part 2: What does it mean?",
+      "instructions": "Välj det ord som passar bäst.",
+      "instructionsEn": "Choose the word that fits best.",
+      "items": [
+        {
+          "id": "m1",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.adjektiv",
+            "ordförråd.rivstart"
+          ],
+          "q": "Anna hoppade i det kalla vattnet för att rädda hunden. Hon är väldigt ___.",
+          "options": [
+            "snål",
+            "modig",
+            "envis"
+          ],
+          "answer": 1,
+          "explain": "Modig = vågar göra något svårt eller farligt.",
+          "explainEn": "modig = brave"
+        },
+        {
+          "id": "m2",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.adjektiv",
+            "ordförråd.rivstart"
+          ],
+          "q": "Min onkel bjuder alltid på middag och ger fina presenter. Han är så ___.",
+          "options": [
+            "generös",
+            "slarvig",
+            "orolig"
+          ],
+          "answer": 0,
+          "explain": "Generös = ger gärna.",
+          "explainEn": "generös = generous"
+        },
+        {
+          "id": "m3",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.adjektiv",
+            "ordförråd.rivstart"
+          ],
+          "q": "Min son vill inte ändra sig, fast alla säger att han har fel. Han är så ___.",
+          "options": [
+            "tålmodig",
+            "nöjd",
+            "envis"
+          ],
+          "answer": 2,
+          "explain": "Envis = ändrar sig inte.",
+          "explainEn": "envis = stubborn"
+        },
+        {
+          "id": "m4",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.adjektiv",
+            "ordförråd.rivstart"
+          ],
+          "q": "Hon har städat, skrivit tre mejl och lagat mat redan klockan nio. Hon är mycket ___.",
+          "options": [
+            "ensam",
+            "flitig",
+            "förvånad"
+          ],
+          "answer": 1,
+          "explain": "Flitig = arbetar mycket och hårt.",
+          "explainEn": "flitig = hardworking"
+        },
+        {
+          "id": "m5",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.adjektiv",
+            "ordförråd.rivstart"
+          ],
+          "q": "Han lämnar disken i handfatet och glömmer alltid nycklarna. Han är lite ___.",
+          "options": [
+            "omtänksam",
+            "rädd",
+            "slarvig"
+          ],
+          "answer": 2,
+          "explain": "Slarvig = tänker inte på detaljerna.",
+          "explainEn": "slarvig = careless"
+        },
+        {
+          "id": "m6",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.adjektiv",
+            "ordförråd.rivstart"
+          ],
+          "q": "Vilket ord betyder att du kan lita på en person?",
+          "options": [
+            "pålitlig",
+            "irriterad",
+            "snål"
+          ],
+          "answer": 0,
+          "explain": "Pålitlig = man kan lita på personen.",
+          "explainEn": "pålitlig = reliable"
+        },
+        {
+          "id": "m7",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.adjektiv",
+            "ordförråd.rivstart"
+          ],
+          "q": "Barnet tar lång tid på sig att klä på sig, men pappan blir inte arg. Han väntar lugnt. Han är ___.",
+          "options": [
+            "sällskaplig",
+            "tålmodig",
+            "modig"
+          ],
+          "answer": 1,
+          "explain": "Tålmodig = kan vänta utan att bli arg.",
+          "explainEn": "tålmodig = patient"
+        },
+        {
+          "id": "m8",
+          "type": "mcq",
+          "tags": [
+            "ordförråd.adjektiv",
+            "ordförråd.rivstart"
+          ],
+          "q": "Bussen var sen för tredje gången i veckan. Jag blev riktigt ___.",
+          "options": [
+            "förvånad",
+            "nöjd",
+            "irriterad"
+          ],
+          "answer": 2,
+          "explain": "Irriterad = lite arg och trött på något.",
+          "explainEn": "irriterad = annoyed"
+        }
       ]
-     }
+    },
+    {
+      "id": "motsatser",
+      "title": "Del 3: Motsatser",
+      "titleEn": "Part 3: Opposites",
+      "instructions": "Vilket ord är motsatsen?",
+      "instructionsEn": "Which word is the opposite?",
+      "parts": [
+        {
+          "heading": "Välj motsatsen",
+          "headingEn": "Choose the opposite",
+          "options": [
+            "rädd",
+            "snål",
+            "lat",
+            "noggrann",
+            "lugn",
+            "blyg"
+          ],
+          "items": [
+            {
+              "id": "o1",
+              "type": "select",
+              "tags": [
+                "ordförråd.adjektiv",
+                "ordförråd.rivstart"
+              ],
+              "q": "modig",
+              "answer": 0,
+              "explain": "modig ≠ rädd",
+              "explainEn": "modig ≠ rädd"
+            },
+            {
+              "id": "o2",
+              "type": "select",
+              "tags": [
+                "ordförråd.adjektiv",
+                "ordförråd.rivstart"
+              ],
+              "q": "generös",
+              "answer": 1,
+              "explain": "generös ≠ snål",
+              "explainEn": "generös ≠ snål"
+            },
+            {
+              "id": "o3",
+              "type": "select",
+              "tags": [
+                "ordförråd.adjektiv",
+                "ordförråd.rivstart"
+              ],
+              "q": "flitig",
+              "answer": 2,
+              "explain": "flitig ≠ lat",
+              "explainEn": "flitig ≠ lat"
+            },
+            {
+              "id": "o4",
+              "type": "select",
+              "tags": [
+                "ordförråd.adjektiv",
+                "ordförråd.rivstart"
+              ],
+              "q": "slarvig",
+              "answer": 3,
+              "explain": "slarvig ≠ noggrann",
+              "explainEn": "slarvig ≠ noggrann"
+            },
+            {
+              "id": "o5",
+              "type": "select",
+              "tags": [
+                "ordförråd.adjektiv",
+                "ordförråd.rivstart"
+              ],
+              "q": "orolig",
+              "answer": 4,
+              "explain": "orolig ≠ lugn",
+              "explainEn": "orolig ≠ lugn"
+            },
+            {
+              "id": "o6",
+              "type": "select",
+              "tags": [
+                "ordförråd.adjektiv",
+                "ordförråd.rivstart"
+              ],
+              "q": "sällskaplig",
+              "answer": 5,
+              "explain": "sällskaplig ≠ blyg",
+              "explainEn": "sällskaplig ≠ blyg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lyssna",
+      "title": "Del 4: Lyssna",
+      "titleEn": "Part 4: Listen",
+      "instructions": "Lyssna på samtalet. Svara sedan på frågorna.",
+      "instructionsEn": "Listen to the conversation, then answer.",
+      "parts": [
+        {
+          "heading": "Elin och Marcus",
+          "headingEn": "Elin and Marcus",
+          "audio": {
+            "id": "a1",
+            "title": "Elin och Marcus",
+            "titleEn": "Elin and Marcus",
+            "maxPlays": 3,
+            "strict": false,
+            "speakers": {
+              "Elin": "f",
+              "Marcus": "m"
+            },
+            "script": [
+              {
+                "speaker": "Elin",
+                "text": "Hej Marcus! Hur var helgen? Du verkade orolig i fredags."
+              },
+              {
+                "speaker": "Marcus",
+                "text": "Ja, det var jag. Min lillebror skulle resa ensam till Kiruna. Han är bara arton och lite slarvig, han glömmer ju alltid nycklarna."
+              },
+              {
+                "speaker": "Elin",
+                "text": "Men han är väldigt modig, eller hur?"
+              },
+              {
+                "speaker": "Marcus",
+                "text": "Ja, och envis också. Han ville inte ha med mamma. Men när han ringde på lördagen blev jag förvånad. Han hade planerat allt själv!"
+              },
+              {
+                "speaker": "Elin",
+                "text": "Vad bra! Han är ju både flitig och pålitlig, tycker jag."
+              },
+              {
+                "speaker": "Marcus",
+                "text": "Det stämmer. Nu är jag nöjd, och mamma är inte irriterad längre."
+              },
+              {
+                "speaker": "Elin",
+                "text": "Skönt! Hälsa honom."
+              }
+            ]
+          },
+          "items": [
+            {
+              "id": "h1",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.adjektiv"
+              ],
+              "q": "Hur beskriver Marcus sin lillebror?",
+              "options": [
+                "Snål och rädd",
+                "Slarvig och envis",
+                "Sällskaplig och tålmodig"
+              ],
+              "answer": 1
+            },
+            {
+              "id": "h2",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.adjektiv"
+              ],
+              "q": "Hur kände sig Marcus när brodern ringde på lördagen?",
+              "options": [
+                "Irriterad",
+                "Ensam",
+                "Förvånad"
+              ],
+              "answer": 2
+            },
+            {
+              "id": "h3",
+              "type": "mcq",
+              "tags": [
+                "hör.detalj",
+                "ordförråd.adjektiv"
+              ],
+              "q": "Hur beskriver Elin brodern?",
+              "options": [
+                "Flitig och pålitlig",
+                "Generös och snål",
+                "Sur och ensam"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tala",
+      "title": "Del 5: Prata (som Swedex Del 1)",
+      "titleEn": "Part 5: Talk (like Swedex part 1)",
+      "instructions": "Testledaren ställer tre frågor, en i taget. Svara och berätta mer. Använd nya adjektiv.",
+      "instructionsEn": "The examiner asks three questions, one at a time. Answer and say more. Use the new adjectives.",
+      "items": [
+        {
+          "id": "t1",
+          "type": "speak",
+          "tags": [
+            "tal.beskriva",
+            "tal.interaktion",
+            "ordförråd.adjektiv"
+          ],
+          "q": "Del 1 – Hur är du?",
+          "qEn": "Part 1 – What are you like?",
+          "maxSeconds": 90,
+          "bullets": [
+            "Jag är … (modig, envis, tålmodig, flitig)",
+            "Hur är du när du är arg eller glad?",
+            "Varför? Berätta mer."
+          ],
+          "audio": {
+            "id": "t1a",
+            "title": "Testledaren frågar",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": {
+                "voice": "m",
+                "cast": "nst-m35-goteborg-282"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Hej! Hur skulle du beskriva dig själv? Hur är du som person?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Hur är du när du är trött eller arg? Berätta mer!"
+              }
+            ]
+          }
+        },
+        {
+          "id": "t2",
+          "type": "speak",
+          "tags": [
+            "tal.beskriva",
+            "tal.interaktion",
+            "ordförråd.adjektiv"
+          ],
+          "q": "Del 1 – En person i din familj",
+          "qEn": "Part 1 – A person in your family",
+          "maxSeconds": 90,
+          "bullets": [
+            "Vem är personen? Hur är han eller hon?",
+            "Hur är ni lika och olika?",
+            "Ge en förklaring med eftersom."
+          ],
+          "audio": {
+            "id": "t2a",
+            "title": "Testledaren frågar",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": {
+                "voice": "m",
+                "cast": "nst-m35-goteborg-282"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Berätta om en person i din familj. Hur är han eller hon?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Är ni lika eller olika? Varför?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "t3",
+          "type": "speak",
+          "tags": [
+            "tal.beskriva",
+            "tal.interaktion",
+            "ordförråd.adjektiv"
+          ],
+          "q": "Del 1 – En bra vän",
+          "qEn": "Part 1 – A good friend",
+          "maxSeconds": 90,
+          "bullets": [
+            "Hur är en bra vän? (rolig, ärlig, snäll, pålitlig)",
+            "Har du en sådan vän? Berätta mer.",
+            "Vad blir du irriterad eller besviken över?"
+          ],
+          "audio": {
+            "id": "t3a",
+            "title": "Testledaren frågar",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": {
+                "voice": "m",
+                "cast": "nst-m35-goteborg-282"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Hur är en bra vän, tycker du?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Har du en sådan vän? Berätta mer om vännen."
+              }
+            ]
+          }
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }

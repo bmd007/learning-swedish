@@ -17,13 +17,19 @@
         {
           "id": "i1",
           "type": "info",
-          "image": { "src": "hor-del-4.svg", "alt": "En radio, fyra inslag och sex rubriker. Fyra pilar från inslagen till fyra rubriker. Två rubriker blir över." },
+          "image": {
+            "src": "hor-del-4.svg",
+            "alt": "En radio, fyra inslag och sex rubriker. Fyra pilar från inslagen till fyra rubriker. Två rubriker blir över."
+          },
           "md": "**Swedex Hör del 4:** du hör korta radioinslag. Du väljer rätt **rubrik** för varje inslag. Två rubriker passar inte.\n\n**Tips:**\n- Läs alla rubriker **innan** du lyssnar.\n- Första gången: lyssna bara efter **ämnet** (vad handlar det om?).\n- Andra gången: kolla detaljerna. Rubrikerna som inte passar har ofta **samma ord** som inslaget men fel fakta.\n\nHär får du också 1–2 detaljfrågor per inslag (som Hör del 2). Svara med **1–5 ord**.\n\n*فارسی: لازم نیست همه کلمات را بفهمی. اول فقط موضوع را بگیر، بار دوم جزئیات.*"
         },
         {
           "id": "i2",
           "type": "info",
-          "image": { "src": "talsprak.svg", "alt": "Två pratbubblor: 'Det var ju liksom inte en fin kö' och 'En cykel har pajat', med en trasig cykel." },
+          "image": {
+            "src": "talsprak.svg",
+            "alt": "Två pratbubblor: 'Det var ju liksom inte en fin kö' och 'En cykel har pajat', med en trasig cykel."
+          },
           "md": "**Talspråk – små ord du hör i riktig svenska:**\n\n| ord | betyder ungefär | exempel |\n|---|---|---|\n| **ju** | som du vet / det är klart | *Det var **ju** mayhem.* |\n| **liksom** | filler, som *like* på engelska | *Det var **liksom** inte en fin kö.* |\n| **väl** | antagligen / jag tror | *De ska **väl** ändra systemet.* |\n| **såklart** | självklart | *Sen spårade det **såklart** ur.* |\n| **paja** (vardag) | gå sönder | *En cykel har **pajat**.* |\n\nDe här orden ändrar inte fakta. Hoppa över dem när du lyssnar."
         }
       ]
@@ -58,7 +64,10 @@
             {
               "id": "r1",
               "type": "select",
-              "tags": ["hör.matcha", "hör.huvudtanke"],
+              "tags": [
+                "hör.matcha",
+                "hör.huvudtanke"
+              ],
               "q": "Vilken rubrik passar inslag 1?",
               "qEn": "Which headline fits item 1?",
               "answer": 3,
@@ -68,20 +77,34 @@
             {
               "id": "r1a",
               "type": "short",
-              "tags": ["hör.siffror"],
+              "tags": [
+                "hör.siffror"
+              ],
               "q": "Hur mycket snö kan det komma?",
               "qEn": "How much snow can fall?",
-              "answers": ["80", "åttio"],
+              "answers": [
+                "80",
+                "åttio"
+              ],
               "explain": "”Det kan komma omkring 80 cm snö.” cm = centimeter.",
               "explainEn": "About 80 cm of snow."
             },
             {
               "id": "r1b",
               "type": "short",
-              "tags": ["hör.detalj"],
+              "tags": [
+                "hör.detalj"
+              ],
               "q": "Du måste gå ut. Nämn en sak du ska ha med dig.",
               "qEn": "You have to go out. Name one thing you should have with you.",
-              "answers": ["varma kläder", "varm", "spade", "powerbank", "power bank", "laddare"],
+              "answers": [
+                "varma kläder",
+                "varm",
+                "spade",
+                "powerbank",
+                "power bank",
+                "laddare"
+              ],
               "explain": "”Ha varma kläder, spade och så vidare. Se till att ha powerbank.” Alla tre är rätt.",
               "explainEn": "Warm clothes, a shovel, a power bank – any one is correct."
             }
@@ -110,7 +133,10 @@
             {
               "id": "r2",
               "type": "select",
-              "tags": ["hör.matcha", "hör.huvudtanke"],
+              "tags": [
+                "hör.matcha",
+                "hör.huvudtanke"
+              ],
               "q": "Vilken rubrik passar inslag 2?",
               "qEn": "Which headline fits item 2?",
               "answer": 5,
@@ -120,17 +146,24 @@
             {
               "id": "r2a",
               "type": "short",
-              "tags": ["hör.siffror"],
+              "tags": [
+                "hör.siffror"
+              ],
               "q": "Hur varmt var det i frysarna efter attacken?",
               "qEn": "How warm were the freezers after the attack?",
-              "answers": ["50", "femtio"],
+              "answers": [
+                "50",
+                "femtio"
+              ],
               "explain": "Det ska vara 20 minusgrader, men frysarna var inställda på runt 50 plusgrader. Fälla: två siffror i samma mening – frågan gäller *efter* attacken.",
               "explainEn": "Normally −20 °C, but after the attack about +50 °C. Two numbers close together – the question asks about after."
             },
             {
               "id": "r2b",
               "type": "mcq",
-              "tags": ["hör.detalj"],
+              "tags": [
+                "hör.detalj"
+              ],
               "q": "Hur förstod Lisa först att något var fel?",
               "qEn": "How did Lisa first understand something was wrong?",
               "options": [
@@ -168,7 +201,10 @@
             {
               "id": "r3",
               "type": "select",
-              "tags": ["hör.matcha", "hör.huvudtanke"],
+              "tags": [
+                "hör.matcha",
+                "hör.huvudtanke"
+              ],
               "q": "Vilken rubrik passar inslag 3?",
               "qEn": "Which headline fits item 3?",
               "answer": 0,
@@ -178,17 +214,26 @@
             {
               "id": "r3a",
               "type": "short",
-              "tags": ["hör.siffror"],
+              "tags": [
+                "hör.siffror"
+              ],
               "q": "Hur många ungdomar var det i gruppen (klungan)?",
               "qEn": "How many young people were in the crowd?",
-              "answers": ["200", "tvåhundra", "två hundra", "hundratals"],
+              "answers": [
+                "200",
+                "tvåhundra",
+                "två hundra",
+                "hundratals"
+              ],
               "explain": "”den där klungan med 200 ungdomar” – reportern säger också ”hundratals ungdomar”.",
               "explainEn": "About 200 young people (\"hundreds\")."
             },
             {
               "id": "r3b",
               "type": "mcq",
-              "tags": ["hör.detalj"],
+              "tags": [
+                "hör.detalj"
+              ],
               "q": "Blev något eller någon skadat?",
               "qEn": "Was anyone or anything damaged?",
               "options": [
@@ -226,7 +271,10 @@
             {
               "id": "r4",
               "type": "select",
-              "tags": ["hör.matcha", "hör.huvudtanke"],
+              "tags": [
+                "hör.matcha",
+                "hör.huvudtanke"
+              ],
               "q": "Vilken rubrik passar inslag 4?",
               "qEn": "Which headline fits item 4?",
               "answer": 2,
@@ -236,17 +284,26 @@
             {
               "id": "r4a",
               "type": "short",
-              "tags": ["hör.tid"],
+              "tags": [
+                "hör.tid"
+              ],
               "q": "Hur länge var Andreas utan jobb?",
               "qEn": "How long was Andreas without a job?",
-              "answers": ["nio år", "9 år", "nio", "9"],
+              "answers": [
+                "nio år",
+                "9 år",
+                "nio",
+                "9"
+              ],
               "explain": "”När han hade varit utan jobb i nio år tröttnade han.” utan jobb = arbetslös.",
               "explainEn": "Nine years. utan jobb = arbetslös (unemployed)."
             },
             {
               "id": "r4b",
               "type": "mcq",
-              "tags": ["hör.åsikt"],
+              "tags": [
+                "hör.åsikt"
+              ],
               "q": "Varför kan det vara en fördel att inte se, tycker Andreas?",
               "qEn": "Why can it be an advantage not to see, according to Andreas?",
               "options": [
@@ -265,25 +322,61 @@
     },
     {
       "id": "tala",
-      "title": "Berätta en nyhet",
-      "titleEn": "Retell a news item",
-      "instructions": "Välj ett av inslagen. Berätta om det med egna ord, som för en vän.",
-      "instructionsEn": "Pick one of the items. Retell it in your own words, as if to a friend.",
+      "title": "Tala (som Swedex Del 3): jobb",
+      "titleEn": "Speak (like Swedex part 3): jobs",
+      "instructions": "Det sista inslaget handlade om jobb. Titta på bilderna. Lyssna på testledaren och svara i högst tre och en halv minut.",
+      "instructionsEn": "The last item was about work. Look at the pictures. Listen to the examiner and answer (max 3.5 minutes).",
       "items": [
         {
           "id": "t1",
           "type": "speak",
-          "tags": ["tal.berätta", "verb.preteritum"],
-          "q": "Berätta om en av nyheterna du hörde.",
-          "qEn": "Tell about one of the news items you heard.",
-          "maxSeconds": 150,
-          "bullets": [
-            "Vad hände, och var? (Igår/i onsdags hände det att …)",
-            "Vem pratade i inslaget, och vad sa hen?",
-            "Vad tycker du om nyheten? (Jag tycker att … eftersom …)"
+          "tags": [
+            "tal.argumentera",
+            "tal.interaktion"
           ],
-          "explain": "Använd preteritum för det som hände: varnade, kom, blev, hörde, slängde. Börja gärna med tid: I onsdags blev det bråk … (verbet på plats 2).",
-          "explainEn": "Use past tense for what happened. Start with time: I onsdags blev det bråk … (verb in 2nd place)."
+          "q": "Del 3 – Jobb och arbete",
+          "qEn": "Part 3 – Jobs and work",
+          "maxSeconds": 210,
+          "image": {
+            "src": "/materials/video/012-radio-klartext/fotosida.jpg",
+            "alt": "Åtta foton av jobb: kirurger, busschaufför, byggarbetare, snickeri, brandman, bilmekaniker, kock, lärare",
+            "credit": "Foton: Pixabay (privat, materials/)"
+          },
+          "bullets": [
+            "din åsikt: vad är ett bra jobb?",
+            "två skäl",
+            "ett exempel från ditt liv eller en person du känner",
+            "den andra sidan",
+            "fråga tillbaka"
+          ],
+          "audio": {
+            "id": "t1a",
+            "title": "Testledaren frågar",
+            "maxPlays": 2,
+            "strict": false,
+            "speakers": {
+              "Examinator": {
+                "voice": "m",
+                "cast": "nst-m61-vastsverige-921"
+              }
+            },
+            "script": [
+              {
+                "speaker": "Examinator",
+                "text": "Nu ska vi prata om ett ämne. Här är bilder på olika jobb. Vad är ett bra jobb, tycker du? Berätta!"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Vilket jobb skulle du vilja ha, och varför?"
+              },
+              {
+                "speaker": "Examinator",
+                "text": "Jag tycker att lönen är det viktigaste. Om jobbet inte ger bra lön, är det inte ett bra jobb. Vad säger du om det?"
+              }
+            ]
+          },
+          "explain": "Börja med din åsikt: Jag tycker att ett bra jobb är … Ge skäl med eftersom och säg vad den andra sidan kan tycka: Vissa tycker att …, men jag tycker att …",
+          "explainEn": "Start with your opinion, give reasons with eftersom, and say what the other side may think."
         }
       ]
     }
