@@ -26,8 +26,10 @@ is not about something you said – ignore it. And "Ibland jag tittar en film" a
 ## Top 3 problems
 
 ### 1. Task understanding in Del 2 B (again "read the task")
-In the real test **you never see ad B**. The examiner has it. You only get a box with tips: *var? hur många sängar?
-pris per vecka? husdjur? hur boka?* Your job: turn each tip into a question. It's a new ad, not the course.
+**Correction (2026-11-27):** I first wrote that you never see ad B. That was wrong. In the official sample you **see
+ad B** (4 photos + text) **plus a box with tips**: *var? hur många sängar? pris per vecka? husdjur? hur boka?* You ask
+the examiner as a role-play, even though the answers are on the page. Your job: turn each tip into a question.
+It's a new ad, not the course. (In this voice mock the AI hid ad B – harder than the real test.)
 Ready-made questions (learn as chunks):
 - *Var ligger stugan?* · *Hur många sängar finns det?* · *Vad kostar den per vecka?*
 - *Får man ta med husdjur?* · *Hur bokar man?* · *Finns det wifi?* · *Ingår båten?*

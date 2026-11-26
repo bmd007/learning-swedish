@@ -9,8 +9,9 @@ speak. One prompt = one full mock speaking test (~15 min).
 - **Del 1 – Presentation (~3 min):** present yourself, then talk about yourself and your everyday life.
 - **Del 2 – Ask each other about an ad (~8 min):**
   - You get **ad A**. 30 seconds to read. The examiner asks you questions about it.
-  - Then you swap. The examiner has **ad B**. *You* ask questions. You get a box with tips
-    (short words like *pris? var? när?*), and you can ask your own questions too.
+  - Then you swap: you get **ad B** (photos + text, you can see it) and a box with tips (short words like
+    *pris? var? när?*). *You* ask the examiner questions about it as a role-play; own questions are fine too.
+  - Both ads have 4 photos. Del 3 is a page of 6–8 photos on one theme (sample: seasons).
 - **Del 3 – Talk about a topic (~4 min):** say what you think and maybe tell a short story.
 - Graded on: production/interaction, communicative form, vocabulary, correctness, pronunciation.
 
@@ -26,8 +27,8 @@ speak. One prompt = one full mock speaking test (~15 min).
 
 ## How to use
 
-1. Read **ad A** in this file for 30 seconds (like the real test). **Don't read ad B** – that's the examiner's.
-   (It's inside the prompt; scroll past it when you copy.)
+1. Read **ad A** in this file for 30 seconds (like the real test). In the real test you also see ad B, but here the
+   AI keeps it hidden so you must really ask – harder than the exam, good training. (Scroll past it when you copy.)
 2. Copy the whole prompt block. Paste it. Say "Hej!" to start.
 3. Speak, don't type. Full sentences. If you don't understand: *"Förlåt, kan du upprepa?"*
 4. At the end you get feedback. Send me the feedback (screenshot or text) → I add it to your learner model.
@@ -74,7 +75,7 @@ www.matglad.se"
 Step 2: Now you have ad B. I must ask YOU questions about it. Tell me: "Nu har jag en annons. Du ska fråga mig om
 den. Tips: var? hur många sängar? pris per vecka? husdjur? hur boka?" Answer only what I ask, in short natural
 answers. Do not give information I didn't ask for. If I only ask 2–3 questions, say "Vill du veta något mer?".
-AD B (secret, only you see it): "Hyr vår stuga i Dalarna! Röd stuga vid sjön Siljan, 3 km till Rättvik.
+AD B (only you see it in this practice): "Hyr vår stuga i Dalarna! Röd stuga vid sjön Siljan, 3 km till Rättvik.
 2 sovrum, 5 sängar, kök, dusch och bastu. Egen båt ingår. Pris: 6 500 kr/vecka (juni–augusti), 4 000 kr/vecka
 resten av året. Husdjur välkomna (+300 kr). Ingen wifi. Ring Karin: 070-412 88 30 (efter kl. 17)."
 
@@ -131,7 +132,7 @@ eller på hälsohuset.se"
 Step 2: Now you have ad B. I must ask YOU questions. Tell me: "Nu har jag en annons. Du ska fråga mig om den.
 Tips: vad säljs? färg? hur gammal? pris? hämta när?" Answer only what I ask, short and natural, like the seller.
 If I only ask 2–3 questions, say "Vill du veta något mer?". If I try to bargain, react like a real seller.
-AD B (secret, only you see it): "Säljes: grå soffa från IKEA, 3-sits, 4 år gammal. Mycket bra skick, inga
+AD B (only you see it in this practice): "Säljes: grå soffa från IKEA, 3-sits, 4 år gammal. Mycket bra skick, inga
 husdjur, ingen rökare. Klädseln kan tvättas i maskin. Nypris 7 000 kr – nu 1 500 kr. Måste hämtas, vi bor på
 tredje våningen utan hiss, i Majorna, Göteborg. Kan hämtas lördag eller söndag. Swish eller kontant. Sms:a Ali:
 073-205 61 19."
@@ -189,7 +190,7 @@ bussen. Glöm inte pass eller id-kort! Boka: Västresor, 031-15 40 00"
 Step 2: Now you have ad B. I must ask YOU questions. Tell me: "Nu har jag en annons. Du ska fråga mig om den.
 Tips: för vem? när? hur många gånger? pris? anmälan?" Answer only what I ask, short and natural, like the person
 at the swimming hall. If I only ask 2–3 questions, say "Vill du veta något mer?".
-AD B (secret, only you see it): "Simskola för vuxna – det är aldrig för sent! För dig som inte kan simma eller
+AD B (only you see it in this practice): "Simskola för vuxna – det är aldrig för sent! För dig som inte kan simma eller
 är osäker i vattnet. Små grupper, max 6 personer. Separata grupper för kvinnor (kvinnlig lärare). Onsdagar
 19.00–19.45, 8 gånger, start 21 januari, i Valhallabadet. Pris: 900 kr (entré ingår). Anmälan på telefon
 031-368 20 00 eller i kassan senast 14 januari."
