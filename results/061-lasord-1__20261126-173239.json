@@ -1,0 +1,203 @@
+{
+  "lessonId": "061-lasord-1",
+  "attemptId": "2026-11-26T16-26-48-287Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-26T16:26:49.322Z",
+  "finishedAt": "2026-11-26T16:32:39.237Z",
+  "durationMin": 6,
+  "currentSection": null,
+  "sectionMinutes": {
+    "kort": 1.9,
+    "para": 1.2,
+    "janej": 0.8,
+    "skriv": 1.9
+  },
+  "audioPlays": {},
+  "firstTry": {
+    "s1": true,
+    "s2": true,
+    "s3": true,
+    "s4": false,
+    "s5": true,
+    "s6": true,
+    "j1": true,
+    "j2": true,
+    "j3": true,
+    "g1": false,
+    "g2": false,
+    "g3": true
+  },
+  "flags": [],
+  "score": {
+    "para": {
+      "correct": 6,
+      "total": 6
+    },
+    "janej": {
+      "correct": 3,
+      "total": 3
+    },
+    "skriv": {
+      "correct": 3,
+      "total": 3
+    }
+  },
+  "items": [
+    {
+      "id": "s1",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "erbjuda",
+      "given": "ge någon chansen att få eller köpa något",
+      "expected": "ge någon chansen att få eller köpa något",
+      "correct": true
+    },
+    {
+      "id": "s2",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "förmögenhet",
+      "given": "mycket pengar och saker som man äger",
+      "expected": "mycket pengar och saker som man äger",
+      "correct": true
+    },
+    {
+      "id": "s3",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "minska",
+      "given": "bli mindre",
+      "expected": "bli mindre",
+      "correct": true
+    },
+    {
+      "id": "s4",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "tillräcklig",
+      "given": "så mycket som man behöver",
+      "expected": "så mycket som man behöver",
+      "correct": true
+    },
+    {
+      "id": "s5",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "möjlighet",
+      "given": "en chans att göra något",
+      "expected": "en chans att göra något",
+      "correct": true
+    },
+    {
+      "id": "s6",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "ansvara för",
+      "given": "ha ansvaret för något",
+      "expected": "ha ansvaret för något",
+      "correct": true
+    },
+    {
+      "id": "j1",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "Text: \"Familjen Lind har en stor förmögenhet. De äger flera hus och många aktier.\"\nStämmer det? \"Familjen Lind har mycket pengar.\"",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "j2",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "Text: \"Biblioteket erbjuder gratis kurser i svenska för alla som bor i området.\"\nStämmer det? \"Man måste betala för kurserna.\"",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "j3",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "Text: \"Enligt uppgifter från kommunen bor 5 000 personer i staden.\"\nStämmer det? \"Kommunen har information om hur många som bor i staden.\"",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "g1",
+      "section": "skriv",
+      "type": "gap",
+      "tags": [
+        "läs.ord"
+      ],
+      "prompt": "Hotellet ___ gratis frukost till alla gäster.",
+      "given": "erbjuder",
+      "expected": "erbjuder",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "skriv",
+      "type": "gap",
+      "tags": [
+        "läs.ord"
+      ],
+      "prompt": "Det snöade så mycket att bilen helt ___ under snön.",
+      "given": "försvann",
+      "expected": "försvann",
+      "correct": true
+    },
+    {
+      "id": "g3",
+      "section": "skriv",
+      "type": "gap",
+      "tags": [
+        "läs.ord"
+      ],
+      "prompt": "Bensinpriset har ___ de senaste åren. Nu betalar vi mer.",
+      "given": "ökat",
+      "expected": "ökat",
+      "correct": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-26T17:32:39"
+}

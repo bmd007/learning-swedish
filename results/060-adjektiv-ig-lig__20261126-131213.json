@@ -1,0 +1,257 @@
+{
+  "lessonId": "060-adjektiv-ig-lig",
+  "attemptId": "2026-11-26T11-23-21-365Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-26T11:23:22.332Z",
+  "finishedAt": "2026-11-26T12:12:13.198Z",
+  "durationMin": 49,
+  "currentSection": null,
+  "sectionMinutes": {
+    "monster": 2.6,
+    "ord": 7,
+    "hor": 3.6,
+    "tala": 2
+  },
+  "audioPlays": {
+    "a1": 2
+  },
+  "firstTry": {
+    "m1": true,
+    "m2": true,
+    "m3": false,
+    "m4": true,
+    "g1": true,
+    "g3": false,
+    "o2": false,
+    "h1": true,
+    "h2": true,
+    "h3": false,
+    "h4": true
+  },
+  "flags": [],
+  "score": {
+    "ord": {
+      "correct": 9,
+      "total": 12
+    },
+    "hor": {
+      "correct": 4,
+      "total": 4
+    }
+  },
+  "items": [
+    {
+      "id": "m1",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.adjektiv"
+      ],
+      "prompt": "Jag är ledig i morgon. Vad betyder det?",
+      "given": "Jag behöver inte jobba i morgon.",
+      "expected": "Jag behöver inte jobba i morgon.",
+      "correct": true
+    },
+    {
+      "id": "m2",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.adjektiv"
+      ],
+      "prompt": "Skylten är nästan osynlig. Vad betyder det?",
+      "given": "Man kan knappt se den.",
+      "expected": "Man kan knappt se den.",
+      "correct": true
+    },
+    {
+      "id": "m3",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.adjektiv"
+      ],
+      "prompt": "Det är otroligt! Vad betyder det?",
+      "given": "Det är svårt att tro.",
+      "expected": "Det är svårt att tro.",
+      "correct": true
+    },
+    {
+      "id": "m4",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ord.adjektiv"
+      ],
+      "prompt": "Biljetten är giltig i en månad. Vad betyder det?",
+      "given": "Man kan använda den i en månad.",
+      "expected": "Man kan använda den i en månad.",
+      "correct": true
+    },
+    {
+      "id": "g1",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "adjektiv.form"
+      ],
+      "prompt": "Det är ___ att ha pass när man reser utomlands.",
+      "given": "nödvändigt",
+      "expected": "nödvändigt",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "adjektiv.form"
+      ],
+      "prompt": "Barnen är ___ efter skolan. De vill ha mellanmål.",
+      "given": "hungrig",
+      "expected": "hungriga",
+      "correct": false
+    },
+    {
+      "id": "g3",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "adjektiv.form"
+      ],
+      "prompt": "Var ___, barn! Det är mycket trafik här.",
+      "given": "försiktig",
+      "expected": "försiktiga",
+      "correct": false
+    },
+    {
+      "id": "g4",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "adjektiv.form"
+      ],
+      "prompt": "Kortet är ___ till och med maj.",
+      "given": "giltigt",
+      "expected": "giltigt",
+      "correct": true
+    },
+    {
+      "id": "g5",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "adjektiv.form"
+      ],
+      "prompt": "Det är ett ___ nummer. Bara jag vet det.",
+      "given": "hemligt",
+      "expected": "hemligt",
+      "correct": true
+    },
+    {
+      "id": "g6",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "adjektiv.form"
+      ],
+      "prompt": "Hon är en ___ människa. Hon säger alltid sanningen.",
+      "given": "ärlig",
+      "expected": "ärlig",
+      "correct": true
+    },
+    {
+      "id": "o1",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "adjektiv.form"
+      ],
+      "prompt": "Det är ___ att komma till Malmö på tio minuter. Det är för långt.",
+      "given": "möjligt",
+      "expected": "omöjligt",
+      "correct": false
+    },
+    {
+      "id": "o2",
+      "section": "ord",
+      "type": "gap",
+      "tags": [
+        "adjektiv.form"
+      ],
+      "prompt": "Det här ordet är ___. Jag har aldrig hört det förut.",
+      "given": "ovanligt",
+      "expected": "ovanligt",
+      "correct": true
+    },
+    {
+      "id": "h1",
+      "section": "hor",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Varför måste Martin vara hemma klockan sex?",
+      "given": "Hans syster kommer på middag.",
+      "expected": "Hans syster kommer på middag.",
+      "correct": true
+    },
+    {
+      "id": "h2",
+      "section": "hor",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj",
+        "hör.uttal"
+      ],
+      "prompt": "Vad gäller för biljetterna?",
+      "given": "De är bara giltiga på ett visst tåg.",
+      "expected": "De är bara giltiga på ett visst tåg.",
+      "correct": true
+    },
+    {
+      "id": "h3",
+      "section": "hor",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad ska Karin göra till resan?",
+      "given": "Göra smörgåsar om hon hinner.",
+      "expected": "Göra smörgåsar om hon hinner.",
+      "correct": true
+    },
+    {
+      "id": "h4",
+      "section": "hor",
+      "type": "mcq",
+      "tags": [
+        "hör.uttal"
+      ],
+      "prompt": "Martin säger något som låter som \"rolit\". Hur stavar man det?",
+      "given": "roligt",
+      "expected": "roligt",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "tala",
+      "type": "speak",
+      "tags": [
+        "tal.berätta",
+        "ord.adjektiv"
+      ],
+      "prompt": "Berätta om en person du känner. Använd minst tre av orden: vänlig, ärlig, ledig, hungrig, försiktig, ovanlig.",
+      "given": {
+        "recording": "060-adjektiv-ig-lig__s1__20261126-123935.webm",
+        "transcript": "Jag tycker jag pratar om min vän som heter Martin  är är en  ärlig  en person  också hon är  alltid hungrig  han han er alltid hungrig  Han är bara ledig på fredagen når fredagen  når vi  fridager nå når vi spiller volleyboll tillsammans  hun ibland  göra någon  ovanlig Norway  volleyball når spiller vi Oliver  volleyball",
+        "seconds": 150
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-26T13:12:13"
+}

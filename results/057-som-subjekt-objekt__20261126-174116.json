@@ -1,0 +1,220 @@
+{
+  "lessonId": "057-som-subjekt-objekt",
+  "attemptId": "2026-11-26T16-32-53-957Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-26T16:32:55.854Z",
+  "finishedAt": "2026-11-26T16:41:16.436Z",
+  "durationMin": 8,
+  "currentSection": null,
+  "sectionMinutes": {
+    "kort": 0.7,
+    "val": 1.1,
+    "skriv": 6.2
+  },
+  "audioPlays": {},
+  "firstTry": {
+    "m1": true,
+    "m2": true,
+    "m3": true,
+    "o1": true,
+    "o2": true,
+    "o3": false,
+    "g1": false,
+    "g2": false,
+    "s1": true,
+    "s2": true,
+    "s3": true,
+    "s4": true,
+    "s5": false
+  },
+  "flags": [],
+  "score": {
+    "val": {
+      "correct": 3,
+      "total": 3
+    },
+    "skriv": {
+      "correct": 10,
+      "total": 10
+    }
+  },
+  "items": [
+    {
+      "id": "m1",
+      "section": "val",
+      "type": "mcq",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Vilken mening är rätt?",
+      "given": "Jag hade en intervju som började klockan åtta.",
+      "expected": "Jag hade en intervju som började klockan åtta.",
+      "correct": true
+    },
+    {
+      "id": "m2",
+      "section": "val",
+      "type": "mcq",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "I *en film som jag såg* – vem gör verbet *såg*?",
+      "given": "jag",
+      "expected": "jag",
+      "correct": true
+    },
+    {
+      "id": "m3",
+      "section": "val",
+      "type": "mcq",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Vilken mening är rätt?",
+      "given": "Filmen som jag såg var bra.",
+      "expected": "Filmen som jag såg var bra.",
+      "correct": true
+    },
+    {
+      "id": "o1",
+      "section": "skriv",
+      "type": "order",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Sätt orden i rätt ordning.",
+      "given": "Jag hade en jobbintervju som började klockan åtta",
+      "expected": "Jag hade en jobbintervju som började klockan åtta",
+      "correct": true
+    },
+    {
+      "id": "o2",
+      "section": "skriv",
+      "type": "order",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Sätt orden i rätt ordning.",
+      "given": "Jag bor i en lägenhet som ligger nära centrum",
+      "expected": "Jag bor i en lägenhet som ligger nära centrum",
+      "correct": true
+    },
+    {
+      "id": "o3",
+      "section": "skriv",
+      "type": "order",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Sätt orden i rätt ordning.",
+      "given": "Det är en film som jag inte gillade",
+      "expected": "Det är en film som jag inte gillade",
+      "correct": true
+    },
+    {
+      "id": "g1",
+      "section": "skriv",
+      "type": "gap",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Det är en bok som Sara ___ mig i present.",
+      "given": "gav",
+      "expected": "gav",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "skriv",
+      "type": "gap",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Jag har en granne som alltid ___ mig.",
+      "given": "hjälper",
+      "expected": "hjälper",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "skriv",
+      "type": "short",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Rätta meningen: *Jag såg en film som den var bra.*",
+      "given": "Jag såg en film som var bra",
+      "expected": "film som var bra",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "s2",
+      "section": "skriv",
+      "type": "short",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Slå ihop: *Jag har en granne. Grannen hjälper mig alltid.*",
+      "given": "Jag har en granne som alltid hjälper mig ",
+      "expected": "granne som alltid hjälper mig",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "s3",
+      "section": "skriv",
+      "type": "short",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Slå ihop: *Jag söker en lägenhet. Lägenheten har två rum.*",
+      "given": "Jag söker en lägenhet som har två rum",
+      "expected": "lägenhet som har två rum",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "s4",
+      "section": "skriv",
+      "type": "short",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Slå ihop: *Det är en kurs. Jag gillar kursen mycket.*",
+      "given": "Det är en kurs som jag gillar mycket",
+      "expected": "kurs som jag gillar",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "s5",
+      "section": "skriv",
+      "type": "short",
+      "tags": [
+        "ordföljd.bisats",
+        "bisats.som"
+      ],
+      "prompt": "Slå ihop: *Det är ett tåg. Tåget går inte på söndagar.*",
+      "given": "det är ett tåg som inte går på söndagar",
+      "expected": "tåg som inte går",
+      "correct": true,
+      "teacherCheck": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-26T17:41:16"
+}

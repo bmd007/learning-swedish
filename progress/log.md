@@ -406,3 +406,11 @@
 
 - Very short (5 min): card + SVG (huvudsats: adverb after verb; bisats: before verb; när-clause first = inversion), 4 order (learner's volleyball sentence both ways), 4 mcq, 3 short (place ibland/inte/alltid). Tags ordföljd.adverb/bisats/inversion.
 - **Next step:** unchanged.
+
+## 2026-11-26 – Graded class mail (SFI D) + 057, 061; 060 resubmitted
+
+- SFI D class writing (mail to kommunen, handwritten): pass (G). Good structure, two arguments + solution, inversion right.
+  Big three now: present -r / infinitive after modal, "är att", plural forms. Feedback: feedback/sfi-d-klass-mejl-kommun__20261126.md.
+- 057 som: 13/13 (first try 9/13). 061 läsord 1: 12/12 (first try 9/12). 060 submitted again from the leftover draft (same answers).
+- Learner starred 060 g3 (Var försiktiga, barn!) in Mina kort.
+- **Next step:** 058 mock listening. A 5-min "verb -r or not" drill (presens vs infinitive after modal) would hit the #1 pattern.

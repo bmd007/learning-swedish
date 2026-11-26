@@ -68,3 +68,6 @@ Format: `tag` – count wrong / count seen – examples (lesson id)
 - `adjektiv.plural` (060) – after är with plural subject: *Barnen är hungrig* (hungriga), *Var försiktig, barn!* (försiktiga). Persian/English don't inflect → skipped.
 - `läs.slutsats` (060 o1) – *möjligt* where next sentence says "för långt" (omöjligt).
 - `verb.presens` (060 speak) – *när vi spela* (spelar); *ibland göra någon ovanlig* (gör han något ovanligt).
+- `verb.presens` (SFI D class mail 2026-11-26) – *Ofta köra jag* (kör), *se jag* (ser), *om staden gräva* (gräver), *måste åker* (åka). Now the #1 grammar pattern (also 060 speak).
+- `ordföljd.är-att` (class mail) – *En nackdel är det blir…*, *är bilerna måste…* (är att), *svårare för ambulanserna åkar* (att komma fram). Repeats 042.
+- `substantiv.plural` (class mail) – *ny hål* (nya hål), *bilerna* (bilarna), *många konstruktionen* (många vägarbeten). `ord.val` *konstruktion* (vägarbete), *miljövän* (miljövänligt).

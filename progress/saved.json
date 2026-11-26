@@ -4,5 +4,11 @@
     "itemId": "i1",
     "kind": "card",
     "savedAt": "2026-11-24T20:20:28"
+  },
+  {
+    "lessonId": "060-adjektiv-ig-lig",
+    "itemId": "g3",
+    "kind": "question",
+    "savedAt": "2026-11-26T12:30:59"
   }
 ]
