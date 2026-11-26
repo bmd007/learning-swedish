@@ -303,10 +303,32 @@ async function openCards() {
 }
 
 async function openFeedback(id) {
-  const res = await fetch(`/api/feedback/${id}`);
+  const [res, lesson, result] = await Promise.all([
+    fetch(`/api/feedback/${id}`),
+    fetch(`/api/lessons/${id}`).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(`/api/results/${id}`).then(r => r.ok ? r.json() : null).catch(() => null),
+  ]);
   const text = res.ok ? await res.text() : "Ingen feedback än.";
-  app.innerHTML = `<a class="back" href="#/">← Startsidan</a><div class="card md feedback">${md(text)}</div>
+  app.innerHTML = `<a class="back" href="#/">← Startsidan</a><div id="fbAudio"></div><div class="card md feedback">${md(text)}</div>
     <a class="btn secondary" href="#/">← Tillbaka</a>`;
+  const speakItems = [];
+  for (const s of lesson?.sections ?? [])
+    for (const p of s.parts ?? [s])
+      for (const it of p.items ?? []) if (it.type === "speak") speakItems.push(it);
+  if (!speakItems.length) return;
+  const box = h(`<div class="card fb-audio"><h2>Lyssna igen</h2>${en("Hear the question again, and your own answer.")}</div>`);
+  for (const it of speakItems) {
+    const given = result?.items?.find(g => g.id === it.id)?.given;
+    const row = h(`<div class="fb-row"><div class="q">${esc(it.q ?? "")}</div></div>`);
+    if (it.audio) {
+      const b = h(`<button class="btn secondary sm" type="button">▶ Hör frågan</button>`);
+      b.onclick = async () => { b.disabled = true; b.textContent = "🔊 Spelar…"; await playAudio(id, it.audio); b.disabled = false; b.textContent = "▶ Hör frågan"; };
+      row.append(b);
+    }
+    if (given?.recording) row.append(h(`<div class="fb-own"><span class="muted small">Ditt svar:</span><audio controls preload="none" src="/recordings/${esc(given.recording)}"></audio></div>`));
+    box.append(row);
+  }
+  app.querySelector("#fbAudio").append(box);
 }
 
 async function openGuide() {

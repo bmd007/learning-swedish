@@ -292,3 +292,9 @@ mark.hl { background: #ffe066; color: #1f2328; border-radius: 2px; padding: 0 1p
 .note-opts { margin: 8px 0; }
 .cards-lesson { font-size: 17px; margin: 26px 0 6px; }
 .reveal { margin-top: 10px; }
+.fb-audio { margin-bottom: 16px; }
+.fb-audio h2 { margin: 0 0 4px; font-size: 18px; }
+.fb-row { border-top: 1px solid var(--line); padding: 12px 0; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.fb-row .q { flex: 1 1 100%; }
+.fb-own { display: flex; gap: 8px; align-items: center; flex: 1 1 300px; }
+.fb-own audio { width: 100%; max-width: 420px; }

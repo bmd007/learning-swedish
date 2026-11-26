@@ -200,3 +200,10 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 - Learner: focusing on past issues must not change the exam style; errors from reading/writing don't apply to listening.
   → Mock exams copy the official sample (task shapes, question mix, difficulty, audio). Targeting only from errors in the
   same skill, at the exam's natural trap rate. Drills belong in practice lessons.
+
+## 2026-11-27 – Speaking test: what's on paper
+- Official A2B1 muntligt (deltagarmaterial): Del 1 presentation – no paper. Del 2 – ad A on paper (30 s to read), then
+  a tips box (question words) for ad B. Del 3 – page C = **8 photos** (seasons: autumn leaves, spring flowers, swimming,
+  hiking, snow-clearing, skiing, beach cycling) → talk about the topic (årstider), say what you think, tell something.
+  No preparation time, no notes ("inga hjälpmedel"). All three parts are speaking only.
+- → Del 3 practice must use a picture page, not only a written question. Feedback page now replays the question + own recording.

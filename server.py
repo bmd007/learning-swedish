@@ -265,13 +265,19 @@ class Handler(SimpleHTTPRequestHandler):
             if not files:
                 return self.send_json({"error": "not found"}, 404)
             return self.send_text(files[-1].read_text(encoding="utf-8"), "application/json; charset=utf-8")
+        m = re.fullmatch(r"/api/results/([A-Za-z0-9_.-]+)", p)
+        if m:
+            files = sorted(RESULTS.glob(f"{m.group(1)}__*.json"))
+            if not files:
+                return self.send_json({"error": "not found"}, 404)
+            return self.send_text(files[-1].read_text(encoding="utf-8"), "application/json; charset=utf-8")
         m = re.fullmatch(r"/api/feedback/([A-Za-z0-9_.-]+)", p)
         if m:
             files = sorted(FEEDBACK.glob(f"{m.group(1)}__*.md"))
             if not files:
                 return self.send_json({"error": "not found"}, 404)
             return self.send_text(files[-1].read_text(encoding="utf-8"))
-        if p.startswith(("/web/", "/audio/", "/uploads/", "/images/", "/reading/")):
+        if p.startswith(("/web/", "/audio/", "/uploads/", "/images/", "/reading/", "/recordings/")):
             return super().do_GET()
         if p.startswith("/materials/") and p.endswith((".m4a", ".mp3", ".wav", ".png", ".jpg", ".webp", ".mp4", ".webm")) and ".." not in p:
             return super().do_GET()

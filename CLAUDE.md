@@ -41,6 +41,8 @@ Repo: https://github.com/bmd007/learning-swedish (branch `main`).
   - `GET /api/draft/<lessonId>` → latest draft; the app resumes from it if newer than localStorage
   - `POST /api/results` → `results/<lessonId>__<stamp>.json` (final; removes the draft)
   - `POST /api/recording?name=..&ext=..` → `recordings/` (gitignored, private)
+  - `GET /api/results/<lessonId>` (latest final result), `/recordings/<file>` served locally (feedback page plays the
+    question audio + the learner's own recording for `speak` items).
   - `GET /api/cards` (all `info` cards of all lessons), `GET /api/saved` + `POST /api/saved {lessonId,itemId,kind,on}` →
     `progress/saved.json`: cards/questions the learner starred (☆) for review. Page `#/kort` "Mina kort". Use the saved
     questions when building review lessons.
