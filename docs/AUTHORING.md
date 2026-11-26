@@ -265,7 +265,8 @@ the app shows A2/B1 only when those keys exist).
 
 1. **Short and focused:** 10–15 minutes (a narrow skill drill like numbers or one word: **5–8 min**, ~8–10 items), **one topic per lesson** (one verb family, one rule, one
    exam task). About 10–16 items. If a word question touches two topics, make two lessons.
-1c. **Speaking time:** `maxSeconds` = at least 120, and 60 + 30 per bullet (5 bullets → 210). The learner
+1c. **Speaking time:** `maxSeconds` = at least 120, and 60 + 30 per bullet (5 bullets → 210). Exception: Del 1
+   questions (short everyday answers) use 45–90 s each. The learner
    likes to add extra sentences – never cut them off.
 1b. **Media in every lesson:** images (see Images) and, where it fits, a short audio dialogue.
 2. **Target the data:** read `progress/tag-stats.md` + the latest feedback. ~70% of items on the weakest
