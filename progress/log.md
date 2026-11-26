@@ -414,3 +414,8 @@
 - 057 som: 13/13 (first try 9/13). 061 läsord 1: 12/12 (first try 9/12). 060 submitted again from the leftover draft (same answers).
 - Learner starred 060 g3 (Var försiktiga, barn!) in Mina kort.
 - **Next step:** 058 mock listening. A 5-min "verb -r or not" drill (presens vs infinitive after modal) would hit the #1 pattern.
+
+## 2026-11-26 (evening) – Graded 064 (11/11), 063 (14/14), 062 (12/12), 033 speak
+
+- First try: 064 8/11, 063 12/14, 062 9/12. 033 listening 4/4; Nu du A2+ (3 reasons, missing other side + question back; fler vs mer, så + inte).
+- **Next step:** 058 mock listening. Speaking: always add "å andra sidan…" + "Vad tycker du?" (B1 interaction). Optional 5-min verb -r drill.

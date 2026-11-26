@@ -1,0 +1,177 @@
+{
+  "lessonId": "064-ibland-inte-placering",
+  "attemptId": "2026-11-26T19-54-26-759Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-26T19:54:27.956Z",
+  "finishedAt": "2026-11-26T20:02:34.093Z",
+  "durationMin": 8,
+  "currentSection": null,
+  "sectionMinutes": {
+    "ord": 8.1
+  },
+  "audioPlays": {},
+  "firstTry": {
+    "o1": false,
+    "o2": true,
+    "o3": false,
+    "o4": true,
+    "m1": true,
+    "m2": true,
+    "m3": false,
+    "m4": true,
+    "s1": true,
+    "s2": true,
+    "s3": true
+  },
+  "flags": [],
+  "score": {
+    "ord": {
+      "correct": 11,
+      "total": 11
+    }
+  },
+  "items": [
+    {
+      "id": "o1",
+      "section": "ord",
+      "type": "order",
+      "tags": [
+        "ordföljd.adverb",
+        "ordföljd.bisats"
+      ],
+      "prompt": "Ditt eget exempel. Börja med Han.",
+      "given": "Han gör ibland något ovanligt när vi spelar volleyboll",
+      "expected": "Han gör ibland något ovanligt när vi spelar volleyboll",
+      "correct": true
+    },
+    {
+      "id": "o2",
+      "section": "ord",
+      "type": "order",
+      "tags": [
+        "ordföljd.inversion"
+      ],
+      "prompt": "Samma mening. Börja med När.",
+      "given": "När vi spelar volleyboll gör han ibland något ovanligt",
+      "expected": "När vi spelar volleyboll gör han ibland något ovanligt",
+      "correct": true
+    },
+    {
+      "id": "o3",
+      "section": "ord",
+      "type": "order",
+      "tags": [
+        "ordföljd.adverb",
+        "ordföljd.bisats"
+      ],
+      "prompt": "Bygg meningen.",
+      "given": "Vi går ofta ut när det inte regnar",
+      "expected": "Vi går ofta ut när det inte regnar",
+      "correct": true
+    },
+    {
+      "id": "o4",
+      "section": "ord",
+      "type": "order",
+      "tags": [
+        "ordföljd.bisats",
+        "ordföljd.adverb"
+      ],
+      "prompt": "Bygg meningen.",
+      "given": "Jag vet att hon aldrig äter kött",
+      "expected": "Jag vet att hon aldrig äter kött",
+      "correct": true
+    },
+    {
+      "id": "m1",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordföljd.adverb"
+      ],
+      "prompt": "Vilken mening är rätt?",
+      "given": "Han spelar ibland fotboll.",
+      "expected": "Han spelar ibland fotboll.",
+      "correct": true
+    },
+    {
+      "id": "m2",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordföljd.adverb"
+      ],
+      "prompt": "Vilken mening är rätt?",
+      "given": "Hon är alltid trött.",
+      "expected": "Hon är alltid trött.",
+      "correct": true
+    },
+    {
+      "id": "m3",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordföljd.bisats"
+      ],
+      "prompt": "Vilken mening är rätt?",
+      "given": "Jag tror att han ofta är sjuk.",
+      "expected": "Jag tror att han ofta är sjuk.",
+      "correct": true
+    },
+    {
+      "id": "m4",
+      "section": "ord",
+      "type": "mcq",
+      "tags": [
+        "ordföljd.inversion"
+      ],
+      "prompt": "Vilken mening är rätt?",
+      "given": "När jag kommer hem äter jag middag.",
+      "expected": "När jag kommer hem äter jag middag.",
+      "correct": true
+    },
+    {
+      "id": "s1",
+      "section": "ord",
+      "type": "short",
+      "tags": [
+        "ordföljd.adverb"
+      ],
+      "prompt": "Sätt in ibland: Hon äter fisk. Skriv hela meningen.",
+      "given": "hon äter ibland fisk",
+      "expected": "äter ibland fisk",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "s2",
+      "section": "ord",
+      "type": "short",
+      "tags": [
+        "ordföljd.adverb"
+      ],
+      "prompt": "Sätt in inte: Vi kan komma i morgon. Skriv hela meningen.",
+      "given": "Vi kan inte komma i morgon",
+      "expected": "kan inte komma",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "s3",
+      "section": "ord",
+      "type": "short",
+      "tags": [
+        "ordföljd.bisats",
+        "ordföljd.adverb"
+      ],
+      "prompt": "Sätt in alltid i bisatsen: Jag blir glad när hon kommer. Skriv hela meningen.",
+      "given": "Jag blir glad när hon alltid kommer",
+      "expected": "hon alltid kommer",
+      "correct": true,
+      "teacherCheck": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-26T21:02:34"
+}

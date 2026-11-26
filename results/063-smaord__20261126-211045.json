@@ -1,0 +1,224 @@
+{
+  "lessonId": "063-smaord",
+  "attemptId": "2026-11-26T20-02-41-970Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-26T20:02:42.929Z",
+  "finishedAt": "2026-11-26T20:10:45.936Z",
+  "durationMin": 8,
+  "currentSection": null,
+  "sectionMinutes": {
+    "kort": 2.4,
+    "janej": 5.7
+  },
+  "audioPlays": {},
+  "firstTry": {
+    "j1": true,
+    "j2": false,
+    "j3": true,
+    "j4": true,
+    "j5": true,
+    "j6": false,
+    "j7": true,
+    "j8": true,
+    "j9": true,
+    "j10": true,
+    "j11": true,
+    "j12": true,
+    "j13": true,
+    "j14": true
+  },
+  "flags": [],
+  "score": {
+    "janej": {
+      "correct": 14,
+      "total": 14
+    }
+  },
+  "items": [
+    {
+      "id": "j1",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"I klassen finns några elever från Iran.\"\nStämmer det? \"Det finns inga elever från Iran i klassen.\"",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "j2",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Jag har inga syskon.\"\nStämmer det? \"Jag är enda barnet.\"",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "j3",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Banken öppnar först klockan tio.\"\nStämmer det? \"Banken är stängd före klockan tio.\"",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "j4",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Filmen börjar inte förrän klockan åtta.\"\nStämmer det? \"Filmen börjar klockan sju.\"",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "j5",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Kursen hålls vart tredje år. Den senaste var 2022.\"\nStämmer det? \"Nästa kurs är 2025.\"",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "j6",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"I vår förening är var tredje medlem pensionär.\"\nStämmer det? \"En tredjedel av medlemmarna är pensionärer.\"",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "j7",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Knappt hälften av eleverna klarade provet.\"\nStämmer det? \"Mer än hälften klarade provet.\"",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "j8",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Biljetten kostar minst 200 kronor.\"\nStämmer det? \"Biljetten kan kosta 150 kronor.\"",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "j9",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Jag har varken bil eller cykel.\"\nStämmer det? \"Jag har cykel men inte bil.\"",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "j10",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Jag har inte ätit ännu.\"\nStämmer det? \"Jag ska äta senare.\"",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "j11",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Det finns inte några lediga rum.\"\nStämmer det? \"Alla rum är upptagna.\"",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "j12",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Klockan är nästan tolv.\"\nStämmer det? \"Klockan är över tolv.\"",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "j13",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Var femte svensk tränar på gym varje vecka.\"\nStämmer det? \"Ungefär 20 procent av svenskarna tränar på gym varje vecka.\"",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "j14",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "ord.småord"
+      ],
+      "prompt": "Text: \"Bussen går var tionde minut.\"\nStämmer det? \"Bussen går sex gånger i timmen.\"",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-26T21:10:45"
+}

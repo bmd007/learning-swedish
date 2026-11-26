@@ -1,0 +1,203 @@
+{
+  "lessonId": "062-lasord-2",
+  "attemptId": "2026-11-26T20-10-53-329Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-26T20:10:54.819Z",
+  "finishedAt": "2026-11-26T20:23:25.280Z",
+  "durationMin": 13,
+  "currentSection": null,
+  "sectionMinutes": {
+    "kort": 5.5,
+    "para": 2.1,
+    "janej": 3.7,
+    "skriv": 1.2
+  },
+  "audioPlays": {},
+  "firstTry": {
+    "s1": true,
+    "s2": true,
+    "s3": true,
+    "s4": true,
+    "s5": false,
+    "s6": true,
+    "j1": true,
+    "j2": true,
+    "j3": true,
+    "g1": false,
+    "g2": false,
+    "g3": true
+  },
+  "flags": [],
+  "score": {
+    "para": {
+      "correct": 6,
+      "total": 6
+    },
+    "janej": {
+      "correct": 3,
+      "total": 3
+    },
+    "skriv": {
+      "correct": 3,
+      "total": 3
+    }
+  },
+  "items": [
+    {
+      "id": "s1",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "förbjuda",
+      "given": "säga att man inte får göra något",
+      "expected": "säga att man inte får göra något",
+      "correct": true
+    },
+    {
+      "id": "s2",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "delta i",
+      "given": "vara med",
+      "expected": "vara med",
+      "correct": true
+    },
+    {
+      "id": "s3",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "innebära",
+      "given": "betyda, få som följd",
+      "expected": "betyda, få som följd",
+      "correct": true
+    },
+    {
+      "id": "s4",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "kräva",
+      "given": "säga att man måste göra något",
+      "expected": "säga att man måste göra något",
+      "correct": true
+    },
+    {
+      "id": "s5",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "ersätta",
+      "given": "sätta något nytt på samma plats",
+      "expected": "sätta något nytt på samma plats",
+      "correct": true
+    },
+    {
+      "id": "s6",
+      "section": "para",
+      "type": "select",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "skillnad",
+      "given": "det som är olika",
+      "expected": "det som är olika",
+      "correct": true
+    },
+    {
+      "id": "j1",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "Text: \"Enligt en ny undersökning tränar hälften av svenskarna minst en gång i veckan. Man har frågat 2 000 personer.\"\nStämmer det? \"Undersökningen bygger på frågor till många människor.\"",
+      "given": "Ja",
+      "expected": "Ja",
+      "correct": true
+    },
+    {
+      "id": "j2",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "Text: \"Tidigare kostade biljetten 30 kronor. Nu kostar den 40.\"\nStämmer det? \"Biljetten är billigare nu.\"",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "j3",
+      "section": "janej",
+      "type": "mcq",
+      "tags": [
+        "läs.ord",
+        "läs.synonym"
+      ],
+      "prompt": "Text: \"Frivilliga bidrog till att festen blev av. Utan dem hade det inte gått.\"\nStämmer det? \"Festen hade blivit av utan de frivilliga.\"",
+      "given": "Nej",
+      "expected": "Nej",
+      "correct": true
+    },
+    {
+      "id": "g1",
+      "section": "skriv",
+      "type": "gap",
+      "tags": [
+        "läs.ord"
+      ],
+      "prompt": "Arbetsgivaren ___ att man har ett giltigt körkort.",
+      "given": "kräver",
+      "expected": "kräver",
+      "correct": true
+    },
+    {
+      "id": "g2",
+      "section": "skriv",
+      "type": "gap",
+      "tags": [
+        "läs.ord"
+      ],
+      "prompt": "Hon ___ i tävlingen i fjol och kom på tredje plats.",
+      "given": "deltog",
+      "expected": "deltog",
+      "correct": true
+    },
+    {
+      "id": "g3",
+      "section": "skriv",
+      "type": "gap",
+      "tags": [
+        "läs.ord"
+      ],
+      "prompt": "___ äter jag lunch klockan tolv, men idag blev det senare.",
+      "given": "Oftast",
+      "expected": "vanligtvis",
+      "correct": true
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-26T21:23:25"
+}

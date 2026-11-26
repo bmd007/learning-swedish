@@ -1,0 +1,106 @@
+{
+  "lessonId": "033-modellsvar-amne-bo",
+  "attemptId": "2026-11-23T00-02-46-342Z",
+  "final": true,
+  "mode": "practice",
+  "startedAt": "2026-11-23T00:02:47.598Z",
+  "finishedAt": "2026-11-26T20:36:53.055Z",
+  "durationMin": 5554,
+  "currentSection": null,
+  "sectionMinutes": {
+    "lyssna": 3.1,
+    "nu-du": 4
+  },
+  "audioPlays": {
+    "bo2": 1,
+    "bo1": 1,
+    "bo-s-a": 2
+  },
+  "firstTry": {
+    "bo-q3": true,
+    "bo-q4": false,
+    "bo-q2": true,
+    "bo-q1": true
+  },
+  "flags": [],
+  "score": {
+    "lyssna": {
+      "correct": 4,
+      "total": 4
+    }
+  },
+  "items": [
+    {
+      "id": "bo-q1",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "tal.argumentera",
+        "hör.detalj"
+      ],
+      "prompt": "Vilket skäl ger Leila för att bo i stan?",
+      "given": "Det är nära till allt, så hon behöver ingen bil",
+      "expected": "Det är nära till allt, så hon behöver ingen bil",
+      "correct": true
+    },
+    {
+      "id": "bo-q2",
+      "section": "lyssna",
+      "type": "gap",
+      "tags": [
+        "ordföljd.inversion",
+        "tal.argumentera"
+      ],
+      "prompt": "Det är nära till allt. Därför ___ jag ingen bil.",
+      "given": "behöver",
+      "expected": "behöver",
+      "correct": true
+    },
+    {
+      "id": "bo-q3",
+      "section": "lyssna",
+      "type": "mcq",
+      "tags": [
+        "tal.berätta",
+        "hör.detalj"
+      ],
+      "prompt": "Vilket exempel från sitt eget liv ger Marek?",
+      "given": "Grannarna i Malmö spelade hög musik",
+      "expected": "Grannarna i Malmö spelade hög musik",
+      "correct": true
+    },
+    {
+      "id": "bo-q4",
+      "section": "lyssna",
+      "type": "gap",
+      "tags": [
+        "adjektiv.komparation",
+        "tal.berätta"
+      ],
+      "prompt": "Förut sov jag dåligt. Nu sover jag mycket ___.",
+      "given": "bättre",
+      "expected": "bättre",
+      "correct": true
+    },
+    {
+      "id": "bo-s",
+      "section": "nu-du",
+      "type": "speak",
+      "tags": [
+        "tal.argumentera",
+        "tal.interaktion",
+        "tal.fraser"
+      ],
+      "prompt": "Nu du: unga och storstäder",
+      "given": {
+        "recording": "033-modellsvar-amne-bo__bo-s__20261126-213653.webm",
+        "transcript": "Jag tycker att många måste  flytta till en stor städer eftersom man behöver jobb  och  det här  inte Det finns inte många  arbetar  små stadena  också tycker att  livet  är  med langt  langt  i staden eftersom  allt  finns när du  på  när du bor  så du i over  So do into behovet bil  your troll  at du også kan ha  mer  Venner i staden  station  mer människor bor i staden and  faen  Aniston",
+        "seconds": 141
+      },
+      "expected": null,
+      "correct": null
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-26T21:36:53"
+}
