@@ -1,0 +1,467 @@
+{
+  "lessonId": "058-horprov-swedex-2",
+  "attemptId": "2026-11-28T12-26-50-864Z",
+  "final": true,
+  "mode": "exam",
+  "startedAt": "2026-11-28T12:26:56.771Z",
+  "finishedAt": "2026-11-28T12:58:50.205Z",
+  "durationMin": 32,
+  "timeLimitMin": 35,
+  "overtime": false,
+  "currentSection": null,
+  "sectionMinutes": {
+    "del1": 7.1,
+    "del2": 5.2,
+    "del3": 3,
+    "del4": 10.5,
+    "del5": 6.1
+  },
+  "audioPlays": {
+    "m1": 2,
+    "m2": 2,
+    "m3": 2,
+    "m4": 2,
+    "m5": 2,
+    "m6": 2,
+    "a1": 2,
+    "a2": 2,
+    "a3": 2,
+    "a4": 2,
+    "a5": 2,
+    "a6": 2,
+    "d1": 2,
+    "r1": 2,
+    "r2": 2,
+    "r3": 2,
+    "r4": 2,
+    "i1": 2,
+    "i2": 2,
+    "i3": 2,
+    "i4": 2
+  },
+  "firstTry": {},
+  "flags": [
+    "q3",
+    "q4",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q18",
+    "q24",
+    "q27",
+    "q28",
+    "q30",
+    "q25"
+  ],
+  "score": {
+    "del1": {
+      "correct": 3,
+      "total": 6
+    },
+    "del2": {
+      "correct": 2,
+      "total": 6
+    },
+    "del3": {
+      "correct": 4,
+      "total": 6
+    },
+    "del4": {
+      "correct": 4,
+      "total": 4
+    },
+    "del5": {
+      "correct": 7,
+      "total": 8
+    }
+  },
+  "items": [
+    {
+      "id": "q1",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad vill Anna göra?",
+      "given": "Flytta sin tid",
+      "expected": "Flytta sin tid",
+      "correct": true
+    },
+    {
+      "id": "q2",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.tid"
+      ],
+      "prompt": "När är doktor Persson tillbaka?",
+      "given": "På måndag",
+      "expected": "På torsdag",
+      "correct": false
+    },
+    {
+      "id": "q3",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad vill Lisa att Anders tar med?",
+      "given": "Blommor",
+      "expected": "Kaffe",
+      "correct": false
+    },
+    {
+      "id": "q4",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Vad har Peter glömt?",
+      "given": "Jackan",
+      "expected": "Plånboken",
+      "correct": false
+    },
+    {
+      "id": "q5",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Hur ska Jonas och Sofia åka till stugan?",
+      "given": "Med tåg",
+      "expected": "Med tåg",
+      "correct": true
+    },
+    {
+      "id": "q6",
+      "section": "del1",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Varför ringer Mats?",
+      "given": "Han har ett paket till henne",
+      "expected": "Han har ett paket till henne",
+      "correct": true
+    },
+    {
+      "id": "q7",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+      ],
+      "prompt": "Hur dags stänger kaféet på söndagar?",
+      "given": "4",
+      "expected": "fyra",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q8",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.siffror",
+        "hör.kortsvar"
+      ],
+      "prompt": "Hur mycket kostar jackorna på rean?",
+      "given": "700",
+      "expected": "400",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q9",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+      ],
+      "prompt": "Hur dags ska Gunnar och Elin träffas?",
+      "given": "6:45",
+      "expected": "kvart i sju",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q10",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+      ],
+      "prompt": "Vilken dag kommer snön i norra Sverige?",
+      "given": "onsdag",
+      "expected": "torsdag",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q11",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "hör.kortsvar"
+      ],
+      "prompt": "Var är konserten om vädret är dåligt?",
+      "given": "vadret",
+      "expected": "kulturhuset",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q12",
+      "section": "del2",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "hör.kortsvar"
+      ],
+      "prompt": "Varför är badhuset stängt?",
+      "given": "fell på en ventalaionen",
+      "expected": "ventilation",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q13",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "hör.kortsvar"
+      ],
+      "prompt": "Vart är Maja på väg och varför?",
+      "given": "centralen vestros and åker tåg till uppsala",
+      "expected": "uppsala",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q14",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.tid",
+        "hör.kortsvar"
+      ],
+      "prompt": "Vilken tid är visningen?",
+      "given": "klocken 5",
+      "expected": "sex",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q15",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.siffror",
+        "hör.kortsvar"
+      ],
+      "prompt": "Hur mycket kostar hyran i månaden?",
+      "given": "8500",
+      "expected": "8500",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q16",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.siffror",
+        "hör.kortsvar"
+      ],
+      "prompt": "Hur mycket fick Maja för soffan?",
+      "given": "400",
+      "expected": "400",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q17",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "hör.kortsvar"
+      ],
+      "prompt": "Hur ska hon flytta sina saker?",
+      "given": "låna bill",
+      "expected": "skåpbil",
+      "correct": true,
+      "teacherCheck": true
+    },
+    {
+      "id": "q18",
+      "section": "del3",
+      "type": "short",
+      "tags": [
+        "hör.detalj",
+        "hör.kortsvar"
+      ],
+      "prompt": "Vad behöver Maja köpa?",
+      "given": "tape",
+      "expected": "tejp",
+      "correct": false,
+      "teacherCheck": true
+    },
+    {
+      "id": "q19",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "hör.matcha"
+      ],
+      "prompt": "Vilken rubrik passar inslag 1?",
+      "given": "D. Första maratonloppet blev en seger för svensk löpare",
+      "expected": "D. Första maratonloppet blev en seger för svensk löpare",
+      "correct": true
+    },
+    {
+      "id": "q20",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "hör.matcha"
+      ],
+      "prompt": "Vilken rubrik passar inslag 2?",
+      "given": "B. Kommunen väntar med att ändra lunchen",
+      "expected": "B. Kommunen väntar med att ändra lunchen",
+      "correct": true
+    },
+    {
+      "id": "q21",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "hör.matcha"
+      ],
+      "prompt": "Vilken rubrik passar inslag 3?",
+      "given": "A. Mejlhot mot skolor – hundratals stängde",
+      "expected": "A. Mejlhot mot skolor – hundratals stängde",
+      "correct": true
+    },
+    {
+      "id": "q22",
+      "section": "del4",
+      "type": "select",
+      "tags": [
+        "hör.matcha"
+      ],
+      "prompt": "Vilken rubrik passar inslag 4?",
+      "given": "F. Tjejer samlades på läger för parahandboll",
+      "expected": "F. Tjejer samlades på läger för parahandboll",
+      "correct": true
+    },
+    {
+      "id": "q23",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Karin går ut en stund varje dag, också när det är kallt.",
+      "given": "Rätt",
+      "expected": "Rätt",
+      "correct": true
+    },
+    {
+      "id": "q24",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Karin använder en ljuslampa och tycker att den hjälper henne.",
+      "given": "Fel",
+      "expected": "Fel",
+      "correct": true
+    },
+    {
+      "id": "q25",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Martin ska åka till fjällen i januari.",
+      "given": "Fel",
+      "expected": "Fel",
+      "correct": true
+    },
+    {
+      "id": "q26",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Martin tränar på gym tre gånger i veckan.",
+      "given": "Rätt",
+      "expected": "Rätt",
+      "correct": true
+    },
+    {
+      "id": "q27",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Johanna tar D-vitamin efter att hon pratat med sin läkare.",
+      "given": "Rätt",
+      "expected": "Rätt",
+      "correct": true
+    },
+    {
+      "id": "q28",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Johanna åker pulka med barnen varje dag.",
+      "given": "Fel",
+      "expected": "Fel",
+      "correct": true
+    },
+    {
+      "id": "q29",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Mikael hoppar i sjön efter bastun.",
+      "given": "Rätt",
+      "expected": "Rätt",
+      "correct": true
+    },
+    {
+      "id": "q30",
+      "section": "del5",
+      "type": "mcq",
+      "tags": [
+        "hör.detalj"
+      ],
+      "prompt": "Mikael cyklar till jobbet hela vintern.",
+      "given": "Rätt",
+      "expected": "Fel",
+      "correct": false
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "savedAt": "2026-11-28T13:58:50"
+}

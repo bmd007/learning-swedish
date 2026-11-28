@@ -442,3 +442,12 @@
   072-officiellt-horprov (Del 1, 2, 4 = 16 items; Del 3 and 5 left out, known from 028). Real audio cut with clip; play once.
   Images cropped from the PDFs into materials/swedex-a2b1/img/ (private). Script: materials/scripts/build_officiell.py. Not committed (copyright).
 - **Next step:** dress rehearsal on these three before 2026-12-04.
+
+## 2026-11-28 – Graded 058 (Swedex listening mock 2): 21/30, A2 (B1 = 22)
+
+- Del 1 3/6, Del 2 3/6, Del 3 4/6, Del 4 (real Klartext) 4/4, Del 5 7/8. Accepted q12 ventalaionen; q18 *tape* not accepted.
+- Learner: "couldn't even hear the key words, accent angle gone too far". Whisper hears every key word, but 058 deviated
+  from the official sample: noise on 11/17 TTS clips (plan: ~1/3), strong regional NST casts (Norrland, Dalarna, Skåne),
+  6–7 correction traps (official: few). 025 (clean edge voices) was 24/30. → 058 is not a fair level check.
+- 059 (untaken): lesson-author re-voicing it to mostly standard voices, noise on ~7/21 clips, none on number answers.
+- **Next step:** 059 after the re-voice; 036 oral mock; official 070–072 dress rehearsal 1–2 Dec.
