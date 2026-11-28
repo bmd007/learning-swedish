@@ -229,3 +229,10 @@ Newest first. Write down anything that changes the plan, a preference, or a fact
 - Source order for exam shape: (1) official A2B1 sample pages + audio, (2) friend's test-day report, (3) the
   format PDF text, (4) old B1 test 028 / general research. Lessons built before the 2026-11-27 audit (e.g. 016,
   021, 026, early speaking) followed (3)/(4); the untaken ones were converted, the taken ones stay as history.
+
+## 2026-11-28 – Mock listening: standard voices, noise ≤ 1/3
+- After 058 (21/30) the learner felt key words were inaudible ("accent angle gone too far"). 058 had noise on 11/17 clips,
+  strong regional casts and 6–7 correction traps; official sample = clean standard voices, few corrections.
+- → Exam mocks: ≥ 80% standard voices (Stockholm/Mellansverige/Östergötland/NOK), max 2–3 mild regional, none on
+  number answers; noise on ≤ 1/3 of clips, never on number answers; correction traps ≤ 2–3 per test.
+  Regional accents belong in practice lessons (like 027), not in level checks.
